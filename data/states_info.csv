@@ -1,0 +1,52 @@
+state,dataSite,covid19Site,twitter,pui,pum,comments
+AK,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/monitoring.aspx,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,@Alaska_DHSS,All data,False,"Reports positive, pending, and total"
+AL,,http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html,@alpublichealth,No data,False,
+AR,,https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,@adhpio,All data,True,
+AZ,,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/index.php#novel-coronavirus-home,@azdhs,All data,False,
+CA,,https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx,@CAPublicHealth,Only positives,False,Went to only positive on 3/5
+CO,https://docs.google.com/document/d/e/2PACX-1vRSxDeeJEaDxir0cCd9Sfji8ZPKzNaCPZnvRCbG63Oa1ztz4B4r7xG_wsoC9ucd_ei3--Pz7UD50yQD/pub,https://www.colorado.gov/pacific/cdphe/2019-novel-coronavirus,@cdphe,Positives + Negatives,False,"Went to only positive briefly 3/7, then returned negative but not pending tests later that night"
+CT,,https://portal.ct.gov/Coronavirus,@ctdph,All data,False,Changed their site 3/7; started reporting data 3/8
+DC,https://coronavirus.dc.gov/page/coronavirus-surveillance-data,https://coronavirus.dc.gov/,@_DCHealth,All data,False,
+DE,,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,@Delaware_DHSS,All data,True,
+FL,,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,@HealthyFla,All data,True,
+GA,,https://dph.georgia.gov/novelcoronavirus,@GaDPH,Only positives,False,Data in (very poorly worded) text
+HI,,https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/,@HIgov_Health,Only positives,False,Data in text
+IA,,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,@IAPublicHealth,All data,False,
+ID,,https://coronavirus.idaho.gov/,@IDHW,All data,True,
+IL,,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,@IDPH,All data,False,
+IN,,https://www.in.gov/isdh/28470.htm,@statehealthin,Only positives,False,
+KS,,http://www.kdheks.gov/coronavirus/,@kdhe,All data,False,Data in linked PDF
+KY,,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,@CHFSKy,All data,False,
+LA,,http://ldh.la.gov/index.cfm/page/3835,@LADeptHealth,Only positives,False,Data in text
+MA,https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,@massdph,Only positives,True,Reports quarantine #s; numbers in PDF starting 3/9!
+MD,,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,@MDHealthDept,All data,False,Stopped reporting pending on 3/7
+ME,,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,@mainedhhs,Only positives,False,Data in text
+MI,,https://www.michigan.gov/coronavirus,@MichiganHHS,All data,True,
+MN,https://www.health.state.mn.us/diseases/coronavirus/situation.html,https://www.health.state.mn.us/diseases/coronavirus/index.html,@mnhealth,All data,False,
+MO,,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,@HealthyLivingMo,Only positives,False,Data in text
+MS,,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",@msdh,Only positives,False,Data in text
+MT,,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt,@dphhsmt,All data,True,
+NC,https://www.ncdhhs.gov/covid-19-case-count-north-carolina,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,@ncdhhs,Only positives,False,Tabular data as of 3/6
+ND,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,https://www.health.nd.gov/diseases-conditions/coronavirus,@NDDOH,All data,True,
+NE,,http://dhhs.ne.gov/Pages/Coronavirus.aspx,@NEDHHS,All data,False,
+NH,,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,@NHPubHealth,All data,False,
+NJ,https://www.nj.gov/health/,https://www.nj.gov/health/cd/topics/ncov.shtml,@NJDeptofHealth,All data,False,Added data 3/7
+NM,,https://cv.nmhealth.org/,@NMDOH,All data,False,
+NV,,http://dpbh.nv.gov/coronavirus/,@dhhsnevada,All data,False,
+NY,,https://www.health.ny.gov/diseases/communicable/coronavirus/,@healthnygov,Only positives,False,Went to only positive on 3/7
+OH,,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,@OHdeptofhealth,All data,False,
+OK,,https://www.ok.gov/health/Prevention_and_Preparedness/Acute_Disease_Service/Disease_Information/Coronavirus_Disease_2019/Oklahoma_Response_to_Coronavirus_Disease_2019/index.html,@HealthyOklahoma,All data,False,Changed their site 3/7
+OR,,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,@OHAOregon,All data,True,
+PA,,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,@PAHealthDept,Only positives,False,Data in text
+RI,https://health.ri.gov/data/covid-19/,https://health.ri.gov/diseases/respiratory/?parm=163,@rihealth,All data,False,Added data page 3/9
+SC,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,@scdhec,All data,True,
+SD,,https://doh.sd.gov/news/Coronavirus.aspx,@SDDOH,All data,False,
+TN,,https://www.tn.gov/health/cedep/ncov.html,@TNDeptofHealth,Only positives,False,Data in text and linked PDF
+TX,,https://dshs.texas.gov/coronavirus/,@TexasDSHS,Only positives,False,
+UT,https://coronavirus.utah.gov/latest/,https://health.utah.gov/coronavirus,@utahdepofhealth,Only positives,False,Data inline on site
+VA,,http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/,@vdhgov,Positives + Negatives,True,
+VT,,https://www.healthvermont.gov/response/infectious-disease/2019-novel-coronavirus,@healthvermont,Positives + Negatives,True,
+WA,,https://www.doh.wa.gov/Emergencies/Coronavirus,@WADeptHealth,Positives + Negatives,True,"Reports deaths; see ""Counties"" tab!"
+WI,https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.dhs.wisconsin.gov/disease/covid-19.htm,@DHSWI,All data,False,
+WV,,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,@WV_DHHR,All data,False,Data in text
+WY,,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,@health_wyoming,No data,False,
