@@ -1,0 +1,52 @@
+state,positive,negative,pending,total,comments,lastUpdateEt,checkTimeEt
+AK,0,23.0,9.0,32,,3/09 16:30,3/10 13:26
+AL,0,0.0,0.0,0,,3/09 00:00,3/10 10:54
+AR,0,12.0,3.0,15,,3/09 00:00,3/10 10:56
+AZ,6,51.0,27.0,84,,3/10 12:00,3/10 15:46
+CA,133,690.0,,823,Negative from CDPH report of 778 tests on 3/7 ,3/09 10:00,3/10 10:56
+CO,12,142.0,1.0,155,Dividing number of tests by 2 to estimate people,3/09 10:35,3/10 10:57
+CT,2,54.0,,56,No pending results reported,3/10 15:00,3/10 15:09
+DC,5,17.0,2.0,24,"the positives include one from an ""other lab""",3/09 21:45,3/10 11:10
+DE,0,17.0,3.0,20,,3/10 16:00,3/10 16:00
+FL,19,222.0,155.0,396,,3/10 07:46,3/10 11:12
+GA,17,,,17,only positives reported,3/09 00:00,3/10 11:12
+HI,2,,,2,only positives reported,3/10 00:00,3/10 15:36
+IA,8,32.0,11.0,51,,3/09 00:00,3/10 11:12
+ID,0,41.0,,41,includes 3 Oregon residents,3/09 00:00,3/10 11:14
+IL,19,244.0,63.0,326,,3/10 00:00,3/10 14:44
+IN,6,30.0,,36,,3/09 00:00,3/10 11:19
+KS,1,17.0,21.0,39,,3/09 00:00,3/10 11:21
+KY,6,28.0,,34,,3/09 18:45,3/10 11:25
+LA,1,11.0,,12,Negative from Health Dept FB post,,3/10 11:27
+MA,92,,,92,only positives reported,3/10 15:00,3/10 15:30
+MD,6,89.0,,95,"not reporting pending tests, results are rolling",3/10 11:30,3/10 11:31
+ME,0,20.0,5.0,25,,3/10 13:00,3/10 14:43
+MI,0,39.0,24.0,63,,3/09 19:00,3/10 11:48
+MN,3,132.0,,135,Negative inferred from total test number,3/10 15:30,3/10 15:47
+MO,1,,,1,only positives reported,3/09 00:00,3/10 11:53
+MS,0,,,0,only positives reported,3/09 00:00,3/10 11:53
+MT,0,15.0,,15,,3/09 19:00,3/10 11:54
+NC,7,,,7,"Only reporting positives, all are presumptive",3/09 00:00,3/10 12:21
+ND,0,6.0,2.0,8,,3/10 00:00,3/10 12:24
+NE,3,47.0,16.0,66,,3/10 00:00,3/10 12:25
+NH,4,38.0,5.0,47,,3/08 10:30,3/10 16:57
+NJ,15,44.0,20.0,79,death assumed subset of positive,3/10 13:30,3/10 13:48
+NM,0,69.0,,69,,3/09 19:00,3/10 12:39
+NV,0,14.0,,14,No new data since 3/3 ????,3/03 19:40,3/10 12:40
+NY,173,92.0,,265,only positives reported now; negative carried over,3/10 12:52,3/10 13:55
+OH,3,14.0,15.0,32,,3/10 14:00,3/10 14:06
+OK,2,15.0,11.0,28,,3/09 00:00,3/10 12:45
+OR,15,213.0,67.0,295,,3/10 15:30,3/10 15:51
+PA,12,,,12,only positives reported,3/10 15:30,3/10 15:49
+RI,3,53.0,6.0,62,,3/09 00:00,3/10 12:50
+SC,7,24.0,,31,no pending results reported,3/09 15:30,3/10 12:50
+SD,0,11.0,0.0,11,,3/09 18:00,3/10 12:51
+TN,7,,,7,only positives reported,3/10 15:30,3/10 15:45
+TX,13,,,13,only positives reported,3/10 11:00,3/10 12:53
+UT,2,,,2,only positives reported,3/10 12:00,3/10 12:55
+VA,8,53.0,,61,only positives reported now; negative carried over,3/10 00:00,3/10 15:50
+VT,1,40.0,,41,no pending results reported,3/10 13:00,3/10 13:18
+WA,162,1110.0,,1272,"162 is from site, negative from earlier reporting",3/09 19:45,3/10 13:18
+WI,2,36.0,,38,no pending results reported,3/09 18:30,3/10 13:19
+WV,0,2.0,3.0,5,,3/09 00:00,3/10 13:19
+WY,0,0.0,0.0,0,no data / no cases reported,3/10 00:00,3/10 13:23
