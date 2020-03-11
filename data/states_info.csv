@@ -17,7 +17,7 @@ IL,,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases
 IN,,https://www.in.gov/isdh/28470.htm,@statehealthin,Only positives,False,
 KS,,http://www.kdheks.gov/coronavirus/,@kdhe,All data,False,Data in linked PDF
 KY,,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,@CHFSKy,All data,False,
-LA,,http://ldh.la.gov/index.cfm/page/3835,@LADeptHealth,Only positives,False,Data in text
+LA,https://www.facebook.com/LaDeptHealth,http://ldh.la.gov/index.cfm/page/3835,@LADeptHealth,Only positives,False,Data in text; Louisiana Department of Health posting testing counts to Facebook (linked under 'Data Site')
 MA,https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,@massdph,Only positives,True,Reports quarantine #s; numbers in PDF starting 3/9!
 MD,,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,@MDHealthDept,All data,False,Stopped reporting pending on 3/7
 ME,,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,@mainedhhs,Only positives,False,Data in text
@@ -37,7 +37,7 @@ NY,,https://www.health.ny.gov/diseases/communicable/coronavirus/,@healthnygov,On
 OH,,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,@OHdeptofhealth,All data,False,
 OK,,https://www.ok.gov/health/Prevention_and_Preparedness/Acute_Disease_Service/Disease_Information/Coronavirus_Disease_2019/Oklahoma_Response_to_Coronavirus_Disease_2019/index.html,@HealthyOklahoma,All data,False,Changed their site 3/7
 OR,,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,@OHAOregon,All data,True,
-PA,,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,@PAHealthDept,Only positives,False,Data in text
+PA,,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,@PAHealthDept,Only positives,False,
 RI,https://health.ri.gov/data/covid-19/,https://health.ri.gov/diseases/respiratory/?parm=163,@rihealth,All data,False,Added data page 3/9
 SC,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,@scdhec,All data,True,
 SD,,https://doh.sd.gov/news/Coronavirus.aspx,@SDDOH,All data,False,
