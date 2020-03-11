@@ -17,7 +17,7 @@ parser.add_argument(
     default='',
     help='GitHub access token string for covid-tracking-data repo')
 
-REPO_NAME = 'julia326/covid-tracking-data'
+REPO_NAME = 'COVID19Tracking/covid-tracking-data'
 
 API_URLS = {
     'states_current': 'https://covid.cape.io/states',
