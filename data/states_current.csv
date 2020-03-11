@@ -1,52 +1,52 @@
-state,positive,negative,pending,total,comments,lastUpdateEt,checkTimeEt
-AK,0,23.0,9.0,32,,3/09 16:30,3/10 13:26
-AL,0,0.0,0.0,0,,3/09 00:00,3/10 10:54
-AR,0,12.0,3.0,15,,3/09 00:00,3/10 10:56
-AZ,6,51.0,27.0,84,,3/10 12:00,3/10 15:46
-CA,133,690.0,,823,Negative from CDPH report of 778 tests on 3/7 ,3/09 10:00,3/10 10:56
-CO,12,142.0,1.0,155,Dividing number of tests by 2 to estimate people,3/09 10:35,3/10 10:57
-CT,2,54.0,,56,No pending results reported,3/10 15:00,3/10 15:09
-DC,5,17.0,2.0,24,"the positives include one from an ""other lab""",3/09 21:45,3/10 11:10
-DE,0,17.0,3.0,20,,3/10 16:00,3/10 16:00
-FL,19,222.0,155.0,396,,3/10 07:46,3/10 11:12
-GA,17,,,17,only positives reported,3/09 00:00,3/10 11:12
-HI,2,,,2,only positives reported,3/10 00:00,3/10 15:36
-IA,8,32.0,11.0,51,,3/09 00:00,3/10 11:12
-ID,0,41.0,,41,includes 3 Oregon residents,3/09 00:00,3/10 11:14
-IL,19,244.0,63.0,326,,3/10 00:00,3/10 14:44
-IN,6,30.0,,36,,3/09 00:00,3/10 11:19
-KS,1,17.0,21.0,39,,3/09 00:00,3/10 11:21
-KY,6,28.0,,34,,3/09 18:45,3/10 11:25
-LA,1,11.0,,12,Negative from Health Dept FB post,,3/10 11:27
-MA,92,,,92,only positives reported,3/10 15:00,3/10 15:30
-MD,6,89.0,,95,"not reporting pending tests, results are rolling",3/10 11:30,3/10 11:31
-ME,0,20.0,5.0,25,,3/10 13:00,3/10 14:43
-MI,0,39.0,24.0,63,,3/09 19:00,3/10 11:48
-MN,3,132.0,,135,Negative inferred from total test number,3/10 15:30,3/10 15:47
-MO,1,,,1,only positives reported,3/09 00:00,3/10 11:53
-MS,0,,,0,only positives reported,3/09 00:00,3/10 11:53
-MT,0,15.0,,15,,3/09 19:00,3/10 11:54
-NC,7,,,7,"Only reporting positives, all are presumptive",3/09 00:00,3/10 12:21
-ND,0,6.0,2.0,8,,3/10 00:00,3/10 12:24
-NE,3,47.0,16.0,66,,3/10 00:00,3/10 12:25
-NH,4,38.0,5.0,47,,3/08 10:30,3/10 18:42
-NJ,15,44.0,20.0,79,death assumed subset of positive,3/10 13:30,3/10 13:48
-NM,0,69.0,,69,,3/09 19:00,3/10 12:39
-NV,0,14.0,,14,No new data since 3/3 ????,3/03 19:40,3/10 12:40
-NY,173,92.0,,265,only positives reported now; negative carried over,3/10 12:52,3/10 13:55
-OH,3,14.0,15.0,32,,3/10 14:00,3/10 14:06
-OK,2,15.0,11.0,28,,3/09 00:00,3/10 12:45
-OR,15,213.0,67.0,295,,3/10 15:30,3/10 15:51
-PA,12,,,12,only positives reported,3/10 15:30,3/10 15:49
-RI,3,53.0,6.0,62,,3/09 00:00,3/10 12:50
-SC,7,24.0,,31,no pending results reported,3/09 15:30,3/10 12:50
-SD,0,11.0,0.0,11,,3/09 18:00,3/10 12:51
-TN,7,,,7,only positives reported,3/10 15:30,3/10 15:45
-TX,13,,,13,only positives reported,3/10 11:00,3/10 12:53
-UT,2,,,2,only positives reported,3/10 12:00,3/10 12:55
-VA,8,53.0,,61,only positives reported now; negative carried over,3/10 00:00,3/10 15:50
-VT,1,40.0,,41,no pending results reported,3/10 13:00,3/10 13:18
-WA,162,1110.0,,1272,"162 is from site, negative from earlier reporting",3/09 19:45,3/10 13:18
-WI,2,36.0,,38,no pending results reported,3/09 18:30,3/10 13:19
-WV,0,2.0,3.0,5,,3/09 00:00,3/10 13:19
-WY,0,0.0,0.0,0,no data / no cases reported,3/10 00:00,3/10 13:23
+state,positive,negative,pending,death,total,comments,lastUpdateEt,checkTimeEt
+AK,0.0,46.0,14.0,,60,,3/11 16:00,3/11 16:04
+AL,0.0,10.0,,,10,"Some conflicting stats. ""Less than 10 persons needed to be tested based upon clinical and epidemiological information. 10 tests have been run...""",3/09 00:00,3/11 15:37
+AR,0.0,12.0,14.0,,26,,3/11 00:00,3/11 11:51
+AZ,9.0,59.0,32.0,,100,,3/11 11:00,3/11 15:28
+CA,157.0,916.0,,,1073,"Positive updated; neg # from CDPH, 3/7",3/10 10:00,3/11 15:50
+CO,28.0,251.0,,,279,no pending ,3/11 13:00,3/11 15:50
+CT,3.0,71.0,,,74,no pending ,3/11 15:00,3/11 15:50
+DC,4.0,20.0,15.0,,39,,3/10 17:30,3/11 12:00
+DE,1.0,21.0,9.0,,31,,3/11 16:30,3/11 16:34
+FL,26.0,301.0,147.0,2.0,476,,3/11 11:26,3/11 16:04
+GA,22.0,,,,22,Only positives,3/11 00:00,3/11 12:04
+HI,2.0,,,,2,Only positives,3/08 00:00,3/11 12:08
+IA,13.0,46.0,27.0,,86,,3/10 00:00,3/11 12:31
+ID,0.0,67.0,,,67,No pending numbers,3/11 00:00,3/11 12:33
+IL,25.0,266.0,76.0,,367,,3/11 00:00,3/11 16:43
+IN,10.0,33.0,,,43,Negatives deduced from total tested,3/10 11:59,3/11 15:44
+KS,1.0,41.0,,,42,No longer reporting pending (PUI),3/11 11:00,3/11 15:24
+KY,8.0,46.0,,,54,No pending numbers reported.,3/10 17:05,3/11 12:41
+LA,6.0,37.0,,,43,Only positives,3/10 23:00,3/11 12:42
+MA,92.0,,,,92,Only positives,3/10 16:00,3/11 12:43
+MD,9.0,94.0,,,103,"No pending, but positives include commercial lab results.",3/11 00:00,3/11 12:46
+ME,0.0,42.0,5.0,,47,,3/11 12:00,3/11 12:48
+MI,2.0,57.0,18.0,,77,,3/10 00:00,3/11 12:48
+MN,5.0,217.0,,,222,"Negatives deduced from total, no pending results provided.",3/11 00:00,3/11 15:21
+MO,1.0,,,,1,Only positives reported,3/11 00:00,3/11 12:50
+MS,0.0,20.0,,,20,"Negative deduced from total, no pending results provided.",3/10 00:00,3/11 12:50
+MT,0.0,21.0,,,21,No pending results reported,3/10 19:00,3/11 15:19
+NC,7.0,,,,7,Only positives reported,3/11 00:00,3/11 12:53
+ND,,7.0,6.0,,13,,3/11 13:00,3/11 15:43
+NE,5.0,47.0,16.0,,68,,3/10 00:00,3/11 12:54
+NH,4.0,38.0,5.0,,47,,3/08 10:30,3/11 19:25
+NJ,23.0,57.0,20.0,1.0,100,,3/11 12:00,3/11 15:26
+NM,3.0,87.0,,,90,No pending results reported,3/11 00:00,3/11 13:02
+NV,5.0,168.0,,,173,No pending results reported,3/10 16:00,3/11 13:04
+NY,216.0,,,,216,"As per tweet, only positives reported",3/11 15:53,3/11 15:57
+OH,4.0,21.0,24.0,,49,,3/11 14:00,3/11 15:20
+OK,2.0,15.0,11.0,,28,,3/10 00:00,3/11 13:12
+OR,19.0,286.0,62.0,,367,,3/11 13:00,3/11 16:07
+PA,15.0,88.0,54.0,,157,,3/11 12:30,3/11 13:14
+RI,5.0,94.0,8.0,,107,,3/11 16:36,3/11 16:36
+SC,9.0,32.0,,,41,No pending results reported,3/10 17:10,3/11 12:37
+SD,5.0,13.0,2.0,,20,,3/10 00:00,3/11 01:20
+TN,7.0,50.0,,,57,No pending results reported,3/11 00:00,3/11 01:20
+TX,21.0,,,,21,only positives reported,3/10 11:00,3/11 10:42
+UT,2.0,,,,2,Only positives reported,3/11 00:00,3/11 01:20
+VA,9.0,60.0,,,69,Positives + Negatives,3/10 00:00,3/11 01:20
+VT,1.0,62.0,,,63,Positives + Negatives,3/11 13:00,3/11 01:20
+WA,267.0,2175.0,,24.0,2466,Positives + Negatives,3/10 19:10,3/11 15:38
+WI,3.0,43.0,,,46,Add Positive and Positive: Recovered,3/10 15:00,3/11 13:26
+WV,0.0,6.0,5.0,,11,,3/11 00:00,3/11 16:41
+WY,0.0,,,,0,No data; no reported cases,3/11 00:00,3/11 12:49
