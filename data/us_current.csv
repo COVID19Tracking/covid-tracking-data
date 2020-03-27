@@ -1,2 +1,2 @@
 positive,negative,posNeg,hospitalized,death,total,notes,totalTestResults
-82234,458018,540252,10459,1197,540252,"Please stop using the ""total"" and ""posNeg"" fields. Use ""totalTestResults"" instead.",540252
+82286,458432,540718,10465,1199,540718,"Please stop using the ""total"" and ""posNeg"" fields. Use ""totalTestResults"" instead.",540718
