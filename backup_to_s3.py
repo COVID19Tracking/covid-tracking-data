@@ -50,19 +50,22 @@ parser.add_argument('--phantomjscloud-key', default='',
 
 class S3Backup():
 
-    def __init__(self, bucket_name: str):
+    def __init__(self, bucket_name):
         self.s3 = boto3.resource('s3')
         self.bucket_name = bucket_name
         self.bucket = self.s3.Bucket(self.bucket_name)
 
     # for now just uploads image (PNG) file with specified name
-    def upload_file(self, local_path: str, s3_path: str):
+    def upload_file(self, local_path, s3_path):
         self.s3.meta.client.upload_file(
             local_path, self.bucket_name, s3_path,
             ExtraArgs={'ContentType': 'image/png'})
 
-    def delete_most_recent_snapshot(self, state: str):
-        state_file_keys = [file.key for file in self.bucket.objects.all() if state in file.key]
+    # delete most recent snapshot with filename containing <state>-<suffix> or <state> if no suffix
+    def delete_most_recent_snapshot(self, state, suffix=''):
+        state_with_modifier = state if len(suffix) == 0 else '%s-%s' % (state, suffix)
+        state_file_keys = [
+            file.key for file in self.bucket.objects.all() if state_with_modifier in file.key]
         most_recent_state_key = sorted(state_file_keys, reverse=True)[0]
         self.s3.Object(self.bucket_name, most_recent_state_key).delete()
 
@@ -76,6 +79,19 @@ class Screenshotter():
 
     # makes a PhantomJSCloud call to data_url and saves the .png output to specified path
     def save_url_image_to_path(self, state, data_url, path):
+        """Saves URL image from data_url to the specified path.
+
+        Parameters
+        ----------
+        state : str
+            Two-letter abbreviation of the state or territory. Used for special-casing sizes, etc.
+
+        data_url : str
+            URL of data site to save
+
+        path : str
+            Local path to which to save .png screenshot of data_url
+        """
         logger.info(f"Retrieving {data_url}")
 
         data = {
@@ -84,7 +100,7 @@ class Screenshotter():
         }
 
         # PhantomJScloud gets the page length wrong for some states, need to set those manually
-        if state in ['ID', 'PA', 'IN']:
+        if state in ['ID', 'PA', 'IN', 'CA']:
             logger.info(f"using larger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
         elif state in ['NE']:
@@ -100,33 +116,60 @@ class Screenshotter():
             with open(path, 'wb') as f:
                 f.write(response.content)
         else:
-            logger.error(f'Failed to retrieve URL: {data_url}')
+            logger.error(f'Response status code: {response.status_code}')
+            logger.error(f'Failed to retrieve URL but will write content anyway: {data_url}')
+            with open(path, 'wb') as f:
+                f.write(response.content)
             raise
 
     @staticmethod
-    def timestamped_filename(state):
+    def timestamped_filename(state, suffix=''):
+        state_with_modifier = state if len(suffix) == 0 else '%s-%s' % (state, suffix)
         timestamp = datetime.now(timezone('US/Eastern')).strftime("%Y%m%d-%H%M%S")
-        return "%s-%s.png" % (state, timestamp)
+        return "%s-%s.png" % (state_with_modifier, timestamp)
 
     @staticmethod
-    def get_s3_path(state):
-        filename = Screenshotter.timestamped_filename(state)
+    def get_s3_path(state, suffix=''):
+        filename = Screenshotter.timestamped_filename(state, suffix)
         return os.path.join('state_screenshots', state, filename)
 
-    def get_local_path(self, state):
-        filename = Screenshotter.timestamped_filename(state)
+    def get_local_path(self, state, suffix=''):
+        # basename will be e.g. 'CA' if no suffix, or 'CA-secondary' if suffix is 'secondary'
+        filename = Screenshotter.timestamped_filename(state, suffix)
         return os.path.join(self.local_dir, filename)
 
-    def screenshot(self, state, data_url,
+    def screenshot(self, state, data_url, suffix='',
             backup_to_s3=False, replace_most_recent_snapshot=False):
-        logger.info(f"Screenshotting {state} from {data_url}")
-        local_path = self.get_local_path(state)
+        """Screenshots state data site.
+
+        Parameters
+        ----------
+        state : str
+            Two-letter abbreviation of the state or territory
+
+        data_url : str
+            URL containing data site to screenshot
+
+        suffix : str
+            If present, will be used in the resulting local and S3 filename (STATE_suffix)
+
+        backup_to_s3 : bool
+            If true, will push to S3. If false, backup will be only local
+
+        replace_most_recent_snapshot : bool
+            If true, will delete the most recent S3 snapshot corresponding to this state
+            (and suffix) before pushing the one taken during this run. Largely used to manually
+            replace faulty state screenshots as we learn about them.
+        """
+
+        logger.info(f"Screenshotting {state} {suffix} from {data_url}")
+        local_path = self.get_local_path(state, suffix)
         self.save_url_image_to_path(state, data_url, local_path)
         if backup_to_s3:
-            s3_path = self.get_s3_path(state)
+            s3_path = self.get_s3_path(state, suffix)
             if replace_most_recent_snapshot:
                 logger.info(f"    3a. first delete the most recent snapshot")
-                self.s3_backup.delete_most_recent_snapshot(state)
+                self.s3_backup.delete_most_recent_snapshot(state, suffix)
             logger.info(f"    4. push to s3 at {s3_path}")
             self.s3_backup.upload_file(local_path, s3_path)
 
@@ -143,7 +186,7 @@ def main(args_list=None):
     # get states info from API
     url = 'https://covidtracking.com/api/states/info.csv'
     content = requests.get(url).content
-    state_info_df = pd.read_csv(io.StringIO(content.decode('utf-8'))).fillna(0)
+    state_info_df = pd.read_csv(io.StringIO(content.decode('utf-8')))
     
     failed_states = []
 
@@ -160,28 +203,26 @@ def main(args_list=None):
 
     # screenshot state images
     if args.states:
-        states = args.states.split(',')
-        for state in states:
-            data_url = state_info_df.loc[state_info_df.state == state].head(1).covid19Site.values[0]
-            try:
-                screenshotter.screenshot(
-                    state, data_url,
-                    backup_to_s3=args.push_to_s3,
-                    replace_most_recent_snapshot=args.replace_most_recent_snapshot)
-            except:
-                failed_states.append(state)
+        logger.info(f'Snapshotting states {args.states}')
+        states_list = args.states.split(',')
+        state_info_df = state_info_df[state_info_df.state.isin(states_list)]
 
-    else:
-        for idx, r in state_info_df.iterrows():
-            state = r["state"]
-            data_url = r["covid19Site"]
-            try:
+    for idx, r in state_info_df.iterrows():
+        state = r["state"]
+        data_url = r["covid19Site"]
+        secondary_data_url = r["covid19SiteSecondary"]
+        try:
+            screenshotter.screenshot(
+                state, data_url,
+                backup_to_s3=args.push_to_s3,
+                replace_most_recent_snapshot=args.replace_most_recent_snapshot)
+            if not pd.isnull(secondary_data_url):
                 screenshotter.screenshot(
-                    state, data_url,
+                    state, secondary_data_url, suffix='secondary',
                     backup_to_s3=args.push_to_s3,
                     replace_most_recent_snapshot=args.replace_most_recent_snapshot)
-            except:
-                failed_states.append(state)
+        except:
+            failed_states.append(state)
 
     if failed_states:
         logger.error(f"Failed states for this run: {','.join(failed_states)}")
