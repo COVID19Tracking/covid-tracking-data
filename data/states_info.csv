@@ -8,7 +8,8 @@ Positives occasionally update before totals do; do not revise negatives down, ke
 Last Updated (Local Time) = (current date + time = 00:00)",01,Alabama
 AR,https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/f533ac8a8b6040e5896b05b47b17a647,@adhpio,All data,true,"Data is displayed across two web pages. timestamp provided by primary page, not dashboard. There are two different timestamps on the site: use the later one
 [Dashboard](https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/f533ac8a8b6040e5896b05b47b17a647)",05,Arkansas
-AS,http://www.samoagovt.ws/2020/03/ministry-of-health-coronavirus-covid-19-update-14-march-2020/,https://www.americansamoa.gov/covid-19-advisories,https://www.facebook.com/amsamgov/,https://www.facebook.com/amsamgov/,No Data,false,American Samoa has limited official data available via press releases.,60,American Samoa
+AS,http://www.samoagovt.ws/2020/03/ministry-of-health-coronavirus-covid-19-update-14-march-2020/,https://www.americansamoa.gov/covid-19-advisories,https://www.facebook.com/amsamgov/,https://www.facebook.com/amsamgov/,No Data,false,"American Samoa has limited official data available via press releases. 
+[3/30 Update](http://www.samoagovt.ws/2020/03/ministry-of-health-coronavirus-covid-19-update-30-03-2020/)",60,American Samoa
 AZ,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/index.php#novel-coronavirus-home,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/index.php#novel-coronavirus-home,,@azdhs,All data,false,"Dashboard now has a new tab that details total tested. 
 Negative = Total - Positive
 Hospital and ICU data [from Maricopa County only](https://www.maricopa.gov/5460/Coronavirus-Disease-2019)",04,Arizona
@@ -19,7 +20,7 @@ CT,https://portal.ct.gov/Coronavirus,https://portal.ct.gov/Coronavirus,,@ctdph,A
 Negative = Total - Positive.  
 Positives occasionally update before totals do; we do not revise negatives down, keep the last calculated negative.",09,Connecticut
 DC,https://coronavirus.dc.gov/,https://coronavirus.dc.gov/page/coronavirus-surveillance-data,,@_DCHealth,All data,false,Positive and Negative include both public and commercial labs.,11,District Of Columbia
-DE,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,,@Delaware_DHSS,All data,true,Last reported negative number is from [3/13 News Report](https://www.delawareonline.com/story/news/local/2020/03/28/delaware-announces-third-covid-19-death-exceeds-200-confirmed-cases/2932377001/).,10,Delaware
+DE,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,,@Delaware_DHSS,All data,true,,10,Delaware
 FL,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,,@HealthyFla,All data,true,"We report all positive and negative tests from FL (residents + non-residents) 
 On 3/26 their dashboard stopped including non-residents in its visible counts, but they still track them behind the scenes.  
 On 3/21 negatives jumped due to change in methodology: they began including tests of people not investigated as PUIs.",12,Florida
@@ -63,7 +64,7 @@ OR,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-re
 PA,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,,@PAHealthDept,Only positives,false,County level data doesn't add up to the totals provided. We are not adding deaths back into positives.,42,Pennsylvania
 PR,http://www.salud.gov.pr/Pages/coronavirus.aspx,https://estadisticas.pr/en/covid-19,http://www.salud.gov.pr/Pages/coronavirus.aspx,@DeptSaludPR,No Data,false,"Puerto Rico reports positive, negative, and pending.
 One positive was reclassified as a negative on 3/30",72,Puerto Rico
-RI,https://health.ri.gov/diseases/respiratory/?parm=163,https://health.ri.gov/data/covid-19/,,@rihealth,All data,false,"Positive count, deaths, and hospitalized from 3/29 [press conference](https://www.facebook.com/GinaMRaimondo/videos/214205249800791/)",44,Rhode Island
+RI,https://health.ri.gov/diseases/respiratory/?parm=163,https://health.ri.gov/data/covid-19/,,@rihealth,All data,false,,44,Rhode Island
 SC,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19,,@scdhec,All data,true,Negatives only from state public health labs. Hospitalization data carried over from weekly 3/25 presentation.,45,South Carolina
 SD,https://doh.sd.gov/news/Coronavirus.aspx,https://doh.sd.gov/news/Coronavirus.aspx,,@SDDOH,All data,false,,46,South Dakota
 TN,https://www.tn.gov/health/cedep/ncov.html,https://www.tn.gov/health/cedep/ncov.html,,@TNDeptofHealth,Only positives,false,Tennessee now provides positive and negative test results from all laboratories.,47,Tennessee
@@ -75,6 +76,8 @@ VT,https://www.healthvermont.gov/response/infectious-disease/2019-novel-coronavi
 Hospitalization number last tracked by Erin Petenko of [VTDigger](VTdigger.com) on 3/27.",50,Vermont
 WA,https://www.doh.wa.gov/Emergencies/Coronavirus,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,Positives + Negatives,true,"Washington is as of 3/31 experiencing [technical difficulties](https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/DelayDataPosting.pdf) and reporting will be sporadic until this is resolved. 
 Washington is now tracking cases by date of onset. Data from a new dashboard as of 3/29. Hospitalizations from 3/25 in the [Seattle Times](https://www.seattletimes.com/seattle-news/health/more-than-250-people-in-washington-hospitalized-last-week-with-covid-19-like-symptoms-as-part-of-monthlong-upward-trend-state-data-shows/).",53,Washington
-WI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,,@DHSWI,All data,false,Updates expected at 2 pm CT,55,Wisconsin
+WI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,,@DHSWI,All data,false,"Updates expected at 2 pm CT. 
+Negative test results are WI residents only and excludes duplicate lab results",55,Wisconsin
 WV,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,,@WV_DHHR,All data,false,Hospitalization reported [by media](https://wchstv.com/news/local/judicial-employee-hospitalized-with-covid-19).,54,West Virginia
-WY,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,,@health_wyoming,No data,false,Wyoming's guidance is that commercial labs are only irregularly reporting negatives. Negatives = (Total - Positive) unless this results in a lower number of positives than previously reported,56,Wyoming
+WY,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,,@health_wyoming,No data,false,"Wyoming's guidance is that commercial labs are only irregularly reporting negatives. 
+Negatives = ((Total of all labs) - Positive) unless this results in a lower number of positives than previously reported",56,Wyoming

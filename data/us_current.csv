@@ -1,2 +1,2 @@
 positive,negative,posNeg,hospitalized,death,total,hash,lastModified,notes,totalTestResults
-210770,939190,1149960,31142,4700,1149960,00e3631c5b0248c1739816d9ef716b3f587871c0,4/2/2020,"Please stop using the ""total"" and ""posNeg"" fields. Use ""totalTestResults"" instead.",1149960
+212695,956302,1168997,31440,4774,1168997,b5b2658087ac040911ea178062f472a98b75bcdd,4/2/2020,"Please stop using the ""total"" and ""posNeg"" fields. Use ""totalTestResults"" instead.",1168997
