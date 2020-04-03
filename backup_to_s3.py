@@ -107,6 +107,9 @@ class Screenshotter():
             # really huge viewport for some reason
             logger.info(f"using huge viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 5000}}
+        elif state in ['UT']:
+            # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
+            data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
 
         logger.info('Posting request...')
         response = requests.post(self.phantomjs_url, json.dumps(data))
