@@ -21,7 +21,7 @@ Negative = Total - Positive.
 Positives occasionally update before totals do; we do not revise negatives down, keep the last calculated negative.",09,Connecticut
 DC,https://coronavirus.dc.gov/,https://coronavirus.dc.gov/page/coronavirus-surveillance-data,,@_DCHealth,All data,false,Positive and Negative include both public and commercial labs.,11,District Of Columbia
 DE,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,,@Delaware_DHSS,All data,true,,10,Delaware
-FL,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,,@HealthyFla,All data,true,"We report all positive and negative tests from FL (residents + non-residents) 
+FL,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,,@HealthyFla,All data,true,"We report using the raw data provided by FDOH.
 On 3/26 their dashboard stopped including non-residents in its visible counts, but they still track them behind the scenes.  
 On 3/21 negatives jumped due to change in methodology: they began including tests of people not investigated as PUIs.",12,Florida
 GA,https://dph.georgia.gov/novelcoronavirus,https://dph.georgia.gov/georgia-department-public-health-covid-19-daily-status-report,,@GaDPH,Only positives,false,"Positive includes deaths. Positives occasionally update before totals do; we do not revise negatives down, keep the last calculated negative.
@@ -41,7 +41,7 @@ MA,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-dise
 MD,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,https://coronavirus.maryland.gov/,,@MDHealthDept,All data,false,Didn't report negatives between 3/12 and 3/28.,24,Maryland
 ME,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,,@mainedhhs,Only positives,false,"State does not report totals or negatives, last report was: 3/30
 Use the time at the top row of the table.",23,Maine
-MI,https://www.michigan.gov/coronavirus,"https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html",http://emhsd.maps.arcgis.com/apps/opsdashboard/index.html#/ea9fb6d9caaa4937995113dbd5d0a87a,@MichiganHHS,All data,true,"On 3/26, Michigan began reporting ""total specimens"" tested.",26,Michigan
+MI,https://www.michigan.gov/coronavirus,"https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html",http://emhsd.maps.arcgis.com/apps/opsdashboard/index.html#/ea9fb6d9caaa4937995113dbd5d0a87a,@MichiganHHS,All data,true,"On 3/26, Michigan began reporting ""total specimens"" tested. This is not persons tested as a person may have more than one test",26,Michigan
 MN,https://www.health.state.mn.us/diseases/coronavirus/index.html,https://www.health.state.mn.us/diseases/coronavirus/situation.html,,@mnhealth,All data,false,"Since 3/23, Negative = Total - Positive.",27,Minnesota
 MO,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php,https://missouri-coronavirus-gis-hub-mophep.hub.arcgis.com/,@HealthyLivingMo,Only positives,false,Negative = Total - Positive,29,Missouri
 MP,https://www.chcc.gov.mp/coronavirusinformation.php,https://www.chcc.gov.mp/coronavirusinformation.php,,@cnmichcc,No Data,false,Mariana Islands.,69,Northern Mariana Islands
