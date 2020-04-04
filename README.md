@@ -1,6 +1,6 @@
 # COVID Tracking Data (CSV)
 
-A daily updated repository with CSV representations of data from the [Covid Tracking API](https://github.com/COVID19Tracking/covid-tracking-api/blob/master/README.md).
+A daily updated repository with CSV representations of data from the [Covid Tracking API](https://covidtracking.com/api) - see link for details on each field.
 
 For information about the project and how this data is collected, see the COVID Tracking Project [website](https://www.covidtracking.com) and [Twitter account](https://twitter.com/COVID19Tracking).
 
