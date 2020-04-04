@@ -12,7 +12,7 @@ curl https://covid.cape.io/states/daily.csv -o $REPO/data/states_daily_4pm_et.cs
 curl https://covid.cape.io/states/info.csv -o $REPO/data/states_info.csv
 curl https://covid.cape.io/us.csv -o $REPO/data/us_current.csv
 curl https://covid.cape.io/us/daily.csv -o $REPO/data/us_daily.csv
-curl https://covid.cape.io/counties -o $REPO/data/counties.csv
+curl https://covid.cape.io/counties.csv -o $REPO/data/counties.csv
 
 # any changes in data/*.csv files within repo?
 if [[ `git -C $REPO diff --exit-code $REPO/data/*.csv` ]]; then
