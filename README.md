@@ -12,3 +12,9 @@ For information about the project and how this data is collected, see the COVID 
 * US current - https://github.com/julia326/covid-tracking-data/blob/master/data/us_current.csv
 * US daily - https://github.com/julia326/covid-tracking-data/blob/master/data/us_daily.csv
 * Counties - https://github.com/julia326/covid-tracking-data/blob/master/data/counties.csv
+
+### License
+
+Code is released under [Apache-2.0](LICENSE).
+
+Data and documentation is released under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/). If you use this material, you are encouraged but not required to cite [The COVID Tracking Project](https://covidtracking.com/) and to release your work that uses this material under an open license.
