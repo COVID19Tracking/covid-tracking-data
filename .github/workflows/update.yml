@@ -4,7 +4,8 @@ name: Update
 
 on: 
   schedule:
-    - cron:  '*/15 * * * *'
+    # Run every hour, on the hour.
+    - cron:  '0 * * * *'
 
 jobs:
   update:
