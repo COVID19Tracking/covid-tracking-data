@@ -79,4 +79,5 @@ WI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,https://www.dhs.wisconsin.
 Negative test results are WI residents only and excludes duplicate lab results",55,Wisconsin
 WV,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,,@WV_DHHR,All data,false,Hospitalization reported [by media](https://wchstv.com/news/local/judicial-employee-hospitalized-with-covid-19).,54,West Virginia
 WY,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,,@health_wyoming,No data,false,"Wyoming's guidance is that commercial labs are only irregularly reporting negatives. 
-Negatives = ((Total of all labs) - Positive) unless this results in a lower number of positives than previously reported",56,Wyoming
+Negatives = ((Total of all labs) - Positive) unless this results in a lower number of positives than previously reported 
+Positives includes suspected cases",56,Wyoming
