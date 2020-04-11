@@ -30,3 +30,4 @@ jobs:
       with:
         commit_message: Updating public spreadsheet CSV backups
         file_pattern: data/*.csv
+        commit_author: GitHub Actions <actions@github.com>
