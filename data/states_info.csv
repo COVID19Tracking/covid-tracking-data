@@ -79,4 +79,5 @@ WI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,https://www.dhs.wisconsin.
 WV,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,,@WV_DHHR,All data,false,,54,West Virginia
 WY,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,,@health_wyoming,No data,false,"As of 4/6, commercial labs are only irregularly reporting negatives. 
 Negatives = Total - Positive unless this lowers a previous count.
-On the week of 4/6, Wyoming began breaking out confirmed and suspected cases. We now report only confirmed. From 4/7 to 4/13, our recovered count may be slightly higher than the actual count, as WV began combining recovered confirmed cases + recovered probable cases.",56,Wyoming
+On the week of 4/6, Wyoming began breaking out confirmed and suspected cases. We now report only confirmed. From 4/7 to 4/13, our recovered count may be slightly higher than the actual count, as WY began combining recovered confirmed cases + recovered probable cases.
+[4/15 - Cumulative Hospitalized](https://www.wyomingnewsnow.tv/content/news/2nd-Covid-19-related-death-in-Wyoming-confirmed-569660141.html)",56,Wyoming
