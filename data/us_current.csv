@@ -1,2 +1,2 @@
 positive,negative,pending,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,hash,lastModified,death,hospitalized,total,totalTestResults,posNeg,notes
-724926,2998708,11249,56313,79046,14672,2116,5640,205,51892,1aaebad9c4561f76b4462b533d2aec28ff29345c,2020-04-19T05:12:11.465Z,34273,79046,3734883,3723634,3723634,"NOTE: ""total"", ""posNeg"", ""hospitalized"" will be removed in the future."
+724926,2998708,11249,56313,79046,14672,2116,5640,205,51892,1aaebad9c4561f76b4462b533d2aec28ff29345c,2020-04-19T06:12:27.456Z,34273,79046,3734883,3723634,3723634,"NOTE: ""total"", ""posNeg"", ""hospitalized"" will be removed in the future."
