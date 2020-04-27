@@ -38,7 +38,7 @@ MD,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,https://coronav
 ME,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,,@mainedhhs,Only positives,false,"State does not report totals or negatives, last report was: 3/30
 Using the time at the top row of their table.",23,Maine
 MI,https://www.michigan.gov/coronavirus,"https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",@MichiganHHS,All data,true,"Michigan has reported each day's negative results since 3/10 but has never totaled them. We sum all the negative results and report the total. Michigan reports specimens tested instead of people tested. 
-Recovered counts are updated once a week.",26,Michigan
+Recovered counts are updated once a week. On 4/26 we mistakenly entered the total number of tests in place of the total number of negative results: we are fixing this issue.",26,Michigan
 MN,https://www.health.state.mn.us/diseases/coronavirus/index.html,https://www.health.state.mn.us/diseases/coronavirus/situation.html,,@mnhealth,All data,false,"Since 3/23, Negative = Total - Positive.",27,Minnesota
 MO,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php,https://missouri-coronavirus-gis-hub-mophep.hub.arcgis.com/,@HealthyLivingMo,Only positives,false,Negative = Total - Positive,29,Missouri
 MP,https://www.chcc.gov.mp/coronavirusinformation.php,https://www.chcc.gov.mp/coronavirusinformation.php,,@cnmichcc,No Data,false,Mariana Islands.,69,Northern Mariana Islands
