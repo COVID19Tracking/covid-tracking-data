@@ -1,2 +1,1 @@
-positive,negative,pending,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,hash,lastModified,death,hospitalized,total,totalTestResults,posNeg,notes
-1033157,4993013,4832,54930,109690,9612,4093,4796,365,147484,3c87534fcc1b6850241042317032bbc4b3708878,2020-04-29T21:17:32.584Z,55225,109690,6031002,6026170,6026170,"NOTE: ""total"", ""posNeg"", ""hospitalized"" will be removed in the future."
+Redirecting to /api/v1/us/current.csv
