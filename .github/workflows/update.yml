@@ -21,9 +21,9 @@ jobs:
         curl https://covidtracking.com/api/v1/states/current.csv -o data/states_current.csv
         curl https://covidtracking.com/api/v1/states/daily.csv -o data/states_daily_4pm_et.csv
         curl https://covidtracking.com/api/v1/states/info.csv -o data/states_info.csv
-        curl https://covidtracking.com/api/us.csv -o data/us_current.csv
-        curl https://covidtracking.com/api/us/daily.csv -o data/us_daily.csv
-        curl https://covidtracking.com/api/counties.csv -o data/counties.csv
+        curl https://covidtracking.com/api/v1/us/current.csv -o data/us_current.csv
+        curl https://covidtracking.com/api/v1/us/daily.csv -o data/us_daily.csv
+        curl https://covidtracking.com/api/v1/counties.csv -o data/counties.csv
     
     - name: Commit
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
