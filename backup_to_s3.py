@@ -120,10 +120,7 @@ class Screenshotter():
                 f.write(response.content)
         else:
             logger.error(f'Response status code: {response.status_code}')
-            logger.error(f'Failed to retrieve URL but will write content anyway: {data_url}')
-            with open(path, 'wb') as f:
-                f.write(response.content)
-            raise
+            raise ValueError(f'Could not retrieve URL: {data_url}')
 
     @staticmethod
     def timestamped_filename(state, suffix=''):
@@ -194,11 +191,14 @@ def main(args_list=None):
     failed_states = []
 
     # screenshot public state site
-    screenshotter.screenshot(
-        'public',
-        'https://covidtracking.com/data/',
-        backup_to_s3=args.push_to_s3,
-        replace_most_recent_snapshot=args.replace_most_recent_snapshot)
+    try:
+        screenshotter.screenshot(
+            'public',
+            'https://covidtracking.com/data',
+            backup_to_s3=args.push_to_s3,
+            replace_most_recent_snapshot=args.replace_most_recent_snapshot)
+    except:
+        logger.error('Could not screenshot covidtracking.com/data site')
 
     if args.public_only:
         logger.info("Not snapshotting state pages, was asked for --public-only")
@@ -230,7 +230,7 @@ def main(args_list=None):
     if failed_states:
         logger.error(f"Failed states for this run: {','.join(failed_states)}")
     else:
-        logger.error("All required states successfully screenshotted")
+        logger.info("All required states successfully screenshotted")
 
 
 if __name__ == "__main__":
