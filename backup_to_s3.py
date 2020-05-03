@@ -100,13 +100,13 @@ class Screenshotter():
         }
 
         # PhantomJScloud gets the page length wrong for some states, need to set those manually
-        if state in ['ID', 'PA', 'IN', 'CA']:
+        if state in ['ID', 'PA', 'CA']:
             logger.info(f"using larger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
-        elif state in ['NE']:
+        elif state in ['IN','NE']:
             # really huge viewport for some reason
             logger.info(f"using huge viewport for state {state}")
-            data['renderSettings'] = {'viewport': {'width': 1400, 'height': 5000}}
+            data['renderSettings'] = {'viewport': {'width': 1400, 'height': 7000}}
         elif state in ['UT']:
             # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
             data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
