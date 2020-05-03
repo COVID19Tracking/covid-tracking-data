@@ -100,13 +100,17 @@ class Screenshotter():
         }
 
         # PhantomJScloud gets the page length wrong for some states, need to set those manually
-        if state in ['ID', 'PA', 'IN', 'CA']:
+        if state in ['ID', 'PA', 'CA']:
             logger.info(f"using larger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
         elif state in ['NE']:
             # really huge viewport for some reason
             logger.info(f"using huge viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 5000}}
+        elif state in ['IN']:
+            # even huger viewport
+            logger.info(f"using huger viewport for state {state}")
+            data['renderSettings'] = {'viewport': {'width': 1400, 'height': 8500}}
         elif state in ['UT']:
             # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
             data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
@@ -191,14 +195,14 @@ def main(args_list=None):
     failed_states = []
 
     # screenshot public state site
-    try:
-        screenshotter.screenshot(
-            'public',
-            'https://covidtracking.com/data',
-            backup_to_s3=args.push_to_s3,
-            replace_most_recent_snapshot=args.replace_most_recent_snapshot)
-    except:
-        logger.error('Could not screenshot covidtracking.com/data site')
+    # try:
+    #     screenshotter.screenshot(
+    #         'public',
+    #         'https://covidtracking.com/data',
+    #         backup_to_s3=args.push_to_s3,
+    #         replace_most_recent_snapshot=args.replace_most_recent_snapshot)
+    # except:
+    #     logger.error('Could not screenshot covidtracking.com/data site')
 
     if args.public_only:
         logger.info("Not snapshotting state pages, was asked for --public-only")
