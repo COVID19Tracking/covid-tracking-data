@@ -111,6 +111,11 @@ class Screenshotter():
             # even huger viewport
             logger.info(f"using huger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 8500}}
+            data['overseerScript'] = 'page.manualWait(); \
+                                      await page.waitForSelector("#prefix-dismissButton"); \
+                                      page.click("#prefix-dismissButton"); \
+                                      await page.waitForFunction(()=>document.querySelector("#main-content").textContent!==""); \
+                                      page.done();'
         elif state in ['UT']:
             # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
             data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
