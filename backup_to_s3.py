@@ -119,7 +119,9 @@ class Screenshotter():
 
         elif state in ['TX']:
             # TX dashboard takes forever and a half
-            data['requestSettings'] = {'waitInterval': 10000}
+            data['overseerScript'] = """page.manualWait();
+                                      await page.waitForDelay(10000);
+                                      page.done();"""
 
         # for the CDC testing tab, need to do clicking magic
         elif state == 'CDC' and 'testing' in path:
