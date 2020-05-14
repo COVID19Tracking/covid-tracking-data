@@ -117,6 +117,10 @@ class Screenshotter():
             # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
             data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
 
+        elif state in ['TX']:
+            # TX dashboard takes forever and a half
+            data['requestSettings'] = {'waitInterval': 10000}
+
         # for the CDC testing tab, need to do clicking magic
         elif state == 'CDC' and 'testing' in path:
             # try clicking on a tab somewhere there
