@@ -236,8 +236,8 @@ def main(args_list=None):
 
     # special-case: screenshot CDC "US Cases" and "US COVID Testing" tabs
     cdc_link = 'https://www.cdc.gov/covid-data-tracker/'
-    screenshotter.screenshot('CDC', cdc_link, suffix='testing')
-    screenshotter.screenshot('CDC', cdc_link, suffix='cases')
+    screenshotter.screenshot('CDC', cdc_link, suffix='testing', backup_to_s3=args.push_to_s3)
+    screenshotter.screenshot('CDC', cdc_link, suffix='cases', backup_to_s3=args.push_to_s3)
 
 
 if __name__ == "__main__":
