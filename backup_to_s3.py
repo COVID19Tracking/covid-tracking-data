@@ -147,7 +147,11 @@ class Screenshotter():
     @staticmethod
     def get_s3_path(state, suffix=''):
         filename = Screenshotter.timestamped_filename(state, suffix)
-        return os.path.join('state_screenshots', state, filename)
+        # CDC goes into its own top-level folder to not mess with state_screenshots
+        if state == 'CDC':
+            return os.path.join(state, filename)
+        else:
+            return os.path.join('state_screenshots', state, filename)
 
     def get_local_path(self, state, suffix=''):
         # basename will be e.g. 'CA' if no suffix, or 'CA-secondary' if suffix is 'secondary'
