@@ -1,4 +1,4 @@
-# This workflow archives published data if there are changes every 15m
+# This workflow archives published data if there are changes every hour
 
 name: Update
 
@@ -24,6 +24,7 @@ jobs:
         curl https://covidtracking.com/api/v1/us/current.csv -o data/us_current.csv
         curl https://covidtracking.com/api/v1/us/daily.csv -o data/us_daily.csv
         curl https://covidtracking.com/api/v1/counties.csv -o data/counties.csv
+        curl https://www.cdc.gov/covid-data-tracker/Content/CoronaViewJson_01/US_MAP_DATA.csv -o data/cdc.csv
     
     - name: Commit
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
