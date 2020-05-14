@@ -34,9 +34,6 @@ parser.add_argument('--states',
     default='',
     help='Comma-separated list of state 2-letter names. If present, will only screenshot those.')
 
-parser.add_argument('--public-only', action='store_true', default=False,
-    help='If present, will only snapshot public website and not state pages')
-
 parser.add_argument('--push-to-s3', dest='push_to_s3', action='store_true', default=False,
     help='Push screenshots to S3')
 
@@ -120,6 +117,16 @@ class Screenshotter():
             # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
             data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
 
+        # for the CDC testing tab, need to do clicking magic
+        elif state == 'CDC' and 'testing' in path:
+            # try clicking on a tab somewhere there
+            logger.info(f"Custom CDC logic")
+            data['overseerScript'] = """page.manualWait();
+                                      await page.waitForSelector("[data-tabname='tabAllLabs']");
+                                      page.click("[data-tabname='tabAllLabs']", {delay: 100});
+                                      await page.waitForFunction(()=>document.querySelector("#mainContent_Title").textContent=="United States Laboratory Testing");
+                                      await page.waitForDelay(1000);
+                                      page.done();"""
         logger.info('Posting request...')
         response = requests.post(self.phantomjs_url, json.dumps(data))
         logger.info('Done.')
@@ -199,20 +206,6 @@ def main(args_list=None):
     
     failed_states = []
 
-    # screenshot public state site
-    # try:
-    #     screenshotter.screenshot(
-    #         'public',
-    #         'https://covidtracking.com/data',
-    #         backup_to_s3=args.push_to_s3,
-    #         replace_most_recent_snapshot=args.replace_most_recent_snapshot)
-    # except:
-    #     logger.error('Could not screenshot covidtracking.com/data site')
-
-    if args.public_only:
-        logger.info("Not snapshotting state pages, was asked for --public-only")
-        return
-
     # screenshot state images
     if args.states:
         logger.info(f'Snapshotting states {args.states}')
@@ -240,6 +233,11 @@ def main(args_list=None):
         logger.error(f"Failed states for this run: {','.join(failed_states)}")
     else:
         logger.info("All required states successfully screenshotted")
+
+    # special-case: screenshot CDC "US Cases" and "US COVID Testing" tabs
+    cdc_link = 'https://www.cdc.gov/covid-data-tracker/'
+    screenshotter.screenshot('CDC', cdc_link, suffix='testing')
+    screenshotter.screenshot('CDC', cdc_link, suffix='cases')
 
 
 if __name__ == "__main__":
