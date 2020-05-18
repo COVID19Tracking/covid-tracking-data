@@ -17,4 +17,6 @@ For information about the project and how this data is collected, see the COVID 
 
 Code is released under [Apache-2.0](LICENSE).
 
-Data and documentation is released under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/). If you use this material, you are encouraged but not required to cite [The COVID Tracking Project](https://covidtracking.com/) and to release your work that uses this material under an open license.
+You are welcome to copy, distribute, and develop data and website content from The COVID Tracking Project at The Atlantic for all healthcare, medical, journalistic and non-commercial uses, including any personal, editorial, academic, or research purposes.
+
+The COVID Tracking Project at The Atlantic data and website content is published under a [Creative Commons CC BY-NC-4.0 license](http://creativecommons.org/licenses/by-nc/4.0/), which requires users to attribute the source and license type (CC BY-NC-4.0) when sharing our data or website content. The COVID Tracking Project at The Atlantic also grants permission for any derivative use of this data and website content that supports healthcare or medical research (including institutional use by public health and for-profit organizations), or journalistic usage (by nonprofit or for-profit organizations). All other commercial uses are not permitted under the Creative Commons license, and will require permission from The COVID Tracking Project at The Atlantic.
