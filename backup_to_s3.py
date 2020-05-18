@@ -34,9 +34,6 @@ parser.add_argument('--states',
     default='',
     help='Comma-separated list of state 2-letter names. If present, will only screenshot those.')
 
-parser.add_argument('--public-only', action='store_true', default=False,
-    help='If present, will only snapshot public website and not state pages')
-
 parser.add_argument('--push-to-s3', dest='push_to_s3', action='store_true', default=False,
     help='Push screenshots to S3')
 
@@ -100,17 +97,42 @@ class Screenshotter():
         }
 
         # PhantomJScloud gets the page length wrong for some states, need to set those manually
-        if state in ['ID', 'PA', 'IN', 'CA']:
+        if state in ['ID', 'PA', 'CA']:
             logger.info(f"using larger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
         elif state in ['NE']:
             # really huge viewport for some reason
             logger.info(f"using huge viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 5000}}
+        elif state in ['IN']:
+            # even huger viewport
+            logger.info(f"using huger viewport for state {state}")
+            data['renderSettings'] = {'viewport': {'width': 1400, 'height': 8500}}
+            data['overseerScript'] = 'page.manualWait(); \
+                                      await page.waitForSelector("#prefix-dismissButton"); \
+                                      page.click("#prefix-dismissButton"); \
+                                      await page.waitForFunction(()=>document.querySelector("#main-content").textContent!==""); \
+                                      page.done();'
         elif state in ['UT']:
             # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
             data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
 
+        elif state in ['TX']:
+            # TX dashboard takes forever and a half
+            data['overseerScript'] = """page.manualWait();
+                                      await page.waitForDelay(10000);
+                                      page.done();"""
+
+        # for the CDC testing tab, need to do clicking magic
+        elif state == 'CDC' and 'testing' in path:
+            # try clicking on a tab somewhere there
+            logger.info(f"Custom CDC logic")
+            data['overseerScript'] = """page.manualWait();
+                                      await page.waitForSelector("[data-tabname='tabAllLabs']");
+                                      page.click("[data-tabname='tabAllLabs']", {delay: 100});
+                                      await page.waitForFunction(()=>document.querySelector("#mainContent_Title").textContent=="United States Laboratory Testing");
+                                      await page.waitForDelay(1000);
+                                      page.done();"""
         logger.info('Posting request...')
         response = requests.post(self.phantomjs_url, json.dumps(data))
         logger.info('Done.')
@@ -120,10 +142,7 @@ class Screenshotter():
                 f.write(response.content)
         else:
             logger.error(f'Response status code: {response.status_code}')
-            logger.error(f'Failed to retrieve URL but will write content anyway: {data_url}')
-            with open(path, 'wb') as f:
-                f.write(response.content)
-            raise
+            raise ValueError(f'Could not retrieve URL: {data_url}')
 
     @staticmethod
     def timestamped_filename(state, suffix=''):
@@ -134,7 +153,11 @@ class Screenshotter():
     @staticmethod
     def get_s3_path(state, suffix=''):
         filename = Screenshotter.timestamped_filename(state, suffix)
-        return os.path.join('state_screenshots', state, filename)
+        # CDC goes into its own top-level folder to not mess with state_screenshots
+        if state == 'CDC':
+            return os.path.join(state, filename)
+        else:
+            return os.path.join('state_screenshots', state, filename)
 
     def get_local_path(self, state, suffix=''):
         # basename will be e.g. 'CA' if no suffix, or 'CA-secondary' if suffix is 'secondary'
@@ -193,17 +216,6 @@ def main(args_list=None):
     
     failed_states = []
 
-    # screenshot public state site
-    screenshotter.screenshot(
-        'public',
-        'https://covidtracking.com/data/',
-        backup_to_s3=args.push_to_s3,
-        replace_most_recent_snapshot=args.replace_most_recent_snapshot)
-
-    if args.public_only:
-        logger.info("Not snapshotting state pages, was asked for --public-only")
-        return
-
     # screenshot state images
     if args.states:
         logger.info(f'Snapshotting states {args.states}')
@@ -230,7 +242,12 @@ def main(args_list=None):
     if failed_states:
         logger.error(f"Failed states for this run: {','.join(failed_states)}")
     else:
-        logger.error("All required states successfully screenshotted")
+        logger.info("All required states successfully screenshotted")
+
+    # special-case: screenshot CDC "US Cases" and "US COVID Testing" tabs
+    cdc_link = 'https://www.cdc.gov/covid-data-tracker/'
+    screenshotter.screenshot('CDC', cdc_link, suffix='testing', backup_to_s3=args.push_to_s3)
+    screenshotter.screenshot('CDC', cdc_link, suffix='cases', backup_to_s3=args.push_to_s3)
 
 
 if __name__ == "__main__":
