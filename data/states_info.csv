@@ -26,7 +26,8 @@ On March 21, negatives jumped due to a methodology change: tests of people not i
 As of May 15, Florida is reporting both specimens and people tested. We report positives and negatives based on the number of people tested.",12,Florida
 GA,https://dph.georgia.gov/novelcoronavirus,https://dph.georgia.gov/covid-19-daily-status-report,https://augustagis.maps.arcgis.com/apps/opsdashboard/index.html#/4eec20925b6b4f338368df0ffcba472d,@GaDPH,Only positives,false,"Positive includes deaths. Positives occasionally update before totals.
 We use the state's ""as of"" time as our Update Time. 
-As of May 16, Georgia  is reporting specimens tested. Because some people may be tested more than once, this number is probably higher than the number of people tested",13,Georgia
+As of May 16, Georgia  is reporting specimens tested. Because some people may be tested more than once, this number is probably higher than the number of people tested. 
+Georgia is reporting combined serology and molecular tests. As of May 22nd, these two numbers have not been separated out",13,Georgia
 GU,https://ghs.guam.gov/coronavirus-covid-19,http://dphss.guam.gov/covid-19/,https://ghs.guam.gov/coronavirus-covid-20,@guamdphss,All Data,false,"On May 4, Guam adjusted cases down from 150 to 149 because they found that the case was double counted,  number of recovered was also adjusted down because 7 people were returned to isolation.
 Guam's counts include 11 people tested at the San Diego naval base.",66,Guam
 HI,https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/,https://health.hawaii.gov/coronavirusdisease2019/,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,@HIgov_Health,Only positives,false,"Data now pulled from their [new Dashboard Project](https://www.hawaiidata.org/covid19).
