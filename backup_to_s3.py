@@ -60,9 +60,11 @@ class S3Backup():
     # uploads image (PNG) file with specified name
     def upload_file(self, local_path, s3_path):
         if local_path.endswith('.png'):
-            self.s3.meta.client.upload_file(
-                local_path, self.bucket_name, s3_path,
-                ExtraArgs={'ContentType': 'image/png'})
+            extra_args = {'ContentType': 'image/png'}
+        elif local_path.endswith('.pdf'):
+            extra_args = {'ContentType': 'application/pdf', 'ContentDisposition': 'inline'}
+
+        self.s3.meta.client.upload_file(local_path, self.bucket_name, s3_path, ExtraArgs=extra_args)
 
     # delete most recent snapshot with filename containing <state>-<suffix> or <state> if no suffix
     def delete_most_recent_snapshot(self, state, suffix=''):
