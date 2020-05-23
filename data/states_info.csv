@@ -31,7 +31,8 @@ Georgia is reporting combined serology and molecular tests. As of May 22nd, thes
 GU,https://ghs.guam.gov/coronavirus-covid-19,http://dphss.guam.gov/covid-19/,https://ghs.guam.gov/coronavirus-covid-20,@guamdphss,All Data,false,"On May 4, Guam adjusted cases down from 150 to 149 because they found that the case was double counted,  number of recovered was also adjusted down because 7 people were returned to isolation.
 Guam's counts include 11 people tested at the San Diego naval base.",66,Guam
 HI,https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/,https://health.hawaii.gov/coronavirusdisease2019/,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,@HIgov_Health,Only positives,false,"Data now pulled from their [new Dashboard Project](https://www.hawaiidata.org/covid19).
-As of May 16, Hawaii is reporting people tested",15,Hawaii
+As of May 16, Hawaii is reporting people tested
+On May 23rd, Hawaii revised down 5 cases due to updated testing information",15,Hawaii
 IA,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,https://coronavirus.iowa.gov/,,@IAPublicHealth,All data,false,"Not all commercial labs report negatives to Iowa, as per their guidance. As of April 27, Iowa is reporting people tested.",19,Iowa
 ID,https://coronavirus.idaho.gov/,https://coronavirus.idaho.gov/,,@IDHW,All data,true,"Negative = Totals - Positives.  Positives sometimes update before totals do. 
 Total includes Oregon residents tested in Idaho.  As of April 9, Idaho separately reports both probable and confirmed cases.",16,Idaho
@@ -51,7 +52,8 @@ Recovered counts are updated once a week.
 As of May 16, Michigan uses 'total specimens' reported on lab testing page",26,Michigan
 MN,https://www.health.state.mn.us/diseases/coronavirus/index.html,https://www.health.state.mn.us/diseases/coronavirus/situation.html,,@mnhealth,All data,false,"Since 3/23, Negative = Total - Positive.",27,Minnesota
 MO,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php,https://missouri-coronavirus-gis-hub-mophep.hub.arcgis.com/,@HealthyLivingMo,Only positives,false,"Negative = Total - Positive. As of April 27, Missouri is reporting people tested.
-Missouri has a lag in reporting total patients tested; this figure does not include patients tested as of a particular day until the following day's data update",29,Missouri
+Missouri has a lag in reporting total patients tested; this figure does not include patients tested as of a particular day until the following day's data update
+As of 5/22, MO started separating out PCR and Antibody tests",29,Missouri
 MP,https://www.chcc.gov.mp/coronavirusinformation.php,https://www.chcc.gov.mp/coronavirusinformation.php,,@cnmichcc,No Data,false,"As of May 16, Northern Mariana Islands  is reporting specimens tested. Because some people may be tested more than once, this number is probably higher than the number of people tested",69,Northern Mariana Islands
 MS,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html","https://msdh.ms.gov/msdhsite/_static/14,0,420.html",,@msdh,Only positives,false,"Negatives = Total - Positives.
 Hospitalizations are calculated by calculating multiplying % of hospitalized times total cases, pending clarification from the state. Recoveries are estimated, and updated twice weekly. As of April 27, Mississippi is reporting people tested.",28,Mississippi
