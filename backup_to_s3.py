@@ -45,6 +45,11 @@ parser.add_argument('--phantomjscloud-key', default='',
     help='API key for PhantomJScloud, used for browser image capture')
 
 
+# This is a set of (state name, suffix) tuples where we expect a PDF that we should just download.
+# Otherwise, the normal behavior is to download the website as a .png image.
+PDF_FILES = {('TN', 'secondary')}
+
+
 class S3Backup():
 
     def __init__(self, bucket_name):
@@ -52,11 +57,12 @@ class S3Backup():
         self.bucket_name = bucket_name
         self.bucket = self.s3.Bucket(self.bucket_name)
 
-    # for now just uploads image (PNG) file with specified name
+    # uploads image (PNG) file with specified name
     def upload_file(self, local_path, s3_path):
-        self.s3.meta.client.upload_file(
-            local_path, self.bucket_name, s3_path,
-            ExtraArgs={'ContentType': 'image/png'})
+        if local_path.endswith('.png'):
+            self.s3.meta.client.upload_file(
+                local_path, self.bucket_name, s3_path,
+                ExtraArgs={'ContentType': 'image/png'})
 
     # delete most recent snapshot with filename containing <state>-<suffix> or <state> if no suffix
     def delete_most_recent_snapshot(self, state, suffix=''):
@@ -74,7 +80,7 @@ class Screenshotter():
         self.local_dir = local_dir
         self.s3_backup = s3_backup
 
-    # makes a PhantomJSCloud call to data_url and saves the .png output to specified path
+    # makes a PhantomJSCloud call to data_url and saves the output to specified path
     def save_url_image_to_path(self, state, data_url, path):
         """Saves URL image from data_url to the specified path.
 
@@ -91,6 +97,18 @@ class Screenshotter():
         """
         logger.info(f"Retrieving {data_url}")
 
+        # if we're just saving a PDF, don't use phantomjscloud
+        if path.endswith('.pdf'):
+            logger.info(f"Downloading PDF from {data_url}")
+            response = requests.get(data_url)
+            if response.status_code == 200:
+                with open(path, 'wb') as f:
+                    f.write(response.content)
+                return
+            else:
+                logger.error(f'Response status code: {response.status_code}')
+                raise ValueError(f'Could not retrieve URL: {data_url}')
+
         data = {
             'url': data_url,
             'renderType': 'png',
@@ -100,11 +118,11 @@ class Screenshotter():
         if state in ['ID', 'PA', 'CA']:
             logger.info(f"using larger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
-        elif state in ['NE']:
+        elif state == 'NE':
             # really huge viewport for some reason
             logger.info(f"using huge viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 5000}}
-        elif state in ['IN']:
+        elif state == 'IN':
             # even huger viewport
             logger.info(f"using huger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 8500}}
@@ -113,11 +131,11 @@ class Screenshotter():
                                       page.click("#prefix-dismissButton"); \
                                       await page.waitForFunction(()=>document.querySelector("#main-content").textContent!==""); \
                                       page.done();'
-        elif state in ['UT']:
+        elif state == 'UT':
             # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
             data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
 
-        elif state in ['TX']:
+        elif state == 'TX':
             # TX dashboard takes forever and a half
             data['overseerScript'] = """page.manualWait();
                                       await page.waitForDelay(10000);
@@ -129,7 +147,7 @@ class Screenshotter():
             logger.info(f"Custom CDC logic")
             data['overseerScript'] = """page.manualWait();
                                       await page.waitForSelector("[data-tabname='tabAllLabs']");
-                                      page.click("[data-tabname='tabAllLabs']", {delay: 100});
+                                      page.click("[data-tabname='tabAllLabs']", {delay: 150});
                                       await page.waitForFunction(()=>document.querySelector("#mainContent_Title").textContent=="United States Laboratory Testing");
                                       await page.waitForDelay(1000);
                                       page.done();"""
@@ -146,9 +164,14 @@ class Screenshotter():
 
     @staticmethod
     def timestamped_filename(state, suffix=''):
+        # we default to .png files except for some state/suffix pairs
+        if (state, suffix) in PDF_FILES:
+            fileext = 'pdf'
+        else:
+            fileext = 'png'
         state_with_modifier = state if len(suffix) == 0 else '%s-%s' % (state, suffix)
         timestamp = datetime.now(timezone('US/Eastern')).strftime("%Y%m%d-%H%M%S")
-        return "%s-%s.png" % (state_with_modifier, timestamp)
+        return "%s-%s.%s" % (state_with_modifier, timestamp, fileext)
 
     @staticmethod
     def get_s3_path(state, suffix=''):
