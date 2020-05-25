@@ -34,7 +34,7 @@ HI,https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/,https://hea
 As of May 16, Hawaii is reporting people tested
 On May 23rd, Hawaii revised down 5 cases due to updated testing information",15,Hawaii
 IA,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,https://coronavirus.iowa.gov/,,@IAPublicHealth,All data,false,"Not all commercial labs report negatives to Iowa, as per their guidance. As of April 27, Iowa is reporting people tested.",19,Iowa
-ID,https://coronavirus.idaho.gov/,https://coronavirus.idaho.gov/,,@IDHW,All data,true,"Negative = Totals - Positives.  Positives sometimes update before totals do. 
+ID,https://coronavirus.idaho.gov/,https://coronavirus.idaho.gov/,https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/Story1,@IDHW,All data,true,"Negative = Totals - Positives.  Positives sometimes update before totals do. 
 Total includes Oregon residents tested in Idaho.  As of April 9, Idaho separately reports both probable and confirmed cases.",16,Idaho
 IL,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,,@IDPH,All data,false,Illinois counts deaths in positives.,17,Illinois
 IN,https://www.in.gov/isdh/28470.htm,https://www.in.gov/isdh/28470.htm,,@statehealthin,Only positives,false,"Negative = Total – Positive. Negatives are a lower bound, and may not include all private labs. As of April 27, Indiana is reporting people tested.",18,Indiana
