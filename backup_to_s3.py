@@ -124,6 +124,12 @@ class Screenshotter():
             # really huge viewport for some reason
             logger.info(f"using huge viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 5000}}
+        elif state == 'WA':
+            # wait longer for load
+            logger.info(f"waiting longer to load state {state}")
+            data['overseerScript'] = """page.manualWait();
+                                      await page.waitForDelay(15000);
+                                      page.done();"""
         elif state == 'IN':
             # even huger viewport
             logger.info(f"using huger viewport for state {state}")
