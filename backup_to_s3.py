@@ -116,10 +116,19 @@ class Screenshotter():
             'renderType': 'png',
         }
 
+        # add a hover for ID secondary to get more data
+        if state == 'ID' and 'secondary' in path:
+            logger.info('Custom mouseover logic for ID secondary dashboard')
+            data['overseerScript'] = """page.manualWait();
+                                      await page.waitForSelector("#tabZoneId10");
+                                      await page.hover("#tabZoneId10");
+                                      page.done();"""
+
         # PhantomJScloud gets the page length wrong for some states, need to set those manually
-        if state in ['ID', 'PA', 'CA']:
+        elif state in ['ID', 'PA', 'CA']:
             logger.info(f"using larger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
+
         elif state == 'NE':
             # really huge viewport for some reason
             logger.info(f"using huge viewport for state {state}")
