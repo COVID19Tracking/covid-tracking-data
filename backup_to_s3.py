@@ -266,6 +266,7 @@ def main(args_list=None):
         state = r["state"]
         data_url = r["covid19Site"]
         secondary_data_url = r["covid19SiteSecondary"]
+        tertiary_data_url = r["covid19SiteTertiary"]
         try:
             screenshotter.screenshot(
                 state, data_url,
@@ -274,6 +275,11 @@ def main(args_list=None):
             if not pd.isnull(secondary_data_url):
                 screenshotter.screenshot(
                     state, secondary_data_url, suffix='secondary',
+                    backup_to_s3=args.push_to_s3,
+                    replace_most_recent_snapshot=args.replace_most_recent_snapshot)
+            if not pd.isnull(tertiary_data_url):
+                screenshotter.screenshot(
+                    state, tertiary_data_url, suffix='tertiary',
                     backup_to_s3=args.push_to_s3,
                     replace_most_recent_snapshot=args.replace_most_recent_snapshot)
         except:
