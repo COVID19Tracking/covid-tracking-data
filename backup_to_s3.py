@@ -116,50 +116,56 @@ class Screenshotter():
             'renderType': 'png',
         }
 
-        # add a hover for ID secondary to get more data
-        if state == 'ID' and 'secondary' in path:
-            logger.info('Custom mouseover logic for ID secondary dashboard')
+        if state in ['WA', 'TX', 'PA']:
+            # wait longer for load
+            logger.info(f"waiting 30 sec to load state {state}")
             data['overseerScript'] = """page.manualWait();
-                                      await page.waitForSelector("#tabZoneId10");
-                                      await page.hover("#tabZoneId10");
+                                      await page.waitForDelay(30000);
                                       page.done();"""
 
+        # IA: need to load IFrame separately
+        if state == 'IA':
+            data['url'] = 'https://public.domo.com/embed/pages/dPRol'
+
+        # add a hover for ID secondary to get more data
+        if state == 'ID':
+            if 'secondary' in path:
+                logger.info('Custom mouseover logic for ID secondary dashboard')
+                data['overseerScript'] = """page.manualWait();
+                                          await page.waitForSelector("#tabZoneId10");
+                                          await page.hover("#tabZoneId10");
+                                          page.done();"""
+            else:
+                logger.info(f"using larger viewport for state {state}")
+                data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
+
         # PhantomJScloud gets the page length wrong for some states, need to set those manually
-        elif state in ['ID', 'PA', 'CA']:
+        if state in ['PA', 'CA', 'IA']:
             logger.info(f"using larger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
 
-        elif state == 'NE':
-            # really huge viewport for some reason
+        if state == 'NE':
+            # needs really huge viewport for some reason
             logger.info(f"using huge viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 5000}}
-        elif state == 'WA':
-            # wait longer for load
-            logger.info(f"waiting longer to load state {state}")
-            data['overseerScript'] = """page.manualWait();
-                                      await page.waitForDelay(15000);
-                                      page.done();"""
-        elif state == 'IN':
-            # even huger viewport
+
+        if state == 'UT':
+            # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
+            data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
+
+        # Indiana needs a huge viewport and has a popup
+        if state == 'IN':
             logger.info(f"using huger viewport for state {state}")
             data['renderSettings'] = {'viewport': {'width': 1400, 'height': 8500}}
+            # click button to get rid of popup
             data['overseerScript'] = 'page.manualWait(); \
                                       await page.waitForSelector("#prefix-dismissButton"); \
                                       page.click("#prefix-dismissButton"); \
                                       await page.waitForFunction(()=>document.querySelector("#main-content").textContent!==""); \
                                       page.done();'
-        elif state == 'UT':
-            # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
-            data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
-
-        elif state == 'TX':
-            # TX dashboard takes forever and a half
-            data['overseerScript'] = """page.manualWait();
-                                      await page.waitForDelay(10000);
-                                      page.done();"""
 
         # for the CDC testing tab, need to do clicking magic
-        elif state == 'CDC' and 'testing' in path:
+        if state == 'CDC' and 'testing' in path:
             # try clicking on a tab somewhere there
             logger.info(f"Custom CDC logic")
             data['overseerScript'] = """page.manualWait();
