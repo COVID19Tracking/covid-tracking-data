@@ -1,11 +1,11 @@
-Jun  9 2020  3:42PM
-Case and Death data updated as of Jun  9 2020  3:42PM.  Testing data updated as of Jun  4 2020 12:00AM
+Jun  9 2020  6:47PM
+Case and Death data updated as of Jun  9 2020  6:47PM.  Testing data updated as of Jun  7 2020 12:00AM
 abbr,fips,jurisdiction,Total Cases,Total Death,CasesInLast7Days,RatePer100000
 AK,02,Alaska,563,10,103,76.3
 AL,01,Alabama,21430,728,3185,438.4
 AR,05,Arkansas,9740,155,2487,323.2
 AS,60,American Samoa,0,0,0,0
-AZ,04,Arizona,27678,789,7742,385.9
+AZ,04,Arizona,27678,1047,7742,385.9
 CA,06,California,131319,4653,20736,332
 CO,08,Colorado,28183,1543,1805,494.8
 CT,09,Connecticut,44092,4084,1891,1234.1
@@ -61,4 +61,4 @@ WA,53,Washington,24041,1161,2339,319
 WI,55,Wisconsin,21038,646,2635,361.9
 WV,54,West Virginia,2161,84,151,119.7
 WY,56,Wyoming,960,17,57,166.2
-US,00,United States of America,1956421,110925,0,0
+US,00,United States of America,1956421,111183,0,0
