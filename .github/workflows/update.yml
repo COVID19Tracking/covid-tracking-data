@@ -33,5 +33,5 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
       with:
         commit_message: Updating public spreadsheet CSV backups
-        file_pattern: data/*.{csv,json}
+        file_pattern: data/*
         commit_author: GitHub Actions <actions@github.com>
