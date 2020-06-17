@@ -1,5 +1,5 @@
-Jun 17 2020 12:15PM
-Case and Death data updated as of Jun 17 2020 12:15PM.  Testing data updated as of Jun 12 2020 12:00AM
+Jun 17 2020  5:45PM
+Case and Death data updated as of Jun 17 2020  5:45PM.  Testing data updated as of Jun 15 2020 12:00AM
 abbr,fips,jurisdiction,Total Cases,Total Death,CasesInLast7Days,RatePer100000
 AK,02,Alaska,676,12,113,91.7
 AL,01,Alabama,26912,785,5482,550.6
@@ -16,7 +16,7 @@ FSM,64,Federated States of Micronesia,0,0,0,0
 GA,13,Georgia,59078,2529,6581,561.6
 GU,66,Guam,188,5,8,113.4
 HI,15,Hawaii,674,17,37,47.4
-IA,19,Iowa,24077,655,2089,762.9
+IA,19,Iowa,24179,669,2191,766.1
 ID,16,Idaho,3540,88,351,201.8
 IL,17,Illinois,134500,6579,5361,1055.6
 IN,18,Indiana,40786,2447,3163,609.5
@@ -53,7 +53,7 @@ SC,45,South Carolina,19990,607,5190,393.2
 SD,46,South Dakota,5966,77,495,676.2
 TN,47,Tennessee,31830,493,4701,470.2
 TX,48,Texas,93206,2029,17590,324.7
-UT,49,Utah,14826,144,2397,469
+UT,49,Utah,15141,146,2712,479
 VA,51,Virginia,55775,1583,4037,654.8
 VI,78,Virgin Islands,73,6,2,69.7
 VT,50,Vermont,1130,55,55,180.4
@@ -61,4 +61,4 @@ WA,53,Washington,26531,1231,2490,352.1
 WI,55,Wisconsin,25789,709,4751,443.6
 WV,54,West Virginia,2341,88,180,129.6
 WY,56,Wyoming,1089,18,129,188.5
-US,00,United States of America,2132321,116862,0,0
+US,00,United States of America,2132738,116878,0,0
