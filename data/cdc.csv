@@ -1,5 +1,5 @@
-Jun 19 2020 12:15PM
-Case and Death data updated as of Jun 19 2020 12:15PM.  Testing data updated as of Jun 16 2020 12:00AM
+Jun 19 2020  6:46PM
+Case and Death data updated as of Jun 19 2020  6:46PM.  Testing data updated as of Jun 17 2020 12:00AM
 abbr,fips,jurisdiction,Total Cases,Total Death,CasesInLast7Days,RatePer100000
 AK,02,Alaska,708,12,115,96
 AL,01,Alabama,28214,810,6214,577.2
@@ -40,7 +40,7 @@ NJ,34,New Jersey,168107,12800,2761,1887
 NM,35,New Mexico,10153,456,903,484.5
 NV,32,Nevada,12094,493,1930,398.6
 NY,36,New York,174500,8568,2462,1565.9
-NYC,57,New York City,208455,22236,0,2482
+NYC,57,New York City,213145,22236,3047,2537.8
 OH,39,Ohio,43122,2633,3547,368.9
 OK,40,Oklahoma,8925,377,1707,226.3
 OR,41,Oregon,6366,187,1306,151.9
@@ -61,4 +61,4 @@ WA,53,Washington,27192,1245,2550,360.8
 WI,55,Wisconsin,26542,725,4949,456.6
 WV,54,West Virginia,2418,88,225,133.9
 WY,56,Wyoming,1144,18,164,198
-US,00,United States of America,2178710,118365,0,0
+US,00,United States of America,2183400,118365,0,0
