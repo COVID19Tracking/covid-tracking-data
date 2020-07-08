@@ -1,0 +1,80 @@
+primary:
+
+  CA:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 3000
+    message: using viewport height 3000 for CA
+
+  ID:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 3000
+    message: using viewport height 3000 for ID
+
+  IA:
+    url: https://public.domo.com/embed/pages/dPRol
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 3000
+    message: loading custom URL and using viewport height 3000 for IA
+
+  IN:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 8500
+    overseerScript: >
+      page.manualWait();
+      await page.waitForSelector("#prefix-dismissButton");
+      page.click("#prefix-dismissButton"); 
+      await page.waitForFunction(()=>document.querySelector("#main-content").textContent!=="");
+      page.done();
+    message: clicking button to get rid of popup, using viewport height 8500 for IN
+
+  NE:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 5000
+    message: using viewport height 5000 for NE
+
+  PA:
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 3000
+    message: waiting 30 sec to load PA and using viewport height 3000
+
+  TX:
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    message: waiting 30 sec to load TX
+
+  UT:
+    renderSettings:
+      clipRectangle:
+        width: 1400
+        height: 3000
+    message: UT dashboard doesn't render in phantomjscloud unless we set clipRectangle
+
+  WA:
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    message: waiting 30 sec to load WA
+
+secondary:
+
+  ID:
+    overseerScript: >
+      page.manualWait(); await page.waitForSelector("#tabZoneId10");
+      await page.hover("#tabZoneId10"); page.done();
+    message: custom mouseover logic for ID secondary dashboard
+
+  TN:
+    file: pdf
+    message: downloading PDF for TX secondary
+
+tertiary:

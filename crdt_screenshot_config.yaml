@@ -1,0 +1,45 @@
+primary:
+
+  CT:
+    file: pdf
+    message: downloading pdf for CT
+
+  FL:
+    file: pdf
+    message: downloading pdf for FL
+
+  GA:
+    file: zip
+    message: downloading zip for GA
+
+  IN:
+    file: xlsx
+    message: downloading xlsx for IN
+
+  KY:
+    file: pdf
+    message: downloading pdf for KY
+
+  MA:
+    file: pdf
+    message: downloading pdf for MA
+
+  NJ:
+    file: pdf
+    message: downloading pdf for NJ
+
+  TX:
+    file: xlsx
+    message: downloading xlsx for TX
+
+secondary:
+
+  MI:
+    file: xlsx
+    message: downloading xlsx for MI secondary
+
+  TN:
+    file: xlsx
+    message: downloading xlsx for TN secondary
+
+tertiary:

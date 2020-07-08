@@ -14,7 +14,7 @@ import boto3
 from loguru import logger
 import pandas as pd
 import requests
-
+import yaml
 
 parser = ArgumentParser(
     description=__doc__,
@@ -25,65 +25,92 @@ parser.add_argument(
     default='/tmp/public-cache',
     help='Local temp dir for snapshots')
 
+parser.add_argument('--states',
+    default='',
+    help='Comma-separated list of state 2-letter names. If present, will only screenshot those.')
+
+parser.add_argument('--phantomjscloud-key', default='',
+    help='API key for PhantomJScloud, used for browser image capture')
+
+# Args relating to S3 setup
+
 parser.add_argument(
     '--s3-bucket',
     default='covid-data-archive',
     help='S3 bucket name')
 
-parser.add_argument('--states',
-    default='',
-    help='Comma-separated list of state 2-letter names. If present, will only screenshot those.')
+parser.add_argument(
+    '--s3-subfolder',
+    default='state_screenshots',
+    help='Name of subfolder on S3 bucket to upload files to')
 
 parser.add_argument('--push-to-s3', dest='push_to_s3', action='store_true', default=False,
     help='Push screenshots to S3')
 
-parser.add_argument('--replace-most-recent-snapshot', action='store_true', default=False,
-    help='If present, will first delete the most recent snapshot for the state before saving ' 
-         'new screenshot to S3')
+# Determines which screenshots we're aiming to take; these may have different schedules. Only one
+# can be true at a time
 
-parser.add_argument('--phantomjscloud-key', default='',
-    help='API key for PhantomJScloud, used for browser image capture')
+group = parser.add_mutually_exclusive_group(required=True)
 
+group.add_argument('--screenshot-core-urls', dest='core_urls', action='store_true', default=False,
+    help='Screenshot core data URLs from States Info')
 
-# This is a set of (state name, suffix) tuples where we expect a PDF that we should just download.
-# Otherwise, the normal behavior is to download the website as a .png image.
-PDF_FILES = {('TN', 'secondary')}
+group.add_argument('--screenshot-crdt-urls', dest='crdt_urls', action='store_true', default=False,
+    help='Screenshot CRDT data URLs')
 
 
 class S3Backup():
 
-    def __init__(self, bucket_name):
+    def __init__(self, bucket_name, s3_subfolder):
         self.s3 = boto3.resource('s3')
         self.bucket_name = bucket_name
         self.bucket = self.s3.Bucket(self.bucket_name)
+        self.s3_subfolder = s3_subfolder
 
-    # uploads image (PNG) file with specified name
-    def upload_file(self, local_path, s3_path):
+    def get_s3_path(self, local_path, state):
+        # CDC goes into its own top-level folder to not mess with state_screenshots
+        if state == 'CDC':
+            return os.path.join(state, os.path.basename(local_path))
+        
+        return os.path.join(self.s3_subfolder, state, os.path.basename(local_path))
+
+    # uploads file from local path with specified name
+    def upload_file(self, local_path, state):
+        extra_args = {}
         if local_path.endswith('.png'):
             extra_args = {'ContentType': 'image/png'}
         elif local_path.endswith('.pdf'):
             extra_args = {'ContentType': 'application/pdf', 'ContentDisposition': 'inline'}
+        elif local_path.endswith('.xlsx'):
+            extra_args = {'ContentType': 'application/vnd.ms-excel', 'ContentDisposition': 'inline'}
 
+        s3_path = self.get_s3_path(local_path, state)
+        logger.info(f'Uploading file at {local_path} to {s3_path}')
         self.s3.meta.client.upload_file(local_path, self.bucket_name, s3_path, ExtraArgs=extra_args)
-
-    # delete most recent snapshot with filename containing <state>-<suffix> or <state> if no suffix
-    def delete_most_recent_snapshot(self, state, suffix=''):
-        state_with_modifier = state if len(suffix) == 0 else '%s-%s' % (state, suffix)
-        state_file_keys = [
-            file.key for file in self.bucket.objects.all() if state_with_modifier in file.key]
-        most_recent_state_key = sorted(state_file_keys, reverse=True)[0]
-        self.s3.Object(self.bucket_name, most_recent_state_key).delete()
 
 
 class Screenshotter():
 
-    def __init__(self, local_dir, s3_backup, phantomjscloud_key):
+    def __init__(self, local_dir, s3_backup, phantomjscloud_key, config):
         self.phantomjs_url = 'https://phantomjscloud.com/api/browser/v2/%s/' % phantomjscloud_key
         self.local_dir = local_dir
         self.s3_backup = s3_backup
+        self.config = config
+
+
+    def get_state_config(self, state, suffix):
+        if suffix == 'secondary' and self.config['secondary']:
+            # grab any special-casing if it exists
+            return self.config['secondary'].get(state)
+        if suffix == 'tertiary' and self.config['tertiary']:
+            return self.config['tertiary'].get(state)
+        if suffix == '':
+            return self.config['primary'].get(state)
+        return None
+
 
     # makes a PhantomJSCloud call to data_url and saves the output to specified path
-    def save_url_image_to_path(self, state, data_url, path):
+    def save_url_image_to_path(self, state, data_url, path, state_config=None):
         """Saves URL image from data_url to the specified path.
 
         Parameters
@@ -96,12 +123,15 @@ class Screenshotter():
 
         path : str
             Local path to which to save .png screenshot of data_url
+
+        state_config : dict
+            If exists, this is a dict used for denoting phantomJScloud special casing or file type
         """
         logger.info(f"Retrieving {data_url}")
 
-        # if we're just saving a PDF, don't use phantomjscloud
-        if path.endswith('.pdf'):
-            logger.info(f"Downloading PDF from {data_url}")
+        # if we need to just download the file, don't use phantomjscloud
+        if state_config and state_config.get('file'):
+            logger.info(f"Downloading file from {data_url}")
             response = requests.get(data_url)
             if response.status_code == 200:
                 with open(path, 'wb') as f:
@@ -116,64 +146,12 @@ class Screenshotter():
             'renderType': 'png',
         }
 
-        if state in ['WA', 'TX', 'PA']:
-            # wait longer for load
-            logger.info(f"waiting 30 sec to load state {state}")
-            data['overseerScript'] = """page.manualWait();
-                                      await page.waitForDelay(30000);
-                                      page.done();"""
+        if state_config:
+            # update data with state_config minus message
+            message = state_config.pop('message')
+            logger.info(message)
+            data.update(state_config)
 
-        # IA: need to load IFrame separately
-        if state == 'IA':
-            data['url'] = 'https://public.domo.com/embed/pages/dPRol'
-
-        # add a hover for ID secondary to get more data
-        if state == 'ID':
-            if 'secondary' in path:
-                logger.info('Custom mouseover logic for ID secondary dashboard')
-                data['overseerScript'] = """page.manualWait();
-                                          await page.waitForSelector("#tabZoneId10");
-                                          await page.hover("#tabZoneId10");
-                                          page.done();"""
-            else:
-                logger.info(f"using larger viewport for state {state}")
-                data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
-
-        # PhantomJScloud gets the page length wrong for some states, need to set those manually
-        if state in ['PA', 'CA', 'IA']:
-            logger.info(f"using larger viewport for state {state}")
-            data['renderSettings'] = {'viewport': {'width': 1400, 'height': 3000}}
-
-        if state == 'NE':
-            # needs really huge viewport for some reason
-            logger.info(f"using huge viewport for state {state}")
-            data['renderSettings'] = {'viewport': {'width': 1400, 'height': 5000}}
-
-        if state == 'UT':
-            # Utah dashboard doesn't render in phantomjscloud unless I set clipRectangle
-            data['renderSettings'] = {'clipRectangle': {'width': 1400, 'height': 3000}}
-
-        # Indiana needs a huge viewport and has a popup
-        if state == 'IN':
-            logger.info(f"using huger viewport for state {state}")
-            data['renderSettings'] = {'viewport': {'width': 1400, 'height': 8500}}
-            # click button to get rid of popup
-            data['overseerScript'] = 'page.manualWait(); \
-                                      await page.waitForSelector("#prefix-dismissButton"); \
-                                      page.click("#prefix-dismissButton"); \
-                                      await page.waitForFunction(()=>document.querySelector("#main-content").textContent!==""); \
-                                      page.done();'
-
-        # for the CDC testing tab, need to do clicking magic
-        if state == 'CDC' and 'testing' in path:
-            # try clicking on a tab somewhere there
-            logger.info(f"Custom CDC logic")
-            data['overseerScript'] = """page.manualWait();
-                                      await page.waitForSelector("[data-tabname='tabAllLabs']");
-                                      page.click("[data-tabname='tabAllLabs']", {delay: 150});
-                                      await page.waitForFunction(()=>document.querySelector("#mainContent_Title").textContent=="United States Laboratory Testing");
-                                      await page.waitForDelay(1000);
-                                      page.done();"""
         logger.info('Posting request...')
         response = requests.post(self.phantomjs_url, json.dumps(data))
         logger.info('Done.')
@@ -185,33 +163,21 @@ class Screenshotter():
             logger.error(f'Response status code: {response.status_code}')
             raise ValueError(f'Could not retrieve URL: {data_url}')
 
-    @staticmethod
-    def timestamped_filename(state, suffix=''):
-        # we default to .png files except for some state/suffix pairs
-        if (state, suffix) in PDF_FILES:
-            fileext = 'pdf'
-        else:
-            fileext = 'png'
+    def timestamped_filename(self, state, suffix='', fileext='png'):
+        # basename will be e.g. 'CA' if no suffix, or 'CA-secondary' if suffix is 'secondary'
         state_with_modifier = state if len(suffix) == 0 else '%s-%s' % (state, suffix)
         timestamp = datetime.now(timezone('US/Eastern')).strftime("%Y%m%d-%H%M%S")
         return "%s-%s.%s" % (state_with_modifier, timestamp, fileext)
 
-    @staticmethod
-    def get_s3_path(state, suffix=''):
-        filename = Screenshotter.timestamped_filename(state, suffix)
+    def get_s3_path(state, suffix='', fileext='png'):
+        filename = self.timestamped_filename(state, suffix, fileext=fileext)
         # CDC goes into its own top-level folder to not mess with state_screenshots
         if state == 'CDC':
             return os.path.join(state, filename)
         else:
             return os.path.join('state_screenshots', state, filename)
 
-    def get_local_path(self, state, suffix=''):
-        # basename will be e.g. 'CA' if no suffix, or 'CA-secondary' if suffix is 'secondary'
-        filename = Screenshotter.timestamped_filename(state, suffix)
-        return os.path.join(self.local_dir, filename)
-
-    def screenshot(self, state, data_url, suffix='',
-            backup_to_s3=False, replace_most_recent_snapshot=False):
+    def screenshot(self, state, data_url, suffix='', backup_to_s3=False):
         """Screenshots state data site.
 
         Parameters
@@ -227,67 +193,129 @@ class Screenshotter():
 
         backup_to_s3 : bool
             If true, will push to S3. If false, backup will be only local
-
-        replace_most_recent_snapshot : bool
-            If true, will delete the most recent S3 snapshot corresponding to this state
-            (and suffix) before pushing the one taken during this run. Largely used to manually
-            replace faulty state screenshots as we learn about them.
         """
 
         logger.info(f"Screenshotting {state} {suffix} from {data_url}")
-        local_path = self.get_local_path(state, suffix)
-        self.save_url_image_to_path(state, data_url, local_path)
+        state_config = self.get_state_config(state, suffix)
+
+        # use specified file extension if it exists, otherwise default to .png
+        if state_config and 'file' in state_config:
+            fileext = state_config['file']
+        else:
+            fileext = 'png'
+
+        timestamped_filename = self.timestamped_filename(state, suffix=suffix, fileext=fileext)
+        local_path = os.path.join(self.local_dir, timestamped_filename)
+        self.save_url_image_to_path(state, data_url, local_path, state_config)
         if backup_to_s3:
-            s3_path = self.get_s3_path(state, suffix)
-            if replace_most_recent_snapshot:
-                logger.info(f"    3a. first delete the most recent snapshot")
-                self.s3_backup.delete_most_recent_snapshot(state, suffix)
-            logger.info(f"    4. push to s3 at {s3_path}")
-            self.s3_backup.upload_file(local_path, s3_path)
+            logger.info(f"push to s3")
+            self.s3_backup.upload_file(local_path, state)
+
+
+def load_state_urls(args):
+    # get states info from API
+    url = 'https://covidtracking.com/api/states/info.csv'
+    content = requests.get(url).content
+    state_info_df = pd.read_csv(io.StringIO(content.decode('utf-8')))
+    
+    # if states are user-specified, snapshot only those
+    if args.states:
+        logger.info(f'Snapshotting states {args.states}')
+        states_list = args.states.split(',')
+        state_info_df = state_info_df[state_info_df.state.isin(states_list)]
+    else:
+        logger.info('Snapshotting all states')
+
+    state_urls = {}
+    for idx, r in state_info_df.iterrows():
+        state = r["state"]
+        data_url = r["covid19Site"]
+        secondary_data_url = r["covid19SiteSecondary"]
+        tertiary_data_url = r["covid19SiteTertiary"]
+        state_urls[state] = {
+            'primary': data_url,
+            'secondary': secondary_data_url,
+            'tertiary': tertiary_data_url,
+        }
+
+    return state_urls
+
+
+def load_crdt_urls(args):
+    crdt_urls_csv_url = 'https://docs.google.com/spreadsheets/d/1boHD1BxuZ2UY7FeLGuwXwrb8rKQLURXsmNAdtDS-AX0/gviz/tq?tqx=out:csv&sheet=Sheet1'
+    crdt_urls_df = pd.read_csv(crdt_urls_csv_url)
+
+    # if states are user-specified, snapshot only those
+    if args.states:
+        logger.info(f'Snapshotting CRDT states {args.states}')
+        states_list = args.states.split(',')
+        crdt_urls_df = crdt_urls_df[crdt_urls_df.State.isin(states_list)]
+    else:
+        logger.info('Snapshotting all CRDT states')
+
+    state_urls = {}
+    for idx, r in crdt_urls_df.iterrows():
+        state = r['State']
+        # for now, skip any links that need interaction/specific phantomJS trickery
+        if r['Interaction?'] == True or pd.isnull(r['Link 1']):
+            continue
+        data_url = r['Link 1']
+
+        secondary_data_url = r['Link 2'] if r['Interaction?.1'] == False and not pd.isnull(r['Link 2']) else None
+        tertiary_data_url = r['Link 3'] if r['Interaction?.2'] == False and not pd.isnull(r['Link 3']) else None
+
+        state_urls[state] = {
+            'primary': data_url,
+            'secondary': secondary_data_url,
+            'tertiary': tertiary_data_url,
+        }
+
+    return state_urls
 
 
 def main(args_list=None):
     if args_list is None:
         args_list = sys.argv[1:]
     args = parser.parse_args(args_list)
+    s3 = S3Backup(bucket_name=args.s3_bucket, s3_subfolder=args.s3_subfolder)
 
-    s3 = S3Backup(bucket_name=args.s3_bucket)
+    # load the config for this run
+    if args.core_urls:
+        screenshot_config_path = os.path.join(
+            os.path.dirname(__file__), 'core_screenshot_config.yaml')
+    elif args.crdt_urls:
+        screenshot_config_path = os.path.join(
+            os.path.dirname(__file__), 'crdt_screenshot_config.yaml')
+    with open(screenshot_config_path) as f:
+        config = yaml.safe_load(f)
+
     screenshotter = Screenshotter(
-        local_dir=args.temp_dir, s3_backup=s3, phantomjscloud_key=args.phantomjscloud_key)
+        local_dir=args.temp_dir, s3_backup=s3,
+        phantomjscloud_key=args.phantomjscloud_key, config=config)
 
-    # get states info from API
-    url = 'https://covidtracking.com/api/states/info.csv'
-    content = requests.get(url).content
-    state_info_df = pd.read_csv(io.StringIO(content.decode('utf-8')))
-    
+    if args.core_urls:
+        state_urls = load_state_urls(args)
+    elif args.crdt_urls:
+        state_urls = load_crdt_urls(args)
+
     failed_states = []
+    for state, urls in state_urls.items():
+        data_url = urls['primary']
+        secondary_data_url = urls['secondary']
+        tertiary_data_url = urls['tertiary']
 
-    # screenshot state images
-    if args.states:
-        logger.info(f'Snapshotting states {args.states}')
-        states_list = args.states.split(',')
-        state_info_df = state_info_df[state_info_df.state.isin(states_list)]
-
-    for idx, r in state_info_df.iterrows():
-        state = r["state"]
-        data_url = r["covid19Site"]
-        secondary_data_url = r["covid19SiteSecondary"]
-        tertiary_data_url = r["covid19SiteTertiary"]
         try:
             screenshotter.screenshot(
                 state, data_url,
-                backup_to_s3=args.push_to_s3,
-                replace_most_recent_snapshot=args.replace_most_recent_snapshot)
+                backup_to_s3=args.push_to_s3)
             if not pd.isnull(secondary_data_url):
                 screenshotter.screenshot(
                     state, secondary_data_url, suffix='secondary',
-                    backup_to_s3=args.push_to_s3,
-                    replace_most_recent_snapshot=args.replace_most_recent_snapshot)
+                    backup_to_s3=args.push_to_s3)
             if not pd.isnull(tertiary_data_url):
                 screenshotter.screenshot(
                     state, tertiary_data_url, suffix='tertiary',
-                    backup_to_s3=args.push_to_s3,
-                    replace_most_recent_snapshot=args.replace_most_recent_snapshot)
+                    backup_to_s3=args.push_to_s3)
         except:
             failed_states.append(state)
 
@@ -296,10 +324,16 @@ def main(args_list=None):
     else:
         logger.info("All required states successfully screenshotted")
 
-    # special-case: screenshot CDC "US Cases" and "US COVID Testing" tabs
-    cdc_link = 'https://www.cdc.gov/covid-data-tracker/'
-    screenshotter.screenshot('CDC', cdc_link, suffix='testing', backup_to_s3=args.push_to_s3)
-    screenshotter.screenshot('CDC', cdc_link, suffix='cases', backup_to_s3=args.push_to_s3)
+    # special-case: screenshot CDC "US Cases" and "US COVID Testing" tabs. Do this as part of the
+    # CRDT run, which is less frequent
+    if args.crdt_urls:
+        screenshotter.screenshot(
+            'CDC', 'https://www.cdc.gov/covid-data-tracker/#testing', suffix='testing',
+            backup_to_s3=args.push_to_s3)
+
+        screenshotter.screenshot(
+            'CDC', 'https://www.cdc.gov/covid-data-tracker/', suffix='cases',
+            backup_to_s3=args.push_to_s3)
 
 
 if __name__ == "__main__":
