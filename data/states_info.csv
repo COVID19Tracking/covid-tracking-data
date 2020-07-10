@@ -40,8 +40,7 @@ GA makes changes to its cumulative case counts for previous dates, so its histor
 GU,"Testing data from Guam's Situation Report is often older than case data in Guam's press releases, so there are sometimes more cases than test results. On May 4, Guam adjusted cases down from 150 to 149 because they found that the case was double counted, number of recovered was also adjusted down because 7 people were returned to isolation.
 Guam's counts include 11 people tested at the San Diego naval base.
 As of May 25, Guam is reporting people tested.",http://dphss.guam.gov/covid-19/,https://ghs.guam.gov/coronavirus-covid-20,,@guamdphss,https://ghs.guam.gov/coronavirus-covid-19,Guam,66,,false
-HI,"Data now pulled from their [new Dashboard Project](https://www.hawaiidata.org/covid19).
-As of May 16, Hawaii is reporting people tested
+HI,"As of May 16, Hawaii is reporting people tested
 On May 23, Hawaii revised down 5 cases due to updated testing information.
 On May 25, Hawaii revised down 1 cumulative hospitalization patient.
 On June 5, Hawaii revised down 1 case released from isolation.
