@@ -88,6 +88,7 @@ As of 7/7, MI updates its death figures three times a week after conducting revi
 MN,"Since March 23, Negative = Total - Positive.
 As of June 5, Minnesota reports specimens tested; because some people may be tested more than once, this number may be higher than the number of people tested.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Minnesota,27,,false
 MO,"Negative = Total - Positive. As of April 27, Missouri is reporting people tested.
+On July 19, Missouri revised the death down from 1130 to 1129.
 As of May 22, Missouri is separating out the numbers of people tested with PCR and antibody tests; we report the number of people tested with PCR tests. Total tests might be impacted.",https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php,https://missouri-coronavirus-gis-hub-mophep.hub.arcgis.com/,,@HealthyLivingMo,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,Missouri,29,,false
 MP,"As of May 16, Northern Mariana Islands is reporting specimens tested. Because some people may be tested more than once, this number is probably higher than the number of people tested",https://www.chcc.gov.mp/coronavirusinformation.php,https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,,@cnmichcc,https://www.chcc.gov.mp/coronavirusinformation.php,Northern Mariana Islands,69,,false
 MS,"Negatives = Total - Positives.
