@@ -34,7 +34,8 @@ Starting 7/11, CT is longer reporting data on weekends.",https://data.ct.gov/cor
 DC,"Positive and Negative include both public and commercial labs. As of April 27, District of Columbia is reporting people tested.
 Total tests reported by DC dropped by about 11,000 from 5/24 to 5/25.",https://coronavirus.dc.gov/page/coronavirus-surveillance-data,,,@_DCHealth,https://coronavirus.dc.gov/,District Of Columbia,11,,false
 DE,"As of April 27, Delaware is reporting people tested.
-On April 11, Delaware revised down negatives from 10415 to 9624",https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,Delaware,10,,false
+On April 11, Delaware revised down negatives from 10415 to 9624.
+On July 25, Delaware revised down total cases, confirmed positives, and total tests.",https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,Delaware,10,,false
 FL,"We report using the raw data provided by FDOH but we include both Florida residents and non-residents.
 On March 21, negatives jumped due to a methodology change: tests of people not investigated as PUIs are now included. 
 On March 26, the dashboard stopped including non-residents in its visible counts, but they're still tracked behind the scenes.  
