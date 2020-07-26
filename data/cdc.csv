@@ -1,5 +1,5 @@
-Jul 26 2020 12:32PM
-Case and Death data updated as of Jul 26 2020 12:32PM.  Testing data updated as of Jul 22 2020 12:00AM
+Jul 26 2020  5:45PM
+Case and Death data updated as of Jul 26 2020  5:45PM.  Testing data updated as of Jul 22 2020 12:00AM
 abbr,fips,jurisdiction,Total Cases,Total Death,Death_100k,CasesInLast7Days,RatePer100000
 AK,02,Alaska,2338,20,2.7,543,317
 AL,01,Alabama,78130,1456,29.8,12896,1598.4
@@ -27,7 +27,7 @@ MA,25,Massachusetts,115274,8510,123.3,2036,1670.1
 MD,24,Maryland,83748,3440,56.9,5617,1385.9
 ME,23,Maine,3814,119,8.9,168,285
 MI,26,Michigan,85622,6400,64.1,4284,857.3
-MN,27,Minnesota,50291,1571,28,4087,896.3
+MN,27,Minnesota,50291,1611,28.7,4087,896.3
 MO,29,Missouri,40709,1182,19.3,8461,664.5
 MP,69,Northern Mariana Islands,40,2,3.5,3,0
 MS,28,Mississippi,52304,1495,50.1,9665,1751.3
@@ -61,4 +61,4 @@ WA,53,Washington,51849,1494,19.8,5823,688.1
 WI,55,Wisconsin,51715,898,15.4,6616,889.6
 WV,54,West Virginia,5821,103,5.7,899,322.3
 WY,56,Wyoming,2446,25,4.3,338,423.4
-US,00,United States of America,4163892,145942,2116.2,0,1270.4
+US,00,United States of America,4163892,145982,2116.91,0,1270.4
