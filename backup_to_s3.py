@@ -58,6 +58,9 @@ group.add_argument('--screenshot-core-urls', dest='core_urls', action='store_tru
 group.add_argument('--screenshot-crdt-urls', dest='crdt_urls', action='store_true', default=False,
     help='Screenshot CRDT data URLs')
 
+group.add_argument('--screenshot-ltc-urls', dest='ltc_urls', action='store_true', default=False,
+    help='Screenshot LTC data URLs')
+
 
 class S3Backup():
 
@@ -241,33 +244,27 @@ def load_state_urls(args):
     return state_urls
 
 
-def load_crdt_urls(args):
-    crdt_urls_csv_url = 'https://docs.google.com/spreadsheets/d/1boHD1BxuZ2UY7FeLGuwXwrb8rKQLURXsmNAdtDS-AX0/gviz/tq?tqx=out:csv&sheet=Sheet1'
-    crdt_urls_df = pd.read_csv(crdt_urls_csv_url)
+def load_other_urls_from_spreadsheet(args):
+    if args.ltc_urls:
+        csv_url = 'https://docs.google.com/spreadsheets/d/1kB6lT0n4wJ2l8uP-lIOZyIVWCRJTPWLGf3Q4ZCC6pMQ/gviz/tq?tqx=out:csv&sheet=LTC_Screencap_Links'
+    elif args.crdt_urls:
+        csv_url =  'https://docs.google.com/spreadsheets/d/1boHD1BxuZ2UY7FeLGuwXwrb8rKQLURXsmNAdtDS-AX0/gviz/tq?tqx=out:csv&sheet=Sheet1' 
+    urls_df = pd.read_csv(csv_url)
 
     # if states are user-specified, snapshot only those
     if args.states:
-        logger.info(f'Snapshotting CRDT states {args.states}')
+        logger.info(f'Snapshotting states {args.states}')
         states_list = args.states.split(',')
-        crdt_urls_df = crdt_urls_df[crdt_urls_df.State.isin(states_list)]
+        urls_df = urls_df[urls_df.State.isin(states_list)]
     else:
-        logger.info('Snapshotting all CRDT states')
+        logger.info('Snapshotting all states')
 
     state_urls = {}
-    for idx, r in crdt_urls_df.iterrows():
-        state = r['State']
-        # for now, skip any links that need interaction/specific phantomJS trickery
-        if r['Interaction?'] == True or pd.isnull(r['Link 1']):
-            continue
-        data_url = r['Link 1']
-
-        secondary_data_url = r['Link 2'] if r['Interaction?.1'] == False and not pd.isnull(r['Link 2']) else None
-        tertiary_data_url = r['Link 3'] if r['Interaction?.2'] == False and not pd.isnull(r['Link 3']) else None
-
-        state_urls[state] = {
-            'primary': data_url,
-            'secondary': secondary_data_url,
-            'tertiary': tertiary_data_url,
+    for idx, r in urls_df.iterrows():
+        state_urls[r['State']] = {
+            'primary': r['Link 1'],
+            'secondary': r['Link 2'],
+            'tertiary': r['Link 3'],
         }
 
     return state_urls
@@ -281,11 +278,13 @@ def main(args_list=None):
 
     # load the config for this run
     if args.core_urls:
-        screenshot_config_path = os.path.join(
-            os.path.dirname(__file__), 'core_screenshot_config.yaml')
+        config_basename = 'core_screenshot_config.yaml'
     elif args.crdt_urls:
-        screenshot_config_path = os.path.join(
-            os.path.dirname(__file__), 'crdt_screenshot_config.yaml')
+        config_basename = 'crdt_screenshot_config.yaml'
+    elif args.ltc_urls:
+        config_basename = 'ltc_screenshot_config.yaml'
+
+    screenshot_config_path = os.path.join(os.path.dirname(__file__), config_basename)
     with open(screenshot_config_path) as f:
         config = yaml.safe_load(f)
 
@@ -295,8 +294,8 @@ def main(args_list=None):
 
     if args.core_urls:
         state_urls = load_state_urls(args)
-    elif args.crdt_urls:
-        state_urls = load_crdt_urls(args)
+    else:
+        state_urls = load_other_urls_from_spreadsheet(args)
 
     failed_states = []
     for state, urls in state_urls.items():
