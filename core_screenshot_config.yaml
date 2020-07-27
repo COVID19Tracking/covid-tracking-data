@@ -46,6 +46,17 @@ primary:
     overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
     message: waiting 60 sec to load OK
 
+  OR:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForSelector("#prefix-dismissButton");
+      page.click("#prefix-dismissButton");
+      await page.waitForDelay(5000);
+      page.click("#prefix-dismissButton");
+      await page.waitForFunction(()=>document.querySelector("#main-content").textContent!=="");
+      page.done();
+    message: clicking button to get rid of popup for OR, waiting 5 sec
+
   PA:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     renderSettings:
