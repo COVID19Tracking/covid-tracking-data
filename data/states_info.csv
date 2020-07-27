@@ -70,7 +70,7 @@ IN,"Negative = Total – Positive. Negatives are a lower bound, and may not incl
 KS,"On April 23rd, Kansas reported 112 deaths.  On April 24th, they revised this down to 111 deaths.
 As of May 7, 2020, confirmed and probable cases are included in the case totals.
 From July 1-3 we reported incorrect numbers for KS Positive Cases (PCR). We have corrected the error.
-On July 15 KS began reporting additional data from hospitals. Cumulative on ventilator dropped by 1 with no explanation. Currently hospitalized with COVID-19 data dates from 7/10. ",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,http://www.kdheks.gov/coronavirus/,,@kdhe,http://www.kdheks.gov/coronavirus/,Kansas,20,,false
+On July 15 KS began reporting additional data from hospitals. Cumulative on ventilator dropped by 1 with no explanation. Currently hospitalized with COVID-19 data dates from 7/10. ",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,http://www.kdheks.gov/coronavirus/,https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,@kdhe,http://www.kdheks.gov/coronavirus/,Kansas,20,,false
 KY,"Negative = Total - Positive.
 Positives sometimes update before totals do; when this happens, we keep the last calculated negative. As of April 27, Kentucky is reporting people tested.
 On May 23, KY revised down the total number of tests.
@@ -121,6 +121,7 @@ On May 16, New Jersey had a significant jump in recovered (about 7,000) due to b
 On June 25, New Jersey reported 1854 probable deaths that occurred in the past. This causes a perceived increase in the daily number of deaths.
 On July 8, New Jersey reported another 89 probable deaths that occurred previously. This again artificially inflated the day's reported death toll. We are waiting to receive a dated time series from NJ to properly backfill the data.
 On July 16, New Jersey decreased the number of cumulative recoveries.
+On July 19, New Jersey reported 31 fewer cases than the preceding day. We believe this drop was due to reclassifying probable cases.
 On July 20, New Jersey decreased the number of cumulative hospitalizations.
 On July 22, New Jersey reported 54 fewer probable deaths than the preceding day. These deaths may have been reclassified as either due to COVID or not due to COVID.",https://covid19.nj.gov/#live-updates,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=2,,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,New Jersey,34,,false
 NM,"[Hospitalization from NMDH](https://cv.nmhealth.org/newsroom/). Hospitalization count is people in New Mexico hospitals: it includes people who tested positive out of state but are hospitalized in New Mexico, and excludes New Mexicans who tested positive in state and transferred to a hospital out of state. As of April 27, New Mexico is reporting people tested. On 5/28 NM reported ~1100 less tests than the day before. We're unsure of the reason.",https://cvprovider.nmhealth.org/public-dashboard.html,,,@NMDOH,https://cv.nmhealth.org/,New Mexico,35,,false
