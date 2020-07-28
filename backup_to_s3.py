@@ -304,9 +304,10 @@ def main(args_list=None):
         tertiary_data_url = urls['tertiary']
 
         try:
-            screenshotter.screenshot(
-                state, data_url,
-                backup_to_s3=args.push_to_s3)
+            if not pd.isnull(data_url):
+                screenshotter.screenshot(
+                    state, data_url,
+                    backup_to_s3=args.push_to_s3)
             if not pd.isnull(secondary_data_url):
                 screenshotter.screenshot(
                     state, secondary_data_url, suffix='secondary',
