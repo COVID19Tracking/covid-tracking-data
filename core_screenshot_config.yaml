@@ -99,7 +99,11 @@ secondary:
 
   TN:
     file: pdf
-    message: downloading PDF for TX secondary
+    message: downloading PDF for TN secondary
+
+  TX:
+    file: xlsx
+    message: downloading Excel for TX secondary
 
   WA:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
