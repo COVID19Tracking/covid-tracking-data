@@ -97,6 +97,15 @@ secondary:
       page.done();
     message: custom click logic for MP secondary dashboard
 
+  PA:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForSelector("#ember65");
+      page.click("#ember65"); 
+      await page.waitForDelay(30000);
+      page.done();
+    message: custom click logic for PA secondary dashboard
+
   TN:
     file: pdf
     message: downloading PDF for TN secondary
