@@ -25,10 +25,15 @@ On July 18, Arizona’s dashboard stopped displaying the confirmed vs. probable 
 
 On July 28 and July 29, we noticed that Arizona's Currently Hospitalized statistics decreased slightly while its Cumulative Hospitalized statistics increased significantly. We are unsure of the reason.",https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,https://tableau.azdhs.gov/views/Hospitalization/HospitalizedCOVID-19Cases?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=3,https://tableau.azdhs.gov/views/ExternalEMResourceCOVIDSpecificDashboard/InpatientCOVID-19?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=yes&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=4,@azdhs,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,Arizona,04,,false
 CA,"Before April 1, California was inconsistent in the timing of reporting so we used faster-updating county sources, we then standardized on the state data dashboard(s). This led to a drop in cases and deaths, as the state's data lags county sources.
+
 The state reported a huge batch of negative tests on April 4 and again on April 22.
+
 As of April 22, California now reports specimens tested instead of people tested. Because some people may be tested more than once, this number is probably higher than the number of people tested.
+
 On July 8, California data included a backlog of data from Los Angeles County, which had not reported for several days. About 1000 of the 11,000 new cases are due to this spike in reporting.
+
 From June 29 to July 5, California made a few revisions to daily case numbers, on July 17 we updated the values based on the most recent data from their dashboard.
+
 Starting July 23, California has reported that its current hospitalization and ICU numbers are incomplete due to its transition to the HHS reporting system. We carried over hospitalization figures until July 28. We will backfill the complete numbers for July 23 - July 28 when reporting is back at 100%",https://update.covid19.ca.gov,https://public.tableau.com/views/COVID-19CasesDashboard_15931020425010/Cases?:embed=y&:showVizHome=no,https://public.tableau.com/views/COVID-19HospitalsDashboard/Hospitals?:embed=y&:showVizHome=no,@CAPublicHealth,https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx,California,06,,false
 CO,"Negative = People Tested - Cases. Cases include people who test positive for COVID-19 AND people who have symptoms of COVID-19 and are a close contact to someone who tested positive. While Colorado publishes a confirmed/probable breakdown, this breakdown pertains to cases resulting in deaths rather than death certificates with COVID-19 listed as a contributing cause. As such, we do not count from it to maintain consistency with the total deaths figure from death certificates.
 
@@ -117,9 +122,13 @@ IN,"Negative = Total – Positive. Negatives are a lower bound, and may not incl
 
 On June 23 and June 24 reported cumulative patients admitted to ICU decreased for unknown reasons.",https://www.in.gov/isdh/28470.htm,,,@statehealthin,https://www.in.gov/isdh/28470.htm,Indiana,18,,false
 KS,"On April 23, Kansas reported 112 deaths.  On April 24, they revised this down to 111 deaths.
+
 As of May 7, 2020, confirmed and probable cases are included in the case totals.
+
 From July 1 - July 3 we reported incorrect numbers for Kansas Positive Cases (PCR). We have corrected the error.
+
 On July 15, Kansas began reporting additional data from hospitals, at that time current hospitilaztion was only available through July 10. Cumulative on ventilator dropped by 1 with no explanation. 
+
 On July 27, Kansas reported a lower number of negative tests, the count went down from 252,858 to 252,764",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,http://www.kdheks.gov/coronavirus/,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,@kdhe,http://www.kdheks.gov/coronavirus/,Kansas,20,,false
 KY,"Negative = Total - Positive.
 Positives sometimes update before totals do; when this happens, we keep the last calculated negative. 
@@ -231,7 +240,10 @@ NV,"Individual data fields have different update times; we use the latest as our
 
 As of May 6, Nevada is reporting both specimens and people tested. We report positives and negatives based on the number of people tested. ",https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,http://dpbh.nv.gov/coronavirus/,,@dhhsnevada,http://dpbh.nv.gov/coronavirus/,Nevada,32,,false
 NY,"Numbers come from [press conference](https://www.governor.ny.gov). 
-Recovered = discharged. As of April 27, New York is reporting people tested. Cumulative hospitalized and recovered are calculated using the 3 day average change in hospitalization benchmarked from April 12.
+Recovered = discharged. 
+
+As of April 27, New York is reporting people tested. Cumulative hospitalized and recovered were calculated using the 3 day average change in hospitalization benchmarked from April 12.
+
 There is a significant gap between deaths reported by New York City and New York State. As of June 1, the difference between the state reported deaths, which we use, and the NYC deaths was 5740",https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Fatalities?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n,https://www.governor.ny.gov/news/governor-cuomo-updates-new-yorkers-states-progress-during-covid-19-pandemic,@healthnygov,https://www.health.ny.gov/diseases/communicable/coronavirus/,New York,36,,false
 OH,Ohio now publishes detailed [Key Metrics](https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases),https://coronavirus.ohio.gov/wps/portal/gov/covid-19/,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations,@OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,Ohio,39,,false
 OK,"[Executive Order Reports](https://coronavirus.health.ok.gov/executive-order-reports)
@@ -290,10 +302,13 @@ On July 25, Texas reported that 2092 probable cases had been removed from the st
 On July 27, Texas added 675 additional deaths through death certificate reviews. However only 44 deaths were truly new deaths on July 27. This will inflate the daily increase in deaths until the timeseries has been backfilled based on this revision 
 
 Starting July 23, Texas has reported that its current hospitalization and ICU numbers are incomplete due to its transition to the HHS reporting system. We carried over hospitalization figures until July 28. We will backfill the complete numbers for July 23 - July 28 when reporting is back at 100%.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Texas,48,,false
-UT,"Positive count includes non-Utah residents. Negative = Total - Positive. According to the state, negative test results may lag for up to 72 hours, and recovered persons is estimated by cases whose first positive laboratory test was reported at least 21 days ago, excluding deaths. 
+UT,"Positive count includes non-Utah residents. Negative = Total - Positive. According to the state, negative test results may lag for up to 72 hours.
+
 As of April 27, Utah is reporting people tested. 
+
 As of June 11, Utah reports a combined case count for total intubated patients and patients on a ventilator. We report this figure as cumulative on ventilator.",https://coronavirus-dashboard.utah.gov/,https://coronavirus-dashboard.utah.gov/#hospitalizations,,@utahdepofhealth,https://health.utah.gov/coronavirus,Utah,49,,false
 VA,"Virginia hospitalization statistics from [Hospital dashboard](https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/)  We assume the count ""hospitalized in the ICU"" includes the count ""currently on a ventilator."" Cumulative Hospitalized is computed from currently hospitalized + discharged on the Virginia Hospitals dashboard. 
+
 As of May 15, Virginia is reporting specimens tested; including both a value for PCR tests only and all tests (PCR and antibody tests combined). We report the number of PCR tests. Total tests may be impacted.",https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard?:embed=yes&:display_count=yes&:showVizHome=no&:toolbar=no,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,,@vdhgov,http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/,Virginia,51,,false
 VI,"Virgin Islands: Positive, Negative, and Pending provided. ",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,@usvidoh,https://doh.vi.gov/,US Virgin Islands,78,,false
 VT,"Negative = (Total Tested - Positives). 
