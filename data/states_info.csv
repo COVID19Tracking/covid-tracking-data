@@ -301,7 +301,9 @@ On July 25, Texas reported that 2092 probable cases had been removed from the st
 
 On July 27, Texas added 675 additional deaths through death certificate reviews. However only 44 deaths were truly new deaths on July 27. This will inflate the daily increase in deaths until the timeseries has been backfilled based on this revision 
 
-Starting July 23, Texas has reported that its current hospitalization and ICU numbers are incomplete due to its transition to the HHS reporting system. We carried over hospitalization figures until July 28. We will backfill the complete numbers for July 23 - July 28 when reporting is back at 100%.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Texas,48,,false
+Starting July 23, Texas has reported that its current hospitalization and ICU numbers are incomplete due to its transition to the HHS reporting system. We carried over hospitalization figures until July 28. We will backfill the complete numbers for July 23 - July 28 when reporting is back at 100%.
+
+On July 30, Texas posted that ""Cumulative fatalities have been corrected for July 27, 28 and 29.  As DSHS shifted to using death certificate data to count fatalities this week, an automation error caused approximately 225 fatalities to be included that did not have COVID-19 listed as a direct cause of death.""",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Texas,48,,false
 UT,"Positive count includes non-Utah residents. Negative = Total - Positive. According to the state, negative test results may lag for up to 72 hours.
 
 As of April 27, Utah is reporting people tested. 
