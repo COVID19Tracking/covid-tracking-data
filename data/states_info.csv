@@ -172,7 +172,9 @@ On June 11 Michigan DDHS provided an XLS with historical time series and we upda
 As of July 7, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, new deaths may not always reflect deaths in the past 24 hours.","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",,@MichiganHHS,https://www.michigan.gov/coronavirus,Michigan,26,,false
 MN,"Since March 23, Negative = Total - Positive.
 
-As of June 5, Minnesota reports specimens tested; because some people may be tested more than once, this number may be higher than the number of people tested.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Minnesota,27,,false
+As of June 5, Minnesota reports specimens tested; because some people may be tested more than once, this number may be higher than the number of people tested.
+
+On July 30th, Minnesota reports again number of people tested. Due to this change, the number of total tests by Minnesota will decrease by 200,000. Number of specimens tested will still be tracked and available in our API",https://www.health.state.mn.us/diseases/coronavirus/situation.html,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Minnesota,27,,false
 MO,"Negative = Total - Positive. As of April 27, Missouri is reporting people tested.
 
 On July 19, Missouri revised the death down from 1130 to 1129.
