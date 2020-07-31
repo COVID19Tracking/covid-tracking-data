@@ -151,8 +151,12 @@ MA,"MA reports both the number of tests performed and the number of people teste
 
 On June 1, MA began to release probable cases and deaths, causing total cases and total deaths to spike in our data. 
 
-On June 30, MA decreased the number of cumulative hospitalization, confirmed and probable deaths ""due to ongoing data cleaning which identifies and removes duplicate reports."" ",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Massachusetts,25,,false
-MD,"Between March 12 and March 28, Maryland did not report negative test numbers.",https://coronavirus.maryland.gov/,,,@MDHealthDept,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,Maryland,24,,false
+On June 30, MA decreased the number of cumulative hospitalization, confirmed and probable deaths ""due to ongoing data cleaning which identifies and removes duplicate reports.""
+
+On July 31, MA noted that ""Delays in the reporting of test results to DPH from multiple laboratories, including large national commercial laboratories, are reflected in today’s case counts. However, these positive test results have been assigned retrospectively to the appropriate date of test."" We will backfill our own case counts for MA as soon as possible.",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Massachusetts,25,,false
+MD,"Between March 12 and March 28, Maryland did not report negative test numbers.
+
+On July 31, we began capturing MD's data for positive results of PCR tests in units of tests (as opposed to in units of persons tested). We will backfill the time series, which begins in March. ",https://coronavirus.maryland.gov/,,,@MDHealthDept,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,Maryland,24,,false
 ME,"As of May 13, Maine is reporting total specimens tested; this number is updated once a week on Wednesdays. Because some people may be tested more than once, this number is probably higher than the number of people tested.
 
 As of May 20, Maine is separating out PCR tests and antibody tests; we report the number of PCR tests. Total testing numbers might be impacted.
