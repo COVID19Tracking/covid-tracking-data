@@ -23,7 +23,9 @@ On June 23, we updated our historical data for cumulative hospitalization to mat
 
 On July 18, Arizona’s dashboard stopped displaying the confirmed vs. probable breakdown of cases and deaths with its hover-over feature. We are going to back-fill the breakdown once Arizona provides the historical numbers.
 
-On July 28 and July 29, we noticed that Arizona's Currently Hospitalized statistics decreased slightly while its Cumulative Hospitalized statistics increased significantly. We are unsure of the reason.",https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,https://tableau.azdhs.gov/views/Hospitalization/HospitalizedCOVID-19Cases?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=3,https://tableau.azdhs.gov/views/ExternalEMResourceCOVIDSpecificDashboard/InpatientCOVID-19?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=yes&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=4,@azdhs,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,Arizona,04,,false
+On July 28 and July 29, we noticed that Arizona's Currently Hospitalized statistics decreased slightly while its Cumulative Hospitalized statistics increased significantly. We are unsure of the reason.
+
+On August 5, Arizona's dashboard resumed displaying the confirmed vs. probable breakdown of cases and deaths in the hover-over feature. ",https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,https://tableau.azdhs.gov/views/Hospitalization/HospitalizedCOVID-19Cases?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=3,https://tableau.azdhs.gov/views/ExternalEMResourceCOVIDSpecificDashboard/InpatientCOVID-19?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=yes&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=4,@azdhs,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,Arizona,04,,false
 CA,"Before April 1, California was inconsistent in the timing of reporting so we used faster-updating county sources, we then standardized on the state data dashboard(s). This led to a drop in cases and deaths, as the state's data lags county sources.
 
 The state reported a huge batch of negative tests on April 4 and again on April 22.
@@ -99,7 +101,9 @@ On May 25, Hawaii revised down 1 cumulative hospitalization patient.
 
 On June 5, Hawaii revised down 1 case released from isolation.
 
-As of June 1, Hawaii started reporting total number of unique people tested. Total tests impacted by around 6,000.",https://health.hawaii.gov/coronavirusdisease2019/,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,,@HIgov_Health,https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/,Hawaii,15,,false
+As of June 1, Hawaii started reporting total number of unique people tested. Total tests impacted by around 6,000.
+
+As of August 5, we are collecting Current Hospitalization, ICU, and Ventilator numbers from the Lt. Governor of Hawaii's Instagram account since we have determined that these are official statistics not available elsewhere. We have backfilled our time series for all available data from this source.",https://health.hawaii.gov/coronavirusdisease2019/,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,,@HIgov_Health,https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/,Hawaii,15,,false
 IA,"Not all commercial labs report negatives to Iowa, as per their guidance. As of April 27, Iowa is reporting people tested.
 
 As of May 19, Iowa is separating out the numbers of people tested with PCR and antibody tests; we report the number of people tested with PCR. Total testing numbers might be impacted.",https://coronavirus.iowa.gov/,https://coronavirus.iowa.gov/pages/access,,@IAPublicHealth,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,Iowa,19,,false
@@ -243,7 +247,7 @@ On July 29, New Jersey reported 45 fewer probable deaths than the preceding day.
 
 On August 4, New Jersey reported current hospitalizations of 470, down from the previous report of 738 on August 3
 
-",https://covid19.nj.gov/#live-updates,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=2,,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,New Jersey,34,,false
+On August 5, New Jersey did not publish the PDF in which it usually reports Cumulative Hospitalized. ",https://covid19.nj.gov/#live-updates,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=2,,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,New Jersey,34,,false
 NM,"Hospitalization count is people in New Mexico hospitals: it includes people who tested positive out of state but are hospitalized in New Mexico, and excludes New Mexicans who tested positive in state and transferred to a hospital out of state. 
 
 As of April 27, New Mexico is reporting people tested. On May 28, New Mexico reported ~1100 less tests than the day before with no explanation.",https://cvprovider.nmhealth.org/public-dashboard.html,,,@NMDOH,https://cv.nmhealth.org/,New Mexico,35,,false
@@ -325,7 +329,9 @@ As of June 11, Utah reports a combined case count for total intubated patients a
 VA,"Virginia hospitalization statistics from [Hospital dashboard](https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/)  We assume the count ""hospitalized in the ICU"" includes the count ""currently on a ventilator."" Cumulative Hospitalized is computed from currently hospitalized + discharged on the Virginia Hospitals dashboard. 
 
 As of May 15, Virginia is reporting specimens tested; including both a value for PCR tests only and all tests (PCR and antibody tests combined). We report the number of PCR tests. Total tests may be impacted.",https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard?:embed=yes&:display_count=yes&:showVizHome=no&:toolbar=no,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,,@vdhgov,http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/,Virginia,51,,false
-VI,"Virgin Islands: Positive, Negative, and Pending provided. ",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,@usvidoh,https://doh.vi.gov/,US Virgin Islands,78,,false
+VI,"Virgin Islands: Positive, Negative, and Pending provided. 
+
+On August 5, the US Virgin Islands COVID-19 page apparently reported an old count of Tested persons from 8/1, but reported a new count of Tested persons in its Situation Report. We used the number from the Situation Report. ",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,@usvidoh,https://doh.vi.gov/,US Virgin Islands,78,,false
 VT,"Negative = (Total Tested - Positives). 
 
 Vermont reports both Currently Hospitalized (implicitly, confirmed cases only) and Hospitalized Under Investigation. For Currently Hospitalized, we sum these two numbers. 
@@ -349,8 +355,7 @@ On July 11, WA revised its hospitalizations down by 3 from 4665 to 4662.
 
 On July 14, Washington state removed 39 deaths from its counts where, though the individual who died tested positive, COVID was not a contributing cause in their death. 
 
-On August 3, Washington DOH reported ""DOH is continuing to experience issues with its reporting system today. We are able to report cases, deaths and hospitalizations but are not reporting negative test results from 8/2.""
-",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Washington,53,,false
+On August 3, Washington DOH reported ""DOH is continuing to experience issues with its reporting system today.  We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Washington,53,,false
 WI,"Negatives include only Wisconsin residents whose negative test results were reported electronically to DHS. This underestimates total negative test results. 
 
 Deaths must be reported by health providers or coroners, and recorded by local health departments, to be counted. 
