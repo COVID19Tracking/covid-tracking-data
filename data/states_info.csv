@@ -159,7 +159,9 @@ On June 1, MA began to release probable cases and deaths, causing total cases an
 
 On June 30, MA decreased the number of cumulative hospitalization, confirmed and probable deaths ""due to ongoing data cleaning which identifies and removes duplicate reports.""
 
-On July 31, MA noted that ""Delays in the reporting of test results to DPH from multiple laboratories, including large national commercial laboratories, are reflected in today’s case counts. However, these positive test results have been assigned retrospectively to the appropriate date of test."" We will backfill our own case counts for MA as soon as possible.",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Massachusetts,25,,false
+On July 31, MA noted that ""Delays in the reporting of test results to DPH from multiple laboratories, including large national commercial laboratories, are reflected in today’s case counts. However, these positive test results have been assigned retrospectively to the appropriate date of test."" We will backfill our own case counts for MA as soon as possible.
+
+On August 5, MA did not publish data by our collection time. A note on their site said ""Significant IT issues are impacting the production of today's data report. It will be posted as soon as it is available.""",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Massachusetts,25,,false
 MD,"Between March 12 and March 28, Maryland did not report negative test numbers.
 
 On July 31, we began capturing MD's data for positive results of PCR tests in units of tests (as opposed to in units of persons tested). We will backfill the time series, which begins in March. ",https://coronavirus.maryland.gov/,,,@MDHealthDept,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,Maryland,24,,false
@@ -355,7 +357,7 @@ On July 11, WA revised its hospitalizations down by 3 from 4665 to 4662.
 
 On July 14, Washington state removed 39 deaths from its counts where, though the individual who died tested positive, COVID was not a contributing cause in their death. 
 
-On August 3, Washington DOH reported ""DOH is continuing to experience issues with its reporting system today.  We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Washington,53,,false
+Starting August 3, Washington DOH reported ""DOH is continuing to experience issues with its reporting system today.  We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Washington,53,,false
 WI,"Negatives include only Wisconsin residents whose negative test results were reported electronically to DHS. This underestimates total negative test results. 
 
 Deaths must be reported by health providers or coroners, and recorded by local health departments, to be counted. 
