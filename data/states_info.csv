@@ -229,13 +229,9 @@ NH,"On May 4, New Hampshire revised the recovered down from 1107 to 1017. Negati
 As of May 25, New Hampshire is separating out the numbers of people tested with PCR and antibody tests; we report the number of people tested with PCR tests.
 
 On June 13, New Hampshire revised its hospitalizations down from 504 to 503, removing cases that were not New Hampshire residents.",https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,https://www.nh.gov/covid19/dashboard/summary.htm,,@NHPubHealth,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,New Hampshire,33,,false
-NJ,"Positive count includes deaths. Hospitalization + ICU counts include both positive cases and persons under investigation. As of May 11, New Jersey is reporting total PCR specimens tested.
+NJ,"""Positive count includes deaths. Hospitalization + ICU counts include both positive cases and persons under investigation. As of May 11, New Jersey is reporting total PCR specimens tested.
 
 On May 16, New Jersey had a significant jump in recovered (about 7,000) due to backfilling previous days after a shift in how this figure was reported on April 28.
-
-On June 25, New Jersey reported 1854 probable deaths that occurred in the past. This causes a perceived increase in the daily number of deaths.
-
-On July 8, New Jersey reported another 89 probable deaths that occurred previously. This again artificially inflated the day's reported death toll. We are waiting to receive a dated time series from NJ to properly backfill the data.
 
 On July 16, New Jersey decreased the number of cumulative recoveries.
 
@@ -243,13 +239,11 @@ On July 19, New Jersey reported 31 fewer cases than the preceding day. We believ
 
 On July 20, New Jersey decreased the number of cumulative hospitalizations.
 
-On July 22, New Jersey reported 54 fewer probable deaths than the preceding day. These deaths may have been reclassified as either due to COVID or not due to COVID.
-
-On July 29, New Jersey reported 45 fewer probable deaths than the preceding day. These deaths may have been reclassified as either due to COVID or not due to COVID.
-
 On August 4, New Jersey reported current hospitalizations of 470, down from the previous report of 738 on August 3
 
-Beginning on August 5, New Jersey is not publishing the PDF in which it usually reports Cumulative Hospitalized.",https://covid19.nj.gov/#live-updates,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=2,,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,New Jersey,34,,false
+Beginning on August 5, New Jersey is not publishing the PDF in which it usually reports Cumulative Hospitalized.""
+
+On August 7th, we backfilled New Jersey's probable deaths based on a state-provided time series of probable deaths by death date. We also updated historical values for the total death column so that it combines confirmed deaths by date reported on the NJ dashboard with probable deaths by death date. This removed some previous dramatic changes in the total death number that were due to sporadic reporting of probable deaths (e.g. 1854 all reported on June 25, decreases in deaths on 7/22 and 7/29, etc.).",https://covid19.nj.gov/#live-updates,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=2,,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,New Jersey,34,,false
 NM,"Hospitalization count is people in New Mexico hospitals: it includes people who tested positive out of state but are hospitalized in New Mexico, and excludes New Mexicans who tested positive in state and transferred to a hospital out of state. 
 
 As of April 27, New Mexico is reporting people tested. On May 28, New Mexico reported ~1100 less tests than the day before with no explanation.",https://cvprovider.nmhealth.org/public-dashboard.html,,,@NMDOH,https://cv.nmhealth.org/,New Mexico,35,,false
