@@ -75,6 +75,8 @@ On March 21, negatives jumped due to a methodology change: tests of people not i
 
 On March 26, the dashboard stopped including non-residents in its visible counts, but they're still tracked behind the scenes.  
 
+Per reporting [https://www.miamiherald.com/news/coronavirus/article241882491.html], the number of pending tests might be an under-count since it might include only public labs.
+
 As of May 15, Florida is reporting both specimens (PCR and antibody) and people tested. We report positives and negatives based on the number of people tested. However, the ""people tested"" number reported on Florida's dashboard has come into question as of May 31, because this number is not fully de-duplicated. Florida's report states that: ""People tested on multiple days will be included for each day a new result was received.""
 
 As of July 2, Florida is reporting PCR and antigen tests together.
