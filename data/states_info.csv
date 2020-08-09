@@ -83,8 +83,6 @@ As of July 2, Florida is reporting PCR and antigen tests together.
 
 As of July 10, Florida is reporting current hospitalizations as those with a ""primary diagnosis of COVID-19.""
 
-On August 7, FL did not update their dashboard or publicly available ArcGIS data by our publication time. We used the data reported on their state report to report the state's data. The state report only includes the cumulative number of Florida residents hospitalized so we carried over yesterday's cumulative number of non-Florida residents (384) who were hospitalized in the state .
-
 On August 9, Florida did not update non-resident hospitalizations or deaths on their dashboard or publicly available ArcGIS data by our publication time. We used the data reported on their state report to report the state's data. The state report only includes Florida residents in their data so we carried over yesterday's cumulative number of non-Florida residents (388) who were hospitalized in the state as well as yesterday's number of non-Florida resident deaths (129).",https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,https://o-vid.herokuapp.com/florida,https://bi.ahca.myflorida.com/t/ABICC/views/Public/COVIDHospitalizationsCounty?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y,@HealthyFla,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,Florida,12,,false
 GA,"Positive includes deaths. Positives occasionally update before totals.
 We use the state's ""as of"" time as our Update Time. 
