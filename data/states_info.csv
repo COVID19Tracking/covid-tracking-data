@@ -37,9 +37,7 @@ On July 8, California data included a backlog of data from Los Angeles County, w
 From June 29 to July 5, California made a few revisions to daily case numbers, on July 17 we updated the values based on the most recent data from their dashboard.
 
 Starting July 23, California has reported that its current hospitalization and ICU numbers are incomplete due to its transition to the HHS reporting system. We carried over hospitalization figures until July 28. We will backfill the complete numbers for July 23 - July 28 when reporting is back at 100%",https://update.covid19.ca.gov,https://public.tableau.com/views/COVID-19CasesDashboard_15931020425010/Cases?:embed=y&:showVizHome=no,https://public.tableau.com/views/COVID-19HospitalsDashboard/Hospitals?:embed=y&:showVizHome=no,@CAPublicHealth,https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx,California,06,,false
-CO,"Negative = People Tested - Cases. Cases include people who test positive for COVID-19 AND people who have symptoms of COVID-19 and are a close contact to someone who tested positive. While Colorado publishes a confirmed/probable breakdown, this breakdown pertains to cases resulting in deaths rather than death certificates with COVID-19 listed as a contributing cause. As such, we do not count from it to maintain consistency with the total deaths figure from death certificates.
-
-As of April 27, Colorado is reporting people tested. 
+CO,"Negative = People Tested - Cases. Cases include people who test positive for COVID-19 AND people who have symptoms of COVID-19 and are a close contact to someone who tested positive. While Colorado publishes a confirmed/probable breakdown, this breakdown pertains to cases resulting in deaths rather than death certificates with COVID-19 listed as a contributing cause. As such, we do not count from it to maintain consistency with the total deaths figure from death certificates. 
 
 On June 14, Colorado revised some previous daily discharged number. This caused an overall decline in their recovered count. 
 
