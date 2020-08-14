@@ -45,7 +45,9 @@ On May 15 (which we caught on our update May 16), Colorado started providing a n
 
 On July 16, Colorado decreased the cumulative hospitalization number by 13.
 
-On July 27, Colorado posted a notice that, ""Due to a server issue yesterday and today with our electronic laboratory reporting system, the number of tests completed and cases reported today, July 27, may be artificially low."" We report Colorado data a day after posting due to timing, so this note applies to the data published on July 28.",https://covid19.colorado.gov/case-data,https://covid19.colorado.gov/covid-19-data,https://covid19.colorado.gov/hospital-data,@cdphe,https://www.colorado.gov/pacific/cdphe/2019-novel-coronavirus,Colorado,08,,false
+On July 27, Colorado posted a notice that, ""Due to a server issue yesterday and today with our electronic laboratory reporting system, the number of tests completed and cases reported today, July 27, may be artificially low."" We report Colorado data a day after posting due to timing, so this note applies to the data published on July 28.
+
+As of August 13, Colorado's total test results reflect total test encounters. The number of unique people tested is available in our API as totalTestsPeopleViral.",https://covid19.colorado.gov/case-data,https://covid19.colorado.gov/covid-19-data,https://covid19.colorado.gov/hospital-data,@cdphe,https://www.colorado.gov/pacific/cdphe/2019-novel-coronavirus,Colorado,08,,false
 CT,"Negative = Total - Positive.  
 Positives occasionally update before totals do; we do not revise negatives down, keep the last calculated negative.
 
