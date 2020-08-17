@@ -1,2 +1,1 @@
-date,states,positive,negative,pending,hospitalizedCurrently,hospitalizedCumulative,inIcuCurrently,inIcuCumulative,onVentilatorCurrently,onVentilatorCumulative,recovered,dateChecked,death,hospitalized,lastModified,total,totalTestResults,posNeg,deathIncrease,hospitalizedIncrease,negativeIncrease,positiveIncrease,totalTestResultsIncrease,hash
-20200816,56,5379370,61590420,4302,44029,347664,8944,15924,2481,1665,1833067,2020-08-16T00:00:00Z,161992,347664,2020-08-16T00:00:00Z,66974092,66969790,66969790,619,644,734561,43008,777569,bb3b03d3643ee473c72bab12bb89b9bf2e5420cf
+Redirecting to https://api.covidtracking.com/v1/us/current.csv
