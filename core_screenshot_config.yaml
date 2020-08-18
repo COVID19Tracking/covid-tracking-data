@@ -124,6 +124,10 @@ secondary:
 
 tertiary:
 
+  KY:
+    file: pdf
+    message: downloading PDF for KY tertiary
+
   NC:
     overseerScript: >
       page.manualWait();
