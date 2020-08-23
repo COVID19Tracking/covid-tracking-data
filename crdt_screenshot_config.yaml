@@ -23,6 +23,13 @@ primary:
       page.done();
     message: custom mouseover logic for AZ, wait 10 sec
 
+  CA:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 6500
+    message: using viewport height 6500 for CA
+
   CT:
     file: pdf
     message: downloading pdf for CT
