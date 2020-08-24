@@ -116,9 +116,13 @@ function getS3Data(marker, info) {
             .done(function(data) {
                 var xml = $(data);
                 var newInfo = getInfoFromS3Data(xml);
-                info = info === undefined ? newInfo : info;
-                info.files.push(...newInfo.files);
-                info.directories.push(...newInfo.directories);
+
+                if (info === undefined) {
+                    info = newInfo;
+                } else {
+                    info.files.push(...newInfo.files);
+                    info.directories.push(...newInfo.directories);
+                }
 
                 if (newInfo.nextMarker != "null") {
                     getS3Data(newInfo.nextMarker, info);
