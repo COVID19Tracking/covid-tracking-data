@@ -1,1 +1,2 @@
-Redirecting to https://api.covidtracking.com/v1/counties.csv
+{"error": true,
+"message": "Data not found. Note that state codes in URLs should be lower case, for example, /api/v1/states/ca/info.json instead of /api/v1/states/CA/info.json."}
