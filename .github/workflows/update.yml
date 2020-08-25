@@ -18,12 +18,12 @@ jobs:
     
     - name: Download files
       run: |
-        curl https://covidtracking.com/api/v1/states/current.csv -o data/states_current.csv
-        curl https://covidtracking.com/api/v1/states/daily.csv -o data/states_daily_4pm_et.csv
-        curl https://covidtracking.com/api/v1/states/info.csv -o data/states_info.csv
-        curl https://covidtracking.com/api/v1/us/current.csv -o data/us_current.csv
-        curl https://covidtracking.com/api/v1/us/daily.csv -o data/us_daily.csv
-        curl https://covidtracking.com/api/v1/counties.csv -o data/counties.csv
+        curl https://api.covidtracking.com/v1/states/current.csv -o data/states_current.csv
+        curl https://api.covidtracking.com/v1/states/daily.csv -o data/states_daily_4pm_et.csv
+        curl https://api.covidtracking.com/v1/states/info.csv -o data/states_info.csv
+        curl https://api.covidtracking.com/v1/us/current.csv -o data/us_current.csv
+        curl https://api.covidtracking.com/v1/us/daily.csv -o data/us_daily.csv
+        curl https://api.covidtracking.com/v1/counties.csv -o data/counties.csv
 
         curl https://www.cdc.gov/covid-data-tracker/Content/CoronaViewJson_01/US_MAP_DATA.csv -o data/cdc.csv
         curl https://www.cdc.gov/covid-data-tracker/Content/CoronaViewJson_01/us_trend_data.json -o data/cdc_trend.json
