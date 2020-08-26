@@ -263,6 +263,8 @@ On July 14, 2020, Washington state revised its count of COVID-19 **deaths** down
 
 On August 2, 2020, Washington state Department of Health reported that ""DOH is continuing to experience issues with its reporting system today. We are able to report cases, deaths and hospitalizations but have not reported new negative test results since 8/1.""
 
+On August 26, 2020, Washington switched its total tests units to testing encounters, excluding future encounters from individuals who test positive. It also provided a full timeseries of the figure. This testing encounters figure is slightly different from how we define testing encounters in two ways: first, our definition of testing encounters includes encounters after a positive test, and second, it should be calculated not by summing resulted tests but by counting all daily tests in a separate reporting stream. Despite these differences, the historical and current values of Washington’s figure are still stored in our **Total PCR tests (test encounters)** field.
+
 Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
 ",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Washington,53,,false
 WI,"On March 30, 2020, Wisconsin revised its cumulative **Negative PCR tests (people)** data downward without explanation.
@@ -287,6 +289,8 @@ On April 22, 2020, Wyoming revised its **Total PCR tests (specimens)** downward,
 On April 28, 2020, we began to report **probable cases** together with **confirmed cases**.
 
 On June 19, 2020, Wyoming began reporting the **Total PCR tests (people)** as well as **Total PCR tests (specimens)**.
+
+On August 26, 2020, Wyoming did not report *Total PCR tests (people).** We have carried over the previous day's value.
 
 Wyoming reports both **Positive tests PCR (specimens)** and **Negative tests PCR (specimens)** as percentages of **Total tests PCR**. We convert these percentages to integers. Wyoming reports the number of people currently hospitalized with COVID-19 in each hospital: we sum these values for the state total. Wyoming reports the number of people ever hospitalized with COVID-19 as a percentage: we convert this percentage to an integer. Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 ",https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-testing-data/,@health_wyoming,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,Wyoming,56,,false
