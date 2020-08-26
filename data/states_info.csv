@@ -263,7 +263,7 @@ In early June of 2020, Wisconsin started reporting probable cases of COVID-19 se
 
 In early June of 2020, Wisconsin started reporting probable deaths from COVID-19 separately from confirmed deaths from COVID-19. We did not discover this data until June 29, 2020, and so our time series only has data for this metric beginning on that date.
 ",https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm,@DHSWI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,Wisconsin,55,,false
-WV,"On April 16, 2020, West Virginia began reporting **hospitalization, ICU, and ventilator** metrics from 49 of 55 counties. Before April 16, 2020, those counts were less complete, as they were based on completed investigations rather than on hospital data.
+WV,"On April 16, 2020, West Virginia began reporting **current hospitalization, ICU, and ventilator** metrics from 49 of 55 counties. Before April 16, 2020, those counts were less complete, as they were based on completed investigations rather than on hospital data.
 
 On May 23, 2020, West Virginia began reporting PCR and antibody tests separately. Total test values before this date might include both PCR and antibody tests.
 
