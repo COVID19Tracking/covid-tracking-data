@@ -129,6 +129,8 @@ On July 31, 2020, Massachusetts noted that ""Delays in the reporting of test res
 
 On August 12, 2020, Massachusetts began reporting **probable cases** weekly instead of daily. This can lead to apparent spikes in the data when the weekly numbers are incorporated, as happened on August 19. Beginning August 20, 2020, we will use the daily total case count from the race and ethnicity section of the dashboard, which includes both confirmed and probable cases, and will backfill the previous week's case counts.
 
+On August 31, 2020 we updated Massachusetts' **Total PCR Tests (specimens)** before August 12, 2020 based on the state's ""Tests by Date"" dataset, extending the column back to January 22, 2020.
+
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
 
@@ -255,9 +257,13 @@ On Aug 7, 2020, due to the release of a backlog, Virginia reoprted an abnormally
 
 On August 27, the VA dashboard did not update by our publish time. We are carrying over the values from August 26
 
+On August 31, 2020 we began publishing **Positive PCR tests (specimens)** for Virginia. This data has been collected daily since July 21, 2020. Previous data going back to February 27, 2020 was taken from state historical data as of July 21. Historical data for **Total PCR Tests (encounters)** before July 21, 2020 was updated based on the same dataset, extending the column back to February 27, 2020 as well.
+
 **Ever hospitalized** is calculated from the ""currently hospitalized"" and ""discharged"" data points on the Virginia Hospital COVID-19 dashboard. 
 
-Negative test results reported in our API and CSVs are calculated by subtracting ""Positive PCR tests (people)"" from ""Total PCR tests (test encounters)"" in the absence of better data.",https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard?:embed=yes&:display_count=yes&:showVizHome=no&:toolbar=no,@vdhgov,http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/,Virginia,51,,false
+Negative test results reported in our API and CSVs are calculated by subtracting ""Positive PCR tests (people)"" from ""Total PCR tests (test encounters)"" in the absence of better data.
+
+",https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard?:embed=yes&:display_count=yes&:showVizHome=no&:toolbar=no,@vdhgov,http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/,Virginia,51,,false
 VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, **Negative PCR tests**, and **Pending tests**.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,@usvidoh,https://doh.vi.gov/,US Virgin Islands,78,,false
 VT,"Between May 15 and May 16, 2020, Vermont's **total tests** decreased by about 1,000 tests with no explanation.
 
