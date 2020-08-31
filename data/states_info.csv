@@ -60,7 +60,7 @@ DE,"On April 11, 2020, Delaware revised down negative test results from 10,415 t
 
 On July 25, 2020, Delaware revised down total cases, confirmed positives, and total tests.
 
-On August 27, 2020, Delaware revised down total cases and confirmed positives. This is a semi-regular occurrence which will impact Delware's number occasionally. ",https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,Delaware,10,,false
+On August 27, 2020, Delaware revised down total cases and confirmed positives. This is a semi-regular occurrence which will impact Delware's number occasionally. ",https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,Delaware,10,,false
 FL,"We include data about Florida non-residents in all metrics where possible. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
 
 On March 21, 2020, Florida began including tests of people not investigated as PUIs in its **Negative PCR tests** metric. 
