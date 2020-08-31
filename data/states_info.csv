@@ -18,6 +18,8 @@ From July 18–August 5, 2020, Arizona’s dashboard stopped displaying confirme
 
 On July 28 and July 29, 2020, we noticed that Arizona's numbers for their **Now hospitalized** decreased slightly, while those for **Ever hospitalized** increased significantly. The state offered no explanation.
 
+""On August 30 and August 31, the Arizona Department of Health removed duplicate case records from their data. As a result, total deaths decreased by 1 on August 31, and cumulative hospitalizations decreased on August 30 and August 31"" 
+
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,https://tableau.azdhs.gov/views/Hospitalization/HospitalizedCOVID-19Cases?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=3,https://tableau.azdhs.gov/views/ExternalEMResourceCOVIDSpecificDashboard/InpatientCOVID-19?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=yes&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=4,@azdhs,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,Arizona,04,,false
 CA,"Prior to April 1, 2020, we used county data sources for more reliably timely reporting of California's COVID-19 data. At the start of April, we began reporting primarily from the state data dashboard(s). This led to a modest drop in **cases** and **deaths**, as the state's data lags behind the county sources.
 
@@ -133,7 +135,7 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 ",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Massachusetts,25,,false
 MD,"Between March 12 and March 28, 2020, Maryland did not report data for **negative tests**.
 
-On July 31, 2020, we began capturing Maryland's data for **Positive PCR tests (specimens)**. We plan to back-fill the state's historical time-series for this metric, which begins in March. ",https://coronavirus.maryland.gov/,,,@MDHealthDept,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,Maryland,24,,false
+On July 31, 2020, we began capturing Maryland's data for **Positive PCR tests (specimens)**. On August 31 2020 , we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.",https://coronavirus.maryland.gov/,,,@MDHealthDept,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,Maryland,24,,false
 ME,"As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
 
 On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
