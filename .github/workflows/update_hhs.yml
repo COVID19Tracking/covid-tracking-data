@@ -19,7 +19,8 @@ jobs:
     - name: Download files
       run: |
         HHS_HOSP_LINK=`curl -k https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state | grep -Eo "https?://\S+?\.csv"`
-        cd data/hhs && { curl -k $HHS_HOSP_LINK -O; cd -; }
+        HHS_TEST_LINK=`curl -k https://healthdata.gov/dataset/covid-19-diagnostic-laboratory-testing-pcr-testing-time-series | grep -Eo "https?://\S+?\.csv"`
+        cd data/hhs && { curl -k $HHS_HOSP_LINK -O; curl -k $HHS_TEST_LINK -O; cd -; }
 
     - name: Commit
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
