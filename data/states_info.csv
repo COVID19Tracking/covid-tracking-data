@@ -77,6 +77,8 @@ As of July 10, 2020, Florida reports **Now hospitalized** data for those patient
 
 On August 12, 2020, the Florida Department of Health reported via Twitter that it had received a large backlog of testing data from Niznik Lab Corp in Miami: ""The lab reported over 4000 cases occurring over the last 7 weeks, but which had not been reported to FDOH until today. Therefore, this backlog severely skews today's daily report for Miami-Dade and is not reflective of current trends.""
 
+On September 1, 2020, the Florida Department of Health [announced](http://www.floridahealth.gov/newsroom/2020/09/090120-1112-covid19.pr.html) that Quest Diagnostics had reported nearly 75,000 backlogged tests dating as far back as April.
+
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.",https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,https://floridahealthcovid19.gov/,https://bi.ahca.myflorida.com/t/ABICC/views/Public/COVIDHospitalizationsCounty?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y,@HealthyFla,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,Florida,12,,false
 GA,"As of May 27, 2020, Georgia reports antibody tests separately from PCR tests. This change reduced the number for total tests by approximately 74,000.
 
