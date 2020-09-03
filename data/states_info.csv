@@ -1,10 +1,14 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,name,fips,pui,pum
-AK,"Alaska reports a ""Total count"" of people who have been hospitalized, but we do not record that count in our **Ever hospitalized** metric, since it does not include people who are currently in the hospital.
+AK,"Alaska combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+Alaska reports a ""Total count"" of people who have been hospitalized, but we do not record that count in our **Ever hospitalized** metric, since it does not include people who are currently in the hospital.
 
 As of July 16, 2020, we are reporting non-resident cases as part of **Cases or Positive PCR tests (people)** for Alaska.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/monitoring.aspx,https://experience.arcgis.com/experience/ed1c874ca60b4c15ab09095a070065ca,https://alaska-dhss.maps.arcgis.com/apps/opsdashboard/index.html#/8782a14ef52342e99f866a3b8a3e624a,@Alaska_DHSS,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,Specimens,totalTestsViral,Alaska,02,,false
-AL,"On July 11, 2020, Alabama began using direct reports from hospitals for cumulative hospitalizations (which we report in our **Ever hospitalized** metric), rather than state case surveillance. Its number of cumulative hospitalizations increased by 3,616 from 3,129 to 6,745 as a result. 
+AL,"Alabama combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+On July 11, 2020, Alabama began using direct reports from hospitals for cumulative hospitalizations (which we report in our **Ever hospitalized** metric), rather than state case surveillance. Its number of cumulative hospitalizations increased by 3,616 from 3,129 to 6,745 as a result. 
 
 On July 15, 2020, we changed our data reporting to reflect that Alabama reports test totals in specimens rather than unique people tested, as we had initially believed. All test results were moved into the correct API field and metric.
 
@@ -65,13 +69,11 @@ DE,"On April 11, 2020, Delaware revised down negative test results from 10,415 t
 On July 25, 2020, Delaware revised down total cases, confirmed positives, and total tests.
 
 On August 27, 2020, Delaware revised down total cases and confirmed positives. This is a semi-regular occurrence which will impact Delware's number occasionally. ",https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,People,posNeg,Delaware,10,,false
-FL,"We include data about Florida non-residents in all metrics where possible. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
+FL,"Florida combines PCR and antigen tests in the total tests figure reported on the state's dashboard (first noted July 2, 2020). We include data about Florida non-residents in all metrics where possible. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
 
 On March 21, 2020, Florida began including tests of people not investigated as PUIs in its **Negative PCR tests** metric. 
 
 As of May 15, 2020, Florida appears to report **total tests** in people and in units that resemble specimens (for both PCR and antibody tests, reported separately). We continue to attempt to clarify how all of Florida's testing data is deduplicated.
-
-As of July 2, 2020, Florida reports PCR and antigen tests together.
 
 As of July 10, 2020, Florida reports **Now hospitalized** data for those patients with a ""primary diagnosis of COVID-19.""
 
@@ -106,7 +108,9 @@ On August 4, 2020, after another period of missing data for **Hospitalized now**
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data. ",https://coronavirus.idaho.gov/,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard_V2/Story1?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y&%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true,,@IDHW,https://coronavirus.idaho.gov/,Specimens,totalTestsViral,Idaho,16,,false
 IL,Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,http://www.dph.illinois.gov/covid19/hospitalization-utilization,,@IDPH,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,Specimens,posNeg,Illinois,17,,false
-IN,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,,@statehealthin,https://www.in.gov/isdh/28470.htm,People,posNeg,Indiana,18,,false
+IN,"Indiana combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,,@statehealthin,https://www.in.gov/isdh/28470.htm,People,posNeg,Indiana,18,,false
 KS,"As of May 7, 2020, **confirmed and probable cases** are included in the case totals.
 
 From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or Positive PCR tests (people)**. We have corrected the error.
@@ -149,7 +153,9 @@ ME,"As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
 On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,,,@mainedhhs,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Specimens,posNeg,Maine,23,,false
-MI,"On June 11, 2020, we updated our historical data from a spreadsheet provided by Michigan's Department of Health and Human Services in order to reflect the lab-reported dates of **probable and confirmed cases** and **probable and confirmed deaths** by date of death.
+MI,"Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+On June 11, 2020, we updated our historical data from a spreadsheet provided by Michigan's Department of Health and Human Services in order to reflect the lab-reported dates of **probable and confirmed cases** and **probable and confirmed deaths** by date of death.
 
 As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
 
@@ -256,7 +262,9 @@ On August 2, 2020, Texas noted that ""New data will not be posted on this dashbo
 As of August 16, 2020, several commercial laboratories submitted previously backlogged test results to the Texas Department of State Health Services. As a result, new confirmed cases may not have occurred in the past 24 hours. The Texas Department of State Health Services is working to resolve these issues.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Specimens,posNeg,Texas,48,,false
-UT,"As of June 11, 2020, Utah reports a combined case count for total intubated patients and patients on a ventilator. We report this figure as **Ever on ventilator**.
+UT,"Utah combines PCR and antigen tests in the top-line total tests figure reported on the state's dashboard. The state does provide antigen and PCR tests results in a stacked bar chart on the dashboard, but the numbers can only be obtained by rolling over tiny targets on the provided bars, making them very difficult to record and verify. We have requested complete historical antigen and PCR testing data from the state.
+
+As of June 11, 2020, Utah reports a combined case count for total intubated patients and patients on a ventilator. We report this figure as **Ever on ventilator**.
 
 As of July 16, 2020, Utah is reporting both specimens and people tested. We report positives and negatives based on the number of people tested. 
 
