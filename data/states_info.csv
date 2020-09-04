@@ -115,7 +115,9 @@ IL,Negative test results reported in our API and CSVs are calculated by subtract
 IN,"Indiana combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,,@statehealthin,https://www.in.gov/isdh/28470.htm,People,posNeg,Indiana,18,,false
-KS,"As of May 7, 2020, **confirmed and probable cases** are included in the case totals.
+KS,"Kansas combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+As of May 7, 2020, **confirmed and probable cases** are included in the case totals.
 
 From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or Positive PCR tests (people)**. We have corrected the error.
 
@@ -154,7 +156,9 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 MD,"Between March 12 and March 28, 2020, Maryland did not report data for **negative tests**.
 
 On July 31, 2020, we began capturing Maryland's data for **Positive PCR tests (specimens)**. On August 31 2020 , we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.",https://coronavirus.maryland.gov/,,,@MDHealthDept,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,Specimens,totalTestsViral,Maryland,24,,false
-ME,"As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
+ME,"Maine combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+As of May 20, 2020, Maine reports PCR tests and antibody tests separately.
 
 On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
 
@@ -189,7 +193,7 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 ND,"On May 3, 2020, North Dakota began reporting two additional **death** metrics: deaths of people with lab-confirmed cases of COVID-19 whose death records are still pending and deaths of people with lab-confirmed cases of COVID-19 whose death certificates do not list COVID-19 as a cause of death. As of July 1, 2020, we have edited our historical figures to exclude these numbers from our death counts, resulting in an apparent drop from 24 deaths on May 2 to 16 on May 3. 
 
 On August 19, 2020, North Dakota launched a new dashboard with a number of new data points, including race and ethnicity data and ICU data. ",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,People,posNeg,North Dakota,38,,false
-NE,,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,,,@NEDHHS,http://dhhs.ne.gov/Pages/Coronavirus.aspx,People,totalTestsPeopleViral,Nebraska,31,,false
+NE,Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard.,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,,,@NEDHHS,http://dhhs.ne.gov/Pages/Coronavirus.aspx,People,totalTestsPeopleViral,Nebraska,31,,false
 NH,"As of May 25, 2020, New Hampshire reports PCR tests separately from antibody tests.
 
 On September 2, 2020, New Hampshire did not update their dashboards or summary report by the time of our update.
@@ -221,7 +225,7 @@ Oklahoma noted that reported **Total cases** numbers for July 19 and July 20 wer
 OR,"As of June 6th, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.
 
 ",https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19TestingandOutcomesbyCounty/OregonsCOVID-19TestingandOutcomesbyCounty?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false,@OHAOregon,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,People,posNeg,Oregon,41,,false
-PA,"On April 23, 2020, Pennsylvania revised down its total **Deaths (confirmed and probable)** from 1,622 to 1,421 to exclude some probable deaths that needed further confirmation to be linked to COVID-19.",https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://pema.maps.arcgis.com/apps/opsdashboard/index.html?rand_1596123643354=1596123643354#/034bec0bab3b450888a32012f81b8fe4,,@PAHealthDept,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,Unclear units,totalTestsViral,Pennsylvania,42,,false
+PA,"On April 23, 2020, Pennsylvania revised down its total **Deaths (confirmed and probable)** from 1,622 to 1,421 to exclude some probable deaths that needed further confirmation to be linked to COVID-19.",https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://pema.maps.arcgis.com/apps/opsdashboard/index.html?rand_1596123643354=1596123643354#/034bec0bab3b450888a32012f81b8fe4,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Coronavirus.aspx,@PAHealthDept,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,People,totalTestsPeopleViral,Pennsylvania,42,,false
 PR,"On April 22, 2020, Puerto Rico's data changed due to deduplication. This resulted in a decrease in **Total cases**.
 
 On May 6, 2020, Puerto Rico stopped reporting **Negative PCR tests**.
@@ -231,7 +235,9 @@ On July 7, 2020, we updated **Negative PCR tests** based on press releases from 
 Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
 Puerto Rico reports both confirmed cases, which are identified by positive PCR tests, and probable cases, which the territory reports are identified by positive antibody tests. It is not clear whether Puerto Rico requires additional epidemiological, clinical, or vital records evidence to classify a person with a positive antibody test as a probable case. The combined case number in our dataset includes Puerto Rico's confirmed and probable cases as the territory reports them.  ",https://estadisticas.pr/en/covid-19,https://bioseguridad.maps.arcgis.com/apps/opsdashboard/index.html#/3bfb64c9a91944bc8c41edd8ff27e6df,,@DeptSaludPR,http://www.salud.gov.pr/Pages/coronavirus.aspx,Specimens,posNeg,Puerto Rico,72,,false
-RI,"As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**. ",https://health.ri.gov/data/covid-19/,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/gviz/tq?tqx=out:csv&sheet=1592746937,@rihealth,https://health.ri.gov/diseases/respiratory/?parm=163,Encounters,totalTestEncountersViral,Rhode Island,44,,false
+RI,"Rhode Island combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
+As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**. ",https://health.ri.gov/data/covid-19/,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/gviz/tq?tqx=out:csv&sheet=1592746937,@rihealth,https://health.ri.gov/diseases/respiratory/?parm=163,Encounters,totalTestEncountersViral,Rhode Island,44,,false
 SC,"As of June 11, 2020, South Carolina reports PCR tests separately from antibody tests. Total test numbers were reduced by around 22,000 as a result of this change. 
 
 On July 18, 2020, South Carolina announced it was transitioning to new reporting systems and that ""there may be incomplete data with significant gaps."" Though reporting resumed July 28, 2020, this resulted in data being carried over at times. We will backfill with the updated numbers when they are available.
