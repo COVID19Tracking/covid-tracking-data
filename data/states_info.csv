@@ -89,7 +89,7 @@ FL,"Florida combines PCR and antigen tests in the total tests figure reported on
 
 On March 21, 2020, Florida began including tests of people not investigated as PUIs in its **Negative PCR tests** metric. 
 
-As of May 15, 2020, Florida appears to report **total tests** in people and in units that resemble specimens (for both PCR and antibody tests, reported separately). We continue to attempt to clarify how all of Florida's testing data is deduplicated.
+Since May 15, 2020, Florida reports total tests in unique people and in unique people tested per lab. For that latter number, if an individual is tested twice by one lab, they only get counted once, but if an individual gets tested twice at different labs, they get counted twice. We store the former value in **Total PCR Tests (People)**, and the latter value, which does not match any of our totals units, in **Total Tests (PCR)**, our specimens field, where we also store testing data with unclear units. This value does **not** represent the number of specimens.
 
 As of July 10, 2020, Florida reports **Now hospitalized** data for those patients with a ""primary diagnosis of COVID-19.""
 
