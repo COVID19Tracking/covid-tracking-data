@@ -39,6 +39,13 @@ primary:
       page.done();
     message: clicking on "congregate settings" for AZ, wait 5 sec
 
+  CA:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 8500
+    message: using viewport height 8500 for CA
+
   FL:
     file: pdf
     message: downloading pdf for FL
@@ -63,13 +70,50 @@ primary:
     file: pdf
     message: downloading pdf for NY
 
+  OK:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 3000
+    overseerScript: >
+      page.manualWait();
+      await page.waitForSelector("button.prefix-overlay-close");
+      page.click("button.prefix-overlay-close");
+      await page.waitForFunction(()=>document.querySelector("#main-content").textContent!=="");
+      await page.waitForDelay(10000);
+      page.done();
+    message: clicking button to get rid of popup for OK, then waiting 10 sec. Also larger viewport
+
+  PA:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 7000
+    message: using viewport height 7000 for PA
+
+  TX:
+    file: xls
+    message: downloading Excel for FL
+
   UT:
-    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
-    message: waiting 30 seconds for UT
+    overseerScript: page.manualWait(); await page.waitForDelay(40000); page.done();
+    renderSettings:
+      clipRectangle:
+        width: 1400
+        height: 1500
+    message: UT dashboard doesn't render in phantomjscloud unless we set clipRectangle; wait 40 sec
 
   WA:
     file: pdf
     message: downloading pdf for WA
+
+  WV:
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 4000
+    message: waiting 30 seconds for WV, and using larger viewport
 
 secondary:
 
@@ -89,6 +133,10 @@ secondary:
       await page.waitForDelay(1000);
       page.done();
     message: clicking on a dropdown for MN secondary
+
+  MS:
+    file: pdf
+    message: downloading pdf for MS secondary
 
   NC:
     file: pdf
@@ -112,10 +160,14 @@ secondary:
     message: downloading pdf for OR secondary
 
   TX:
-    file: xlsx
-    message: downloading xlsx for TX secondary
+    file: xls
+    message: downloading Excel for TX secondary
 
 tertiary:
+
+  MS:
+    file: pdf
+    message: downloading pdf for MS tertiary
 
   PA:
     file: xlsx

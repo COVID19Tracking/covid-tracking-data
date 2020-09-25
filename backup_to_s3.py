@@ -84,7 +84,7 @@ class S3Backup():
             extra_args = {'ContentType': 'image/png'}
         elif local_path.endswith('.pdf'):
             extra_args = {'ContentType': 'application/pdf', 'ContentDisposition': 'inline'}
-        elif local_path.endswith('.xlsx'):
+        elif local_path.endswith('.xlsx') or local_path.endswith('.xls'):
             extra_args = {'ContentType': 'application/vnd.ms-excel', 'ContentDisposition': 'inline'}
 
         s3_path = self.get_s3_path(local_path, state)
