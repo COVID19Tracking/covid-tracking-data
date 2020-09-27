@@ -231,14 +231,12 @@ def load_state_urls(args):
 
     state_urls = {}
     for idx, r in state_info_df.iterrows():
-        state = r["state"]
-        data_url = r["covid19Site"]
-        secondary_data_url = r["covid19SiteSecondary"]
-        tertiary_data_url = r["covid19SiteTertiary"]
-        state_urls[state] = {
-            'primary': data_url,
-            'secondary': secondary_data_url,
-            'tertiary': tertiary_data_url,
+        state_urls[r["state"]] = {
+            'primary': r["covid19Site"],
+            'secondary': r["covid19SiteSecondary"],
+            'tertiary': r["covid19SiteTertiary"],
+            'quaternary': r["covid19SiteQuaternary"],
+            'quinary': r["covid19SiteQuinary"],
         }
 
     return state_urls
@@ -299,9 +297,11 @@ def main(args_list=None):
 
     failed_states = []
     for state, urls in state_urls.items():
-        data_url = urls['primary']
-        secondary_data_url = urls['secondary']
-        tertiary_data_url = urls['tertiary']
+        data_url = urls.get('primary')
+        secondary_data_url = urls.get('secondary')
+        tertiary_data_url = urls.get('tertiary')
+        quaternary_data_url = urls.get('quaternary')
+        quinary_data_url = urls.get('quinary')
 
         try:
             if not pd.isnull(data_url):
@@ -315,6 +315,14 @@ def main(args_list=None):
             if not pd.isnull(tertiary_data_url):
                 screenshotter.screenshot(
                     state, tertiary_data_url, suffix='tertiary',
+                    backup_to_s3=args.push_to_s3)
+            if not pd.isnull(quaternary_data_url):
+                screenshotter.screenshot(
+                    state, quaternary_data_url, suffix='quaternary',
+                    backup_to_s3=args.push_to_s3)
+            if not pd.isnull(quinary_data_url):
+                screenshotter.screenshot(
+                    state, quinary_data_url, suffix='quinary',
                     backup_to_s3=args.push_to_s3)
         except:
             failed_states.append(state)
