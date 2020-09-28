@@ -26,7 +26,7 @@ On September 3, 2020, Arkansas began reporting probable cases according to the m
 
 On September 16, 2020, Arkansas’ **Negative Tests (PCR)** dropped by 26,801 tests, causing its **Total Tests (PCR)** to drop by 26,195 tests due to the reversal of a data dump of negative test results that Arkansas reversed. It also added 140 probable deaths, not all of which dated to September 16.
 
-As of September 18, 2020, Arkansas' total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
+As of September 18, 2020, Arkansas' total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The totals do not include repeat positives—counting individuals only for their first positive—but do count repeat negative tests.
 
 During the week of September 20, 2020, Arkansas made some continual adjustments to its antigen people tested numbers, resulting in some fluctuation in its negatives and totals.",https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,https://experience.arcgis.com/experience/c2ef4a4fcbe5458fbf2e48a21e4fece9,https://experience.arcgis.com/experience/c2ef4a4fcbe5458fbf2e48a21e4fece9,,,@adhpio,https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,Specimens,totalTestsViral,Total Tests (PCR),Arkansas,05,,false
 AS,"American Samoa does not have a regularly updated data source. We monitor their social media, emergency declarations, and local media for updates.
