@@ -118,6 +118,10 @@ secondary:
       page.done();
     message: custom click logic for MP secondary dashboard
 
+  NJ:
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    message: waiting 30 sec to load NJ secondary
+
   PA:
     overseerScript: >
       page.manualWait();
@@ -153,6 +157,10 @@ tertiary:
       await page.waitForDelay(10000);
       page.done();
     message: crazy clicking for NC tertiary, waiting 10 seconds
+
+  NJ:
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    message: waiting 30 sec to load NJ tertiary
 
   RI:
     file: csv
