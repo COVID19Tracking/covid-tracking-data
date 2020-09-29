@@ -311,7 +311,9 @@ On July 7, 2020, we updated **Negative PCR tests** based on press releases from 
 
 Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
-Puerto Rico reports both confirmed cases, which are identified by positive PCR tests, and probable cases, which the territory reports are identified by positive antibody tests. It is not clear whether Puerto Rico requires additional epidemiological, clinical, or vital records evidence to classify a person with a positive antibody test as a probable case. The combined case number in our dataset includes Puerto Rico's confirmed and probable cases as the territory reports them.  ",https://estadisticas.pr/en/covid-19,https://bioseguridad.maps.arcgis.com/apps/opsdashboard/index.html#/3bfb64c9a91944bc8c41edd8ff27e6df,,,,@DeptSaludPR,http://www.salud.gov.pr/Pages/coronavirus.aspx,Specimens,posNeg,posNeg,Puerto Rico,72,,false
+Puerto Rico reports both confirmed cases, which are identified by positive PCR tests, and probable cases, which the territory reports are identified by positive antibody tests. It is not clear whether Puerto Rico requires additional epidemiological, clinical, or vital records evidence to classify a person with a positive antibody test as a probable case. The combined case number in our dataset includes Puerto Rico's confirmed and probable cases as the territory reports them. 
+
+Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports.",https://estadisticas.pr/en/covid-19,https://bioseguridad.maps.arcgis.com/apps/opsdashboard/index.html#/3bfb64c9a91944bc8c41edd8ff27e6df,,,,@DeptSaludPR,http://www.salud.gov.pr/Pages/coronavirus.aspx,Specimens,posNeg,posNeg,Puerto Rico,72,,false
 RI,"Rhode Island combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**.
