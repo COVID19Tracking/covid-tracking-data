@@ -34,6 +34,10 @@ primary:
       await page.waitForFunction(()=>document.querySelector("#main-content").textContent!=="");
       page.done();
     message: clicking button to get rid of popup, using viewport height 8500 for IN
+    
+  MT:
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    message: waiting 30 sec to load MT  
 
   NE:
     renderSettings:
