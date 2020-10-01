@@ -84,6 +84,10 @@ primary:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load WA
 
+  WV:
+    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
+    message: waiting 60 sec to load WV
+
 secondary:
 
   AL:
