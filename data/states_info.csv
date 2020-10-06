@@ -48,6 +48,8 @@ On September 18, 2020, Arizona reported a policy change in the way they count pe
 
 As of September 25, 2020, Arizona’s total test timeseries is stored in our Total PCR Tests (People) field instead of Total PCR Tests (specimens), reflecting a response to our outreach to Arizona’s health department that it counts unique individuals tested. Arizona includes antigen tests in its totals figure, so if an individual received both an antigen and PCR test, they are counted only once. Additionally, as of September 25, 2020,  Arizona's total test results are drawn from our Total PCR Tests (People) field instead of calculated via positive+negative.
 
+On October 6, 2020, The Arizona Department of Health Services [announced] (https://directorsblog.health.azdhs.gov/covid-19-hospitalizations-in-arizona/?utm_source=TWITTER&utm_medium=AZDHS&utm_campaign=covid19,Director%27s+Blog&utm_content=3840149936&linkId=101333440)  that they were removing cases who had been admitted to a hospital but had not been hospitalized from their total hospitalization counts. This results in a decrease of Arizona's cumulative hospitalizations.
+
 Arizona regularly reviews and removes duplicate records which may occasionally result in minor decreases of cumulative figures. 
 
 The **Recovered** data point we report for Arizona reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
