@@ -156,7 +156,7 @@ tertiary:
     overseerScript: >
       page.manualWait();
       await page.waitForSelector(".tab-title:nth-of-type(2)");
-      page.click(.tab-title:nth-of-type(2)"); 
+      page.click(".tab-title:nth-of-type(2)"); 
       await page.waitForDelay(30000);
       page.done();
     message: custom click logic for MP tertiary dashboard
