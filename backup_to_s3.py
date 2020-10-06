@@ -100,17 +100,15 @@ class Screenshotter():
         self.s3_backup = s3_backup
         self.config = config
 
-
     def get_state_config(self, state, suffix):
-        if suffix == 'secondary' and self.config['secondary']:
-            # grab any special-casing if it exists
-            return self.config['secondary'].get(state)
-        if suffix == 'tertiary' and self.config['tertiary']:
-            return self.config['tertiary'].get(state)
+        # primary is denoted with no suffix, but the section is called "primary" in the YAML config
         if suffix == '':
             return self.config['primary'].get(state)
+        for possible_suffix in ['secondary', 'tertiary', 'quaternary', 'quinary']:
+            if suffix == possible_suffix and self.config[possible_suffix]:
+                return self.config[possible_suffix].get(state)
+        
         return None
-
 
     # makes a PhantomJSCloud call to data_url and saves the output to specified path
     def save_url_image_to_path(self, state, data_url, path, state_config=None):
@@ -164,7 +162,8 @@ class Screenshotter():
                 f.write(response.content)
         else:
             logger.error(f'Response status code: {response.status_code}')
-            raise ValueError(f'Could not retrieve URL: {data_url}')
+            response_metadata = response.json()['meta']
+            raise ValueError(f'Could not retrieve URL {data_url}, got response metadata {response_metadata}')
 
     def timestamped_filename(self, state, suffix='', fileext='png'):
         # basename will be e.g. 'CA' if no suffix, or 'CA-secondary' if suffix is 'secondary'
@@ -303,32 +302,34 @@ def main(args_list=None):
         quaternary_data_url = urls.get('quaternary')
         quinary_data_url = urls.get('quinary')
 
-        try:
-            if not pd.isnull(data_url):
+        def screenshotter_succeeded(data_url, suffix):
+            if pd.isnull(data_url):
+                return True  # trivial success
+            try:
                 screenshotter.screenshot(
-                    state, data_url,
+                    state, data_url, suffix=suffix,
                     backup_to_s3=args.push_to_s3)
-            if not pd.isnull(secondary_data_url):
-                screenshotter.screenshot(
-                    state, secondary_data_url, suffix='secondary',
-                    backup_to_s3=args.push_to_s3)
-            if not pd.isnull(tertiary_data_url):
-                screenshotter.screenshot(
-                    state, tertiary_data_url, suffix='tertiary',
-                    backup_to_s3=args.push_to_s3)
-            if not pd.isnull(quaternary_data_url):
-                screenshotter.screenshot(
-                    state, quaternary_data_url, suffix='quaternary',
-                    backup_to_s3=args.push_to_s3)
-            if not pd.isnull(quinary_data_url):
-                screenshotter.screenshot(
-                    state, quinary_data_url, suffix='quinary',
-                    backup_to_s3=args.push_to_s3)
-        except:
-            failed_states.append(state)
+                return True
+            except ValueError as e:
+                logger.error(e)
+                return False
+
+        urls_with_suffixes = (
+            (data_url, ''),
+            (secondary_data_url, 'secondary'),
+            (tertiary_data_url, 'tertiary'),
+            (quaternary_data_url, 'quaternary'),
+            (quinary_data_url, 'quinary'),
+        )
+
+        for (data_url, suffix) in urls_with_suffixes:
+            success = screenshotter_succeeded(data_url, suffix)
+            if not success:
+                failed_states.append((state, suffix))
 
     if failed_states:
-        logger.error(f"Failed states for this run: {','.join(failed_states)}")
+        failed_states_str = ', '.join([':'.join(x) for x in failed_states])
+        logger.error(f"Failed states for this run: {failed_states_str}")
     else:
         logger.info("All required states successfully screenshotted")
 
