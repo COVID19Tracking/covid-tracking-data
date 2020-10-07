@@ -241,7 +241,10 @@ MO,"As of May 22, 2020, Missouri reports PCR tests separately from antibody test
 
 On September 5, 2020, the Missouri DHSS [added an additional 72 deaths](http://twitter.com/HealthyLivingMo/status/1302314149620391937?s=20) to their total count, ""most of which occurred June-August"".
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.",https://showmestrong.mo.gov/data/public-health/,https://showmestrong.mo.gov/public-healthcare-testing/,https://mophep.maps.arcgis.com/apps/opsdashboard/index.html#/d05d2bf6e13745c5afffc8fc87d5b1c5,https://services6.arcgis.com/Bd4MACzvEukoZ9mR/arcgis/rest/services/hospital_by_date_production/FeatureServer/0/query?where=1%3D1&outFields=%2A%2C+covid_total+as+hosp&orderByFields=entry_date+desc&resultRecordCount=1,,@HealthyLivingMo,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,People,posNeg,posNeg,Missouri,29,,false
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+
+As of October 7, 2020, Missouri's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. 
+The number of unique people tested is available in our API as `totalTestsPeopleViral`.",https://showmestrong.mo.gov/data/public-health/,https://showmestrong.mo.gov/public-healthcare-testing/,https://mophep.maps.arcgis.com/apps/opsdashboard/index.html#/d05d2bf6e13745c5afffc8fc87d5b1c5,https://services6.arcgis.com/Bd4MACzvEukoZ9mR/arcgis/rest/services/hospital_by_date_production/FeatureServer/0/query?where=1%3D1&outFields=%2A%2C+covid_total+as+hosp&orderByFields=entry_date+desc&resultRecordCount=1,,@HealthyLivingMo,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,Specimens,totalTestsViral,Total Tests (PCR),Missouri,29,,false
 MP,"On July 23, 2020, we switched our **Total tests** units to the people-tested metric reported by the Northern Mariana Islands, which led to a drop in total tests. We will backfill total tests data for the territory as soon as we are able to do so.
 
 The Northern Mariana Islands have not posted a new **Recovered** number since July 15, 2020. 
