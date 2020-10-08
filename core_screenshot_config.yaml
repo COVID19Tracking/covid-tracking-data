@@ -185,7 +185,10 @@ quaternary:
     message: wait for IA quaternary
 
   PR:
-    overseerScript: await page.waitForNavigation({waitUntil:"domcontentloaded"}); await page.waitForSelector("#ember906");page.click("#ember906");page.done();
+    overseerScript: 
+      await page.waitForNavigation({waitUntil:"domcontentloaded"}); 
+      await page.waitForSelector("#ember906");
+      page.click("#ember906");page.done();
     message: click button for PR recoveries ("Convalecientes")
 
 
@@ -194,3 +197,11 @@ quinary:
   IA:
     overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
     message: wait for IA quinary
+
+  PR:
+    overseerScript: 
+      await page.waitForNavigation({waitUntil:"domcontentloaded"}); 
+      await page.waitForSelector("#ember772");
+      page.click("#ember772");page.done();
+    message: click button for PR confirmed Deaths ("Muertes Confirmades")
+
