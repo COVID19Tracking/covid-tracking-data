@@ -188,7 +188,8 @@ quaternary:
     overseerScript: 
       await page.waitForNavigation({waitUntil:"domcontentloaded"}); 
       await page.waitForSelector("#ember906");
-      page.click("#ember906");page.done();
+      page.click("#ember906");
+      page.done();
     message: click button for PR recoveries ("Convalecientes")
 
 
@@ -202,6 +203,7 @@ quinary:
     overseerScript: 
       await page.waitForNavigation({waitUntil:"domcontentloaded"}); 
       await page.waitForSelector("#ember772");
-      page.click("#ember772");page.done();
+      page.click("#ember772");
+      page.done();
     message: click button for PR confirmed Deaths ("Muertes Confirmades")
 
