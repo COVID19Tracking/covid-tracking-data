@@ -286,7 +286,8 @@ On August 19, 2020, North Dakota launched a new dashboard with a number of new d
 On September 9, 2020, North Dakota began reporting “Susceptible Encounters” on its dashboard, which are defined as test encounters excluding those who have tested positive after the first time. We have begun recording the value in our **Total PCR tests (test encounters)** field.
 
 As of September 11, 2020, North Dakota’s total test results reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
-",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),North Dakota,38,,false
+
+On October 8th 2020, North Dakota released two figures describing those who are currently hospitalized. According to the [state dashboard annotation](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases), the ""Hospitalized with COVID"" figure describes those whose main reason for hospitalization is COVID-19, and it also includes all those who are ""Hospitalized due to COVID"". We are using the ""Hospitalized with COVID"" figure for our Currently hospitalized field.",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),North Dakota,38,,false
 NE,Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard.,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,,,,,@NEDHHS,http://dhhs.ne.gov/Pages/Coronavirus.aspx,People,totalTestsPeopleViral,posNeg,Nebraska,31,,false
 NH,"As of May 25, 2020, New Hampshire reports PCR tests separately from antibody tests.
 
