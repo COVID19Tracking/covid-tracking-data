@@ -104,21 +104,32 @@ secondary:
     message: custom click logic for AL secondary dashboard
 
   AR:
-    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    overseerScript: 
+      page.manualWait(); 
+      await page.waitForDelay(30000); 
+      page.done();
     message: waiting 30 sec to load AR secondary
 
   ID:
     overseerScript: >
-      page.manualWait(); await page.waitForSelector("#tabZoneId10");
-      await page.hover("#tabZoneId10"); page.done();
+      page.manualWait(); 
+      await page.waitForSelector("#tabZoneId10");
+      await page.hover("#tabZoneId10"); 
+      page.done();
     message: custom mouseover logic for ID secondary dashboard
 
   IN:
-    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    overseerScript: 
+      page.manualWait(); 
+      await page.waitForDelay(30000); 
+      page.done();
     message: waiting 30 sec to load IN secondary
 
   NJ:
-    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    overseerScript: 
+      page.manualWait(); 
+      await page.waitForDelay(30000); 
+      page.done();
     message: waiting 30 sec to load NJ secondary
 
   PA:
@@ -139,7 +150,10 @@ secondary:
     message: downloading Excel for TX secondary
 
   WA:
-    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    overseerScript: 
+      page.manualWait(); 
+      await page.waitForDelay(30000); 
+      page.done();
     message: waiting 30 sec to load WA secondary
 
 tertiary:
