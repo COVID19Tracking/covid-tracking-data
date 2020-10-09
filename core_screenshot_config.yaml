@@ -78,11 +78,12 @@ primary:
     message: waiting 30 sec to load TX
 
   UT:
+  overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     renderSettings:
       clipRectangle:
         width: 1400
         height: 3000
-    message: UT dashboard doesn't render in phantomjscloud unless we set clipRectangle
+    message: Wait 30 seconds for page to load,  UT dashboard doesn't render in phantomjscloud unless we set clipRectangle
 
   WA:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
