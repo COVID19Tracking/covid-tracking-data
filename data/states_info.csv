@@ -30,7 +30,7 @@ As of September 18, 2020, Arkansas's total test results are drawn from our `tota
 
 On October 7, 2020, Arkansas's data dashboard did not update by our publication time, so we obtained several data points from a graphic on the home page of the Arkansas Department of Health.
 
-During the week of September 20, 2020, Arkansas made some continual adjustments to its antigen people tested numbers, resulting in some fluctuation in its negatives and totals.",https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,https://experience.arcgis.com/experience/c2ef4a4fcbe5458fbf2e48a21e4fece9,https://experience.arcgis.com/experience/c2ef4a4fcbe5458fbf2e48a21e4fece9,,,@adhpio,https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,Specimens,totalTestsViral,Total Tests (PCR),Arkansas,05,,false
+During the week of September 20, 2020, Arkansas made some continual adjustments to its antigen people tested numbers, resulting in some fluctuation in its negatives and totals.",https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,https://experience.arcgis.com/experience/c2ef4a4fcbe5458fbf2e48a21e4fece9,https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/fd6874664d404993814de4d5a65d5cfd,,,@adhpio,https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,Specimens,totalTestsViral,Total Tests (PCR),Arkansas,05,,false
 AS,"American Samoa does not have a regularly updated data source. We monitor their social media, emergency declarations, and local media for updates.
 
 As of September 18, 2020, American Samoa's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.",https://www.americansamoa.gov/covid-19-advisories,https://www.facebook.com/amsamgov/,,,,,http://www.samoagovt.ws/2020/03/ministry-of-health-coronavirus-covid-19-update-14-march-2020/,Specimens,totalTestsViral,Total Tests (PCR),American Samoa,60,,false
@@ -320,7 +320,7 @@ OK,"Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" resul
 
 Oklahoma noted that reported **Total cases** numbers for July 19 and July 20 were inaccurately low due to technical issues. 
 ",https://coronavirus.health.ok.gov/,,,,,@HealthyOklahoma,https://coronavirus.health.ok.gov,Specimens,posNeg,posNeg,Oklahoma,40,,false
-OR,"As of June 6th, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.
+OR,"As of June 6, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.
 
 ",https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19TestingandOutcomesbyCounty/OregonsCOVID-19TestingandOutcomesbyCounty?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false,,,@OHAOregon,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,People,posNeg,posNeg,Oregon,41,,false
 PA,"On April 23, 2020, Pennsylvania revised down its total **Deaths (confirmed and probable)** from 1,622 to 1,421 to exclude some probable deaths that needed further confirmation to be linked to COVID-19.
@@ -353,7 +353,8 @@ On August 14, 2020, South Carolina reported an unusually large number of tests w
 On August 23, 2020, South Carolina [corrected](https://scdhec.gov/news-releases/south-carolina-announces-latest-covid-19-update-august-23-2020) a double-counting of testing numbers from the months May–August. This resulted in a significant drop of all aspects of testing-related counts, with **Total PCR tests (specimens)** dropping by approximately 22,000 and total antibody tests dropping by 1,500.
 
 On September 10, 2020, South Carolina [announced](https://scdhec.gov/news-releases/south-carolina-announces-latest-covid-19-update-september-10-2020) that it added a large number of saliva tests from the University of South Carolina to its data, causing an unusually large number of cases in the data for September 11.  
-August 25, 2020. We will carry over the data point from that date until new data is available.
+
+Between August 25 and September 21, 2020, South Carolina did not provide updated estimates of the number of **Recovered** cases.
 
 On September 15, 2020, South Carolina started reporting antigen testing data, reporting 7,763 positive tests and 23,477 total tests. Its “viral (i.e. molecular/PCR) tests” positives and totals dropped by about the same amount, likely due to the removal of this data.
 
