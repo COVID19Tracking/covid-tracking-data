@@ -140,6 +140,10 @@ secondary:
       page.done();
     message: waiting 30 sec to load IN secondary
 
+  MA:
+    file: pdf
+    message: downloading pdf for MA   
+
   NJ:
     overseerScript: 
       page.manualWait(); 
