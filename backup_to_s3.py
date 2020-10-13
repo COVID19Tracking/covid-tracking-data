@@ -61,6 +61,21 @@ group.add_argument('--screenshot-crdt-urls', dest='crdt_urls', action='store_tru
 group.add_argument('--screenshot-ltc-urls', dest='ltc_urls', action='store_true', default=False,
     help='Screenshot LTC data URLs')
 
+# Allows the user to specify primary, secondary, etc. screenshots to take
+# If none of these arguments are present, all screenshots will be taken
+screenshot_type_group = parser.add_argument_group('which_screenshots')
+
+screenshot_type_group.add_argument('--primary', dest='primary', action='store_true',
+    default=False, help='Run the primary screenshot')
+screenshot_type_group.add_argument('--secondary', dest='secondary', action='store_true',
+    default=False, help='Run the secondary screenshot')
+screenshot_type_group.add_argument('--tertiary', dest='tertiary', action='store_true',
+    default=False, help='Run the tertiary screenshot')
+screenshot_type_group.add_argument('--quaternary', dest='quaternary', action='store_true',
+    default=False, help='Run the quaternary screenshot')
+screenshot_type_group.add_argument('--quinary', dest='quinary', action='store_true',
+    default=False, help='Run the quinary screenshot')
+
 
 class S3Backup():
 
@@ -296,11 +311,6 @@ def main(args_list=None):
 
     failed_states = []
     for state, urls in state_urls.items():
-        data_url = urls.get('primary')
-        secondary_data_url = urls.get('secondary')
-        tertiary_data_url = urls.get('tertiary')
-        quaternary_data_url = urls.get('quaternary')
-        quinary_data_url = urls.get('quinary')
 
         def screenshotter_succeeded(data_url, suffix):
             if pd.isnull(data_url):
@@ -314,13 +324,21 @@ def main(args_list=None):
                 logger.error(e)
                 return False
 
-        urls_with_suffixes = (
-            (data_url, ''),
-            (secondary_data_url, 'secondary'),
-            (tertiary_data_url, 'tertiary'),
-            (quaternary_data_url, 'quaternary'),
-            (quinary_data_url, 'quinary'),
-        )
+        # if user didn't specify particular screenshot(s) to take, take them all
+        if not (args.primary or args.secondary or args.tertiary or args.quaternary or args.quinary):
+            urls_with_suffixes = [
+                (urls.get('primary'), ''),
+                (urls.get('secondary'), 'secondary'),
+                (urls.get('tertiary'), 'tertiary'),
+                (urls.get('quaternary'), 'quaternary'),
+                (urls.get('quinary'), 'quinary'),
+            ]
+        else:
+            urls_with_suffixes = []
+            for attr_name in ['primary', 'secondary', 'tertiary', 'quaternary', 'quinary']:
+                if getattr(args, attr_name) is True:
+                    suffix = '' if attr_name == 'primary' else attr_name
+                    urls_with_suffixes.append((urls.get(attr_name), suffix))
 
         for (data_url, suffix) in urls_with_suffixes:
             success = screenshotter_succeeded(data_url, suffix)
