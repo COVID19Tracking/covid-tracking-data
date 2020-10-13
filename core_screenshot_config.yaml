@@ -110,6 +110,18 @@ secondary:
       page.done();
     message: waiting 30 sec to load AR secondary
 
+  DE:
+    renderSettings:
+      maxWait: 60000
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForSelector("#tab_1[href='#test_tabs_1_content']");
+      await page.waitForDelay(5000); 
+      await page.click("#tab_1[href='#test_tabs_1_content']"); 
+      await page.waitForDelay(5000); 
+      page.done();
+    message: click for DE Total Tests    
+
   ID:
     overseerScript: >
       page.manualWait(); 
