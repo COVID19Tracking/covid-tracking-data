@@ -116,7 +116,6 @@ secondary:
     overseerScript: >
       page.manualWait(); 
       await page.waitForSelector("#tab_1[href='#test_tabs_1_content']");
-      await page.waitForDelay(5000); 
       await page.click("#tab_1[href='#test_tabs_1_content']"); 
       await page.waitForDelay(5000); 
       page.done();
