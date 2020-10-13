@@ -124,6 +124,8 @@ On September 1, 2020, the Florida Department of Health [announced](http://www.fl
 
 On October 10, 2020, Florida did not report COVID-19 data. The state initially reported that this was because Helix Laboratory, a private lab, submitted 400,000 previously submitted results, which required extra deduplication time. On October 12, 2020, [the Florida Department of Health announced](http://www.floridahealth.gov/newsroom/2020/10/101220-1127-covid19.pr.html) that the error was not the fault of the private lab, but was due to ""an unforeseen technical issue"" that was ""not the fault of Helix or the Department of Health."" The state's data for October 11, 2020 appears to include data from both October 10 and 11.
 
+As of October 13, 2020, Florida's Antigen positive timeseries is stored in our **Probable cases** field, reflecting a response to our outreach to Florida's health department that it switches Antigen positive cases to PCR positive cases in their daily state report upon confirmatory PCR testing.
+
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.",https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,https://floridahealthcovid19.gov/,https://bi.ahca.myflorida.com/t/ABICC/views/Public/COVIDHospitalizationsCounty?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y,,,@HealthyFla,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,People,posNeg,posNeg,Florida,12,,false
 GA,"As of May 27, 2020, Georgia reports antibody tests separately from PCR tests. This change reduced the number for total tests by approximately 74,000.
 
@@ -288,7 +290,7 @@ On September 9, 2020, North Dakota began reporting “Susceptible Encounters” 
 
 As of September 11, 2020, North Dakota’s total test results reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
-On October 8, 2020, North Dakota released two figures describing those who are currently hospitalized. According to the [state dashboard annotation](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases), the ""Hospitalized with COVID"" figure describes those whose main reason for hospitalization is COVID-19, and it also includes all those who are ""Hospitalized due to COVID"". We are using the ""Hospitalized with COVID"" figure for our Currently hospitalized field.",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),North Dakota,38,,false
+On October 8, 2020, North Dakota released two figures describing those who are currently hospitalized. According to the [state dashboard annotation](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases), the ""Hospitalized with COVID"" figure describes those whose main reason for hospitalization is COVID-19, and it also includes all those who are ""Hospitalized due to COVID"". We are using the ""Hospitalized with COVID"" figure for our **Currently hospitalized** and **Currently in ICU** metrics, however there are not matching Cumulative metrics so we are using the ""Due to COVID"" Cumulative hospitalized and ICU figures.",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),North Dakota,38,,false
 NE,Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard.,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,,,,,@NEDHHS,http://dhhs.ne.gov/Pages/Coronavirus.aspx,People,totalTestsPeopleViral,posNeg,Nebraska,31,,false
 NH,"As of May 25, 2020, New Hampshire reports PCR tests separately from antibody tests.
 
@@ -423,14 +425,13 @@ On August 27, the VA dashboard did not update by our publish time. We are carryi
 
 On August 31, 2020 we began publishing **Positive PCR tests (specimens)** for Virginia. This data has been collected daily since July 21, 2020. Previous data going back to February 27, 2020 was taken from state historical data as of July 21. Historical data for **Total PCR Tests (encounters)** before July 21, 2020 was updated based on the same dataset, extending the column back to February 27, 2020 as well.
 
+As of September 18, 2020, Virginia's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
+
 **Ever hospitalized** is calculated from the ""currently hospitalized"" and ""discharged"" data points on the Virginia Hospital COVID-19 dashboard. 
 
 The **Recovered** data point we report for Virginia reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (test encounters)** in the absence of better data.
-
-As of September 18, 2020, Virginia's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
-
 ",https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard?:embed=yes&:display_count=yes&:showVizHome=no&:toolbar=no,,,@vdhgov,http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Virginia,51,,false
 VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, **Negative PCR tests**, and **Pending tests**.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,posNeg,US Virgin Islands,78,,false
 VT,"Between May 15 and May 16, 2020, Vermont's **total tests** decreased by about 1,000 tests with no explanation.
@@ -454,11 +455,11 @@ On August 2, 2020, Washington state Department of Health reported that ""DOH is 
 
 On August 26, 2020, Washington switched its total tests units to testing encounters, excluding future encounters from individuals who test positive. It also provided a full timeseries of the figure. This testing encounters figure is slightly different from how we define testing encounters in two ways: first, our definition of testing encounters includes encounters after a positive test, and second, it should be calculated not by summing resulted tests but by counting all daily tests in a separate reporting stream. Despite these differences, the historical and current values of Washington’s figure are still stored in our **Total PCR tests (test encounters)** field.
 
+As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
+
 Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
-
-As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
 
 ",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Washington,53,,false
 WI,"On March 30, 2020, Wisconsin revised its cumulative **Negative PCR tests (people)** data downward without explanation.
@@ -484,7 +485,7 @@ On April 28, 2020, we began to report **probable cases** together with **confirm
 
 On June 19, 2020, Wyoming began reporting the **Total PCR tests (people)** as well as **Total PCR tests (specimens)**.
 
-On August 26, 2020, Wyoming did not report *Total PCR tests (people).** We have carried over the previous day's value.
+On August 26, 2020, Wyoming did not report **Total PCR tests (people).** We have carried over the previous day's value.
 
 Wyoming reports both **Positive tests PCR (specimens)** and **Negative tests PCR (specimens)** as percentages of **Total tests PCR**. We convert these percentages to integers. Wyoming reports the number of people currently hospitalized with COVID-19 in each hospital: we sum these values for the state total. Wyoming reports the number of people ever hospitalized with COVID-19 as a percentage: we convert this percentage to an integer. Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 ",https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-testing-data/,,,@health_wyoming,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,People,posNeg,posNeg,Wyoming,56,,false
