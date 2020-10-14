@@ -184,7 +184,7 @@ From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or 
 
 On July 15, 2020, Kansas began reporting additional data from hospitals, and at that time, data for the **Now hospitalized** metric was only available through July 10.
 
-The **Recovered** data point we report for Kansas reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Kansas notes that this metric only includes cases with available discharge information reported to the Kansas Department of Health and Environment.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,http://www.kdheks.gov/coronavirus/,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,Kansas,20,,false
+The **Recovered** data point we report for Kansas reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Kansas notes that this metric only includes cases with available discharge information reported to the Kansas Department of Health and Environment.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,Kansas,20,,false
 KY,"On May 23, 2020, Kentucky revised down the state's figure for **Total tests**.
 
 As of May 27, 2020, Kentucky reports antibody tests separately from PCR tests. 
@@ -487,7 +487,7 @@ On June 19, 2020, Wyoming began reporting the **Total PCR tests (people)** as we
 
 On August 26, 2020, Wyoming did not report **Total PCR tests (people).** We have carried over the previous day's value.
 
-On October 14, 2020, Wyoming's **Total PCR Tests (specimens)** value decreased by over 1000 with no explanation.
+On October 14, 2020, Wyoming's **Total PCR Tests (specimens)** and **Total PCR Tests (people) values both decreased by over 1000 with no explanation. We believe the state might have deduplicated its data. 
 
 Wyoming reports both **Positive tests PCR (specimens)** and **Negative tests PCR (specimens)** as percentages of **Total tests PCR**. We convert these percentages to integers. Wyoming reports the number of people currently hospitalized with COVID-19 in each hospital: we sum these values for the state total. Wyoming reports the number of people ever hospitalized with COVID-19 as a percentage: we convert this percentage to an integer. Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 ",https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-testing-data/,,,@health_wyoming,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,People,posNeg,posNeg,Wyoming,56,,false
