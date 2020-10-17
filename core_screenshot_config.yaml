@@ -241,6 +241,18 @@ tertiary:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load NJ tertiary
 
+  NY:
+    renderSettings:
+      maxWait: 60000
+    overseerScript: >
+      page.manualWait();
+      await page.waitForSelector("a[href*=\"/news/governor-cuomo-updates-new-yorkers-states-progress-during-covid-19-pandemic-\"]");
+      page.click("a[href*=\"/news/governor-cuomo-updates-new-yorkers-states-progress-during-covid-19-pandemic-\"]");
+      await page.waitForNavigation({waitUntil:"domcontentloaded"});
+      await page.render.screenshot();        
+      page.done();
+    message: click on the first "gov cuomo updates..." link, which should be the latest press release
+ 
   RI:
     file: csv
     message: downloading CSV for RI tertiary
