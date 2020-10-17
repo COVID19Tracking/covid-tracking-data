@@ -173,7 +173,9 @@ IL,"On September 4, 2020, Illinois reported over 140,000 new **Total PCR tests (
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,http://www.dph.illinois.gov/covid19/hospitalization-utilization,,,,@IDPH,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,Specimens,posNeg,posNeg,All data,false,Illinois,17
 IN,"Indiana combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,,,,@statehealthin,https://www.in.gov/isdh/28470.htm,People,posNeg,posNeg,Only positives,false,Indiana,18
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.
+
+As of October 16, 2020, Indiana’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,,,,@statehealthin,https://www.in.gov/isdh/28470.htm,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Indiana,18
 KS,"Kansas combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Kansas reports much of its data on Mondays, Wednesdays, and Fridays only, so there are often large changes in the values, which can represent 2-3 days of data.
