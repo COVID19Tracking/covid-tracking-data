@@ -1,5 +1,4 @@
 primary:
-
   CA:
     renderSettings:
       viewport:
@@ -34,14 +33,14 @@ primary:
       await page.waitForFunction(()=>document.querySelector("#main-content").textContent!=="");
       page.done();
     message: clicking button to get rid of popup, using viewport height 8500 for IN
-    
+
   MI:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load MI
-    
+
   MT:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
-    message: waiting 30 sec to load MT  
+    message: waiting 30 sec to load MT
 
   NE:
     renderSettings:
@@ -97,7 +96,6 @@ primary:
     message: waiting 90 sec to load WV
 
 secondary:
-
   AL:
     overseerScript: >
       await page.waitForNavigation({waitUntil:"domcontentloaded"});
@@ -108,9 +106,8 @@ secondary:
     message: custom click logic for AL secondary dashboard
 
   AR:
-    overseerScript: 
-      page.manualWait(); 
-      await page.waitForDelay(30000); 
+    overseerScript: page.manualWait();
+      await page.waitForDelay(30000);
       page.done();
     message: waiting 30 sec to load AR secondary
 
@@ -123,7 +120,7 @@ secondary:
       await page.click("#tab_1[href='#test_tabs_1_content']"); 
       await page.waitForDelay(5000); 
       page.done();
-    message: click for DE Total Tests    
+    message: click for DE Total Tests
 
   ID:
     overseerScript: >
@@ -134,20 +131,18 @@ secondary:
     message: custom mouseover logic for ID secondary dashboard
 
   IN:
-    overseerScript: 
-      page.manualWait(); 
-      await page.waitForDelay(30000); 
+    overseerScript: page.manualWait();
+      await page.waitForDelay(30000);
       page.done();
     message: waiting 30 sec to load IN secondary
 
   MA:
     file: pdf
-    message: downloading pdf for MA   
+    message: downloading pdf for MA
 
   NJ:
-    overseerScript: 
-      page.manualWait(); 
-      await page.waitForDelay(30000); 
+    overseerScript: page.manualWait();
+      await page.waitForDelay(30000);
       page.done();
     message: waiting 30 sec to load NJ secondary
 
@@ -169,14 +164,12 @@ secondary:
     message: downloading Excel for TX secondary
 
   WA:
-    overseerScript: 
-      page.manualWait(); 
-      await page.waitForDelay(30000); 
+    overseerScript: page.manualWait();
+      await page.waitForDelay(30000);
       page.done();
     message: waiting 30 sec to load WA secondary
 
 tertiary:
-
   AR:
     renderSettings:
       clipRectangle:
@@ -210,7 +203,7 @@ tertiary:
   IA:
     overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
     message: wait for IA tertiary
-    
+
   KY:
     file: pdf
     message: downloading PDF for KY tertiary
@@ -241,32 +234,35 @@ tertiary:
     file: csv
     message: downloading CSV for RI tertiary
 
-quaternary:
+  WV:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(30000);
+      page.done();
+    message: waiting for WV tertiary
 
+quaternary:
   IA:
     overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
     message: wait for IA quaternary
 
   PR:
-    overseerScript: 
-      await page.waitForNavigation({waitUntil:"domcontentloaded"}); 
+    overseerScript:
+      await page.waitForNavigation({waitUntil:"domcontentloaded"});
       await page.waitForSelector("#ember906");
       page.click("#ember906");
       page.done();
     message: click button for PR recoveries ("Convalecientes")
 
-
 quinary:
-
   IA:
     overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
     message: wait for IA quinary
 
   PR:
-    overseerScript: 
-      await page.waitForNavigation({waitUntil:"domcontentloaded"}); 
+    overseerScript:
+      await page.waitForNavigation({waitUntil:"domcontentloaded"});
       await page.waitForSelector("#ember772");
       page.click("#ember772");
       page.done();
     message: click button for PR confirmed Deaths ("Muertes Confirmades")
-
