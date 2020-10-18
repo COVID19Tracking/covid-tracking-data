@@ -170,6 +170,8 @@ As of September 18, 2020, Idaho's total test results are drawn from our `totalTe
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data. ",https://coronavirus.idaho.gov/,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Testing?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Demographics?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Hospitalizations?%3Aembed=y&%3Aembed=y&%3AshowVizHome=no&%3AshowVizHome=n&%3Adisplay_count=y&%3Adisplay_static_image=y&%3Alanguage=en&%3AapiID=host0#navType=0&navSrc=Parse,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Deaths?%3Aembed=y&%3Aembed=y&%3AshowVizHome=no&%3AshowVizHome=n&%3Adisplay_count=y&%3Adisplay_static_image=y&%3Alanguage=en&%3AapiID=host0#navType=0&navSrc=Parse,@IDHW,https://coronavirus.idaho.gov/,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Idaho,16
 IL,"On September 4, 2020, Illinois reported over 140,000 new **Total PCR tests (in specimens)** and over 5,000 new **Cases.** According to the [Chicago Tribune](https://www.chicagotribune.com/coronavirus/ct-covid-19-pandemic-chicago-illinois-news-20200904-qun7unon5fhjbfhnsml4edwqia-story.html), ""The Illinois Department of Public Health said Friday there was significant slowdown in the agency's test reporting earlier this week that it is just catching up with."" 
 
+As of October 15, 2020, Illinois combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
+
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,http://www.dph.illinois.gov/covid19/hospitalization-utilization,,,,@IDPH,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,Specimens,posNeg,posNeg,All data,false,Illinois,17
 IN,"Indiana combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
@@ -223,7 +225,7 @@ As of September 11, 2020, Massachusetts’ total test results reflect total spec
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
 
-",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,https://www.mass.gov/doc/covid-19-dashboard-october-17-2020/download,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
+",https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,https://www.mass.gov/doc/covid-19-dashboard-october-18-2020/download,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
 MD,"Between March 12 and March 28, 2020, Maryland did not report data for **negative tests**.
 
 On July 31, 2020, we began capturing Maryland's data for **Positive PCR tests (specimens)**. On August 31 2020 , we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.
@@ -339,7 +341,7 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 OK,"Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. We excluded these figures from our data, as we assumed these individuals were isolated outside the state.
 
 Oklahoma noted that reported **Total cases** numbers for July 19 and July 20 were inaccurately low due to technical issues. 
-",https://coronavirus.health.ok.gov/,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_10-16-20.pdf,,,,@HealthyOklahoma,https://coronavirus.health.ok.gov,Specimens,posNeg,posNeg,All data,false,Oklahoma,40
+",https://coronavirus.health.ok.gov/,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_10-17-20.pdf,,,,@HealthyOklahoma,https://coronavirus.health.ok.gov,Specimens,posNeg,posNeg,All data,false,Oklahoma,40
 OR,"As of June 6, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.
 
 ",https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19TestingandOutcomesbyCounty/OregonsCOVID-19TestingandOutcomesbyCounty?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false,,,@OHAOregon,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,People,posNeg,posNeg,All data,false,Oregon,41
