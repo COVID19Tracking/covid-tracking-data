@@ -43,12 +43,11 @@ primary:
     message: waiting 30 sec to load MT
   
   ND:
-    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
-    renderSettings:
-      viewport:
-        width: 1400
-        height: 5000
-    message: using viewport height 5000 for ND
+    overseerScript >
+      page.manualWait();
+      await page.waitForDelay(50000);
+      page.done();
+    message: waiting for 50 seconds to load ND
    
   NE:
     renderSettings:
