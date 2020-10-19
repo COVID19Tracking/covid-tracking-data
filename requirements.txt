@@ -4,3 +4,4 @@ pandas
 pytz
 pyyaml
 requests
+slackclient

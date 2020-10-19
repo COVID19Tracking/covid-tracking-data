@@ -62,3 +62,14 @@ screenshot_type_group.add_argument('--quaternary', dest='quaternary', action='st
     default=False, help='Run the quaternary screenshot')
 screenshot_type_group.add_argument('--quinary', dest='quinary', action='store_true',
     default=False, help='Run the quinary screenshot')
+
+# Args relating to Slack notifications
+parser.add_argument(
+    '--slack-channel',
+    default='',
+    help='Slack channel ID to notify on screenshot errors')
+
+parser.add_argument(
+    '--slack-api-token',
+    default='',
+    help='Slack API token to use for notifications')

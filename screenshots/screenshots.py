@@ -8,6 +8,8 @@ from pytz import timezone
 import boto3
 from loguru import logger
 import requests
+from slack import WebClient
+from slack.errors import SlackApiError
 
 
 class Screenshotter():
@@ -167,3 +169,20 @@ class S3Backup():
         s3_path = self.get_s3_path(local_path, state)
         logger.info(f'Uploading file at {local_path} to {s3_path}')
         self.s3.meta.client.upload_file(local_path, self.bucket_name, s3_path, ExtraArgs=extra_args)
+
+
+class SlackNotifier():
+
+    def __init__(self, slack_channel, slack_api_token):
+        self.channel = slack_channel
+        self.client = WebClient(token=slack_api_token)
+
+    def notify_slack(self, message):
+        try:
+            response = self.client.chat_postMessage(
+                channel=self.channel,
+                text=message
+            )
+        except SlackApiError as e:
+            # just log Slack failures but don't break on them
+            logger.error("Could not notify Slack, received error: %s" % e.response["error"])

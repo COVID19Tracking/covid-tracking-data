@@ -10,7 +10,7 @@ import requests
 import yaml
 
 from args import parser as screenshots_parser
-from screenshots import Screenshotter, S3Backup
+from screenshots import Screenshotter, S3Backup, SlackNotifier
 
 
 def load_state_urls(args):
@@ -89,6 +89,23 @@ def state_urls_from_args(args):
         return load_other_urls_from_spreadsheet(args)
 
 
+def slack_notifier_from_args(args):
+    if args.slack_channel and args.slack_api_token:
+        return SlackNotifier(args.slack_channel, args.slack_api_token)
+    return None
+
+
+# Return a small string describing which run this is: core, CRDT, LTC.
+def run_type_from_args(args):
+    if args.core_urls:
+        run_type = 'core'
+    elif args.crdt_urls:
+        run_type = 'CRDT'
+    else:
+        run_type = 'LTC'
+    return run_type
+
+
 def main(args_list=None):
     if args_list is None:
         args_list = sys.argv[1:]
@@ -97,6 +114,7 @@ def main(args_list=None):
 
     config = config_from_args(args)
     state_urls = state_urls_from_args(args)
+    slack_notifier = slack_notifier_from_args(args)
     screenshotter = Screenshotter(
         local_dir=args.temp_dir, s3_backup=s3,
         phantomjscloud_key=args.phantomjscloud_key, config=config)
@@ -138,13 +156,18 @@ def main(args_list=None):
         for (data_url, suffix) in urls_with_suffixes:
             success = screenshotter_succeeded(data_url, suffix)
             if not success:
-                failed_states.append((state, suffix))
+                failed_states.append((state, suffix or 'primary'))
 
     if failed_states:
+        run_type = run_type_from_args(args)
         failed_states_str = ', '.join([':'.join(x) for x in failed_states])
-        logger.error(f"Failed states for this run: {failed_states_str}")
+        logger.error(f"Errored screenshot states for this {run_type} run: {failed_states_str}")
+        if slack_notifier:
+            
+            slack_notifier.notify_slack(
+                f"Errored screenshot states for this {run_type} run: {failed_states_str}")
     else:
-        logger.info("All required states successfully screenshotted")
+        logger.info("All attempted states successfully screenshotted")
 
 
 if __name__ == "__main__":
