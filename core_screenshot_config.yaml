@@ -89,7 +89,7 @@ primary:
 
   UT:
     renderSettings:
-      clipRectangle:
+      viewport:
         width: 1400
         height: 3000
     message: UT dashboard doesn't render in phantomjscloud unless we set clipRectangle
