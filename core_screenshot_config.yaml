@@ -43,10 +43,7 @@ primary:
     message: waiting 30 sec to load MT
   
   ND:
-    overseerScript >
-      page.manualWait();
-      await page.waitForDelay(50000);
-      page.done();
+    overseerScript: page.manualWait(); await page.waitForDelay(50000); page.done();
     message: waiting for 50 seconds to load ND
    
   NE:
@@ -113,14 +110,10 @@ secondary:
     message: custom click logic for AL secondary dashboard
 
   AR:
-    overseerScript: page.manualWait();
-      await page.waitForDelay(30000);
-      page.done();
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load AR secondary
 
   DE:
-    renderSettings:
-      maxWait: 60000
     overseerScript: >
       page.manualWait(); 
       await page.waitForSelector("#tab_1[href='#test_tabs_1_content']");
@@ -130,8 +123,6 @@ secondary:
     message: click for DE Total Tests
 
   FL:
-    renderSettings:
-      maxWait: 60000
     overseerScript: >
       page.manualWait(); 
       await page.waitForSelector("body.modal-open");
@@ -151,9 +142,7 @@ secondary:
     message: custom mouseover logic for ID secondary dashboard
 
   IN:
-    overseerScript: page.manualWait();
-      await page.waitForDelay(30000);
-      page.done();
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load IN secondary
 
   MA:
@@ -161,9 +150,7 @@ secondary:
     message: downloading pdf for MA
 
   NJ:
-    overseerScript: page.manualWait();
-      await page.waitForDelay(30000);
-      page.done();
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load NJ secondary
 
   OK:
@@ -188,9 +175,7 @@ secondary:
     message: downloading Excel for TX secondary
 
   WA:
-    overseerScript: page.manualWait();
-      await page.waitForDelay(30000);
-      page.done();
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load WA secondary
 
 tertiary:
@@ -208,8 +193,6 @@ tertiary:
     message: clicking on "Tests" tab for AR tertiary
 
   DC:
-    renderSettings:
-      maxWait: 60000
     overseerScript: >
       page.manualWait();
       await page.waitForSelector("div.mstrd-DossierViewOnboarding-skipBtn");
@@ -224,8 +207,6 @@ tertiary:
     message: downloading CSV for HI tertiary, to get positive test numbers.
 
   ID:
-    renderSettings:
-      maxWait: 60000
     overseerScript: >
       page.manualWait();
       await page.waitForDelay(10000);
@@ -267,8 +248,6 @@ tertiary:
     message: waiting 30 sec to load NJ tertiary
 
   NY:
-    renderSettings:
-      maxWait: 60000
     overseerScript: >
       page.manualWait();
       await page.waitForSelector("a[href*=\"/news/governor-cuomo-updates-new-yorkers-states-progress-during-covid-19-pandemic-\"]");
@@ -283,10 +262,7 @@ tertiary:
     message: downloading CSV for RI tertiary
 
   WV:
-    overseerScript: >
-      page.manualWait();
-      await page.waitForDelay(30000);
-      page.done();
+    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting for WV tertiary
 
 quaternary:
@@ -295,7 +271,7 @@ quaternary:
     message: wait for IA quaternary
 
   PR:
-    overseerScript:
+    overseerScript: >
       await page.waitForNavigation({waitUntil:"domcontentloaded"});
       await page.waitForSelector("#ember906");
       page.click("#ember906");
@@ -308,7 +284,7 @@ quinary:
     message: wait for IA quinary
 
   PR:
-    overseerScript:
+    overseerScript: >
       await page.waitForNavigation({waitUntil:"domcontentloaded"});
       await page.waitForSelector("#ember772");
       page.click("#ember772");
