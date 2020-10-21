@@ -19,6 +19,8 @@ On September 1, 2020, Alabama began displaying the number of people tested by an
 
 As of September 18, 2020, Alabama's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
+On October 21, 2020, Alabama did not update their COVID-19 dashboard by the time of our daily update due to ""technical issues"".
+
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.",https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7,https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7,https://services7.arcgis.com/4RQmZZ0yaZkGR1zy/arcgis/rest/services/HospitalizedPatientTemporal_READ_ONLY/FeatureServer/1/query?where=1%3D1&orderbyfields=DateTxt+desc&outFields=%2A&resultRecordCount=1,,,@alpublichealth,http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html,Unclear units,totalTestsViral,Total Tests (PCR),No data,false,Alabama,01
 AR,"On Aug 15, 2020, Arkansas data changed due to deduplication and the state's removal of out-of-state cases from its dataset. These changes resulted in reductions in **Total cases**, **Ever hospitalized**, and **Ever in ICU** data.
 
@@ -27,8 +29,6 @@ On September 3, 2020, Arkansas began reporting probable cases according to the m
 On September 16, 2020, Arkansas’s **Negative Tests (PCR)** dropped by 26,801 tests, causing its **Total Tests (PCR)** to drop by 26,195 tests due to the reversal of a data dump of negative test results that Arkansas reversed. It also added 140 probable deaths, not all of which dated to September 16.
 
 As of September 18, 2020, Arkansas's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The totals do not include repeat positives—counting individuals only for their first positive—but do count repeat negative tests.
-
-On October 7, 2020, Arkansas's data dashboard did not update by our publication time, so we obtained several data points from a graphic on the home page of the Arkansas Department of Health.
 
 During the week of September 20, 2020, Arkansas made some continual adjustments to its antigen people tested numbers, resulting in some fluctuation in its negatives and totals.",https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,https://experience.arcgis.com/experience/c2ef4a4fcbe5458fbf2e48a21e4fece9,https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/fd6874664d404993814de4d5a65d5cfd,,,@adhpio,https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Arkansas,05
 AS,"American Samoa does not have a regularly updated data source. We monitor their social media, emergency declarations, and local media for updates.
@@ -133,6 +133,8 @@ As of August 28, 2020, we started reporting patients Now hospitalized from the [
 
 As of September 18, 2020, Georgia's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
+On October 21, 2020, Georgia did not update their ""COVID-19 Daily Status Report"" by the time of our daily update due to technical issues. In order to provide the most up to date data possible, we updated only **Current Hospitalizations**, which are sourced from a different Georgia government website.
+
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data. ",https://dph.georgia.gov/covid-19-daily-status-report,https://www.arcgis.com/apps/opsdashboard/index.html#/e40c39564f724af7bfe8fd5d88deadb6,https://augustagis.maps.arcgis.com/apps/opsdashboard/index.html#/4eec20925b6b4f338368df0ffcba472d,,,@GaDPH,https://dph.georgia.gov/novelcoronavirus,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Georgia,13
 GU,"Guam's counts include 11 people tested at the San Diego naval base.
 
@@ -189,6 +191,8 @@ As of May 7, 2020, **confirmed and probable cases** are included in the case tot
 From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or Positive PCR tests (people)**. We have corrected the error.
 
 On July 15, 2020, Kansas began reporting additional data from hospitals, and at that time, data for the **Now hospitalized** metric was only available through July 10.
+
+On October 21, 2020, the **inIcuCurrently** value for KS dropped from 81 to 1 on the state's dashboard. We recorded it, but expect it to be revised at another point. 
 
 The **Recovered** data point we report for Kansas reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Kansas notes that this metric only includes cases with available discharge information reported to the Kansas Department of Health and Environment.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalCapacity?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalSummary?%3Aembed=y&%3AshowVizHome=no,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,All data,false,Kansas,20
 KY,"On May 23, 2020, Kentucky revised down the state's figure for **Total tests**.
@@ -332,6 +336,8 @@ NM,Negative test results reported in our API and CSVs are calculated by subtract
 NV,"The Nevada Department of Health and Human Services states that due to testing preformed on environmental samples, the number of Total PCR Tests (test encounters) reported is higher than the number of test encounters including only tests preformed on people.
 
 On October 15, 2020, Nevada stopped reporting the number of unique people who tested negative on their dashboard without explanation. We carried forward the last reported number of people tested negative between October 15 and October 21 (our policy when a metric goes missing without notice is to “freeze” the number for up to seven days to allow states to recover from temporary reporting problems). Since our API uses the sum of positive+negative tests to calculate the total number of tests in Nevada, this caused the number of total tests on those dates to increase only by the number of positives. On October 21, 2020, we updated the number of Nevada’s negative tests for October 15 through October 20 based on a calculation of (Total people tested – Cases)
+
+On October 21, 2020, Nevada's cumulative **Recovered* number for residents decreased from 1151 to 1139 with no explanation.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.",https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,https://app.powerbigov.us/view?r=eyJrIjoiNDMwMDI0YmQtNmUyYS00ZmFjLWI0MGItZDM0OTY1Y2Y0YzNhIiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9&pageName=ReportSection713122d051caa3096e41,,,@dhhsnevada,http://dpbh.nv.gov/coronavirus/,People,posNeg,posNeg,All data,false,Nevada,32
 NY,"Due to an exclusion of **probable COVID-19 deaths** in the state's data, New York City and New York State report substantially diverging death counts. As of June 1, 2020, New York City reported 5740 more deaths than New York State. We use the data from the state, so our dataset excludes these probable COVID-19 deaths. 
