@@ -115,6 +115,7 @@ def main(args_list=None):
     config = config_from_args(args)
     state_urls = state_urls_from_args(args)
     slack_notifier = slack_notifier_from_args(args)
+    run_type = run_type_from_args(args)
     screenshotter = Screenshotter(
         local_dir=args.temp_dir, s3_backup=s3,
         phantomjscloud_key=args.phantomjscloud_key, config=config)
@@ -134,6 +135,9 @@ def main(args_list=None):
                 return True
             except ValueError as e:
                 logger.error(e)
+                if slack_notifier:
+                    slack_notifier.notify_slack(
+                        f"Errored screenshot states for this {run_type} run: {e}")
                 return False
 
         # Retrieve set of URLs to load. If user didn't specify screenshot(s) to take, take them all
@@ -159,11 +163,9 @@ def main(args_list=None):
                 failed_states.append((state, suffix or 'primary'))
 
     if failed_states:
-        run_type = run_type_from_args(args)
         failed_states_str = ', '.join([':'.join(x) for x in failed_states])
         logger.error(f"Errored screenshot states for this {run_type} run: {failed_states_str}")
         if slack_notifier:
-            
             slack_notifier.notify_slack(
                 f"Errored screenshot states for this {run_type} run: {failed_states_str}")
     else:

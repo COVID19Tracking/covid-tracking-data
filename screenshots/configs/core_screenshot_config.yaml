@@ -92,7 +92,7 @@ primary:
       viewport:
         width: 1400
         height: 3000
-    message: UT dashboard doesn't render in phantomjscloud unless we set clipRectangle
+    message: UT dashboard doesn't render in phantomjscloud unless we set a viewport
 
   WA:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
@@ -202,6 +202,13 @@ secondary:
   TX:
     file: xlsx
     message: downloading Excel for TX secondary
+
+  UT:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 3000
+    message: UT dashboard doesn't render in phantomjscloud unless we set a viewport
 
   WA:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
