@@ -146,8 +146,6 @@ secondary:
     message: waiting 30 sec to load IN secondary
 
   IL:
-    renderSettings:
-      maxWait: 60000
     overseerScript: >
       page.manualWait(); 
       await page.waitForSelector("a.ckeditor-accordion-toggler");
