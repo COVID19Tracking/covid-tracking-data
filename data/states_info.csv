@@ -258,7 +258,9 @@ MN,"On September 17, 2020, we switched Minnesota's specimens timeseries to **Tot
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
 As of September 18, 2020, Minnesota total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative. 
-The number of unique people tested is available in our API as `totalTestsPeopleViral`.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,https://mn.gov/covid19/data/response-prep/response-capacity.jsp,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
+The number of unique people tested is available in our API as `totalTestsPeopleViral`.
+
+From September 27 to October 4, 2020, Minnesota did not report the current number of hospitalizations or patients in the ICU. We froze these values through October 2, 2020. On October 3, 2020, we removed the values in accordance with our policy of not carrying over current values for longer than 7 days. The values were restored on October 4, 2020.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,https://mn.gov/covid19/data/response-prep/response-capacity.jsp,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
 MO,"As of May 22, 2020, Missouri reports PCR tests separately from antibody tests. 
 
 On September 5, 2020, the Missouri DHSS [added an additional 72 deaths](http://twitter.com/HealthyLivingMo/status/1302314149620391937?s=20) to their total count, ""most of which occurred June-August"".
@@ -492,7 +494,7 @@ WI,"On March 30, 2020, Wisconsin revised its cumulative **Negative PCR tests (pe
 In early June of 2020, Wisconsin started reporting probable cases of COVID-19 separately from confirmed cases of COVID-19. On June 25, 2020, The COVID Tracking Project added more than two weeks' worth of probable cases to our **Cases (confirmed plus probable)** for WI, initially causing a large single day increase in cases. We subsequently updated our historical Cases data using data provided to us by the state, which eliminated this one-day increase.
 
 In early June of 2020, Wisconsin started reporting probable deaths from COVID-19 separately from confirmed deaths from COVID-19. We did not discover this data until June 29, 2020, and so our time series only has data for this metric beginning on that date.
-",https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm,,,,@DHSWI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,People,posNeg,posNeg,All data,false,Wisconsin,55
+",https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm,https://bi.wisconsin.gov/t/DHS/views/PercentofconfirmedprobableCOVID-19casesby-group-MOBILE/CaseDB2/butleoljdl@accounts.wistate.us/ed25311e-7f8a-4c7d-aee8-97b28850f0ac?:embed=y&:display_spinner=no&:showAppBanner=false&:embed_code_version=3&:loadOrderID=4&:display_count=n&:showVizHome=n&:origin=viz_share_link,,,@DHSWI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,People,posNeg,posNeg,All data,false,Wisconsin,55
 WV,"On April 16, 2020, West Virginia began reporting **current hospitalization, ICU, and ventilator** metrics from 49 of 55 counties. Before April 16, 2020, those counts were less complete, as they were based on completed investigations rather than on hospital data.
 
 On May 23, 2020, West Virginia began reporting PCR and antibody tests separately. Total test values before this date might include both PCR and antibody tests.
@@ -508,11 +510,13 @@ On April 22, 2020, Wyoming revised its **Total PCR tests (specimens)** downward,
 
 On April 28, 2020, we began to report **probable cases** together with **confirmed cases**.
 
-On June 19, 2020, Wyoming began reporting the **Total PCR tests (people)** as well as **Total PCR tests (specimens)**.
+On June 19, 2020, Wyoming began reporting **Total PCR tests (people)** as well as **Total PCR tests (specimens)**.
 
 On August 26, 2020, Wyoming did not report **Total PCR tests (people).** We have carried over the previous day's value.
 
-On October 14, 2020, Wyoming's **Total PCR Tests (specimens)** and **Total PCR Tests (people) values both decreased by over 1000 with no explanation. We believe the state might have deduplicated its data. 
+On October 14, 2020, Wyoming's **Total PCR Tests (specimens)** and **Total PCR Tests (people)** values both decreased by over 1000 with no explanation. We believe the state might have deduplicated its data.
+
+On October 22, 2020, Wyoming reported a ~47% hospitalization rate. We carried over the previous value because this would have resulted in ~3700 additional hospitalized cases in **Cumulative hospitalized/Ever hospitalized**. 
 
 Wyoming reports both **Positive tests PCR (specimens)** and **Negative tests PCR (specimens)** as percentages of **Total tests PCR**. We convert these percentages to integers. Wyoming reports the number of people currently hospitalized with COVID-19 in each hospital: we sum these values for the state total. Wyoming reports the number of people ever hospitalized with COVID-19 as a percentage: we convert this percentage to an integer. Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 ",https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-testing-data/,,,@health_wyoming,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,People,posNeg,posNeg,No data,false,Wyoming,56
