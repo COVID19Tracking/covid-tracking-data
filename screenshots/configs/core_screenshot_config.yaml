@@ -149,6 +149,15 @@ secondary:
     file: pdf
     message: downloading pdf for MA
 
+  MN:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(15000);
+      await page.evaluate(() => { document.evaluate("//*/div[2]/a[contains(text(),'non-COVID')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.parentNode.getElementsByTagName("input")[0].checked = false; });
+      await page.waitForDelay(5000);
+      page.done();
+    message: clear the "non-covid checkbox for hospitalizations"
+
   NJ:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load NJ secondary
