@@ -126,6 +126,8 @@ On October 10, 2020, Florida did not report COVID-19 data. The state initially r
 
 As of October 13, 2020, Florida's Antigen positive timeseries is stored in our **Probable cases** field, reflecting a response to our outreach to Florida's health department that it switches Antigen positive cases to PCR positive cases in their daily state report upon confirmatory PCR testing.
 
+On October 21, 2020, only some of Florida's data updated by our publication time. Data points such as **Total PCR Tests (People)** did not update.
+
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.",https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,https://floridahealthcovid19.gov/,https://bi.ahca.myflorida.com/t/ABICC/views/Public/COVIDHospitalizationsCounty?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y,,,@HealthyFla,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,People,posNeg,posNeg,All data,false,Florida,12
 GA,"As of May 27, 2020, Georgia reports antibody tests separately from PCR tests. This change reduced the number for total tests by approximately 74,000.
 
