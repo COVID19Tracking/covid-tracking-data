@@ -155,6 +155,16 @@ secondary:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load IN secondary
 
+  IL:
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForSelector("a.ckeditor-accordion-toggler");
+      await page.evaluate(() => { document.evaluate("//a[contains(text(),'Statewide Hospital Statistics1')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("a[ctpclickhere]");
+      await page.waitForDelay(5000);
+      page.done();
+    message: expanding hospital section 
+
   MA:
     file: pdf
     message: downloading pdf for MA
