@@ -189,16 +189,7 @@ secondary:
     message: waiting 30 sec to load WA secondary
 
 
-  WI: 
-    url: https://bi.wisconsin.gov/t/DHS/views/PercentofconfirmedprobableCOVID-19casesby-group-MOBILE/CaseDB2/butleoljdl@accounts.wistate.us/ed25311e-7f8a-4c7d-aee8-97b28850f0ac?:embed=y&:display_spinner=no&:showAppBanner=false&:embed_code_version=3&:loadOrderID=4&:display_count=n&:showVizHome=n&:origin=viz_share_link
-    overseerScript: >
-      page.manualWait();
-      await page.waitForDelay(6000);
-      await page.waitForSelector("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(2) input"); 
-      page.click("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(2) input");
-      await page.waitForDelay(5000);
-      page.done();
-    message: wi probables
+
 
     
 
@@ -291,6 +282,16 @@ tertiary:
   RI:
     file: csv
     message: downloading CSV for RI tertiary
+
+  WI: 
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(6000);
+      await page.waitForSelector("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(2) input"); 
+      page.click("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(2) input");
+      await page.waitForDelay(5000);
+      page.done();
+    message: wi probables    
 
   WV:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
