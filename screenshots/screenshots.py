@@ -74,13 +74,13 @@ class Screenshotter():
             data.update(state_config)
 
         # set maxWait if unset
-        if 'renderSettings' in data:
-            if 'maxWait' not in data['renderSettings']:
-                data['renderSettings']['maxWait'] = 60000
+        if 'requestSettings' in data:
+            if 'maxWait' not in data['requestSettings']:
+                data['requestSettings']['maxWait'] = 60000
         else:
-            data['renderSettings'] = {'maxWait': 60000}
+            data['requestSettings'] = {'maxWait': 60000}
 
-        logger.info('Posting request...')
+        logger.info('Posting request %s...' % data)
         response = requests.post(self.phantomjs_url, json.dumps(data))
         logger.info('Done.')
 
