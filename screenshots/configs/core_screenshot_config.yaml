@@ -293,6 +293,16 @@ tertiary:
     file: csv
     message: downloading CSV for RI tertiary
 
+  WI: 
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(6000);
+      await page.waitForSelector("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(2) input"); 
+      page.click("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(2) input");
+      await page.waitForDelay(5000);
+      page.done();
+    message: wi probables    
+
   WV:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting for WV tertiary
