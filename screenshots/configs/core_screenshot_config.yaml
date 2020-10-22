@@ -116,6 +116,13 @@ secondary:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load AR secondary
 
+  CO:
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(10000); 
+      page.done();
+    message: wait for CO dash to avoid blank screenshots
+
   DE:
     overseerScript: >
       page.manualWait(); 
@@ -194,6 +201,13 @@ tertiary:
       await page.waitForDelay(10000);
       page.done();
     message: clicking on "Tests" tab for AR tertiary
+
+  CO:
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(10000); 
+      page.done();
+    message: wait for CO dash to avoid blank screenshots
 
   DC:
     overseerScript: >
