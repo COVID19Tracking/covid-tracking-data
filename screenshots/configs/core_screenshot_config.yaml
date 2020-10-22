@@ -274,6 +274,12 @@ tertiary:
       page.done();
     message: click on the first "gov cuomo updates..." link, which should be the latest press release
  
+  OH:
+    renderSettings:
+      viewport:
+        width: 1600
+    message: forcing wider viewPort to avoid clipping
+
   RI:
     file: csv
     message: downloading CSV for RI tertiary
