@@ -280,6 +280,8 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 On July 23, 2020, we switched our **Total tests** units to the people-tested metric reported by the Northern Mariana Islands, which led to a drop in total tests. We will backfill total tests data for the territory as soon as we are able to do so.",https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,https://services8.arcgis.com/zkkZCub5I6ydvXQj/ArcGIS/rest/services/Coronavirus_PublicDashboardView/FeatureServer/3/query?where=1%3D1&outStatistics=%5B%7B%27statisticType%27%3A+%27max%27%2C+%27onStatisticField%27%3A+%27reportdt%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27confirmedcases%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27totalspeccnmi%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27deaths%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27recovered%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27hospitalized%27%7D%5D,https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,,,@cnmichcc,https://www.chcc.gov.mp/coronavirusinformation.php,People,posNeg,posNeg,No Data,false,Northern Mariana Islands,69
 MS,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+On October 25, 2020, Mississippi announced that COVID-19 data for October 24, 2020 and October 25, 2020 would be published on Monday. As a result, Mississippi did not update on October 24, 2020 and October 25, 2020.
+
 On September 15, 2020, Mississippi resumed reporting current hospitalizations, ICU, and ventilations on the source we have historically used for this metric. We are working to backfill these data points in our historical data.
 
 On September 11, 2020, we discovered a new source for Mississippi current hospitalizations and current ICU admissions on the Mississippi State Department of Health website.
@@ -455,7 +457,9 @@ On August 27, the VA dashboard did not update by our publish time. We are carryi
 On Aug 7, 2020, due to the release of a backlog, Virginia reoprted an abnormally large **case** increase of around 2000.
 
 As of May 15, 2020, Virginia is reporting PCR tests and antibody tests separately. ",https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,https://data.virginia.gov/resource/3u5k-c2gr.json?%24query=select+sum%28number_of_pcr_testing%29+as+pcr_testing%2C+sum%28number_of_positive_pcr_testing%29+as+pos_pcr_testing,,,@vdhgov,http://www.vdh.virginia.gov/surveillance-and-investigation/novel-coronavirus/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Positives + Negatives,false,Virginia,51
-VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, **Negative PCR tests**, and **Pending tests**.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,posNeg,Positives Only,false,US Virgin Islands,78
+VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, **Negative PCR tests**, and **Pending tests**.
+
+On October 25, 2020, the Virgin Islands did not release any new data.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,posNeg,Positives Only,false,US Virgin Islands,78
 VT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
 On September 23, 2020, Vermont's **total tests** decreased by about 80 tests with no explanation. 
