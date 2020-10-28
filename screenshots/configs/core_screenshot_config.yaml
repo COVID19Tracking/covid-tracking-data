@@ -342,12 +342,14 @@ quaternary:
     overseerScript: >
       page.manualWait(); 
       await page.waitForSelector("a[title='DEATHS by Date of Death'");
-      await page.evaluate(() => { document.querySelector("a[title='DEATHS by Date of Death'").parentElement.firstChild.setAttribute("ctpclickhere", "ctpclickhere"); });
-      page.click("[ctpclickhere]");
       await page.waitForDelay(5000);
+      await page.evaluate(() => { document.querySelector("a[title='DEATHS by Date of Death'").parentElement.firstChild.setAttribute("ctpclickhere", "ctpclickhere"); });
+      await page.waitForDelay(1000);
+      page.click("[ctpclickhere]");
+      await page.waitForDelay(10000);
       page.done();
 
-    message: clicking on "deaths by date of death". Using page.evaluate because I couldn't figure out how to select the sibling.
+    message: clicking on "deaths by date of death". 
 
   PR:
     overseerScript: >
