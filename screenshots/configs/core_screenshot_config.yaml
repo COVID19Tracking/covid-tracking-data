@@ -14,12 +14,15 @@ primary:
     message: using viewport height 3000 for ID
 
   IA:
-    url: https://public.domo.com/embed/pages/dPRol
     renderSettings:
       viewport:
         width: 1400
         height: 3000
-    message: loading custom URL and using viewport height 3000 for IA
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(30000); 
+      page.done();
+    message: adding manual wait and using viewport height 3000 for IA
 
   IN:
     renderSettings:
