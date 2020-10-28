@@ -263,7 +263,10 @@ tertiary:
     message: hover logic to show confirmed/probable cases split on statewide demographics dash.
 
   IA:
-    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(45000); 
+      page.done();
     message: wait for IA tertiary
 
   KY:
@@ -333,7 +336,10 @@ quaternary:
     message: downloading pdf 
 
   IA:
-    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(45000); 
+      page.done();
     message: wait for IA quaternary
 
   PR:
@@ -346,7 +352,10 @@ quaternary:
 
 quinary:
   IA:
-    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(45000); 
+      page.done();
     message: wait for IA quinary
 
   PR:
