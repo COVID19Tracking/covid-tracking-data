@@ -214,6 +214,16 @@ secondary:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load WA secondary
 
+  WV:
+    overseerScript: >
+      page.manualWait();  
+      await page.waitForDelay(20000);
+      await page.evaluate(() => { document.evaluate("//button/span[contains(text(),'Hospital')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("span[ctpclickhere]");
+      await page.waitForDelay(10000);
+      page.done();
+    message: clicking on hospital tab of dashboard
+
 tertiary:
   AR:
     renderSettings:
@@ -321,8 +331,14 @@ tertiary:
     message: wi probables    
 
   WV:
-    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
-    message: waiting for WV tertiary
+    overseerScript: >
+      page.manualWait();  
+      await page.waitForDelay(20000);
+      await page.evaluate(() => { document.evaluate("//button/span[contains(text(),'Includes Probable and Confirmed Cases (Click to View')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("span[ctpclickhere]");
+      await page.waitForDelay(10000);
+      page.done();
+    message: clicking on 'total number of cases' box
 
 quaternary:
 
