@@ -178,6 +178,10 @@ secondary:
       page.done();
     message: clear the "non-covid checkbox for hospitalizations"
 
+  NC:
+    file: pdf
+    message: downloading pdf
+    
   NJ:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load NJ secondary
@@ -333,6 +337,17 @@ quaternary:
   IA:
     overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
     message: wait for IA quaternary
+
+  NC:
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForSelector("a[title='DEATHS by Date of Death'");
+      await page.evaluate(() => { document.querySelector("a[title='DEATHS by Date of Death'").parentElement.firstChild.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("[ctpclickhere]");
+      await page.waitForDelay(5000);
+      page.done();
+
+    message: clicking on "deaths by date of death". Using page.evaluate because I couldn't figure out how to select the sibling.
 
   PR:
     overseerScript: >
