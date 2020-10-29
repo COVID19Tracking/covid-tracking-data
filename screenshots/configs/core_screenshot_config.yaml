@@ -270,6 +270,10 @@ tertiary:
     file: pdf
     message: downloading PDF for KY tertiary
 
+  MA:
+    file: pdf
+    message: downloading pdf
+
   MP:
     overseerScript: >
       page.manualWait();
