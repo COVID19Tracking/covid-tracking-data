@@ -93,10 +93,12 @@ DC,"Negative test results reported in our API and CSVs are calculated by subtrac
 
 As of September 18, 2020, District of Columbia's total test results are drawn from our total`TestEncountersViral` field instead of calculated via positive+negative.
 
-As of August 29, 2020, we store the “total overall tested” timeseries in our **Total PCR Tests (encounters)** field despite the following: According to our outreach, the District of Columbia’s “total overall tested” figure on its dashboard represents test encounters, the number of unique individuals tested per day, with one exception: if an individual receives a positive and a negative test on the same day, they are counted twice rather than once. 
+As of August 29, 2020, we store the “total overall tested” timeseries in our **Total Test Encounters (PCR)** field despite the following: According to our outreach, the District of Columbia’s “total overall tested” figure on its dashboard represents test encounters, the number of unique individuals tested per day, with one exception: if an individual receives a positive and a negative test on the same day, they are counted twice rather than once. 
 
 On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.",https://coronavirus.dc.gov/page/coronavirus-surveillance-data,https://coronavirus.dc.gov/page/hospital-status-data,https://microstrategy.dc.gov/MicroStrategyLibrary/app/E52A533B11EA01A28FE80080EFC53DA4/30FE682111EA6FB5A6620080EF357B1F/WEF49494DFBDE44548AFB2A631C5233CC--K46,,,@_DCHealth,https://coronavirus.dc.gov/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,District of Columbia,11
-DE,"On September 9, 2020, Delaware reported that  data from September 8, 2020 and September 9, 2020 would not be available until September 10, 2020 due to a maintenance issue with their electronic reporting system. We will backfill data for September 8, 2020 and September 9, 2020 to the best of our abilities when data is released
+DE,"On October 29, 2020, we moved the data in our **Total Tests (PCR)** field for Delaware to the **Total Test Encounters (PCR)** field after learning that it represents encounters from Delaware's state health department. However, Delaware appears to include antigen tests in its totals, so if an individual is tested using two different test types on the same day, it will get counted twice. Also as of October 29, 2020, Delaware's `totalTestResults` field represents encounters. The number of unique people ever tested remains available in the `totalTestsPeopleViral` field.  
+
+On September 9, 2020, Delaware reported that  data from September 8, 2020 and September 9, 2020 would not be available until September 10, 2020 due to a maintenance issue with their electronic reporting system. We will backfill data for September 8, 2020 and September 9, 2020 to the best of our abilities when data is released
 
 On September 6, 2020, the Division of Public Health reported a technical issue which caused between 175-200 positive cases to be excluded from Delaware's cumulative confirmed case count. These cases will be added in the coming days. As a result new cases reported may not have been diagnosed in the past 24 hour period.
 
@@ -104,7 +106,7 @@ On August 27, 2020, Delaware revised down total cases and confirmed positives. T
 
 On July 25, 2020, Delaware revised down total cases, confirmed positives, and total tests.
 
-On April 11, 2020, Delaware revised down negative test results from 10,415 to 9,624.",https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,People,posNeg,posNeg,All data,false,Delaware,10
+On April 11, 2020, Delaware revised down negative test results from 10,415 to 9,624.",https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Delaware,10
 FL,"Florida combines PCR and antigen tests in the total tests figure reported on the state's dashboard (first noted July 2, 2020). We include data about Florida non-residents in all metrics where possible. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
 
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.
@@ -247,7 +249,7 @@ Our source for **Now hospitalized** and **Now in ICU** data in Michigan generall
 
 Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard. 
 
-On October 29, 2020, Vermont added **Currently in ICU ** and **Total Tests (in specimens)** to their dashboard and we began capturing these values.
+On October 29, 2020, Michigan experienced connectivity issues resulting in some cases that would have been reported tomorrow to be reported today. This is due to the fact that the state has a strict 10AM cutoff for daily data reporting. This means the daily increase in cases encompasses more than one day's worth of data.
 
 On October 15, 2020, Michigan announced that due to a laboratory result processing slowdown, several cases that would normally have been included in the October 14, 2020 update were reported on October 15, 2020. The issue has since been resolved. Aa a result, cases reported on October 15, 2020 may not have been reported within the last 24 hour period.
 
@@ -347,6 +349,8 @@ NV,"The Nevada Department of Health and Human Services states that due to testin
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
+On October 29, 2020, Nevada’s Total PCR Tests (PCR) increased by a smaller amount than the increase in Cases. Because Negative test results are calculated by subtracting Positive PCR tests (people) from Total PCR tests (people), Negative test results decreased on October 29, 2020.
+
 On October 21, 2020, Nevada's cumulative **Recovered* number for residents decreased from 1151 to 1139 with no explanation.
 
 On October 15, 2020, Nevada stopped reporting the number of unique people who tested negative on their dashboard without explanation. We carried forward the last reported number of people tested negative between October 15 and October 21 (our policy when a metric goes missing without notice is to “freeze” the number for up to seven days to allow states to recover from temporary reporting problems). Since our API uses the sum of positive+negative tests to calculate the total number of tests in Nevada, this caused the number of total tests on those dates to increase only by the number of positives. On October 21, 2020, we updated the number of Nevada’s negative tests for October 15 through October 20 based on a calculation of (Total people tested – Cases)",https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,https://app.powerbigov.us/view?r=eyJrIjoiNDMwMDI0YmQtNmUyYS00ZmFjLWI0MGItZDM0OTY1Y2Y0YzNhIiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9&pageName=ReportSection713122d051caa3096e41,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,@dhhsnevada,http://dpbh.nv.gov/coronavirus/,People,posNeg,posNeg,All data,false,Nevada,32
@@ -443,9 +447,11 @@ UT,"Utah combines PCR and antigen tests in the top-line total tests figure repor
 
 Our Total PCR Tests (People) is still sourced from the dashboard, and includes both PCR and antigen tests.
 
+As of October 29, 2020, Utah's `totalTestResults` field represents encounters instead of pos+neg. The number of unique people ever tested remains available in the `totalTestsPeopleViral` field. 
+
 As of July 16, 2020, Utah is reporting both specimens and people tested. We report positives and negatives based on the number of people tested.
 
-As of June 11, 2020, Utah reports a combined case count for total intubated patients and patients on a ventilator. We report this figure as **Ever on ventilator**.",https://coronavirus-dashboard.utah.gov/,https://coronavirus-dashboard.utah.gov/#hospitalizations-mortality,,,,@utahdepofhealth,https://health.utah.gov/coronavirus,People,posNeg,posNeg,Only positives,false,Utah,49
+As of June 11, 2020, Utah reports a combined case count for total intubated patients and patients on a ventilator. We report this figure as **Ever on ventilator**.",https://coronavirus-dashboard.utah.gov/,https://coronavirus-dashboard.utah.gov/#hospitalizations-mortality,,,,@utahdepofhealth,https://health.utah.gov/coronavirus,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Utah,49
 VA,"**Ever hospitalized** is calculated from the ""currently hospitalized"" and ""discharged"" data points on the Virginia Hospital COVID-19 dashboard. 
 
 The **Recovered** data point we report for Virginia reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
@@ -466,11 +472,15 @@ VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, 
 On October 25, 2020, the Virgin Islands did not release any new data.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,posNeg,Positives Only,false,US Virgin Islands,78
 VT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
+On October 29, 2020, Vermont started publishing **Total PCR Tests (in specimens)** in addition to **Total PCR Tests (in people)**. We backfilled the full time series for this metric from Vermont's Arcgis layer.
+
+As of October 29, 2020, Vermont's total test results are drawn from our `totalTestViral` field instead of calculated via positive+negative. 
+
 On September 23, 2020, Vermont's **total tests** decreased by about 80 tests with no explanation. 
 
 On August 19, 2020, Vermont's **total tests** decreased by about 200 tests with no explanation.  
 
-Between May 15 and May 16, 2020, Vermont's **total tests** decreased by about 1,000 tests with no explanation.",https://experience.arcgis.com/experience/85f43bd849e743cb957993a545d17170,https://www.healthvermont.gov/response/coronavirus-covid-19/current-activity-vermont#dashboard,,,,@healthvermont,https://www.healthvermont.gov/response/infectious-disease/2019-novel-coronavirus,People,posNeg,posNeg,Positives + Negatives,false,Vermont,50
+Between May 15 and May 16, 2020, Vermont's **total tests** decreased by about 1,000 tests with no explanation.",https://experience.arcgis.com/experience/85f43bd849e743cb957993a545d17170,https://www.healthvermont.gov/response/coronavirus-covid-19/current-activity-vermont#dashboard,,,,@healthvermont,https://www.healthvermont.gov/response/infectious-disease/2019-novel-coronavirus,Specimens,totalTestsViral,Total Tests (PCR),Positives + Negatives,false,Vermont,50
 WA,"Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
@@ -490,11 +500,15 @@ On June 18, 2020, Washington revised its **Total PCR tests (people)** downward. 
 On April 18, 2020, Washington state removed 190 **confirmed cases** that were discovered to be out-of-state residents tested in Washington laboratories. 
 
 Between March 31 and April 15, 2020, Washington state did not report **Negative PCR tests (people)**. ",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,,,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Positives + Negatives,false,Washington,53
-WI,"In early June of 2020, Wisconsin started reporting probable deaths from COVID-19 separately from confirmed deaths from COVID-19. We did not discover this data until June 29, 2020, and so our time series only has data for this metric beginning on that date.
+WI,"On October 29, we populated the full time series for Total Test Encounters (PCR) from a time series provided by Wisconsin via CSV on their dashboard. Also as of October 29, Wisconsin's `totalTestResults` represent total test encounters instead of being calculated via pos+neg. The number of unique people ever tested remains available in the API in the `totalTestsPeopleViral` field.
+
+On October 20, Wisconsin started providing a total tests number on their dashboard and we started to collect that data into Total Test Encounters (PCR).
+
+In early June of 2020, Wisconsin started reporting probable deaths from COVID-19 separately from confirmed deaths from COVID-19. We did not discover this data until June 29, 2020, and so our time series only has data for this metric beginning on that date.
 
 In early June of 2020, Wisconsin started reporting probable cases of COVID-19 separately from confirmed cases of COVID-19. On June 25, 2020, The COVID Tracking Project added more than two weeks' worth of probable cases to our **Cases (confirmed plus probable)** for WI, initially causing a large single day increase in cases. We subsequently updated our historical Cases data using data provided to us by the state, which eliminated this one-day increase.
 
-On March 30, 2020, Wisconsin revised its cumulative **Negative PCR tests (people)** data downward without explanation.",https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm,https://bi.wisconsin.gov/t/DHS/views/PercentofconfirmedprobableCOVID-19casesby-group-MOBILE/CaseDB2/butleoljdl@accounts.wistate.us/ed25311e-7f8a-4c7d-aee8-97b28850f0ac?:embed=y&:display_spinner=no&:showAppBanner=false&:embed_code_version=3&:loadOrderID=4&:display_count=n&:showVizHome=n&:origin=viz_share_link,https://bi.wisconsin.gov/t/DHS/views/PercentPositivebyTestPersonandaComparisonandTestCapacity/TestCapacityDashboard.csv,,@DHSWI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,People,posNeg,posNeg,All data,false,Wisconsin,55
+On March 30, 2020, Wisconsin revised its cumulative **Negative PCR tests (people)** data downward without explanation.",https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm,https://bi.wisconsin.gov/t/DHS/views/PercentofconfirmedprobableCOVID-19casesby-group-MOBILE/CaseDB2/butleoljdl@accounts.wistate.us/ed25311e-7f8a-4c7d-aee8-97b28850f0ac?:embed=y&:display_spinner=no&:showAppBanner=false&:embed_code_version=3&:loadOrderID=4&:display_count=n&:showVizHome=n&:origin=viz_share_link,https://bi.wisconsin.gov/t/DHS/views/PercentPositivebyTestPersonandaComparisonandTestCapacity/TestCapacityDashboard.csv,,@DHSWI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Wisconsin,55
 WV,"West Virginia reports new antibody tests daily. We sum these numbers in a running total to report a value for the total number of antibody tests West Virginia has conducted. 
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
