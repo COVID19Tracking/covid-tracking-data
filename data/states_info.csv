@@ -247,6 +247,8 @@ Our source for **Now hospitalized** and **Now in ICU** data in Michigan generall
 
 Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard. 
 
+On October 29, 2020, Vermont added **Currently in ICU ** and **Total Tests (in specimens)** to their dashboard and we began capturing these values.
+
 On October 15, 2020, Michigan announced that due to a laboratory result processing slowdown, several cases that would normally have been included in the October 14, 2020 update were reported on October 15, 2020. The issue has since been resolved. Aa a result, cases reported on October 15, 2020 may not have been reported within the last 24 hour period.
 
 As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
@@ -339,7 +341,7 @@ On July 19, 2020, New Jersey's **Total cases** decreased, perhaps due to reclass
 
 On July 16, 2020, New Jersey's **Recovered** figure decreased.
 
-On May 16, 2020, a backfill effort by New Jersey caused the state's data for **Recovered** to rise by approximately 7,000 people. ",https://covid19.nj.gov/#live-updates,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=2,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=4,https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/PPE_Capacity/FeatureServer/0/query?where=survey_period%3E%3Dtimestamp+%272020-04-27+07%3A00%3A00%27+AND+structure_measure_identifier+LIKE+%27%25ischarge%25Excluding+Deaths%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27recoveries%27%7D%5D,,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,Specimens,posNeg,posNeg,All data,false,New Jersey,34
+On May 16, 2020, a backfill effort by New Jersey caused the state's data for **Recovered** to rise by approximately 7,000 people. ",https://covid19.nj.gov/#live-updates,https://maps.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7&entry=2,https://njhealth.maps.arcgis.com/apps/opsdashboard/index.html#/81a17865cb1a44db92eb8eb421703635,https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/PPE_Capacity/FeatureServer/0/query?where=survey_period%3E%3Dtimestamp+%272020-04-27+07%3A00%3A00%27+AND+structure_measure_identifier+LIKE+%27%25ischarge%25Excluding+Deaths%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27recoveries%27%7D%5D,,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,Specimens,posNeg,posNeg,All data,false,New Jersey,34
 NM,Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.,https://cvprovider.nmhealth.org/public-dashboard.html,,,,,@NMDOH,https://cv.nmhealth.org/,Specimens,posNeg,posNeg,All data,false,New Mexico,35
 NV,"The Nevada Department of Health and Human Services states that due to testing preformed on environmental samples, the number of Total PCR Tests (test encounters) reported is higher than the number of test encounters including only tests preformed on people.
 
