@@ -382,6 +382,19 @@ quaternary:
 
     message: clicking on "deaths by date of death". 
 
+  NH:
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForSelector("a[title='Antibody Tests - Test Based'");
+      await page.waitForDelay(5000);
+      await page.evaluate(() => { document.querySelector("a[title='Antibody Tests - Test Based'").parentElement.firstChild.setAttribute("ctpclickhere", "ctpclickhere"); });
+      await page.waitForDelay(1000);
+      page.click("[ctpclickhere]");
+      await page.waitForDelay(10000);
+      page.done();
+
+    message: clicking on 'Antibody Tests - Test Based'. 
+
   PR:
     overseerScript: >
       await page.waitForNavigation({waitUntil:"domcontentloaded"});
