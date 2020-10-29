@@ -163,9 +163,9 @@ secondary:
       await page.waitForSelector("a.ckeditor-accordion-toggler");
       await page.evaluate(() => { document.evaluate("//a[contains(text(),'Statewide Hospital Statistics1')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
       page.click("a[ctpclickhere]");
-      await page.waitForDelay(5000);
+      await page.waitForDelay(20000);
       page.done();
-    message: expanding hospital section 
+    message: expanding hospital section, also waiting an extra 20 seconds to make sure other elements render
 
   MA:
     file: pdf
