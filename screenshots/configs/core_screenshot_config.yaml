@@ -390,6 +390,11 @@ quaternary:
       page.done();
     message: click button for PR recoveries ("Convalecientes")
 
+  WI:
+    file: csv
+    message: download CSV for testing data
+
+
 quinary:
   IA:
     overseerScript: >
