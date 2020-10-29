@@ -14,12 +14,15 @@ primary:
     message: using viewport height 3000 for ID
 
   IA:
-    url: https://public.domo.com/embed/pages/dPRol
     renderSettings:
       viewport:
         width: 1400
         height: 3000
-    message: loading custom URL and using viewport height 3000 for IA
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(30000); 
+      page.done();
+    message: adding manual wait and using viewport height 3000 for IA
 
   IN:
     renderSettings:
@@ -263,7 +266,10 @@ tertiary:
     message: hover logic to show confirmed/probable cases split on statewide demographics dash.
 
   IA:
-    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(45000); 
+      page.done();
     message: wait for IA tertiary
 
   KY:
@@ -337,7 +343,10 @@ quaternary:
     message: downloading pdf 
 
   IA:
-    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(45000); 
+      page.done();
     message: wait for IA quaternary
 
   PR:
@@ -350,7 +359,10 @@ quaternary:
 
 quinary:
   IA:
-    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(45000); 
+      page.done();
     message: wait for IA quinary
 
   PR:
