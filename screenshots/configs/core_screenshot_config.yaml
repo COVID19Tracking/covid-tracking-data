@@ -310,6 +310,20 @@ tertiary:
     file: csv
     message: downloading CSV for RI tertiary
 
+  TN:
+    url: https://data.tn.gov/t/Public/views/HospitalizedPatients/HospitalizedPatients?:embed=y
+    renderSettings:
+      viewport:
+        width: 1100
+        height: 1400
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(6000);
+      page.mouse.move(999, 672);
+      await page.waitForDelay(1000);
+      page.done();
+    message: hospitalizations for TN tertiary
+
   WI: 
     overseerScript: >
       page.manualWait();
