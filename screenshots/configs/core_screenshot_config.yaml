@@ -311,7 +311,6 @@ tertiary:
     message: downloading CSV for RI tertiary
 
   TN:
-    url: https://data.tn.gov/t/Public/views/HospitalizedPatients/HospitalizedPatients?:embed=y
     renderSettings:
       viewport:
         width: 1100
