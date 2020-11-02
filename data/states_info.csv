@@ -323,6 +323,8 @@ On August 19, 2020, North Dakota launched a new dashboard with a number of new d
 On May 3, 2020, North Dakota began reporting two additional **death** metrics: deaths of people with lab-confirmed cases of COVID-19 whose death records are still pending and deaths of people with lab-confirmed cases of COVID-19 whose death certificates do not list COVID-19 as a cause of death. As of July 1, 2020, we have edited our historical figures to exclude these numbers from our death counts, resulting in an apparent drop from 24 deaths on May 2 to 16 on May 3. ",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,North Dakota,38
 NE,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric.
 
+As of October 30th, 2020,, our **Total tests** metrics include Nevada's **Total tests (in specimens)**.
+
 On October 30, 2020, we backfilled the full time series for Nebraska's Total Tests into our ""Total Tests (PCR)"" metric from a Nebraska GIS query. At the same time, we filled our Positive Tests (PCR) and Negative Tests (PCR) from the same query.
 
 On September 20, 2020, Nebraska started publishing **Total Tests (in specimens)** in addition to **People Tested (in people)**, and we started collecting the Total Tests daily into our Total Tests (PCR) metric.
