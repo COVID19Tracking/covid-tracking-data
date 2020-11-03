@@ -218,6 +218,8 @@ On June 19, 2020, Louisiana's data changed due to deduplication and the state's 
 Between April 20 and April 24, 2020, Louisiana did not report testing data from commercial labs due to a state review of data.",http://ldh.la.gov/Coronavirus/,https://services5.arcgis.com/O5K6bb5dZVZcTo5M/arcgis/rest/services/Combined_COVID_Reporting/FeatureServer/0/query?groupByFieldsForStatistics=Measure&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%7D%5D&where=1%3D1,,,,@LADeptHealth,http://ldh.la.gov/Coronavirus/,People,posNeg,posNeg,Only positives,false,Louisiana,22
 MA,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
+As of **November 2, 2020**, Massachusetts’ **Currently Hospitalized**, **Currently in ICU**, and **Currently on Ventilator** figures include only confirmed cases. Previously these numbers included confirmed and probable hospitalizations.
+
 As of September 11, 2020, Massachusetts’ total test results reflect total specimens. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
 On September 2, 2020, MA [reported](https://www.mass.gov/doc/covid-19-dashboard-september-2-2020/download) that it had shifted to using the more restrictive August 6 definition of probable cases released by the CSTE. This change caused a significant decrease in several data points where probable cases or probable deaths were included, particularly the overall case count, which dropped by more than 7,000. Historical data was also affected. 
@@ -388,6 +390,8 @@ PR,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 Puerto Rico reports both confirmed cases, which are identified by positive PCR tests, and probable cases, which the territory reports are identified by positive antibody tests. It is not clear whether Puerto Rico requires additional epidemiological, clinical, or vital records evidence to classify a person with a positive antibody test as a probable case. The combined case number in our dataset includes Puerto Rico's confirmed and probable cases as the territory reports them. 
 
 Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports.
+
+On November 2, 2020, Puerto Rico removed 551 recoveries without explanation.
 
 On July 7, 2020, we updated **Negative PCR tests** based on press releases from May and June.
 
