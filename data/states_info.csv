@@ -111,6 +111,8 @@ FL,"Florida combines PCR and antigen tests in the total tests figure reported on
 
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.
 
+On November 3, 2020, Florida’s **Positive PCR Tests (specimens)** dropped by over 200 with no explanation.
+
 On October 30, 2020, the number of negative residents ('T_NegRes') remained unchanged on Florida's ArcGIS layer. The number of unique people tested in 'totalTestsPeopleViral' draws from 'T_NegRes' and 'C_AllResTypes' fields on Florida's ArcGIS layer. 
 
 On October 26, 2020, Florida started providing a full timeseries of total test encounters excluding tests from individuals after they test positive. We started capturing this data in our `totalTestEncountersViral` field. As of October 27, 2020, Florida's total test results are also drawn from our `totalTestEncountersViral` field instead of calculated via the number of unique individuals testing positive and negative. The number of unique people tested, now drawn from the `T_NegRes` and `C_AllResTypes` values on Florida's ArcGIS layer, is still available in `totalTestsPeopleViral`. The new encounters time-series only reflects Florida residents, so we have also revised our existing cases figures and unique individuals tested figure to reflect only residents. These changes resulted in a 1.28% decrease in Florida's cases and a 0.38% decrease in Florida's unique people tested.
@@ -488,6 +490,8 @@ VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, 
 
 On October 25, 2020, the Virgin Islands did not release any new data.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,posNeg,Positives Only,false,US Virgin Islands,78
 VT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+
+On **November 3, 2020**, Vermont’s **Total PCR tests (people)** decreased without explanation. As a result, Vermont’s negative test results, which are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)** decreased as well.
 
 On October 29, 2020, Vermont started publishing **Total PCR Tests (in specimens)** in addition to **Total PCR Tests (in people)**. We backfilled the full time series for this metric from Vermont's Arcgis layer.
 
