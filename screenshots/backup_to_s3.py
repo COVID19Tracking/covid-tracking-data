@@ -44,7 +44,7 @@ def load_other_urls_from_spreadsheet(args):
     if args.ltc_urls:
         csv_url = 'https://docs.google.com/spreadsheets/d/1kB6lT0n4wJ2l8uP-lIOZyIVWCRJTPWLGf3Q4ZCC6pMQ/gviz/tq?tqx=out:csv&sheet=LTC_Screencap_Links'
     elif args.crdt_urls:
-        csv_url =  'https://docs.google.com/spreadsheets/d/1boHD1BxuZ2UY7FeLGuwXwrb8rKQLURXsmNAdtDS-AX0/gviz/tq?tqx=out:csv&sheet=Sheet1' 
+        csv_url =  'https://docs.google.com/spreadsheets/d/1lfwMmo7q-faKfvh6phxQs9rEJXVnnyISFtiVbq9XJ7U/gviz/tq?tqx=out:csv&sheet=Sheet1' 
     urls_df = pd.read_csv(csv_url)
 
     # if states are user-specified, snapshot only those
