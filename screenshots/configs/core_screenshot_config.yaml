@@ -5,6 +5,13 @@ primary:
         width: 1400
         height: 3000
     message: using viewport height 3000 for CA
+    
+  CO:
+    renderSettings:
+      viewport:
+        width: 1400
+        height: 3000
+    message: using viewport width 1400 for CO
 
   ID:
     renderSettings:
@@ -208,6 +215,10 @@ secondary:
     file: pdf
     message: downloading PDF for TN secondary
 
+  TX:
+    file: xlsx
+    message: downloading Excel for TX secondary
+
   UT:
     renderSettings:
       viewport:
@@ -344,10 +355,6 @@ tertiary:
       await page.waitForDelay(1000);
       page.done();
     message: hospitalizations for TN tertiary
-    
-  TX:
-    file: xlsx
-    message: downloading Excel for TX tertiary
 
   WI: 
     overseerScript: >
