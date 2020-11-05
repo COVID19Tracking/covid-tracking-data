@@ -107,7 +107,7 @@ On August 27, 2020, Delaware revised down total cases and confirmed positives. T
 On July 25, 2020, Delaware revised down total cases, confirmed positives, and total tests.
 
 On April 11, 2020, Delaware revised down negative test results from 10,415 to 9,624.",https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,https://myhealthycommunity.dhss.delaware.gov/locations/state#testing,,,,@Delaware_DHSS,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Delaware,10
-FL,"Florida combines PCR and antigen tests in the total tests figure reported on the state's dashboard (first noted July 2, 2020). We include data about Florida non-residents in all metrics where possible. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
+FL,"Florida combines PCR and antigen tests in the total tests figure reported on the state's dashboard (first noted July 2, 2020). We include data for Florida non-residents in our deaths and hospitalizations figures but not in cases and tests. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
 
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.
 
