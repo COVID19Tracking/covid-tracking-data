@@ -55,6 +55,12 @@ primary:
         width: 1400
         height: 5000
     message: using viewport height 5000 for NE
+    
+  NY:
+    renderSettings:
+      viewport:
+        width: 5000
+    message: using viewport width 5000 for NY        
 
   OK:
     overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
@@ -190,6 +196,12 @@ secondary:
   NJ:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load NJ secondary
+    
+  NY:
+    renderSettings:
+      viewport:
+        width: 5000
+    message: using viewport width 5000 for NY        
 
   OK:
     file: pdf
