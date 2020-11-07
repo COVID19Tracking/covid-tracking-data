@@ -433,6 +433,16 @@ quaternary:
 
     message: clicking on 'Antibody Tests - Test Based'. 
 
+  NV:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(10000);
+      page.mouse.move(920, 406);
+      page.mouse.click(920, 406);
+      await page.waitForDelay(8000);
+      page.done();
+    message: hospitalizations for NV quaternary
+
   PR:
     overseerScript: >
       await page.waitForNavigation({waitUntil:"domcontentloaded"});
@@ -471,3 +481,12 @@ quinary:
       page.click("#ember772");
       page.done();
     message: click button for PR confirmed Deaths ("Muertes Confirmades")
+    
+  NV:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(10000);
+      page.mouse.move(926, 618);
+      await page.waitForDelay(10000);
+      page.done();
+    message: hover over ICU and ventilators for NV quinary
