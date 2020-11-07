@@ -413,7 +413,7 @@ PR,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
 Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports.
 
-On November 7, 2020, Puerto Rico switched from using antibody tests to antigen tests to identify probable cases in accordance with August 2020 CSTE guidelines. This caused probable cases to drop by 33,888. We cleared probable case history to match the new definition.
+On November 7, 2020, Puerto Rico switched from using antibody tests to antigen tests to identify probable cases in accordance with August 2020 CSTE guidelines. This caused probable cases to drop by 33,888. We cleared the history of our **Probable Cases** field to match the new definition. We also modified our **Cases (confirmed + probable)** field to remove probables identified via antibody from April 24, 2020 onward, when we have access to a breakdown.
 
 On November 2, 2020, Puerto Rico removed 551 recoveries without explanation.
 
@@ -482,9 +482,8 @@ eared smaller than it was. The actual number of new cases in Texas that day was 
 On June 16, 2020, Texas notes that ""The reported cases for June 16 include 2,622 new cases and 1,476 cases that were previously diagnosed among Texas Department of Criminal Justice inmates but that had not been reported by local health departments (887 from Anderson County and 589 from Brazoria County)."" 
 
 As of May 23, 2020, Texas reports PCR tests separately from antibody tests.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,,,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Specimens,posNeg,posNeg,Only positives,false,Texas,48
-UT,"Utah combines PCR and antigen tests in the top-line total tests figure reported on the state's dashboard. However, as of October 28, 2020, our Total Tests (PCR) and Positive Tests (PCR) for Utah are derived from the data download available on the Utah dashboard, which separates PCR and antigen tests. Total Tests (PCR) is calculated by adding positive and negative PCR tests from this [download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip).
-
-Our Total PCR Tests (People) is still sourced from the dashboard, and includes both PCR and antigen tests.
+UT,"
+As of October 28, 2020, our Total Tests (PCR) and Positive Tests (PCR) for Utah are derived from the data download available on the Utah dashboard, which separates PCR and antigen tests. Total Tests (PCR) is calculated by adding positive and negative PCR tests from this [download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip).
 
 As of October 29, 2020, Utah's `totalTestResults` field represents encounters instead of pos+neg. The number of unique people ever tested remains available in the `totalTestsPeopleViral` field. 
 
