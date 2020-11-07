@@ -432,6 +432,15 @@ quaternary:
       page.done();
 
     message: clicking on 'Antibody Tests - Test Based'. 
+    
+  NY:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(10000);
+      page.mouse.move(1061, 1204);
+      await page.waitForDelay(10000);
+      page.done();
+    message: hover over hospitalizations for NY quaternary         
 
   PR:
     overseerScript: >
@@ -463,6 +472,15 @@ quinary:
       await page.waitForDelay(45000); 
       page.done();
     message: wait for IA quinary
+    
+  NY:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(10000);
+      page.mouse.move(1061, 1212);
+      await page.waitForDelay(10000);
+      page.done();
+    message: hover over ICU for NY quinary             
 
   PR:
     overseerScript: >
