@@ -411,9 +411,9 @@ PA,"On September 3, 2020, Pennsylvania [clarified](https://www.health.pa.gov/top
 On April 23, 2020, Pennsylvania revised down its total **Deaths (confirmed and probable)** from 1,622 to 1,421 to exclude some probable deaths that needed further confirmation to be linked to COVID-19",https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://padoh.maps.arcgis.com/apps/opsdashboard/index.html#/5662e22517b644ba874ca51fa7b61c94,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Coronavirus.aspx,,,@PAHealthDept,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,People,totalTestsPeopleViral,posNeg,Only positives,false,Pennsylvania,42
 PR,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
-Puerto Rico reports both confirmed cases, which are identified by positive PCR tests, and probable cases, which the territory reports are identified by positive antibody tests. It is not clear whether Puerto Rico requires additional epidemiological, clinical, or vital records evidence to classify a person with a positive antibody test as a probable case. The combined case number in our dataset includes Puerto Rico's confirmed and probable cases as the territory reports them. 
-
 Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports.
+
+On November 7, 2020, Puerto Rico switched from using antibody tests to antigen tests to identify probable cases in accordance with August 2020 CSTE guidelines. This caused probable cases to drop by 33,888. We cleared probable case history to match the new definition.
 
 On November 2, 2020, Puerto Rico removed 551 recoveries without explanation.
 
