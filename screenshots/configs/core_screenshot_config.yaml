@@ -177,9 +177,13 @@ secondary:
   ME:
     overseerScript: >
       page.manualWait(); 
-      await page.waitForDelay(45000); 
+      await page.waitForSelector("#Accordion1");
+      await page.waitForDelay(15000);
+      await page.evaluate(() => { document.evaluate("//a[contains(text(),'View a Table of All Reported COVID-19 Tests in Maine')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("a[ctpclickhere]");
+      await page.waitForDelay(15000);
       page.done();
-    message: expand "View a Table of All Reported COVID-19 Tests in Maine"
+    message: expanding 'Table of All Reported COVID-19 Tests' section
 
   MN:
     overseerScript: >
@@ -270,7 +274,6 @@ tertiary:
       page.done();
     message: clicking skip to get rid of popup for DC, waiting 5 sec
 
-
   HI:
     file: csv
     message: downloading CSV for HI tertiary, to get positive test numbers.
@@ -304,9 +307,13 @@ tertiary:
   ME:
     overseerScript: >
       page.manualWait(); 
-      await page.waitForDelay(45000); 
+      await page.waitForSelector("#Accordion1");
+      await page.waitForDelay(15000);
+      await page.evaluate(() => { document.evaluate("//a[contains(text(),'View a Table of Maine COVID-19 Current Hospital Use and Capacity Data')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("a[ctpclickhere]");
+      await page.waitForDelay(15000);
       page.done();
-    message: expanding "View a Table of Maine COVID-19 Current Hospital Use and Capacity Data"
+    message: expanding 'Table of All Reported COVID-19 Tests' section
 
   MP:
     overseerScript: >
@@ -382,13 +389,6 @@ quaternary:
       await page.waitForDelay(45000); 
       page.done();
     message: wait for IA quaternary
-
-  ME:
-    overseerScript: >
-      page.manualWait(); 
-      await page.waitForDelay(45000); 
-      page.done();
-    message: toggle to confirmed deaths
 
   NC:
     overseerScript: >
