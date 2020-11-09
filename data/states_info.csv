@@ -5,7 +5,7 @@ Alaska reports a ""Total count"" of people who have been hospitalized, but we do
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
-On November 7, 2020, Alaska announced that their testing dashboard would be “temporarily disabled from November 6th to November 9th” and that testing data could be accessed through their [data summary tables] (https://coronavirus-response-alaska-dhss.hub.arcgis.com). On November 7, 2020, we sourced Total PCR tests (specimens), Positive PCR tests (specimens), and Negative PCR tests (specimens) from their data summary tables. As a result, Total PCR tests (specimens) and Negative PCR tests (specimens), and Negative PCR tests (people), which is calculated by subtracting Positive PCR tests (people) from Total PCR tests (specimens) decreased.
+On November 7, 2020, Alaska announced that their testing dashboard would be ""temporarily disabled from November 6th to November 9th"" and that testing data could be accessed through their [data summary tables] (https://coronavirus-response-alaska-dhss.hub.arcgis.com). After originally using the data summary tables on November 7th, we have reversed that decision, reverted the values to their November 6th state, and will wait until November 9th to update testing data for Alaska, since the values in the data summary tables are significantly less than those previously reported by the dashboard.
 
 On November 6, 2020, Alaska’s Total PCR tests (specimens) and Positive PCR tests (specimens) decreased without explanation. As a result, Negative PCR tests (people), which is calculated by subtracting Positive PCR tests (people) from Total PCR tests (specimens), decreased as well.
 
@@ -288,6 +288,8 @@ The number of unique people tested is available in our API as `totalTestsPeopleV
 On September 17, 2020, we switched Minnesota's specimens timeseries to **Total Test Encounters (PCR)** based on correspondence with the state, which revealed that their ""total approximate number of completed tests"" reflects individuals tested per day.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,https://mn.gov/covid19/data/response-prep/response-capacity.jsp,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
 MO,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
+On November 8, 2020, Missouri's **Total PCR Tests (specimens)** decreased from 2,672,288 to 2,654,691 with no explanation.
+
 On October 14, 2020, Missouri testing numbers by people decreased. This resulted in a decrease in all total testing numbers (people) and negative cases. Testing numbers by specimen are unaffected.
 
 On October 11, 2020, [Missouri announced that a database error had resulted in an “incorrect inflation” of cases in its October 10, 2020 report](https://www.kshb.com/news/coronavirus/missouri-covid-19-database-error-causes-incorrect-inflation-of-cases). When The COVID Tracking Project is able to obtain correct official data for October 10 from Missouri, we will update our dataset to reflect the correction.
@@ -320,7 +322,9 @@ On May 26, 2020, news reports indicated that 95 antibody tests had returned posi
 
 As of May 23, 2020, Mississippi is separating out PCR and antibody tests. We now report both separately. 
 ","https://msdh.ms.gov/msdhsite/_static/14,0,420.html","https://msdh.ms.gov/msdhsite/_static/14,21994,420,873.html",,,,@msdh,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",Specimens,posNeg,posNeg,Only positives,false,Mississippi,28
-MT,Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.,https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,,,,@dphhsmt,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt,Specimens,totalTestsViral,posNeg,All data,false,Montana,30
+MT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+
+On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,,,,@dphhsmt,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt,Specimens,totalTestsViral,posNeg,All data,false,Montana,30
 NC,"The metric reported in our API as `totalTestsAntigen` only includes tests reported after September, 22, 2020. If previous values become available from North Carolina we will backfill the complete time series. 
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
