@@ -488,10 +488,11 @@ eared smaller than it was. The actual number of new cases in Texas that day was 
 On June 16, 2020, Texas notes that ""The reported cases for June 16 include 2,622 new cases and 1,476 cases that were previously diagnosed among Texas Department of Criminal Justice inmates but that had not been reported by local health departments (887 from Anderson County and 589 from Brazoria County)."" 
 
 As of May 23, 2020, Texas reports PCR tests separately from antibody tests.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,,,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Specimens,posNeg,posNeg,Only positives,false,Texas,48
-UT,"
-On November 6, 2020, we switched our source for Utah’s Total PCR tests (people) to avoid reporting a mixed antigen and pcr test number. As a result Total PCR tests (people) and Negative PCR tests (people), which was previously calculated by subtracting Positive PCR tests (people) from Total PCR tests (people), decreased.
+UT,"As of November 9, 2020, our **Positive PCR tests (people)** metric for Utah is sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests.
 
-As of October 28, 2020, our Total Tests (PCR) and Positive Tests (PCR) for Utah are derived from the data download available on the Utah dashboard, which separates PCR and antigen tests. Total Tests (PCR) is calculated by adding positive and negative PCR tests from this [download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip).
+As of November 6, 2020, our **Total PCR tests (people)** and **Negative PCR tests (people)** metrics for Utah are sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests.
+
+As of October 28, 2020, our **Total PCR tests (specimens)** and **Positive PCR tests (specimens)** metrics for Utah are derived from the data download available on the Utah dashboard, which separates PCR and antigen tests. **Total PCR tests (specimens)** is calculated by adding positive and negative PCR tests from this [download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip).
 
 As of October 29, 2020, Utah's `totalTestResults` field represents encounters instead of pos+neg. The number of unique people ever tested remains available in the `totalTestsPeopleViral` field. 
 
