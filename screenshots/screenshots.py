@@ -69,9 +69,10 @@ class Screenshotter():
 
         if state_config:
             # update data with state_config minus message
-            message = state_config.pop('message')
+            state_config_copy = state_config.copy()
+            message = state_config_copy.pop('message')
             logger.info(message)
-            data.update(state_config)
+            data.update(state_config_copy)
 
         # set maxWait if unset
         if 'requestSettings' in data:
