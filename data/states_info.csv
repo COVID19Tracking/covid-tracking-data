@@ -490,7 +490,7 @@ eared smaller than it was. The actual number of new cases in Texas that day was 
 On June 16, 2020, Texas notes that ""The reported cases for June 16 include 2,622 new cases and 1,476 cases that were previously diagnosed among Texas Department of Criminal Justice inmates but that had not been reported by local health departments (887 from Anderson County and 589 from Brazoria County)."" 
 
 As of May 23, 2020, Texas reports PCR tests separately from antibody tests.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,,,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Specimens,posNeg,posNeg,Only positives,false,Texas,48
-UT,"As of November 9, 2020, our **Positive PCR tests (people)** metric for Utah is sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests.
+UT,"As of November 9, 2020, our **Positive PCR tests (people)** metric for Utah is sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests. This caused a slight decrease in the number of **Confirmed Cases**.
 
 As of November 6, 2020, our **Total PCR tests (people)** and **Negative PCR tests (people)** metrics for Utah are sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests.
 
