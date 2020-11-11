@@ -28,7 +28,7 @@ primary:
     renderSettings:
       viewport:
         width: 1400
-        height: 8500
+        height: 13000
     overseerScript: >
       page.manualWait();
       await page.waitForSelector("#prefix-dismissButton");
