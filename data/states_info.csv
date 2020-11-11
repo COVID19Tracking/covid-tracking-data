@@ -204,7 +204,7 @@ IN,"Indiana combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.
 
-As of October 16, 2020, Indiana’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,,,,@statehealthin,https://www.in.gov/isdh/28470.htm,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Indiana,18
+As of October 16, 2020, Indiana’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,https://hub.mph.in.gov/dataset/covid-19-beds-and-vents/resource/882a7426-886f-48cc-bbe0-a8d14e3012e4,,,@statehealthin,https://www.in.gov/isdh/28470.htm,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Indiana,18
 KS,"Kansas combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Kansas reports much of its data on Mondays, Wednesdays, and Fridays only, so there are often large changes in the values, which can represent 2-3 days of data.
@@ -268,7 +268,7 @@ On November 2, 2020, Maine started reporting antigen and molecular tests separat
 
 On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
 
-As of May 20, 2020, Maine reports PCR tests and antibody tests separately.",https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,@mainedhhs,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Specimens,posNeg,posNeg,Only positives,false,Maine,23
+As of May 20, 2020, Maine reports PCR tests and antibody tests separately.",https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://analytics.maine.gov/t/CDCExternal/views/covid-19-maine-cdc-dashboard-nav-buttons/1_Casetrendsbycounty?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fanalytics.maine.gov%2F&:embed_code_version=3&:tabs=no&:toolbar=yes&:showAppBanner=false&:display_spinner=no&:loadOrderID=1,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,@mainedhhs,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Specimens,posNeg,posNeg,Only positives,false,Maine,23
 MI,"Michigan updates its **Recovered** metric weekly and does not update any data on Sundays.
 
 Our source for **Now hospitalized** and **Now in ICU** data in Michigan generally updates on Mondays and Fridays only. 
