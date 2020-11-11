@@ -18,6 +18,8 @@ AL,"Alabama combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+On November 10, 2020 Alabama’s Total PCR tests (specimens) decreased by roughly 700 without explanation.
+
 On October 21, 2020, Alabama did not update their COVID-19 dashboard due to ""technical issues"".
 
 As of September 18, 2020, Alabama's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
@@ -160,6 +162,8 @@ GU,"Guam's counts include 11 people tested at the San Diego naval base.
 On September 3, 2020, Guam reported that it had shifted to using the more restrictive August 5 definition of probable cases released by the CSTE. From March 12, 2020 to September 2, 2020 Guam reported eight probable cases under the previous probable case definition. Due to the change, Guam has no cases that classify as probable cases as of September 3, 2020, and 8 cases have been removed from Guams's total case count.",http://dphss.guam.gov/covid-19/,,,,,@guamdphss,https://ghs.guam.gov/coronavirus-covid-19,Unclear Units,posNeg,posNeg,All Data,false,Guam,66
 HI,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.
 
+On November 10, 2020, we switched the source for Hawaii’s Currently Hospitalized to the Hawaii Emergency Management Agency’s COVID-19 dashboard. As a result, current hospitalizations decreased by 14.
+
 As of October 9, 2020, Hawaii’s total test results are drawn from our totalTestEncountersViral field instead of calculated via positive+negative. 
 
 As of October 7th, 2020, Hawaii has stopped reporting the number of unique people tested, which is available in our API as totalTestsPeopleViral. We will carry forward the last value as a lower bound.
@@ -290,6 +294,8 @@ The number of unique people tested is available in our API as `totalTestsPeopleV
 On September 17, 2020, we switched Minnesota's specimens timeseries to **Total Test Encounters (PCR)** based on correspondence with the state, which revealed that their ""total approximate number of completed tests"" reflects individuals tested per day.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,https://mn.gov/covid19/data/response-prep/response-capacity.jsp,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
 MO,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
+On November 10, 2020, Missouri’s Total PCR tests (specimens), Negative PCR tests (specimens), Total PCR tests (people), Total antibody tests (specimens), Total antibody tests (people), Negative antibody tests (specimens), Total antigen tests (specimens), and Negative antigen tests (specimens) dropped without explanation.
+
 On November 8, 2020, Missouri's **Total PCR Tests (specimens)** decreased from 2,672,288 to 2,654,691 with no explanation.
 
 On October 14, 2020, Missouri testing numbers by people decreased. This resulted in a decrease in all total testing numbers (people) and negative cases. Testing numbers by specimen are unaffected.
@@ -340,6 +346,8 @@ On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,posNeg,posNeg,Only positives,false,North Carolina,37
 ND,"On October 8, 2020, North Dakota released two figures describing those who are currently hospitalized. According to the [state dashboard annotation](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases), the ""Hospitalized with COVID"" figure describes those whose main reason for hospitalization is COVID-19, and it also includes all those who are ""Hospitalized due to COVID"". We are using the ""Hospitalized with COVID"" figure for our **Currently hospitalized** and **Currently in ICU** metrics, however there are not matching Cumulative metrics so we are using the ""Due to COVID"" Cumulative hospitalized and ICU figures.
 
+On November 10, 2020, North Dakota reported that their software for hospitalization metrics was down, an issue which also impacts active cases. We updated Total PCR tests (specimens), Positive PCR tests (people), and Positive cases (confirmed + probable) from their [daily news release] (https://www.health.nd.gov/news/covid-19-test-results-0).
+
 As of September 11, 2020, North Dakota’s total test results reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
 On September 9, 2020, North Dakota began reporting “Susceptible Encounters” on its dashboard, which are defined as test encounters excluding those who have tested positive after the first time. We have begun recording the value in our **Total PCR tests (test encounters)** field.
@@ -370,7 +378,7 @@ NJ,"The **Recovered** data point we report for New Jersey reflects the number of
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)**.
 
-On October 22, New Jersey's reported **Ever hospitalized** value increased dramatically from 24,517 to 37,222 with no explanation we could find: this was probably a one-time addition of backlogged data.
+On October 23, New Jersey's reported **Ever hospitalized** value increased dramatically from 24,517 to 37,222 with no explanation we could find: this was probably a one-time addition of backlogged data.
 
 On September 1, New Jersey did not update their total PCR test figure by the time of our update, however total cases increased from 191,160 to 192,290.
 
