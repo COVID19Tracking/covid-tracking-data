@@ -178,12 +178,15 @@ class SlackNotifier():
         self.channel = slack_channel
         self.client = WebClient(token=slack_api_token)
 
-    def notify_slack(self, message):
+    # Returns the SlackResponse object
+    def notify_slack(self, message, thread_ts=None):
         try:
             response = self.client.chat_postMessage(
                 channel=self.channel,
-                text=message
+                text=message,
+                thread_ts=thread_ts
             )
+            return response
         except SlackApiError as e:
             # just log Slack failures but don't break on them
             logger.error("Could not notify Slack, received error: %s" % e.response["error"])

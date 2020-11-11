@@ -121,6 +121,7 @@ def main(args_list=None):
         phantomjscloud_key=args.phantomjscloud_key, config=config)
 
     failed_states = []
+    slack_failure_messages = []
     for state, urls in state_urls.items():
 
         # returns True if this particular screenshotter run succeeded, false otherwise: exists to
@@ -130,6 +131,7 @@ def main(args_list=None):
                 return True  # trivial success
 
             # try 4 times in case of intermittent issues
+            err = None
             for i in range(4):
                 try:
                     screenshotter.screenshot(
@@ -137,12 +139,14 @@ def main(args_list=None):
                         backup_to_s3=args.push_to_s3)
                     return True
                 except ValueError as e:
+                    err = e
                     logger.error(e)
 
             # if we're here, all attempts failed, notify Slack
             if slack_notifier:
-                slack_notifier.notify_slack(
-                    f"Errored screenshot states for this {run_type} run: {e}")
+                suffix_str = suffix or 'primary'
+                slack_failure_messages.append(
+                    f"Error in {state} {suffix_str}: {err}")
             return False
 
         # Retrieve set of URLs to load. If user didn't specify screenshot(s) to take, take them all
@@ -171,8 +175,12 @@ def main(args_list=None):
         failed_states_str = ', '.join([':'.join(x) for x in failed_states])
         logger.error(f"Errored screenshot states for this {run_type} run: {failed_states_str}")
         if slack_notifier:
-            slack_notifier.notify_slack(
+            slack_response = slack_notifier.notify_slack(
                 f"Errored screenshot states for this {run_type} run: {failed_states_str}")
+            # put the corresponding messages into a thread
+            thread_ts = slack_response.get('ts')
+            for detailed_message in slack_failure_messages:
+                slack_notifier.notify_slack(detailed_message, thread_ts=thread_ts)
     else:
         logger.info("All attempted states successfully screenshotted")
 
