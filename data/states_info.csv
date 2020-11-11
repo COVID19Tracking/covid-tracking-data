@@ -175,7 +175,7 @@ IA,"On October 16, 2020, Iowa removed 12,831 tests from the state’s PCR test t
 
 On September 26, 2020, Iowa announced that due to a data update, roughly 27,000 antigen tests from long-term care facilities will be added to their COVID-19 antigen test data. This update will occur from September 26, 2020 to September 27, 2020, and will result in an increased number of antigen test tests reported in our data for Iowa. (Antigen data is available in our CSVs and API.)
 
-As of May 19, 2020, Iowa reports PCR and antibody tests separately.",https://coronavirus.iowa.gov/,https://coronavirus.iowa.gov/pages/access,https://coronavirus.iowa.gov/pages/case-counts,https://coronavirus.iowa.gov/pages/rmcc-data,https://coronavirus.iowa.gov/pages/serology-testing,@IAPublicHealth,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,People,posNeg,posNeg,All data,false,Iowa,19
+As of May 19, 2020, Iowa reports PCR and antibody tests separately.",https://coronavirus.iowa.gov/,https://coronavirus.iowa.gov/pages/case-counts,https://coronavirus.iowa.gov/pages/rmcc-data,https://coronavirus.iowa.gov/pages/serology-testing,,@IAPublicHealth,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,People,posNeg,posNeg,All data,false,Iowa,19
 ID,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)** in the absence of better data. 
 
 As of September 18, 2020, Idaho's total test results are drawn from our `totalTestsPeopleViral` field instead of calculated via positive+negative.
