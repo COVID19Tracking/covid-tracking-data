@@ -18,6 +18,8 @@ AL,"Alabama combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+On November 11, 2020, Alabama announced via their [dashboard](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7) that they have begun a review process for deaths from the Alabama Center for Health Statistics (ACHS). According to Alabama, at least half of the **Deaths (confirmed and probable)** reported today (81 in total) are from this review. More deaths may be added from this review in the coming days.
+
 On November 10, 2020 Alabama’s Total PCR tests (specimens) decreased by roughly 700 without explanation.
 
 On October 21, 2020, Alabama did not update their COVID-19 dashboard due to ""technical issues"".
@@ -204,7 +206,7 @@ IN,"Indiana combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.
 
-As of October 16, 2020, Indiana’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,,,,@statehealthin,https://www.in.gov/isdh/28470.htm,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Indiana,18
+As of October 16, 2020, Indiana’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,https://hub.mph.in.gov/dataset/covid-19-beds-and-vents/resource/882a7426-886f-48cc-bbe0-a8d14e3012e4,,,@statehealthin,https://www.in.gov/isdh/28470.htm,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Indiana,18
 KS,"Kansas combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Kansas reports much of its data on Mondays, Wednesdays, and Fridays only, so there are often large changes in the values, which can represent 2-3 days of data.
@@ -268,7 +270,7 @@ On November 2, 2020, Maine started reporting antigen and molecular tests separat
 
 On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **recoveries**, and **hospitalizations** on the day they occurred instead of the day the event was reported. Maine also began providing separate figures for **Deaths (probable)** and **Deaths (confirmed)**.
 
-As of May 20, 2020, Maine reports PCR tests and antibody tests separately.",https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,@mainedhhs,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Specimens,posNeg,posNeg,Only positives,false,Maine,23
+As of May 20, 2020, Maine reports PCR tests and antibody tests separately.",https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://analytics.maine.gov/t/CDCExternal/views/covid-19-maine-cdc-dashboard-nav-buttons/1_Casetrendsbycounty?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fanalytics.maine.gov%2F&:embed_code_version=3&:tabs=no&:toolbar=yes&:showAppBanner=false&:display_spinner=no&:loadOrderID=1,https://analytics.maine.gov/t/CDCExternal/views/covid-19-maine-cdc-dashboard-nav-buttons/1_Casetrendsbycounty?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fanalytics.maine.gov%2F&:embed_code_version=3&:tabs=no&:toolbar=yes&:showAppBanner=false&:display_spinner=no&:loadOrderID=1,@mainedhhs,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml,Specimens,posNeg,posNeg,Only positives,false,Maine,23
 MI,"Michigan updates its **Recovered** metric weekly and does not update any data on Sundays.
 
 Our source for **Now hospitalized** and **Now in ICU** data in Michigan generally updates on Mondays and Fridays only. 
@@ -345,6 +347,8 @@ On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press
 
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,posNeg,posNeg,Only positives,false,North Carolina,37
 ND,"On October 8, 2020, North Dakota released two figures describing those who are currently hospitalized. According to the [state dashboard annotation](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases), the ""Hospitalized with COVID"" figure describes those whose main reason for hospitalization is COVID-19, and it also includes all those who are ""Hospitalized due to COVID"". We are using the ""Hospitalized with COVID"" figure for our **Currently hospitalized** and **Currently in ICU** metrics, however there are not matching Cumulative metrics so we are using the ""Due to COVID"" Cumulative hospitalized and ICU figures.
+
+On November 11, 2020, North Dakota reported two days of data for all metrics except for Total PCR tests (specimens), Positive PCR tests (people), and Positive cases (confirmed + probable).
 
 On November 10, 2020, North Dakota reported that their software for hospitalization metrics was down, an issue which also impacts active cases. We updated Total PCR tests (specimens), Positive PCR tests (people), and Positive cases (confirmed + probable) from their [daily news release] (https://www.health.nd.gov/news/covid-19-test-results-0).
 
