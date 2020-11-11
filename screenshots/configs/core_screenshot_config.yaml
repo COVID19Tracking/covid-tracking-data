@@ -430,14 +430,17 @@ quaternary:
 
   ME:
     overseerScript: >
-      page.manualWait(); 
-      await page.waitForDelay(30000);
-      page.mouse.move(1026, 1761);
-      page.mouse.click(1026, 1761);
-      await page.waitForDelay(8000);
+      page.manualWait();  
+      await page.waitForDelay(20000);
+      await page.evaluate(() => { document.evaluate("//span[@class='tabComboBoxName' and text()='All']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("span[ctpclickhere]");
+      await page.waitForDelay(2000);
+      await page.evaluate(() => { document.evaluate("//span[@class='tabMenuItemName' and text()='Confirmed']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere2", "ctpclickhere2"); });
+      page.click("span[ctpclickhere2]");
+      await page.waitForDelay(10000);
       page.done();
-    message: trying to click!!!
-
+    message: clicking confirmed cases in dropdown
+   
   NC:
     overseerScript: >
       page.manualWait(); 
@@ -514,6 +517,19 @@ quinary:
       page.done();
     message: wait for IA quinary
     
+  ME:
+    overseerScript: >
+      page.manualWait();  
+      await page.waitForDelay(20000);
+      await page.evaluate(() => { document.evaluate("//span[@class='tabComboBoxName' and text()='All']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("span[ctpclickhere]");
+      await page.waitForDelay(2000);
+      await page.evaluate(() => { document.evaluate("//span[@class='tabMenuItemName' and text()='Probable']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere2", "ctpclickhere2"); });
+      page.click("span[ctpclickhere2]");
+      await page.waitForDelay(10000);
+      page.done();
+    message: clicking probable cases in dropdown
+
   NY:
     overseerScript: >
       page.manualWait();
