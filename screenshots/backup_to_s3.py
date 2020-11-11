@@ -128,25 +128,22 @@ def main(args_list=None):
         def screenshotter_succeeded(data_url, suffix):
             if pd.isnull(data_url):
                 return True  # trivial success
-            try:
-                screenshotter.screenshot(
-                    state, data_url, suffix=suffix,
-                    backup_to_s3=args.push_to_s3)
-                return True
-            except ValueError as e:
-                logger.error(e)
-                # retry once in case this is an intermittent problem; if it fails again, count as a
-                # real failure and notify Slack
+
+            # try 4 times in case of intermittent issues
+            for i in range(4):
                 try:
                     screenshotter.screenshot(
                         state, data_url, suffix=suffix,
                         backup_to_s3=args.push_to_s3)
                     return True
                 except ValueError as e:
-                    if slack_notifier:
-                        slack_notifier.notify_slack(
-                            f"Errored screenshot states for this {run_type} run: {e}")
-                    return False
+                    logger.error(e)
+
+            # if we're here, all attempts failed, notify Slack
+            if slack_notifier:
+                slack_notifier.notify_slack(
+                    f"Errored screenshot states for this {run_type} run: {e}")
+            return False
 
         # Retrieve set of URLs to load. If user didn't specify screenshot(s) to take, take them all
         if not (args.primary or args.secondary or args.tertiary or args.quaternary or args.quinary):
