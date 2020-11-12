@@ -1,4 +1,5 @@
 Date,State,Cases_Total,Cases_White,Cases_Black,Cases_LatinX,Cases_Asian,Cases_AIAN,Cases_NHPI,Cases_Multiracial,Cases_Other,Cases_Unknown,Cases_Ethnicity_Hispanic,Cases_Ethnicity_NonHispanic,Cases_Ethnicity_Unknown,Deaths_Total,Deaths_White,Deaths_Black,Deaths_LatinX,Deaths_Asian,Deaths_AIAN,Deaths_NHPI,Deaths_Multiracial,Deaths_Other,Deaths_Unknown,Deaths_Ethnicity_Hispanic,Deaths_Ethnicity_NonHispanic,Deaths_Ethnicity_Unknown,Hosp_Total,Hosp_White,Hosp_Black,Hosp_LatinX,Hosp_Asian,Hosp_AIAN,Hosp_NHPI,Hosp_Multiracial,Hosp_Other,Hosp_Unknown,Hosp_Ethnicity_Hispanic,Hosp_Ethnicity_NonHispanic,Hosp_Ethnicity_Unknown
+20201111,AK,21331,5997,644,,772,4659,691,1168,1223,6177,1221,9235,10875,96,32,4,,8,31,9,4,1,7,1,80,15,523,138,28,,32,150,64,27,21,63,26,360,127
 20201111,AL,208637,63241,39839,,670,,,,19769,85118,8606,83151,116880,3201,1665,1080,,11,,,,86,359,80,2479,642,,,,,,,,,,,,,
 20201111,AR,126197,76475,24229,,1261,332,2523,909,6940,13528,18550,107646,1,2126,1445,364,,20,6,47,9,88,147,102,2024,1,,,,,,,,,,,,,
 20201111,AS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -3470,4 +3471,3 @@ Date,State,Cases_Total,Cases_White,Cases_Black,Cases_LatinX,Cases_Asian,Cases_AI
 20200412,WI,3341,1680,857,,81,28,,,74,621,361,2261,718,144,77,61,,4,1,,0,0,1,4,138,2,,,,,,,,,,,,,
 20200412,WV,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 20200412,WY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,Race,,,,,,,,,Ethnicity,,,,Race,,,,,,,,,Ethnicity,,,Race,,,,,,,,,,Ethnicity,,
