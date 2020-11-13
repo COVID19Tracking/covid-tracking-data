@@ -36,7 +36,11 @@ primary:
       await page.waitForFunction(()=>document.querySelector("#main-content").textContent!=="");
       page.done();
     message: clicking button to get rid of popup, using viewport height 8500 for IN
-
+  
+  MA:
+    file: pdf
+    message: downloading pdf
+    
   MI:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load MI
@@ -186,7 +190,7 @@ secondary:
     
   MA:
     file: pdf
-    message: downloading pdf for MA
+    message: downloading pdf for MA secondary
 
   ME:
     overseerScript: >
@@ -314,7 +318,7 @@ tertiary:
 
   MA:
     file: pdf
-    message: downloading pdf
+    message: downloading pdf for MA tertiary
 
   ME:
     overseerScript: >
