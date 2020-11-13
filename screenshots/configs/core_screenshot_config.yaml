@@ -36,7 +36,11 @@ primary:
       await page.waitForFunction(()=>document.querySelector("#main-content").textContent!=="");
       page.done();
     message: clicking button to get rid of popup, using viewport height 8500 for IN
-
+  
+  MA:
+    file: pdf
+    message: downloading pdf
+    
   MI:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load MI
@@ -179,7 +183,7 @@ secondary:
       await page.waitForDelay(20000);
       page.done();
     message: expanding hospital section, also waiting an extra 20 seconds to make sure other elements render
-
+  
   MA:
     file: pdf
     message: downloading pdf for MA
@@ -311,10 +315,6 @@ tertiary:
   KY:
     file: pdf
     message: downloading PDF for KY tertiary
-
-  MA:
-    file: pdf
-    message: downloading pdf
 
   ME:
     overseerScript: >
