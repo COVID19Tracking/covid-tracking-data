@@ -36,7 +36,11 @@ primary:
       await page.waitForFunction(()=>document.querySelector("#main-content").textContent!=="");
       page.done();
     message: clicking button to get rid of popup, using viewport height 8500 for IN
-
+  
+  MA:
+    file: pdf
+    message: downloading pdf for MA
+    
   MI:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load MI
@@ -91,6 +95,10 @@ primary:
   SC:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load SC
+
+  SD:
+    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
+    message: waiting 60 sec to load SD
 
   TX:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
@@ -175,10 +183,14 @@ secondary:
       await page.waitForDelay(20000);
       page.done();
     message: expanding hospital section, also waiting an extra 20 seconds to make sure other elements render
+  
+  KY:
+    file: pdf
+    message: downloading PDF for KY secondary
 
   MA:
     file: pdf
-    message: downloading pdf for MA
+    message: downloading pdf for MA secondary
 
   ME:
     overseerScript: >
@@ -316,14 +328,6 @@ tertiary:
       page.done();
     message: expand the columns in the data table
 
-  KY:
-    file: pdf
-    message: downloading PDF for KY tertiary
-
-  MA:
-    file: pdf
-    message: downloading pdf
-
   ME:
     overseerScript: >
       page.manualWait(); 
@@ -440,6 +444,19 @@ quaternary:
       page.done();
     message: wait for IA quaternary
 
+  ME:
+    overseerScript: >
+      page.manualWait();  
+      await page.waitForDelay(20000);
+      await page.evaluate(() => { document.evaluate("//span[@class='tabComboBoxName' and text()='All']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("span[ctpclickhere]");
+      await page.waitForDelay(2000);
+      await page.evaluate(() => { document.evaluate("//span[@class='tabMenuItemName' and text()='Confirmed']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere2", "ctpclickhere2"); });
+      page.click("span[ctpclickhere2]");
+      await page.waitForDelay(10000);
+      page.done();
+    message: clicking confirmed cases in dropdown
+   
   NC:
     overseerScript: >
       page.manualWait(); 
@@ -516,6 +533,19 @@ quinary:
       page.done();
     message: wait for IA quinary
     
+  ME:
+    overseerScript: >
+      page.manualWait();  
+      await page.waitForDelay(20000);
+      await page.evaluate(() => { document.evaluate("//span[@class='tabComboBoxName' and text()='All']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("span[ctpclickhere]");
+      await page.waitForDelay(2000);
+      await page.evaluate(() => { document.evaluate("//span[@class='tabMenuItemName' and text()='Probable']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere2", "ctpclickhere2"); });
+      page.click("span[ctpclickhere2]");
+      await page.waitForDelay(10000);
+      page.done();
+    message: clicking probable cases in dropdown
+
   NY:
     overseerScript: >
       page.manualWait();
