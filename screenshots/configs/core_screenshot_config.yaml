@@ -316,6 +316,18 @@ tertiary:
       page.done();
     message: wait for IA tertiary
 
+  IN:
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForSelector("span.slick-column-name");
+      page.click("span.slick-column-name", { button: "right" });
+      await page.waitForSelector("#slick-option-autoresize");
+      page.click("#slick-option-autoresize");
+      page.mouse.move(1, 1);
+      await page.waitForDelay(5000);
+      page.done();
+    message: expand the columns in the data table
+
   ME:
     overseerScript: >
       page.manualWait(); 
