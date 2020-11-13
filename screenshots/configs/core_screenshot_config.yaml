@@ -179,7 +179,11 @@ secondary:
       await page.waitForDelay(20000);
       page.done();
     message: expanding hospital section, also waiting an extra 20 seconds to make sure other elements render
-
+  
+  KY:
+    file: pdf
+    message: downloading PDF for KY secondary
+    
   MA:
     file: pdf
     message: downloading pdf for MA
@@ -307,10 +311,6 @@ tertiary:
       await page.waitForDelay(45000); 
       page.done();
     message: wait for IA tertiary
-
-  KY:
-    file: pdf
-    message: downloading PDF for KY tertiary
 
   MA:
     file: pdf
