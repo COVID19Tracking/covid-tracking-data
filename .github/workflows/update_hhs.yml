@@ -4,8 +4,8 @@ name: Update HHS
 
 on: 
   schedule:
-    # Run every hour, on the half-hour.
-    - cron:  '30 * * * *'
+    # Run every hour, on the :10 min mark.
+    - cron:  '10 * * * *'
 
 jobs:
   update:
