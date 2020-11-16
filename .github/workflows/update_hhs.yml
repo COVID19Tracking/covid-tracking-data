@@ -19,8 +19,9 @@ jobs:
     - name: Download HHS and CDC files
       run: |
         HHS_HOSP_LINK=`curl -k https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state | grep -Eo "https?://\S+?\.csv"`
+        HHS_NEW_HOSP_LINK=`curl -k https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries | grep -Eo "https?://\S+?\.csv"`
         HHS_TEST_LINK=`curl -k https://healthdata.gov/dataset/covid-19-diagnostic-laboratory-testing-pcr-testing-time-series | grep -Eo "https?://\S+?\.csv"`
-        cd data/hhs && { curl -k $HHS_HOSP_LINK -O; curl -k $HHS_TEST_LINK -O; cd -; }
+        cd data/hhs && { curl -k $HHS_HOSP_LINK -O; curl -k $HHS_TEST_LINK -O; curl -k $HHS_NEW_HOSP_LINK -O; cd -; }
         curl -k https://healthdata.gov/dataset/covid-19-estimated-patient-impact-and-hospital-capacity-state | grep -Eo "https?://\S+?\.csv" | while read -r line ; do
           cd data/hhs && { curl -k $line -O; cd -; }
         done
