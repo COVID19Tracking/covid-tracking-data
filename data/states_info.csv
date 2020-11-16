@@ -13,7 +13,7 @@ On November 5, 2020, Alaska’s Total PCR tests (specimens) increased from rough
 
 As of September 18, 2020, Alaska's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
-As of July 16, 2020, we are reporting non-resident cases as part of **Cases or Positive PCR tests (people)** for Alaska.",http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/monitoring.aspx,https://experience.arcgis.com/experience/ed1c874ca60b4c15ab09095a070065ca,https://alaska-dhss.maps.arcgis.com/apps/opsdashboard/index.html#/8782a14ef52342e99f866a3b8a3e624a,,,@Alaska_DHSS,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Alaska,02
+As of July 16, 2020, we are reporting non-resident cases as part of **Cases or Positive PCR tests (people)** for Alaska.",http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/monitoring.aspx,https://experience.arcgis.com/experience/ed1c874ca60b4c15ab09095a070065ca,https://alaska-dhss.maps.arcgis.com/apps/opsdashboard/index.html#/8782a14ef52342e99f866a3b8a3e624a,https://services1.arcgis.com/WzFsmainVTuD5KML/arcgis/rest/services/Tests_Dataset/FeatureServer/0/query?where=Test_Result+%3D+%27Negative%27&outStatistics=%5B%7B%27statisticType%27%3A+%27count%27%2C+%27onStatisticField%27%3A+%27FID%27%2C+%27outStatisticFieldName%27%3A+%27tests_negative%27%7D%5D,https://services1.arcgis.com/WzFsmainVTuD5KML/arcgis/rest/services/Tests_Dataset/FeatureServer/0/query?where=Test_Result+%3D+%27Positive%27&outStatistics=%5B%7B%27statisticType%27%3A+%27count%27%2C+%27onStatisticField%27%3A+%27FID%27%2C+%27outStatisticFieldName%27%3A+%27tests_positive%27%7D%5D,@Alaska_DHSS,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Alaska,02
 AL,"Alabama combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
@@ -511,7 +511,9 @@ TX,"The Texas Department of State Health Services regularly includes older cases
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
-On November 11, Texas reported that their update to **Deaths (confirmed and probable)** would be delayed due to technical difficulties.
+On November 15, 2020, Texas did not update by our publication time. 
+
+On November 11, 2020, Texas reported that their update to **Deaths (confirmed and probable)** would be delayed due to technical difficulties.
 
 On September 14, 2020, Texas ""revised its method for reporting Total Tests,"" resulting in an approximately 300,000 unit decrease in **Total PCR tests (specimens)** and approximately 17,000 unit decrease in **Total antibody tests (specimens)**. We are currently investigating how this change affects our understanding of Texas' testing units.
 
@@ -532,7 +534,7 @@ eared smaller than it was. The actual number of new cases in Texas that day was 
 
 On June 16, 2020, Texas notes that ""The reported cases for June 16 include 2,622 new cases and 1,476 cases that were previously diagnosed among Texas Department of Criminal Justice inmates but that had not been reported by local health departments (887 from Anderson County and 589 from Brazoria County)."" 
 
-As of May 23, 2020, Texas reports PCR tests separately from antibody tests.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,,,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Specimens,posNeg,posNeg,Only positives,false,Texas,48
+As of May 23, 2020, Texas reports PCR tests separately from antibody tests.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Specimens,posNeg,posNeg,Only positives,false,Texas,48
 UT,"As of November 9, 2020, our **Positive PCR tests (people)** metric for Utah is sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests. This caused a slight decrease in the number of **Confirmed Cases**.
 
 As of November 6, 2020, our **Total PCR tests (people)** and **Negative PCR tests (people)** metrics for Utah are sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests.
