@@ -510,6 +510,19 @@ quaternary:
       page.done();
     message: click button for PR recoveries ("Convalecientes")
 
+  TX:
+    renderSettings:
+      viewport:
+        width: 2000
+    overseerScript: >
+      page.manualWait();  
+      await page.waitForDelay(20000);
+      await page.evaluate(() => { document.evaluate("//div[text()='Hospitals - Statewide']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("div[ctpclickhere]");
+      await page.waitForDelay(20000);
+      page.done();
+    message: clicking on "Hospitals - Statewide" tab. Also widening viewport so that tab is visible.
+
   WI:
     file: csv
     message: download CSV for testing data
