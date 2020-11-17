@@ -334,6 +334,8 @@ MP,"The Northern Mariana Islands have not posted a new **Recovered** number sinc
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
+The Northern Mariana Islands Total PCR tests (specimens) values decrease occasionally without explanation. We suspect this is due to some sort of data quality assurance or de-deduplication.
+
 On July 23, 2020, we switched our **Total tests** units to the people-tested metric reported by the Northern Mariana Islands, which led to a drop in total tests. We will backfill total tests data for the territory as soon as we are able to do so.",https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,https://services8.arcgis.com/zkkZCub5I6ydvXQj/ArcGIS/rest/services/Coronavirus_PublicDashboardView/FeatureServer/3/query?where=1%3D1&outStatistics=%5B%7B%27statisticType%27%3A+%27max%27%2C+%27onStatisticField%27%3A+%27reportdt%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27confirmedcases%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27totalspeccnmi%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27deaths%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27recovered%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27hospitalized%27%7D%5D,https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,,,@cnmichcc,https://www.chcc.gov.mp/coronavirusinformation.php,People,posNeg,posNeg,No Data,false,Northern Mariana Islands,69
 MS,"Mississippi started updating testing totals on a weekly schedule on September, 27, 2020, so each update includes many days worth of testing. 
 
@@ -352,6 +354,8 @@ On May 26, 2020, news reports indicated that 95 antibody tests had returned posi
 As of May 23, 2020, Mississippi is separating out PCR and antibody tests. We now report both separately. 
 ","https://msdh.ms.gov/msdhsite/_static/14,0,420.html","https://msdh.ms.gov/msdhsite/_static/14,21994,420,873.html",,,,@msdh,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",Specimens,posNeg,posNeg,Only positives,false,Mississippi,28
 MT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+
+On November 16, 2020, Montana’s Confirmed cases increased by more than their Total PCR tests (specimens) without explanation. As a result Negative test results which are calculated by subtracting Positive PCR tests (people) from Total PCR tests (specimens) decreased.
 
 On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,,,,@dphhsmt,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt,Specimens,totalTestsViral,posNeg,All data,false,Montana,30
 NC,"The metric reported in our API as `totalTestsAntigen` only includes tests reported after September, 22, 2020. If previous values become available from North Carolina we will backfill the complete time series. 
@@ -513,6 +517,8 @@ TX,"The Texas Department of State Health Services regularly includes older cases
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+On November 16, 2020, Texas announced that due to technical difficulties testing data would not be updated. In addition, the “DSHS will be unable to separate laboratory data for Nov. 15 and Nov. 16 for the following indicators: total tests reported…“. As a result, testing data for November 17, 2020 will include tests reported on November 15, 2020 and November 16, 2020.
+
 On November 15, 2020, Texas did not update any testing metrics. 
 
 On November 11, 2020, Texas reported that their update to **Deaths (confirmed and probable)** would be delayed due to technical difficulties.
@@ -617,6 +623,9 @@ On May 23, 2020, West Virginia began reporting PCR and antibody tests separately
 
 On April 16, 2020, West Virginia began reporting **current hospitalization, ICU, and ventilator** metrics from 49 of 55 counties. Before April 16, 2020, those counts were less complete, as they were based on completed investigations rather than on hospital data.",https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,,@WV_DHHR,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,Specimens,posNeg,posNeg,All data,false,West Virginia,54
 WY,"Wyoming reports both **Positive tests PCR (specimens)** and **Negative tests PCR (specimens)** as percentages of **Total tests PCR**. We convert these percentages to integers. Wyoming reports the number of people currently hospitalized with COVID-19 in each hospital: we sum these values for the state total. Wyoming reports the number of people ever hospitalized with COVID-19 as a percentage: we convert this percentage to an integer. Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+
+Wyoming’s Currently hospitalized value is calculated from the percentage of “Lab Confirmed Cases by
+Reported Hospitalization” graph on their [page] (https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/) in the absence of better data. As a result of the calculation, this value may fluctuate.
 
 On October 14, 2020, Wyoming's **Total PCR Tests (specimens)** and **Total PCR Tests (people)** values both decreased by over 1000 with no explanation. We believe the state might have deduplicated its data.
 
