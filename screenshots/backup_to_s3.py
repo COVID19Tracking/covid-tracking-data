@@ -106,6 +106,19 @@ def run_type_from_args(args):
     return run_type
 
 
+# This is a special-case function: we're screenshotting IHS data separately for now
+def screenshot_IHS(args):
+    s3 = S3Backup(bucket_name=args.s3_bucket, s3_subfolder='IHS')
+    screenshotter = Screenshotter(
+        local_dir=args.temp_dir, s3_backup=s3,
+        phantomjscloud_key=args.phantomjscloud_key, config=config_from_args(args))
+    data_url = 'https://www.ihs.gov/coronavirus/'
+    try:
+        screenshotter.screenshot('IHS', data_url, suffix='', backup_to_s3=args.push_to_s3)
+    except ValueError as e:
+        logger.error('IHS screenshot failed: %s' % e)
+
+
 def main(args_list=None):
     if args_list is None:
         args_list = sys.argv[1:]
@@ -183,6 +196,10 @@ def main(args_list=None):
                 slack_notifier.notify_slack(detailed_message, thread_ts=thread_ts)
     else:
         logger.info("All attempted states successfully screenshotted")
+
+    # special-case: screenshot IHS data once a day, so attach it to the LTC run
+    if run_type == 'LTC':
+        screenshot_IHS(args)
 
 
 if __name__ == "__main__":
