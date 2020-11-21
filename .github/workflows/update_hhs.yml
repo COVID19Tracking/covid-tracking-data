@@ -26,6 +26,7 @@ jobs:
           cd data/hhs && { curl -k $line -O; cd -; }
         done
         curl https://data.cdc.gov/api/views/9mfq-cb36/rows.csv?accessType=DOWNLOAD -o data/cdc_cases_deaths.csv
+        curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=integrated_county_latest_external_data -o data/cdc_counties.csv
 
     - name: Commit
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
