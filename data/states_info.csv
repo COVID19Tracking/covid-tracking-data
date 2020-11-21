@@ -252,6 +252,8 @@ LA,"Louisiana reports probable deaths on a weekly basis.
 
 Negative test results reported in our API and CSVs are calculated by subtracting *Positive PCR tests (people)** from **Total PCR tests (people)** in the absence of better data.
 
+On November 20, 2020, Louisiana reported a backlog of 2,538 cases, with specimen collection dates ranging from 9/12-11/18, in it's total cases. As a result, not all new cases reported on November 20, 2020 were identified in the previous 24 hour period. 
+
 On November 13, 2020, Louisiana started reporting antigen and molecular tests separately on the state's dashboard.
 
 On November 11, 2020, Louisiana did not update their COVID-19 Dashboard in observance of Veterans Day. As a result, no data was updated.
@@ -459,11 +461,10 @@ OH,"Ohio continually updates its **Currently hospitalized / Now hospitalized** d
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
-On November 19, 2020, Ohio reported that their data for November 19, 2020 was incomplete due to thousands of pending reports.
+On November 18, 2020, November 19, 2020, and November 20, 2020, Ohio reported that their data for November 19, 2020 was incomplete due to thousands of pending reports.
 
 On November 18, 2020, Ohio reported 5246480 Total PCR tests (specimens) - the same number that was reported on November 15, 2020, and a drop of roughly 102k tests from November 17, 2020. Because Ohio announced that their data for November 18, 2020 would be incomplete, and we suspect this decrease was a result of that, we did not update Total PCR tests (specimens), or Negative PCR tests (people) on November 18, 2020.
-
-On November 18, 2020, Ohio reported that their data for November 18, 2020 was incomplete due to thousands of pending reports.",https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations,,,@OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,Unclear units,posNeg,posNeg,All data,false,Ohio,39
+",https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations,,,@OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,Unclear units,posNeg,posNeg,All data,false,Ohio,39
 OK,"On July 19 and July 20, Oklahoma noted that reported **Total cases** numbers were inaccurately low due to technical issues. 
 
 Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. We excluded these figures from our data, as we assumed these individuals were isolated outside the state.",https://coronavirus.health.ok.gov/,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_11-19-20.pdf,"
