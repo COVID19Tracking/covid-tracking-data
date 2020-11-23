@@ -328,6 +328,16 @@ tertiary:
       page.done();
     message: expand the columns in the data table
 
+  MD:
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(20000);
+      await page.waitForSelector("div.table-responsive");
+      await page.click("div.table-responsive");
+      for (var i = 0; i < 1000; i++) { await page.keyboard.down("ArrowRight"); }
+      page.done();
+    message: Scroll all the way to the right in the data table so we can see the most recent day's column
+
   ME:
     overseerScript: >
       page.manualWait(); 
