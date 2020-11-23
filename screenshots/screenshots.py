@@ -90,8 +90,13 @@ class Screenshotter():
                 f.write(response.content)
         else:
             logger.error(f'Response status code: {response.status_code}')
-            response_metadata = response.json()['meta']
-            raise ValueError(f'Could not retrieve URL {data_url}, got response metadata {response_metadata}')
+            if 'meta' in response.json():
+                response_metadata = response.json()['meta']
+                raise ValueError(f'Could not retrieve URL {data_url}, got response metadata {response_metadata}')
+            else:
+                raise ValueError(
+                    'Could not retrieve URL %s and response has no metadata. Full response: %s' % (
+                        data_url, response.json()))
 
     def timestamped_filename(self, state, suffix='', fileext='png'):
         # basename will be e.g. 'CA' if no suffix, or 'CA-secondary' if suffix is 'secondary'
