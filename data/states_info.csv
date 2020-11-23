@@ -135,8 +135,6 @@ FL,"Florida combines PCR and antigen tests in the total tests figure reported on
 
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.
 
-On November 22, 2020, Florida did not update their daily COVID-19: summary of cases and monitoring report by the time we published our data. As a result, we were unable to update Total PCR tests (specimens), Positive PCR tests (specimens), Negative PCR tests (specimens), Positive PCR tests (people), and Probable cases.
-
 On November 3, 2020, Florida’s **Positive PCR Tests (specimens)** dropped by over 200 with no explanation.
 
 On October 30, 2020, the number of negative residents ('T_NegRes') remained unchanged on Florida's ArcGIS layer. The number of unique people tested in 'totalTestsPeopleViral' draws from 'T_NegRes' and 'C_AllResTypes' fields on Florida's ArcGIS layer. 
@@ -287,7 +285,7 @@ On July 31, 2020, Massachusetts noted that ""Delays in the reporting of test res
 
 On June 30, 2020, Massachusetts decreased the number of **cumulative hospitalizations** and **confirmed and probable deaths** ""due to ongoing data cleaning which identifies and removes duplicate reports.""
 
-On June 1, 2020, Massachusetts began to report **probable cases** and **probable deaths*, causing **Total cases** and **Total deaths** to appear to increase sharply in our data. ",https://www.mass.gov/doc/covid-19-dashboard-november-22-2020/download,https://www.mass.gov/doc/weekly-covid-19-public-health-report-november-22-2020/download,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
+On June 1, 2020, Massachusetts began to report **probable cases** and **probable deaths*, causing **Total cases** and **Total deaths** to appear to increase sharply in our data. ",https://www.mass.gov/doc/covid-19-dashboard-november-23-2020/download,https://www.mass.gov/doc/weekly-covid-19-public-health-report-november-23-2020/download,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
 MD,"As of October 16, 2020, Maryland’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative. This will result in TotalTestResults only going back to 3/24 instead of 3/5.
 
 On August 31 2020 , we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.
@@ -476,8 +474,8 @@ On November 18, 2020, Ohio reported 5246480 Total PCR tests (specimens) - the sa
 ",https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations,,,@OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,Unclear units,posNeg,posNeg,All data,false,Ohio,39
 OK,"On July 19 and July 20, Oklahoma noted that reported **Total cases** numbers were inaccurately low due to technical issues. 
 
-Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. We excluded these figures from our data, as we assumed these individuals were isolated outside the state.",https://coronavirus.health.ok.gov/,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_11-21-20.pdf,"
-https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/2020.11.21_weekly_epi_report.pdf",,,@HealthyOklahoma,https://coronavirus.health.ok.gov,Specimens,posNeg,posNeg,All data,false,Oklahoma,40
+Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. We excluded these figures from our data, as we assumed these individuals were isolated outside the state.",https://coronavirus.health.ok.gov/,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_11-22-20.pdf,"
+https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/2020.11.22_weekly_epi_report.pdf",,,@HealthyOklahoma,https://coronavirus.health.ok.gov,Specimens,posNeg,posNeg,All data,false,Oklahoma,40
 OR,"On November 5, 2020 we began reporting current hospitalizations from [Oregon's COVID-19 Update Dashboard](https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/HospitalCapacity). Previously we had been capturing these metrics on the [Oregon Health Authority page](https://govstatus.egov.com/OR-OHA-COVID-19).
 
 On November 4, 2020, Oregon stopped reporting current hospitalization data on the [Oregon Health Authority page](https://govstatus.egov.com/OR-OHA-COVID-19), and so we did not update Oregon's current hospitalization data. Current hospitalization data is provided on Oregon's data dashboard, but it lags a day behind the other source. We will evaluate this change and resume reporting Oregon hospital data when we are sure we can preserve the time series.
@@ -664,4 +662,4 @@ On April 22, 2020, Wyoming revised its **Total PCR tests (specimens)** downward,
 
 During the week of April 7, 2020, Wyoming began to report both confirmed and probable cases in its Recovered metrics.
 
-During the week of April 6, 2020, Wyoming began reporting confirmed and probable cases separately.",https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-testing-data/,,,@health_wyoming,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,People,posNeg,posNeg,No data,false,Wyoming,56
+During the week of April 6, 2020, Wyoming began reporting confirmed and probable cases separately.",https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-testing-data/,https://sites.google.com/wyo.gov/exec-covid19/hospital-resources,,@health_wyoming,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,People,posNeg,posNeg,No data,false,Wyoming,56
