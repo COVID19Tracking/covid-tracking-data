@@ -85,12 +85,12 @@ primary:
     message: clicking button to get rid of popup for OR, click "Demographics, Hospital Capacity and Testing Tables", waiting 5 sec
 
   PA:
-    overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
+    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
     renderSettings:
       viewport:
         width: 1400
         height: 3000
-    message: waiting 30 sec to load PA and using viewport height 3000
+    message: waiting 60 sec to load PA and using viewport height 3000
 
   SC:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
