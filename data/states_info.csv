@@ -179,7 +179,9 @@ On November 21, 2020, we cleared Guam’s Total PCR tests (People) timeseries. P
 On November 18, 2020, Guam [announced](https://ghs.guam.gov/jic-release-no-454-results-112-test-positive-covid-19-two-gdoe-employees-test-positive-covid-19) that “Beginning next week, the Department of Public Health and Social Services (DPHSS) will shift from daily situation reports to weekly reports in order to provide for more comprehensive data analysis. To reflect this, the Joint Information Center (JIC) will report profiles of confirmed cases on a weekly basis only.” As a result, Antigen and Antibody, and PCR (specimen) testing data will only be updated once weekly going forwards.
 
 On September 3, 2020, Guam reported that it had shifted to using the more restrictive August 5 definition of probable cases released by the CSTE. From March 12, 2020 to September 2, 2020 Guam reported eight probable cases under the previous probable case definition. Due to the change, Guam has no cases that classify as probable cases as of September 3, 2020, and 8 cases have been removed from Guams's total case count.",http://dphss.guam.gov/covid-19/,,,,,@guamdphss,https://ghs.guam.gov/coronavirus-covid-19,Specimens,posNeg,posNeg,All Data,false,Guam,66
-HI,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.
+HI,"Hawaii’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
+
+Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.
 
 On November 10, 2020, we switched the source for Hawaii’s Currently Hospitalized to the Hawaii Emergency Management Agency’s COVID-19 dashboard. As a result, current hospitalizations decreased by 14.
 
@@ -414,7 +416,7 @@ On October 30, 2020, we backfilled the full time series for Nebraska's Total Tes
 
 On September 20, 2020, Nebraska started publishing **Total Tests (in specimens)** in addition to **People Tested (in people)**, and we started collecting the Total Tests daily into our Total Tests (PCR) metric.
 
-On November 22, 2020, Nebraska's **Recovered** metric dropped from 56,605 to 16,068 without explanation.",https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,,,,,@NEDHHS,http://dhhs.ne.gov/Pages/Coronavirus.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Nebraska,31
+On November 22, 2020, Nebraska's **Recovered** metric dropped from 56,605 to 16,068 without explanation.",https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,https://gis.ne.gov/enterprise/rest/services/Covid19MapV5/MapServer/11/query?where=1%3D1&outFields=%2A&orderByFields=LAB_REPORT_DATE+desc&resultRecordCount=1&f=json,,,,@NEDHHS,http://dhhs.ne.gov/Pages/Coronavirus.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Nebraska,31
 NH,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
 On November 13, 2020, New Hampshire announced: ""The Dashboard Service is currently undergoing system maintenance and will be restored by November 16, 4:00 PM EST.""  This means **Total tests (in specimens)**, **Ever hospitalized**, **Ever in ICU**, and **Total Antibody Tests* will not be updated during this time.
@@ -470,7 +472,9 @@ OH,"Ohio continually updates its **Currently hospitalized / Now hospitalized** d
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
-On November 18, 2020, November 19, 2020, and November 20, 2020, November 21, 2020, and November 22, 2020 Ohio reported that their data for the day was incomplete due to thousands of pending reports.
+On November 23, 2020 Ohio announced that their data for November 23, 2020 would include two days worth of positive test results which were delated due to technical issues affecting lab reporting. Additionally, on November 23, 2020, Ohio did not update their Total PCR tests (specimens) by the time of our daily update. Because Negative PCR tests (specimens) is calculated by subtracting Positive PCR tests (people, confirmed + probable) from Total PCR tests (specimens), we did not update them on November 23, 2020.
+
+On November 18, 2020, November 19, 2020, and November 20, 2020, November 21, 2020,November 22, 2020, and November 23, 2020 Ohio reported that their data for the day was incomplete due to thousands of pending reports.
 
 On November 18, 2020, Ohio reported 5246480 Total PCR tests (specimens) - the same number that was reported on November 15, 2020, and a drop of roughly 102k tests from November 17, 2020. Because Ohio announced that their data for November 18, 2020 would be incomplete, and we suspect this decrease was a result of that, we did not update Total PCR tests (specimens), or Negative PCR tests (people) on November 18, 2020.
 ",https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations,,,@OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,Unclear units,posNeg,posNeg,All data,false,Ohio,39
@@ -609,11 +613,15 @@ On September 23, 2020, Vermont's **total tests** decreased by about 80 tests wit
 On August 19, 2020, Vermont's **total tests** decreased by about 200 tests with no explanation.  
 
 Between May 15 and May 16, 2020, Vermont's **total tests** decreased by about 1,000 tests with no explanation.",https://experience.arcgis.com/experience/85f43bd849e743cb957993a545d17170,https://www.healthvermont.gov/response/coronavirus-covid-19/current-activity-vermont#dashboard,,,,@healthvermont,https://www.healthvermont.gov/response/infectious-disease/2019-novel-coronavirus,Specimens,totalTestsViral,Total Tests (PCR),Positives + Negatives,false,Vermont,50
-WA,"Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
+WA,"Washington’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
+
+Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
 As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
+
+On November 23, 2020, Washington announced that the department of health experienced multiple errors to their reporting process and would be unable to update their data dashboard.
 
 On August 26, 2020, Washington switched its total tests units to testing encounters, excluding future encounters from individuals who test positive. It also provided a full timeseries of the figure. This testing encounters figure is slightly different from how we define testing encounters in two ways: first, our definition of testing encounters includes encounters after a positive test, and second, it should be calculated not by summing resulted tests but by counting all daily tests in a separate reporting stream. Despite these differences, the historical and current values of Washington’s figure are still stored in our **Total PCR tests (test encounters)** field.
 
