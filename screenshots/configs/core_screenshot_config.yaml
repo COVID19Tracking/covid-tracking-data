@@ -1,4 +1,11 @@
 primary:
+  AK:
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForDelay(30000); 
+      page.done();
+    message: waiting 30 sec to load AK primary
+ 
   CA:
     renderSettings:
       viewport:
