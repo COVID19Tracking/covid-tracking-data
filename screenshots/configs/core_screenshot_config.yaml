@@ -142,6 +142,15 @@ secondary:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting 30 sec to load AR secondary
 
+  AS:
+    overseerScript: >
+      page.manualWait(); 
+      await page.waitForSelector("[action='cancel']");
+      await page.click("[action='cancel']"); 
+      await page.waitForDelay(5000); 
+      page.done();
+    message: close popup for AS secondary
+
   CO:
     overseerScript: >
       page.manualWait(); 
