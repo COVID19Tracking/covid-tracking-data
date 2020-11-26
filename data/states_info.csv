@@ -22,6 +22,8 @@ AL,"Alabama combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+On November 25, 2020, Alabama announced that the Alabama Department of Public Health Infection Disease and Outbreak team reviewed their electronic disease surveillance system and “updated some parameters”. As a result, Recovered increased by roughly 71k on November 25, 2020.
+
 On November 14, 2020, Alabama announced that a backlog of 109 positive antigen results would be reported as probable cases on November 14, 2020. As a result, new probable cases reported on November 14, 2020 were not all reported in the previous 24 hour period.
 
 On November 11, 2020, Alabama announced via their [dashboard](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7) that they have begun a review process for deaths from the Alabama Center for Health Statistics (ACHS). According to Alabama, at least half of the **Deaths (confirmed and probable)** reported today (81 in total) are from this review. More deaths may be added from this review in the coming days.
@@ -273,6 +275,8 @@ On June 19, 2020, Louisiana's data changed due to deduplication and the state's 
 Between April 20 and April 24, 2020, Louisiana did not report testing data from commercial labs due to a state review of data.",http://ldh.la.gov/Coronavirus/,,,,,@LADeptHealth,http://ldh.la.gov/Coronavirus/,People,posNeg,posNeg,Only positives,false,Louisiana,22
 MA,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
+On November 25, 2020, Massachusetts reported that their data “was delayed today due to a technological issue that resulted in an interruption of the data download. As a result, today’s numbers reflect case counts from up to a 30 hour period"" instead of the usual previous 24-hour period.
+
 As of **November 2, 2020**, Massachusetts’ **Currently Hospitalized**, **Currently in ICU**, and **Currently on Ventilator** figures include only confirmed cases. Previously these numbers included confirmed and probable hospitalizations.
 
 As of September 11, 2020, Massachusetts’ total test results reflect total specimens. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
@@ -474,7 +478,7 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 
 On November 23, 2020 Ohio announced that their data for November 23, 2020 would include two days worth of positive test results which were delated due to technical issues affecting lab reporting. Additionally, on November 23, 2020, Ohio did not update their Total PCR tests (specimens) by the time of our daily update. Because Negative PCR tests (specimens) is calculated by subtracting Positive PCR tests (people, confirmed + probable) from Total PCR tests (specimens), we did not update them on November 23, 2020.
 
-On November 18, 2020, November 19, 2020, and November 20, 2020, November 21, 2020,November 22, 2020, and November 23, 2020 Ohio reported that their data for the day was incomplete due to thousands of pending reports.
+On November 18, 2020 through November 25, 2020 Ohio reported that their data for the day was incomplete due to thousands of pending reports.
 
 On November 18, 2020, Ohio reported 5246480 Total PCR tests (specimens) - the same number that was reported on November 15, 2020, and a drop of roughly 102k tests from November 17, 2020. Because Ohio announced that their data for November 18, 2020 would be incomplete, and we suspect this decrease was a result of that, we did not update Total PCR tests (specimens), or Negative PCR tests (people) on November 18, 2020.
 ",https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations,,,@OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,Unclear units,posNeg,posNeg,All data,false,Ohio,39
@@ -508,6 +512,8 @@ On April 22, 2020, Puerto Rico's data changed due to deduplication. This resulte
 RI,"Rhode Island combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 The **Recovered** data point we report for Rhode Island reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
+
+On November 25, 2020, Rhode Island’s **Total PCR tests (people)** decreased by roughly 500 and **Negative PCR tests (people)** decreased by roughly 1400 without explanation.
 
 On September 25, 2020, Rhode Island removed 240 duplicate cases from its case count, resulting in a drop from 24,311 cases to 24,181. 
 
@@ -619,9 +625,11 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
+On November 25, 2020, Washington announced that the Department of Health will not be reporting new negative test results until November 30, 2020. As a result, Washington’s PCR testing data may be affected.
+
 As of September 18, 2020, Washington's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
 
-On November 24, 2020, Washington announced via their [COVID-19 Data Dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that they would be unable to update laboratory testing data on November 24, 2020, and that they “ will resume updating all data on 11/30/2020"".
+On November 24, 2020, Washington announced via their [COVID-19 Data Dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that they would be unable to update laboratory testing data on November 24, 2020, and that they “will resume updating all data on 11/30/2020"".
 
 On November 23, 2020, Washington announced that the department of health experienced multiple errors to their reporting process and would be unable to update their data dashboard.
 
