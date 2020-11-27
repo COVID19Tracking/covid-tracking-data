@@ -104,6 +104,8 @@ CT,"Negative test results reported in our API and CSVs are calculated by subtrac
 
 The **Recovered** data point we report for Connecticut reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
+On November 26, 2020, Connecticut announced via a [press release](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2020/11-2020/Governor-Lamont-Coronavirus-Update-November-25) that there would be no update to their data on November 26, 2020 due to the Thanksgiving holiday. Additionally, the data for November 26, 2020 and November 27, 2020 will both be included in the November 27, 2020 update.
+
 On November 5, 2020, Connecticut released total test numbers lumping antigen and PCR tests alongside separate PCR and antigen counts. Beginning November 6, 2020, while the lumped figure continued to be updated daily in the state's ""Daily Data Report,"" the separated PCR and antigen test counts were not. On Novemeber 10, 2020, we updated the **Total PCR tests (specimens)** number in CT to be the lumped antigen with PCR number reported beginning Novemeber 5th, and we will capture accordingly until separate numbers are provided again.
 
 On November 5, 2020, Connecticut announced that a backlog of roughly 500 cases identified in August-November 2020, would be reported in the totals for November 5, 2020.
@@ -251,6 +253,8 @@ From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or 
 As of May 7, 2020, **confirmed and probable cases** are included in the case totals.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalCapacity?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalSummary?%3Aembed=y&%3AshowVizHome=no,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,All data,false,Kansas,20
 KY,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+On November 26, 2020, Kentucky did not update their data by the time of our daily update, presumably due to the Thanksgiving holiday.
+
 On November 12, 2020, Kentucky began reporting Currently on ventilator in their [COVID-19 Daily Summaries](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/KY/KY-tertiary-20201112-172508.pdf).
 
 On November 7, 2020, Kentucky [reported](https://chfs.ky.gov/cvdaily/COVID19DailyReport1107.pdf) that ""due to a keystroke error, the PCR and total tested figures were incorrectly  reported on 11/6/2020."" This caused our **Total PCR tests (specimens)** to go up by ~168k on November 6, and to go down by ~130k on November 7. If we find an official source with a corrected value we will backfill it.
@@ -308,6 +312,8 @@ On July 31, 2020, we began capturing Maryland's data for **Positive PCR tests (s
 
 Between March 12 and March 28, 2020, Maryland did not report data for **negative tests**.",https://coronavirus.maryland.gov/,https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/MDCOVID19_TestingVolume/FeatureServer/0/query?where=1%3D1&outFields=*&outStatistics=[%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22number_of_positives%22%2C+%22outStatisticFieldName%22%3A+%22total_number_of_positives%22%7D],https://coronavirus.maryland.gov/datasets/mdcovid19-serologytests/data,,,@MDHealthDept,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Maryland,24
 ME,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+
+On November 26, 2020, Maine announced on their COVID-19 page that there would only be partial updates to their data from November 26, 2020 to November 29, 2020 due to the Thanksgiving holiday. As a result, we were unable to update testing data, and current hospitalization data on November 26, 2020.
 
 On November 11, 2020, Maine did not update testing and hospitalization data: only **Cases,** **Deaths,** and **Recovered** were updated.
 
@@ -531,12 +537,16 @@ RI,"Rhode Island combines PCR and antigen tests in the total tests figure report
 
 The **Recovered** data point we report for Rhode Island reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
+On November 26, 2020, Rhode Island did not update their data by the time of our daily update, presumably due to the Thanksgiving holiday.
+
 On November 25, 2020, Rhode Island’s **Total PCR tests (people)** decreased by roughly 500 and **Negative PCR tests (people)** decreased by roughly 1400 without explanation.
 
 On September 25, 2020, Rhode Island removed 240 duplicate cases from its case count, resulting in a drop from 24,311 cases to 24,181. 
 
 As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**.",https://health.ri.gov/data/covid-19/,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/gviz/tq?tqx=out:csv&sheet=1592746937,,,@rihealth,https://health.ri.gov/diseases/respiratory/?parm=163,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Rhode Island,44
 SC,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+
+On November 25, 2020, South Carolina [announced](https://twitter.com/scdhec/status/1331650380271394819) via the official South Carolina Department of Health and Environmental Control twitter that there would be no update to their data on November 26, 2020.
 
 On September 15, 2020, South Carolina started reporting antigen testing data, reporting 7,763 positive tests and 23,477 total tests. Its “viral (i.e. molecular/PCR) tests” positives and totals dropped by about the same amount, likely due to the removal of this data.
 
@@ -551,7 +561,9 @@ On August 14, 2020, South Carolina reported an unusually large number of tests w
 On July 18, 2020, South Carolina announced it was transitioning to new reporting systems and that ""there may be incomplete data with significant gaps."" Though reporting resumed July 28, 2020, this resulted in data being carried over at times. We will backfill with the updated numbers when they are available.
 
 As of June 11, 2020, South Carolina reports PCR tests separately from antibody tests. Total test numbers were reduced by around 22,000 as a result of this change. ",https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19,https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/sc-demographic-data-covid-19,https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/hospital-bed-capacity-covid-19,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/south-carolina-county-level-data-covid-19,https://public.tableau.com/views/MainDashboard_15964746061440/Testing?%3Aembed=y&%3AshowVizHome=no&%3Ahost_url=https%3A%2F%2Fpublic.tableau.com%2F&%3Aembed_code_version=3&%3Atabs=no&%3Atoolbar=no&%3Aanimate_transition=no&%3Adisplay_static_image=no&%3Adisplay_spinner=no&%3Adisplay_overlay=no&%3Adisplay_count=yes&%3Alanguage=en&publish=yes&%3AloadOrderID=2,@scdhec,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,Specimens,posNeg,posNeg,All data,false,South Carolina,45
-SD,"On October, 7, 2020 South Dakota started reporting **Probable cases**. This added 473 new cases to South Dakota's **Total cases** number.
+SD,"On November 26, 2020, South Dakota [announced](https://twitter.com/SDDOH/status/1332017785560576001?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet) via the official South Dakota Department of Health that there would be no update to their data on November 26, 2020. Additionally, data for both November 26, 2020 and November 27, 2020, will be published on November 27, 2020.
+
+On October, 7, 2020 South Dakota started reporting **Probable cases**. This added 473 new cases to South Dakota's **Total cases** number.
 
 As of September 18, 2020, South Dakota's total test results are drawn from our `totalTestsPeopleViral` field instead of calculated via positive+negative.
 
@@ -693,6 +705,8 @@ Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a perc
 Negatives reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
 As of November 25, 2020, Wyoming's total test results are drawn from our `totalTestViral` field instead of calculated via positive+negative. 
+
+On November 26, 2020, Wyoming announced on their [COVID-19 page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/) that there would be no update to their data on November 26, 2020.
 
 On November 25, 2020, we started collecting *Total PCR tests (specimens)* from the ""Wyoming Updates"" section of Wyoming's [COVID-19 page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/) and started collecting *Positive tests PCR (specimens)* and *Negative tests PCR (specimens)* from the values in the graph on the ""Laboratory Results by Date"" graph on their [COVID-19 State and County Dashboards page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-state-and-county-dashboards/). At the same time, we backfilled all three of the above time series based on the numbers from the second page, summing the positive and negative numbers to use for the historical totals.
 
