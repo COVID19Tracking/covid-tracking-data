@@ -7,7 +7,7 @@ on:
     # Run every hour, on the hour.
     - cron:  '0 * * * *'
 
-jobs:
+jobs:gi
   update:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -24,7 +24,7 @@ jobs:
         curl https://api.covidtracking.com/v1/us/current.csv -o data/us_current.csv
         curl https://api.covidtracking.com/v1/us/daily.csv -o data/us_daily.csv
         curl https://api.covidtracking.com/v1/counties.csv -o data/counties.csv
-        curl -L "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_xmYt4ACPDZCDJcY12kCiMiH0ODyx3E1ZvgOHB8ae1tRcjXbs_yWBOA4j4uoCEADVfC1PS2jYO68B/pub?gid=43720681&single=true&output=csv" -o data/crdt.csv
+        curl -L "https://docs.google.com/spreadsheets/d/1tq_treJNLepYmhZzGtWCPJe8NS2w1qEpXfEoyfRVsWk/pub?gid=43720681&single=true&output=csv" -o data/crdt.csv
     
     - name: Commit
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
