@@ -57,8 +57,10 @@ primary:
     message: waiting 30 sec to load MT
   
   ND:
-    overseerScript: page.manualWait(); await page.waitForDelay(50000); page.done();
-    message: waiting for 50 seconds to load ND
+    renderSettings:
+      maxWait: 150000
+    overseerScript: page.manualWait(); await page.waitForDelay(120000); page.done();
+    message: waiting for 120 seconds to load ND
    
   NE:
     renderSettings:
