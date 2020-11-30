@@ -45,11 +45,14 @@ def output_yamls(team, state_urls, config_basename):
         existing_config = yaml.safe_load(f)
 
     # set up the output directory
-    destination_directory = "./configs/" + team + "/"
+    destination_directory = "./config/" + team + "/"
     os.makedirs(destination_directory, exist_ok=True)
 
     # walk through the states from the spreadsheet
     for state, urls in state_urls.items():
+
+        # open a file for the current state, creating the file if it doesn't exist
+        outfile = open(destination_directory + state + '.yaml', 'w+')
 
         # walk through the URLs for the state, and merge with config from the old YAMLs
         new_config_list = []
@@ -59,17 +62,19 @@ def output_yamls(team, state_urls, config_basename):
             if(urltext):
                 existing_state_config = existing_config[urlname].get(state)
                 
-                if(existing_state_config): # if there is a config from the previous yaml, use that and add name and url
-                    existing_state_config["name"] = urlname
-                    existing_state_config["url"] = urltext
-                else:  # if not, create a new config with just name and url
-                    existing_state_config = { "url": urltext, "name": urlname }
+                outfile.write("- name: " + urlname + "\n")
+                outfile.write("  url: " + urltext + "\n")
 
-                new_config_list.append(existing_state_config)                
-        
-        # write the current state to its file, creating the file if it doesn't exist
-        with open(destination_directory + state + '.yaml', 'w+') as file:
-            documents = yaml.dump(new_config_list, file, default_flow_style=False)
+                if(existing_state_config): # if there is a config from the previous yaml, use that and add name and url
+                    if(existing_state_config.get("overseerScript")):
+                        overseerScriptString = existing_state_config["overseerScript"]
+                        overseerScriptString = overseerScriptString.replace("\n", "\n    ", overseerScriptString.count("\n")-1)
+                        outfile.write("  overseerScript: |\n    " + overseerScriptString + "\n")
+                    if(existing_state_config.get("renderSettings")):
+                        outfile.write("  renderSettings: \n    " + yaml.dump(existing_state_config["renderSettings"], default_flow_style=False, indent=6) + "\n")
+
+                outfile.write("\n")
+    
 
 
 def main(args_list=None):
