@@ -25,3 +25,9 @@ We have saved, but are no longer updating, older CDC case, testing and deaths da
 - https://github.com/COVID19Tracking/covid-tracking-data/commits/master/data/cdc.csv
 - https://github.com/COVID19Tracking/covid-tracking-data/commits/master/data/cdc_testing.json
 - https://github.com/COVID19Tracking/covid-tracking-data/commits/master/data/cdc_trend.json
+
+### FDA
+
+- FDA's reported EUA information about In Vitro Diagnostic Products:
+  https://www.fda.gov/emergency-preparedness-and-response/mcm-legal-regulatory-and-policy-framework/emergency-use-authorization#covidinvitrodev,
+  saved each day to [this file](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/fda-covid-ivd-euas.csv)
