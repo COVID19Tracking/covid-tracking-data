@@ -1,0 +1,29 @@
+# This workflow archives published data if there are changes every day
+
+name: Update FDA files
+
+on:
+  schedule:
+    # Run every day at midnight.
+    - cron:  '0 0 * * *'
+
+jobs:
+  update:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Scrape FDA Site
+      run: |
+        python3 -m pip install -r data-collection-scripts/fda-covid-ivd-euas/requirements.txt
+        python3 data-collection-scripts/fda-covid-ivd-euas/scrape.py > data/fda_covid_ivd_euas.csv
+
+    - name: Commit
+      uses: stefanzweifel/git-auto-commit-action@v4.1.2
+      with:
+        commit_message: Updating FDA Covid IVD EUAs
+        file_pattern: data/*
+        commit_author: GitHub Actions <actions@github.com>
