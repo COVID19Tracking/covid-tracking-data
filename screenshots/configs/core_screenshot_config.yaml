@@ -132,8 +132,8 @@ secondary:
   AL:
     overseerScript: >
       await page.waitForNavigation({waitUntil:"domcontentloaded"});
-      await page.waitForSelector("span:nth-of-type(12)");
-      page.click("span:nth-of-type(12)");
+      await page.waitForSelector("span:nth-of-type(13)");
+      page.click("span:nth-of-type(13)");
       await page.waitForDelay(1000);
       page.done();
     message: custom click logic for AL secondary dashboard
