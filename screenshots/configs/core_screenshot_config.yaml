@@ -366,6 +366,10 @@ tertiary:
       await page.waitForDelay(15000);
       page.done();
     message: expanding 'Table of All Reported COVID-19 Tests' section
+    
+  MT:
+    file: pdf
+    message: downloading pdf for MT, exact url is consecrated. 
 
   MP:
     overseerScript: >
