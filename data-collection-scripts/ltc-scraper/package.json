@@ -1,0 +1,16 @@
+{
+  "name": "nv-ltc-scraper",
+  "version": "1.0.0",
+  "description": "Scrape Nevada long-term care facility data",
+  "main": "index.js",
+  "scripts": {
+    "build": "node nv_ltc_scraper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fast-csv": "^4.3.5",
+    "playwright": "^1.6.2"
+  }
+}
