@@ -8,6 +8,12 @@ Hourly updated repository with CSV backups of data from the [Covid Tracking API]
 
 For information about the project and how this data is collected, see the COVID Tracking Project [website](https://www.covidtracking.com) and [Twitter account](https://twitter.com/COVID19Tracking).
 
-## CTP Screenshot backups
+## CTP Screenshot Backups
 
 This repository also contains scripts for screenshotting state COVID data pages, as well as any customization required to capture data from each page (in yaml config files).
+
+## COVID Data Archives
+
+This repository also contains other archives of government COVID data. See the 
+[`data/` directory](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/) for a list of 
+archived files and sources.
