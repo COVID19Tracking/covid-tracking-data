@@ -14,11 +14,12 @@ from slack.errors import SlackApiError
 
 class Screenshotter():
 
-    def __init__(self, local_dir, s3_backup, phantomjscloud_key, config):
+    def __init__(self, local_dir, s3_backup, phantomjscloud_key, config, dry_run=False):
         self.phantomjs_url = 'https://phantomjscloud.com/api/browser/v2/%s/' % phantomjscloud_key
         self.local_dir = local_dir
         self.s3_backup = s3_backup
         self.config = config
+        self.dry_run = dry_run
 
     def get_state_config(self, state, suffix):
         # primary is denoted with no suffix, but the section is called "primary" in the YAML config
@@ -80,6 +81,10 @@ class Screenshotter():
                 data['requestSettings']['maxWait'] = 60000
         else:
             data['requestSettings'] = {'maxWait': 60000}
+
+        if self.dry_run:
+            logger.warning(f'Dry run: PhantomJsCloud request for {state} from {data_url}: {data}')
+            return
 
         logger.info('Posting request %s...' % data)
         response = requests.post(self.phantomjs_url, json.dumps(data))
