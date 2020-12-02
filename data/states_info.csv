@@ -647,6 +647,8 @@ The **Recovered** data point we report for Virginia reflects the number of COVID
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (test encounters)** in the absence of better data.
 
+On December 2, 2020, we switched our source for Virginia’s Ever hospitalized, and shifted our entire time series for Virginia’s Ever hospitalized in order to more closely align with the reporting on Virginia’s COVID-19 dashboard.
+
 As of September 18, 2020, Virginia's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
 
 On August 31, 2020 we began publishing **Positive PCR tests (specimens)** for Virginia. This data has been collected daily since July 21, 2020. Previous data going back to February 27, 2020 was taken from state historical data as of July 21. Historical data for **Total PCR Tests (encounters)** before July 21, 2020 was updated based on the same dataset, extending the column back to February 27, 2020 as well.
@@ -659,7 +661,9 @@ As of May 15, 2020, Virginia is reporting PCR tests and antibody tests separatel
 VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, **Negative PCR tests**, and **Pending tests**.
 
 The Virgin Islands provides irregular data updates, so changes in values often represent multiple days of data.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,posNeg,Positives Only,false,US Virgin Islands,78
-VT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**. 
+VT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive** from **Total PCR tests (people)**. 
+
+On December 2, 2020, Vermont added approximately 120 cases to its case count, representing probable cases since the beginning of September in the state (previously, the state had only reported PCR-confirmed cases). It provided a timeseries, so we backfilled our Positive field to avoid the impression of an additional 120 case rise on December 2. However, our Negative (people or cases) number for the state was computed by subtracting confirmed cases from total people tested. We kept this calculation up to December 1, since it is more accurate than subtracting probable cases (which are not identified via PCR testing). Starting December 2, in the absence of better data, we compute Negative using Positive - Cases (confirmed + probable) instead. This means that negatives will register an artificial 120 drop on December 2, though its impact will likely be concealed by the volume of negative testing.
 
 On November 26, 2020, Vermont announced on their [COVID-19 page](https://www.healthvermont.gov/covid-19) that there would be no update to their data on November 26, 2020.
 
