@@ -22,6 +22,8 @@ AL,"Alabama combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+As of December 2, 2020, Alabama's total test results are drawn from our `totalTestsPeopleViral` field instead of  `totalTestsViral`. Before that, as of September 18, 2020, Alabama's total test results were switched to draw from our `totalTestsViral` field instead of being calculated via positive+negative. The timeseries are the same, but previously, Alabama's units had been unclear, and therefore we stored the series in our specimens field. 
+
 On December 2, 2020, Alabama announced that a backlog of 706 positive PCR tests preformed from November 23, 2020 through November 29, 2020 would be included in their daily update for December 2, 2020.
 
 On December 1, 2020, Alabama [announced](https://twitter.com/alpublichealth/status/1333790272648409093?s=21) that increased new case and death counts are due to delayed data from Thanksgiving.
@@ -35,8 +37,6 @@ On November 11, 2020, Alabama announced via their [dashboard](https://alpubliche
 On November 10, 2020 Alabama’s Total PCR tests (specimens) decreased by roughly 700 without explanation.
 
 On October 21, 2020, Alabama did not update their COVID-19 dashboard due to ""technical issues"".
-
-As of September 18, 2020, Alabama's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
 On September 1, 2020, Alabama began displaying the number of people tested by antibody, over 50,000 individuals, separately from its main total tested field, which it clarified represents antigen and PCR testing. Its main total tested number dropped by over 25,000 the same day. We have reached out to the Alabama Department of Public Health to confirm this drop was due to the removal of the individuals tested by antibody.
 
@@ -667,7 +667,7 @@ VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, 
 The Virgin Islands provides irregular data updates, so changes in values often represent multiple days of data.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,posNeg,Positives Only,false,US Virgin Islands,78
 VT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive** from **Total PCR tests (people)**. 
 
-On December 2, 2020, Vermont added approximately 120 cases to its case count, representing probable cases since the beginning of September in the state (previously, the state had only reported PCR-confirmed cases). It provided a timeseries, so we backfilled our Positive field to avoid the impression of an additional 120 case rise on December 2. However, our Negative (people or cases) number for the state was computed by subtracting confirmed cases from total people tested. We kept this calculation up to December 1, since it is more accurate than subtracting probable cases (which are not identified via PCR testing). Starting December 2, in the absence of better data, we compute Negative using Positive - Cases (confirmed + probable) instead. This means that negatives will register an artificial 120 drop on December 2, though its impact will likely be concealed by the volume of negative testing.
+On December 2, 2020, Vermont added approximately 120 cases to its case count, representing probable cases since the beginning of September in the state (previously, the state had only reported PCR-confirmed cases). It provided a timeseries, so we backfilled our Positive field to avoid the impression of an additional 120 case rise on December 2. However, our Negative (people or cases) number for the state was computed by subtracting confirmed cases from total people tested. We kept this calculation up to December 1, since it is more accurate than subtracting probable cases (which are not identified via PCR testing). Starting December 2, in the absence of better data, we compute Negative using Positive - Cases (confirmed + probable) instead. This means that negatives registered an artificial 120 drop on December 2, though its impact will be concealed by the volume of negative testing.
 
 On November 26, 2020, Vermont announced on their [COVID-19 page](https://www.healthvermont.gov/covid-19) that there would be no update to their data on November 26, 2020.
 
