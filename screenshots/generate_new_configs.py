@@ -3,11 +3,13 @@ import io
 import pandas as pd
 import requests
 import yaml
+from datetime import date 
+from datetime import timedelta
 
 def load_urls_from_live_info(url):
 
     content = requests.get(url).content
-    state_info_df = pd.read_csv(io.StringIO(content.decode('utf-8')), keep_default_na=False)
+    state_info_df = pd.read_csv(io.StringIO(content.decode('utf-8')), keep_default_na=False) # default_na=false so that empty cells -> empty strings
     
     state_urls = {}
     for idx, r in state_info_df.iterrows():
@@ -24,7 +26,7 @@ def load_urls_from_live_info(url):
 
 def load_urls_from_spreadsheet(csv_url):
 
-    urls_df = pd.read_csv(csv_url, keep_default_na=False)
+    urls_df = pd.read_csv(csv_url, keep_default_na=False) # default_na=false so that empty cells -> empty strings
 
     state_urls = {}
     for idx, row in urls_df.iterrows():
@@ -45,31 +47,36 @@ def output_yamls(team, state_urls, config_basename):
         existing_config = yaml.safe_load(f)
 
     # set up the output directory
-    destination_directory = "./config/" + team + "/"
+    destination_directory =  os.path.join(os.path.dirname(__file__), 'configs', team)
     os.makedirs(destination_directory, exist_ok=True)
 
     # walk through the states from the spreadsheet
     for state, urls in state_urls.items():
-
+ 
         # open a file for the current state, creating the file if it doesn't exist
-        outfile = open(destination_directory + state + '.yaml', 'w+')
+        with open(destination_directory + "/" + state + '.yaml', 'w+') as outfile:
 
-        # walk through the URLs for the state, and merge with config from the old YAMLs
-        new_config_list = []
-        for urlname, urltext in urls.items():
-            
-            # if there's no URL, that means there was an empty cell in the spreadsheet
-            if(urltext):
-                existing_state_config = existing_config[urlname].get(state)
+            outfile.write("state: " + state + "\n")
+            outfile.write("links: " + "\n")
+
+            # walk through the URLs for the state, and merge with config from the old YAMLs
+            new_config_list = []
+            for url_name, url_text in urls.items():
                 
-                outfile.write("- name: " + urlname + "\n")
-                outfile.write("  url: " + urltext + "\n")
+                # if there's no URL, that means there was an empty cell in the spreadsheet
+                if not url_text:
+                    continue
+
+                existing_state_config = existing_config[url_name].get(state)
+                
+                outfile.write("- name: " + url_name + "\n")
+                outfile.write("  url: " + url_text + "\n")
 
                 if(existing_state_config): # if there is a config from the previous yaml, use that and add name and url
                     if(existing_state_config.get("overseerScript")):
-                        overseerScriptString = existing_state_config["overseerScript"]
-                        overseerScriptString = overseerScriptString.replace("\n", "\n    ", overseerScriptString.count("\n")-1)
-                        outfile.write("  overseerScript: |\n    " + overseerScriptString + "\n")
+                        overseerscript_string = existing_state_config["overseerScript"]
+                        overseerscript_string = overseerscript_string.replace("\n", "\n    ", overseerscript_string.count("\n")-1)
+                        outfile.write("  overseerScript: |\n    " + overseerscript_string + "\n")
                     if(existing_state_config.get("renderSettings")):
                         outfile.write("  renderSettings: \n    " + yaml.dump(existing_state_config["renderSettings"], default_flow_style=False, indent=6) + "\n")
 
