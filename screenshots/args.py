@@ -19,6 +19,9 @@ parser.add_argument('--states',
 parser.add_argument('--phantomjscloud-key', default='',
     help='API key for PhantomJScloud, used for browser image capture')
 
+parser.add_argument('--dry-run', dest='dry_run', action='store_true', default=False,
+    help='If present, will only print the resulting PhantomJScloud request and do nothing')
+
 # Args relating to S3 setup
 
 parser.add_argument(

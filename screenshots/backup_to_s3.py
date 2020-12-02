@@ -111,7 +111,8 @@ def screenshot_IHS(args):
     s3 = S3Backup(bucket_name=args.s3_bucket, s3_subfolder='IHS')
     screenshotter = Screenshotter(
         local_dir=args.temp_dir, s3_backup=s3,
-        phantomjscloud_key=args.phantomjscloud_key, config=config_from_args(args))
+        phantomjscloud_key=args.phantomjscloud_key, config=config_from_args(args),
+        dry_run=args.dry_run)
     data_url = 'https://www.ihs.gov/coronavirus/'
     try:
         screenshotter.screenshot('IHS', data_url, suffix='', backup_to_s3=args.push_to_s3)
@@ -131,7 +132,7 @@ def main(args_list=None):
     run_type = run_type_from_args(args)
     screenshotter = Screenshotter(
         local_dir=args.temp_dir, s3_backup=s3,
-        phantomjscloud_key=args.phantomjscloud_key, config=config)
+        phantomjscloud_key=args.phantomjscloud_key, config=config, dry_run=args.dry_run)
 
     failed_states = []
     slack_failure_messages = []
