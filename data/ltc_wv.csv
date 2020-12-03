@@ -1,0 +1,124 @@
+County,Facility Name,Active Positive Residents,Active Positve Staff,COVID-19 Associated Deaths,Recovered Residents,Recovered Staff,Cumulative Residents,Cumulative Staff,Cumulative COVID-19 Deaths,Active Outbreak
+Barbour,Good Samaritan Society of Barbour County,0,3,0,0,3,0,9,0,Yes
+Barbour,Mansfield Place,1,1,0,0,1,1,0,0,Yes
+Berkeley,Care Haven Center,16,2,0,0,0,16,3,0,Yes
+Berkeley,Stonerise Martinsburg (Clary Grove),1,1,0,0,0,1,1,0,Yes
+Boone,Hillcrest Health Care Center,2,4,8,33,19,35,25,8,Yes
+Braxton,Braxton Health Care Center,0,1,0,0,0,0,1,0,Yes
+Brooke,Brightwood Center,0,2,0,0,0,0,3,0,Yes
+Brooke,Stonerise Wellsburg (Wellsburg-Valley Center),0,1,8,49,24,49,25,8,Yes
+Cabell,Cabell Health Care Center,0,1,0,0,4,0,8,0,Yes
+Cabell,Heritage Center,0,0,0,4,9,4,9,0,Yes
+Cabell,Huntington Health and Rehabilitation Center,7,2,21,83,60,110,63,21,Yes
+Cabell,Madison Park Healthcare,0,2,0,0,1,2,12,1,Yes
+Cabell,St. Mary's Hospital,0,1,0,0,0,2,10,0,Yes
+Calhoun,Minnie Hamilton Health Care,0,2,0,0,1,0,5,0,Yes
+Clay,Clay Health Care Center,0,1,0,0,2,0,4,0,Yes
+Fayette,Ansted Center,0,0,0,0,3,0,3,0,No
+Fayette,Fayette Nursing and Rehabilitation Center,0,3,0,0,3,12,9,2,Yes
+Fayette,Hidden Valley Center,0,0,0,0,0,0,5,0,No
+Fayette,Hilltop Center,0,1,0,0,0,1,5,0,Yes
+Fayette,Montgomery General Elderly Care,45,17,6,0,0,45,18,6,Yes
+Fayette,Montgomery General Hospital (Skilled Nursing),0,0,0,0,0,7,12,4,No
+Gilmer,Glenville Center,0,0,0,0,3,1,3,0,No
+Grant,Grant Rehabilitation and Care Center,2,6,0,0,0,50,23,6,Yes
+Greenbrier,Greenbrier Health Care Center,0,0,0,0,0,0,0,0,No
+Greenbrier,Stonerise Lewisburg (Lewisburg Center),1,1,0,1,3,4,5,0,Yes
+Greenbrier,Stonerise Rainelle (Meadow Garden),0,2,0,0,0,0,3,0,Yes
+Greenbrier,White Sulphur Springs Center,5,0,0,0,0,5,0,0,Yes
+Hampshire,Hampshire Center,0,0,0,0,0,0,3,0,No
+Hampshire,Hampshire Memorial Hospital,0,0,0,0,0,0,2,0,No
+Hancock,Stone Pear Pavilion,3,2,0,0,2,3,4,0,Yes
+Hancock,Weirton Geriatric Center,6,2,1,4,20,10,22,1,Yes
+Hancock,Weirton Medical Center,1,2,0,2,4,3,7,0,Yes
+Hardy,E.A. Hawse Nursing and Rehabilitation Center,0,2,0,0,0,0,2,0,Yes
+Harrison,Bridgeport Health Care Center,0,2,0,0,1,0,3,0,Yes
+Harrison,Clarksburg Nursing and Rehabilitation Center,0,0,0,0,1,0,1,0,Yes
+Harrison,Salem Center,0,0,0,0,0,24,22,10,No
+Harrison,Stonerise Bridgeport (Meadowview Manor),5,3,3,33,31,38,34,3,Yes
+Harrison,Stonerise Clarksburg (River Oaks),46,25,1,1,1,47,26,1,Yes
+Harrison,United Transitional Care Center,0,0,0,0,0,0,0,0,No
+Harrison,West Virginia Veterans Nursing Facility,0,0,0,0,4,0,7,0,Yes
+Jackson,Eldercare Health and Rehabilitation,0,2,0,0,0,72,36,15,Yes
+Jackson,Ravenswood Village,0,0,0,0,0,0,0,0,No
+Jefferson,Canterbury Center,0,0,0,1,0,1,0,0,No
+Jefferson,Shenandoah Center,15,0,1,4,2,19,3,1,Yes
+Jefferson,Willow Tree Healthcare Center,37,21,5,6,3,45,28,5,Yes
+Kanawha,Arthur B Hodges Center,0,2,0,0,0,0,0,0,Yes
+Kanawha,Cedar Ridge Center,0,1,0,2,2,83,42,6,Yes
+Kanawha,Columbia St. Francis Hospital,0,1,0,0,0,0,1,0,Yes
+Kanawha,Dunbar Center,0,0,0,0,0,12,12,2,Yes
+Kanawha,Glasgow Health and Rehabilitation Center,0,0,0,0,0,53,33,8,No
+Kanawha,Marmet Center,0,0,0,0,0,60,30,11,No
+Kanawha,Meadowbrook Acres,0,0,0,0,0,50,40,12,No
+Kanawha,Oak Ridge Center,14,2,1,6,5,23,21,2,Yes
+Kanawha,Riverside Health and Rehabilitation Center,1,1,0,0,0,36,29,11,Yes
+Kanawha,Stonerise Charleston (Eastbrook Center),2,0,1,11,11,33,27,4,Yes
+Kanawha,Valley Center,0,1,0,0,0,23,21,6,Yes
+Lewis,Crestview Manor Nursing and Rehabilitation,0,0,0,0,0,0,0,0,No
+Lincoln,Lincoln Nursing and Rehabilitation Center,0,0,0,0,0,0,1,0,No
+Logan,Logan Center,0,0,0,1,0,2,1,1,Yes
+Logan,Trinity Health Care of Logan,0,0,0,0,2,97,69,18,Yes
+Marion,Fairmont Healthcare and Rehabilitation Center,0,1,0,0,0,0,1,0,Yes
+Marion,John Manchin Sr. Health Care Center,0,2,0,0,0,0,2,0,Yes
+Marion,Pierpont Center at Fairmont Campus,4,2,0,0,0,5,6,0,Yes
+Marion,St. Barbara's Memorial Nursing Home,17,6,1,2,3,19,9,1,Yes
+Marion,Tygart Center at Fairmont Campus,1,1,0,0,0,1,2,0,Yes
+Marshall,Cameron Nursing and Rehabilitation Center,0,1,7,42,25,42,28,0,Yes
+Marshall,Stonerise Moundsville (Mound View),85,58,0,4,0,89,58,0,Yes
+Mason,Lakin Hospital,0,1,3,13,16,13,17,3,Yes
+Mason,Pleasant Valley Nursing and Rehabilitation Center,0,1,0,0,2,0,3,0,Yes
+Mc Dowell,McDowell Nursing and Rehabilitation Center,0,3,0,0,0,0,3,0,Yes
+McDowell,Welch Community Hospital,0,0,0,0,0,0,2,0,No
+Mercer,Maples Health Care,0,0,0,0,0,0,2,0,No
+Mercer,Mercer Nursing and Rehabilitation Center,0,2,0,0,2,0,5,0,Yes
+Mercer,Princeton Health Care Center,0,1,0,0,6,53,46,24,Yes
+Mercer,Stonerise Princeton (Princeton Center),0,1,0,0,0,0,3,0,Yes
+Mineral,Dawn View Center,0,1,0,0,0,0,7,0,Yes
+Mineral,Stonerise Keyser (Piney Valley),62,33,7,1,0,63,33,7,Yes
+Mingo,Trinity Health Care of Mingo,1,1,0,0,0,15,6,2,Yes
+Monongalia,Madison Center,0,0,0,0,2,0,4,0,Yes
+Monongalia,Morgantown Health and Rehabilitation Center,0,0,0,0,0,0,0,0,No
+Monongalia,Stonerise Morgantown (Mapleshire Nursing and Rehabilitation Center),2,5,0,2,3,4,8,0,Yes
+Monongalia,Sundale Nursing Home,0,1,0,0,1,35,23,5,Yes
+Monroe,Stonerise Lindside (Springfield Center),0,0,0,0,0,43,73,7,No
+Morgan,Stonerise Berkeley Springs (Berkeley Springs Center),0,0,0,0,0,0,0,0,No
+Morgan,War Memorial Hospital Extended Care Facility,0,1,0,0,0,0,4,0,Yes
+Nicholas,Summersville Regional Medical Center,0,1,0,0,0,1,1,0,Yes
+Ohio,Continuous Care Center Wheeling Hospital,1,11,0,0,3,6,23,1,Yes
+Ohio,Good Shepherd Nursing Home,20,16,0,1,10,22,33,0,Yes
+Ohio,Guardian Elder Care at Wheeling,49,15,8,20,16,70,36,8,Yes
+Pendleton,Pendleton Manor,2,2,0,0,3,3,8,0,Yes
+Pleasants,Stonerise Belmont (Carehaven of Pleasants),0,0,0,0,0,0,1,0,No
+Pocahontas,Pocahontas Center,28,6,0,0,1,28,7,0,Yes
+Preston,Hopemont Hospital,1,2,0,2,8,3,11,0,Yes
+Preston,Pine Ridge,8,6,2,1,0,9,8,2,Yes
+Putnam,Putnam Center,10,5,6,42,26,52,31,6,Yes
+Putnam,Teays Valley Center,6,5,1,17,14,23,43,1,Yes
+Raleigh,Jackie Withrow Hospital,1,0,0,1,6,2,6,0,Yes
+Raleigh,Pine Lodge,0,1,0,0,0,45,22,6,Yes
+Raleigh,Raleigh Center,0,0,0,2,4,2,4,0,Yes
+Raleigh,Stonerise Beckley (Harper Mills),1,3,0,0,0,1,9,0,Yes
+Randolph,Elkins Regional Convalescent Center,0,1,0,0,0,0,1,0,Yes
+Randolph,Nella's Inc,1,2,0,0,3,0,5,0,Yes
+Randolph,Nellas Nursing Home,0,0,0,0,0,0,1,0,No
+Ritchie,Pine View Nursing and Rehabilitation Center,10,10,2,5,5,15,15,2,Yes
+Roane,Miletree Center,0,1,0,0,0,1,2,0,Yes
+Roane,Roane General Hospital,1,1,0,0,0,3,2,0,Yes
+Summers,Main Street Care,0,0,0,0,0,0,0,0,No
+Summers,Summers Nursing and Rehabilitation Center,25,2,8,31,10,56,14,8,Yes
+Taylor,Rosewood Center,0,1,0,0,0,36,20,7,Yes
+Taylor,Taylor Health Care Center,0,1,0,0,0,1,4,0,Yes
+Tucker,Cortland Acres Nursing Home,0,4,0,1,0,1,4,0,Yes
+Tyler,Sistersville Center,0,2,0,0,0,0,3,0,Yes
+Upshur,Holbrook Nursing Home,1,2,0,0,2,1,4,0,Yes
+Upshur,St. Joseph's Hospital,0,0,0,0,0,0,0,0,No
+Wayne,Wayne Nursing and Rehabilitation Center,0,0,0,0,0,47,39,9,No
+Webster,Webster Nursing and Rehabilitation Center,0,1,0,0,6,0,7,0,Yes
+Wetzel,New Martinsville Center,35,3,8,14,21,51,26,8,Yes
+Wood,Ohio Valley Health Care,0,2,0,0,0,0,3,0,Yes
+Wood,Parkersburg Center,1,1,0,0,1,2,7,0,Yes
+Wood,Stonerise Parkersburg (Eagle Pointe),0,0,0,0,0,0,2,0,No
+Wood,Willows Center,0,2,0,11,10,11,12,0,Yes
+Wood,Worthington Healthcare Center,0,5,0,2,1,2,6,0,Yes
+Wyoming,Wyoming Nursing and Rehabilitation Center (Wyoming Continious Care),1,0,0,0,1,1,1,0,Yes
