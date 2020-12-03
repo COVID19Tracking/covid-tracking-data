@@ -733,6 +733,8 @@ Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a perc
 
 Negatives reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
+On December 2, 2020, Wyoming's cumulative **Positive PCR Tests (specimens)** decreased by about 2,000, Negative PCR Tests (specimens) decreased by about 13,000, and ***Total PCR Tests (specimens)** decreased by about 11,000. The data for these metrics, obtained by downloading the Crosstab data on [Wyoming's State and County Dashboards](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-state-and-county-dashboards/), has been unreliable over the last week. Please use caution when using this data.  
+
 As of November 25, 2020, Wyoming's total test results are drawn from our `totalTestViral` field instead of calculated via positive+negative. 
 
 On November 27, 2020, Wyoming’s Positive PCR tests (specimens) decreased by about 10,000 without explanation. We believed that this decrease may be an error, and did not update Wyoming’s Positive PCR tests (specimens) and Negative PCR tests (specimens), which come from the same source on November 27, 2020. On November 28, 2020, and November 29, 2020, we were unable to update Positive PCR tests (specimens) and Negative PCR tests (specimens) because Wyoming only updates these metrics on Monday through Friday.
