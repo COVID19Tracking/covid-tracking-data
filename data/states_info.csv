@@ -298,7 +298,7 @@ On August 26, 2020, Louisiana started reporting Probable cases, this caused a no
 
 On June 19, 2020, Louisiana's data changed due to deduplication and the state's removal of out-of-state cases.
 
-Between April 20 and April 24, 2020, Louisiana did not report testing data from commercial labs due to a state review of data.",http://ldh.la.gov/Coronavirus/,,,,,@LADeptHealth,http://ldh.la.gov/Coronavirus/,People,posNeg,posNeg,Only positives,false,Louisiana,22
+Between April 20 and April 24, 2020, Louisiana did not report testing data from commercial labs due to a state review of data.",http://ldh.la.gov/Coronavirus/,,,,,@LADeptHealth,http://ldh.la.gov/Coronavirus/,Specimens,posNeg,posNeg,Only positives,false,Louisiana,22
 MA,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
 
 On November 26, 2020, Massachusetts announced on their [COVID-19 Response Reporting page](https://www.mass.gov/info-details/covid-19-response-reporting) that there would be no update to their data on November 26, 2020 due to the the Thanksgiving holiday. Additionally, they announced that the data for November 27, 2020 would include both the data for November 26, 2020 and November 27, 2020.
