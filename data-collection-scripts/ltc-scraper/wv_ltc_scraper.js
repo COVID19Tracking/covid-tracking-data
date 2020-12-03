@@ -2,8 +2,7 @@ const { chromium } = require('playwright');
 const fastcsv = require('fast-csv');
 
 (async (callbackfn, thisArg) => {
-  const URL = 'https://app.powerbigov.us/view?r=eyJrIjoiNTA3ZDVhYjQtZTllYy00Y2MzLTgxMWItOWU3ZTYxOTA2ZWM0IiwidCI6IjhhMjZjZjAyLTQzNGEtNDMxZS04Y2FkLTdlYWVmOTdlZjQ4NCJ9'
-
+  const URL = 'https://dhhr.wv.gov/COVID-19/Pages/default.aspx'
   // some setup
   const browser = await chromium.launch({
     headless: true
@@ -11,9 +10,11 @@ const fastcsv = require('fast-csv');
   const context = await browser.newContext({ recordVideo: { dir: 'videos/' } })
   const page = await context.newPage()
 
-  // load the page and the LTC tab
+  // load the frame and the LTC tab
   await page.goto(URL)
-  await page.click('//button[normalize-space(.)=\'Long-Term Care\']')
+
+  const frame = await page.frame({url: /app\.powerbigov\.us/})
+  await frame.click('//button[normalize-space(.)=\'Long-Term Care\']')
 
   // helper function to turn an array of cell elements into an array of text, meant for $$eval
   const arrCellsToText = (elems) => {
@@ -21,22 +22,22 @@ const fastcsv = require('fast-csv');
   }
 
   // get the table column headers
-  await page.waitForSelector('.columnHeaders > div > div')
-  const columnHeaders = await page.$$eval('.columnHeaders > div > div', arrCellsToText)
+  await frame.waitForSelector('.columnHeaders > div > div')
+  const columnHeaders = await frame.$$eval('.columnHeaders > div > div', arrCellsToText)
 
   // this big function collects all visible data from the table in a big 2D array
   // with one row for each facility and columns for each field tracked
   const dataFromTable = async () => {
-    // Here's where it gets downright weird because the page structure is so...special
+    // Here's where it gets downright weird because the frame structure is so...special
     // The data table is organized into four divs: left/top, right/top, left/bottom, right/bottom
     // As we scroll, these get moved around and populated.
 
     // this gets us the left half of the table. each entry in the array is a column div
     // there will be more of these than there are columns because we get both left/top and left/bottom
     // tangled together here
-    const elemColsLeft = await page.$$('.bodyCells > div > div[style*="left:0"] > div')
+    const elemColsLeft = await frame.$$('.bodyCells > div > div[style*="left:0"] > div')
     // and this gets us the right half of the table
-    const elemColsRight = await page.$$('.bodyCells > div > div:not([style*="left:0"]) > div')
+    const elemColsRight = await frame.$$('.bodyCells > div > div:not([style*="left:0"]) > div')
 
     // collect all the data out of the left column elements
     let dataColsTangled = []
@@ -94,11 +95,11 @@ const fastcsv = require('fast-csv');
     data = {...data, ...visibleData}
 
     // click the down scroll button a whole bunch of times to get more data
-    const elemScrollDown = await page.$('.scroll-bar-div:not([style*="visibility: hidden"]) .scroll-bar-part-arrow:nth-child(2)')
+    const elemScrollDown = await frame.$('.scroll-bar-div:not([style*="visibility: hidden"]) .scroll-bar-part-arrow:nth-child(2)')
     for (const i of Array.from(Array(45))) {
       await elemScrollDown.click()
     }
-    await page.waitForTimeout(2000)
+    await frame.waitForTimeout(2000)
   }
 
   // output all the data to stdout in csv format
