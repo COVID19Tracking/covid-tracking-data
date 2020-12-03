@@ -9,7 +9,8 @@ and extracts the data for assisted living and nursing home facilities, outputtin
 [West Virginia LTC COVID Dashboard](https://dhhr.wv.gov/COVID-19/Pages/default.aspx) 
 (Long-Term Care tab)
 
-These scripts are intended to be run as a GitHub Actions job, with the resulting data ending up in `/data/ltc_nv.csv`
+These scripts are intended to be run as a GitHub Actions job, with the resulting CSV files ending up in `/data/` 
+(e.g. `data/ltc_nv.csv`)
 
 Usage:
 ```shell script
