@@ -10,19 +10,43 @@ defaults:
      working-directory: data-collection-scripts/ltc-scraper
 
 jobs:
-  NV:
-    runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@v2
-      - uses: ./.github/actions/ltc
-        with:
-          script_file: nv_ltc_scraper.js
-          output_file: ltc_nv.csv
-  WV:
-    runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@v2
-      - uses: ./.github/actions/ltc
-        with:
-          script_file: wv_ltc_scraper.js
-          output_file: ltc_wv.csv
+  scrape:
+      runs-on: ubuntu-18.04
+      strategy:
+        fail-fast: false
+        matrix:
+          state: [nv, wv]
+      steps:
+        - uses: actions/checkout@v2
+        - uses: actions/cache@v2
+          with:
+            path: ~/.npm
+            key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+            restore-keys: |
+              ${{ runner.os }}-node-
+        - name: Use Node.js
+          uses: actions/setup-node@v1
+          with:
+            node-version: '14.x'
+        - name: Install dependencies
+          run: npm install
+        # there's an extremely irritating DNS bug somewhere (https://github.com/actions/virtual-environments/issues/798)
+        # and swapping out the resolver is a weird workaround. Otherwise, app.powerbigov.us won't resolve
+        - name: DNS nonsense
+          run: sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+        - name: Run scraper
+          run: |
+            node ${{ matrix.state }}_ltc_scraper.js > ../../data/ltc_${{ matrix.state }}.csv
+        - name: Commit
+          uses: stefanzweifel/git-auto-commit-action@v4.1.2
+          with:
+            commit_message: Updating scraped LTC data
+            file_pattern: data/ltc_${{ matrix.state }}.csv
+            commit_author: GitHub Actions <actions@github.com>
+        - name: Archive production artifacts
+          uses: actions/upload-artifact@v2
+          with:
+            name: Video
+            path: |
+              data-collection-scripts/ltc-scraper/videos/*
+            retention-days: 10
