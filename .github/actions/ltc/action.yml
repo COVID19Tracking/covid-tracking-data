@@ -1,0 +1,43 @@
+name: 'Run LTC Scraper'
+description: 'Setup, run an LTC scraper, commit the results'
+inputs:
+  script_file:
+    description: 'Filename of the script file to run'
+    required: true
+  output_file:
+    description: 'Filename of the output to save in the data dir'
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+        - name: Use Node.js
+          uses: actions/setup-node@v1
+          with:
+            node-version: '14.x'
+        - name: Install dependencies
+          run: npm install
+        # there's an extremely irritating DNS bug somewhere (https://github.com/actions/virtual-environments/issues/798)
+        # and swapping out the resolver is a weird workaround. Otherwise, app.powerbigov.us won't resolve
+        - name: DNS nonsense
+          run: sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+        - name: Run scraper
+          run: node ${{ inputs.script_file }} > ../../data/${{ inputs.output_file }}
+        - name: Commit
+          uses: stefanzweifel/git-auto-commit-action@v4.1.2
+          with:
+            commit_message: Updating scraped LTC data
+            file_pattern: data/${{ inputs.output_file }}
+            commit_author: GitHub Actions <actions@github.com>
+        - name: Archive production artifacts
+          uses: actions/upload-artifact@v2
+          with:
+            name: Video
+            path: |
+              data-collection-scripts/ltc-scraper/videos/*
+            retention-days: 10
