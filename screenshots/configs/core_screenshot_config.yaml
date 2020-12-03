@@ -579,7 +579,6 @@ quinary:
     overseerScript: >
       page.manualWait();
       await page.waitForDelay(10000);
-      page.mouse.move(880, 1100);
       page.mouse.click(880, 1100);
       await page.waitForDelay(15000);
       page.done();
