@@ -33,6 +33,7 @@ jobs:
         - name: Run scraper
           run: |
             node nv_ltc_scraper.js > ../../data/ltc_nv.csv
+            node wv_ltc_scraper.js > ../../data/ltc_wv.csv
         - name: Commit
           uses: stefanzweifel/git-auto-commit-action@v4.1.2
           with:
