@@ -671,7 +671,9 @@ VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, 
 The Virgin Islands provides irregular data updates, so changes in values often represent multiple days of data.",https://doh.vi.gov/covid19usvi,https://www.covid19usvi.com,,,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,posNeg,Positives Only,false,US Virgin Islands,78
 VT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive** from **Total PCR tests (people)**. 
 
-On December 2, 2020, Vermont added approximately 120 cases to its case count, representing probable cases since the beginning of September in the state (previously, the state had only reported PCR-confirmed cases). It provided a timeseries, so we backfilled our Positive field to avoid the impression of an additional 120 case rise on December 2. However, our Negative (people or cases) number for the state was computed by subtracting confirmed cases from total people tested. We kept this calculation up to December 1, since it is more accurate than subtracting probable cases (which are not identified via PCR testing). Starting December 2, in the absence of better data, we compute Negative using Positive - Cases (confirmed + probable) instead. This means that negatives registered an artificial 120 drop on December 2, though its impact will be concealed by the volume of negative testing.
+On December 4, 2020, Vermont provided a timeseries for both confirmed and probable cases. We backfilled **Positive**, **Positive Cases (PCR)** and **Probable Cases** and updated **Total PCR Tests (in People)** and **Negative** to match the new confirmed series.
+
+On December 2, 2020, Vermont added approximately 120 cases to its case count, representing probable cases since the beginning of September in the state (previously, the state had only reported PCR-confirmed cases). It provided a timeseries, and we backfilled our Positive field to avoid the impression of an additional 120 case rise on December 2.
 
 On November 26, 2020, Vermont announced on their [COVID-19 page](https://www.healthvermont.gov/covid-19) that there would be no update to their data on November 26, 2020.
 
