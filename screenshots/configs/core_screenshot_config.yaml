@@ -233,6 +233,10 @@ secondary:
   NC:
     file: pdf
     message: downloading pdf
+
+  NH:
+    file: pdf
+    message: downloading pdf
     
   NJ:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
