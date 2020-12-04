@@ -12,6 +12,10 @@ defaults:
 jobs:
   scrape:
       runs-on: ubuntu-18.04
+      strategy:
+        fail-fast: false
+        matrix:
+          state: [nv, wv]
       steps:
         - uses: actions/checkout@v2
         - uses: actions/cache@v2
@@ -32,12 +36,12 @@ jobs:
           run: sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
         - name: Run scraper
           run: |
-            node nv_ltc_scraper.js > ../../data/ltc_nv.csv
+            node ${{ matrix.state }}_ltc_scraper.js > ../../data/ltc_${{ matrix.state }}.csv
         - name: Commit
           uses: stefanzweifel/git-auto-commit-action@v4.1.2
           with:
             commit_message: Updating scraped LTC data
-            file_pattern: data/ltc_nv.csv
+            file_pattern: data/ltc_${{ matrix.state }}.csv
             commit_author: GitHub Actions <actions@github.com>
         - name: Archive production artifacts
           uses: actions/upload-artifact@v2

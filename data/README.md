@@ -36,3 +36,7 @@ We have saved, but are no longer updating, older CDC case, testing and deaths da
 - Nevada long-term care facility data, scraped from 
 [their dashboard](https://app.powerbigov.us/view?r=eyJrIjoiNDMwMDI0YmQtNmUyYS00ZmFjLWI0MGItZDM0OTY1Y2Y0YzNhIiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9) 
 and saved to [ltc_nv.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/ltc_nv.csv)
+
+- West Virginia long-term care facility data, scraped from 
+[their dashboard](https://dhhr.wv.gov/COVID-19/Pages/default.aspx) (Long-Term Care tab)
+and saved to [ltc_wv.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/ltc_wv.csv)
