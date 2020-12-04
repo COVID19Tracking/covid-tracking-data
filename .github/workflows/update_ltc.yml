@@ -38,6 +38,7 @@ jobs:
           run: |
             node ${{ matrix.state }}_ltc_scraper.js > ../../data/ltc_${{ matrix.state }}.csv
         - name: Commit
+          if: github.ref == 'refs/heads/master'
           uses: stefanzweifel/git-auto-commit-action@v4.1.2
           with:
             commit_message: Updating scraped LTC data
