@@ -1,7 +1,6 @@
 name: Scrape LTC
 
 on:
-  push:
   schedule:
     - cron: '30 0 * * *'
 
