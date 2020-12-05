@@ -57,7 +57,7 @@ def output_yamls(team, state_urls, config_basename):
         with open(destination_directory + "/" + state + '.yaml', 'w+') as outfile:
 
             outfile.write("state: " + state + "\n")
-            outfile.write("links: " + "\n")
+            outfile.write("links: " + "\n\n")
 
             # walk through the URLs for the state, and merge with config from the old YAMLs
             new_config_list = []
@@ -75,10 +75,11 @@ def output_yamls(team, state_urls, config_basename):
                 if(existing_state_config): # if there is a config from the previous yaml, use that and add name and url
                     if(existing_state_config.get("overseerScript")):
                         overseerscript_string = existing_state_config["overseerScript"]
-                        overseerscript_string = overseerscript_string.replace("\n", "\n    ", overseerscript_string.count("\n")-1)
+                        if overseerscript_string[-1] == "\n": overseerscript_string = overseerscript_string[:-1] 
+                        overseerscript_string = overseerscript_string.replace("\n", "\n    ") # indent
                         outfile.write("  overseerScript: |\n    " + overseerscript_string + "\n")
                     if(existing_state_config.get("renderSettings")):
-                        outfile.write("  renderSettings: \n    " + yaml.dump(existing_state_config["renderSettings"], default_flow_style=False, indent=6) + "\n")
+                        outfile.write("  renderSettings: \n    " + yaml.dump(existing_state_config["renderSettings"], default_flow_style=False, indent=6))
 
                 outfile.write("\n")
     
