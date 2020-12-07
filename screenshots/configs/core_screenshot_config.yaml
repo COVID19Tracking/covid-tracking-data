@@ -324,8 +324,12 @@ tertiary:
     message: clicking skip to get rid of popup for DC, waiting 5 sec
 
   HI:
-    file: csv
-    message: downloading CSV for HI tertiary, to get positive test numbers.
+    overseerScript: >
+      await page.waitForSelector("span.ember-view.tab-title:nth-of-type(2)");
+      page.click("span.ember-view.tab-title:nth-of-type(2)");
+      await page.waitForDelay(10000);
+      page.done()
+    message: clicking on 'Hospitalization' tab for HI tertiary
 
   ID:
     overseerScript: >
@@ -479,6 +483,14 @@ quaternary:
   FL:
     file: pdf
     message: downloading pdf 
+
+  HI:
+    overseerScript: >
+      await page.waitForSelector("span.ember-view.tab-title:nth-of-type(3)");
+      page.click("span.ember-view.tab-title:nth-of-type(3)");
+      await page.waitForDelay(10000);
+      page.done()
+    message: clicking on 'ICU Beds and Ventilators' tab for HI quaternary
 
   IA:
     overseerScript: >
