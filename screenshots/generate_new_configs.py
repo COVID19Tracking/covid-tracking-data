@@ -72,14 +72,19 @@ def output_yamls(team, state_urls, config_basename):
                 outfile.write("- name: " + url_name + "\n")
                 outfile.write("  url: " + url_text + "\n")
 
-                if(existing_state_config): # if there is a config from the previous yaml, use that and add name and url
-                    if(existing_state_config.get("overseerScript")):
-                        overseerscript_string = existing_state_config["overseerScript"]
-                        if overseerscript_string[-1] == "\n": overseerscript_string = overseerscript_string[:-1] 
-                        overseerscript_string = overseerscript_string.replace("\n", "\n    ") # indent
-                        outfile.write("  overseerScript: |\n    " + overseerscript_string + "\n")
-                    if(existing_state_config.get("renderSettings")):
-                        outfile.write("  renderSettings: \n    " + yaml.dump(existing_state_config["renderSettings"], default_flow_style=False, indent=6))
+                if existing_state_config:
+                    if "overseerScript" in existing_state_config:
+                        outfile.write("  overseerScript: |\n")
+                        # strip newlines
+                        overseer_script = existing_state_config["overseerScript"].strip()
+                        # each statement on its own line
+                        for command in overseer_script.split(';'):
+                            command = command.strip()
+                            if command:
+                                outfile.write("    %s;\n" % command)
+                    if "renderSettings" in existing_state_config:
+                        outfile.write("  renderSettings: \n    " + yaml.dump(
+                            existing_state_config["renderSettings"], default_flow_style=False, indent=6))
 
                 outfile.write("\n")
     
