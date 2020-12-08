@@ -80,6 +80,8 @@ def output_yamls(team, state_urls, config_basename):
                         # each statement on its own line
                         for command in overseer_script.split(';'):
                             command = command.strip()
+                            if '{' in command:
+                                command = command.replace('{', '{\n     ')
                             if command:
                                 outfile.write("    %s;\n" % command)
                     if "renderSettings" in existing_state_config:
