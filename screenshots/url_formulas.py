@@ -3,7 +3,7 @@ from datetime import timedelta
 
 # NOTE: the %#d (day of month not zero padded) and %#m (number of month not zero padded) formatting directives 
 #       are different depending on whether you're running on unix or windows. Unix is %-d, windows is %#d. 
-# NOTE: %B (full month name) makes capitalized months, which doesn't match the existing urls. However, these web servers are case-insensitive. (so far)
+# NOTE: %B (full month name) makes capitalized months, which doesn't match the existing urls. The web server was doing an extra redirect to sort it out, so I did tolower().
 
 # MA PRIMARY
 # =CONCATENATE("https://www.mass.gov/doc/covid-19-dashboard-",LOWER(TEXT(now(),"mmmm")),"-",LOWER(TEXT(now(),"d")),"-" , YEAR(NOW()),"/download")
