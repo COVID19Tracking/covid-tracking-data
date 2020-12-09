@@ -132,8 +132,13 @@ primary:
   WA:
     renderSettings:
       maxWait: 90000
-    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
-    message: waiting 60 sec to load WA
+    overseerScript: >
+      page.manualWait();
+      await page.waitForSelector("[href='#pnlHospAndIcuTbl']");
+      page.click("[href='#pnlHospAndIcuTbl']");
+      await page.waitForDelay(60000);
+      page.done();
+    message: clicking on Ventilator data and waiting 60 sec to load WA
 
   WV:
     overseerScript: page.manualWait(); await page.waitForDelay(90000); page.done();
