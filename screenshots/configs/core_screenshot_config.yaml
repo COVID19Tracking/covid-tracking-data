@@ -619,8 +619,14 @@ quaternary:
     message: clicking on "Hospitals - Statewide" tab. Also widening viewport so that tab is visible.
 
   WI:
-    file: csv
-    message: download CSV for testing data
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(6000);
+      await page.waitForSelector("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(1) input");
+      page.click("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(1) input");
+      await page.waitForDelay(5000);
+      page.done();
+    message: WI confirmed deaths for quaternary
 
 
 quinary:
@@ -701,3 +707,13 @@ quinary:
       await page.waitForDelay(10000);
       page.done();
     message: hover over ICU and ventilators for NV quinary
+
+  WI:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(6000);
+      await page.waitForSelector("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(2) input");
+      page.click("#tableau_base_widget_ParameterControl_1 div[role='radio']:nth-child(2) input");
+      await page.waitForDelay(5000);
+      page.done();
+    message: WI probable deaths for quinary
