@@ -524,6 +524,15 @@ quaternary:
   MI:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
     message: waiting for MI quaternary
+
+  MP:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForSelector(".tab-title:nth-of-type(3)");
+      page.click(".tab-title:nth-of-type(3)");
+      await page.waitForDelay(30000);
+      page.done();
+    message: custom click logic for MP quaternary dashboard
    
   NC:
     overseerScript: >
