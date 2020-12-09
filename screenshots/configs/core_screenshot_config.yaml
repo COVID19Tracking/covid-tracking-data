@@ -551,6 +551,20 @@ quaternary:
 
     message: clicking on "deaths by date of death". 
 
+  NE:
+    renderSettings:
+      viewport:
+        width: 2000
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(20000);
+      await page.evaluate(() => { document.evaluate("//div[text()='Deaths']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("div[ctpclickhere]");
+      await page.waitForDelay(20000);
+      page.done();
+
+    message: clicking on "Deaths".
+
   NH:
     overseerScript: >
       page.manualWait(); 
