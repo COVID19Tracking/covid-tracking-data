@@ -22,6 +22,8 @@ AL,"Alabama combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+On December 9, 2020, Alabama processed a backlog of positive PCR and antigen test results from October 5, 2020 through December 7, 2020. This backlog makes up roughly 10% of Cases (confirmed + probable) reported on December 10, 2020.
+
 On December 3, 2020, Alabama announced that: ""The Alabama Department of Public Health processed two backlogs totaling 1038 positive PCR results and 473 positive antigen results from two facilities on December 7. These will be classified as 1038 confirmed cases and 473 probable cases reported on 12/08/20 even though the tests were performed during November 30 through December 5, 2020.""
 
 As of December 2, 2020, Alabama's total test results are drawn from our `totalTestsPeopleViral` field instead of  `totalTestsViral`. Before that, as of September 18, 2020, Alabama's total test results were switched to draw from our `totalTestsViral` field instead of being calculated via positive+negative. The timeseries are the same, but previously, Alabama's units had been unclear, and therefore we stored the series in our specimens field. 
@@ -446,7 +448,9 @@ On September 25, 2020, North Carolina started reporting probable cases which cau
 On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press-releases/ncdhhs-corrects-covid-19-testing-totals-after-identifying-labcorp-reporting) a major correction in its **Total PCR tests (specimens)**, resulting in a decrease of more than 220,000 reported tests. 
 
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,posNeg,posNeg,Only positives,false,North Carolina,37
-ND,"On December 9, 2020, North Dakota began reporting **Probable Cases,** which it defines as individuals with a positive antigen test. Until we can obtain a time series of the previous dates these tests were conducted, they will all be reported for 12/09/2020. North Dakota also made a number of changes to its data dashboard on this date that might affect our data reporting.
+ND,"On December 10, 2020, we backfilled **Positive Cases (PCR)**, **Probable Cases** and **positive* from March 10, 2020 until December 9, 2020. We also cleared our **Deaths (confirmed)** and **Deaths (probable)** metrics because the number we reported as confirmed included antigen tested individuals.
+
+On December 9, 2020, North Dakota began reporting **Probable Cases,** which it defines as individuals with a positive antigen test.
 
 On December 8, 2020, North Dakota  announced that they would not be updating their website due to site construction as they prepare to add antigen tests to their dashboard. As a result, we were unable to update their data on December 8, 2020.
 
