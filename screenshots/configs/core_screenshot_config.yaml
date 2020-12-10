@@ -275,8 +275,8 @@ secondary:
   PA:
     overseerScript: >
       page.manualWait();
-      await page.waitForSelector("#ember65");
-      page.click("#ember65"); 
+      await page.waitForSelector("#ember69");
+      page.click("#ember69"); 
       await page.waitForDelay(30000);
       page.done();
     message: custom click logic for PA secondary dashboard
