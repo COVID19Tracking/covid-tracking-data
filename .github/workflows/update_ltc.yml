@@ -38,11 +38,14 @@ jobs:
             node ${{ matrix.state }}_ltc_scraper.js > ../../data/ltc_${{ matrix.state }}.csv
         - name: Commit
           if: github.ref == 'refs/heads/master'
-          uses: stefanzweifel/git-auto-commit-action@v4.1.2
+          uses: EndBug/add-and-commit@v5
           with:
-            commit_message: Updating scraped LTC data
-            file_pattern: data/ltc_${{ matrix.state }}.csv
-            commit_author: GitHub Actions <actions@github.com>
+            message: Updating scraped LTC data
+            add: data/ltc_${{ matrix.state }}.csv
+            author_name: GitHub Actions
+            author_email: actions@github.com
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         - name: Archive production artifacts
           uses: actions/upload-artifact@v2
           with:
