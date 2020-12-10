@@ -130,13 +130,15 @@ primary:
     message: UT dashboard doesn't render in phantomjscloud unless we set a viewport
 
   WA:
+    rederSettings:
+      maxWait: 120000
     overseerScript: >
       page.manualWait();
       await page.waitForSelector("[href='#pnlHospAndIcuTbl']");
       page.click("[href='#pnlHospAndIcuTbl']");
-      await page.waitForDelay(90000);
+      await page.waitForDelay(120000);
       page.done();
-    message: clicking on Ventilator data and waiting 90 sec to load WA
+    message: clicking on Ventilator data and waiting 120 sec to load WA
 
   WV:
     overseerScript: page.manualWait(); await page.waitForDelay(90000); page.done();
