@@ -66,7 +66,7 @@ primary:
     message: waiting 30 sec to load MT
   
   ND:
-    renderSettings:
+    requestSettings:
       maxWait: 180000
     overseerScript: page.manualWait(); await page.waitForDelay(150000); page.done();
     message: waiting for 150 seconds to load ND
@@ -130,7 +130,7 @@ primary:
     message: UT dashboard doesn't render in phantomjscloud unless we set a viewport
 
   WA:
-    rederSettings:
+    requestSettings:
       maxWait: 120000
     overseerScript: >
       page.manualWait();
@@ -464,7 +464,7 @@ tertiary:
     message: downloading Excel for TX tertiary
 
   WA:
-    renderSettings:
+    requestSettings:
       maxWait: 180000
     overseerScript: >
       page.manualWait();
@@ -625,7 +625,7 @@ quaternary:
     message: clicking on "Hospitals - Statewide" tab. Also widening viewport so that tab is visible.
 
   WA:
-    renderSettings:
+    requestSettings:
       maxWait: 180000
     overseerScript: >
       page.manualWait();
@@ -669,7 +669,7 @@ quinary:
     message: hovering over and clicking on deaths for AZ quinary
     
   HI: 
-    renderSettings:
+    requestSettings:
       maxWait: 90000
     overseerScript: >
       page.manualWait(); 
