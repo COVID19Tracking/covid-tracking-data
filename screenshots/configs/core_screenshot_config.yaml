@@ -687,6 +687,20 @@ quinary:
       await page.waitForDelay(15000);
       page.done();
     message: hovering over and clicking on deaths for AZ quinary
+
+  CO:
+    renderSettings:
+      viewport:
+        width: 2000
+    overseerScript: >
+      await page.waitForSelector("a.ckeditor-accordion-toggler");
+      await page.evaluate(() => { document.evaluate("//a[contains(text(),'Hospital')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("a[ctpclickhere]");
+      await page.evaluate(() => { document.evaluate("//a[contains(text(),'Case')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere1", "ctpclickhere1"); });
+      page.click("a[ctpclickhere1]");
+      page.done();
+    message: clicking on hospital data summary for CO quinary
+
     
   HI: 
     requestSettings:
