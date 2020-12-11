@@ -699,7 +699,7 @@ quinary:
       await page.evaluate(() => { document.evaluate("//a[contains(text(),'Case')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere1", "ctpclickhere1"); });
       page.click("a[ctpclickhere1]");
       page.done();
-    message: clicking on hospital data summary for CO quinary
+    message: clicking on case and hospital data summary toggles for CO quinary
 
     
   HI: 
