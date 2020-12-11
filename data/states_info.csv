@@ -155,6 +155,8 @@ FL,"Florida combines PCR and antigen tests in the total tests figure reported on
 
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.
 
+On December 10, 2020,  we cleared **Deaths (confirmed)** from August 12 onward and are reprorting them as **Deaths (confirmed and probable)**. On August 11, Florida added antigen tests to its data definition for deaths, which were previously PCR only.
+
 On November 26, 2020, Florida did not update their data, presumably due to the Thanksgiving holiday.
 
 On November 3, 2020, Florida’s **Positive PCR Tests (specimens)** dropped by over 200 with no explanation.
