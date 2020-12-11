@@ -74,9 +74,8 @@ primary:
   NE:
     renderSettings:
       viewport:
-        width: 1400
-        height: 5000
-    message: using viewport height 5000 for NE
+        width: 2000
+    message: using viewport width 2000 for NE
     
   NY:
     renderSettings:
