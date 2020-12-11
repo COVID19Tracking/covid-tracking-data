@@ -115,8 +115,8 @@ primary:
     message: waiting 30 sec to load SC
 
   SD:
-    overseerScript: page.manualWait(); await page.waitForDelay(60000); page.done();
-    message: waiting 60 sec to load SD
+    overseerScript: page.manualWait(); await page.waitForDelay(90000); page.done();
+    message: waiting 90 sec to load SD
 
   TX:
     overseerScript: page.manualWait(); await page.waitForDelay(30000); page.done();
