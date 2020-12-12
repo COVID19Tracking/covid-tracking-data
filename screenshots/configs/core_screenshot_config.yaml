@@ -296,6 +296,13 @@ secondary:
       page.done();
     message: custom click logic for PA secondary dashboard
 
+  PR:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(30000);
+      page.done();
+    message: wait 30 seconds to load PR secondary
+
   TN:
     file: pdf
     message: downloading PDF for TN secondary
