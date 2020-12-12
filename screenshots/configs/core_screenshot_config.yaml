@@ -77,7 +77,17 @@ primary:
         width: 1400
         height: 5000
     message: using viewport height 5000 for NE
-    
+
+  NJ:
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(30000);
+      await page.waitForSelector("button#overlay-close");
+      page.click("button#overlay-close");
+      await page.waitForDelay(30000);
+      page.done();
+    message: close the overlay
+
   NY:
     renderSettings:
       viewport:
