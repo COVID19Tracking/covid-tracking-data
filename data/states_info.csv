@@ -22,6 +22,10 @@ AL,"Alabama combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
 
+On December 12, 2020, Alabama announced that they processed a backlog of 398 positive antigen tests from July 7, 2020 through December 9, 2020.  These positive tests will be reported in Alabama’s Probable Cases and Cases (confirmed + probable) on December 12, 2020.
+
+On December 12, 2020, Alabama did not update their testing data by the time of our daily update. As a result, we were unable to update Total antibody tests (people), Total PCR tests (people), and Negative PCR tests (people), which is calculated from Total PCR tests (people) minus Positive PCR tests (people) on December 12, 2020.
+
 On December 9, 2020, Alabama processed a backlog of positive PCR and antigen test results from October 5, 2020 through December 7, 2020. This backlog makes up roughly 10% of Cases (confirmed + probable) reported on December 10, 2020.
 
 On December 3, 2020, Alabama announced that: ""The Alabama Department of Public Health processed two backlogs totaling 1038 positive PCR results and 473 positive antigen results from two facilities on December 7. These will be classified as 1038 confirmed cases and 473 probable cases reported on 12/08/20 even though the tests were performed during November 30 through December 5, 2020.""
@@ -631,6 +635,8 @@ TN,"Negative test results reported in our API and CSVs are calculated by subtrac
 
 Tennessee continually updates its **Currently hospitalized / Now hospitalized** data which can cause differences between their historic data and ours.
 
+On December 12, 2020, Tennessee [announced](https://twitter.com/tndeptofhealth/status/1337869853621964805?s=21) via the official Tennessee Department of Heath twitter that the data for December 12, 2020 is incomplete and does not include all negative test results. Please exercise caution when looking at data from this time period and be aware that 7 day averages may be a more reliable metric than individual figures at this moment.
+
 As of July 3, 2020, **Now hospitalized** data includes both positive and pending cases. We have updated hospitalizations for March 31–July 3 to include both positive and pending cases as well.
 
 As of June 10, 2020, **Cases** include both confirmed and probable cases of COVID-19 reported to or tested by the Tennessee Department of Health. 
@@ -639,6 +645,8 @@ On April 5, 2020, Tennessee reported a decline in **Recoveries**. ",https://www.
 TX,"The Texas Department of State Health Services regularly includes older cases identified by labs in their cumulative confirmed case counts. As a result, new cases reported may not necessarily have occurred in the past 24 hour period. When these increases are significant, we will specifically mention them in our daily update on twitter.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+
+On December 11, 2020, Texas added probable cases to their dashboard, and provided a timeseries of **Probable cases** going back to November 1 2020. On December 12,2020, we backfilled the **Probable cases** and ajusted  *Cases (confirmed plus probable)** based on the data provided by Texas. We also backfilled **Positive antibody tests (specimens)**,  Neagtive antibody tests (specimens), **Total antigen tests (specimens)** and **Total antibody tests (specimens)** from the data provided by Texas at the same time.
 
 On November 16, 2020, Texas announced that due to technical difficulties testing data would not be updated. In addition, the “DSHS will be unable to separate laboratory data for Nov. 15 and Nov. 16 for the following indicators: total tests reported…“. As a result, testing data for November 17, 2020 will include tests reported on November 15, 2020 and November 16, 2020.
 
