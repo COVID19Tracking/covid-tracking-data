@@ -761,6 +761,19 @@ quinary:
       page.done();
     message: clicking probable cases in dropdown
 
+  NE:
+    renderSettings:
+      viewport:
+        width: 2000
+    overseerScript: >
+      page.manualWait();
+      await page.waitForDelay(20000);
+      await page.evaluate(() => { document.evaluate("//div[text()='Recoveries']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.setAttribute("ctpclickhere", "ctpclickhere"); });
+      page.click("div[ctpclickhere]");
+      await page.waitForDelay(20000);
+      page.done();
+    message: clicking on "Recoveries" for NE quinary
+
   NY:
     overseerScript: >
       page.manualWait();
