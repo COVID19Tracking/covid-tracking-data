@@ -42,9 +42,27 @@ const fastcsv = require('fast-csv');
     output["Deaths Staff"] = await dataFromSelector('div[aria-label*="Total number of COVID-19 staff deaths"] svg[aria-label*="Staff"]')
     output["Attack Rate Residents/Patients"] = await dataFromSelector('div[aria-label*="Attack rate"] svg[aria-label*="Residents/Patients"]')
     output["Attack Rate Staff"] = await dataFromSelector('div[aria-label*="Attack rate"] svg[aria-label*="Staff"]')
-    output["Confirmed COVID-19 Cases Residents/Patients"] = await dataFromSelector('div[aria-label*="Confirmed COVID-19 Cases"] rect[aria-label*="Residents/Patients"]')
-    output["Confirmed COVID-19 Cases Staff"] = await dataFromSelector('div[aria-label*="Confirmed COVID-19 Cases"] rect[aria-label*="Staff"]')
-    output["Confirmed COVID-19 Cases Imported"] = await dataFromSelector('div[aria-label*="Confirmed COVID-19 Cases"] rect[aria-label*="Imported"]')
+
+    // we need to hover over each bar in the graph and read the tooltip to get the number of cases
+    const casesTypes = ["Residents/Patients", "Staff", "Imported"]
+    const casesSeries = await page.$$('div[aria-label*="Confirmed COVID-19 Cases"] g.series')
+    for (const [i, series] of casesSeries.entries()) {
+      // if the bar has no height, there's no tooltip, and the value is 0
+      const rect = await series.$('rect')
+      const height = await rect.getAttribute('height')
+      if (height === "0") {
+        output["Confirmed COVID-19 Cases "+casesTypes[i]] = 0
+        continue
+      }
+
+      await series.hover()
+      await page.waitForTimeout(100)
+
+      const tooltipElem = await page.waitForSelector('.tooltip-container')
+      const casesType = await (await tooltipElem.$('.tooltip-row .tooltip-title-cell div')).textContent()
+      const casesCount = await (await tooltipElem.$('.tooltip-row .tooltip-value-cell div')).textContent()
+      output["Confirmed COVID-19 Cases "+casesType] = casesCount
+    }
 
     return output
   }
@@ -62,6 +80,9 @@ const fastcsv = require('fast-csv');
 
     // click the facility type
     await page.click(`div.row div.slicerItemContainer[aria-label*='${facilityType}']`)
+
+    // click somewhere else to close the facility type
+    await page.click('div[aria-label*="Confirmed COVID-19 Cases"]')
 
     // Click facility name .dropdown-chevron
     await page.click('div[aria-label*="Facility Name"] .dropdown-chevron')
@@ -100,8 +121,8 @@ const fastcsv = require('fast-csv');
       // iterate over each facility and collect the data
       for (const rowElem of rows) {
         // get the facility name and see if we need to process it
-        const facilityName = await rowElem.evaluate(elem => elem.getAttribute('aria-label'))
-        if (facilityName === "Select all") continue // skip this one
+        let facilityName = await rowElem.evaluate(elem => elem.getAttribute('aria-label'))
+        if (facilityName === "Select all") facilityName = facilityName + "-" + facilityType
         if (allOutput[facilityName] !== undefined) continue // already did this one
 
         // collect all the facility data
