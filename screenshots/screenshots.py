@@ -53,6 +53,10 @@ class Screenshotter():
 
         # if we need to just download the file, don't use phantomjscloud
         if state_config and state_config.get('file'):
+            if self.dry_run:
+                logger.warning(f'Dry run: Downloading file from {data_url}')
+                return
+
             logger.info(f"Downloading file from {data_url}")
             response = requests.get(data_url)
             if response.status_code == 200:
