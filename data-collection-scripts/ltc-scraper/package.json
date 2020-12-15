@@ -10,7 +10,7 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "fast-csv": "^4.3.5",
+    "fast-csv": "^4.3.6",
     "playwright": "^1.6.2"
   }
 }
