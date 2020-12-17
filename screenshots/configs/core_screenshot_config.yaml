@@ -368,7 +368,7 @@ tertiary:
       await page.waitForSelector("span.ember-view.tab-title:nth-of-type(2)");
       page.click("span.ember-view.tab-title:nth-of-type(2)");
       await page.waitForDelay(10000);
-      page.done()
+      page.done();
     message: clicking on 'Hospitalization' tab for HI tertiary
 
   ID:
@@ -558,7 +558,7 @@ quaternary:
       await page.waitForSelector("span.ember-view.tab-title:nth-of-type(3)");
       page.click("span.ember-view.tab-title:nth-of-type(3)");
       await page.waitForDelay(10000);
-      page.done()
+      page.done();
     message: clicking on 'ICU Beds and Ventilators' tab for HI quaternary
 
   IA:
