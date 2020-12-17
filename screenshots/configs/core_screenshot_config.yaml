@@ -11,7 +11,7 @@ primary:
       page.manualWait();
       await page.waitForDelay(10000);
       page.mouse.click(615, 1100);
-      await page.waitForDelay(20000);
+      await page.waitForDelay(30000);
       page.done();
     message: clicking on cases for AZ primary
  
@@ -717,7 +717,7 @@ quinary:
       page.manualWait();
       await page.waitForDelay(10000);
       page.mouse.click(880, 1100);
-      await page.waitForDelay(20000);
+      await page.waitForDelay(30000);
       page.done();
     message: clicking on deaths for AZ quinary
 
