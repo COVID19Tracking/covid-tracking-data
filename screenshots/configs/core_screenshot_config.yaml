@@ -47,6 +47,7 @@ primary:
         height: 13000
     overseerScript: >
       page.manualWait();
+      await page.waitForDelay(30000);
       await page.waitForSelector("#prefix-dismissButton");
       page.click("#prefix-dismissButton"); 
       await page.waitForFunction(()=>document.querySelector("#main-content").textContent!=="");
