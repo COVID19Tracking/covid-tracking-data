@@ -203,15 +203,8 @@ secondary:
     message: click for DE Total Tests
 
   FL:
-    overseerScript: >
-      page.manualWait(); 
-      await page.waitForSelector("body.modal-open");
-      await page.waitForDelay(1000); 
-      await page.keyboard.press("Escape");
-      await page.waitForSelector("body:not(.modal-open)");
-      await page.waitForDelay(1000); 
-      page.done();
-    message: clear the 'get your flu shot' pop-up from FL's "what you need to know" page
+    file: pdf
+    message: downloading PDF for FL secondary
 
   IA:
     overseerScript: >
