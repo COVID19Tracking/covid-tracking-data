@@ -577,6 +577,8 @@ Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. 
 OR,"As of December 9, 2020, Oregon’s total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. This change will cause Oregon’s `totalTestResults` to begin on March 29, 2020 instead of March 4, 2020. Because Oregon’s totalTestsViral represent only electronic laboratory reporting, whereas its cases and negatives represented tests from all sources, this change causes a decrease of 10,296 tests in `totalTestResults` on March 29. The old numbers remain available by summing the positive and negative fields of our API.
 In addition, Oregon has not reported their total tests in people units since December 2, 2020 and they indicated that they will not continue to report total tests in people, so we have removed any values in **Total PCR tests (people)** we previously carried over.
 
+On December 16, 2020, Oregon did not update its data before our daily publication time.
+
 On December 3, 2020, Oregon removed its total people tested metric, after adding total specimens on December 1. Because they did not provide a full timeseries of specimens, as of December 4, we switched our totalTestResults and  **Negative (people or cases)** from people to specimens on December 2, 2020. This causes an artificial increase of totalTestResults by 960,248 on that day. 
 
 On December 1, 2020, **Negative (people or cases)** decreased by 3,258 from 968,686 to 965,428. Oregon did not post an explanation. Since `totalTestResults` are computed positive+negative in the state, this caused `totalTestResults` to drop by 2,035.
