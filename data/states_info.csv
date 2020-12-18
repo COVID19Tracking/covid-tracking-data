@@ -754,7 +754,7 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
-On December 16, 2020, Washington added all probable cases reported since June, 2020 to their data for December 16, 2020. Because Washington’s data is on a one day lag in our timeseries, this affects our data for December 17, 2020.
+On December 16, 2020, Washington added all probable cases reported since June, 2020 to their data for December 16, 2020. Because Washington’s data is on a one day lag in our data, this affects our data for December 17, 2020. On December 17, 2020, we included probable deaths and hospitalizations in our data, but excluded probable cases while we look for a timeseries of this metric.
 
 From November 21, 2020 through today, Washington is experiencing a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures at this moment.
 
