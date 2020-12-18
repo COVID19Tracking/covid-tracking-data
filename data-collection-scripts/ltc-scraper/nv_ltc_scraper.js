@@ -36,8 +36,6 @@ const fastcsv = require('fast-csv');
     output["County"] = countyString.match(/Facility County (.*?)\./)[1]
 
     output["Unique Confirmed Cases"] = await dataFromSelector('svg[aria-label*="Unique Confirmed Cases"]')
-    output["Recovered Residents/Patients"] = await dataFromSelector('div[aria-label*="Total number of recovered"] svg[aria-label*="Residents/Patients"]')
-    output["Recovered Staff"] = await dataFromSelector('div[aria-label*="Total number of recovered"] svg[aria-label*="Staff"]')
     output["Deaths Residents/Patients"] = await dataFromSelector('div[aria-label*="Total number of COVID-19 resident deaths"] svg[aria-label*="Residents/Patients"]')
     output["Deaths Staff"] = await dataFromSelector('div[aria-label*="Total number of COVID-19 staff deaths"] svg[aria-label*="Staff"]')
     output["Attack Rate Residents/Patients"] = await dataFromSelector('div[aria-label*="Attack rate"] svg[aria-label*="Residents/Patients"]')
@@ -86,6 +84,7 @@ const fastcsv = require('fast-csv');
 
     // Click facility name .dropdown-chevron
     await page.click('div[aria-label*="Facility Name"] .dropdown-chevron')
+    await page.waitForTimeout(1000)
 
     // add an event listener to the page to—sigh yes I know this is dumb just work with me here—output a
     // console log when the powerbi dashboard emits its own rendered event
