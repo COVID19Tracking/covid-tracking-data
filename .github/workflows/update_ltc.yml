@@ -1,6 +1,9 @@
 name: Scrape LTC
 
 on:
+  repository_dispatch:
+    types:
+      - ltc
   schedule:
     - cron: '45 22 * * *'
 
