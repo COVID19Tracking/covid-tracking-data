@@ -1,32 +1,32 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 AK,"Alaska combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive** from **Total PCR tests (specimens)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On November 17, 2020, Alaska [announced](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. As a result, Alaska’s Recovered will no longer be updated.
+On November 17, 2020, Alaska [announced](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. As a result, Alaska’s **Recovered** will no longer be updated.
 
-On November 16, 2020 we updated the **Positive** field to include only residents. We also deleted the time series for **Positive Cases (PCR)** because Alaska is lumping PCR and antigen testing for their case definition.
+On November 16, 2020 we updated the **Total cases** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
 
 On November 16, 2020 we added **Cumulative Hospitalized** (which includes both residents and non-residents), although the value does not reflect current hospitalizations.
 
 On November 7, 2020, Alaska announced that their testing dashboard would be ""temporarily disabled from November 6th to November 9th"" and that testing data could be accessed through their [data summary tables](https://coronavirus-response-alaska-dhss.hub.arcgis.com). After originally using the data summary tables on November 7, we have reversed that decision, and reverted the values to their November 6th state. The frozen values were replaced on November 10, with values from the state's [Tests Dataset](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/tests-dataset). 
 
-On November 6, 2020, Alaska’s Total PCR tests (specimens) and Positive PCR tests (specimens) decreased without explanation. As a result, Negative PCR tests (people), which is calculated by subtracting Positive PCR tests (people) from Total PCR tests (specimens), decreased as well.
+On November 6, 2020, Alaska’s **Total PCR tests (specimens)** and **Positive PCR tests (specimens)** decreased without explanation. As a result, `Negative`, which is calculated by subtracting **Total cases** from **Total PCR tests (specimens)**, decreased as well.
 
-On November 5, 2020, Alaska’s Total PCR tests (specimens) increased from roughly 628k to 782k. We were unable to find an explanation for the increase.
+On November 5, 2020, Alaska’s **Total PCR tests (specimens)** increased from roughly 628k to 782k. We were unable to find an explanation for the increase.
 
 As of September 18, 2020, Alaska's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
 ",http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/monitoring.aspx,https://experience.arcgis.com/experience/ed1c874ca60b4c15ab09095a070065ca,https://alaska-dhss.maps.arcgis.com/apps/opsdashboard/index.html#/8782a14ef52342e99f866a3b8a3e624a,https://services1.arcgis.com/WzFsmainVTuD5KML/arcgis/rest/services/Tests_Dataset/FeatureServer/0/query?where=Test_Result+%3D+%27Negative%27&outStatistics=%5B%7B%27statisticType%27%3A+%27count%27%2C+%27onStatisticField%27%3A+%27FID%27%2C+%27outStatisticFieldName%27%3A+%27tests_negative%27%7D%5D,https://services1.arcgis.com/WzFsmainVTuD5KML/arcgis/rest/services/Tests_Dataset/FeatureServer/0/query?where=Test_Result+%3D+%27Positive%27&outStatistics=%5B%7B%27statisticType%27%3A+%27count%27%2C+%27onStatisticField%27%3A+%27FID%27%2C+%27outStatisticFieldName%27%3A+%27tests_positive%27%7D%5D,@Alaska_DHSS,http://dhss.alaska.gov/dph/Epi/id/Pages/COVID-19/default.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Alaska,02
 AL,"Alabama combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On December 15, 2020, Alabama announced that a backlog of 59 positive PCR tests and 479 positive antigen tests from September 29, 2020 through December 14, 2020 would be included in their data for December 15, 2020.
 
 On December 12, 2020, Alabama announced that they processed a backlog of 398 positive antigen tests from July 7, 2020 through December 9, 2020.  These positive tests will be reported in Alabama’s Probable Cases and Cases (confirmed + probable) on December 12, 2020.
 
-On December 12, 2020 through December 13, 2020, Alabama did not update their testing data by the time of our daily update. As a result, we were unable to update Total antibody tests (people), Total PCR tests (people), and Negative PCR tests (people), which is calculated from Total PCR tests (people) minus Positive PCR tests (people).
+On December 12, 2020 through December 13, 2020, Alabama did not update their testing data by the time of our daily update. As a result, we were unable to update Total antibody tests (people), Total PCR tests (people), and Negative PCR tests (people), which is calculated from Total PCR tests (people) minus Confirmed cases.
 
 On December 9, 2020, Alabama processed a backlog of positive PCR and antigen test results from October 5, 2020 through December 7, 2020. This backlog makes up roughly 10% of Cases (confirmed + probable) reported on December 10, 2020.
 
@@ -38,19 +38,17 @@ On December 2, 2020, Alabama announced that a backlog of 706 positive PCR tests 
 
 On December 1, 2020, Alabama [announced](https://twitter.com/alpublichealth/status/1333790272648409093?s=21) that increased new case and death counts are due to delayed data from Thanksgiving.
 
-On November 25, 2020, Alabama announced that the Alabama Department of Public Health Infection Disease and Outbreak team reviewed their electronic disease surveillance system and “updated some parameters”. As a result, Recovered increased by roughly 71k on November 25, 2020.
+On November 25, 2020, Alabama announced that the Alabama Department of Public Health Infection Disease and Outbreak team reviewed their electronic disease surveillance system and “updated some parameters”. As a result, **Recovered** increased by roughly 71k on November 25, 2020.
 
-On November 14, 2020, Alabama announced that a backlog of 109 positive antigen results would be reported as probable cases on November 14, 2020. As a result, new probable cases reported on November 14, 2020 were not all reported in the previous 24 hour period.
+On November 14, 2020, Alabama announced that a backlog of 109 positive antigen results would be reported as probable cases on November 14, 2020. As a result, new **Probable cases** reported on November 14, 2020 were not all reported in the previous 24 hour period.
 
 On November 11, 2020, Alabama announced via their [dashboard](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7) that they have begun a review process for deaths from the Alabama Center for Health Statistics (ACHS). According to Alabama, at least half of the **Deaths (confirmed and probable)** reported today (81 in total) are from this review. More deaths may be added from this review in the coming days.
 
-On November 10, 2020 Alabama’s Total PCR tests (specimens) decreased by roughly 700 without explanation.
+On November 10, 2020 Alabama’s **Total PCR tests (specimens)** decreased by roughly 700 without explanation.
 
 On October 21, 2020, Alabama did not update their COVID-19 dashboard due to ""technical issues"".
 
 On September 1, 2020, Alabama began displaying the number of people tested by antibody, over 50,000 individuals, separately from its main total tested field, which it clarified represents antigen and PCR testing. Its main total tested number dropped by over 25,000 the same day. We have reached out to the Alabama Department of Public Health to confirm this drop was due to the removal of the individuals tested by antibody.
-
-On July 15, 2020, we changed our data reporting to reflect that Alabama reports test totals in specimens rather than unique people tested, as we had initially believed. All test results were moved into the correct API field and metric.
 
 On July 11, 2020, Alabama began using direct reports from hospitals for cumulative hospitalizations (which we report in our **Ever hospitalized** metric), rather than state case surveillance. Its number of cumulative hospitalizations increased by over 3,000 as a result. ",https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7,https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7,https://services7.arcgis.com/4RQmZZ0yaZkGR1zy/arcgis/rest/services/HospitalizedPatientTemporal_READ_ONLY/FeatureServer/1/query?where=1%3D1&orderbyfields=DateTxt+desc&outFields=%2A&resultRecordCount=1,,,@alpublichealth,http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html,People,totalTestsPeopleViral,Total PCR Tests (People),No data,false,Alabama,01
 AR,"Arkansas reports a category of “non-COVID deaths,” representing individuals who died with COVID positive but of causes unrelated to COVID. We do not count these individuals in our deaths metric, consistent with our policy of tracking only individuals with COVID as a cause of death where possible.
@@ -61,9 +59,9 @@ During the week of September 20, 2020, Arkansas made some continual adjustments 
 
 As of September 18, 2020, Arkansas's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The totals do not include repeat positives—counting individuals only for their first positive—but do count repeat negative tests.
 
-On September 16, 2020, Arkansas’s **Negative Tests (PCR)** dropped by 26,801 tests, causing its **Total Tests (PCR)** to drop by 26,195 tests due to the reversal of a data dump of negative test results that Arkansas reversed. It also added 140 probable deaths, not all of which dated to September 16.
+On September 16, 2020, Arkansas’s **Negative Tests (PCR)** dropped by 26,801 tests, causing its **Total Tests (PCR)** to drop by 26,195 tests due to the reversal of a data dump of negative test results. It also added 140 **Probable deaths**, not all of which dated to September 16.
 
-On September 3, 2020, Arkansas began reporting probable cases according to the most recent CSTE definitions, in addition to confirmed cases. This added 423 new cases to AR’s **Total cases** number.
+On September 3, 2020, Arkansas began reporting **Probable cases** according to the most recent CSTE definitions, in addition to confirmed cases. This added 423 new cases to AR’s **Total cases** number.
 
 On Aug 15, 2020, Arkansas data changed due to deduplication and the state's removal of out-of-state cases from its dataset. These changes resulted in reductions in **Total cases**, **Ever hospitalized**, and **Ever in ICU** data.",https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,https://experience.arcgis.com/experience/c2ef4a4fcbe5458fbf2e48a21e4fece9,https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/fd6874664d404993814de4d5a65d5cfd,https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/fd6874664d404993814de4d5a65d5cfd,https://adem.maps.arcgis.com/apps/opsdashboard/index.html#/fd6874664d404993814de4d5a65d5cfd,@adhpio,https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Arkansas,05
 AS,"American Samoa does not have a regularly updated data source. We monitor their social media, emergency declarations, and local media for updates.
@@ -75,7 +73,7 @@ Arizona regularly reviews and removes duplicate records which may occasionally r
 
 The **Recovered** data point we report for Arizona reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 As of December 10, 2020, Arizona's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. We backfilled the data for March 2 2020 through December 8 2020 using the time-series posted on Arizona's dashboard as [Diagnostic Tests Conducted](https://tableau.azdhs.gov/views/ELRv2testlevelandpeopletested/TestsConducted?:isGuestRedirectFromVizportal=y&:embed=y). 
 
@@ -90,9 +88,9 @@ On September 16, 2020, Arizona added antigen testing into its main totals figure
 From July 18–August 5, 2020, Arizona’s dashboard stopped displaying confirmed and probable breakdowns for **Cases** and **Deaths**, so we could not update **Confirmed Cases,** **Probable Cases,** **Confirmed Deaths,** or **Probable Deaths** during this period. We were still able to update the total data points for **Cases (confirmed plus probable)** and **Deaths (confirmed plus probable)**. We will backfill the separate confirmed and probable case and death data if Arizona provides historical numbers.
 
 On June 23, 2020, we updated our historical data for **Cumulative hospitalized** to match Arizona's dashboard data for ""hospitalized by date admitted."" Data for this metric is not typically reported until several days after admittance. Our daily updates will continue to compile Arizona’s overall number as of cumulative hospitalizations, regardless of date admitted.",https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,https://tableau.azdhs.gov/views/Hospitalization/HospitalizedCOVID-19Cases?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=3,https://tableau.azdhs.gov/views/ExternalEMResourceCOVIDSpecificDashboard/InpatientCOVID-19?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Ftableau.azdhs.gov%2F&:embed_code_version=3&:tabs=yes&:toolbar=no&:showAppBanner=false&:display_spinner=no&iframeSizedToWindow=true&:loadOrderID=4,https://tableau.azdhs.gov/views/ExternalEMResourceCOVIDSpecificDashboard/VentilatorsinUseCOVID-19?%3Aembed=y&%3AshowVizHome=no&%3Ahost_url=https%3A%2F%2Ftableau.azdhs.gov%2F&%3Aembed_code_version=3&%3Atabs=yes&%3Atoolbar=no&%3AshowAppBanner=false&%3Adisplay_spinner=no&iframeSizedToWindow=true&%3AloadOrderID=1,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,@azdhs,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/covid-19/dashboards/index.php,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Arizona,04
-CA,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+CA,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On December 16, 2020, California [announced](https://www.cdph.ca.gov/Programs/OPA/Pages/NR20-338.aspx) that their cases for December 16, 2020 include 15,337 cases from previous days due to a change in case processing. It appears this new process will regularly . As a result, not all new cases reported on December 16, 2020 were identified within the previous 24 hour period.
+On December 16, 2020, California [announced](https://www.cdph.ca.gov/Programs/OPA/Pages/NR20-338.aspx) that their cases for December 16, 2020 include 15,337 cases from previous days due to a change in case processing. It appears this new process will regularly include a higher volume of cases that were not identified within the previous 24 hours.
 
 As of September 18, 2020, California's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.
 
@@ -109,22 +107,21 @@ On April 4 and April 22, 2020, California reported large batches of backlogged *
 Prior to April 1, 2020, we used county data sources for more reliably timely reporting of California's COVID-19 data. At the start of April, we began reporting primarily from the state data dashboard(s). This led to a modest drop in **cases** and **deaths**, as the state's data lags behind the county sources.",https://update.covid19.ca.gov,https://public.tableau.com/views/COVID-19CasesDashboard_15931020425010/Cases?:embed=y&:showVizHome=no,https://public.tableau.com/views/COVID-19HospitalsDashboard/Hospitals?:embed=y&:showVizHome=no,,,@CAPublicHealth,https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,California,06
 CO,"The **Recovered** data point we report for Colorado reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
+
 As of December 11, 2020, we are switching our deaths source for Colorado from deaths due to COVID to deaths among cases because of a processing lag. On September 1, 2020, there was only a 97 difference between the two figures: 1946 deaths among cases, vs. 1849 deaths due to COVID. On December 11, 2020, there is now a 759 difference—3759 deaths among cases, as opposed to 3005 deaths due to COVID. This means 20% of deaths among cases do not have death certificate data, vs. 5% in September, indicating a lag. Previously, on July 1, 2020, we had revised our historical data to reflect the death-certificate metric instead of the deaths-among-cases metric to comply with federal standards from the National Center for Health Statistics.
 
-We are also capturing a confirmed/probable breakdown from May 15, 2020 onward, which we did not used to capture since it was not provided for due to COVID
+We are also capturing a confirmed/probable breakdown from May 15, 2020 onward, which we did not used to capture since it was not provided for due to COVID.
+
 On November 18, 2020, we shifted the entire time series of Colorado metrics by one day to match the date that the state reports on its dashboard. 
 
-On November 13, 2020, the state of Colorado reported an increase in **Positive PCR tests (people)** that is less than that of the increase in **Positive PCR Tests (people)**. This resulted in a large decrease in **Negative (People or Cases)** metric due to our calculations. For now we are holding this metric, **Negative PCR Tests (People)**, constant until further notice
-
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
-
-As of August 13, 2020, Colorado's **total test results** reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
+On November 13, 2020, the state of Colorado reported an increase in **Confirmed cases** that is less than that of the increase in **Positive PCR Tests (people)**. This resulted in a large decrease in **Negative (People or Cases)** metric due to our calculations. For now we are holding this metric, **Negative (People or Cases)**, constant until further noticeAs of August 13, 2020, Colorado's **total test results** reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
 On July 27, 2020, Colorado posted a notice that, ""Due to a server issue yesterday and today with our electronic laboratory reporting system, the number of tests completed and cases reported today, July 27, 2020, may be artificially low."" We report Colorado data a day after posting due to timing, so this note applies to the data published on July 28.
 
 On June 14, 2020, Colorado revised previous ""daily discharged"" numbers. This caused an overall decline in their **Recovered** data.
 ",https://public.tableau.com/views/Colorado_COVID19_Data/CO_Hospital?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/Colorado_COVID19_Data/CO_Case_Summary?%3Aembed=y&%3AshowVizHome=no,https://services3.arcgis.com/66aUo8zsujfVXRIT/arcgis/rest/services/colorado_covid19_laboratory_positivity_data/FeatureServer/0/query?where=Metric%3D%27Number+of+positive+tests%27+AND+Desc_+LIKE+%27Daily+COVID-19+Antibody%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27max%27%2C+%27onStatisticField%27%3A+%27Attr_Date%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27antibody_pos%27%7D%5D,https://services3.arcgis.com/66aUo8zsujfVXRIT/arcgis/rest/services/colorado_covid19_laboratory_positivity_data/FeatureServer/0/query?where=Metric%3D%27Number+of+negative+tests%27+AND+Desc_+LIKE+%27Daily+COVID-19+Antibody%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27max%27%2C+%27onStatisticField%27%3A+%27Attr_Date%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27antibody_neg%27%7D%5D,https://covid19.colorado.gov/data,@cdphe,https://www.colorado.gov/pacific/cdphe/2019-novel-coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Positives + Negatives,false,Colorado,08
-CT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+CT,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 The **Recovered** data point we report for Connecticut reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Connecticut stopped reporting hospital discharges on October 22, 2020: we are carrying over the last known value of 9800 until we can obtain new data.
 
@@ -141,7 +138,7 @@ On June 18, 2020, Connecticut corrected some errors in its data, resulting in a 
 On May 29, 2020, Connecticut hospitalization data changed due to reporting laboratory-confirmed cases only. These changes resulted in a decrease in the numbers for **Ever hospitalized** and **Recovered** (which can be found in our API and CSVs). 
 
 On May 27, 2020, Connecticut deduplicated some of its data, resulting in a decrease in **Cases** and **Total PCR tests (specimens)**.",https://data.ct.gov/coronavirus,https://data.ct.gov/stories/s/q5as-kyim,https://data.ct.gov/api/id/rf3k-f8fg.json?%24query=select+%2A+order+by+date+desc+limit+1,,,@ctdph,https://portal.ct.gov/Coronavirus,Specimens,posNeg,posNeg,All data,false,Connecticut,09
-DC,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (specimens)** in the absence of better data.
+DC,"Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 As of September 18, 2020, District of Columbia's total test results are drawn from our total`TestEncountersViral` field instead of calculated via positive+negative.
 
@@ -150,7 +147,7 @@ As of August 29, 2020, we store the “total overall tested” timeseries in our
 On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.",https://coronavirus.dc.gov/page/coronavirus-surveillance-data,https://coronavirus.dc.gov/page/hospital-status-data,https://microstrategy.dc.gov/MicroStrategyLibrary/app/E52A533B11EA01A28FE80080EFC53DA4/30FE682111EA6FB5A6620080EF357B1F/WEF49494DFBDE44548AFB2A631C5233CC--K46,,,@_DCHealth,https://coronavirus.dc.gov/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,District of Columbia,11
 DE,"On December 18, 2020, Delaware announced that due to laboratory reporting delays, the number of cases reported for December 17, 2020 is lower than previous days, and the number of cases reported for December 18, 2020 would be higher than previous days to make up for it. Because Delaware reports their data as of the previous day, this affects our data for December 18, 2020 and December 19, 2020.
 
-On December 7, 2020, Delaware announced that they would no longer be reporting Recovered as it was “no longer a true reflection of the number of persons that recovered from the disease” because this metric included only cases who had self-reported their recovery to the Division of Public Health.
+On December 7, 2020, Delaware announced that they would no longer be reporting **Recovered** as it was “no longer a true reflection of the number of persons that recovered from the disease” because this metric included only cases who had self-reported their recovery to the Division of Public Health.
 
 On October 29, 2020, we moved the data in our **Total Tests (PCR)** field for Delaware to the **Total Test Encounters (PCR)** field after learning that it represents encounters from Delaware's state health department. However, Delaware appears to include antigen tests in its totals, so if an individual is tested using two different test types on the same day, it will get counted twice. Also as of October 29, 2020, Delaware's `totalTestResults` field represents encounters. The number of unique people ever tested remains available in the `totalTestsPeopleViral` field.  
 
@@ -185,7 +182,7 @@ On October 10, 2020, Florida did not report COVID-19 data. The state initially r
 
 On September 1, 2020, the Florida Department of Health [announced](http://www.floridahealth.gov/newsroom/2020/09/090120-1112-covid19.pr.html) that Quest Diagnostics had reported nearly 75,000 backlogged tests dating as far back as April.
 
-On August 14, 2020, Florida began distinguishing between people with positive antigen tests and people with positive PCR tests in the Total Cases number given in their daily state report. As of September 30, 2020, we have removed these antigen positives from the values for **Cases or Positive PCR tests (people)** (_positiveCasesViral_ in our API), so the values for this metric in our time series will be lower. **Cases (confirmed plus probable)** (_positive_ in our API) will be unaffected.
+On August 14, 2020, Florida began distinguishing between people with positive antigen tests and people with positive PCR tests in the Total Cases number given in their daily state report. As of September 30, 2020, we have removed these antigen positives from the values for **Cases or Confirmed cases** (`positiveCasesViral` in our API), so the values for this metric in our time series will be lower. **Cases (confirmed plus probable)** (`positive` in our API) will be unaffected.
 
 On August 12, 2020, the Florida Department of Health reported via Twitter that it had received a large backlog of testing data from Niznik Lab Corp in Miami: ""The lab reported over 4,000 cases occurring over the last 7 weeks, but which had not been reported to FDOH until today. Therefore, this backlog severely skews today's daily report for Miami-Dade and is not reflective of current trends.""
 
@@ -194,9 +191,9 @@ As of July 10, 2020, Florida reports **Now hospitalized** data for those patient
 Since May 15, 2020, Florida reports total tests in unique people and in unique people tested per lab. For that latter number, if an individual is tested twice by one lab, they only get counted once, but if an individual gets tested twice at different labs, they get counted twice. We store the former value in **Total PCR Tests (People)**, and the latter value, which does not match any of our totals units, in **Total Tests (PCR)**, our specimens field, where we also store testing data with unclear units. This value does **not** represent the number of specimens.
 
 On March 21, 2020, Florida began including tests of people not investigated as PUIs in its **Negative PCR tests** metric. ",https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,http://ww11.doh.state.fl.us/comm/_partners/covid19_report_archive/total-antibody-results/serology-reports/serology_latest.pdf,https://bi.ahca.myflorida.com/t/ABICC/views/Public/COVIDHospitalizationsCounty?%3AshowAppBanner=false&%3Adisplay_count=n&%3AshowVizHome=n&%3Aorigin=viz_share_link&%3AisGuestRedirectFromVizportal=y&%3Aembed=y,http://ww11.doh.state.fl.us/comm/_partners/covid19_report_archive/cases-monitoring-and-pui-information/state-report/state_reports_latest.pdf,https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/ArcGIS/rest/services/Florida_COVID19_Cases/FeatureServer/0/query?where=countyname%3D%27a+state%27&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=*&returnGeometry=true&returnCentroid=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=html&token=,@HealthyFla,http://www.floridahealth.gov/diseases-and-conditions/COVID-19/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Florida,12
-GA,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data. 
+GA,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data. 
 
-From December 16, 2020 to December 17, 2020 Georgia’s hospital dashboard was down due to a “technical problem” so we were unable to update **Currently hospitalized**.
+On December 18, 2020 Georgia’s hospital dashboard had an increase of 1,069 Patients Under Investigation after being down due to a “technical problem” for two days. This resulted in a large increase in **Currently hospitalized**. If we discover this was an error we will correct our data.”
 
 On November 13, 202 we backfilled the **Total PCR tests (specimens)** time series to include only PCR testing, reported by the state in their data download file. This updates the previously reported series that until May 27, 2020 included both PCR and antibody tests.
 
@@ -208,30 +205,30 @@ As of September 18, 2020, Georgia's total test results are drawn from our `total
 
 As of August 28, 2020, we started reporting patients Now hospitalized from the [Georgia Geospatial Information Office](https://www.arcgis.com/apps/opsdashboard/index.html#/e40c39564f724af7bfe8fd5d88deadb6). The new count includes both patients with a confirmed COVID-19 diagnosis and patients under investigation, as is our standard practice where possible.
 ",https://dph.georgia.gov/covid-19-daily-status-report,https://www.arcgis.com/apps/opsdashboard/index.html#/e40c39564f724af7bfe8fd5d88deadb6,https://augustagis.maps.arcgis.com/apps/opsdashboard/index.html#/4eec20925b6b4f338368df0ffcba472d,,,@GaDPH,https://dph.georgia.gov/novelcoronavirus,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Georgia,13
-GU,"As of November 21, 2020, Guam’s Negative test results reported in our API and CSVs are calculated by subtracting Positive PCR tests (people) from Total PCR tests (specimens) in the absence of better data.
+GU,"As of November 21, 2020, Guam’s Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 Guam's counts include 11 people tested at the San Diego naval base.
 
 As of December 7, 2020, Guam’s Total PCR tests (specimens), Total antigen tests (specimens), Total antibody tests (specimens) will include all specimens reported. Previously they did not include follow up testing for known cases.
 
-On November 21, 2020, we cleared Guam’s Total PCR tests (People) timeseries. Prior to November 21, we had believed that Guam’s negative counts represented people. However after outreach to Guam’s health department, we learned that the negatives represented specimens (while its positives represent cases). This change means Guam’s totalTestResults represent specimens excluding repeat positive results.
+On November 21, 2020, we cleared Guam’s **Total PCR tests (People)** timeseries. Prior to November 21, we had believed that Guam’s negative counts represented people. However after outreach to Guam’s health department, we learned that the negatives represented specimens (while its positives represent cases). This change means Guam’s totalTestResults represent specimens excluding repeat positive results.
 
 On November 18, 2020, Guam [announced](https://ghs.guam.gov/jic-release-no-454-results-112-test-positive-covid-19-two-gdoe-employees-test-positive-covid-19) that “Beginning next week, the Department of Public Health and Social Services (DPHSS) will shift from daily situation reports to weekly reports in order to provide for more comprehensive data analysis. To reflect this, the Joint Information Center (JIC) will report profiles of confirmed cases on a weekly basis only.” As a result, Positive antigen tests (specimens) and Positive antibody tests (specimens) will only be updated once weekly going forward.
 
 On September 3, 2020, Guam reported that it had shifted to using the more restrictive August 5 definition of probable cases released by the CSTE. From March 12, 2020 to September 2, 2020 Guam reported eight probable cases under the previous probable case definition. Due to the change, Guam has no cases that classify as probable cases as of September 3, 2020, and 8 cases have been removed from Guams's total case count.",http://dphss.guam.gov/covid-19/,https://drive.google.com/file/d/1FVW6sNbdgyV5-CYkOorYvOGivkmOED8t/view,https://drive.google.com/file/d/1n-vrUGzEzs7rjcxXBFEbIMmeUQykuyO9/view,,,@guamdphss,https://ghs.guam.gov/coronavirus-covid-19,Specimens,posNeg,posNeg,All Data,false,Guam,66
 HI,"Hawaii’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)** in the absence of better data.
 
-On November 10, 2020, we switched the source for Hawaii’s Currently Hospitalized to the Hawaii Emergency Management Agency’s COVID-19 dashboard. As a result, current hospitalizations decreased by 14.
+On November 10, 2020, we switched the source for Hawaii’s **Currently Hospitalized** to the Hawaii Emergency Management Agency’s COVID-19 dashboard. As a result, current hospitalizations decreased by 14.
 
-As of October 9, 2020, Hawaii’s total test results are drawn from our totalTestEncountersViral field instead of calculated via positive+negative. 
+As of October 9, 2020, Hawaii’s total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative. 
 
-As of October 7th, 2020, Hawaii has stopped reporting the number of unique people tested, which is available in our API as totalTestsPeopleViral. We will carry forward the last value as a lower bound.
+As of October 7th, 2020, Hawaii has stopped reporting the number of unique people tested, which is available in our API as `totalTestsPeopleViral`. We will carry forward the last value as a lower bound.
 
 On September 3, 2020, Hawaii included cases which had been previously diagnosed in their daily update due to an electronic laboratory reporting error."" As a result, new cases reported may not have been diagnosed in the previous 24 hours.
 
-As of August 5, 2020, we are collecting **Now hospitalized**, **Now in ICU**, and **Now on ventilator** data from the Lt. Governor of Hawaii's Instagram account, as we have determined that these are official statistics not available elsewhere. We have backfilled our time series for all available data from this source.",https://health.hawaii.gov/coronavirusdisease2019/,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,https://hiema.maps.arcgis.com/apps/opsdashboard/index.html#/9a19e1adeceb46c58185cb0396faf36b,https://hiema.maps.arcgis.com/apps/opsdashboard/index.html#/9a19e1adeceb46c58185cb0396faf36b,https://hawaiicovid19.com/dashboard/,@HIgov_Health,https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Only positives,false,Hawaii,15
+As of August 5, 2020, we are collecting **Now hospitalized**, **Now in ICU**, and **Now on ventilator** data from the Lt. Governor of Hawaii's Instagram account, as we have determined that these are official statistics not available elsewhere. We have backfilled our time series for all available data from this source. On October 12, 2020, Hawaii made these metrics available on the state dashboard and we have used that source since.",https://health.hawaii.gov/coronavirusdisease2019/,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,https://hiema.maps.arcgis.com/apps/opsdashboard/index.html#/9a19e1adeceb46c58185cb0396faf36b,https://hiema.maps.arcgis.com/apps/opsdashboard/index.html#/9a19e1adeceb46c58185cb0396faf36b,https://hawaiicovid19.com/dashboard/,@HIgov_Health,https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Only positives,false,Hawaii,15
 IA,"On December 13, 2020, Iowa’s Total antigen tests (people) decreased by 77 and their Negative antigen tests (people) decreased by 206 without explanation.
 
 On October 16, 2020, Iowa removed 12,831 tests from the state’s PCR test total. On the same day, 19,308 tests were added to the state’s antigen test total. We were unable to locate an official explanation, but these changes were likely the result of data cleaning and reorganization work.
@@ -239,14 +236,15 @@ On October 16, 2020, Iowa removed 12,831 tests from the state’s PCR test total
 On September 26, 2020, Iowa announced that due to a data update, roughly 27,000 antigen tests from long-term care facilities will be added to their COVID-19 antigen test data. This update will occur from September 26, 2020 to September 27, 2020, and will result in an increased number of antigen test tests reported in our data for Iowa. (Antigen data is available in our CSVs and API.)
 
 As of May 19, 2020, Iowa reports PCR and antibody tests separately.",https://coronavirus.iowa.gov/,https://coronavirus.iowa.gov/pages/case-counts,https://coronavirus.iowa.gov/pages/rmcc-data,https://coronavirus.iowa.gov/pages/serology-testing,,@IAPublicHealth,https://idph.iowa.gov/Emerging-Health-Issues/Novel-Coronavirus,People,posNeg,posNeg,All data,false,Iowa,19
-ID,"Idaho's data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update. As of September 18, 2020, Idaho's total test results are drawn from our `totalTestsPeopleViral` field instead of calculated via positive+negative.
+ID,"Idaho's data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update. 
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)** in the absence of better data. 
-
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)** in the absence of better data. 
 
 On December 9, 2020, Idaho's **Total PCR Tests (People)** dropped from 492,265 from 494,914 with no explanation.
 
-On November 26, 2020, Idaho announced on their [COVID-19 page]( https://coronavirus.idaho.gov) that there would be no update to their data on November 26, 2020. Because Idaho’s data is on a one day lag in our historical data due to consistently updating after we publish our daily update, we will be unable to update their data on November 27, 2020.
+On November 26, 2020, Idaho announced that there would be no update to their data on November 26, 2020. Because Idaho’s data is on a one day lag in our historical data due to consistently updating after we publish our daily update, we will be unable to update their data on November 27, 2020.
+
+As of September 18, 2020, Idaho's total test results are drawn from our `totalTestsPeopleViral` field instead of calculated via positive+negative.
 
 On August 4, 2020, after another period of missing data for **Hospitalized now**, Idaho reported current hospitalizations of 106, down from the previous report of 223 on July 31. It reported a similar drop in ICU patients from 51 on July 31 to 22 on August 4.
 
@@ -261,7 +259,7 @@ On July 3, 2020, Idaho revised down their **Recovered** data by about 1,500, not
 On June 5, 2020, Idaho reported a large batch of previously unreported tests. The state's **Total tests** number rose by approximately 2,500 more tests on June 5 than the seven-day average for new tests at that time.
 
 As of April 9, 2020, Idaho reports **probable and confirmed cases** separately. ",https://coronavirus.idaho.gov/,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Testing?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Demographics?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Hospitalizations?%3Aembed=y&%3Aembed=y&%3AshowVizHome=no&%3AshowVizHome=n&%3Adisplay_count=y&%3Adisplay_static_image=y&%3Alanguage=en&%3AapiID=host0#navType=0&navSrc=Parse,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Deaths?%3Aembed=y&%3Aembed=y&%3AshowVizHome=no&%3AshowVizHome=n&%3Adisplay_count=y&%3Adisplay_static_image=y&%3Alanguage=en&%3AapiID=host0#navType=0&navSrc=Parse,@IDHW,https://coronavirus.idaho.gov/,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,Idaho,16
-IL,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (specimens)** in the absence of better data.
+IL,"Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On November 6, 2020, Illinois [announced](http://www.dph.illinois.gov/news/public-health-officials-announce-10376-new-confirmed-cases-coronavirus-disease) that they ""will report confirmed cases and probable cases combined.” We are carrying over the last available separate **Confirmed** and **Probable Case** values while we reach out to the state to see if these values will be made available elsewhere.
 
@@ -270,35 +268,35 @@ As of October 15, 2020, Illinois combines PCR and antigen tests in the total tes
 On September 4, 2020, Illinois reported over 140,000 new **Total PCR tests (in specimens)** and over 5,000 new **Cases.** According to the [Chicago Tribune](https://www.chicagotribune.com/coronavirus/ct-covid-19-pandemic-chicago-illinois-news-20200904-qun7unon5fhjbfhnsml4edwqia-story.html), ""The Illinois Department of Public Health said Friday there was significant slowdown in the agency's test reporting earlier this week that it is just catching up with."" ",http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,http://www.dph.illinois.gov/covid19/hospitalization-utilization,,,,@IDPH,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,Specimens,posNeg,posNeg,All data,false,Illinois,17
 IN,"Indiana combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people, confirmed + probable)** from **Total PCR tests (people)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (people)** in the absence of better data.
 
-On November 29, 2020, Indiana announced that a historical backlog of roughly 2200 Total PCR tests (people) and about 4000 Total PCR tests (specimens) would be included in their data for November 29, 2020. Negative PCR tests (people), which are calculated as Total PCR tests (people) minus Cases (confirmed + probable) will also be affected. As a result, new tests reported on November 29, 2020 were not all reported in the previous 24 hour period.
+On November 29, 2020, Indiana announced that a historical backlog of roughly 2200 Total PCR tests (people) and about 4000 Total PCR tests (specimens) would be included in their data for November 29, 2020. The `Negative` field in the API will also be affected. As a result, new tests reported on November 29, 2020 were not all reported in the previous 24 hour period.
 
 As of October 16, 2020, Indiana’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative.",https://www.in.gov/isdh/28470.htm,https://www.regenstrief.org/covid-dashboard/,https://hub.mph.in.gov/dataset/covid-19-beds-and-vents/resource/882a7426-886f-48cc-bbe0-a8d14e3012e4/view/05961851-c7ab-4ac7-92bf-fdf9881ecdab,https://hub.mph.in.gov/api/3/action/datastore_search_sql?sql=SELECT+sum%28%22COVID_POSITIVE_TESTS_ADMIN%22%29+as+pos_tests+from+%22afaa225d-ac4e-4e80-9190-f6800c366b58%22,,@statehealthin,https://www.in.gov/isdh/28470.htm,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Indiana,18
 KS,"Kansas combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
-Kansas reports much of its data on Mondays, Wednesdays, and Fridays only, so there are often large changes in the values, which can represent 2-3 days of data.
+Kansas reports most of its data on Mondays, Wednesdays, and Fridays only, so there are often large changes in the values, which can represent 2-3 days of data.
 
 The **Recovered** data point we report for Kansas reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Kansas notes that this metric only includes cases with available discharge information reported to the Kansas Department of Health and Environment.
 
-On December 3, 2020, Kansas’ Currently hospitalized decreased by 342 without explanation. Kansas does not usually update their data on Thursdays.
+On December 3, 2020, Kansas’ **Currently hospitalized** decreased by 342 without explanation. Kansas does not usually update their data on Thursdays.
 
-On November 13, 2020, Kansas announced that there was a ""technical issue with displaying the number of negative tests and people tested"" but that no other metrics were effected. The values for **Total tests (people)** and **Negatives** were carried over, and will be updated if they become available.
+On November 13, 2020, Kansas announced that there was a ""technical issue with displaying the number of negative tests and people tested"" but that no other metrics were effected. The values for **Total tests (people)**, and the `Negative` field in the API, were carried over and will be updated if they become available.
 
-On November 12, 2020, Kansas’s Total PCR tests (people) and Negative PCR tests (people) decreased without explanation.
+On November 12, 2020, Kansas’s **Total tests (people)** and `Negative` decreased without explanation.
 
-On October 21, 2020, the **inIcuCurrently** value for KS dropped from 81 to 1 on the state's dashboard. We recorded it, but expect it to be revised at another point. 
+On October 21, 2020, the **Currently in Icu** value for KS dropped from 81 to 1 on the state's dashboard. We recorded it, but expect it to be revised at another point. 
 
 On July 15, 2020, Kansas began reporting additional data from hospitals, and at that time, data for the **Now hospitalized** metric was only available through July 10.
 
-From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or Positive PCR tests (people)**. We have corrected the error.
+From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or Confirmed cases**. We have corrected the error.
 
 As of May 7, 2020, **confirmed and probable cases** are included in the case totals.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalCapacity?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalSummary?%3Aembed=y&%3AshowVizHome=no,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,All data,false,Kansas,20
-KY,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+KY,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On November 26, 2020, Kentucky did not update their data by the time of our daily update, presumably due to the Thanksgiving holiday.
 
-On November 12, 2020, Kentucky began reporting Currently on ventilator in their [COVID-19 Daily Summaries](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/KY/KY-tertiary-20201112-172508.pdf).
+On November 12, 2020, Kentucky began reporting **Currently on ventilator** in their [COVID-19 Daily Summaries](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/KY/KY-tertiary-20201112-172508.pdf).
 
 On November 7, 2020, Kentucky [reported](https://chfs.ky.gov/cvdaily/COVID19DailyReport1107.pdf) that ""due to a keystroke error, the PCR and total tested figures were incorrectly  reported on 11/6/2020."" This caused our **Total PCR tests (specimens)** to go up by ~168k on November 6, and to go down by ~130k on November 7. If we find an official source with a corrected value we will backfill it.
 
@@ -309,7 +307,7 @@ As of May 27, 2020, Kentucky reports antibody tests separately from PCR tests.
 On May 23, 2020, Kentucky revised down the state's figure for **Total tests**.",https://govstatus.egov.com/kycovid19,https://chfs.ky.gov/agencies/dph/covid19/COVID19DailyReport.pdf,,,,@CHFSKy,https://chfs.ky.gov/agencies/dph/Pages/covid19.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Kentucky,21
 LA,"Louisiana reports probable deaths on a weekly basis.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total tests (PCR)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total tests (PCR)** in the absence of better data.
 
 On December 2, 2020, Louisiana reported a backlog of 1551 cases. As a result, not all new cases reported on December 2, 2020 were reported in the previous 24 hour period.
 
@@ -330,13 +328,13 @@ On August 26, 2020, Louisiana started reporting Probable cases, this caused a no
 On June 19, 2020, Louisiana's data changed due to deduplication and the state's removal of out-of-state cases.
 
 Between April 20 and April 24, 2020, Louisiana did not report testing data from commercial labs due to a state review of data.",http://ldh.la.gov/Coronavirus/,,,,,@LADeptHealth,http://ldh.la.gov/Coronavirus/,Specimens,posNeg,posNeg,Only positives,false,Louisiana,22
-MA,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+MA,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 On November 26, 2020, Massachusetts announced on their [COVID-19 Response Reporting page](https://www.mass.gov/info-details/covid-19-response-reporting) that there would be no update to their data on November 26, 2020 due to the the Thanksgiving holiday. Additionally, they announced that the data for November 27, 2020 would include both the data for November 26, 2020 and November 27, 2020.
 
 On November 25, 2020, Massachusetts reported that their data “was delayed today due to a technological issue that resulted in an interruption of the data download. As a result, today’s numbers reflect case counts from up to a 30 hour period"" instead of the usual previous 24-hour period.
 
-As of **November 2, 2020**, Massachusetts’ **Currently Hospitalized**, **Currently in ICU**, and **Currently on Ventilator** figures include only confirmed cases. Previously these numbers included confirmed and probable hospitalizations.
+As of November 2, 2020, Massachusetts’ **Currently Hospitalized**, **Currently in ICU**, and **Currently on Ventilator** figures include only confirmed cases. Previously these numbers included confirmed and probable hospitalizations.
 
 As of September 11, 2020, Massachusetts’ total test results reflect total specimens. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
@@ -350,17 +348,17 @@ On July 31, 2020, Massachusetts noted that ""Delays in the reporting of test res
 
 On June 30, 2020, Massachusetts decreased the number of **cumulative hospitalizations** and **confirmed and probable deaths** ""due to ongoing data cleaning which identifies and removes duplicate reports.""
 
-On June 1, 2020, Massachusetts began to report **probable cases** and **probable deaths*, causing **Total cases** and **Total deaths** to appear to increase sharply in our data. ",https://www.mass.gov/doc/covid-19-dashboard-december-18-2020/download,https://www.mass.gov/doc/weekly-covid-19-public-health-report-december-18-2020/download,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
+On June 1, 2020, Massachusetts began to report **probable cases** and **probable deaths*, causing **Total cases** and **Total deaths** to appear to increase sharply in our data. ",https://www.mass.gov/doc/covid-19-dashboard-december-19-2020/download,https://www.mass.gov/doc/weekly-covid-19-public-health-report-december-19-2020/download,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
 MD,"As of October 16, 2020, Maryland’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative. This will result in TotalTestResults only going back to 3/24 instead of 3/5.
 
-On August 31 2020 , we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.
+On August 31, 2020, we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.
 
 On July 31, 2020, we began capturing Maryland's data for **Positive PCR tests (specimens)**.  
 
 Between March 12 and March 28, 2020, Maryland did not report data for **negative tests**.",https://coronavirus.maryland.gov/,https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/MDCOVID19_TestingVolume/FeatureServer/0/query?where=1%3D1&outFields=*&outStatistics=[%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22number_of_positives%22%2C+%22outStatisticFieldName%22%3A+%22total_number_of_positives%22%7D],https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/MDCOVID19_SerologyTests/FeatureServer/0/query?where=1%3D1&outFields=%2A,,,@MDHealthDept,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Maryland,24
-ME,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+ME,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On December 9, 2020, Maine’s **Total Antigen Tests (specimens)** decreased by 248 on their COVID-19 page, which we believe was an error. The sum of **Positive Antigen Tests,** **Negative Antigen Tests,** and indeterminate antigen tests is 38,632 and Maine reported 36,632. In order to ensure that our data is as accurate as possible, we did not update Maine’s Total Antigen Tests (specimens) on December 9, 2020.
+On December 9, 2020, Maine’s **Total Antigen Tests (specimens)** decreased by 248 on their COVID-19 page, which we believe was an error. The sum of **Positive Antigen Tests,** **Negative Antigen Tests,** and indeterminate antigen tests is 38,632 and Maine reported 36,632. In order to ensure that our data is as accurate as possible, we did not update Maine’s Total Antigen Tests (specimens) on December 9, 2020. (Antigen data is available in our CSVs and API.)
 
 On November 30, 2020, Maine’s Total antigen tests (specimens) and Negative antigen tests (specimens) increased by roughly 11,000, and their Positive antigen tests (specimens) increased by about 400 without explanation. 
 
@@ -390,7 +388,7 @@ As of July 7, 2020, Michigan updates its death figures three times a week after 
 On June 11, 2020, we updated our historical data from a spreadsheet provided by Michigan's Department of Health and Human Services in order to reflect the lab-reported dates of **probable and confirmed cases** and **probable and confirmed deaths** by date of death.
 
 Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173-531113--,00.html",https://app.powerbigov.us/view?r=eyJrIjoiNDY0ZGVlMDItMzUzNC00ZGE5LWFjYzQtNzliOGJkZWQ4YTgzIiwidCI6ImQ1ZmI3MDg3LTM3NzctNDJhZC05NjZhLTg5MmVmNDcyMjVkMSJ9,,@MichiganHHS,https://www.michigan.gov/coronavirus,Specimens,totalTestsViral,posNeg,All data,false,Michigan,26
-MN,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+MN,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 On November 28, 2020 Minnesota announced on their COVID-19 page that the data reported on November 28, 2020, would include data for both November 26, 2020, and November 27, 2020 due to the fact that they did not update their data on November 26, 2020 because of the Thanksgiving holiday. As a result, figures reported on November 28, 2020 include data reported during the previous 48 hour period, as opposed to the previous 24 hours.
 
@@ -402,9 +400,9 @@ As of September 18, 2020, Minnesota total test results are drawn from our `total
 The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
 On September 17, 2020, we switched Minnesota's specimens timeseries to **Total Test Encounters (PCR)** based on correspondence with the state, which revealed that their ""total approximate number of completed tests"" reflects individuals tested per day.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,https://mn.gov/covid19/data/response-prep/response-capacity.jsp,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
-MO,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+MO,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
-On November 21, 2020, Missouri’s **Total PCR Tests (People)** increased by less than **Positive Cases (PCR)**. As a result, **Negative (People or Cases)** saw a decline from the previous day since it is calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+On November 21, 2020, Missouri’s **Total PCR Tests (People)** increased by less than **Positive Cases (PCR)**. As a result, **Negative (People or Cases)** saw a decline from the previous day since it is calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 On November 10, 2020, Missouri’s Total PCR tests (specimens), Negative PCR tests (specimens), Total PCR tests (people), Total antibody tests (specimens), Total antibody tests (people), Negative antibody tests (specimens), Total antigen tests (specimens), and Negative antigen tests (specimens) dropped without explanation.
 
@@ -423,16 +421,16 @@ On September 5, 2020, the Missouri DHSS [added an additional 72 deaths](http://t
 As of May 22, 2020, Missouri reports PCR tests separately from antibody tests. ",https://showmestrong.mo.gov/data/statewide-public-health/,https://showmestrong.mo.gov/public-healthcare-testing/,https://showmestrong.mo.gov/public-healthcare/,,,@HealthyLivingMo,https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Missouri,29
 MP,"The Northern Mariana Islands have not posted a new **Recovered** number since July 15, 2020. 
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
-The Northern Mariana Islands Total PCR tests (specimens) values decrease occasionally without explanation. We suspect this is due to some sort of data quality assurance or de-deduplication.
+The Northern Mariana Islands **Total PCR tests (specimens)** values decrease occasionally without explanation. We suspect this is due to some sort of data quality assurance or de-deduplication.
 
 The Northern Mariana Islands provides irregular data updates, so changes in values often represent multiple days of data.
 
 On July 23, 2020, we switched our **Total tests** units to the people-tested metric reported by the Northern Mariana Islands, which led to a drop in total tests. We will backfill total tests data for the territory as soon as we are able to do so.",https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,https://services8.arcgis.com/zkkZCub5I6ydvXQj/ArcGIS/rest/services/Coronavirus_PublicDashboardView/FeatureServer/3/query?where=1%3D1&outStatistics=%5B%7B%27statisticType%27%3A+%27max%27%2C+%27onStatisticField%27%3A+%27reportdt%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27confirmedcases%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27totalspeccnmi%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27deaths%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27recovered%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27hospitalized%27%7D%5D,https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,,@cnmichcc,https://www.chcc.gov.mp/coronavirusinformation.php,People,posNeg,posNeg,No Data,false,Northern Mariana Islands,69
 MS,"Mississippi started updating testing totals on a weekly schedule on September, 27, 2020, so each update includes many days worth of testing. 
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On October 25, 2020, Mississippi announced that COVID-19 data for October 24, 2020 and October 25, 2020 would be published on Monday. As a result, Mississippi did not update on October 24, 2020 and October 25, 2020.
 
@@ -446,16 +444,16 @@ On May 26, 2020, news reports indicated that 95 antibody tests had returned posi
 
 As of May 23, 2020, Mississippi is separating out PCR and antibody tests. We now report both separately. 
 ","https://msdh.ms.gov/msdhsite/_static/14,0,420.html","https://msdh.ms.gov/msdhsite/_static/14,21994,420,873.html",,,,@msdh,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",Specimens,posNeg,posNeg,Only positives,false,Mississippi,28
-MT,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+MT,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On December 14, 2020, Montana announced that due to updates to their data reporting system on December 13, 2020, no new cases could be reported on December 13, 2020. We were unable to update Cases (confirmed + probable) and Negative PCR tests (people) on December 14, 2020.
 
-On November 16, 2020, Montana’s Confirmed cases increased by more than their Total PCR tests (specimens) without explanation. As a result Negative test results which are calculated by subtracting Positive PCR tests (people) from Total PCR tests (specimens) decreased.
+On November 16, 2020, Montana’s Confirmed cases increased by more than their Total PCR tests (specimens) without explanation. As a result Negative test results which are calculated by subtracting Confirmed cases from Total PCR tests (specimens) decreased.
 
-On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,https://dphhs.mt.gov/Portals/85/publichealth/documents/CDEpi/DiseasesAtoZ/2019-nCoV/Status%20Update%20Data%20Report_12172020.pdf,,,@dphhsmt,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt,Specimens,totalTestsViral,posNeg,All data,false,Montana,30
+On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,https://dphhs.mt.gov/Portals/85/publichealth/documents/CDEpi/DiseasesAtoZ/2019-nCoV/Status%20Update%20Data%20Report_12182020.pdf,,,@dphhsmt,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt,Specimens,totalTestsViral,posNeg,All data,false,Montana,30
 NC,"The metric reported in our API as `totalTestsAntigen` only includes tests reported after September, 22, 2020. If previous values become available from North Carolina we will backfill the complete time series. 
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On November 26, 2020, North Carolina announced on their [COVID-19 Data Dashboard](https://covid19.ncdhhs.gov/dashboard) that there would be no update to their data on November 26, 2020 due to the thanksgiving holiday. However, on November 27, 2020, they will provide data retroactively for November 26, 2020 and we will backfill our historical data accordingly.
 
@@ -470,13 +468,13 @@ On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,posNeg,posNeg,Only positives,false,North Carolina,37
 ND,"On December 15, 2020 through December 17, 2020, North Dakota announced that they were resolving a technical issue with their dashboard. As a result, the hospitalization dashboard was unavailable, and we were unable to update their **Now in ICU**, **Ever hospitalized**, and **Ever in ICU** metrics.
 
-On December 10, 2020, we backfilled **Positive Cases (PCR)**, **Probable Cases** and **Total cases** from March 10, 2020 until December 9, 2020. We also cleared our **Deaths (confirmed)** and **Deaths (probable)** metrics because the number we reported as confirmed included antigen tested individuals.
+On December 10, 2020, we backfilled **Confirmed cases**, **Probable Cases** and **Total cases** from March 10, 2020 until December 9, 2020. We also cleared our **Deaths (confirmed)** and **Deaths (probable)** metrics because the number we reported as confirmed included antigen tested individuals.
 
 On December 9, 2020, North Dakota began reporting **Probable Cases,** which it defines as individuals with a positive antigen test.
 
 On December 8, 2020, North Dakota  announced that they would not be updating their website due to site construction as they prepare to add antigen tests to their dashboard. As a result, we were unable to update their data on December 8, 2020.
 
-On December 3, 2020, North Dakota stopped reporting patients Hospitalized with COVID on their [COVID-19 dashboard](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) to “eliminate the discrepancy” between patients Hospitalized with COVID and patients Hospitalized due to COVID. As of December 3, 2020, North Dakota’s Currently hospitalized will include only patients hospitalized due to COVID.
+On December 3, 2020, North Dakota stopped reporting patients Hospitalized with COVID on their [COVID-19 dashboard](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) to “eliminate the discrepancy” between patients Hospitalized with COVID and patients Hospitalized due to COVID. As of December 3, 2020, North Dakota’s **Currently hospitalized** will include only patients hospitalized due to COVID.
 
 On December 1, 2020, we made changes to our historical deaths counts, changing our **Deaths (confirmed)** source from “Deaths Due to COVID-19” to “Total number of individuals who tested positive and died from any cause while infected with COVID-19.” We had originally switched to use “Deaths Due to COVID-19” on July 1, 2020, but because of growing backlogs of individuals with COVID-19 tests whose death certificates have not yet been filed were not being picked up in the figure, we switched back to best reflect the reality in the state. The change caused a 241 cumulative rise in North Dakota’s death figures.
 
@@ -486,9 +484,9 @@ On November 12, 2020, North Dakota explained that higher than normal fluctuation
 
 On November 12, 2020, North Dakota [announced](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) that the high number of tests and positives was due in part to 5600 test backlog experienced by a third-party lab.
 
-On November 11, 2020, North Dakota reported two days of data for all metrics except for Total PCR tests (specimens), Positive PCR tests (people), and Positive cases (confirmed + probable).
+On November 11, 2020, North Dakota reported two days of data for all metrics except for Total PCR tests (specimens), Confirmed cases, and Positive cases (confirmed + probable).
 
-On November 10, 2020, North Dakota reported that their software for hospitalization metrics was down, an issue which also impacts active cases. We updated Total PCR tests (specimens), Positive PCR tests (people), and Positive cases (confirmed + probable) from their [daily news release](https://www.health.nd.gov/news/covid-19-test-results-0).
+On November 10, 2020, North Dakota reported that their software for hospitalization metrics was down, an issue which also impacts active cases. We updated Total PCR tests (specimens), Confirmed cases, and Positive cases (confirmed + probable) from their [daily news release](https://www.health.nd.gov/news/covid-19-test-results-0).
 
 As of September 11, 2020, North Dakota’s total test results reflect total test encounters. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
@@ -497,18 +495,16 @@ On September 9, 2020, North Dakota began reporting “Susceptible Encounters” 
 On August 19, 2020, North Dakota launched a new dashboard with a number of new data points, including race and ethnicity data and ICU data. ",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,North Dakota,38
 NE,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric.
 
-On November 13, 2020, Nebraska removed cumulative hospitalized count dropped by 21 without explanation.
+On November 13, 2020, Nebraska's cumulative hospitalized count dropped by 21 without explanation.
 
 On November 6, 2020, Nebraska removed 114 recoveries without explanation.
-
-As of October 30, 2020, our **Total tests** metrics include Nevada's **Total tests (in specimens)**.
 
 On October 30, 2020, we backfilled the full time series for Nebraska's Total Tests into our ""Total Tests (PCR)"" metric from a Nebraska GIS query. At the same time, we filled our Positive Tests (PCR) and Negative Tests (PCR) from the same query.
 
 On September 20, 2020, Nebraska started publishing **Total Tests (in specimens)** in addition to **People Tested (in people)**, and we started collecting the Total Tests daily into our Total Tests (PCR) metric.
 
 On November 22, 2020, Nebraska's **Recovered** metric dropped from 56,605 to 16,068 without explanation.",https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,https://gis.ne.gov/enterprise/rest/services/Covid19MapV5/MapServer/11/query?where=1%3D1&outFields=%2A&orderByFields=LAB_REPORT_DATE+desc&resultRecordCount=1&f=json,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,@NEDHHS,http://dhhs.ne.gov/Pages/Coronavirus.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Nebraska,31
-NH,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+NH,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 On November 13, 2020, New Hampshire announced: ""The Dashboard Service is currently undergoing system maintenance and will be restored by November 16, 4:00 PM EST.""  This means **Total tests (in specimens)**, **Ever hospitalized**, **Ever in ICU**, and **Total Antibody Tests** will not be updated during this time.
 
@@ -521,7 +517,7 @@ On September 2, 2020, New Hampshire did not update their dashboards or summary r
 As of May 25, 2020, New Hampshire reports PCR tests separately from antibody tests.",https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,https://www.nh.gov/covid19/documents/case-summary.pdf,https://www.nh.gov/covid19/dashboard/overview.htm#dash,https://nh.gov/t/DHHS/views/COVID19TrendsDashboard/TrendsDashboard?:isGuestRedirectFromVizportal=y&:embed=y,,@NHPubHealth,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,Specimens,totalTestsViral,Total Tests (PCR),All data,false,New Hampshire,33
 NJ,"The **Recovered** data point we report for New Jersey reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)**.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)**.
 
 On October 23, New Jersey's reported **Ever hospitalized** value increased dramatically from 24,517 to 37,222 with no explanation we could find: this was probably a one-time addition of backlogged data.
 
@@ -536,18 +532,18 @@ On July 19, 2020, New Jersey's **Total cases** decreased, perhaps due to reclass
 On July 16, 2020, New Jersey's **Recovered** figure decreased.
 
 On May 16, 2020, a backfill effort by New Jersey caused the state's data for **Recovered** to rise by approximately 7,000 people. ",https://covid19.nj.gov/#live-updates,https://www.arcgis.com/apps/MapSeries/index.html?appid=c2efd1898e48452e83d7218329e953d7,https://njhealth.maps.arcgis.com/apps/opsdashboard/index.html#/81a17865cb1a44db92eb8eb421703635,https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/PPE_Capacity/FeatureServer/0/query?where=survey_period%3E%3Dtimestamp+%272020-04-27+07%3A00%3A00%27+AND+structure_measure_identifier+LIKE+%27%25ischarge%25Excluding+Deaths%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27recoveries%27%7D%5D,,@NJDeptofHealth,https://www.nj.gov/health/cd/topics/ncov.shtml,Specimens,posNeg,posNeg,All data,false,New Jersey,34
-NM,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+NM,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 On November 18, 2020, we shifted the entire time series of New Mexico metrics by one day to match the date that the state reports on its dashboard. ",https://cvprovider.nmhealth.org/public-dashboard.html,,,,,@NMDOH,https://cv.nmhealth.org/,Specimens,posNeg,posNeg,All data,false,New Mexico,35
 NV,"The Nevada Department of Health and Human Services states that due to testing preformed on environmental samples, the number of Total PCR Tests (test encounters) reported is higher than the number of test encounters including only tests preformed on people.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 On November 19, 2020, we removed the timseries of **Recovered** in Nevada because it reflected only recoveries in licensed fascilities. 
 
-As of October 30, 2020, our **Total tests** metrics include Nevada's **Total tests (in test encounters)**.
+As of October 30, 2020, Nevada's total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative. The number of unique people tested is available in our API as `totalTestsPeopleViral`.
 
-On October 29, 2020, Nevada’s Total PCR Tests (PCR) increased by a smaller amount than the increase in Cases. Because Negative test results are calculated by subtracting Positive PCR tests (people) from Total PCR tests (people), Negative test results decreased on October 29, 2020.
+On October 29, 2020, Nevada’s Total Tests (PCR) increased by a smaller amount than the increase in Cases. Because Negative test results are calculated by subtracting Confirmed cases from Total PCR tests (people), Negative test results decreased on October 29, 2020.
 
 On October 15, 2020, Nevada stopped reporting the number of unique people who tested negative on their dashboard without explanation. We carried forward the last reported number of people tested negative between October 15 and October 21 (our policy when a metric goes missing without notice is to “freeze” the number for up to seven days to allow states to recover from temporary reporting problems). Since our API uses the sum of positive+negative tests to calculate the total number of tests in Nevada, this caused the number of total tests on those dates to increase only by the number of positives. On October 21, 2020, we updated the number of Nevada’s negative tests for October 15 through October 20 based on a calculation of (Total people tested – Cases)",https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9&pageName=ReportSection713122d051caa3096e41,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9&pageName=ReportSection966ce53550e53608e0a6,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9&pageName=ReportSection966ce53550e53608e0a6,,@dhhsnevada,http://dpbh.nv.gov/coronavirus/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Nevada,32
 NY,"New York State has not reported new **Ever hospitalized** data since June 2, 2020.
@@ -556,22 +552,22 @@ As of November 23, 2020, New York's `totalTestResults` are drawn from our `total
 
 The **Recovered** data point we report for New York reflects the number of lab-confirmed COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 As of June 1, 2020, New York City reported 5740 more deaths (probable and confirmed) than New York State reports for NYC. Due to an exclusion of **probable COVID-19 deaths** in the state's data, New York City and New York State report substantially diverging death counts. We use the data from the state, so our dataset excludes these probable COVID-19 deaths. ",https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Fatalities?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n,https://www.governor.ny.gov/news,https://forward.ny.gov/daily-hospitalization-summary-region,https://forward.ny.gov/daily-hospitalization-summary-region,@healthnygov,https://www.health.ny.gov/diseases/communicable/coronavirus/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Only positives,false,New York,36
 OH,"Ohio continually updates its **Currently hospitalized / Now hospitalized** data which can cause slight differences between their historic data and ours. 
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On December 8, 2020, Ohio announced that their data for December 8, 2020 includes a backlog of roughly 13,000 antigen tests dating back to November 1, 2020. As a result not all new """"Probable cases"""" and **Total cases** were reported in the previous 24 hour period. This followed the state reporting on it's COVID-19 Dashboard that the data was incomplete and ""because of unprecendented volume, thousands of reports are pending review"" from November 18, 2020 to December 7, 2020.  
+On December 8, 2020, Ohio announced that their data for December 8, 2020 includes a backlog of roughly 13,000 antigen tests dating back to November 1, 2020. As a result not all new **Probable cases** and **Total cases** were reported in the previous 24 hour period. This followed the state reporting on it's COVID-19 Dashboard that the data was incomplete and ""because of unprecendented volume, thousands of reports are pending review"" from November 18, 2020 to December 7, 2020.  
 
 On November 26, 2020, Ohio announced on their COVID-19 dashboard that there would not be a data update on November 26, 2020 due to the Thanksgiving holiday. Additionally, the data that would normally have been reported on November 26, 2020 will be included in the November 27, 2020 update.
 
-On November 23, 2020 Ohio announced that their data for November 23, 2020 would include two days worth of positive test results which were delated due to technical issues affecting lab reporting. Additionally, on November 23, 2020, Ohio did not update their Total PCR tests (specimens) by the time of our daily update. Because Negative PCR tests (specimens) is calculated by subtracting Positive PCR tests (people, confirmed + probable) from Total PCR tests (specimens), we did not update them on November 23, 2020.
+On November 23, 2020 Ohio announced that their data for November 23, 2020 would include two days worth of positive test results which were delated due to technical issues affecting lab reporting. Additionally, on November 23, 2020, Ohio did not update their **Total PCR tests (specimens)** by the time of our daily update. Because `Negative` is calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)**, we did not update them on November 23, 2020.
 
-On November 18, 2020, Ohio reported 5246480 Total PCR tests (specimens) - the same number that was reported on November 15, 2020, and a drop of roughly 102k tests from November 17, 2020. Because Ohio announced that their data for November 18, 2020 would be incomplete, and we suspect this decrease was a result of that, we did not update Total PCR tests (specimens), or Negative PCR tests (people) on November 18, 2020.
+On November 18, 2020, Ohio reported 5246480 **Total PCR tests (specimens)** - the same number that was reported on November 15, 2020, and a drop of roughly 102k tests from November 17, 2020. Because Ohio announced that their data for November 18, 2020 would be incomplete, and we suspect this decrease was a result of that, we did not update **Total PCR tests (specimens)**, or `Negative` on November 18, 2020.
 ",https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations,,,@OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,Unclear units,posNeg,posNeg,All data,false,Ohio,39
-OK,"On December 17, 2020, Oklahoma announced that due to technical issues on December 16, 2020, they were unable to update their testing data. As a result, we were unable to update Total PCR tests (specimens), Positive PCR tests (specimens), Negative PCR tests (specimens), or Negative PCR tests (people) on December 17, 2020.
+OK,"On December 17, 2020, Oklahoma announced that due to technical issues on December 16, 2020, they were unable to update their testing data. As a result, we were unable to update **Total PCR tests (specimens)**, **Positive PCR tests (specimens)**, **Negative PCR tests (specimens)**, or Negative PCR tests (people) on December 17, 2020.
 
 As of December 16, 2020, Oklahoma’s Currently hospitalized and Currently in ICU include only patients with confirmed COVID-19. Prior to December 16, 2020, they included confirmed COVID-19 patients and people under investigation.
 
@@ -581,7 +577,7 @@ On November 25, 2020, Oklahoma announced via a [COVID-19 Situation update](https
 
 On July 19 and July 20, Oklahoma noted that reported **Total cases** numbers were inaccurately low due to technical issues. 
 
-Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. We excluded these figures from our data, as we assumed these individuals were isolated outside the state.",https://oklahoma.gov/covid19.html,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_12-17-20.pdf,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/2020.12.17_weekly_epi_report.pdf,,,@HealthyOklahoma,https://coronavirus.health.ok.gov,Specimens,posNeg,posNeg,All data,false,Oklahoma,40
+Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. We excluded these figures from our data, as we assumed these individuals were isolated outside the state.",https://oklahoma.gov/covid19.html,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_12-18-20.pdf,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/2020.12.18_weekly_epi_report.pdf,,,@HealthyOklahoma,https://coronavirus.health.ok.gov,Specimens,posNeg,posNeg,All data,false,Oklahoma,40
 OR,"As of December 9, 2020, Oregon’s total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. This change will cause Oregon’s `totalTestResults` to begin on March 29, 2020 instead of March 4, 2020. Because Oregon’s totalTestsViral represent only electronic laboratory reporting, whereas its cases and negatives represented tests from all sources, this change causes a decrease of 10,296 tests in `totalTestResults` on March 29. The old numbers remain available by summing the positive and negative fields of our API.
 In addition, Oregon has not reported their total tests in people units since December 2, 2020 and they indicated that they will not continue to report total tests in people, so we have removed any values in **Total PCR tests (people)** we previously carried over.
 
@@ -627,7 +623,7 @@ On November 25, 2020, Rhode Island’s **Total PCR tests (people)** decreased by
 On September 25, 2020, Rhode Island removed 240 duplicate cases from its case count, resulting in a drop from 24,311 cases to 24,181. 
 
 As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**.",https://health.ri.gov/data/covid-19/,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/gviz/tq?tqx=out:csv&sheet=1592746937,,,@rihealth,https://health.ri.gov/diseases/respiratory/?parm=163,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Rhode Island,44
-SC,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+SC,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On November 25, 2020, South Carolina [announced](https://twitter.com/scdhec/status/1331650380271394819) via the official South Carolina Department of Health and Environmental Control twitter that there would be no update to their data on November 26, 2020.
 
@@ -653,7 +649,7 @@ As of September 18, 2020, South Dakota's total test results are drawn from our `
 On August 27, the South Dakota Department of Health included cases from August 25 and 26 in their update due to a reporting aberration, resulting in a 343 case increase. They have provided historical case counts, and we are working to backfill our data.
 
 On July 27, 2020, **Negative PCR tests** decreased by 148 for unclear reasons.",https://doh.sd.gov/COVID/Dashboard.aspx,,,,,@SDDOH,https://doh.sd.gov/news/Coronavirus.aspx,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,South Dakota,46
-TN,"Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+TN,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 Tennessee continually updates its **Currently hospitalized / Now hospitalized** data which can cause differences between their historic data and ours.
 
@@ -698,7 +694,7 @@ On June 16, 2020, Texas notes that ""The reported cases for June 16 include 2,62
 As of May 23, 2020, Texas reports PCR tests separately from antibody tests.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Texas,48
 UT,"On November 25, 2020, Utah [announced](https://twitter.com/UtahCoronavirus/status/1331703634942451715) via their official Utah COVID-19 response twitter that there would be no update to their data on November 26, 2020. Additionally, the data that would normally have been published on November 26, 2020 will be included in the November 27, 2020 update.
 
-As of November 9, 2020, our **Positive PCR tests (people)** metric for Utah is sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests. This caused a slight decrease in the number of **Confirmed Cases**.
+As of November 9, 2020, our **Confirmed cases** metric for Utah is sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests. This caused a slight decrease in the number of **Confirmed Cases**.
 
 As of November 6, 2020, our **Total PCR tests (people)** and **Negative PCR tests (people)** metrics for Utah are sourced from the [data download](https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip) available on the Utah dashboard, which separates PCR and antigen tests.
 
@@ -711,7 +707,7 @@ As of July 16, 2020, Utah is reporting both specimens and people tested. We repo
 As of June 11, 2020, Utah reports a combined case count for total intubated patients and patients on a ventilator. We report this figure as **Ever on ventilator**.",https://coronavirus-dashboard.utah.gov/,https://coronavirus-dashboard.utah.gov/#hospitalizations-mortality,,,,@utahdepofhealth,https://health.utah.gov/coronavirus,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Utah,49
 VA,"The **Recovered** data point we report for Virginia reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (test encounters)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (test encounters)** in the absence of better data.
 
 On December 8, 2020, Virginia’s Recovered decreased by 200 without explanation.
 
@@ -739,7 +735,7 @@ On December 2, 2020, Vermont added approximately 120 cases to its case count, re
 
 On November 26, 2020, Vermont announced on their [COVID-19 page](https://www.healthvermont.gov/covid-19) that there would be no update to their data on November 26, 2020.
 
-On **November 3, 2020**, Vermont’s **Total PCR tests (people)** decreased without explanation. As a result, Vermont’s negative test results, which are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)** decreased as well.
+On **November 3, 2020**, Vermont’s **Total PCR tests (people)** decreased without explanation. As a result, Vermont’s negative test results, which are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)** decreased as well.
 
 On October 29, 2020, Vermont started publishing **Total PCR Tests (in specimens)** in addition to **Total PCR Tests (in people)**. We backfilled the full time series for this metric from Vermont's Arcgis layer.
 
@@ -790,7 +786,7 @@ Between March 31 and April 15, 2020, Washington state did not report **Negative 
 WI,,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm,https://bi.wisconsin.gov/t/DHS/views/PercentofconfirmedprobableCOVID-19casesby-group-MOBILE/CaseDB2/butleoljdl@accounts.wistate.us/ed25311e-7f8a-4c7d-aee8-97b28850f0ac?:embed=y&:display_spinner=no&:showAppBanner=false&:embed_code_version=3&:loadOrderID=4&:display_count=n&:showVizHome=n&:origin=viz_share_link,https://bi.wisconsin.gov/t/DHS/views/PercentofCOVID-19deathsby-group-MOBILE/DeathDB2?:embed_code_version=3&:embed=y&:loadOrderID=2&:display_spinner=no&:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link,https://bi.wisconsin.gov/t/DHS/views/PercentofCOVID-19deathsby-group-MOBILE/DeathDB2?:embed_code_version=3&:embed=y&:loadOrderID=2&:display_spinner=no&:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link,@DHSWI,https://www.dhs.wisconsin.gov/disease/covid-19.htm,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Wisconsin,55
 WV,"West Virginia reports new antibody tests daily. We sum these numbers in a running total to report a value for the total number of antibody tests West Virginia has conducted. 
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On July 4, 2020, West Virginia began making continual changes to its previous data for antibody testing, so its historical time series might not match COVID Tracking Project data.
 
@@ -801,7 +797,7 @@ WY,"Wyoming’s metrics do not update every day, and don’t always update toget
 
 Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a percentage of “Lab Confirmed Cases by Reported Hospitalization” on their [Statistics page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/). In the absence of a better data source we convert this percentage to an integer, and as a result of the calculation, this value may fluctuate.
 
-Negatives reported in our API and CSVs are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (people)**.
+Negatives reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 On December 2, 2020, Wyoming's cumulative **Positive PCR Tests (specimens)** decreased by about 2,000, Negative PCR Tests (specimens) decreased by about 13,000, and ***Total PCR Tests (specimens)** decreased by about 11,000. The data for these metrics, obtained by downloading the Crosstab data on [Wyoming's State and County Dashboards](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-state-and-county-dashboards/), has been unreliable over the last week. Please use caution when using this data.  
 
@@ -813,7 +809,7 @@ On November 26, 2020, Wyoming announced on their [COVID-19 page](https://health.
 
 On November 25, 2020, we started collecting *Total PCR tests (specimens)* from the ""Wyoming Updates"" section of Wyoming's [COVID-19 page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/) and started collecting *Positive tests PCR (specimens)* and *Negative tests PCR (specimens)* from the values in the graph on the ""Laboratory Results by Date"" graph on their [COVID-19 State and County Dashboards page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-state-and-county-dashboards/). At the same time, we backfilled all three of the above time series based on the numbers from the second page, summing the positive and negative numbers to use for the historical totals.
 
-On November 17, 2020, Wyoming’s Confirmed cases increased by more than their **Total PCR tests (specimens)** without explanation. As a result, **Negative PCR tests (people)**, which are calculated by subtracting **Positive PCR tests (people)** from **Total PCR tests (specimens)** decreased.
+On November 17, 2020, Wyoming’s Confirmed cases increased by more than their **Total PCR tests (specimens)** without explanation. As a result, **Negative PCR tests (people)**, which are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** decreased.
 
 On October 14, 2020, Wyoming's **Total PCR Tests (specimens)** and **Total PCR Tests (people)** values both decreased by over 1000 with no explanation. We believe the state might have deduplicated its data.
 
