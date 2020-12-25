@@ -376,6 +376,8 @@ Our source for **Now hospitalized** and **Now in ICU** data in Michigan generall
 
 Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard. 
 
+On December 24, 2020, Michigan announced on their [COVID-19 page](https://www.michigan.gov/coronavirus/) that their data would not be updated on December 24, 2020, or December 25, 2020 due to the holiday.
+
 On November 24, 2020, Michigan announced via a [press release](https://www.michigan.gov/coronavirus/0,9753,7-406-98158-545993--,00.html) that there would be no update to their data on November 26, 2020 due to Thanksgiving holiday. On November 27, 2020, the state resumed data reporting where case counts would include cases since Wednesday, November 25, 2020. The state estimated that the average number of cases across November 26 and November 27, 2020 would be 8,581 cases per day.
 
 On October 29, 2020, Michigan experienced connectivity issues resulting in some cases that would have been reported tomorrow to be reported today. This is due to the fact that the state has a strict 10AM cutoff for daily data reporting. This means the daily increase in cases encompasses more than one day's worth of data.
@@ -453,6 +455,8 @@ On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with
 NC,"The metric reported in our API as `totalTestsAntigen` only includes tests reported after September, 22, 2020. If previous values become available from North Carolina we will backfill the complete time series. 
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
+
+On December 24, 2020, North Carolina announced that their data would not be updated on December 24, 2020, or December 25, 2020 due to the holiday.
 
 On November 26, 2020, North Carolina announced on their [COVID-19 Data Dashboard](https://covid19.ncdhhs.gov/dashboard) that there would be no update to their data on November 26, 2020 due to the thanksgiving holiday. However, on November 27, 2020, they will provide data retroactively for November 26, 2020 and we will backfill our historical data accordingly.
 
@@ -615,6 +619,8 @@ RI,"Rhode Island combines PCR and antigen tests in the total tests figure report
 
 The **Recovered** data point we report for Rhode Island reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
+On December 24, 2020, Rhode Island announced on their [COVID-19 dashboard](https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com) that their data would not be updated on December 24, 2020 through December 27, 2020.
+
 On November 26, 2020, Rhode Island did not update their data by the time of our daily update, presumably due to the Thanksgiving holiday.
 
 On November 25, 2020, Rhode Island’s **Total PCR tests (people)** decreased by roughly 500 and **Negative tests (people)** decreased by roughly 1400 without explanation.
@@ -756,6 +762,8 @@ We report the most recent hospitalization data available for Washington. In some
 
 As of December 20, 2020, Washington no longer updates their data on Sundays. Because Washington’s data is on a one day lag in our timeseries, we are unable to update their data on Mondays.
 
+On December 23, 2020, Washington announced that due to an issue with their hospital reporting process, their hospital data was incomplete. Because Washington’s data is on a one day lag in our timeseries, this affects our data for December 24, 2020.
+
 On December 18, 2020, Washington announced on their COVID-19 [Data Dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that due to a change in the way they report COVID-19 deaths, a timing error caused an artificial decrease of 13 Deaths (confirmed + probable) and Deaths (confirmed) on December 18, 2020. Because Washington’s data is on a one day lag in our timeseries due to late updates, this will affect our data for December 19, 2020.
 
 From November 21, 2020 through today, Washington has reported a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
@@ -814,6 +822,8 @@ WY,"Wyoming’s metrics do not update every day, and don’t always update toget
 Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a percentage of “Lab Confirmed Cases by Reported Hospitalization” on their [Statistics page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/). In the absence of a better data source we convert this percentage to an integer, and as a result of the calculation, this value may fluctuate.
 
 Negatives reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
+
+On December 24, 2020, Wyoming announced on their [COVID-19 page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/) that there would be no update to their data on December 24, 2020 or December 25, 2020.
 
 On December 2, 2020, Wyoming's cumulative **Positive PCR Tests (specimens)** decreased by about 2,000, **Negative PCR Tests (specimens)** decreased by about 13,000, and **Total PCR Tests (specimens)** decreased by about 11,000. The data for these metrics, obtained by downloading the Crosstab data on [Wyoming's State and County Dashboards](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-state-and-county-dashboards/), has been unreliable over the last week. Please use caution when using this data.  
 
