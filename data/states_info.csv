@@ -635,7 +635,9 @@ On November 5, 2020 we began reporting current hospitalizations from [Oregon's C
 On November 4, 2020, Oregon stopped reporting current hospitalization data on the [Oregon Health Authority page](https://govstatus.egov.com/OR-OHA-COVID-19), and so we did not update Oregon's current hospitalization data. Current hospitalization data is provided on Oregon's data dashboard, but it lags a day behind the other source. We will evaluate this change and resume reporting Oregon hospital data when we are sure we can preserve the time series.
 
 As of June 6, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.",https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19TestingandOutcomesbyCounty/OregonsCOVID-19TestingandOutcomesbyCounty?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/HospitalCapacity,,@OHAOregon,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Oregon,41
-PA,"On December 14, 2020, Pennsylvania’s **Total PCR tests (specimens)** decreased by roughly 297k without explanation.
+PA,"On December 28, 2020, Pennsylvania's Total PCR tests (specimens) value increased by ~690,000 from 7,202,533 tests to 7,892,184 tests. On December 29, 2020, this Total PCR tests value decreased by ~580,000 to 7,312,858 tests. We were unable to find an explanation for this fluctuation.
+
+On December 14, 2020, Pennsylvania’s **Total PCR tests (specimens)** decreased by roughly 297k without explanation.
 
 On September 3, 2020, Pennsylvania [clarified](https://www.health.pa.gov/topics/disease/coronavirus/Pages/Coronavirus.aspx) that the test numbers they have been reporting previously are in units of unique people and began publishing new test data in units of specimens. On September 4, 2020, we therefore moved the appropriate historical data to the **Total tests (people)** field and began capturing **Total PCR tests (specimens)**. 
 
@@ -719,6 +721,8 @@ On April 5, 2020, Tennessee reported a decline in **Recoveries**. ",https://www.
 TX,"The Texas Department of State Health Services regularly includes older cases identified by labs in their cumulative confirmed case counts. As a result, new cases reported may not necessarily have occurred in the past 24 hour period. When these increases are significant, we will specifically mention them in our daily update on twitter.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
+
+On December 29, 2020, Texas noted that “New cases reported today (12/29) may include several days of cases for some counties as some local health departments did not report over the holiday weekend.
 
 As of December 15, 2020, Texas’s total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. 
 
