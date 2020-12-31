@@ -47,8 +47,7 @@ const fastcsv = require('fast-csv');
     for (const [i, series] of casesSeries.entries()) {
       // if the bar has no height, there's no tooltip, and the value is 0
       const rect = await series.$('rect')
-      const height = await rect.getAttribute('height')
-      if (height === "0") {
+      if (rect == null || await rect.getAttribute('height') === "0") {
         output["Confirmed COVID-19 Cases "+casesTypes[i]] = 0
         continue
       }
