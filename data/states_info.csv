@@ -819,6 +819,8 @@ We report the most recent hospitalization data available for Washington. In some
 
 As of December 20, 2020, Washington no longer updates their data on Sundays. Because Washington’s data is on a one day lag in our timeseries, we are unable to update their data on Mondays.
 
+On December 29, 2020, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20201230-001452.png) that their death data included a “backlog of roughly 200 cases that were previously unreported due to a processing issue”. Because Washington’s data is on a one day lag in our timeseries, this affects our data for December 30, 2020. 
+
 On December 25, 2020, Washington announced on their [COVID-19 dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Because Washington’s data is on a one day lag in our timeseries, we were unable to update their data on December 26, 2020.
 
 On December 23, 2020, Washington announced that due to an issue with their hospital reporting process, their hospital data was incomplete. Because Washington’s data is on a one day lag in our timeseries, this affects our data for December 24, 2020.
