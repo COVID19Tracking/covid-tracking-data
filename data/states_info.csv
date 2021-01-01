@@ -307,7 +307,7 @@ From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or 
 As of May 7, 2020, **confirmed and probable cases** are included in the case totals.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalCapacity?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalSummary?%3Aembed=y&%3AshowVizHome=no,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,All data,false,Kansas,20
 KY,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On December 24, 2020 and December 25, 2020, Kentucky did not update their data by the time of our daily update, presumably due to the holiday.
+On December 24, 2020, December 25, 2020, and December 31, 2020, Kentucky did not update their data by the time of our daily update, presumably due to the holidays.
 
 On November 26, 2020, Kentucky did not update their data by the time of our daily update, presumably due to the Thanksgiving holiday.
 
@@ -398,7 +398,7 @@ Our source for **Now hospitalized** and **Now in ICU** data in Michigan generall
 
 Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard. 
 
-On December 24, 2020, Michigan announced on their [COVID-19 page](https://www.michigan.gov/coronavirus/) that their data would not be updated on December 24, 2020, or December 25, 2020 due to the holiday.
+On December 23, 2020, Michigan announced via a [press release](https://www.michigan.gov/coronavirus/) that their data would not be updated on December 24, 2020, December 25, 2020, December 31, 2020, or January 1, 2021 due to the holidays.
 
 On November 24, 2020, Michigan announced via a [press release](https://www.michigan.gov/coronavirus/0,9753,7-406-98158-545993--,00.html) that there would be no update to their data on November 26, 2020 due to Thanksgiving holiday. On November 27, 2020, the state resumed data reporting where case counts would include cases since Wednesday, November 25, 2020. The state estimated that the average number of cases across November 26 and November 27, 2020 would be 8,581 cases per day.
 
@@ -482,6 +482,8 @@ NC,"The metric reported in our API as `totalTestsAntigen` only includes tests re
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On December 30, 2020, North Carolina announced on its [dashboard](https://covid19.ncdhhs.gov/dashboard) that due to holiday-related disruptions and technical issues, data reported on December 30, 2020 was artificially higher than usual and includes 36 hours of data, while data reported on December 31, 2020 was artificially lower than usual and includes only 12 hours of data.
+
 On December 24, 2020, North Carolina announced that their data would not be updated on December 24, 2020, or December 25, 2020 due to the holiday.
 
 On November 26, 2020, North Carolina announced on their [COVID-19 Data Dashboard](https://covid19.ncdhhs.gov/dashboard) that there would be no update to their data on November 26, 2020 due to the thanksgiving holiday. However, on November 27, 2020, they will provide data retroactively for November 26, 2020 and we will backfill our historical data accordingly.
@@ -497,7 +499,7 @@ On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,posNeg,posNeg,Only positives,false,North Carolina,37
 ND,"As of December 30, 2020, North Dakota's total test metrics [now include both antigen and PCR test results](https://twitter.com/NDDOH/status/1344329384262451201).
 
-On December 30, 2020, we carried over the existing value for **Negative PCR Tests (people)** while we evaluate the source for that metric.
+From December 30, 2020 to December 31, 2020, we carried over the existing value for **Negative PCR Tests (people)** while we evaluate the source for that metric.
 
 On December 25, 2020, North Dakota announced on their [COVID-19 dashboard](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) that there would be no update to their data on December 25, 2020 due to the Christmas holiday.
 
@@ -666,6 +668,8 @@ RI,"Rhode Island combines PCR and antigen tests in the total tests figure report
 The **Recovered** data point we report for Rhode Island reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
 On December 26, 2020, we cleared Rhode Island's **Positive Cases (PCR)** field as we learned from outreach it includes antigen tests in the figure. The full history remains available in the **Positive** field.
+
+On December 31, 2020, Rhode Island announced on their [COVID-19 dashboard](https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com) that their data would not be updated on December 31, 2020 through January 3, 2021. Their data will next be updated on January 4, 2021.
 
 On December 24, 2020, Rhode Island announced on their [COVID-19 dashboard](https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com) that their data would not be updated on December 24, 2020 through December 27, 2020. Their data will next be updated on December 28, 2020.
 
