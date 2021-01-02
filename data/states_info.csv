@@ -75,9 +75,9 @@ Arizona regularly reviews and removes duplicate records which may occasionally r
 
 The **Recovered** data point we report for Arizona reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)** in the absence of better data.
 
-On December 28, 2020, Arizona [noted](https://twitter.com/AZDHS/status/1343575976026886144) that due to the holiday weekend, multiple days of case reviews were completed, resulting in the data for December 28, 2020 being higher than usual. As a result, they reported more Positive PCR tests (people) than Total PCR tests (people), which caused their Negative PCR tests (people), which is calculated as Total PCR tests (people) minus Positive PCR tests (people) to decrease.
+On December 28, 2020, Arizona [noted](https://twitter.com/AZDHS/status/1343575976026886144) that due to the holiday weekend, multiple days of case reviews were completed, resulting in the data for December 28, 2020 being higher than usual. As a result, they reported a larger increase in Confirmed cases than Total PCR tests (people), which caused their Negative PCR tests (people), which is calculated as Total PCR tests (people) minus Confirmed cases, to decrease.
 
 As of December 10, 2020, Arizona's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. We backfilled the data for March 2 2020 through December 8 2020 using the time-series posted on Arizona's dashboard as [Diagnostic Tests Conducted](https://tableau.azdhs.gov/views/ELRv2testlevelandpeopletested/TestsConducted?:isGuestRedirectFromVizportal=y&:embed=y). 
 
@@ -129,7 +129,7 @@ CT,"Negative test results reported in our API and CSVs are calculated by subtrac
 
 The **Recovered** data point we report for Connecticut reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Connecticut stopped reporting hospital discharges on October 22, 2020: we are carrying over the last known value of 9800 until we can obtain new data.
 
-On December 25, 2020, Connecticut announced on their COVID-19 page](https://portal.ct.gov/Coronavirus/COVID-19-Data-Tracker) that there would be no update to their data on December 25, 2020 through December 27, 2020 or on January 1, 2021 due to the holidays.
+On December 25, 2020, Connecticut announced on their [COVID-19 page](https://portal.ct.gov/Coronavirus/COVID-19-Data-Tracker) that there would be no update to their data on December 25, 2020 through December 27, 2020 or on January 1, 2021 due to the holidays.
 
 On November 26, 2020, Connecticut announced via a [press release](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2020/11-2020/Governor-Lamont-Coronavirus-Update-November-25) that there would be no update to their data on November 26, 2020 due to the Thanksgiving holiday. Additionally, the data for November 26, 2020 and November 27, 2020 will both be included in the November 27, 2020 update.
 
@@ -311,9 +311,7 @@ From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or 
 As of May 7, 2020, **confirmed and probable cases** are included in the case totals.",https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalCapacity?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/TestingRates?%3Aembed=y&%3AshowVizHome=no,https://public.tableau.com/views/COVID-19TableauVersion2/HospitalSummary?%3Aembed=y&%3AshowVizHome=no,,@kdhe,http://www.kdheks.gov/coronavirus/,People,posNeg,posNeg,All data,false,Kansas,20
 KY,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On December 31, 2020 and January 1, 2021, Kentucky did not update their data by the time of our daily update, presumably due to the New Year holiday.
-
-On December 24, 2020, December 25, 2020, and December 31, 2020, Kentucky did not update their data by the time of our daily update, presumably due to the holidays.
+On December 24, 2020, December 25, 2020, December 31, 2020 and January 1, 2021, Kentucky did not update their data by the time of our daily update, presumably due to the holidays.
 
 On November 26, 2020, Kentucky did not update their data by the time of our daily update, presumably due to the Thanksgiving holiday.
 
@@ -355,7 +353,7 @@ MA,"Negative test results reported in our API and CSVs are calculated by subtrac
 
 On December 25, 2020, Massachusetts announced on their [COVID-19 page](https://www.mass.gov/info-details/covid-19-response-reporting) that there would be no update to their data on December 25, 2020, or on January 1, 2021. Additionally, they noted that data reported on December 26, 2020 and January 2, 2021 would each include two days of data.
 
-On November 26, 2020, Massachusetts announced on their [COVID-19 Response Reporting page](https://www.mass.gov/info-details/covid-19-response-reporting) that there would be no update to their data on November 26, 2020 due to the the Thanksgiving holiday. Additionally, they announced that the data for November 27, 2020 would include both the data for November 26, 2020 and November 27, 2020.
+On November 26, 2020, Massachusetts announced on their COVID-19 page that there would be no update to their data on November 26, 2020 due to the the Thanksgiving holiday. Additionally, they announced that the data for November 27, 2020 would include both the data for November 26, 2020 and November 27, 2020.
 
 On November 25, 2020, Massachusetts reported that their data “was delayed today due to a technological issue that resulted in an interruption of the data download. As a result, today’s numbers reflect case counts from up to a 30 hour period"" instead of the usual previous 24-hour period.
 
@@ -373,7 +371,7 @@ On July 31, 2020, Massachusetts noted that ""Delays in the reporting of test res
 
 On June 30, 2020, Massachusetts decreased the number of **cumulative hospitalizations** and **confirmed and probable deaths** ""due to ongoing data cleaning which identifies and removes duplicate reports.""
 
-On June 1, 2020, Massachusetts began to report **probable cases** and **probable deaths*, causing **Total cases** and **Total deaths** to appear to increase sharply in our data. ",https://www.mass.gov/doc/covid-19-dashboard-january-1-2021/download,https://www.mass.gov/doc/weekly-covid-19-public-health-report-january-1-2021/download,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
+On June 1, 2020, Massachusetts began to report **probable cases** and **probable deaths*, causing **Total cases** and **Total deaths** to appear to increase sharply in our data. ",https://www.mass.gov/doc/covid-19-dashboard-january-2-2021/download,https://www.mass.gov/doc/weekly-covid-19-public-health-report-january-2-2021/download,,,,@massdph,https://www.mass.gov/resource/information-on-the-outbreak-of-coronavirus-disease-2019-covid-19,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Massachusetts,25
 MD,"As of October 16, 2020, Maryland’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative. This will result in TotalTestResults only going back to 3/24 instead of 3/5.
 
 On August 31, 2020, we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.
@@ -404,7 +402,7 @@ Our source for **Now hospitalized** and **Now in ICU** data in Michigan generall
 
 Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard. 
 
-On December 23, 2020, Michigan announced via a [press release](https://www.michigan.gov/coronavirus/) that their data would not be updated on December 24, 2020, December 25, 2020, December 31, 2020, or January 1, 2021 due to the holidays.
+On December 23, 2020, Michigan announced via a [press release](https://www.michigan.gov/coronavirus/0,9753,7-406-98158-548250--,00.html) that their data would not be updated on December 24, 2020, December 25, 2020, December 31, 2020, or January 1, 2021 due to the holidays.
 
 On November 24, 2020, Michigan announced via a [press release](https://www.michigan.gov/coronavirus/0,9753,7-406-98158-545993--,00.html) that there would be no update to their data on November 26, 2020 due to Thanksgiving holiday. On November 27, 2020, the state resumed data reporting where case counts would include cases since Wednesday, November 25, 2020. The state estimated that the average number of cases across November 26 and November 27, 2020 would be 8,581 cases per day.
 
@@ -419,11 +417,11 @@ On June 11, 2020, we updated our historical data from a spreadsheet provided by 
 Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173-531113--,00.html",https://app.powerbigov.us/view?r=eyJrIjoiNDY0ZGVlMDItMzUzNC00ZGE5LWFjYzQtNzliOGJkZWQ4YTgzIiwidCI6ImQ1ZmI3MDg3LTM3NzctNDJhZC05NjZhLTg5MmVmNDcyMjVkMSJ9,,@MichiganHHS,https://www.michigan.gov/coronavirus,Specimens,totalTestsViral,posNeg,All data,false,Michigan,26
 MN,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
- On December 25, 2020, Minnesota announced on their [COVID-19 page](https://www.health.state.mn.us/diseases/coronavirus/situation.html) that there would be no update to their data on December 25, 2020 due to the holiday. On January 1, 2021, they announced that there would be no update to their data on January 1, 2021 due to the holiday.
+On December 25, 2020, Minnesota announced on their [COVID-19 page](https://www.health.state.mn.us/diseases/coronavirus/situation.html) that there would be no update to their data on December 25, 2020 due to the holiday. On January 1, 2021, they announced that there would be no update to their data on January 1, 2021 due to the holiday.
 
-On November 28, 2020 Minnesota announced on their COVID-19 page that the data reported on November 28, 2020, would include data for both November 26, 2020, and November 27, 2020 due to the fact that they did not update their data on November 26, 2020 because of the Thanksgiving holiday. As a result, figures reported on November 28, 2020 include data reported during the previous 48 hour period, as opposed to the previous 24 hours.
+On November 28, 2020 Minnesota announced on their COVID-19 page that the data reported on that day, would include data for both November 26, 2020, and November 27, 2020 due to the fact that they did not update their data on November 26, 2020 because of the Thanksgiving holiday. As a result, figures reported on November 28, 2020 include data reported during the previous 48 hour period, as opposed to the previous 24 hours.
 
-On November 26, 2020, Minnesota announced on their [COVID-19 page](https://www.health.state.mn.us/diseases/coronavirus/situation.html) that there would be no update to their data on November 26, 2020 due to the Thanksgiving holiday. Because Minnesota’s data is “current as of 4 p.m. the previous day”, this change in their reporting schedule results in the data reported for November 27, 2020 being the data that would normally have been reported on November 26, 2020.
+On November 26, 2020, Minnesota announced on their COVID-19 page that there would be no update to their data on November 26, 2020 due to the Thanksgiving holiday. Because Minnesota’s data is “current as of 4 p.m. the previous day”, this change in their reporting schedule results in the data reported for November 27, 2020 being the data that would normally have been reported on November 26, 2020.
 
 From September 27 to October 4, 2020, Minnesota did not report the current number of hospitalizations or patients in the ICU. We froze these values through October 2, 2020. On October 3, 2020, we removed the values in accordance with our policy of not carrying over current values for longer than 7 days. The values were restored on October 4, 2020.
 
@@ -477,20 +475,20 @@ As of May 23, 2020, Mississippi is separating out PCR and antibody tests. We now
 ","https://msdh.ms.gov/msdhsite/_static/14,0,420.html","https://msdh.ms.gov/msdhsite/_static/14,21994,420,873.html",,,,@msdh,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",Specimens,posNeg,posNeg,Only positives,false,Mississippi,28
 MT,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On December 25, 2020, Montana announced on their [COVID-19 dashboard](https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b) that there would be no update to their data on December 25, 2020, or on January 1, 2021 due to the holidays. We were able to update Currently in ICU and Currently on Ventilator from Montana's separate [source](https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics).
+On December 25, 2020, Montana announced on their [COVID-19 dashboard](https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b) that there would be no update to their data on December 25, 2020, or on January 1, 2021 due to the holidays. We were able to update Currently in ICU and Currently on Ventilator from Montana's separate [hospitalization source](https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics).
 
 On December 14, 2020, Montana announced that due to updates to their data reporting system on December 13, 2020, no new cases could be reported on December 13, 2020. We were unable to update Cases (confirmed + probable) and Negative PCR tests (people) on December 14, 2020.
 
 On November 16, 2020, Montana’s Confirmed cases increased by more than their Total PCR tests (specimens) without explanation. As a result Negative test results which are calculated by subtracting Confirmed cases from Total PCR tests (specimens) decreased.
 
-On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,https://dphhs.mt.gov/Portals/85/publichealth/documents/CDEpi/DiseasesAtoZ/2019-nCoV/Status%20Update%20Data%20Report_12312020.pdf,,,@dphhsmt,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt,Specimens,totalTestsViral,posNeg,All data,false,Montana,30
+On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,https://dphhs.mt.gov/Portals/85/publichealth/documents/CDEpi/DiseasesAtoZ/2019-nCoV/Status%20Update%20Data%20Report_1012021.pdf,,,@dphhsmt,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt,Specimens,totalTestsViral,posNeg,All data,false,Montana,30
 NC,"The metric reported in our API as `totalTestsAntigen` only includes tests reported after September, 22, 2020. If previous values become available from North Carolina we will backfill the complete time series. 
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On December 30, 2020, North Carolina announced on its [dashboard](https://covid19.ncdhhs.gov/dashboard) that due to holiday-related disruptions and technical issues, data reported on December 30, 2020 was artificially higher than usual and includes 36 hours of data, while data reported on December 31, 2020 was artificially lower than usual and includes only 12 hours of data.
 
-On December 24, 2020, North Carolina announced on their [COVID-19 dashboard](https://covid19.ncdhhs.gov/dashboard) that their data would not be updated on December 24, 2020, or December 25, 2020 due to the holiday. On January 1, 2021, they noted that there would be no update to their data on January 1, 2021 due to the holiday.
+On December 24, 2020, North Carolina announced on their COVID-19 dashboard that their data would not be updated on December 24, 2020, or December 25, 2020 due to the holiday. On January 1, 2021, they noted that there would be no update to their data on January 1, 2021 due to the holiday.
 
 On November 26, 2020, North Carolina announced on their [COVID-19 Data Dashboard](https://covid19.ncdhhs.gov/dashboard) that there would be no update to their data on November 26, 2020 due to the thanksgiving holiday. However, on November 27, 2020, they will provide data retroactively for November 26, 2020 and we will backfill our historical data accordingly.
 
@@ -517,15 +515,15 @@ On December 9, 2020, North Dakota began reporting **Probable Cases,** which it d
 
 On December 8, 2020, North Dakota  announced that they would not be updating their website due to site construction as they prepare to add antigen tests to their dashboard. As a result, we were unable to update their data on December 8, 2020.
 
-On December 3, 2020, North Dakota stopped reporting patients Hospitalized with COVID on their [COVID-19 dashboard](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) to “eliminate the discrepancy” between patients Hospitalized with COVID and patients Hospitalized due to COVID. As of December 3, 2020, North Dakota’s **Currently hospitalized** will include only patients hospitalized due to COVID.
+On December 3, 2020, North Dakota stopped reporting patients Hospitalized with COVID on their COVID-19 dashboard to “eliminate the discrepancy” between patients Hospitalized with COVID and patients Hospitalized due to COVID. As of December 3, 2020, North Dakota’s **Currently hospitalized** will include only patients hospitalized due to COVID.
 
 On December 1, 2020, we made changes to our historical deaths counts, changing our **Deaths (confirmed)** source from “Deaths Due to COVID-19” to “Total number of individuals who tested positive and died from any cause while infected with COVID-19.” We had originally switched to use “Deaths Due to COVID-19” on July 1, 2020, but because of growing backlogs of individuals with COVID-19 tests whose death certificates have not yet been filed were not being picked up in the figure, we switched back to best reflect the reality in the state. The change caused a 241 cumulative rise in North Dakota’s death figures.
 
-On October 8, 2020, North Dakota released two figures describing those who are currently hospitalized. According to the [state dashboard annotation](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases), the ""Hospitalized with COVID"" figure describes those whose main reason for hospitalization is COVID-19, and it also includes all those who are ""Hospitalized due to COVID"". We are using the ""Hospitalized with COVID"" figure for our **Currently hospitalized** and **Currently in ICU** metrics, however there are not matching Cumulative metrics so we are using the ""Due to COVID"" Cumulative hospitalized and ICU figures.
+On October 8, 2020, North Dakota released two figures describing those who are currently hospitalized. According to the state dashboard annotation, the ""Hospitalized with COVID"" figure describes those whose main reason for hospitalization is COVID-19, and it also includes all those who are ""Hospitalized due to COVID"". We are using the ""Hospitalized with COVID"" figure for our **Currently hospitalized** and **Currently in ICU** metrics, however there are not matching Cumulative metrics so we are using the ""Due to COVID"" Cumulative hospitalized and ICU figures.
 
 On November 12, 2020, North Dakota explained that higher than normal fluctuations may be seen in data from the week of November 9, 2020, due to a software issue which has been resolved.
 
-On November 12, 2020, North Dakota [announced](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) that the high number of tests and positives was due in part to 5600 test backlog experienced by a third-party lab.
+On November 12, 2020, North Dakota announced on their COVID-19 dashboard that the high number of tests and positives was due in part to 5600 test backlog experienced by a third-party lab.
 
 On November 11, 2020, North Dakota reported two days of data for all metrics except for Total PCR tests (specimens), Confirmed cases, and Positive cases (confirmed + probable).
 
@@ -538,7 +536,7 @@ On September 9, 2020, North Dakota began reporting “Susceptible Encounters” 
 On August 19, 2020, North Dakota launched a new dashboard with a number of new data points, including race and ethnicity data and ICU data. ",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,North Dakota,38
 NE,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric.
 
-On December 26, 2020, Nebraska’s Ever hospitalized decreased by 3, their Recovered decreased by 4265, and their Deaths (confirmed + probable) decreased by 10 without explanation.
+On December 26, 2020, Nebraska’s **Ever hospitalized** decreased by 3, their Recovered decreased by 4265, and their Deaths (confirmed + probable) decreased by 10 without explanation.
 
 On November 13, 2020, Nebraska's cumulative hospitalized count dropped by 21 without explanation.
 
@@ -555,7 +553,7 @@ On January 1, 2021, New Hampshire did not update their COVID-19 data by the time
 
 On December 26, 2020, we began capturing New Hampshire's ""Antigen Positive"" cases as **Probable cases** instead of **Positive antigen tests (people)** and revised its historical numbers so that **Confirmed cases** reflected only PCR positives. We also modified *Negative (people or cases)* to subtract these confirmed cases. Because negatives are calculated from lumped figures including antigen before November 20, negatives are artificially high on that day.
 
-On December 25, 2020, New Hampshire did not update their data by the time of our daily update, presumably due to the Christmas holiday.
+On December 25, 2020, New Hampshire did not update their data, presumably due to the Christmas holiday.
 
 On November 13, 2020, New Hampshire announced: ""The Dashboard Service is currently undergoing system maintenance and will be restored by November 16, 4:00 PM EST.""  This means **Total tests (in specimens)**, **Ever hospitalized**, **Ever in ICU**, and **Total Antibody Tests** will not be updated during this time.
 
@@ -624,7 +622,7 @@ On November 18, 2020, Ohio reported 5246480 **Total PCR tests (specimens)** - th
 ",https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations,,,@OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,Unclear units,posNeg,posNeg,All data,false,Ohio,39
 OK,"On December 27, 2020, we cleared Oklahoma's **Positive Cases (PCR)** field from October 19 onward. On September 8, 2020, Oklahoma [announced](https://oklahoma.gov/covid19/newsroom/2020/september/situation-update-covid-19-09082020.html) in a press release that it would transition to counting both confirmed and probable cases, instead of just confirmed cases. This change appears to have taken effect on October 19, 2020, when OK [stopped calling](https://oklahoma.gov/covid19/newsroom/2020/october/situation-update-covid-19-10192020.html) its cases ""confirmed positive cases"" in press releases, as it had before, switching the wording to ""cases."" 
 
-On December 22, 2020, Oklahoma noted via a [press release](https://oklahoma.gov/covid19/newsroom/2020/december/osdh-releases-covid-19-reporting-cadence-for-upcoming-holidays.html) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data for December 26, 2020 would include only the data that would have been reported on December 25, 2020, and the data for December 27, 2020 would include data for both December 26, 2020 and December 27, 2020. As a result of their executive order reports being on a one day lag, we were able to report all metrics except for Positive PCR tests (people), Cases (confirmed + probable), Ever hospitalized, Recovered, and Deaths (confirmed + probable) on December 25, 2020. We were only able to update Positive PCR tests (people), Cases (confirmed + probable), Ever hospitalized, Recovered, and Deaths (confirmed + probable) on December 26, 2020. They also noted that this change in reporting schedule may cause some data to be “artificially inflated”, and as with all data from this period, we urge caution is using these figures.
+On December 22, 2020, Oklahoma noted via a [press release](https://oklahoma.gov/covid19/newsroom/2020/december/osdh-releases-covid-19-reporting-cadence-for-upcoming-holidays.html) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data for December 26, 2020 would include only the data that would have been reported on December 25, 2020, and the data for December 27, 2020 would include data for both December 26, 2020 and December 27, 2020. As a result of their executive order reports being on a one day lag, we were able to report all metrics except for Confirmed cases, Cases (confirmed + probable), Ever hospitalized, Recovered, and Deaths (confirmed + probable) on December 25, 2020. We were only able to update Confirmed cases, Cases (confirmed + probable), Ever hospitalized, Recovered, and Deaths (confirmed + probable) on December 26, 2020. They also noted that this change in reporting schedule may cause some data to be “artificially inflated”, and as with all data from this period, we urge caution is using these figures.
 
 On December 17, 2020, Oklahoma announced that due to technical issues on December 16, 2020, they were unable to update their testing data. As a result, we were unable to update **Total PCR tests (specimens)**, **Positive PCR tests (specimens)**, **Negative PCR tests (specimens)**, or Negative PCR tests (people) on December 17, 2020.
 
@@ -636,7 +634,7 @@ On November 25, 2020, Oklahoma announced via a [COVID-19 Situation update](https
 
 On July 19 and July 20, Oklahoma noted that reported **Total cases** numbers were inaccurately low due to technical issues. 
 
-Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. We excluded these figures from our data, as we assumed these individuals were isolated outside the state.",https://oklahoma.gov/covid19.html,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_12-31-20.pdf,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/2020.12.31_weekly_epi_report.pdf,,,@HealthyOklahoma,https://coronavirus.health.ok.gov,Specimens,posNeg,posNeg,All data,false,Oklahoma,40
+Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. We excluded these figures from our data, as we assumed these individuals were isolated outside the state.",https://oklahoma.gov/covid19.html,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/eo_-_covid-19_report_-_1-1-21.pdf,https://coronavirus.health.ok.gov/sites/g/files/gmc786/f/2020.1.1_weekly_epi_report.pdf,,,@HealthyOklahoma,https://coronavirus.health.ok.gov,Specimens,posNeg,posNeg,All data,false,Oklahoma,40
 OR,"As of December 9, 2020, Oregon’s total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. This change will cause Oregon’s `totalTestResults` to begin on March 29, 2020 instead of March 4, 2020. Because Oregon’s totalTestsViral represent only electronic laboratory reporting, whereas its cases and negatives represented tests from all sources, this change causes a decrease of 10,296 tests in `totalTestResults` on March 29. The old numbers remain available by summing the positive and negative fields of our API.
 In addition, Oregon has not reported their total tests in people units since December 2, 2020 and they indicated that they will not continue to report total tests in people, so we have removed any values in **Total PCR tests (people)** we previously carried over.
 
@@ -675,11 +673,11 @@ RI,"Rhode Island combines PCR and antigen tests in the total tests figure report
 
 The **Recovered** data point we report for Rhode Island reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
-On December 26, 2020, we cleared Rhode Island's **Positive Cases (PCR)** field as we learned from outreach it includes antigen tests in the figure. The full history remains available in the **Positive** field.
-
 On December 31, 2020, Rhode Island announced on their [COVID-19 dashboard](https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com) that their data would not be updated on December 31, 2020 through January 3, 2021. Their data will next be updated on January 4, 2021.
 
-On December 24, 2020, Rhode Island announced on their [COVID-19 dashboard](https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com) that their data would not be updated on December 24, 2020 through December 27, 2020. Their data will next be updated on December 28, 2020.
+On December 26, 2020, we cleared Rhode Island's **Positive Cases (PCR)** field as we learned from outreach it includes antigen tests in the figure. The full history remains available in the **Positive** field.
+
+On December 24, 2020, Rhode Island announced on their COVID-19 dashboard that their data would not be updated on December 24, 2020 through December 27, 2020. Their data will next be updated on December 28, 2020.
 
 On November 26, 2020, Rhode Island did not update their data by the time of our daily update, presumably due to the Thanksgiving holiday.
 
@@ -726,7 +724,8 @@ Tennessee continually updates its **Currently hospitalized / Now hospitalized** 
 
 On January 1, 2021, the Tennessee Department of Health [announced](https://twitter.com/TNDeptofHealth/status/1345117770543996940?s=20) that its update for January 2, 2021 would include data from both January 1 and January 2, presumably because of the holiday. We were able to update **Now hospitalized** from Tennessee’s separate [hospitalization source](https://www.tn.gov/health/cedep/ncov/data/hospitalization-data/current-covid-hospitalizations.html).
 
-On December 25, 2020, Tennessee did not provide a data update by the time of our daily update, likely due to the holiday. We were able to update **Now hospitalized** from Tennessee’s separate [hospitalization source](https://www.tn.gov/health/cedep/ncov/data/hospitalization-data/current-covid-hospitalizations.html). Additionally, they [noted](https://twitter.com/TNDeptofHealth/status/1342952651022086147) that the data reported on December 26, 2020, included two days of data, and that the number of deaths reported were “limited” due to the holiday.
+On December 25, 2020, Tennessee did not provide a data update, likely due to the holiday. We were able to update **Now hospitalized** from Tennessee’s separate [hospitalization source](https://www.tn.gov/health/cedep/ncov/data/hospitalization-data/current-covid-hospitalizations.html). Additionally, they [noted](https://twitter.com/TNDeptofHealth/status/1342952651022086147) that the data reported on December 26, 2020, included two days of data, and that the number of deaths reported were “limited” due to the holiday.
+
 On December 19, 2020, Tennessee announced that due to the volume of tests being processed they will likely release a combined report with data from both December 19, 2020 and December 20, 2020 on December 20, 2020. As a result, we were unable to update their data on December 20, 2020.
 
 On December 12, 2020, Tennessee [announced](https://twitter.com/tndeptofhealth/status/1337869853621964805?s=21) via the official Tennessee Department of Heath twitter that the data for December 12, 2020 is incomplete and does not include all negative test results. Please exercise caution when looking at data from this time period and be aware that 7 day averages may be a more reliable metric than individual figures at this moment.
