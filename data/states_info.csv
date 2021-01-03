@@ -253,7 +253,7 @@ ID,"Idaho's data is on a 1 day lag in our timeseries due to consistently updatin
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)** in the absence of better data. 
 
-On December 25, 2020, Idaho [announced](https://twitter.com/IDHW) via the official Idaho Department of Health and Welfare twitter that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Because Idaho's data is on a one day lag in our timeseries, we were unable to update their data on December 26, 2020.
+On December 25, 2020, Idaho [announced](https://twitter.com/IDHW) via the official Idaho Department of Health and Welfare twitter that there would be no update to their data on December 25, 2020 due to the Christmas holiday. On December 31, 2020, they [noted](https://twitter.com/IDHW/status/1344793943876145152) that there would be no update to their data on January 1, 2021. Because Idaho's data is on a one day lag in our timeseries, we were unable to update their data on December 26, 2020 and January 2, 2021.
 
 On December 9, 2020, Idaho's **Total PCR Tests (People)** dropped from 492,265 from 494,914 with no explanation.
 
@@ -401,6 +401,8 @@ MI,"Michigan updates its **Recovered** metric weekly and does not update any dat
 Our source for **Now hospitalized** and **Now in ICU** data in Michigan generally updates on Mondays and Fridays only. 
 
 Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard. 
+
+On January 2, 2021, Michigan did not publish updated testing data by the time of our daily update. As a result, we were unable to update Total Antibody Tests, Total Tests (PCR), Positive Tests (PCR), Negative Tests (PCR), or Negative (People or Cases) on January 2, 2021.
 
 On December 23, 2020, Michigan announced via a [press release](https://www.michigan.gov/coronavirus/0,9753,7-406-98158-548250--,00.html) that their data would not be updated on December 24, 2020, December 25, 2020, December 31, 2020, or January 1, 2021 due to the holidays.
 
@@ -688,7 +690,7 @@ On September 25, 2020, Rhode Island removed 240 duplicate cases from its case co
 As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**.",https://health.ri.gov/data/covid-19/,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/gviz/tq?tqx=out:csv&sheet=1592746937,,,@rihealth,https://health.ri.gov/diseases/respiratory/?parm=163,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Rhode Island,44
 SC,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On December 21, 2020, South Carolina [announced](https://twitter.com/scdhec/status/1341089396876042241) via the official South Carolina Public Health and Environmental Protection Agency twitter, that there would be no update to their data on December 25, 2020, or on January 1, 2021 due to the holidays. Additionally, they [noted](https://twitter.com/scdhec/status/1343239000593731595) that the data for December 26, 2020 would include two days of data. 
+On December 21, 2020, South Carolina [announced](https://twitter.com/scdhec/status/1341089396876042241) via the official South Carolina Public Health and Environmental Protection Agency twitter, that there would be no update to their data on December 25, 2020, or on January 1, 2021 due to the holidays. Additionally, they noted that the data for [December 26, 2020](https://twitter.com/scdhec/status/1343239000593731595) and [January 2, 2021](https://twitter.com/scdhec/status/1345428961917104133?s=20) would each include two days of data. 
 
 On December 20, 2020, South Carolina noted that their Currently hospitalized figure was larger than normal due to an error in facilities reporting. Their Currently hospitalized increased from 1461 to 1471.
 
@@ -838,7 +840,7 @@ As of December 20, 2020, Washington no longer updates their data on Sundays. Bec
 
 On December 29, 2020, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20201230-001452.png) that their death data included a “backlog of roughly 200 cases that were previously unreported due to a processing issue”. Because Washington’s data is on a one day lag in our timeseries, this affects our data for December 30, 2020. 
 
-On December 25, 2020, Washington announced on their [COVID-19 dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Because Washington’s data is on a one day lag in our timeseries, we were unable to update their data on December 26, 2020.
+On December 25, 2020, Washington announced on their [COVID-19 dashboard](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. On January 1, 2020, they noted that there would be no update to their data on January 1, 2021 due to the New Years holiday. Because Washington’s data is on a one day lag in our timeseries, we were unable to update their data on December 26, 2020 and January 2, 2021.
 
 On December 23, 2020, Washington announced that due to an issue with their hospital reporting process, their hospital data was incomplete. Because Washington’s data is on a one day lag in our timeseries, this affects our data for December 24, 2020.
 
