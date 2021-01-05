@@ -26,6 +26,7 @@ jobs:
         curl -k https://healthdata.gov/dataset/covid-19-estimated-patient-impact-and-hospital-capacity-state | grep -Eo "https?://\S+?\.csv" | while read -r line ; do
           cd data/hhs && { curl -k $line -O; cd -; }
         done
+        curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data -o data/cdc_vaccinations.json
         curl https://data.cdc.gov/api/views/9mfq-cb36/rows.csv?accessType=DOWNLOAD -o data/cdc_cases_deaths.csv
         curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=integrated_county_latest_external_data -o data/cdc_counties.csv
 
