@@ -24,6 +24,7 @@ jobs:
         curl https://api.covidtracking.com/v1/us/current.csv -o data/us_current.csv
         curl https://api.covidtracking.com/v1/us/daily.csv -o data/us_daily.csv
         curl https://api.covidtracking.com/v1/counties.csv -o data/counties.csv
+        curl -L "https://docs.google.com/spreadsheets/d/1MvvbHfnjF67GnYUDJJiNYUmGco5KQ9PW0ZRnEP9ndlU/pub?gid=115892946&single=true&output=csv" -o data/states_matrix.csv
         curl -L "https://docs.google.com/spreadsheets/d/1tq_treJNLepYmhZzGtWCPJe8NS2w1qEpXfEoyfRVsWk/pub?gid=43720681&single=true&output=csv" -o data/crdt.csv
         curl -L "https://docs.google.com/spreadsheets/d/1Kyn3w9_NPYcjNO8a0QMtH6tQhkcFWi0wJdJ92sywMnI/gviz/tq?tqx=out:csv&sheet=Data_v2" -o data/ltc.csv
     
