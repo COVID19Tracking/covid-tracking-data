@@ -3,6 +3,8 @@ AK,"Alaska combines PCR and antigen tests in the total tests figure reported on 
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On January 4, 2020, Alaska noted that ""counted deaths in Alaska include COVID-19 cases confirmed through a lab result as well as probable deaths based on confirmed COVID-19 clinical and epidemiological criteria as defined by the CDC with no confirmatory lab testing."" Due to this change we are unable to update the **Confirmed deaths** metric after January 4, 2020.
+
 On January 1, 2021, Alaska noted that there would be no update to their data on January 1, 2021.
 
 On December 25, 2020, Alaska announced on their [COVID Response Hub](https://coronavirus-response-alaska-dhss.hub.arcgis.com)that there would be no update to their data on December 25, 2020. 
@@ -24,7 +26,7 @@ AL,"Alabama combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On January 5, 2021, Alabama noted on their [COVID-19 dashboard](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7) that the cases reported on January 5, 2021 were high due to a delay in testing and reporting over the holiday weekend.
+On January 5, 2021, Alabama noted on their [COVID-19 dashboard](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7) that the cases reported on January 5, 2021 were high due to a delay in testing and reporting over the holiday weekend. On January 7, 2021, they noted that cases and deaths reported through the week of January 7, 2021, may be affected by holiday related reporting delays. We urge caution in using figures from this time period, and encourage the use of 7 and 14-day averages as more reliable metrics.
 
 On December 18, 2020, Alabama announced that a backlog of 382 positive PCR test results from December 10, 2020 through December 13, 2020 will be classified as being reported on December 17, 2020.
 
@@ -822,6 +824,8 @@ VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, 
 
 The Virgin Islands provides irregular data updates, so changes in values often represent multiple days of data.",https://doh.vi.gov/covid19usvi,,,,,@usvidoh,https://doh.vi.gov/,Unclear units,posNeg,posNeg,Positives Only,false,US Virgin Islands,78
 VT,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**. 
+
+On January 4, 2020, Vermont posted that ""the numbers of COVID-19 deaths now includes deaths among probable cases since September 6, 2020."" Due to this change we are unable to update the **Confirmed deaths** metric after January 4, 2020.
 
 On December 23, 2020, Vermont announced on their [COVID-19 page](https://www.healthvermont.gov/response/infectious-disease/2019-novel-coronavirus)that there would be no update to their data on December 24, 2020 or December 25, 2020. On January 1, 2020, they noted that there would be no update to their data on January 1, 2020. 
 
