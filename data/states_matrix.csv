@@ -339,7 +339,7 @@ CO primary > toggle dark blue rectangle below dashboard ""Hospital data snapshot
 
 note: scroll beneath dashboard for toggle, do not click the button near the top of the dashboard labeled Hospital Data","CO primary > ""Deaths Among Cases""
 ","CO primary > toggle button ""Case summary snapshot"" > ""Confirmed deaths among cases""","CO primary > toggle button ""Case summary snapshot"" > ""Probable deaths among cases""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://covid19.colorado.gov/data/case-data,CO
-CT,Connecticut,https://data.ct.gov/stories/s/COVID-19-data/wa3g-tfvc/,https://portal.ct.gov/Coronavirus/COVID-19-Data-Tracker,https://www.twitter.com/ctdph,https://portal.ct.gov/Coronavirus/Pages/Governors-Press-Releases,https://turnips.covidtracking.com/#CT,,,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
+CT,Connecticut,https://data.ct.gov/stories/s/COVID-19-data/wa3g-tfvc/,https://portal.ct.gov/Coronavirus/COVID-19-Data-Tracker,https://www.twitter.com/ctdph,https://portal.ct.gov/Coronavirus/Pages/Governors-Press-Releases,https://turnips.covidtracking.com/#CT,https://data.ct.gov/Health-and-Human-Services/COVID-19-DPH-Reports-Library/bqve-e8um,,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 The **Recovered** data point we report for Connecticut reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized. Connecticut stopped reporting hospital discharges on October 22, 2020: we are carrying over the last known value of 9800 until we can obtain new data.
 
@@ -361,13 +361,12 @@ On May 27, 2020, Connecticut deduplicated some of its data, resulting in a decre
 
 usually:
 yesterday / 20:30
-. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: never
+. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: thursday 
 
-CT primary > button for ""Daily Data Report"" > title ""Antigen Tests"" > in first sentence ""... a total of [value] COVID-19 antigen laboratory tests...""
+CT other > table ""Preview"" > click most recent ""COVID-19 Update"" > title ""Antigen Tests"" > in first sentence ""... a total of [value] COVID-19 antigen laboratory tests...""
 
 note: it should be around pg. 13
-note: you can use ctrl+f/cmd+f in the pdf
-note: the state reported this once and has not since, looking for alternate sources. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Tests Reported (molecular and antigen)"" > ""Total""
+note: you can use ctrl+f/cmd+f in the pdf. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Tests Reported (molecular and antigen)"" > ""Total""
 . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – CT primary > in text at top of page ""...including [number] laboratory-confirmed..."". Probable Cases – CT primary > in text at top of page ""...and [number] probable cases..."". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Cases (confirmed and probable)"" > ""Total"". Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – CT primary > table ""Connecticut COVID-19 Summary"" > row ""Patients Curently Hospitalized with COVID-19"" > ""Total"". Cumulative Hospitalized – updates: never
@@ -389,13 +388,12 @@ note: do not update if report does not include a new value. Deaths (confirmed an
 
 usually:
 yesterday / 20:30
-",,,,"updates: never
+",,,,"updates: thursday 
 
-CT primary > button for ""Daily Data Report"" > title ""Antigen Tests"" > in first sentence ""... a total of [value] COVID-19 antigen laboratory tests...""
+CT other > table ""Preview"" > click most recent ""COVID-19 Update"" > title ""Antigen Tests"" > in first sentence ""... a total of [value] COVID-19 antigen laboratory tests...""
 
 note: it should be around pg. 13
-note: you can use ctrl+f/cmd+f in the pdf
-note: the state reported this once and has not since, looking for alternate sources",,,,,,,,,,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Tests Reported (molecular and antigen)"" > ""Total""
+note: you can use ctrl+f/cmd+f in the pdf",,,,,,,,,,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Tests Reported (molecular and antigen)"" > ""Total""
 ",,,"CT primary > in text at top of page ""...including [number] laboratory-confirmed...""","CT primary > in text at top of page ""...and [number] probable cases...""",,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Cases (confirmed and probable)"" > ""Total""","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""Patients Curently Hospitalized with COVID-19"" > ""Total""","updates: never
 
