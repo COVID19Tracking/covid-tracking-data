@@ -1020,9 +1020,11 @@ On July 31, 2020, Massachusetts noted that ""Delays in the reporting of test res
 
 On June 30, 2020, Massachusetts decreased the number of **cumulative hospitalizations** and **confirmed and probable deaths** ""due to ongoing data cleaning which identifies and removes duplicate reports.""
 
-On June 1, 2020, Massachusetts began to report **probable cases** and **probable deaths*, causing **Total cases** and **Total deaths** to appear to increase sharply in our data. ","Local Time – MA primary > link ""Daily Dashboard"" > pg. title ""Testing By Date - Antigens"" >  footnote ""all data are current as of 11:59pm on [date]""
+On June 1, 2020, Massachusetts began to report **probable cases** and **probable deaths*, causing **Total cases** and **Total deaths** to appear to increase sharply in our data. ","Local Time – MA primary > title ""COVID-19 Interactive Data Dashboard"" > ""Data as of:""
 
-date from footnote / 11:59pm. Total Antigen Tests (People) – MA primary > button ”COVID-19 Testing"" > ""Total Antigen Tests"" > ""bringing the total to XXXXXX total antigen tests"". Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – updated: thursday
+date from above / 11:59pm
+
+note: the time is visible on hover. Total Antigen Tests (People) – MA primary > button ”COVID-19 Testing"" > ""Total Antigen Tests"" > ""bringing the total to XXXXXX total antigen tests"". Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – updated: thursday
 long calculation
 This formula sums daily total antibody tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Weekly link"" > ""Total Tests ""
@@ -1064,9 +1066,11 @@ MA primary > link ""Weekly COVID-19 Public Health Report"" > pg. title ""Massach
 
 note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – calculated:
-WS2 > { Deaths (confirmed) + Deaths (probable) }. ",,,,,"MA primary > link ""Daily Dashboard"" > pg. title ""Testing By Date - Antigens"" >  footnote ""all data are current as of 11:59pm on [date]""
+WS2 > { Deaths (confirmed) + Deaths (probable) }. ",,,,,"MA primary > title ""COVID-19 Interactive Data Dashboard"" > ""Data as of:""
 
-date from footnote / 11:59pm","MA primary > button ”COVID-19 Testing"" > ""Total Antigen Tests"" > ""bringing the total to XXXXXX total antigen tests""",,,,,,"updated: thursday
+date from above / 11:59pm
+
+note: the time is visible on hover","MA primary > button ”COVID-19 Testing"" > ""Total Antigen Tests"" > ""bringing the total to XXXXXX total antigen tests""",,,,,,"updated: thursday
 long calculation
 This formula sums daily total antibody tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Weekly link"" > ""Total Tests ""
@@ -2302,7 +2306,7 @@ As of June 10, 2020, **Total cases** include both confirmed and probable cases o
 
 On April 5, 2020, Tennessee reported a decline in **Recoveries**. ","Local Time – TN dash > ""These figures are updated daily at 2 p.m. Central time and reflect all cases reported to TDH as of that time""
 
-today / 17:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – TN dash > table ""Laboratory Testing"" > column ""Total"" > row ""Antigen"". Positive Antigen Tests – TN dash > table ""Laboratory Testing"" > column ""Positive"" > row ""Antigen"". Negative Antigen Tests – TN dash > table ""Laboratory Testing"" > column ""Negative"" > row ""Antigen"". Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – TN dash > table ""Laboratory Testing"" > column ""Total"" > row ""PCR"". Positive Tests (PCR) – TN dash > table ""Laboratory Testing"" > column ""Positive"" > row ""PCR"". Negative Tests (PCR) – TN dash > table ""Laboratory Testing"" > column ""Negative"" > row ""PCR"". Positive Cases (PCR) – TN dash > ""Confirmed Cases"". Probable Cases – TN dash > ""Probable Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – TN dash > ""Total Cases"". Negative (People or Cases) – calculated:  
+today / 14:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – TN dash > table ""Laboratory Testing"" > column ""Total"" > row ""Antigen"". Positive Antigen Tests – TN dash > table ""Laboratory Testing"" > column ""Positive"" > row ""Antigen"". Negative Antigen Tests – TN dash > table ""Laboratory Testing"" > column ""Negative"" > row ""Antigen"". Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – TN dash > table ""Laboratory Testing"" > column ""Total"" > row ""PCR"". Positive Tests (PCR) – TN dash > table ""Laboratory Testing"" > column ""Positive"" > row ""PCR"". Negative Tests (PCR) – TN dash > table ""Laboratory Testing"" > column ""Negative"" > row ""PCR"". Positive Cases (PCR) – TN dash > ""Confirmed Cases"". Probable Cases – TN dash > ""Probable Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – TN dash > ""Total Cases"". Negative (People or Cases) – calculated:  
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – calculated:
 TN other > graph ""Statewide Number of COVID-19 Hospitalized Patients"" > you will find the number by mousing over the most recent day > then toggle to ""Pending Cases"" and do the same thing > {Total Positive Cases + Total Pending Cases}
@@ -2315,7 +2319,7 @@ on Ventilator – calculated:
 TN other > graph ""Statewide Number of COVID-19 Hospitalized Patients"" > you will find the number by mousing over the most recent day > then toggle to ""Pending Cases"" and do the same thing > {Total Vent Cases + Total Vent Cases (pending)}. Cumulative 
 on Ventilator – . Recovered – TN dash > ""Inactive/RecoveredCases"". Deaths (confirmed and probable) – TN dash > ""Total Deaths"". ",,,,,"TN dash > ""These figures are updated daily at 2 p.m. Central time and reflect all cases reported to TDH as of that time""
 
-today / 17:00",,,,"TN dash > table ""Laboratory Testing"" > column ""Total"" > row ""Antigen""","TN dash > table ""Laboratory Testing"" > column ""Positive"" > row ""Antigen""","TN dash > table ""Laboratory Testing"" > column ""Negative"" > row ""Antigen""",,,,,,,,"TN dash > table ""Laboratory Testing"" > column ""Total"" > row ""PCR""","TN dash > table ""Laboratory Testing"" > column ""Positive"" > row ""PCR""","TN dash > table ""Laboratory Testing"" > column ""Negative"" > row ""PCR""","TN dash > ""Confirmed Cases""","TN dash > ""Probable Cases""",,"TN dash > ""Total Cases""","calculated:  
+today / 14:00",,,,"TN dash > table ""Laboratory Testing"" > column ""Total"" > row ""Antigen""","TN dash > table ""Laboratory Testing"" > column ""Positive"" > row ""Antigen""","TN dash > table ""Laboratory Testing"" > column ""Negative"" > row ""Antigen""",,,,,,,,"TN dash > table ""Laboratory Testing"" > column ""Total"" > row ""PCR""","TN dash > table ""Laboratory Testing"" > column ""Positive"" > row ""PCR""","TN dash > table ""Laboratory Testing"" > column ""Negative"" > row ""PCR""","TN dash > ""Confirmed Cases""","TN dash > ""Probable Cases""",,"TN dash > ""Total Cases""","calculated:  
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"calculated:
 TN other > graph ""Statewide Number of COVID-19 Hospitalized Patients"" > you will find the number by mousing over the most recent day > then toggle to ""Pending Cases"" and do the same thing > {Total Positive Cases + Total Pending Cases}
 
