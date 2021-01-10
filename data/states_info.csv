@@ -81,6 +81,8 @@ The **Recovered** data point we report for Arizona reflects the number of COVID-
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)** in the absence of better data.
 
+On January 9, 2021, Arizona [announced](https://twitter.com/AZDHS/status/1347930259170021376?s=20) that the number of COVID-19 patients in ICU was incomplete on their COVID-19 dashboard, and we sourced Currently in ICU from the official Arizona Department of Health twitter.
+
 On December 28, 2020, Arizona [noted](https://twitter.com/AZDHS/status/1343575976026886144) that due to the holiday weekend, multiple days of case reviews were completed, resulting in the data for December 28, 2020 being higher than usual. As a result, they reported a larger increase in Confirmed cases than Total PCR tests (people), which caused their Negative PCR tests (people), which is calculated as Total PCR tests (people) minus Confirmed cases, to decrease.
 
 As of December 10, 2020, Arizona's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. We backfilled the data for March 2 2020 through December 8 2020 using the time-series posted on Arizona's dashboard as [Diagnostic Tests Conducted](https://tableau.azdhs.gov/views/ELRv2testlevelandpeopletested/TestsConducted?:isGuestRedirectFromVizportal=y&:embed=y). 
@@ -546,6 +548,8 @@ On September 9, 2020, North Dakota began reporting “Susceptible Encounters” 
 On August 19, 2020, North Dakota launched a new dashboard with a number of new data points, including race and ethnicity data and ICU data. ",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,North Dakota,38
 NE,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
 
+On January 9, 2021, Nebraska’s Deaths (confirmed + probable) decreased by 78 without explanation.
+
 On January 3, 2021, Nebraska’s **Recovered** value decreased by nearly 4,000 without explanation.
 
 On December 26, 2020, Nebraska’s **Ever hospitalized** decreased by 3, their Recovered decreased by 4265, and their Deaths (confirmed + probable) decreased by 10 without explanation.
@@ -580,7 +584,7 @@ NJ,"The **Recovered** data point we report for New Jersey reflects the number of
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)**.
 
-On January 8, 2021 New Jersey’s **Probable cases** increased from 53,967 to 72,123 without explanation. This also affects their Cases (confirmed + probable), which is calculated as Positive PCR tests (people) plus Probable cases in the absence of an explicit total case number.
+On January 8, 2021 New Jersey’s Probable cases increased from 53,967 to 72,123 without explanation. This affected their Cases (confirmed + probable), which is calculated as Confirmed cases plus Probable cases in the absence of an explicit total case number. On January 9, 2021, their Probable cases decreased from 72,123 to 56,147. Because of this, we believe that the figure reported on January 8, 2021 was a mistake, and are correcting the number in our timeseries. 
 
 On October 23, New Jersey's reported **Ever hospitalized** value increased dramatically from 24,517 to 37,222 with no explanation we could find: this was probably a one-time addition of backlogged data.
 
@@ -858,6 +862,8 @@ We report the most recent hospitalization data available for Washington. In some
 
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
+On January 8, 2021, Washington noted that their hospitalization data for the day was incomplete due to a data processing issue, and their Ever hospitalized decreased by 11. Because Washington’s data is on a one day lag in our timeseries, this is reflected in our data for January 9, 2021.
+
 On January 4, 2021, Washington's deaths decreased from 3,461 to 3,459 without explanation.
 
 On January 2, 2021, Washington announced that there would be no update to their data dashboard due to “data processing challenges."" Because Washington’s data is on a one day lag in our timeseries, this affects the data for January 3, 2021 and January 4, 2021; they have also provided an update on January 4, 2021, which is atypical of their reporting schedule.
@@ -903,7 +909,9 @@ On June 18, 2020, Washington revised its **Total PCR tests (people)** downward. 
 On April 18, 2020, Washington state removed 190 **confirmed cases** that were discovered to be out-of-state residents tested in Washington laboratories. 
 
 Between March 31 and April 15, 2020, Washington state did not report **Negative PCR tests (people)**. ",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://coronavirus.wa.gov/what-you-need-know/covid-19-risk-assessment-dashboard,https://coronavirus.wa.gov/what-you-need-know/covid-19-risk-assessment-dashboard,https://coronavirus.wa.gov/what-you-need-know/covid-19-risk-assessment-dashboard,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Positives + Negatives,false,Washington,53
-WI,"On October 29, we populated the full time series for **Total Test Encounters (PCR)** from a time series provided by Wisconsin via CSV on their dashboard. Also as of October 29, Wisconsin's `totalTestResults` represent total test encounters instead of being calculated via pos+neg. The number of unique people ever tested remains available in the API in the `totalTestsPeopleViral` field. 
+WI,"On January 9, 2021, Wisconsin’s **Recovered** metric decreased by approximately 20,000, however on their [official twitter](https://twitter.com/DHSWI/status/1348020141674487808) Wisconsin indicated a problem with this metric. Because of this we carried over the previous day’s value.
+
+On October 29, we populated the full time series for **Total Test Encounters (PCR)** from a time series provided by Wisconsin via CSV on their dashboard. Also as of October 29, Wisconsin's `totalTestResults` represent total test encounters instead of being calculated via pos+neg. The number of unique people ever tested remains available in the API in the `totalTestsPeopleViral` field. 
 
 On October 20, Wisconsin started providing a total tests number on their dashboard and we started to collect that data into **Total Test Encounters (PCR)**. 
 
