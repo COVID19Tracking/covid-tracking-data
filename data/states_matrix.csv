@@ -1324,12 +1324,16 @@ Hospitalized – calculated:
 MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > {""Total Hospitalized Adult
 Suspected/Confirmed"" + ""Hospitalized Peds Confirmed/Suspected""}
 
-note: only use confimed/suspected, not confirmed-positive. Cumulative Hospitalized – . Currently
+note: only use confimed/suspected, not confirmed-positive
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell. Cumulative Hospitalized – . Currently
 in ICU – MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Adult ICU Confirmed/Suspected COVID""
 
-note: only use confimed/suspected, not confirmed-positive. Cumulative
+note: only use confimed/suspected, not confirmed-positive
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell. Cumulative
 in ICU – . Currently 
-on Ventilator – MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Hospitalized and Ventilated COVID"". Cumulative 
+on Ventilator – MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Hospitalized and Ventilated COVID""
+
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell. Cumulative 
 on Ventilator – . Recovered – updates: weekly (Friday or Saturday)
 MI dash > click link ""CUMULATIVE RECOVERED"" > ""Cumulative Total of Recovered COVID-19 Cases (as of xx/x/2020):"" 
 
@@ -1349,9 +1353,13 @@ note: long calculation link can be found in cell E2 of WS2","MI dash > tab ""Cur
 MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > {""Total Hospitalized Adult
 Suspected/Confirmed"" + ""Hospitalized Peds Confirmed/Suspected""}
 
-note: only use confimed/suspected, not confirmed-positive",,"MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Adult ICU Confirmed/Suspected COVID""
+note: only use confimed/suspected, not confirmed-positive
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell",,"MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Adult ICU Confirmed/Suspected COVID""
 
-note: only use confimed/suspected, not confirmed-positive",,"MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Hospitalized and Ventilated COVID""",,"updates: weekly (Friday or Saturday)
+note: only use confimed/suspected, not confirmed-positive
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell",,"MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Hospitalized and Ventilated COVID""
+
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell",,"updates: weekly (Friday or Saturday)
 MI dash > click link ""CUMULATIVE RECOVERED"" > ""Cumulative Total of Recovered COVID-19 Cases (as of xx/x/2020):"" 
 
 note: if this metric does not update, leave the previous value in the cell
