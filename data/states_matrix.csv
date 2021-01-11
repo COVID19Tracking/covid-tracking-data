@@ -1772,7 +1772,7 @@ note: it's about 2/3rds down the page in the first column . Probable Cases – N
 note: it's about 2/3rds down the page in the first column . Total PCR Tests (People) – NH primary > ""Total Persons Tested at Selected Laboratories, Polymerase Chain Reaction (PCR)"". Positive Cases (People, confirmed + probable) – NH primary > ""Number of Persons with COVID-19"". Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – NH primary > ""Current Hospitalizations""
-. Cumulative Hospitalized – NH primary > ""Persons Who Have Been Hospitalized for COVID-19"". Currently
+. Cumulative Hospitalized – NH other > tab ""Overview"" > ""Total Hosp."". Currently
 in ICU – . Cumulative
 in ICU – NH dash > table ""Intensive Care Unit"" > ""Cumulative"". Currently 
 on Ventilator – . Cumulative 
@@ -1794,7 +1794,7 @@ note: it's about 2/3rds down the page in the first column ","NH dash > table ""T
 
 note: it's about 2/3rds down the page in the first column ","NH primary > ""Total Persons Tested at Selected Laboratories, Polymerase Chain Reaction (PCR)""","NH primary > ""Number of Persons with COVID-19""","calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"NH primary > ""Current Hospitalizations""
-","NH primary > ""Persons Who Have Been Hospitalized for COVID-19""",,"NH dash > table ""Intensive Care Unit"" > ""Cumulative""",,,"NH primary > ""Recovered""","NH primary > ""Deaths Attributed to COVID-19""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,NH
+","NH other > tab ""Overview"" > ""Total Hosp.""",,"NH dash > table ""Intensive Care Unit"" > ""Cumulative""",,,"NH primary > ""Recovered""","NH primary > ""Deaths Attributed to COVID-19""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,NH
 NJ,New Jersey,https://covid19.nj.gov/#live-updates,https://covid19.nj.gov/,https://www.twitter.com/NJDeptofHealth,,https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/PPE_Capacity/FeatureServer/0/query?where=survey_period%3E%3Dtimestamp+%272020-04-27+07%3A00%3A00%27+AND+structure_measure_identifier+LIKE+%27%25ischarge%25Excluding+Deaths%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27recoveries%27%7D%5D,,,,"Local Time – NJ dash > ""Updated:""
 
 above date / 00:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NJ dash >  ""Total PCR Tests Reported"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NJ dash > ""Total Confirmed* Cases"". Probable Cases – NJ dash > ""Probable* Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
