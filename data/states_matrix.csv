@@ -34,7 +34,7 @@ As of September 18, 2020, Alaska's total test results are drawn from our `totalT
 yesterday / 23:59
 ",,,,,,,,,,,,,,"AK dash > ""Total Tests""","AK query > PCR Testing (positive) > ""tests_positive""","AK query > PCR Testing (negative) > ""tests_negative""",,,,"AK primary > button ""Select Residence"" select ""Resident"" > ""Total Cases""
 
-","calculated
+","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"calculated:
 AK primary > embedded dash ""AK COVID-19 Hospital Data Dashboard"" > dropdown ""General Acute Care and Critical Access Facilities Only?"" > select ""No"" > {Currently Hospitalized COVID Positive + Currently Hospitalized COVID Suspected}  note: take a screenshot of this dash with the toggle set to ""no""  screenshot: https://internal.covidtracking.com/screenshot?state=AK&datatype=taco&subtype=primary-source","AK primary > button ""Select Residence"" > select ""All"" > ""Hospitalizations""
 
