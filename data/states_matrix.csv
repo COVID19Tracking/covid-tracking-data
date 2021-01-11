@@ -327,7 +327,10 @@ On July 27, 2020, Colorado posted a notice that, ""Due to a server issue yesterd
 On June 14, 2020, Colorado revised previous ""daily discharged"" numbers. This caused an overall decline in their **Recovered** data.
 ",#REF!,,TRUE,,,"CO primary > ""Data is updated by about 4pm and includes cases reported through the previous day""
 
-yesterday / 23:59",,,,,,,,,,"CO primary > button ""Tests"" > button ""Antibody Tests"" > button ""Cumulative Tests"" > graph > most recent day > “Antibody Tests Performed”","CO query > ""Positive serological tests"" > ""antibody_pos""","CO query > ""Negative serological tests"" > ""antibody_neg:""","CO primary > ""Test Encounters""",,,,"CO primary > toggle button ""Case Summary Snapshot"" > ""Confirmed cases""
+yesterday / 23:59",,,,,,,,,,"CO primary > button ""Tests"" > button ""Antibody Tests"" > button ""Cumulative Tests"" > graph > most recent day > “Antibody Tests Performed”
+
+note: please take a screenshot of this graph, hovering over the most recent day, to capture Total Antibody Tests
+screenshot: https://internal.covidtracking.com/screenshot?state=CO&datatype=taco&subtype=primary-source","CO query > ""Positive serological tests"" > ""antibody_pos""","CO query > ""Negative serological tests"" > ""antibody_neg:""","CO primary > ""Test Encounters""",,,,"CO primary > toggle button ""Case Summary Snapshot"" > ""Confirmed cases""
 
 note: scroll beneath dashboard for toggle","CO primary > toggle button ""Case Summary Snapshot"" > ""Probable cases""
 
