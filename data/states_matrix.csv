@@ -1849,7 +1849,7 @@ On October 29, 2020, Nevada’s Total Tests (PCR) increased by a smaller amount 
 
 On October 15, 2020, Nevada stopped reporting the number of unique people who tested negative on their dashboard without explanation. We carried forward the last reported number of people tested negative between October 15 and October 21 (our policy when a metric goes missing without notice is to “freeze” the number for up to seven days to allow states to recover from temporary reporting problems). Since our API uses the sum of positive+negative tests to calculate the total number of tests in Nevada, this caused the number of total tests on those dates to increase only by the number of positives. On October 21, 2020, we updated the number of Nevada’s negative tests for October 15 through October 20 based on a calculation of (Total people tested – Cases)
 
-On October 15, 2020, Nevada stopped reporting **Total tests (in specimens).** We are carrying over the last available value while we reach out to the state to see if this value will be made available elsewhere.","Local Time – NV dash > ""Data as of...""
+On October 15, 2020, Nevada stopped reporting **Total tests (in specimens).** ","Local Time – NV dash > ""Data as of...""
 
 above date / 00:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NV dash > tab ""Trends"" > button ""Testing"" > ""Testing Encounters"". Total Tests (PCR) – updates: never
 
