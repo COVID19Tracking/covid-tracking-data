@@ -102,7 +102,9 @@ On September 16, 2020, Arkansas’s **Negative Tests (PCR)** dropped by 26,801 t
 
 On September 3, 2020, Arkansas began reporting **Probable cases** according to the most recent CSTE definitions, in addition to confirmed cases. This added 423 new cases to AR’s **Total cases** number.
 
-On Aug 15, 2020, Arkansas data changed due to deduplication and the state's removal of out-of-state cases from its dataset. These changes resulted in reductions in **Total cases**, **Ever hospitalized**, and **Ever in ICU** data.","Local Time – AR primary > image COVID-19 Update 
+On Aug 15, 2020, Arkansas data changed due to deduplication and the state's removal of out-of-state cases from its dataset. These changes resulted in reductions in **Total cases**, **Ever hospitalized**, and **Ever in ICU** data. 
+
+Between July 30, 2020 and September 17, 2020, Arkansas provided Total, Positive, and Negative Antigen tests (specimens) sporadically and then stopped reporting them. This data can be found in our API. ","Local Time – AR primary > image COVID-19 Update 
 
 current day / 00:00
 
@@ -113,19 +115,7 @@ note: always use dash and never the graphic from the primary source. Positive An
 
 note: always use dash and never the graphic from the primary source. Negative Antigen Tests (People) – AR dash > tab ""Tests"" > ""Antigen Negatives""
 
-note: always use dash and never the graphic from the primary source. Total Antigen Tests – updates: never
-
-AR primary > link ""NEW: Antigen Total Cases"" > table ""Total Antigen Testing Volume and Percent Positivity"" > column ""Total"" > row ""Total""
-
-note: if they include the antigen report or report antigen tests elsewhere, please let the shift lead know. Positive Antigen Tests – updates: never
-
-AR primary > link ""NEW: Antigen Total Cases"" > table ""Total Antigen Testing Volume and Percent Positivity"" > row ""Positive""
-
-note: if they include the antigen report or report antigen tests elsewhere, please let the shift lead know. Negative Antigen Tests – updates: never
-
-AR primary > link ""NEW: Antigen Total Cases"" > table ""Total Antigen Testing Volume and Percent Positivity""  column ""Negative"" > column ""Total""
-
-note: if they include the antigen report or report antigen tests elsewhere, please let the shift lead know. Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – calculated:
+note: always use dash and never the graphic from the primary source. Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – calculated:
 AR dash > tab""Tests"" > {""PCR Negatives"" + ""PCR Positives""}
 
 note: always use dash and never the graphic from the primary source. Positive Tests (PCR) – . Negative Tests (PCR) – AR dash > tab ""Tests"" > ""PCR Negatives""
@@ -166,19 +156,7 @@ note: always use dash and never the graphic from the primary source","AR dash > 
 
 note: always use dash and never the graphic from the primary source","AR dash > tab ""Tests"" > ""Antigen Negatives""
 
-note: always use dash and never the graphic from the primary source","updates: never
-
-AR primary > link ""NEW: Antigen Total Cases"" > table ""Total Antigen Testing Volume and Percent Positivity"" > column ""Total"" > row ""Total""
-
-note: if they include the antigen report or report antigen tests elsewhere, please let the shift lead know","updates: never
-
-AR primary > link ""NEW: Antigen Total Cases"" > table ""Total Antigen Testing Volume and Percent Positivity"" > row ""Positive""
-
-note: if they include the antigen report or report antigen tests elsewhere, please let the shift lead know","updates: never
-
-AR primary > link ""NEW: Antigen Total Cases"" > table ""Total Antigen Testing Volume and Percent Positivity""  column ""Negative"" > column ""Total""
-
-note: if they include the antigen report or report antigen tests elsewhere, please let the shift lead know",,,,,,,,"calculated:
+note: always use dash and never the graphic from the primary source",,,,,,,,,,,"calculated:
 AR dash > tab""Tests"" > {""PCR Negatives"" + ""PCR Positives""}
 
 note: always use dash and never the graphic from the primary source",,"AR dash > tab ""Tests"" > ""PCR Negatives""
