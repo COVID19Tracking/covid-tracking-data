@@ -2493,7 +2493,7 @@ long calculation > hover over ""# UT Antigen"" > click play button > title ""Met
 note: do not use the metrics for tests 
 note: link to long calculation is in cell E2 of WS2",,"calculated:
 UT other > table ""COVID-19 Hospital Survey Data"" > {""Number of patients currently hospitalized for confirmed COVID-19"" + ""Patients currently hospitalized as suspect COVID-19""}","UT other link > table ""Hospitalization Summary Statistics"" > ""Total Hospitalizations""","UT other link > table ""COVID-19 Hospital Survey Data"" > ""Number of patients in ICU for confirmed COVID-19""","UT other link > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""ICU Admissions"" > column ""Case Count"" > row ""Yes""",,"UT other > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""Intubated/Ventilator Use"" > column ""Case Count"" > row ""Yes""","UT dash > graph ""Cumulative COVID-19 Cases with Estimated Recoveries"" > hover over the furthest right green bar > ""Cumulative Estimated Recovered""","UT dash > ""Total COVID-19 Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus-dashboard.utah.gov/,UT
-VA,Virginia,https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vdh.virginia.gov/coronavirus/,https://www.twitter.com/vdhgov,,https://data.virginia.gov/resource/3u5k-c2gr.json?%24query=select+sum%28number_of_pcr_testing%29+as+pcr_testing%2C+sum%28number_of_positive_pcr_testing%29+as+pos_pcr_testing,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,,"The **Recovered** data point we report for Virginia reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
+VA,Virginia,https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vdh.virginia.gov/coronavirus/,https://www.twitter.com/vdhgov,,https://turnips.covidtracking.com/#VA,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,,"The **Recovered** data point we report for Virginia reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (test encounters)** in the absence of better data.
 
@@ -2516,7 +2516,9 @@ On August 7, 2020, due to the release of a backlog, Virginia reported an abnorma
 
 As of May 15, 2020, Virginia is reporting PCR tests and antibody tests separately. ",#REF!,TRUE,TRUE,,,"VA primary > dash > ""Data entered by 5:00 PM the prior day.""
 
-yesterday / 17:00",,,,,,,,,,,,,"VA dash >  tab ""Summary""  > title ""Testing (PCR Only)"" > "" Testing Encounters PCR Only"" 
+yesterday / 17:00",,,,"VA dash >  tab ""Testing""  > Combo box: ""Antigen Only"" > Title ""All health districts testing encounters antigen only""
+","VA query > Testing data (totals and positives) > ""antigen_pos""",,,,,"VA dash >  tab ""Testing""  > Combo box: ""Antibody Only"" > Title ""All health districts testing encounters antibody only""
+","VA query > Testing data (totals and positives) > ""antibody_pos""",,"VA dash >  tab ""Summary""  > title ""Testing (PCR Only)"" > "" Testing Encounters PCR Only"" 
 ",,"VA query > ""pos_pcr_testing:""",,"VA dash > tab ""Summary"" > title ""Total Cases"" > ""Confirmed""","VA dash > tab ""Summary"" > title ""Total Cases"" > ""Probable""",,"VA dash > tab ""Summary"" > ""Total Cases""","calculated: 
 WS2 > {Total Test Encounters (PCR) - Positive Cases (PCR)}","VA other > title ""COVID-19 in Virginia Hospitals"" > title ""Hospitalizations"" > ""….pending""
 
