@@ -8,9 +8,10 @@ and extracts the data for assisted living and nursing home facilities, outputtin
 * ```wv_ltc_scraper.js``` This script extracts the data from the 
 [West Virginia LTC COVID Dashboard](https://dhhr.wv.gov/COVID-19/Pages/default.aspx) 
 (Long-Term Care tab)
-
-These scripts are intended to be run as a GitHub Actions job, with the resulting CSV files ending up in `/data/` 
-(e.g. `data/ltc_nv.csv`)
+* ``ks_ltc_scraper.js``` Scrapes LTC facility data from
+[their dashboard](https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas)
+  
+These scripts are intended to be run as GitHub Actions jobs, with the resulting CSV files ending up in `/data/ltc_states`
 
 Usage:
 ```shell script
