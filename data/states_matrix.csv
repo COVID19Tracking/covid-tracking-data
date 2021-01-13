@@ -40,7 +40,7 @@ AK primary > embedded dash ""AK COVID-19 Hospital Data Dashboard"" > dropdown ""
 
 note: it can take a few seconds to load after toggling, make sure that total cases updates before recording
 note: Take a picture of this link with the ""Select Residences"" toggle on ""All"".
-screenshot: https://internal.covidtracking.com/screenshot?state=AK&datatype=taco&subtype=primary-source",,,"AK primary > embedded dash ""AK COVID-19 Hospital Data Dashboard"" > title ""Ventilator Capacity (All Ages)"" > ""Currently on Vent (Statewide) COVID Positive and Suspected""
+screenshot: https://internal.covidtracking.com/screenshot?state=AK&datatype=taco&subtype=primary-source",,,"AK primary > embedded dash ""AK COVID-19 Hospital Data Dashboard"" > dropdown ""General Acute Care and Critical Access Facilities Only?"" > select ""No""  > title ""Ventilator Capacity (All Ages)"" > ""Currently on Vent (Statewide) COVID Positive and Suspected""
 ",,"updates: never
 
 AK primary > button ""Select Residence"" > select ""All"" > ""Recovered and Presumed Recovered Cases""
@@ -1889,7 +1889,7 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 
 As of June 1, 2020, New York City reported 5740 more deaths (probable and confirmed) than New York State reports for NYC. Due to an exclusion of **probable COVID-19 deaths** in the state's data, New York City and New York State report substantially diverging death counts. We use the data from the state, so our dataset excludes these probable COVID-19 deaths. ","Local Time – NY dash > ""Testing data as of:"" 
 
-above date / 23:59
+above date / 14:00
 
 note: in upper right corner of dash, make sure to use ""as of"" date/time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NY dash > ""Total Persons Tested"". Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NY dash > ""Total Tested Positive"". Negative (People or Cases) – calculated:
 WS2 > {Total Test Encounters (PCR)  - Positive Cases (People, confirmed + probable)}. Pending – . Currently 
@@ -1903,7 +1903,7 @@ on Ventilator – . Recovered – NY press Conferences > find most recent COVID 
 
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values. Deaths (confirmed and probable) – NY dash > click link ""Click for Fatality Data"" >  table ""Fatalities by County"" > column ""Place of Fatality"" > row ""Grand Total"". ",,,,,"NY dash > ""Testing data as of:"" 
 
-above date / 23:59
+above date / 14:00
 
 note: in upper right corner of dash, make sure to use ""as of"" date/time",,,,,,,,,,,,,"NY dash > ""Total Persons Tested""",,,,,,,"NY dash > ""Total Tested Positive""","calculated:
 WS2 > {Total Test Encounters (PCR)  - Positive Cases (People, confirmed + probable)}",,"NY other > mouse over the blue bar in the latest day > ""Total COVID-19 Patients Hospitalized""",updates: never,"NY other > mouse over the yellow bar in the latest day > ""Total COVID-19 Patients in ICU""",,"NY press conferences > find most recent COVID related press release > title ""Today's data is summarized briefly below"" > ""Number ICU with Intubation""
