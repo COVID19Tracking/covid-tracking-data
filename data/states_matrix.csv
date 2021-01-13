@@ -141,7 +141,7 @@ on Ventilator – AR dash > tab ""Hospital Information"" > ""Total COVID-19 Posi
 
 note: always use dash and never the graphic from the primary source. Cumulative 
 on Ventilator – AR primary > title ""COVID-19 Update"" > ""Ever on Ventilator""
-. Recovered – AR dash > ""Recovered Cases""
+. Recovered – AR dash > tab ""Total Cases"" > ""Recovered Cases""
 
 note: always use dash and never the graphic from the primary source. Deaths (confirmed and probable) – AR dash > tab ""Deaths"" > ""Deaths""
 
@@ -177,7 +177,7 @@ note: always use dash and never the graphic from the primary source","AR primary
 note: always use dash and never the graphic from the primary source",,"AR dash > tab ""Hospital Information"" > ""Total COVID-19 Positive Admissions on Ventilators""
 
 note: always use dash and never the graphic from the primary source","AR primary > title ""COVID-19 Update"" > ""Ever on Ventilator""
-","AR dash > ""Recovered Cases""
+","AR dash > tab ""Total Cases"" > ""Recovered Cases""
 
 note: always use dash and never the graphic from the primary source","AR dash > tab ""Deaths"" > ""Deaths""
 
@@ -1039,7 +1039,8 @@ WS2 {Positive Cases (PCR) + Probable Cases}. Negative (People or Cases) – calc
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""Hospitalizations"" > ""There are XXX patients hospitalized for COVID"". Cumulative Hospitalized – updated: thursday
 long calculation
-long calculation > hover over ""# MA Positives"" > click play button > title ""Ever hospitalized"" > ""Ever Hospitalized"" (third row down)
+This formula sums the weekly breakdown by race of ever hospitalized to get a cumulative number. 
+long calculation > hover over ""# MA Positives"" > click play button > title ""Ever hospitalized"" > ""Ever Hospitalized""
 
 note: if this metric does not update, leave the previous value in the cell
 note: long calculation link can be found in cell E2 of WS2. Currently
@@ -1084,7 +1085,8 @@ note: long calculation link can be found in cell E2 of WS2","calculated:
 WS2 {Positive Cases (PCR) + Probable Cases}","calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""Hospitalizations"" > ""There are XXX patients hospitalized for COVID""","updated: thursday
 long calculation
-long calculation > hover over ""# MA Positives"" > click play button > title ""Ever hospitalized"" > ""Ever Hospitalized"" (third row down)
+This formula sums the weekly breakdown by race of ever hospitalized to get a cumulative number. 
+long calculation > hover over ""# MA Positives"" > click play button > title ""Ever hospitalized"" > ""Ever Hospitalized""
 
 note: if this metric does not update, leave the previous value in the cell
 note: long calculation link can be found in cell E2 of WS2","MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""ICU and Intubated Patients"" > ""There are XXX patients in Intensive Care Units""",,"MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""ICU and Intubated Patients"" > ""XXX patients are intubated""",,"updated: thursday
