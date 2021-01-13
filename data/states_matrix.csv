@@ -2068,7 +2068,7 @@ note: on the weekends do not update",,"updates: Monday - Friday
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Hospitalized Patients""
 
 note: do not update from press release or on weekends","updates: Monday - Friday
-OR primary > title ""SItuation in Oregon"" > click box ""Cases by County and Demographic Tables"" > table ""Hospitalized"" > column ""Cases"" > row ""Yes""","updates: Monday - Friday
+OR dash > title ""Age, Sex and Hospitalization Status for Confirmed and Presumptive COVID-19 cases (Cumulative)"" >  table ""Hospitalized During Illness?"" > row ""Yes"" ","updates: Monday - Friday
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Patients in ICU Beds""
 
 note: do not update from press release or on weekends",,"updates: Monday - Friday
