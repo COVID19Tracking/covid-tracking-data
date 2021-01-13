@@ -1038,11 +1038,11 @@ note: long calculation link can be found in cell E2 of WS2. Positive Cases (Peop
 WS2 {Positive Cases (PCR) + Probable Cases}. Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""Hospitalizations"" > ""There are XXX patients hospitalized for COVID"". Cumulative Hospitalized – updated: thursday
-MA primary > link ""Weekly COVID-19 Public Health Report"" > pg. title ""Cases, Hospitalizations, & Deaths by Race/Ethnicity"" > pie chart ""Total Cases Reported as Hospitalized by Race/Ethnicity""
+long calculation
+long calculation > hover over ""# MA Positives"" > click play button > title ""Ever hospitalized"" > ""Ever Hospitalized"" (third row down)
 
-note: the toal is displayed either above or below the pie chart
 note: if this metric does not update, leave the previous value in the cell
-. Currently
+note: long calculation link can be found in cell E2 of WS2. Currently
 in ICU – MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""ICU and Intubated Patients"" > ""There are XXX patients in Intensive Care Units"". Cumulative
 in ICU – . Currently 
 on Ventilator – MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""ICU and Intubated Patients"" > ""XXX patients are intubated"". Cumulative 
@@ -1083,11 +1083,11 @@ long calculation > hover over ""# MA Positives"" > click play button > title ""D
 note: long calculation link can be found in cell E2 of WS2","calculated: 
 WS2 {Positive Cases (PCR) + Probable Cases}","calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""Hospitalizations"" > ""There are XXX patients hospitalized for COVID""","updated: thursday
-MA primary > link ""Weekly COVID-19 Public Health Report"" > pg. title ""Cases, Hospitalizations, & Deaths by Race/Ethnicity"" > pie chart ""Total Cases Reported as Hospitalized by Race/Ethnicity""
+long calculation
+long calculation > hover over ""# MA Positives"" > click play button > title ""Ever hospitalized"" > ""Ever Hospitalized"" (third row down)
 
-note: the toal is displayed either above or below the pie chart
 note: if this metric does not update, leave the previous value in the cell
-","MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""ICU and Intubated Patients"" > ""There are XXX patients in Intensive Care Units""",,"MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""ICU and Intubated Patients"" > ""XXX patients are intubated""",,"updated: thursday
+note: long calculation link can be found in cell E2 of WS2","MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""ICU and Intubated Patients"" > ""There are XXX patients in Intensive Care Units""",,"MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""ICU and Intubated Patients"" > ""XXX patients are intubated""",,"updated: thursday
 MA primary > link ""Weekly COVID-19 Public Health Report"" > pg. title ""Massachusetts Residents Isolated due to COVID-19"" > ""Total Cases Released from Isolation""
 
 note: if this metric does not update, leave the previous value in the cell
@@ -1119,9 +1119,7 @@ note: the column names will be formated like this:  d_10_14_2020. Total Antibody
 
 . Negative Tests (PCR) – . Positive Cases (PCR) – MD dash > ""Confirmed Cases"". Probable Cases – . Total PCR Tests (People) – calculated:
 MD dash > {Confirmed Cases  +  Persons Tested Negative}. Positive Cases (People, confirmed + probable) – MD dash > ""Confirmed Cases"". Negative (People or Cases) – MD dash > ""Persons Tested Negative"". Pending – . Currently 
-Hospitalized – MD dash > ""Currently Hospitalized"". Cumulative Hospitalized – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized ""
-
-note: this is a section below the dashboard.. Currently
+Hospitalized – MD dash > ""Currently Hospitalized"". Cumulative Hospitalized – . Currently
 in ICU – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
 
 note: this is a section below the dashboard.. Cumulative
@@ -1151,9 +1149,7 @@ note: this number is updated weekly (wednesday). if this metric does not update,
 note: the column names will be formated like this:  d_10_14_2020",,,,,"MD dash > ""Testing Volume""","MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
 
 ",,"MD dash > ""Confirmed Cases""",,"calculated:
-MD dash > {Confirmed Cases  +  Persons Tested Negative}","MD dash > ""Confirmed Cases""","MD dash > ""Persons Tested Negative""",,"MD dash > ""Currently Hospitalized""","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized ""
-
-note: this is a section below the dashboard.","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
+MD dash > {Confirmed Cases  +  Persons Tested Negative}","MD dash > ""Confirmed Cases""","MD dash > ""Persons Tested Negative""",,"MD dash > ""Currently Hospitalized""",,"MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
 
 note: this is a section below the dashboard.",,,,"MD dash > title ""COVID-19 Statistics in Maryland"" > ""Released from isolation"" 
 
