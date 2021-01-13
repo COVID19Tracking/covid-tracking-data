@@ -1121,7 +1121,7 @@ note: the column names will be formated like this:  d_10_14_2020. Total Antibody
 
 . Negative Tests (PCR) – . Positive Cases (PCR) – MD dash > ""Confirmed Cases"". Probable Cases – . Total PCR Tests (People) – calculated:
 MD dash > {Confirmed Cases  +  Persons Tested Negative}. Positive Cases (People, confirmed + probable) – MD dash > ""Confirmed Cases"". Negative (People or Cases) – MD dash > ""Persons Tested Negative"". Pending – . Currently 
-Hospitalized – MD dash > ""Currently Hospitalized"". Cumulative Hospitalized – . Currently
+Hospitalized – MD dash > ""Currently Hospitalized"". Cumulative Hospitalized – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized "" note: this is a section below the dashboard.. Currently
 in ICU – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
 
 note: this is a section below the dashboard.. Cumulative
@@ -1151,7 +1151,7 @@ note: this number is updated weekly (wednesday). if this metric does not update,
 note: the column names will be formated like this:  d_10_14_2020",,,,,"MD dash > ""Testing Volume""","MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
 
 ",,"MD dash > ""Confirmed Cases""",,"calculated:
-MD dash > {Confirmed Cases  +  Persons Tested Negative}","MD dash > ""Confirmed Cases""","MD dash > ""Persons Tested Negative""",,"MD dash > ""Currently Hospitalized""",,"MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
+MD dash > {Confirmed Cases  +  Persons Tested Negative}","MD dash > ""Confirmed Cases""","MD dash > ""Persons Tested Negative""",,"MD dash > ""Currently Hospitalized""","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized "" note: this is a section below the dashboard.","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
 
 note: this is a section below the dashboard.",,,,"MD dash > title ""COVID-19 Statistics in Maryland"" > ""Released from isolation"" 
 
@@ -1513,6 +1513,8 @@ NC,North Carolina,https://covid19.ncdhhs.gov/dashboard,https://covid19.ncdhhs.go
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On January 13, 2021, North Carolina reported that technical issues occurring on January 12, 2021 prevented processing of case and testing data into their COVID reporting system. As a result, case and testing data reported on January 13, 2021 are lower than they would have been had all the data been processed, and case and testing data on January 14, 2021 will be increased, since it will include the previous day's data.
+
 On December 30, 2020, North Carolina announced on its [dashboard](https://covid19.ncdhhs.gov/dashboard) that due to holiday-related disruptions and technical issues, data reported on December 30, 2020 was artificially higher than usual and includes 36 hours of data, while data reported on December 31, 2020 was artificially lower than usual and includes only 12 hours of data.
 
 On December 24, 2020, North Carolina announced on their COVID-19 dashboard that their data would not be updated on December 24, 2020, or December 25, 2020 due to the holiday. On January 1, 2021, they noted that there would be no update to their data on January 1, 2021 due to the holiday.
@@ -1678,6 +1680,11 @@ ND primary > scroll to table under dash Deaths > {""Total number of individuals 
 
 note: this section is below the dash section. the deaths may show up red",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,ND
 NE,Nebraska,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,http://dhhs.ne.gov/Pages/Coronavirus.aspx,https://www.twitter.com/NEDHHS,,https://turnips.covidtracking.com/#NE,,,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
+
+
+Nebraska’s **Recovered** numbers occasionally decrease without explanation.
+
+On January 13, 2021, Nebraska’s Recovered decreased by 1864 without explanation.
 
 On January 9, 2021, Nebraska’s Deaths (confirmed + probable) decreased by 78 without explanation.
 
@@ -2029,7 +2036,9 @@ screenshot: https://internal.covidtracking.com/screenshot?state=OK&datatype=taco
 OK other > click most recent ""EO COVID-19 REPORT"" > table ""Reported Hospital Status"" > row ""COVID-19 Cases Currently Hospitalized"" > ""([number] in ICU)""
 
 note: only use the numbers from inside the parenthesis",,,,"OK primary > ""OK Recovered""","OK primary > ""OK Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://oklahoma.gov/covid19.html,OK
-OR,Oregon,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://govstatus.egov.com/OR-OHA-COVID-19,https://www.twitter.com/OHAOregon,https://www.oregon.gov/oha/erd/pages/covid-19-news.aspx,,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/HospitalCapacity,,"As of December 9, 2020, Oregon’s total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. This change will cause Oregon’s `totalTestResults` to begin on March 29, 2020 instead of March 4, 2020. Because Oregon’s totalTestsViral represent only electronic laboratory reporting, whereas its cases and negatives represented tests from all sources, this change causes a decrease of 10,296 tests in `totalTestResults` on March 29. The old numbers remain available by summing the positive and negative fields of our API.
+OR,Oregon,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://govstatus.egov.com/OR-OHA-COVID-19,https://www.twitter.com/OHAOregon,https://www.oregon.gov/oha/erd/pages/covid-19-news.aspx,,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/HospitalCapacity,,"As of January 13, 2021, Oregon’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
+
+As of December 9, 2020, Oregon’s total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. This change will cause Oregon’s `totalTestResults` to begin on March 29, 2020 instead of March 4, 2020. Because Oregon’s totalTestsViral represent only electronic laboratory reporting, whereas its cases and negatives represented tests from all sources, this change causes a decrease of 10,296 tests in `totalTestResults` on March 29. The old numbers remain available by summing the positive and negative fields of our API.
 In addition, Oregon has not reported their total tests in people units since December 2, 2020 and they indicated that they will not continue to report total tests in people, so we have removed any values in **Total PCR tests (people)** we previously carried over.
 
 On December 3, 2020, Oregon removed its total people tested metric, after adding total specimens on December 1. Because they did not provide a full timeseries of specimens, as of December 4, we switched our totalTestResults and  **Negative (people or cases)** from people to specimens on December 2, 2020. This causes an artificial increase of totalTestResults by 960,248 on that day. 
@@ -2046,7 +2055,8 @@ or (on weekends only)
 
 on weekends, use most recent press release > ""... as of...""
 
-above date / above time",,,,,,,,,,,,,,"updates: Monday - Friday
+day before yesterday / 00:01
+",,,,,,,,,,,,,,"updates: Monday - Friday
 OR primary > title ""SItuation in Oregon"" >  ""Total Tests""","updates: Monday - Friday
 OR primary > title ""SItuation in Oregon"" >  ""Positive Tests""","updates: Monday - Friday
 OR primary > title ""SItuation in Oregon"" >  ""Negative Tests""","updates: never
