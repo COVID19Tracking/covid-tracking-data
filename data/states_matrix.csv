@@ -806,20 +806,13 @@ note: if this metric does not update, leave the previous value in the cell
 note: ID also updates previous days totals, so our past values may not match theirs","ID dash > tab ""Statewide Demographics"" > ""XXX Ever admitted to ICU""",,,"ID dash > tab ""Statewide Demographics"" > ""XXX Estimated Recovered""","ID dash > tab ""COVID-19 Related Deaths"" > ""Idaho Resident Deaths""","ID dash > tab ""COVID-19 Related Deaths"" > title Idaho Resident Deaths > ""XXX confirmed""","ID dash > tab ""COVID-19 Related Deaths"" > title ""Idaho Resident Deaths"" > ""XXX probable""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.idaho.gov/,ID
 IL,Illinois,,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,https://www.twitter.com/IDPH,,,http://www.dph.illinois.gov/covid19/hospitalization-utilization,,"Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On November 6, 2020, Illinois [announced](http://www.dph.illinois.gov/news/public-health-officials-announce-10376-new-confirmed-cases-coronavirus-disease) that they ""will report confirmed cases and probable cases combined.” We are carrying over the last available separate **Confirmed** and **Probable Case** values while we reach out to the state to see if these values will be made available elsewhere.
+On November 6, 2020, Illinois [announced](http://www.dph.illinois.gov/news/public-health-officials-announce-10376-new-confirmed-cases-coronavirus-disease) that they ""will report confirmed cases and probable cases combined.” The time series for the **Confirmed** and **Probable Case** metrics are available in the historical data, and our data downloads. 
 
 As of October 15, 2020, Illinois combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 On September 4, 2020, Illinois reported over 140,000 new **Total PCR tests (in specimens)** and over 5,000 new **Cases.** According to the [Chicago Tribune](https://www.chicagotribune.com/coronavirus/ct-covid-19-pandemic-chicago-illinois-news-20200904-qun7unon5fhjbfhnsml4edwqia-story.html), ""The Illinois Department of Public Health said Friday there was significant slowdown in the agency's test reporting earlier this week that it is just catching up with."" ",#REF!,FALSE,,,,"IL primary > ""Information to be updated daily"" 
 
-today's date / 00:00",,,,,,,,,,,,,,"IL primary > title ""Coronavirus Disease 2019 (COVID-19) in Illinois"" > ""Total Tests Performed""",,,"updates: never
-IL primary > ""Confirmed Cases""
-
-note: the state has stopped reporting this. leave the previous value in the cell","updates: never
-IL primary > """"Confirmed Cases""""
-
-note: this value used to be updated once weekly.
-note: the state has stopped reporting this. leave the previous value in the cell",,"IL primary > ""Total Cases""","calculated:
+today's date / 00:00",,,,,,,,,,,,,,"IL primary > title ""Coronavirus Disease 2019 (COVID-19) in Illinois"" > ""Total Tests Performed""",,,,,,"IL primary > ""Total Cases""","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"IL other > click link ""Statewide Hospital Statistics1"" > title ""COVID-19 Patients"" > ""Total COVID + PUI in Hospital""
 
 note: statewide Hospital Statistics1 located at the bottom of the page below the hover-over graphs
