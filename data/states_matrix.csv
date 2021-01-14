@@ -1616,15 +1616,15 @@ note: this metric is updated irregularly
 note: if this metric does not update, leave the previous value in the cell
 . Total Test Encounters (PCR) – long calculation
 This formula sums PCR test encounters by day and county to get a cumulative number.
-long calculation > hover over ""# ND Testing"" > click play button > ""Total PCR tests (susceptible test encounters)  ""
+long calculation > hover over ""# ND Negatives + Testing"" > click play button > ""Total PCR tests (susceptible test encounters)  ""
 
 note: long calculation link can be found in cell E2 of WS2. Total Tests (PCR) – long calculation
 This formula sums PCR specimens tested by day and county to get a cumulative number.
-long calculation > hover over ""# ND Testing"" > click play button >  ""Total PCR tests (specimens) ""
+long calculation > hover over ""# ND Negatives + Testing"" > click play button >  ""Total PCR tests (specimens) ""
 
 note: long calculation link can be found in cell E2 of WS2. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – ND primary > column ""Cumulative"" > ""Positives""  > ""Confirmed (PCR Tests)"". Probable Cases – ND primary > column ""Cumulative"" > title ""Positives"" > ""Probable (Antigen Tests)"". Total PCR Tests (People) – ND primary > column ""Cumulative"" > ""Tests""  > ""Unique Individuals"". Positive Cases (People, confirmed + probable) – ND primary > column ""Cumulative"" > ""Positives""  > ""Total (PCR and Antigen Tests)"". Negative (People or Cases) – long calculation
 This formula sums cumulative people tested negative by county to get a total number for the state.
-long calculation > hover over ""# ND Negatives"" > click play button > ""Total Negatives""
+long calculation > hover over ""# ND Negatives + Testing"" > click play button > ""Total Negatives""
 
 note: long calculation link can be found in cell E2 of WS2. Pending – . Currently 
 Hospitalized – ND primary > tab ""Hospitalizations"" > title ""Hospitalized due to COVID"" > column ""Current"" > ""Total Hospitalized""
@@ -1661,15 +1661,15 @@ note: this metric is updated irregularly
 note: if this metric does not update, leave the previous value in the cell
 ","long calculation
 This formula sums PCR test encounters by day and county to get a cumulative number.
-long calculation > hover over ""# ND Testing"" > click play button > ""Total PCR tests (susceptible test encounters)  ""
+long calculation > hover over ""# ND Negatives + Testing"" > click play button > ""Total PCR tests (susceptible test encounters)  ""
 
 note: long calculation link can be found in cell E2 of WS2","long calculation
 This formula sums PCR specimens tested by day and county to get a cumulative number.
-long calculation > hover over ""# ND Testing"" > click play button >  ""Total PCR tests (specimens) ""
+long calculation > hover over ""# ND Negatives + Testing"" > click play button >  ""Total PCR tests (specimens) ""
 
 note: long calculation link can be found in cell E2 of WS2",,,"ND primary > column ""Cumulative"" > ""Positives""  > ""Confirmed (PCR Tests)""","ND primary > column ""Cumulative"" > title ""Positives"" > ""Probable (Antigen Tests)""","ND primary > column ""Cumulative"" > ""Tests""  > ""Unique Individuals""","ND primary > column ""Cumulative"" > ""Positives""  > ""Total (PCR and Antigen Tests)""","long calculation
 This formula sums cumulative people tested negative by county to get a total number for the state.
-long calculation > hover over ""# ND Negatives"" > click play button > ""Total Negatives""
+long calculation > hover over ""# ND Negatives + Testing"" > click play button > ""Total Negatives""
 
 note: long calculation link can be found in cell E2 of WS2",,"ND primary > tab ""Hospitalizations"" > title ""Hospitalized due to COVID"" > column ""Current"" > ""Total Hospitalized""
 
