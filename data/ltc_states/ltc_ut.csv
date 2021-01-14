@@ -742,7 +742,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Rocky Mountain Care - Hunter Hollow,Nursing Home,,,,,,,Y,,Zero cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Wide Horizons Intermediate Care Facility,Intermed Care/Intel Disabled,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Canyon Breeze Senior Living,Assisted Living,,,,,,,Y,,5 to 10,,,,,,,,,,,,,,,,N
-20210114,UT,,,South Ogden Post Acute,Nursing Home,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
+20210114,UT,,,South Ogden Post Acute,Nursing Home,,,,,,,N,,11 to 20,,,,,,,,,,,,,,,,Y
 20210114,UT,,,"Millcreek Rehabilitation and Nursing, LLC",Nursing Home,,,,,,,N,,More than 20,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Cascades at Orchard Park,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Willow Glen Health and Rehab,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
@@ -752,7 +752,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Life Care Center of Salt Lake City,Nursing Home,,,,,,,Y,,11 to 20,,,,,,,,,,,,,,,,N
 20210114,UT,,,Cottonwood Creek,Assisted Living,,,,,,,Y,,5 to 10,,,,,,,,,,,,,,,,N
 20210114,UT,,,Sunridge Assisted Living and Memory Care,Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
-20210114,UT,,,Beehive Homes of Naples,Assisted Living,,,,,,,Y,,5 to 10,,,,,,,,,,,,,,,,N
+20210114,UT,,,Beehive Homes of Naples,Assisted Living,,,,,,,Y,,11 to 20,,,,,,,,,,,,,,,,N
 20210114,UT,,,Avamere at Mountain Ridge,Assisted Living,,,,,,,Y,,5 to 10,,,,,,,,,,,,,,,,N
 20210114,UT,,,Alpine Meadow Rehabilitation And Nursing,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Sunridge Assisted Living of Layton,Assisted Living,,,,,,,N,,More than 20,,,,,,,,,,,,,,,,Y
@@ -764,7 +764,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Millard County Care and Rehabilitation,Nursing Home,,,,,,,N,,11 to 20,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Cache Valley Assisted Living,Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Highland Care Center,Nursing Home,,,,,,,Y,,More than 20,,,,,,,,,,,,,,,,N
-20210114,UT,,,Sagewood at Daybreak,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Sagewood at Daybreak,Assisted Living,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
 20210114,UT,,,Beehive Homes of Riverton,Assisted Living,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
 20210114,UT,,,St Joseph Villa Assisted Living,Assisted Living,,,,,,,Y,,11 to 20,,,,,,,,,,,,,,,,N
 20210114,UT,,,Red Cliffs Health and Rehab,Nursing Home,,,,,,,Y,,More than 20,,,,,,,,,,,,,,,,N
@@ -776,7 +776,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Stonehenge of Orem,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,"Stonehenge of South Jordan, LLC",Nursing Home,,,,,,,N,,11 to 20,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Heirloom Inn,Assisted Living,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
-20210114,UT,,,"Hidden Valley Assisted Living, LLC",Assisted Living,,,,,,,N,,5 to 10,,,,,,,,,,,,,,,,Y
+20210114,UT,,,"Hidden Valley Assisted Living, LLC",Assisted Living,,,,,,,Y,,5 to 10,,,,,,,,,,,,,,,,N
 20210114,UT,,,Spring Gardens Mapleton,Assisted Living,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
 20210114,UT,,,Logan Regional Hospital Transitional Care Unit,Nursing Home,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
 20210114,UT,,,Rocky Mountain Care - Hunter Hollow,Nursing Home,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
@@ -831,7 +831,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Beehive Homes of Richfield,Assisted Living,,,,,,,Y,,Zero cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,"Beacon Crest Management of Draper, LLC",Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Canyonlands Care Center,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
-20210114,UT,,,Our House of Ogden,Assisted Living,,,,,,,N,,11 to 20,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Our House of Ogden,Assisted Living,,,,,,,Y,,11 to 20,,,,,,,,,,,,,,,,N
 20210114,UT,,,Richfield Rehabilitation and Care Center,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Avalon Valley Rehabilitation,Nursing Home,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
 20210114,UT,,,Tophams Tiny Tots Care Center,Intermed Care/Intel Disabled,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
@@ -856,12 +856,12 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Country Oaks Assisted Living of Layton,Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Williamsburg Retirement Community,Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,William E Christoffersen Salt Lake Veterans Home,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
-20210114,UT,,,Avalon Valley Rehabilitation,Nursing Home,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
-20210114,UT,,,Family Tree of Morgan,Assisted Living,,,,,,,N,,5 to 10,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Avalon Valley Rehabilitation,Nursing Home,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
+20210114,UT,,,Family Tree of Morgan,Assisted Living,,,,,,,Y,,11 to 20,,,,,,,,,,,,,,,,N
 20210114,UT,,,Seasons Assisted Living of Farr West,Assisted Living,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
 20210114,UT,,,Aspen Ridge of Utah Valley,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Bella Terra St George,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
-20210114,UT,,,Meadow Brook Rehabilitation and Nursing,Nursing Home,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Meadow Brook Rehabilitation and Nursing,Nursing Home,,,,,,,N,,5 to 10,,,,,,,,,,,,,,,,Y
 20210114,UT,,,The Lodge at Jordan River,Assisted Living,,,,,,,Y,,Zero cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Creekside Senior Living,Assisted Living,,,,,,,Y,,Zero cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Canyon Creek Assisted Living,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
@@ -906,7 +906,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Legacy House Of Spanish Fork,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Provo Care Center,Intermed Care/Intel Disabled,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Legacy House of Bountiful,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
-20210114,UT,,,Beehive Homes Of Syracuse,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Beehive Homes Of Syracuse,Assisted Living,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
 20210114,UT,,,Sunridge Assisted Living And Memory Care,Assisted Living,,,,,,,N,,5 to 10,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Gables Assisted Living of North Logan,Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Sunridge Assisted Living Of Roy,Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
@@ -917,7 +917,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Beehive Homes of Washington County IV,Assisted Living,,,,,,,N,,5 to 10,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Beehive Homes of Washington County #6,Assisted Living,,,,,,,Y,,5 to 10,,,,,,,,,,,,,,,,N
 20210114,UT,,,Paramount Health and Rehabilitation,Nursing Home,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
-20210114,UT,,,"Ashford Memory Care, Inc",Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
+20210114,UT,,,"Ashford Memory Care, Inc",Assisted Living,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
 20210114,UT,,,Beehive Homes of Washington County #5,Assisted Living,,,,,,,Y,,5 to 10,,,,,,,,,,,,,,,,N
 20210114,UT,,,Rocky Mountain Care - Logan,Nursing Home,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Midtown Manor,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
@@ -927,7 +927,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Beehive Homes of St George #1,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Southgate Senior Living,Assisted Living,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Gardens Assisted Living,Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
-20210114,UT,,,Avalon West Health and Rehabilitation,Nursing Home,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Avalon West Health and Rehabilitation,Nursing Home,,,,,,,Y,,1 to 4,,,,,,,,,,,,,,,,N
 20210114,UT,,,Alpine Meadow Rehabilitation And Nursing,Nursing Home,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Pine View Transitional Rehab,Nursing Home,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Stonehenge Of Orem,Nursing Home,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
@@ -938,7 +938,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Emery County Care And Rehabilitation Center,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Highland Care Center,Nursing Home,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Holladay Healthcare Center,Nursing Home,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
-20210114,UT,,,Creekside Senior Living,Assisted Living,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Creekside Senior Living,Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Spring Creek Healthcare Center,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Tradition Assisted Living,Assisted Living,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
 20210114,UT,,,The Wentworth at Coventry I Senior Living,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
@@ -961,7 +961,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Heritage Hills Rehabilitation And Care Center,Nursing Home,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Canyon Rim Care Center,Nursing Home,,,,,,,Y,,Zero cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Williamsburg Retirement Community,Assisted Living,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
-20210114,UT,,,Avalon Care Center-Bountiful,Nursing Home,,,,,,,N,,5 to 10,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Avalon Care Center-Bountiful,Nursing Home,,,,,,,N,,More than 20,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Beehive Homes of Draper,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Hillcrest Care Center,Intermed Care/Intel Disabled,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Monroe Canyon Assisted Living,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
@@ -986,7 +986,7 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,The Retreat at Sunriver St George,Assisted Living,,,,,,,N,,5 to 10,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Legacy House of Ogden,Assisted Living,,,,,,,N,,5 to 10,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Provo Rehabilitation and Nursing,Nursing Home,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
-20210114,UT,,,Bellaview Assisted Living and Memory Care,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Bellaview Assisted Living and Memory Care,Assisted Living,,,,,,,N,,5 to 10,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Spring Gardens Holladay,Assisted Living,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Mission at Community Assisted Living,Assisted Living,,,,,,,N,,1 to 4,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Peachtree Place,Assisted Living,,,,,,,Y,,Zero cases,,,,,,,,,,,,,,,,N
@@ -996,5 +996,8 @@ Date Collected,State,blank,blank,Facility_Name,Facility_Type,blank,blank,blank,b
 20210114,UT,,,Beehive Homes of Washington County #8,Assisted Living,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
 20210114,UT,,,Legacy Village of Provo,Assisted Living,,,,,,,N,,Zero cases,,,,,,,,,,,,,,,,N
 20210114,UT,,,Gardens Assisted Living,Assisted Living,,,,,,,N,,Zero cases,,,,,,,,,,,,,,,,N
-20210114,UT,,,Heritage Care Center,Nursing Home,,,,,,,N,,Zero cases,,,,,,,,,,,,,,,,N
+20210114,UT,,,Heritage Care Center,Nursing Home,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Uintah Health Care Special Service District,Nursing Home,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
+20210114,UT,,,Life Care Center of Salt Lake City,Nursing Home,,,,,,,Y,,No Resident Cases,,,,,,,,,,,,,,,,N
+20210114,UT,,,Golden Living Taylorsville,Assisted Living,,,,,,,N,,No Resident Cases,,,,,,,,,,,,,,,,Y
 
