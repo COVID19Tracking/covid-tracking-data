@@ -12,3 +12,7 @@ and saved to [ltc_wv.csv](https://github.com/COVID19Tracking/covid-tracking-data
 - Kansas long-term care facility data, scraped from
 [their dashboard](https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas) (Long-Term Care tab)
 and saved to [ltc_ks.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/ltc_states/ltc_ks.csv)
+
+- Utah long-term care facility data, scraped from
+[their dashboard](https://coronavirus-dashboard.utah.gov/#outbreaks)
+and saved to [ltc_ut.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/ltc_states/ltc_ut.csv)
