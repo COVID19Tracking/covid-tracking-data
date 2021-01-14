@@ -1934,7 +1934,7 @@ On November 23, 2020 Ohio announced that their data for November 23, 2020 would 
 On November 18, 2020, Ohio reported 5246480 **Total PCR tests (specimens)** - the same number that was reported on November 15, 2020, and a drop of roughly 102k tests from November 17, 2020. Because Ohio announced that their data for November 18, 2020 would be incomplete, and we suspect this decrease was a result of that, we did not update **Total PCR tests (specimens)**, or `Negative` on November 18, 2020.
 ","Local Time – OH dash > ""Last updated"" & ""Updated daily at...""
 
-above date / 14:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – CSV
+above date / 14:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – long calculation
 OH dash > menu pulldown ""Key Metrics"" > ""Testing"" > click ""Click here for an export of the summary data."" > ""Export Data"" > ""CSV"" > download > sum of column ""Presumptive Lab Total Tested (Daily)""
 
 note: upload the file as a screenshot, make sure to refresh the internal website page before uploading the hospital screenshots. 
@@ -1965,7 +1965,7 @@ screenshot: https://internal.covidtracking.com/screenshot?state=OH&datatype=taco
 on Ventilator – . Recovered – OH dash > ""COVID-19 Dashboard"" > menu ""Overview"" >""Presumed Recovered""
 . Deaths (confirmed and probable) – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" >  ""Total Deaths"" . ",,,,,"OH dash > ""Last updated"" & ""Updated daily at...""
 
-above date / 14:00",,,,"CSV
+above date / 14:00",,,,"long calculation
 OH dash > menu pulldown ""Key Metrics"" > ""Testing"" > click ""Click here for an export of the summary data."" > ""Export Data"" > ""CSV"" > download > sum of column ""Presumptive Lab Total Tested (Daily)""
 
 note: upload the file as a screenshot, make sure to refresh the internal website page before uploading the hospital screenshots. 
