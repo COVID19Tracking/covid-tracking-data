@@ -1,15 +1,15 @@
-name: Scrape LTC
+name: Scrape LTC Node
 
 on:
   repository_dispatch:
     types:
       - ltc
   schedule:
-    - cron: '45 22 * * *'
+    - cron: '05 22 * * *'
 
 defaults:
   run:
-     working-directory: data-collection-scripts/ltc-scraper
+     working-directory: data-collection-scripts/ltc-scrapers/playwright-scrapers
 
 jobs:
   scrape:
@@ -38,13 +38,13 @@ jobs:
           run: sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
         - name: Run scraper
           run: |
-            node ${{ matrix.state }}_ltc_scraper.js > ../../data/ltc_${{ matrix.state }}.csv
+            node ${{ matrix.state }}_ltc_scraper.js > ../../../data/ltc_states/ltc_${{ matrix.state }}.csv
         - name: Commit
           if: github.ref == 'refs/heads/master'
           uses: EndBug/add-and-commit@v5
           with:
             message: Updating scraped LTC data
-            add: data/ltc_${{ matrix.state }}.csv
+            add: data/ltc_states/ltc_${{ matrix.state }}.csv
             author_name: GitHub Actions
             author_email: actions@github.com
           env:
@@ -54,5 +54,5 @@ jobs:
           with:
             name: Video
             path: |
-              data-collection-scripts/ltc-scraper/videos/*
+              data-collection-scripts/ltc-scrapers/playwright-scrapers/videos/*
             retention-days: 10
