@@ -26,6 +26,8 @@ AL,"Alabama combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On January 13, 2021, Alabama reported that it is reviewing a large number of deaths from the Alabama Center for Health Statistics (ACHS), an endeavor which began on November 11, 2020 and will continue until further notice. As a result, death numbers during this time period reported may include historic deaths and may not accurately reflect new COVID-19 deaths. We urge caution when interpreting these numbers, and encourage the use of 7 and 14-day averages as more reliable metrics.
+
 On January 5, 2021, Alabama noted on their [COVID-19 dashboard](https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7) that the cases reported on January 5, 2021 were high due to a delay in testing and reporting over the holiday weekend. On January 7, 2021, they noted that cases and deaths reported through the week of January 7, 2021, may be affected by holiday related reporting delays. We urge caution in using figures from this time period, and encourage the use of 7 and 14-day averages as more reliable metrics.
 
 On December 18, 2020, Alabama announced that a backlog of 382 positive PCR test results from December 10, 2020 through December 13, 2020 will be classified as being reported on December 17, 2020.
@@ -506,6 +508,8 @@ NC,"The metric reported in our API as `totalTestsAntigen` only includes tests re
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On January 13, 2021, North Carolina reported that technical issues occurring on January 12, 2021 prevented processing of case and testing data into their COVID reporting system. As a result, case and testing data reported on January 13, 2021 are lower than they would have been had all the data been processed, and case and testing data on January 14, 2021 will be increased, since it will include the previous day's data.
+
 On December 30, 2020, North Carolina announced on its [dashboard](https://covid19.ncdhhs.gov/dashboard) that due to holiday-related disruptions and technical issues, data reported on December 30, 2020 was artificially higher than usual and includes 36 hours of data, while data reported on December 31, 2020 was artificially lower than usual and includes only 12 hours of data.
 
 On December 24, 2020, North Carolina announced on their COVID-19 dashboard that their data would not be updated on December 24, 2020, or December 25, 2020 due to the holiday. On January 1, 2021, they noted that there would be no update to their data on January 1, 2021 due to the holiday.
@@ -553,6 +557,11 @@ On September 9, 2020, North Dakota began reporting “Susceptible Encounters” 
 
 On August 19, 2020, North Dakota launched a new dashboard with a number of new data points, including race and ethnicity data and ICU data. ",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,North Dakota,38
 NE,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
+
+
+Nebraska’s **Recovered** numbers occasionally decrease without explanation.
+
+On January 13, 2021, Nebraska’s Recovered decreased by 1864 without explanation.
 
 On January 9, 2021, Nebraska’s Deaths (confirmed + probable) decreased by 78 without explanation.
 
@@ -726,6 +735,8 @@ On September 25, 2020, Rhode Island removed 240 duplicate cases from its case co
 As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**.",https://health.ri.gov/data/covid-19/,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/gviz/tq?tqx=out:csv&sheet=1592746937,,,@rihealth,https://health.ri.gov/diseases/respiratory/?parm=163,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Rhode Island,44
 SC,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On January 11, 2021 through January 13, 2021, South Carolina has [experienced](https://covid-tracking.slack.com/archives/C010RFJ0ZD3/p1610394906169500) an internal systems issue which has resulted in data missing from their dashboard. We urge caution when interpreting their data from this period, and encourage the use of 7 and 14-day averages as more reliable figures than individual metrics.
+
 On December 21, 2020, South Carolina [announced](https://twitter.com/scdhec/status/1341089396876042241) via the official South Carolina Public Health and Environmental Protection Agency twitter, that there would be no update to their data on December 25, 2020, or on January 1, 2021 due to the holidays. Additionally, they noted that the data for [December 26, 2020](https://twitter.com/scdhec/status/1343239000593731595) and [January 2, 2021](https://twitter.com/scdhec/status/1345428961917104133?s=20) would each include two days of data. 
 
 On December 20, 2020, South Carolina noted that their Currently hospitalized figure was larger than normal due to an error in facilities reporting. Their Currently hospitalized increased from 1461 to 1471.
@@ -875,7 +886,7 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
-Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
+Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
 On January 8, 2021, Washington noted that their hospitalization data for the day was incomplete due to a data processing issue, and their Ever hospitalized decreased by 11. Because Washington’s data is on a one day lag in our timeseries, this is reflected in our data for January 9, 2021.
 
