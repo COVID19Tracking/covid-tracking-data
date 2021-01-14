@@ -2667,7 +2667,7 @@ note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests 
 WS2 > {Total Test Encounters (PCR) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – WA other > button “Beds Occupied by COVID patients” > “Staffed acute care beds occupied by adults with suspected and confirmed COVID-19"". Cumulative Hospitalized – WA dash > pg. 1 > ""Hospitalizations""
 . Currently
-in ICU – WA other > button “Percent of adult ICU staffed beds occupied by COVID-19 cases” > “Adult ICD staffed beds occupied by suspected and confirmed COVID-19 cases”. Cumulative
+in ICU – WA other > button “Percent of adult ICU staffed beds occupied by COVID-19 cases” > “Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases”. Cumulative
 in ICU – . Currently 
 on Ventilator – WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date. Cumulative 
 on Ventilator – . Recovered – . Deaths (confirmed and probable) – WA dash > pg. 1 > ""Deaths""
@@ -2680,7 +2680,7 @@ note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash
 ",,"WA dash > pg. 1 > ""Total Cases""
 ","calculated:
 WS2 > {Total Test Encounters (PCR) - Positive Cases (PCR)}",,"WA other > button “Beds Occupied by COVID patients” > “Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
-",WA other > button “Percent of adult ICU staffed beds occupied by COVID-19 cases” > “Adult ICD staffed beds occupied by suspected and confirmed COVID-19 cases”,,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,"WA dash > pg. 1 > ""Deaths""
+",WA other > button “Percent of adult ICU staffed beds occupied by COVID-19 cases” > “Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases”,,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,"WA dash > pg. 1 > ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.doh.wa.gov/Emergencies/Coronavirus,WA
 WI,Wisconsin,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.twitter.com/DHSWI,,,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm#capabilities,,"On January 9, 2021, Wisconsin’s **Recovered** metric decreased by approximately 20,000, however on their [official twitter](https://twitter.com/DHSWI/status/1348020141674487808) Wisconsin indicated a problem with this metric. The metric was updated, and then patched in our data, later on January 9, 2021.
 
