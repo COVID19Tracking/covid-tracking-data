@@ -2650,13 +2650,9 @@ note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests 
 . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – WA dash > pg. 1 > ""Total Cases""
 . Negative (People or Cases) – calculated:
 WS2 > {Total Test Encounters (PCR) - Positive Cases (PCR)}. Pending – . Currently 
-Hospitalized – WA other > tab ""Healthcare System Readiness"" > click button ""Percent of staffed acute care beds occupied"" > title ""Supporting detail"" > ""Adult staffed acute care beds occupied by suspected and confirmed COVID-19""
-
-note: make sure the tab specifies ""suspected and confirmed COVID-19"" there are very similar tabs with all patients. Cumulative Hospitalized – WA dash > pg. 1 > ""Hospitalizations""
+Hospitalized – WA other > tab ""Healthcare System Readiness"" > click button ""Percent of staffed acute care beds occupied"" > title ""Supporting detail"" > ""Adult staffed acute care beds occupied by suspected and confirmed COVID-19"" note: make sure the tab specifies ""suspected and confirmed COVID-19"" there are very similar tabs with all patients"". Cumulative Hospitalized – WA dash > pg. 1 > ""Hospitalizations""
 . Currently
-in ICU – WA other > tab ""Healthcare System  Readiness"" > click button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > title ""Supporting detail"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases""
-
-note: make sure the tab specifies ""suspected and confirmed COVID-19"" there are very similar tabs with all patients. Cumulative
+in ICU – WA other > tab ""Healthcare System Readiness"" > click button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > title ""Supporting detail"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases"" note: make sure the tab specifies ""suspected and confirmed COVID-19"" there are very similar tabs with all patients"". Cumulative
 in ICU – . Currently 
 on Ventilator – WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date. Cumulative 
 on Ventilator – . Recovered – . Deaths (confirmed and probable) – WA dash > pg. 1 > ""Deaths""
@@ -2668,12 +2664,8 @@ note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash
 ","WA dash > pg. 1 > ""Probable Cases""
 ",,"WA dash > pg. 1 > ""Total Cases""
 ","calculated:
-WS2 > {Total Test Encounters (PCR) - Positive Cases (PCR)}",,"WA other > tab ""Healthcare System Readiness"" > click button ""Percent of staffed acute care beds occupied"" > title ""Supporting detail"" > ""Adult staffed acute care beds occupied by suspected and confirmed COVID-19""
-
-note: make sure the tab specifies ""suspected and confirmed COVID-19"" there are very similar tabs with all patients","WA dash > pg. 1 > ""Hospitalizations""
-","WA other > tab ""Healthcare System  Readiness"" > click button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > title ""Supporting detail"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases""
-
-note: make sure the tab specifies ""suspected and confirmed COVID-19"" there are very similar tabs with all patients",,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,"WA dash > pg. 1 > ""Deaths""
+WS2 > {Total Test Encounters (PCR) - Positive Cases (PCR)}",,"WA other > tab ""Healthcare System Readiness"" > click button ""Percent of staffed acute care beds occupied"" > title ""Supporting detail"" > ""Adult staffed acute care beds occupied by suspected and confirmed COVID-19"" note: make sure the tab specifies ""suspected and confirmed COVID-19"" there are very similar tabs with all patients""","WA dash > pg. 1 > ""Hospitalizations""
+","WA other > tab ""Healthcare System Readiness"" > click button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > title ""Supporting detail"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases"" note: make sure the tab specifies ""suspected and confirmed COVID-19"" there are very similar tabs with all patients""",,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,"WA dash > pg. 1 > ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.doh.wa.gov/Emergencies/Coronavirus,WA
 WI,Wisconsin,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.twitter.com/DHSWI,,,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm#capabilities,,"On January 9, 2021, Wisconsin’s **Recovered** metric decreased by approximately 20,000, however on their [official twitter](https://twitter.com/DHSWI/status/1348020141674487808) Wisconsin indicated a problem with this metric. The metric was updated, and then patched in our data, later on January 9, 2021.
 
