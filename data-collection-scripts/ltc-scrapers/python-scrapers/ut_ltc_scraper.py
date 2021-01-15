@@ -52,6 +52,7 @@ for facility in dict_data["features"]:
 
     facility["Date Collected"] = datetime.now(timezone('US/Eastern')).strftime('%Y%m%d')
     facility["State"] = "UT"
+    facility["Unresolved_Postive_Patients_Desc"] = facility["Postive_Patients_Desc"] if facility["Resolved_Y_N"] == "N" else ""
     facility["blank"] = ""
     writer.writerow(facility)
 
