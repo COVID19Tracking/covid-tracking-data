@@ -2075,7 +2075,7 @@ OR press conferences > title  ""COVID-19 News from Oregon Health Authority"" > c
 calculated: 
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}
 
-note: on the weekends do not update",,"updates: Tuesday - Saturday
+note: on Sunday and Monday do not update",,"updates: Tuesday - Saturday
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Hospitalized Patients""
 
 note: do not update from press release or on weekends","updates: Tuesday - Saturday
@@ -2214,7 +2214,7 @@ on Ventilator – . Recovered – RI other > ""Cumulative hospital discharges"".
 today / 13:00 on weekdays, Fri date / 13:00 on weekends",,,,,,,,,,,,,"RI other > ""Cumulative total tests completed (may count people more than once)""",,"RI other > ""Cumulative positive tests (may count people more than once)""","RI other > ""Cumulative negative tests (may count people more than once)""",,,"RI other > ""Cumulative people tested (one count per person)"" ","RI primary > ""Total Positive Cases""","RI other > ""Cumulative people who have only tested negative (counts first negative lab per person)"" ",,"RI primary > ""People Hospitalized""","RI other > ""Cumulative Hospital Admissions""","RI other > ""Currently in ICU""",,"RI other > ""Currently vented""",,"RI other > ""Cumulative hospital discharges""","RI primary > ""Total Fatalities""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://health.ri.gov/data/covid-19/,RI
 SC,South Carolina,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,https://www.twitter.com/scdhec,,,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/hospital-bed-capacity-covid-19,,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On January 11, 2021 through January 15, 2021, South Carolina has [experienced](https://covid-tracking.slack.com/archives/C010RFJ0ZD3/p1610394906169500) an internal systems issue which has resulted in data missing from their dashboard. We urge caution when interpreting their data from this period, and encourage the use of 7 and 14-day averages as more reliable figures than individual metrics.
+On January 11, 2021 through January 15, 2021, South Carolina [experienced](https://covid-tracking.slack.com/archives/C010RFJ0ZD3/p1610394906169500) an internal systems issue which has resulted in data missing from their dashboard. We urge caution when interpreting their data from this period, and encourage the use of 7 and 14-day averages as more reliable figures than individual metrics.
 
 On December 21, 2020, South Carolina [announced](https://twitter.com/scdhec/status/1341089396876042241) via the official South Carolina Public Health and Environmental Protection Agency twitter, that there would be no update to their data on December 25, 2020, or on January 1, 2021 due to the holidays. Additionally, they noted that the data for [December 26, 2020](https://twitter.com/scdhec/status/1343239000593731595) and [January 2, 2021](https://twitter.com/scdhec/status/1345428961917104133?s=20) would each include two days of data. 
 
@@ -2596,9 +2596,9 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
-On January 14, 2021, Washington state announced that their data on hospitalizations was incomplete due to an interruption in their data reporting process. As a result, Cumulative hospitalized was not updated on January 15, 2021; a complete update is expected on January 16, 2021.
-
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
+
+On January 14, 2021, Washington announced that their hospitalization data was incomplete due to an interruption in their data reporting process. On January 15, 2021, they announced that their hospitalization data was “unusually high” due to a backlog from January 13, 2021 and January 14, 2021. Because their data is on a one day lag in our timeseries, this affects our data for January 15, 2021 and January 16, 2021. To avoid recording incomplete data, we did not update their Ever hospitalized on January 15, 2021 and urge caution when interpreting their hospital data from this time period.
 
 On January 8, 2021, Washington noted that their hospitalization data for the day was incomplete due to a data processing issue, and their Ever hospitalized decreased by 11. Because Washington’s data is on a one day lag in our timeseries, this is reflected in our data for January 9, 2021.
 
