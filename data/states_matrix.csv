@@ -2052,14 +2052,14 @@ On November 4, 2020, Oregon stopped reporting current hospitalization data on th
 
 As of June 6, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.",#REF!,,TRUE,,,"OR primary > title ""Situation in Oregon"" > ""Data current as of""
 
-or (on weekends only)
+or (Sunday and Monday only)
 
-on weekends, use most recent press release > ""... as of...""
+on Sunday and Monday, use most recent press release > ""... as of...""
 
 yesterday / 00:01
-",,,,,,,,,,,,,,"updates: Monday - Friday
-OR primary > title ""SItuation in Oregon"" >  ""Total Tests""","updates: Monday - Friday
-OR primary > title ""SItuation in Oregon"" >  ""Positive Tests""","updates: Monday - Friday
+",,,,,,,,,,,,,,"updates: Tuesday - Saturday
+OR primary > title ""SItuation in Oregon"" >  ""Total Tests""","updates: Tuesday - Saturday
+OR primary > title ""SItuation in Oregon"" >  ""Positive Tests""","updates: Tuesday - Saturday
 OR primary > title ""SItuation in Oregon"" >  ""Negative Tests""","updates: never
 
 OR dash > tab ""Total Persons Tested"" > ""Positive""
@@ -2069,25 +2069,25 @@ WS2 > {Positive Cases (People, Confirmed + Probable) - Positive Cases (PCR))
 
 note: on weekends, carry over total because Positive Cases (PCR) is not updated",,"OR primary > title ""SItuation in Oregon"" >  ""Total Cases""
 
-on weekends:
+on Sunday and Monday:
 
-OR press conferences > title  ""COVID-19 News from Oregon Health Authority"" > click link for that days release > table > column ""Cases"" > row ""Total""","updates: Monday - Friday
+OR press conferences > title  ""COVID-19 News from Oregon Health Authority"" > click link for that days release > table > column ""Cases"" > row ""Total""","updates: Tuesday - Saturday
 calculated: 
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}
 
-note: on the weekends do not update",,"updates: Monday - Friday
+note: on the weekends do not update",,"updates: Tuesday - Saturday
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Hospitalized Patients""
 
-note: do not update from press release or on weekends","updates: Monday - Friday
-OR dash > title ""Age, Sex and Hospitalization Status for Confirmed and Presumptive COVID-19 cases (Cumulative)"" >  table ""Hospitalized During Illness?"" > row ""Yes"" ","updates: Monday - Friday
+note: do not update from press release or on weekends","updates: Tuesday - Saturday
+OR dash > title ""Age, Sex and Hospitalization Status for Confirmed and Presumptive COVID-19 cases (Cumulative)"" >  table ""Hospitalized During Illness?"" > row ""Yes"" ","updates: Tuesday - Saturday
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Patients in ICU Beds""
 
-note: do not update from press release or on weekends",,"updates: Monday - Friday
+note: do not update from press release or on weekends",,"updates: Tuesday - Saturday
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Patients on Ventilators""",,"updates: never
 
 OR other > ""Recovered Cases""","OR primary > title ""Situation in Oregon"" > ""Total deaths""
 
-or (on weekends only)
+or (on Sunday and Monday)
 
 OR press conference > title ""COVID-19 News from Oregon Health Authority"" > click link for that days release > table > column ""Total Deaths"" > row ""Total""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,OR
 PA,Pennsylvania,https://experience.arcgis.com/experience/ed2def13f9b045eda9f7d22dbc9b500e,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://www.twitter.com/PAHealthDept,https://www.media.pa.gov/Pages/Health.aspx,,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,,"On January 4, 2021, Pennsylvania [announced](https://www.media.pa.gov/pages/health-details.aspx?newsid=1231) ""3,226 additional positive cases of COVID-19, in addition to 4,579 new cases reported Sunday, January 3 for a two-day total of 8,992 additional positive cases of COVID-19."" In addition, case counts for January 4, 2021 are ""atypically low"" due to technical maintenance.
