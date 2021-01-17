@@ -1,38 +1,38 @@
 date_collected,state,County-alias,City or State-alias,Facility-value,Type-value,blank,blank,blank,blank,Last Onset Date-value,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,SUM(Number of Cases within 14 days)-alias
-20210116,KS,Johnson,Olathe,Aberdeen Village - October 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,16
-20210116,KS,Wabaunsee,Alma,Alma Manor Nursing Home,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,16
-20210116,KS,Clark,Ashland,Ashland Health Center Senior Living Unit,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,6
-20210116,KS,Johnson,Olathe,Azria Health - October 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,39
-20210116,KS,Marion,Goessel,Bethesda Nursing Home,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,9
-20210116,KS,Johnson,Shawnee,Brookdale Rosehill - December 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,6
-20210116,KS,Ford,Dodge City,Brookdale Senior Living,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,6
-20210116,KS,Johnson,Prairie Village,Claridge Court - October 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,5
-20210116,KS,Barton,Hoisington,Country Place Senior Living of Hoisington - December 2020,Long Term Care Facility,,,,,2021-01-04,,,,,,,,,,,,,,,,,,,,,,,,5
-20210116,KS,Johnson,Lenexa,Delmar Gardens of Lenexa - November 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,27
-20210116,KS,Osborne,Downs,Downs Care & Rehab,Long Term Care Facility,,,,,2021-01-09,,,,,,,,,,,,,,,,,,,,,,,,24
-20210116,KS,Saline,Salina,Eaglecrest Retirement Community,Long Term Care Facility,,,,,2021-01-01,,,,,,,,,,,,,,,,,,,,,,,,6
-20210116,KS,Sedgwick,Wichita,Family Health & Rehab,Long Term Care Facility,,,,,2021-01-02,,,,,,,,,,,,,,,,,,,,,,,,6
-20210116,KS,Barton,Great Bend,Great Bend Health and Rehab,Long Term Care Facility,,,,,2021-01-08,,,,,,,,,,,,,,,,,,,,,,,,14
-20210116,KS,Saline,Salina,Holiday Resort Health and Rehab - December 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,5
-20210116,KS,Pottawatomie,St. George,Home of the Flint Hills,Long Term Care Facility,,,,,2021-01-08,,,,,,,,,,,,,,,,,,,,,,,,14
-20210116,KS,Shawnee,Auburn,Homestead of Auburn,Long Term Care Facility,,,,,2020-12-31,,,,,,,,,,,,,,,,,,,,,,,,6
-20210116,KS,Sedgwick,Wichita,Kansas Masonic Home - November 2020,Long Term Care Facility,,,,,2021-01-04,,,,,,,,,,,,,,,,,,,,,,,,15
-20210116,KS,Ford,Dodge City,Kansas Soldiers Home - September 2020,Long Term Care Facility,,,,,2021-01-10,,,,,,,,,,,,,,,,,,,,,,,,33
-20210116,KS,Shawnee,Topeka,Kelly House of Topeka - January 2021,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,6
-20210116,KS,Shawnee,Topeka,McCrite Plaza - December 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,19
-20210116,KS,Johnson,Overland Park,Morningside Place - December 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,5
-20210116,KS,McPherson,Moundridge,Moundridge Manor,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,5
-20210116,KS,Sedgwick,Wichita,Orchard Gardens - October 2020,Long Term Care Facility,,,,,2020-12-31,,,,,,,,,,,,,,,,,,,,,,,,5
-20210116,KS,Johnson,Overland Park,Overland Park Center for Rehab and Healthcare - September 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,11
-20210116,KS,Phillips,Phillipsburg,Phillips County Retirement Center,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,16
-20210116,KS,Wyandotte,Kansas City,Providence Place - January 2021,Long Term Care Facility,,,,,2021-01-04,,,,,,,,,,,,,,,,,,,,,,,,9
-20210116,KS,Johnson,Overland Park,Rose Estates - December 2020,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,16
-20210116,KS,Shawnee,Rossville,Rossville Health and Rehabilitation - January 2021,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,12
-20210116,KS,Shawnee,Rossville,Rossville Health Care and Rehab - December 2020,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,10
-20210116,KS,Saline,Salina,Salina Presbyterian Manor,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,8
-20210116,KS,Johnson,Olathe,Santa Marta - November 2020,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,19
-20210116,KS,Johnson,OVerland Park,St Joseph Place - November 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,13
-20210116,KS,Wyandotte,Kansas City,The Piper Assisted Living and Memory Care - December 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,5
-20210116,KS,Sedgwick,Wichita,Wichita Center for Rehabilitation and Nursing - December 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,29
-20210116,KS,Sedgwick,Wichita,Wichita Presbyterian Manor - November 2020,Long Term Care Facility,,,,,2021-01-04,,,,,,,,,,,,,,,,,,,,,,,,12
+20210117,KS,Johnson,Olathe,Aberdeen Village - October 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,16
+20210117,KS,Wabaunsee,Alma,Alma Manor Nursing Home,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,16
+20210117,KS,Clark,Ashland,Ashland Health Center Senior Living Unit,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,6
+20210117,KS,Johnson,Olathe,Azria Health - October 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,39
+20210117,KS,Marion,Goessel,Bethesda Nursing Home,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,9
+20210117,KS,Johnson,Shawnee,Brookdale Rosehill - December 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,6
+20210117,KS,Ford,Dodge City,Brookdale Senior Living,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,6
+20210117,KS,Johnson,Prairie Village,Claridge Court - October 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,5
+20210117,KS,Barton,Hoisington,Country Place Senior Living of Hoisington - December 2020,Long Term Care Facility,,,,,2021-01-04,,,,,,,,,,,,,,,,,,,,,,,,5
+20210117,KS,Johnson,Lenexa,Delmar Gardens of Lenexa - November 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,27
+20210117,KS,Osborne,Downs,Downs Care & Rehab,Long Term Care Facility,,,,,2021-01-09,,,,,,,,,,,,,,,,,,,,,,,,24
+20210117,KS,Saline,Salina,Eaglecrest Retirement Community,Long Term Care Facility,,,,,2021-01-01,,,,,,,,,,,,,,,,,,,,,,,,6
+20210117,KS,Sedgwick,Wichita,Family Health & Rehab,Long Term Care Facility,,,,,2021-01-02,,,,,,,,,,,,,,,,,,,,,,,,6
+20210117,KS,Barton,Great Bend,Great Bend Health and Rehab,Long Term Care Facility,,,,,2021-01-08,,,,,,,,,,,,,,,,,,,,,,,,14
+20210117,KS,Saline,Salina,Holiday Resort Health and Rehab - December 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,5
+20210117,KS,Pottawatomie,St. George,Home of the Flint Hills,Long Term Care Facility,,,,,2021-01-08,,,,,,,,,,,,,,,,,,,,,,,,14
+20210117,KS,Shawnee,Auburn,Homestead of Auburn,Long Term Care Facility,,,,,2020-12-31,,,,,,,,,,,,,,,,,,,,,,,,6
+20210117,KS,Sedgwick,Wichita,Kansas Masonic Home - November 2020,Long Term Care Facility,,,,,2021-01-04,,,,,,,,,,,,,,,,,,,,,,,,15
+20210117,KS,Ford,Dodge City,Kansas Soldiers Home - September 2020,Long Term Care Facility,,,,,2021-01-10,,,,,,,,,,,,,,,,,,,,,,,,33
+20210117,KS,Shawnee,Topeka,Kelly House of Topeka - January 2021,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,6
+20210117,KS,Shawnee,Topeka,McCrite Plaza - December 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,19
+20210117,KS,Johnson,Overland Park,Morningside Place - December 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,5
+20210117,KS,McPherson,Moundridge,Moundridge Manor,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,5
+20210117,KS,Sedgwick,Wichita,Orchard Gardens - October 2020,Long Term Care Facility,,,,,2020-12-31,,,,,,,,,,,,,,,,,,,,,,,,5
+20210117,KS,Johnson,Overland Park,Overland Park Center for Rehab and Healthcare - September 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,11
+20210117,KS,Phillips,Phillipsburg,Phillips County Retirement Center,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,16
+20210117,KS,Wyandotte,Kansas City,Providence Place - January 2021,Long Term Care Facility,,,,,2021-01-04,,,,,,,,,,,,,,,,,,,,,,,,9
+20210117,KS,Johnson,Overland Park,Rose Estates - December 2020,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,16
+20210117,KS,Shawnee,Rossville,Rossville Health and Rehabilitation - January 2021,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,12
+20210117,KS,Shawnee,Rossville,Rossville Health Care and Rehab - December 2020,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,10
+20210117,KS,Saline,Salina,Salina Presbyterian Manor,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,8
+20210117,KS,Johnson,Olathe,Santa Marta - November 2020,Long Term Care Facility,,,,,2021-01-06,,,,,,,,,,,,,,,,,,,,,,,,19
+20210117,KS,Johnson,OVerland Park,St Joseph Place - November 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,13
+20210117,KS,Wyandotte,Kansas City,The Piper Assisted Living and Memory Care - December 2020,Long Term Care Facility,,,,,2021-01-05,,,,,,,,,,,,,,,,,,,,,,,,5
+20210117,KS,Sedgwick,Wichita,Wichita Center for Rehabilitation and Nursing - December 2020,Long Term Care Facility,,,,,2021-01-07,,,,,,,,,,,,,,,,,,,,,,,,29
+20210117,KS,Sedgwick,Wichita,Wichita Presbyterian Manor - November 2020,Long Term Care Facility,,,,,2021-01-04,,,,,,,,,,,,,,,,,,,,,,,,12
 
