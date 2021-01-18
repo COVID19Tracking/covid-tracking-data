@@ -1,4 +1,4 @@
-name: Scrape LTC Python
+name: Update CDC timeseries
 
 on:
   schedule:
