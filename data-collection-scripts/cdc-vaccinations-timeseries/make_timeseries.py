@@ -35,8 +35,7 @@ def main(strip_duplicate_days):
     out_data = []
     out_cols = {"runid": None}
     seen_data = defaultdict(set)  # dict with date keys holding the states we've seen for that date
-    for data_batch in data:
-        data_batch = data[data_batch]
+    for data_time, data_batch in data.items():
         for state_data in data_batch["vaccination_data"]:
             state_data["runid"] = data_batch["runid"]
 
