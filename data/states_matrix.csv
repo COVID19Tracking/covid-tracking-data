@@ -2807,10 +2807,7 @@ calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}
 
 note: if this metric does not update, leave the previous value in the cell
-",,"WY other > graph ""Total reported hospitalized COVID-19 patients over time"" > hover over most recent date > ""Current total COVID-19 hospitalized patients""
-
-note: screenshot this page, hovering over the most recent date on the graph
-screenshot: https://internal.covidtracking.com/screenshot?state=WY&datatype=taco&subtype=other-source","calculated:
+",,"WY other > graph ""Total reported hospitalized COVID-19 patients over time"" > hover over most recent date > ""Current total COVID-19 hospitalized patients""","calculated:
 WY Dash > bar graph ""Lab Confirmed Cases by 
 Reported Hospitalization"" > mouse over Hospitalization bar > ""X.X% of lab confirmed cases""
 
