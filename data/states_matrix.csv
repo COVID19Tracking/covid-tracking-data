@@ -1269,21 +1269,21 @@ long calculation > hover over ""# MI Testing"" > click play button > ""Negative"
 
 note: long calculation link can be found in cell E2 of WS2. Positive Cases (PCR) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Confirmed"". Probable Cases – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Probable"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total"". Negative (People or Cases) – WS2 > Negative Tests (PCR). Pending – . Currently 
 Hospitalized – calculated:
-MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > {""Total Hospitalized Adult
+MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > {""Total Hospitalized Adult
 Suspected/Confirmed"" + ""Hospitalized Peds Confirmed/Suspected""}
 
 note: only use confimed/suspected, not confirmed-positive
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell. Cumulative Hospitalized – . Currently
-in ICU – MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Adult ICU Confirmed/Suspected COVID""
+in ICU – MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > row ""Adult ICU Confirmed/Suspected COVID""
 
 note: only use confimed/suspected, not confirmed-positive
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell. Cumulative
 in ICU – . Currently 
-on Ventilator – MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Hospitalized and Ventilated COVID""
+on Ventilator – MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > row ""Hospitalized and Ventilated COVID""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell. Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – updates: weekly (Friday or Saturday)
-MI dash > click link ""CUMULATIVE RECOVERED"" > ""Cumulative Total of Recovered COVID-19 Cases (as of xx/x/2020):"" 
+MI dash > click link ""CUMULATIVE RECOVERED"" > ""Cumulative Total of Recovered COVID-19 Cases (as of xx/x/2021):"" 
 
 note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Deaths"" > row ""Total"". ",,,,,"MI dash > tab ""Current Status"" > on right-hand side under ""MICHIGAN"" > [date]
@@ -1298,17 +1298,17 @@ This formula sums negative PCR tests by county and day to get a cumulative numbe
 long calculation > hover over ""# MI Testing"" > click play button > ""Negative"" 
 
 note: long calculation link can be found in cell E2 of WS2","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Confirmed""","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Probable""",,"MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total""",WS2 > Negative Tests (PCR),,"calculated:
-MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > {""Total Hospitalized Adult
+MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > {""Total Hospitalized Adult
 Suspected/Confirmed"" + ""Hospitalized Peds Confirmed/Suspected""}
 
 note: only use confimed/suspected, not confirmed-positive
-note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell",,"MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Adult ICU Confirmed/Suspected COVID""
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell",,"MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > row ""Adult ICU Confirmed/Suspected COVID""
 
 note: only use confimed/suspected, not confirmed-positive
-note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell",,"MI other > table ""COVID-19 Metrics XX/XX/2020"" > column ""Total"" > row ""Hospitalized and Ventilated COVID""
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell",,"MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > row ""Hospitalized and Ventilated COVID""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell",,,"updates: weekly (Friday or Saturday)
-MI dash > click link ""CUMULATIVE RECOVERED"" > ""Cumulative Total of Recovered COVID-19 Cases (as of xx/x/2020):"" 
+MI dash > click link ""CUMULATIVE RECOVERED"" > ""Cumulative Total of Recovered COVID-19 Cases (as of xx/x/2021):"" 
 
 note: if this metric does not update, leave the previous value in the cell
 ","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Deaths"" > row ""Total""","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Deaths"" > row ""Confirmed""","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Deaths"" > row ""Probable""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.michigan.gov/coronavirus/,MI
