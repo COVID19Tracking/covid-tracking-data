@@ -43,8 +43,6 @@ note: Take a picture of this link with the ""Select Residences"" toggle on ""All
 screenshot: https://internal.covidtracking.com/screenshot?state=AK&datatype=taco&subtype=primary-source",,,"AK primary > embedded dash ""AK COVID-19 Hospital Data Dashboard"" > dropdown ""General Acute Care and Critical Access Facilities Only?"" > select ""No""  > title ""Ventilator Capacity (All Ages)"" > ""Currently on Vent (Statewide) COVID Positive and Suspected""
 ",,,"updates: never
 
-AK primary > button ""Select Residence"" > select ""All"" > ""Recovered and Presumed Recovered Cases""
-
 note: AK has removed this metric from their dash. do not update, leave the previous value in the cell
 ","AK primary > button ""Select Residence"" > select to ""All"" >  ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus-response-alaska-dhss.hub.arcgis.com/,AK
@@ -1629,9 +1627,9 @@ note: if this metric does not update, leave the previous value in the cell
 in ICU – ND primary > tab ""Hospitalizations"" > title ""Hospitalized Due to COVID"" > column ""Cumulative"" > ""ICU"". Currently 
 on Ventilator – . Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – ND primary > column ""Cumulative"" > section ""Recovered and Deaths"" > ""Recovered"". Deaths (confirmed and probable) – calculated:
-ND primary > scroll to table under dash Deaths > {""Total number of individuals who tested positive and died from any cause while infected with COVID-19"" + ""Deaths of Individuals Presumed Positive""}
+ND primary > scroll to table under dash Deaths > {""Total number of individuals who tested positive and died from any cause while infected with COVID-19"" + column ""2020"" ""Deaths of Individuals Presumed Positive"" + column 2021 ""Deaths of Individuals Presumed Positive""}
 
-note: this section is below the dash section. the deaths may show up red. ",,,,,"ND primary > ""The North Dakota Department of Health dashboard is updated daily by 11 am and includes cases reported through the previous day. ""
+note: this section is below the dash section. the deaths may show up red . ",,,,,"ND primary > ""The North Dakota Department of Health dashboard is updated daily by 11 am and includes cases reported through the previous day. ""
 
 yesterday / 23:59",,,,"long calculation
 This formula sums antigen specimens tested by day and county to get a cumulative number.
@@ -1669,9 +1667,9 @@ ND social > the day's ""COVID-19 Daily Report"" > ""currently hospitalized""","N
 
 note: if this metric does not update, leave the previous value in the cell
 ","ND primary > tab ""Hospitalizations"" > title ""Hospitalized Due to COVID"" > column ""Cumulative"" > ""ICU""",,,,"ND primary > column ""Cumulative"" > section ""Recovered and Deaths"" > ""Recovered""","calculated:
-ND primary > scroll to table under dash Deaths > {""Total number of individuals who tested positive and died from any cause while infected with COVID-19"" + ""Deaths of Individuals Presumed Positive""}
+ND primary > scroll to table under dash Deaths > {""Total number of individuals who tested positive and died from any cause while infected with COVID-19"" + column ""2020"" ""Deaths of Individuals Presumed Positive"" + column 2021 ""Deaths of Individuals Presumed Positive""}
 
-note: this section is below the dash section. the deaths may show up red",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,ND
+note: this section is below the dash section. the deaths may show up red ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,ND
 NE,Nebraska,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,http://dhhs.ne.gov/Pages/Coronavirus.aspx,https://www.twitter.com/NEDHHS,,https://turnips.covidtracking.com/#NE,,,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
 
 
@@ -1752,7 +1750,7 @@ note: it's about 2/3rds down the page in the first column . Probable Cases – N
 note: it's about 2/3rds down the page in the first column . Total PCR Tests (People) – NH primary > ""Total Persons Tested at Selected Laboratories, Polymerase Chain Reaction (PCR)"". Positive Cases (People, confirmed + probable) – NH primary > ""Number of Persons with COVID-19"". Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – NH primary > ""Current Hospitalizations""
-. Cumulative Hospitalized – NH other > tab ""Overview"" > ""Total Hosp."". Currently
+. Cumulative Hospitalized – NH dash > table ""Hospitalizations"" > ""Cumulative"". Currently
 in ICU – . Cumulative
 in ICU – NH dash > table ""Intensive Care Unit"" > ""Cumulative"". Currently 
 on Ventilator – . Cumulative 
@@ -1774,7 +1772,7 @@ note: it's about 2/3rds down the page in the first column ","NH dash > table ""T
 
 note: it's about 2/3rds down the page in the first column ","NH primary > ""Total Persons Tested at Selected Laboratories, Polymerase Chain Reaction (PCR)""","NH primary > ""Number of Persons with COVID-19""","calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"NH primary > ""Current Hospitalizations""
-","NH other > tab ""Overview"" > ""Total Hosp.""",,"NH dash > table ""Intensive Care Unit"" > ""Cumulative""",,,,"NH primary > ""Recovered""","NH primary > ""Deaths Attributed to COVID-19""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,NH
+","NH dash > table ""Hospitalizations"" > ""Cumulative""",,"NH dash > table ""Intensive Care Unit"" > ""Cumulative""",,,,"NH primary > ""Recovered""","NH primary > ""Deaths Attributed to COVID-19""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,NH
 NJ,New Jersey,https://covid19.nj.gov/#live-updates,https://covid19.nj.gov/,https://www.twitter.com/NJDeptofHealth,,https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/PPE_Capacity/FeatureServer/0/query?where=survey_period%3E%3Dtimestamp+%272020-04-27+07%3A00%3A00%27+AND+structure_measure_identifier+LIKE+%27%25ischarge%25Excluding+Deaths%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27recoveries%27%7D%5D,,,,"Local Time – NJ dash > ""Updated:""
 
 above date / 00:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NJ dash >  ""Total PCR Tests Reported"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NJ dash > ""Total Confirmed* Cases"". Probable Cases – NJ dash > ""Probable* Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
