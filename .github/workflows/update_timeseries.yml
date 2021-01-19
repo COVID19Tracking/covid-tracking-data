@@ -36,7 +36,7 @@ jobs:
           uses: EndBug/add-and-commit@v5
           with:
             message: Updating timeseries
-            add: '["data/cdc_vaccinations_timeseries.csv", "data/cdc_vaccinations_timeseries_daily.csv"]'
+            add: 'data/cdc_vaccinations_timeseries*'
             author_name: GitHub Actions
             author_email: actions@github.com
           env:
