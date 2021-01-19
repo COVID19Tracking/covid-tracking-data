@@ -356,8 +356,6 @@ note: you can use ctrl+f/cmd+f in the pdf. Positive Antigen Tests – . Negative
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – CT primary > table ""Connecticut COVID-19 Summary"" > row ""Patients Curently Hospitalized with COVID-19"" > ""Total"". Cumulative Hospitalized – updates: never
 
-CT site > button for ""Daily Data Report"" > title ""Hospitalization Surveiilence"" > title ""Cumulative hospitalizations and cumulative hospital discharges for COVID-19"" > value for patients hospitalized in paragraph 
-
 note: the state stopped reporting this number 10/22, if you see a Cumulative Hospitalization number let the shift lead know
 note: if there's no update it will not be in the pdf
 note: do not update if report does not include a new value. Currently
@@ -365,8 +363,6 @@ in ICU – . Cumulative
 in ICU – . Currently 
 on Ventilator – . Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – updates: never
-
-CT site > button for ""Daily Data Report"" > title ""Cumulative hospitalizations and cumulative hospital discharges for COVID-19"" > value for patients discharged in paragraph 
 
 note: the state stopped reporting this number 10/22, if you see a Recovered/Recoveries number let the shift lead know
 note: do not update if report does not include a new value. Deaths (confirmed and probable) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Associated Deaths"" > ""Total"" . ",,,,,"CT primary > in text at top of page ""As of...""
@@ -382,13 +378,9 @@ note: you can use ctrl+f/cmd+f in the pdf",,,,,,,,,,"CT primary > table ""Connec
 ",,,"CT primary > in text at top of page ""...including [number] laboratory-confirmed...""","CT primary > in text at top of page ""...and [number] probable cases...""",,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Cases (confirmed and probable)"" > ""Total""","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""Patients Curently Hospitalized with COVID-19"" > ""Total""","updates: never
 
-CT site > button for ""Daily Data Report"" > title ""Hospitalization Surveiilence"" > title ""Cumulative hospitalizations and cumulative hospital discharges for COVID-19"" > value for patients hospitalized in paragraph 
-
 note: the state stopped reporting this number 10/22, if you see a Cumulative Hospitalization number let the shift lead know
 note: if there's no update it will not be in the pdf
 note: do not update if report does not include a new value",,,,,,"updates: never
-
-CT site > button for ""Daily Data Report"" > title ""Cumulative hospitalizations and cumulative hospital discharges for COVID-19"" > value for patients discharged in paragraph 
 
 note: the state stopped reporting this number 10/22, if you see a Recovered/Recoveries number let the shift lead know
 note: do not update if report does not include a new value","CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Associated Deaths"" > ""Total"" ","CT query > link JSON (cases, death, hosp, date, SODA API) > ""confirmeddeaths"":
@@ -442,17 +434,13 @@ Hospitalized – DE dash > title ""Key Public Health Metrics"" > ""Current Hospi
 in ICU – DE dash > title ""Key Public Health Metrics"" > ""Current Critical Hospitalizations"". Cumulative
 in ICU – . Currently 
 on Ventilator – . Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – updates: never
-
-DE dash > title ""Key Public Health Metrics"" > ""Recoveries"". Deaths (confirmed and probable) – DE dash > title ""Deaths in State of Delaware"" > ""Total Deaths"". ",,,,,"DE dash > ""Data are current as of 6pm the previous day"" 
+on Ventilator – . Hospital Discharges – . Recovered – updates: never. Deaths (confirmed and probable) – DE dash > title ""Deaths in State of Delaware"" > ""Total Deaths"". ",,,,,"DE dash > ""Data are current as of 6pm the previous day"" 
 
 yesterday / 18:00",,,,,,,,,,,,,"DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Tests"" > ""State of Delaware""",,"long calculation
 This formula generates the most recent value for positive tests by test available in the CSV.
 long calculation > hover over ""# DE Positives"" > click play button > Positive Tests
 
-note: link to long calculation is in cell E2 of WS2",,"DE dash > title ""Positive Cases in State of Delaware"" > ""Confirmed""","DE dash > title ""Positive Cases in State of Delaware"" > ""Probable""","DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Persons Tested"" > ""State of Delaware""","DE dash > title ""Positive Cases in State of Deleware"" > ""Total Positive Cases""","DE dash > title ""Key Public Health Metrics"" > ""Persons Tested Negative""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Hospitalizations""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Critical Hospitalizations""",,,,,"updates: never
-
-DE dash > title ""Key Public Health Metrics"" > ""Recoveries""","DE dash > title ""Deaths in State of Delaware"" > ""Total Deaths""","DE dash > title ""Deaths in State of Delaware"" > ""Confirmed Deaths""","DE dash > title ""Deaths in State of Delaware"" > ""Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.delaware.gov/,DE
+note: link to long calculation is in cell E2 of WS2",,"DE dash > title ""Positive Cases in State of Delaware"" > ""Confirmed""","DE dash > title ""Positive Cases in State of Delaware"" > ""Probable""","DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Persons Tested"" > ""State of Delaware""","DE dash > title ""Positive Cases in State of Deleware"" > ""Total Positive Cases""","DE dash > title ""Key Public Health Metrics"" > ""Persons Tested Negative""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Hospitalizations""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Critical Hospitalizations""",,,,,updates: never,"DE dash > title ""Deaths in State of Delaware"" > ""Total Deaths""","DE dash > title ""Deaths in State of Delaware"" > ""Confirmed Deaths""","DE dash > title ""Deaths in State of Delaware"" > ""Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.delaware.gov/,DE
 FL,Florida,https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,http://ww11.doh.state.fl.us/comm/_partners/covid19_report_archive/total-antibody-results/serology-reports/serology_latest.pdf,https://www.twitter.com/HealthyFla,,https://turnips.covidtracking.com/#FL,https://bi.ahca.myflorida.com/t/ABICC/views/Public/COVIDHospitalizationsCounty?:isGuestRedirectFromVizportal=y&:embed=y,,"Florida combines PCR and antigen tests in the total tests figure reported on the state's dashboard (first noted July 2, 2020). We include data for Florida non-residents in our deaths and hospitalizations figures but not in cases and tests. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
 
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.
@@ -661,8 +649,6 @@ note: please screenshot the number on the hover graph until we figure out screen
 screenshot: https://internal.covidtracking.com/screenshot?state=HI&datatype=taco&subtype=primary-source. Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – updates: never
 
-HI dash > ""Released from Isolation""
-
 note: do not update until further notice.. Deaths (confirmed and probable) – HI primary > ""Total Fatalities"". ",,,,,"long calculation
 This formula presents the update time in the correct time zone.
 long calculation > hover over ""# HI PCR Test Encounters"" > click play button > ""Update time:"" 
@@ -684,8 +670,6 @@ screenshot: https://internal.covidtracking.com/screenshot?state=HI&datatype=taco
 
 note: please screenshot the number on the hover graph until we figure out screenshots!
 screenshot: https://internal.covidtracking.com/screenshot?state=HI&datatype=taco&subtype=primary-source",,,"updates: never
-
-HI dash > ""Released from Isolation""
 
 note: do not update until further notice.","HI primary > ""Total Fatalities""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://hiema-hub.hawaii.gov/pages/covid-dashboard,HI
 IA,Iowa,https://coronavirus.iowa.gov/#CurrentStatus,https://coronavirus.iowa.gov/#CurrentStatus,https://www.twitter.com/IAPublicHealth,,,https://iowa.maps.arcgis.com/apps/opsdashboard/index.html#/ef0a08e22e6742d28f78c0519eac4dce,,"On December 13, 2020, Iowa’s Total antigen tests (people) decreased by 77 and their Negative antigen tests (people) decreased by 206 without explanation.
@@ -1372,11 +1356,8 @@ On September 5, 2020, the Missouri DHSS [added an additional 72 deaths](http://t
 As of May 22, 2020, Missouri reports PCR tests separately from antibody tests. ","Local Time – MO dash > ""Includes data reported through....""
 
 yesterday / 23:59. Total Antigen Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type > column ""Total Individuals Tested"" > row ""Antigen"". Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Antigen"". Positive Antigen Tests – MO dash > tab ""Detail:Testing: > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over red section of bar > ""x resulted in a Positive"". Negative Antigen Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over green section of bar > ""x resulted in a Negative"". Total Antibody Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""Serology"". Positive Antibody Tests (People) – updates: never
-
-MO dash > tab ""Testing-Serology"" > ""Individuals with Positive Serology Results"". Negative Antibody Tests (People) – updates: never
-
-calculated:
-WS2 > {Total Antibody Tests (People) - Positive Antibody Tests (People)}. Total Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Serology"". Positive Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over red section of bar > ""x resulted in a Positive"". Negative Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over green section of bar > ""x resulted in a Negative"". Total Test Encounters (PCR) – . Total Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""PCR"". Positive Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over red section of bar > ""x resulted in a Positive"". Negative Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over green section of bar > ""x resulted in a Negative"". Positive Cases (PCR) – MO dash > tab ""Statewide"" > ""Cases to Date"". Probable Cases – . Total PCR Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""PCR"". Positive Cases (People, confirmed + probable) – MO dash > tab ""Statewide"" > ""Cases to Date"". Negative (People or Cases) – calculated:
+. Negative Antibody Tests (People) – updates: never
+. Total Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Serology"". Positive Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over red section of bar > ""x resulted in a Positive"". Negative Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over green section of bar > ""x resulted in a Negative"". Total Test Encounters (PCR) – . Total Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""PCR"". Positive Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over red section of bar > ""x resulted in a Positive"". Negative Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over green section of bar > ""x resulted in a Negative"". Positive Cases (PCR) – MO dash > tab ""Statewide"" > ""Cases to Date"". Probable Cases – . Total PCR Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""PCR"". Positive Cases (People, confirmed + probable) – MO dash > tab ""Statewide"" > ""Cases to Date"". Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – MO dash > tab ""Detail:Healthcare System"" > title ""Hospitalizations"" > ""Total COVID-19 Hospitalized Patients"". Cumulative Hospitalized – . Currently
 in ICU – MO dash > tab ""Detail:Healthcare System"" > title ""ICU"" > ""COVID-19 Patients in Intensive Care (ICU)"". Cumulative
@@ -1385,11 +1366,8 @@ on Ventilator – MO dash > tab ""Detail:Healthcare System"" > title ""Ventilato
 on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – MO dash > tab ""Statewide"" > ""Deaths to Date"". ",,,TRUE,,"MO dash > ""Includes data reported through....""
 
 yesterday / 23:59","MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type > column ""Total Individuals Tested"" > row ""Antigen""",,,"MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Antigen""","MO dash > tab ""Detail:Testing: > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over green section of bar > ""x resulted in a Negative""","MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""Serology""","updates: never
-
-MO dash > tab ""Testing-Serology"" > ""Individuals with Positive Serology Results""","updates: never
-
-calculated:
-WS2 > {Total Antibody Tests (People) - Positive Antibody Tests (People)}","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Serology""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over green section of bar > ""x resulted in a Negative""",,"MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""PCR""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over green section of bar > ""x resulted in a Negative""","MO dash > tab ""Statewide"" > ""Cases to Date""",,"MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""PCR""","MO dash > tab ""Statewide"" > ""Cases to Date""","calculated:
+","updates: never
+","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Serology""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over green section of bar > ""x resulted in a Negative""",,"MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""PCR""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over green section of bar > ""x resulted in a Negative""","MO dash > tab ""Statewide"" > ""Cases to Date""",,"MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""PCR""","MO dash > tab ""Statewide"" > ""Cases to Date""","calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"MO dash > tab ""Detail:Healthcare System"" > title ""Hospitalizations"" > ""Total COVID-19 Hospitalized Patients""",,"MO dash > tab ""Detail:Healthcare System"" > title ""ICU"" > ""COVID-19 Patients in Intensive Care (ICU)""",,"MO dash > tab ""Detail:Healthcare System"" > title ""Ventilators"" > ""COVID-19 Patients on Ventilators""",,,,"MO dash > tab ""Statewide"" > ""Deaths to Date""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://showmestrong.mo.gov/data/statewide-public-health/,MO
 MP,Commonwealth of the Northern Mariana Islands,https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,https://www.chcc.gov.mp/coronavirusinformation.php,https://www.twitter.com/cnmichcc,,https://services8.arcgis.com/zkkZCub5I6ydvXQj/ArcGIS/rest/services/Coronavirus_PublicDashboardView/FeatureServer/3/query?where=1%3D1&outStatistics=%5B%7B%27statisticType%27%3A+%27max%27%2C+%27onStatisticField%27%3A+%27reportdt%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27confirmedcases%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27totalspeccnmi%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27deaths%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27recovered%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27hospitalized%27%7D%5D,,,"The Northern Mariana Islands have not posted a new **Recovered** number since July 15, 2020. 
 
@@ -2064,14 +2042,7 @@ yesterday / 00:01
 ",,,,,,,,,,,,,,"updates: Tuesday - Saturday
 OR primary > title ""SItuation in Oregon"" >  ""Total Tests""","updates: Tuesday - Saturday
 OR primary > title ""SItuation in Oregon"" >  ""Positive Tests""","updates: Tuesday - Saturday
-OR primary > title ""SItuation in Oregon"" >  ""Negative Tests""","updates: never
-
-OR dash > tab ""Total Persons Tested"" > ""Positive""
-","updates: never
-
-WS2 > {Positive Cases (People, Confirmed + Probable) - Positive Cases (PCR))
-
-note: on weekends, carry over total because Positive Cases (PCR) is not updated",,"OR primary > title ""SItuation in Oregon"" >  ""Total Cases""
+OR primary > title ""SItuation in Oregon"" >  ""Negative Tests""",updates: never,updates: never,,"OR primary > title ""SItuation in Oregon"" >  ""Total Cases""
 
 on Sunday and Monday:
 
@@ -2088,8 +2059,7 @@ OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Curr
 
 note: do not update from press release or on weekends",,"updates: Tuesday - Saturday
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Patients on Ventilators""",,,"updates: never
-
-OR other > ""Recovered Cases""","OR primary > title ""Situation in Oregon"" > ""Total deaths""
+","OR primary > title ""Situation in Oregon"" > ""Total deaths""
 
 or (on Sunday and Monday)
 
