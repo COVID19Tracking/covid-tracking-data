@@ -2030,7 +2030,9 @@ On December 1, 2020, **Negative (people or cases)** decreased by 3,258 from 968,
 
 On November 5, 2020 we began reporting current hospitalizations from [Oregon's COVID-19 Update Dashboard](https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/HospitalCapacity). Previously we had been capturing these metrics on the [Oregon Health Authority page](https://govstatus.egov.com/OR-OHA-COVID-19).
 
-On November 4, 2020, Oregon stopped reporting current hospitalization data on the [Oregon Health Authority page](https://govstatus.egov.com/OR-OHA-COVID-19), and so we did not update Oregon's current hospitalization data. Current hospitalization data is provided on Oregon's data dashboard, but it lags a day behind the other source. We will evaluate this change and resume reporting Oregon hospital data when we are sure we can preserve the time series.
+On November 4, 2020, Oregon stopped reporting current hospitalization data on the [Oregon Health Authority page](https://govstatus.egov.com/OR-OHA-COVID-19), and so we did not update Oregon's current hospitalization data. Current hospitalization data is provided on Oregon's data dashboard, but it lags a day behind the other source. We will evaluate this change and resume reporting Oregon hospital data when we are sure we can preserve the time series. 
+
+On October 9, 2020, Oregon [announced}(https://www.oregon.gov/oha/ERD/Pages/OHA-changes-recovered-cases-reporting.aspx) they were removing the **Recovered** metric from their reporting and working on a revised definition of recovered. Due to this we cannot continue reporting **Recovered**, however the time series for the metric is available in the historical data, and our data downloads. 
 
 As of June 6, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.",#REF!,,TRUE,,,"OR primary > title ""Situation in Oregon"" > ""Data current as of""
 
@@ -2058,8 +2060,7 @@ OR dash > title ""Age, Sex and Hospitalization Status for Confirmed and Presumpt
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Patients in ICU Beds""
 
 note: do not update from press release or on weekends",,"updates: Tuesday - Saturday
-OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Patients on Ventilators""",,,"updates: never
-","OR primary > title ""Situation in Oregon"" > ""Total deaths""
+OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Patients on Ventilators""",,,,"OR primary > title ""Situation in Oregon"" > ""Total deaths""
 
 or (on Sunday and Monday)
 
