@@ -245,7 +245,9 @@ HI,"Hawaii’s data is on a 1 day lag in our timeseries due to consistently upda
 
 On December 25, 2020, Hawaii’s **Total PCR tests (test encounters)** decreased by 6184 without explanation.
 
-On November 10, 2020, we switched the source for Hawaii’s **Currently Hospitalized** to the Hawaii Emergency Management Agency’s COVID-19 dashboard. As a result, current hospitalizations decreased by 14.
+On November 10, 2020, we switched the source for Hawaii’s **Currently Hospitalized** to the Hawaii Emergency Management Agency’s COVID-19 dashboard. As a result, current hospitalizations decreased by 14. 
+
+On November 6, 2020, Hawaii removed the Recovered metric from their dashboards.  Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
 
 As of October 9, 2020, Hawaii’s total test results are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative. 
 
