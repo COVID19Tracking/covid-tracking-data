@@ -1,10 +1,12 @@
 ## Data Backups
 
-**Do not use this repository to download or display data**. Use the [COVID Tracking API](https://covidtracking.com/api) instead.
+**Do not use this repository to download or display COVID Tracking Project data**. Use the [COVID Tracking API](https://covidtracking.com/api) instead.
 
 ---
 
-This folder contains CSV and JSON data backups from the [Covid Tracking API](https://covidtracking.com/api) as well as several federal data files, from the CDC and the HHS. These are the sources for the federal data in this folder (note that they are not direct download links, they're meant to give context instead):
+This folder contains CSV and JSON data backups from the [Covid Tracking API](https://covidtracking.com/api) as well as archived government data files from the CDC and the HHS. 
+
+These are the sources for the federal data in this folder (note that they are not direct download links, they're meant to give context instead):
 
 ### HHS
 
@@ -17,7 +19,7 @@ Note that these files are saved as they are released, with the filename being ge
 
 ### CDC
 
-The following files are getting stored under the same file in this repo, so to see changes, you will need to view the history:
+The following files are stored under the same file in this repo, so to see changes, you will need to view the git history:
 - COVID-19 Cases and Deaths by State Over Time: https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36, saved to [cdc_cases_deaths.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_cases_deaths.csv)
 - COVID-19 County-level data: https://covid.cdc.gov/covid-data-tracker/#county-view, saved to [cdc_counties.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_counties.csv)
 - Vaccine data: https://covid.cdc.gov/covid-data-tracker/#vaccinations, saved to [cdc_vaccines.json](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines.json)
@@ -37,4 +39,4 @@ We have saved, but are no longer updating, older CDC case, testing and deaths da
   saved each day to [this file](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/fda-covid-ivd-euas.csv)
 
 ### LTC
-Long-term care data scraped from state dashboards, in the ltc_states directory
+Long-term care data scraped from state dashboards, in the [ltc_states](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/ltc_states) directory
