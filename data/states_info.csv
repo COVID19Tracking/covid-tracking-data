@@ -3,6 +3,8 @@ AK,"Alaska combines PCR and antigen tests in the total tests figure reported on 
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On January 20, 2021, Alaska [reported](https://www.adn.com/alaska-news/2021/01/20/tracking-covid-19-in-alaska-record-23-deaths-and-167-infections-reported-wednesday/) a comparatively large increase of 23 deaths due to a review of death certificates.
+
 On January 4, 2020, Alaska noted that ""counted deaths in Alaska include COVID-19 cases confirmed through a lab result as well as probable deaths based on confirmed COVID-19 clinical and epidemiological criteria as defined by the CDC with no confirmatory lab testing."" Due to this change we are unable to update the **Confirmed deaths** metric after January 4, 2020.
 
 On January 1, 2021, Alaska noted that there would be no update to their data on January 1, 2021.
@@ -572,8 +574,9 @@ On September 9, 2020, North Dakota began reporting “Susceptible Encounters” 
 On August 19, 2020, North Dakota launched a new dashboard with a number of new data points, including race and ethnicity data and ICU data. ",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,North Dakota,38
 NE,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
 
-
 Nebraska’s **Recovered** numbers occasionally decrease without explanation.
+
+On January 20, 2021, Nebraska reported that its dashboard would be down until “later in the week” due to system maintenance. The Nebraska Department of Health reported **Deaths** and **Now hospitalized** values manually.
 
 On January 13, 2021, Nebraska’s Recovered decreased by 1864 without explanation.
 
@@ -909,6 +912,8 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
+
+“On January 20, 2021, Washington noted that the day’s hospitalization data is incomplete and should be interpreted with caution. Because Washington's data is on a one day lag in our timeseries, this will affect the data for January 21, 2021.""
 
 On January 17, 2021, Washington announced that there would be no update to their data on January 18, 2021 due to the Martin Luther King Holiday. Because Washington’s data is on a one day lag in our timeseries, we will be unable to update their data on January 19, 2021.
 
