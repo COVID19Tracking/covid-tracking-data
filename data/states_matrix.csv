@@ -1661,8 +1661,9 @@ ND primary > scroll to table under dash Deaths > {""Total number of individuals 
 note: this section is below the dash section. the deaths may show up red ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,ND
 NE,Nebraska,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,http://dhhs.ne.gov/Pages/Coronavirus.aspx,https://www.twitter.com/NEDHHS,,https://turnips.covidtracking.com/#NE,,,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
 
-
 Nebraska’s **Recovered** numbers occasionally decrease without explanation.
+
+On January 20, 2021, Nebraska reported that its dashboard would be down until “later in the week” due to system maintenance. The Nebraska Department of Health reported **Deaths** and **Now hospitalized** values manually.
 
 On January 13, 2021, Nebraska’s Recovered decreased by 1864 without explanation.
 
