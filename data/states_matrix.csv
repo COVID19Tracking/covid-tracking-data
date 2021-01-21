@@ -1185,16 +1185,25 @@ WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
 note: if a number used in this calculation does not update, leave the previous value in the cell
 . Pending – . Currently 
-Hospitalized – ME dash > click ""Table of Maine COVID-19 Current Hospital Use and Capacity Data"" > click ""Download a csv file with the latest hospital capacity information"" > ""Hospitalized- Total COVID-19 Patients""
+Hospitalized – long calculation 
+This calculation pulls the most recent Currently hospitalized value from Maine's data downloads.
+long calculation > hover over ""# ME"" > click play button > ""Hospitalized- Total COVID-19 Patients""
 
-tip: you will need to download the csv file in order to find currently hospitalized, currently in ICU, and currently on ventilator. Cumulative Hospitalized – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Hospitalizations"" > row ""Statewide"". Currently
-in ICU – ME dash > click ""Table of Maine COVID-19 Current Hospital Use and Capacity Data"" > click ""Download a csv file with the latest hospital capacity information"" > ""Hospitalized- COVID-19 Patients in Critical Care""
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell.
+note: long calculation link can be found in cell E2 of WS2. Cumulative Hospitalized – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Hospitalizations"" > row ""Statewide"". Currently
+in ICU – long calculation 
+This calculation pulls the most recent Currently in ICU value from Maine's data downloads.
+long calculation > hover over ""# ME"" > click play button > ""Hospitalized- COVID-19 Patients In Critical Care""
 
-tip: you will need to download the csv file in order to find currently hospitalized, currently in ICU, and currently on ventilator. Cumulative
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell.
+note: long calculation link can be found in cell E2 of WS2. Cumulative
 in ICU – . Currently 
-on Ventilator – ME dash > click ""Table of Maine COVID-19 Current Hospital Use and Capacity Data"" > click ""Download a csv file with the latest hospital capacity information"" > ""Hospitalized- COVID-19 Patients on Ventilators""
+on Ventilator – long calculation 
+This calculation pulls the most recent Currently on ventilator value from Maine's data downloads.
+long calculation > hover over ""# ME"" > click play button > ""Hospitalized- COVID-19 Patients on Ventilators""
 
-tip: you will need to download the csv file in order to find currently hospitalized, currently in ICU, and currently on ventilator. Cumulative 
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell.
+note: long calculation link can be found in cell E2 of WS2. Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Completed Isolations"" > row ""Statewide"". Deaths (confirmed and probable) – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Deaths"" > row ""Statewide"". ",,,,,"ME dash > ""...COVID-19 case investigation data included as of 11:59 PM the previous day""
 
 yesterday / 23:59",,,,"ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Total"" 
@@ -1229,13 +1238,22 @@ note: this metric is updated monday - friday, if this metric does not update, le
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
 note: if a number used in this calculation does not update, leave the previous value in the cell
-",,"ME dash > click ""Table of Maine COVID-19 Current Hospital Use and Capacity Data"" > click ""Download a csv file with the latest hospital capacity information"" > ""Hospitalized- Total COVID-19 Patients""
+",,"long calculation 
+This calculation pulls the most recent Currently hospitalized value from Maine's data downloads.
+long calculation > hover over ""# ME"" > click play button > ""Hospitalized- Total COVID-19 Patients""
 
-tip: you will need to download the csv file in order to find currently hospitalized, currently in ICU, and currently on ventilator","ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Hospitalizations"" > row ""Statewide""","ME dash > click ""Table of Maine COVID-19 Current Hospital Use and Capacity Data"" > click ""Download a csv file with the latest hospital capacity information"" > ""Hospitalized- COVID-19 Patients in Critical Care""
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell.
+note: long calculation link can be found in cell E2 of WS2","ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Hospitalizations"" > row ""Statewide""","long calculation 
+This calculation pulls the most recent Currently in ICU value from Maine's data downloads.
+long calculation > hover over ""# ME"" > click play button > ""Hospitalized- COVID-19 Patients In Critical Care""
 
-tip: you will need to download the csv file in order to find currently hospitalized, currently in ICU, and currently on ventilator",,"ME dash > click ""Table of Maine COVID-19 Current Hospital Use and Capacity Data"" > click ""Download a csv file with the latest hospital capacity information"" > ""Hospitalized- COVID-19 Patients on Ventilators""
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell.
+note: long calculation link can be found in cell E2 of WS2",,"long calculation 
+This calculation pulls the most recent Currently on ventilator value from Maine's data downloads.
+long calculation > hover over ""# ME"" > click play button > ""Hospitalized- COVID-19 Patients on Ventilators""
 
-tip: you will need to download the csv file in order to find currently hospitalized, currently in ICU, and currently on ventilator",,,"ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Completed Isolations"" > row ""Statewide""","ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Deaths"" > row ""Statewide""","ME dash > tab ""Case rates by county"" > dropdown ""Case Status"" > select ""Confirmed"" > ""Deaths""","ME dash > section ""Case Rates by County"" > dropdown ""Case Status"" > select ""Probable"" > ""Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,ME
+note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell.
+note: long calculation link can be found in cell E2 of WS2",,,"ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Completed Isolations"" > row ""Statewide""","ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Deaths"" > row ""Statewide""","ME dash > tab ""Case rates by county"" > dropdown ""Case Status"" > select ""Confirmed"" > ""Deaths""","ME dash > section ""Case Rates by County"" > dropdown ""Case Status"" > select ""Probable"" > ""Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,ME
 MI,Michigan,"https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html",https://www.michigan.gov/coronavirus/,https://www.twitter.com/MichiganHHS,,,"https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",,"Michigan updates its **Recovered** metric weekly and does not update any data on Sundays.
 
 Our source for **Now hospitalized** and **Now in ICU** data in Michigan generally updates on Mondays and Fridays only. 
