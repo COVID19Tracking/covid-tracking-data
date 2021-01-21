@@ -1861,7 +1861,9 @@ note: the most current data may be dated the previous day, that's expected",,"NV
 
 note: this figure does not update on Sunday; if this metric does not update, leave the previous value 
 note: the most current data may be dated the previous day, that's expected",,,,"NV dash > tab ""Current Status"" > button ""Deaths"" > ""Cumulative Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,NV
-NY,New York,https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Map?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n,https://www.governor.ny.gov/news,https://www.twitter.com/healthnygov,https://www.governor.ny.gov/news,,https://forward.ny.gov/daily-hospitalization-summary-region,,"New York State has not reported new **Ever hospitalized** data since June 2, 2020.
+NY,New York,https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Map?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n,https://www.governor.ny.gov/news,https://www.twitter.com/healthnygov,https://www.governor.ny.gov/news,,https://forward.ny.gov/daily-hospitalization-summary-region,,"New York City reports **Deaths (probable)** from COVID-19 that New York State does not include in its data reporting. Because we collect state data, not city or county data, these New York City probable deaths from COVID-19 are not included in our dataset. The total number of deaths from COVID-19 for New York State reported by the CDC is significantly larger than the total number of deaths from COVID-19 reported by New York State.
+
+New York State has not reported new **Ever hospitalized** data since June 2, 2020.
 
 As of November 23, 2020, New York's `totalTestResults` are drawn from our `totalTestEncountersViral` field instead of calculated via positive+negative.
 
