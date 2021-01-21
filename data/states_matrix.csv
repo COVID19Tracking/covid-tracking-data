@@ -1667,7 +1667,7 @@ note: if this metric does not update, leave the previous value in the cell
 ND primary > scroll to table under dash Deaths > {""Total number of individuals who tested positive and died from any cause while infected with COVID-19"" + column ""2020"" ""Deaths of Individuals Presumed Positive"" + column 2021 ""Deaths of Individuals Presumed Positive""}
 
 note: this section is below the dash section. the deaths may show up red ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,ND
-NE,Nebraska,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,http://dhhs.ne.gov/Pages/Coronavirus.aspx,https://www.twitter.com/NEDHHS,,https://turnips.covidtracking.com/#NE,,,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
+NE,Nebraska,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd/page/page_0/,http://dhhs.ne.gov/Pages/Coronavirus.aspx,https://www.twitter.com/NEDHHS,,https://turnips.covidtracking.com/#NE,,,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
 
 Nebraska’s **Recovered** numbers occasionally decrease without explanation.
 
@@ -1708,7 +1708,7 @@ above date / above time (see note below)
 note: the time is presented in the viewer's local time (your timezone), even though it says CDT. This needs to be entered into the spreadsheet as Central Time. If you are in ET subtract 1 hour. If you are in MT add 1 hour. If you are in PT add 2 hours. ",,,,,,,,,,,,,,"NE dash > ""Total Tests""","NE query > ""Specimens"" > value next to ""TotalPositiveAsOfThisDate""","NE query > ""Specimens"" > value next to ""TotalNotDetectedAsOfThisDate""","NE dash > ""Total Positive Cases""",,"NE dash > ""People Tested""","NE dash > ""Total Positive Cases""","NE dash > ""Tested: Not Detected""",,"NE dash > tab ""Hospitalized Cases"" > ""Active Hospitalizations"" 
 
 note: tabs can be accessed by using the arrows for the main window","NE dash > tab ""Hospitalized Cases"" > ""Total Cumulative Hospitalizations""",,,,,,"NE dash > tab ""Recoveries"" > ""Recovered""","NE dash > tab ""Deaths"" > ""Deaths""
-",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,NE
+",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd/page/page_0/,NE
 NH,New Hampshire,https://www.nh.gov/covid19/dashboard/case-summary.htm,https://www.nh.gov/covid19/,https://www.twitter.com/NHPubHealth,,,https://www.nh.gov/covid19/dashboard/overview.htm#dash,,"The **Recovered** data point we report for New Jersey reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)**.
