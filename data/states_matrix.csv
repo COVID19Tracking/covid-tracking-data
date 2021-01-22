@@ -19,7 +19,7 @@ On January 1, 2021, Alaska noted that there would be no update to their data on 
 
 On December 25, 2020, Alaska announced on their [COVID Response Hub](https://coronavirus-response-alaska-dhss.hub.arcgis.com)that there would be no update to their data on December 25, 2020. 
 
-On November 17, 2020, Alaska [announced](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. As a result, Alaska’s **Recovered** will no longer be updated.
+On November 17, 2020, Alaska [announced](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
 
 On November 16, 2020 we updated the **Total cases** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
 
@@ -43,10 +43,7 @@ AK primary > embedded dash ""AK COVID-19 Hospital Data Dashboard"" > dropdown ""
 note: it can take a few seconds to load after toggling, make sure that total cases updates before recording
 note: Take a picture of this link with the ""Select Residences"" toggle on ""All"".
 screenshot: https://internal.covidtracking.com/screenshot?state=AK&datatype=taco&subtype=primary-source",,,"AK primary > embedded dash ""AK COVID-19 Hospital Data Dashboard"" > dropdown ""General Acute Care and Critical Access Facilities Only?"" > select ""No""  > title ""Ventilator Capacity (All Ages)"" > ""Currently on Vent (Statewide) COVID Positive and Suspected""
-",,,"updates: never
-
-note: AK has removed this metric from their dash. do not update, leave the previous value in the cell
-","AK primary > button ""Select Residence"" > select to ""All"" >  ""Deaths""
+",,,,"AK primary > button ""Select Residence"" > select to ""All"" >  ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus-response-alaska-dhss.hub.arcgis.com/,AK
 AL,Alabama,https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7,http://www.alabamapublichealth.gov/covid19/index.html,https://www.twitter.com/alpublichealth,,https://services7.arcgis.com/4RQmZZ0yaZkGR1zy/arcgis/rest/services/HospitalizedPatientTemporal_READ_ONLY/FeatureServer/1/query?where=1%3D1&orderbyfields=DateTxt+desc&outFields=%2A&resultRecordCount=1,,,"Alabama combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
@@ -417,7 +414,7 @@ DE,Delaware,https://myhealthycommunity.dhss.delaware.gov/locations/state,https:/
 
 On December 18, 2020, Delaware announced that due to laboratory reporting delays, the number of cases reported for December 17, 2020 is lower than previous days, and the number of cases reported for December 18, 2020 would be higher than previous days to make up for it. Because Delaware reports their data as of the previous day, this affects our data for December 18, 2020 and December 19, 2020.
 
-On December 7, 2020, Delaware announced that they would no longer be reporting **Recovered** as it was “no longer a true reflection of the number of persons that recovered from the disease” because this metric included only cases who had self-reported their recovery to the Division of Public Health.
+On December 7, 2020, Delaware announced that they would no longer be reporting **Recovered** as it was “no longer a true reflection of the number of persons that recovered from the disease” because this metric included only cases who had self-reported their recovery to the Division of Public Health. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
 
 On October 29, 2020, we moved the data in our **Total Tests (PCR)** field for Delaware to the **Total Test Encounters (PCR)** field after learning that it represents encounters from Delaware's state health department. However, Delaware appears to include antigen tests in its totals, so if an individual is tested using two different test types on the same day, it will get counted twice. Also as of October 29, 2020, Delaware's `totalTestResults` field represents encounters. The number of unique people ever tested remains available in the `totalTestsPeopleViral` field.  
 
@@ -440,13 +437,13 @@ Hospitalized – DE dash > title ""Key Public Health Metrics"" > ""Current Hospi
 in ICU – DE dash > title ""Key Public Health Metrics"" > ""Current Critical Hospitalizations"". Cumulative
 in ICU – . Currently 
 on Ventilator – . Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – updates: never. Deaths (confirmed and probable) – DE dash > title ""Deaths in State of Delaware"" > ""Total Deaths"". ",,,,,"DE dash > ""Data are current as of 6pm the previous day"" 
+on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – DE dash > title ""Deaths in State of Delaware"" > ""Total Deaths"". ",,,,,"DE dash > ""Data are current as of 6pm the previous day"" 
 
 yesterday / 18:00",,,,,,,,,,,,,"DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Tests"" > ""State of Delaware""",,"long calculation
 This formula generates the most recent value for positive tests by test available in the CSV.
 long calculation > hover over ""# DE Positives"" > click play button > Positive Tests
 
-note: link to long calculation is in cell E2 of WS2",,"DE dash > title ""Positive Cases in State of Delaware"" > ""Confirmed""","DE dash > title ""Positive Cases in State of Delaware"" > ""Probable""","DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Persons Tested"" > ""State of Delaware""","DE dash > title ""Positive Cases in State of Deleware"" > ""Total Positive Cases""","DE dash > title ""Key Public Health Metrics"" > ""Persons Tested Negative""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Hospitalizations""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Critical Hospitalizations""",,,,,updates: never,"DE dash > title ""Deaths in State of Delaware"" > ""Total Deaths""","DE dash > title ""Deaths in State of Delaware"" > ""Confirmed Deaths""","DE dash > title ""Deaths in State of Delaware"" > ""Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.delaware.gov/,DE
+note: link to long calculation is in cell E2 of WS2",,"DE dash > title ""Positive Cases in State of Delaware"" > ""Confirmed""","DE dash > title ""Positive Cases in State of Delaware"" > ""Probable""","DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Persons Tested"" > ""State of Delaware""","DE dash > title ""Positive Cases in State of Deleware"" > ""Total Positive Cases""","DE dash > title ""Key Public Health Metrics"" > ""Persons Tested Negative""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Hospitalizations""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Critical Hospitalizations""",,,,,,"DE dash > title ""Deaths in State of Delaware"" > ""Total Deaths""","DE dash > title ""Deaths in State of Delaware"" > ""Confirmed Deaths""","DE dash > title ""Deaths in State of Delaware"" > ""Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.delaware.gov/,DE
 FL,Florida,https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,http://ww11.doh.state.fl.us/comm/_partners/covid19_report_archive/total-antibody-results/serology-reports/serology_latest.pdf,https://www.twitter.com/HealthyFla,,https://turnips.covidtracking.com/#FL,https://bi.ahca.myflorida.com/t/ABICC/views/Public/COVIDHospitalizationsCounty?:isGuestRedirectFromVizportal=y&:embed=y,,"Florida combines PCR and antigen tests in the total tests figure reported on the state's dashboard (first noted July 2, 2020). We include data for Florida non-residents in our deaths and hospitalizations figures but not in cases and tests. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
 
 [Per reporting](https://www.miamiherald.com/news/coronavirus/article241882491.html), the number of **pending tests** (available in our API and CSVs) may include only results from public labs, and may therefore be an undercount.
