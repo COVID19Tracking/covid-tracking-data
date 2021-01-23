@@ -553,7 +553,7 @@ WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 ",,"calculated:
 GA other > title ""Statewide Data"" > {""Covid-19 Patients"" + ""Patients Under Investigation""}","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Hospitalizations""",,"GA primary > title ""Georgia Overall COVID-19 Status"" > ""ICU Admissions""",,,,,"calculated:
 GA primary> {Confirmed Deaths + Probable Deaths}","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Confirmed Deaths""","GA primary> title ""Georgia Overall COVID-19 Status"" > ""Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://dph.georgia.gov/covid-19-daily-status-report,GA
-GU,Guam,http://dphss.guam.gov/covid-19/,http://dphss.guam.gov/covid-19/,https://www.facebook.com/GHSOCD,https://ghs.guam.gov/coronavirus-covid-19,,https://www.arcgis.com/apps/opsdashboard/index.html#/7bd22c995a1b482fb727a916146f3307,,"As of November 21, 2020, Guam’s Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
+GU,Guam,http://dphss.guam.gov/covid-19/,http://dphss.guam.gov/covid-19/,https://www.facebook.com/GHSOCD,https://ghs.guam.gov/coronavirus-covid-19,,https://drive.google.com/file/d/1n-vrUGzEzs7rjcxXBFEbIMmeUQykuyO9/view,,"As of November 21, 2020, Guam’s Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 Guam's counts include 11 people tested at the San Diego naval base.
 
@@ -568,11 +568,11 @@ On September 3, 2020, Guam reported that it had shifted to using the more restri
 note: if information comes from a JIC Release without the table use date and time of publish of that release
 note: if deaths are sourced from a recent press release, use the publish time of that one if it is the most recent. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: Monday - Friday
 GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""ANTIGEN TEST"" > column ""TOTAL"". Positive Antigen Tests – updates: weekly
-GU dash > click link ""COVID-19 Situation Report"" > scroll to table ""COVID-19 Testing Breakdown"" > ANTIGEN TESTS > Total Positives. Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – updates: Monday - Friday
+GU other > scroll to table ""COVID-19 Testing Breakdown"" > ANTIGEN TESTS > Total Positives. Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – updates: Monday - Friday
 GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""SEROLOGY TESTS"" > column ""TOTAL"". Positive Antibody Tests – 
 updates: weekly
 calculated:
-GU dash > ""COVID-19 Situation Report"" > scroll  to table ""COVID-19 Testing Breakdown"" > row ""SEROLOGY TESTS"" > column ""Total Positives"" >  {sum of all values in ""Total Positives"" column}
+GU other > scroll  to table ""COVID-19 Testing Breakdown"" > row ""SEROLOGY TESTS"" > column ""Total Positives"" >  {sum of all values in ""Total Positives"" column}
 
 note: This is now updated weekly. Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday - Friday
 GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""MOLECULAR TEST"" > column ""TOTAL"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – updates: Monday - Friday
@@ -595,11 +595,11 @@ note: if this metric does not update, leave the previous value in the cell. Deat
 note: if information comes from a JIC Release without the table use date and time of publish of that release
 note: if deaths are sourced from a recent press release, use the publish time of that one if it is the most recent",,,,"updates: Monday - Friday
 GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""ANTIGEN TEST"" > column ""TOTAL""","updates: weekly
-GU dash > click link ""COVID-19 Situation Report"" > scroll to table ""COVID-19 Testing Breakdown"" > ANTIGEN TESTS > Total Positives",,,,,"updates: Monday - Friday
+GU other > scroll to table ""COVID-19 Testing Breakdown"" > ANTIGEN TESTS > Total Positives",,,,,"updates: Monday - Friday
 GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""SEROLOGY TESTS"" > column ""TOTAL""","
 updates: weekly
 calculated:
-GU dash > ""COVID-19 Situation Report"" > scroll  to table ""COVID-19 Testing Breakdown"" > row ""SEROLOGY TESTS"" > column ""Total Positives"" >  {sum of all values in ""Total Positives"" column}
+GU other > scroll  to table ""COVID-19 Testing Breakdown"" > row ""SEROLOGY TESTS"" > column ""Total Positives"" >  {sum of all values in ""Total Positives"" column}
 
 note: This is now updated weekly",,,"updates: Monday - Friday
 GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""MOLECULAR TEST"" > column ""TOTAL""",,,"updates: Monday - Friday
