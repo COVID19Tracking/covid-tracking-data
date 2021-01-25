@@ -22,10 +22,11 @@ Note that these files are saved as they are released, with the filename being ge
 The following files are stored under the same file in this repo, so to see changes, you will need to view the git history:
 - COVID-19 Cases and Deaths by State Over Time: https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36, saved to [cdc_cases_deaths.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_cases_deaths.csv)
 - COVID-19 County-level data: https://covid.cdc.gov/covid-data-tracker/#county-view, saved to [cdc_counties.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_counties.csv)
-- Vaccine data: https://covid.cdc.gov/covid-data-tracker/#vaccinations, saved to [cdc_vaccines.json](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines.json)
-- Vaccine data in a more convenient CSV time series format, processed by the script in `/data-collection-scripts/cdc_vaccination_timeseries.py` and saved to [cdc_vaccines_timeseries.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines_timeseries.csv). 
+- Vaccination data: https://covid.cdc.gov/covid-data-tracker/#vaccinations, saved to [cdc_vaccines.json](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines.json)
+- Vaccination data in a more convenient CSV time series format, processed by the script in `/data-collection-scripts/cdc_vaccination_timeseries.py` and saved to [cdc_vaccines_timeseries.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines_timeseries.csv). 
 We also process this data into [cdc_vaccines_timeseries_daily.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines_timeseries_daily.csv), where multiple updates from the same date are reduced to the most recent data only.
 - US COVID-19 Cases Caused by Variants: https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant-cases.html, saved to [cdc_variants.json](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_variants.json)
+- Long-term Care Facility Vaccination data: https://covid.cdc.gov/covid-data-tracker/#vaccinations-ltc, saved to [cdc_vaccinations_ltc.json](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccinations_ltc.json)
 
 We have saved, but are no longer updating, older CDC case, testing and deaths data. To see how these files had changed in the past, see the GitHub history as follows:
 - https://github.com/COVID19Tracking/covid-tracking-data/commits/master/data/cdc.csv
