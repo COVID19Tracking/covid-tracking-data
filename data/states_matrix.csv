@@ -981,7 +981,7 @@ On June 30, 2020, Massachusetts decreased the number of **cumulative hospitaliza
 
 On June 1, 2020, Massachusetts began to report **probable cases** and **probable deaths*, causing **Total cases** and **Total deaths** to appear to increase sharply in our data. ","Local Time – MA primary > title ""COVID-19 Interactive Data Dashboard"" > ""Data as of:""
 
-date from above / 11:59pm
+date from above / 23:59pm
 
 note: the time is visible on hover. Total Antigen Tests (People) – MA primary > button ”COVID-19 Testing"" > ""Total Antigen Tests"" > ""bringing the total to XXXXXX total antigen tests"". Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – updated: thursday
 long calculation
@@ -1028,7 +1028,7 @@ note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – calculated:
 WS2 > { Deaths (confirmed) + Deaths (probable) }. ",,,,,"MA primary > title ""COVID-19 Interactive Data Dashboard"" > ""Data as of:""
 
-date from above / 11:59pm
+date from above / 23:59pm
 
 note: the time is visible on hover","MA primary > button ”COVID-19 Testing"" > ""Total Antigen Tests"" > ""bringing the total to XXXXXX total antigen tests""",,,,,,"updated: thursday
 long calculation
@@ -1537,7 +1537,7 @@ in ICU – NC dash > menu ""Dashboard"" > click ""Hospitalizations"" > scroll do
 . Cumulative
 in ICU – . Currently 
 on Ventilator – . Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – updates: weekly
+on Ventilator – . Hospital Discharges – . Recovered – updates: weekly on Monday
 NC other > link ""COVID-19 Patients Presumed to be Recovered"" > ""Patients Presumed to be Recovered =""
 
 note: if this metric does not update, leave the previous value in the cell
@@ -1551,7 +1551,7 @@ note: long calculation link can be found in cell E2 of WS2",,,,,,,,,,"NC dash > 
 ","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"NC dash > ""Currently Hospitalized""
 ",,"NC dash > menu ""Dashboard"" > click ""Hospitalizations"" > scroll down to bar graph titled ""Number of COVID-19 Adult ICU Patients | Statewide"" > select ""Adult ICU Patients"" > ""Adult ICU Patients""
-",,,,,"updates: weekly
+",,,,,"updates: weekly on Monday
 NC other > link ""COVID-19 Patients Presumed to be Recovered"" > ""Patients Presumed to be Recovered =""
 
 note: if this metric does not update, leave the previous value in the cell
@@ -1787,7 +1787,7 @@ note: if you're not on the East Coast you probably can not see the titles, this 
 
 note: Upload this tab of Cases and Mortality Summaries as a screenshot
 screenshot: https://internal.covidtracking.com/screenshot?state=NJ&datatype=taco&subtype=primary-source. Currently
-in ICU – NJ dash > tab ""Hospital Census"" > ""Care and Bed Type"" > ""Intensive/Critical Care"" 
+in ICU – NJ dash > tab ""Hospital Census"" > ""Care and Bed Type"" > ""Patients in Intensive Care"" 
 
 note: if you're not on the East Coast you probably cannot see the titles , this is the middle right light blue number.. Cumulative
 in ICU – . Currently 
@@ -1810,7 +1810,7 @@ WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"NJ dash > tab ""Hospital Cen
 note: if you're not on the East Coast you probably can not see the titles, this is the topmost left dark blue number. if you don't see the Hospital Census tab try expanding your browser window or use the whote arrow along the bottom of the dashboard","NJ dash > tab ""Cases and Mortality Summaries"" > tab ""Ever Hospitalized"" > ""Ever Hospitalized Cases""
 
 note: Upload this tab of Cases and Mortality Summaries as a screenshot
-screenshot: https://internal.covidtracking.com/screenshot?state=NJ&datatype=taco&subtype=primary-source","NJ dash > tab ""Hospital Census"" > ""Care and Bed Type"" > ""Intensive/Critical Care"" 
+screenshot: https://internal.covidtracking.com/screenshot?state=NJ&datatype=taco&subtype=primary-source","NJ dash > tab ""Hospital Census"" > ""Care and Bed Type"" > ""Patients in Intensive Care"" 
 
 note: if you're not on the East Coast you probably cannot see the titles , this is the middle right light blue number.",,"NJ dash > tab ""Hospital Census"" > ""Care and Bed Type"" > ""On Ventilators"" 
 
