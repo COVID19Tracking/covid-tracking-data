@@ -30,6 +30,7 @@ jobs:
         curl https://data.cdc.gov/api/views/9mfq-cb36/rows.csv?accessType=DOWNLOAD -o data/cdc_cases_deaths.csv
         curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=integrated_county_latest_external_data -o data/cdc_counties.csv
         curl https://www.cdc.gov/coronavirus/2019-ncov/modules/lineage-cases.json -o data/cdc_variants.json
+        curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_ltc_data -o data/cdc_ltc.json
 
     - name: Commit
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
