@@ -2065,15 +2065,17 @@ or (Sunday and Monday only)
 
 on Sunday and Monday, use most recent press release > ""... as of...""
 
-yesterday / 00:01
-",,,,,,,,,,,,,,"updates: Tuesday - Saturday
-OR primary > title ""SItuation in Oregon"" >  ""Total Tests""","updates: Tuesday - Saturday
-OR primary > title ""SItuation in Oregon"" >  ""Positive Tests""","updates: Tuesday - Saturday
-OR primary > title ""SItuation in Oregon"" >  ""Negative Tests""",updates: never,updates: never,,"OR primary > title ""SItuation in Oregon"" >  ""Total Cases""
+yesterday / 00:01",,,,,,,,,,,,,,"updates: Tuesday - Saturday
+OR primary > title ""Situation in Oregon"" >  ""Total Tests""","updates: Tuesday - Saturday
+OR primary > title ""Situation in Oregon"" >  ""Positive Tests""","updates: Tuesday - Saturday
+OR primary > title ""Situation in Oregon"" >  ""Negative Tests""",updates: never,updates: never,,"OR primary > title ""Situation in Oregon"" >  ""Total Cases""
 
 on Sunday and Monday:
 
-OR press conferences > title  ""COVID-19 News from Oregon Health Authority"" > click link for that days release > table > column ""Cases"" > row ""Total""","updates: Tuesday - Saturday
+OR press conferences > title  ""COVID-19 News from Oregon Health Authority"" > click link for that days release > table > column ""Cases"" > row ""Total""
+
+note: please screenshot this page such that both the timestamp and the cases and deaths table are visible
+screenshot: https://internal.covidtracking.com/screenshot?state=OR&datatype=taco&subtype=press-conferences","updates: Tuesday - Saturday
 calculated: 
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}
 
