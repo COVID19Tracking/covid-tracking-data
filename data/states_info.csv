@@ -1008,6 +1008,8 @@ Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a perc
 
 Negatives reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
+On January 25, 2021, Wyoming’s **Total PCR tests (specimens)** decreased by roughly 106k, and their **Total PCR tests (people)** decreased by about 3.6k without explanation. Their **Positive PCR tests (specimens)** and **Negative PCR tests (specimens)** did not reflect that decrease, so we did not update their **Total PCR tests (specimens)**, **Total PCR tests (people)**, or **Negative PCR tests (people)**, which is calculated as **Total PCR tests (people)** minus **Confirmed cases** on January 25, 2021 to ensure our data is as accurate as possible.
+
 On January 12, 2021, Wyoming reported more new Confirmed cases than new Total PCR tests (people). As a result, Negative PCR tests (people), which is calculated as Total PCR tests (people) minus Confirmed Cases decreased by 85.
 
 On December 24, 2020, Wyoming announced on their [COVID-19 page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/) that there would be no update to their data on December 24, 2020 or December 25, 2020. On January 1, 2021, they noted that there would be no update to their data on January 1, 2021.We were able to update **Now hospitalized** from Wyoming's separate [hospitalization source](https://sites.google.com/wyo.gov/exec-covid19/hospital-resources) on both days.
