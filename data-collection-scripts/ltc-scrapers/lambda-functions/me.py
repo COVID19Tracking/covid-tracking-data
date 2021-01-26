@@ -25,10 +25,20 @@ def make_matching_column_name_map(df):
 # takes a dataframe containing the same facility name/date data and collapses the rows.
 # Finds conceptually paired columns based on the content of col_map.
 def collapse_rows(df_group, col_map):
+    # if only one row, return the row
+    if df_group.shape[0] == 1:
+        return df_group
+
     new_df_subset = df_group.loc[df_group['Outbreak Status'] == 'Open'].copy()
-    if new_df_subset.empty:  # no open outbreaks
+    if new_df_subset.empty:  # no open outbreaks, but we may want to merge some closed ones
         new_df_subset = df_group.head(1).copy()
-    assert new_df_subset.shape[0] == 1  # expecting only one row/open outbreak
+
+    # expecting only one row/open outbreak; if this isn't true, return the group as is
+    if new_df_subset.shape[0] > 1:
+        print('Check for duplicates: %s %s' % (
+            set(new_df_subset['Facility Name']), set(new_df_subset['Date Collected'])))
+        return df_group
+
     for colname in col_map.keys():
         try:
             cumulative_val = int(df_group[colname].astype(float).sum())
@@ -37,25 +47,30 @@ def collapse_rows(df_group, col_map):
             if val > 0:
                 index = list(df_group.columns).index(colname)
                 new_df_subset.iat[0,index] = val
-        except ValueError:  # some date fields in numeric places, return group as is without collapsing
+        except ValueError:  # some date fields in numeric places, return group without collapsing
             return df_group
     return new_df_subset
 
 
-def lambda_handler(event, context):
-    me_df = pd.read_csv(io.StringIO(event['body']))
+def process_df(df):
     num_numeric_cols = 12  # number of metrics
     first_metric_col = 14  # position of 1st metric, "Cumulative Resident Positives"
     col_map = {}
     for i in range(num_numeric_cols):
-        cumulative_col = me_df.columns[first_metric_col+i]
-        outbreak_col = me_df.columns[first_metric_col+i+num_numeric_cols]
+        cumulative_col = df.columns[first_metric_col+i]
+        outbreak_col = df.columns[first_metric_col+i+num_numeric_cols]
         col_map[cumulative_col] = outbreak_col
 
     # group by facility name and date, collapse each group into one row
-    processed_df = me_df.groupby(
+    processed_df = df.groupby(
         ['Date Collected', 'Facility Name']).apply(
             lambda x: collapse_rows(x, col_map))
+    return processed_df
+
+
+def lambda_handler(event, context):
+    df = pd.read_csv(io.StringIO(event['body']))
+    processed_df = process_df(df)
     
     return {
         'statusCode': 200,
