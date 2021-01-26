@@ -615,7 +615,7 @@ note: if a number used in this calculation does not update, leave the previous v
 GU primary > most recent JIC release > look in written part at the top ""XXXX not in active isolation.""
 
 note: if this metric does not update, leave the previous value in the cell","GU primary > most recent JIC release > ""...officially reported cases of COVID-19 with XXX deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://ghs.guam.gov/coronavirus-covid-19,GU
-HI,Hawaii,,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,https://www.twitter.com/HIgov_Health,https://health.hawaii.gov/news/covid-19-updates/,https://public.tableau.com/views/EpiCurveApr4/CSVDownload.csvhttps://public.tableau.com/views/EpiCurveApr4/CSVDownload.csv?:showVizHome=no,https://hawaiicovid19.com/dashboard/,,"Hawaii’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
+HI,Hawaii,,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,https://twitter.com/HawaiiDOH,https://health.hawaii.gov/news/covid-19-updates/,https://public.tableau.com/views/EpiCurveApr4/CSVDownload.csvhttps://public.tableau.com/views/EpiCurveApr4/CSVDownload.csv?:showVizHome=no,https://hawaiicovid19.com/dashboard/,,"Hawaii’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
 
 On December 25, 2020, Hawaii’s **Total PCR tests (test encounters)** decreased by 6184 without explanation.
 
