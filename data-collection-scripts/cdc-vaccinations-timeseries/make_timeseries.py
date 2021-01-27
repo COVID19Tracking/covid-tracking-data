@@ -12,17 +12,18 @@ if sys.version_info < MIN_PYTHON:
 
 
 @click.command()
+@click.argument('filename')
+@click.argument('json_key')
 @click.option('--strip-duplicate-days/--no-strip-duplicate-days', default=False,
               help='Process the data to only output one set of data for each day')
-def main(strip_duplicate_days):
+def main(filename, json_key, strip_duplicate_days):
     repo = git.Repo("../../")
-    path = "data/cdc_vaccinations.json"
 
     # fetch all the git commits that updated the data file
     # thanks to https://stackoverflow.com/q/28803626
     revlist = (
-        (commit, (commit.tree / path).data_stream.read())
-        for commit in repo.iter_commits(paths=path)
+        (commit, (commit.tree / filename).data_stream.read())
+        for commit in repo.iter_commits(paths=filename)
     )
 
     # build up a dict of the data history by looking at each commit in the git history
@@ -36,7 +37,7 @@ def main(strip_duplicate_days):
     out_cols = {"runid": None}
     seen_data = defaultdict(set)  # dict with date keys holding the states we've seen for that date
     for data_time, data_batch in data.items():
-        for state_data in data_batch["vaccination_data"]:
+        for state_data in data_batch[json_key]:
             state_data["runid"] = data_batch["runid"]
 
             # there's an anomaly in the data where one day has the date in the wrong format.
