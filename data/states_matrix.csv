@@ -2084,17 +2084,22 @@ OR press conferences > title  ""COVID-19 News from Oregon Health Authority"" > c
 
 note: please screenshot this page such that both the timestamp and the cases and deaths table are visible
 screenshot: https://internal.covidtracking.com/screenshot?state=OR&datatype=taco&subtype=press-conferences","updates: Tuesday - Saturday
+
 calculated: 
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}
 
 note: on Sunday and Monday do not update",,"updates: Tuesday - Saturday
+
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Hospitalized Patients""
 
 note: do not update from press release or on weekends","updates: Tuesday - Saturday
+
 OR dash > title ""Age, Sex and Hospitalization Status for Confirmed and Presumptive COVID-19 cases (Cumulative)"" >  table ""Hospitalized During Illness?"" > row ""Yes"" ","updates: Tuesday - Saturday
+
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Patients in ICU Beds""
 
 note: do not update from press release or on weekends",,"updates: Tuesday - Saturday
+
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Patients on Ventilators""",,,,"OR primary > title ""Situation in Oregon"" > ""Total deaths""
 
 or (on Sunday and Monday)
