@@ -1488,6 +1488,8 @@ note: if this metric does not update, leave the previous value in the cell
 ","MS primary > title ""Cases and Deaths by County"" > table > column ""Total Deaths"" > ""Total""","MS primary > title ""Case Classifications"" > table > column ""Confirmed"" > ""Deaths""","MS primary > title ""Case Classifications"" > table > column ""Probable"" > row ""Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",MS
 MT,Montana,https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,,https://www.twitter.com/dphhsmt,,,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On January 27, 2021, we discovered that the Confirmed cases figure we had been capturing for Montana included both confirmed and probable cases, and cleared their Confirmed cases timeseries from April 30, 2020 through January 26, 2021 as a result. Beginning on January 27, 2021, we will capture Confirmed cases and Probable cases from the demographics tab of their dashboard, and will backfill our timeseries as we are able to.
+
 On December 25, 2020, Montana announced on their [COVID-19 dashboard](https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b) that there would be no update to their data on December 25, 2020, or on January 1, 2021 due to the holidays. We were able to update Currently in ICU and Currently on Ventilator from Montana's separate [hospitalization source](https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics).
 
 On December 14, 2020, Montana announced that due to updates to their data reporting system on December 13, 2020, no new cases could be reported on December 13, 2020. We were unable to update Cases (confirmed + probable) and Negative PCR tests (people) on December 14, 2020.
@@ -1496,7 +1498,7 @@ On November 16, 2020, Montana’s Confirmed cases increased by more than their T
 
 On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",#REF!,,TRUE,TRUE,,"MT dash > ""Updates are made by 10:00am daily. Information is reported based on the previous day""
 
-yesterday / 23:59",,,,,,,,,,,,,,"MT dash > ""Total Tests""",,,"MT dash > ""Cumulative Cases""",,,"MT dash > ""Cumulative Cases""","calculated:
+yesterday / 23:59",,,,,,,,,,,,,,"MT dash > ""Total Tests""",,,"MT dash > tab ""COVID-19 Demographics"" > button ""Demographic Information for Montana COVID-19 Cases"" > table ""COVID-19 Cases in Montana"" > row ""Confirmed Cases"" ","MT dash > tab ""COVID-19 Demographics"" > button ""Demographic Information for Montana COVID-19 Cases"" > table ""COVID-19 Cases in Montana"" > row ""Probable Cases"" ",,"MT dash > ""Cumulative Cases""","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"MT dash > ""Active Hospitalizations""","MT dash > ""Total Hospitalizations""","PDF
 MT other > click button ""COVID-19 Hospital Occupancy and Capacity in Montana"" > graph ""Statewide ICU and Ventilator Use and Capacity"" > ICU ""COVID""
 
