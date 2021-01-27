@@ -17,7 +17,7 @@ jobs:
       strategy:
         fail-fast: false
         matrix:
-          state: [ks, ut, me]
+          state: [ks, ut]
       steps:
         - uses: actions/checkout@v2
         - uses: actions/cache@v2
