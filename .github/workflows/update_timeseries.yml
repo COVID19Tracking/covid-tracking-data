@@ -31,14 +31,16 @@ jobs:
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         - name: Run script
           run: |
-            python make_timeseries.py > ../../data/cdc_vaccinations_timeseries.csv
-            python make_timeseries.py --strip-duplicate-days > ../../data/cdc_vaccinations_timeseries_daily.csv
+            python make_timeseries.py data/cdc_vaccinations.json vaccination_data > ../../data/cdc_vaccinations_timeseries.csv
+            python make_timeseries.py data/cdc_vaccinations.json vaccination_data --strip-duplicate-days > ../../data/cdc_vaccinations_timeseries_daily.csv
+            python make_timeseries.py data/cdc_vaccinations_ltc.json vaccination_ltc_data > ../../data/cdc_vaccinations_ltc_timeseries.csv
+            python make_timeseries.py data/cdc_vaccinations_ltc.json vaccination_ltc_data --strip-duplicate-days > ../../data/cdc_vaccinations_ltc_timeseries_daily.csv
         - name: Commit
           if: github.ref == 'refs/heads/master'
           uses: EndBug/add-and-commit@v5
           with:
             message: Updating timeseries
-            add: 'data/cdc_vaccinations_timeseries*'
+            add: 'data/cdc_vaccinations*'
             author_name: GitHub Actions
             author_email: actions@github.com
           env:

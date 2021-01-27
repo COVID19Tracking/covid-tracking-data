@@ -26,7 +26,9 @@ The following files are stored under the same file in this repo, so to see chang
 - Vaccination data in a more convenient CSV time series format, processed by the script in `/data-collection-scripts/cdc_vaccination_timeseries.py` and saved to [cdc_vaccines_timeseries.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines_timeseries.csv). 
 We also process this data into [cdc_vaccines_timeseries_daily.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines_timeseries_daily.csv), where multiple updates from the same date are reduced to the most recent data only.
 - US COVID-19 Cases Caused by Variants: https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant-cases.html, saved to [cdc_variants.json](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_variants.json)
-- Long-term Care Facility Vaccination data: https://covid.cdc.gov/covid-data-tracker/#vaccinations-ltc, saved to [cdc_vaccinations_ltc.json](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccinations_ltc.json)
+- Long-term Care Facility Vaccination data: https://covid.cdc.gov/covid-data-tracker/#vaccinations-ltc, saved to [cdc_vaccinations_ltc.json](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccinations_ltc.json). 
+  This data is also available processed into a CSV time series format in [cdc_vaccines_ltc_timeseries.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines_ltc_timeseries.csv) 
+  and [cdc_vaccines_ltc_timeseries_daily.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines_ltc_timeseries_daily.csv)
 - CDC testing data, saved to [cdc_testing.json](https://github.com/COVID19Tracking/covid-tracking-data/commits/master/data/cdc_testing.json)
 
 We have saved, but are no longer updating, older CDC case, testing and deaths data. To see how these files had changed in the past, see the GitHub history as follows:
