@@ -399,7 +399,7 @@ On December 25, 2020, the District of Columbia announced on their [COVID-19 page
 
 As of September 18, 2020, District of Columbia's total test results are drawn from our total`TestEncountersViral` field instead of calculated via positive+negative.
 
-As of August 29, 2020, we store the “total overall tested” timeseries in our **Total Test Encounters (PCR)** field despite the following: According to our outreach, the District of Columbia’s “total overall tested” figure on its dashboard represents test encounters, the number of unique individuals tested per day, with one exception: if an individual receives a positive and a negative test on the same day, they are counted twice rather than once. 
+As of August 29, 2020, we store the “total overall tested” timeseries in our **Total Test Encounters (PCR)** field despite the following: According to our outreach, the District of Columbia’s “total overall tested” figure on its dashboard represents test encounters, the number of unique individuals tested per day, with one exception, if an individual receives a positive and a negative test on the same day, they are counted twice rather than once. 
 
 On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.",#REF!,,TRUE,,,"DC primary > date
 
