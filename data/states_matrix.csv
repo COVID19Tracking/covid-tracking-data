@@ -345,8 +345,7 @@ On May 29, 2020, Connecticut hospitalization data changed due to reporting labor
 
 On May 27, 2020, Connecticut deduplicated some of its data, resulting in a decrease in **Cases** and **Total PCR tests (specimens)**.","Local Time – CT primary > in text at top of page ""As of...""
 
-usually:
-yesterday / 20:30
+date/ 23:59
 . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: thursday 
 
 CT other > table ""Preview"" > click most recent ""COVID-19 Update"" > title ""Antigen Tests"" > in first sentence ""... a total of [value] COVID-19 antigen laboratory tests...""
@@ -368,8 +367,7 @@ on Ventilator – . Hospital Discharges – . Recovered – updates: never
 note: the state stopped reporting this number 10/22, if you see a Recovered/Recoveries number let the shift lead know
 note: do not update if report does not include a new value. Deaths (confirmed and probable) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Associated Deaths"" > ""Total"" . ",,,,,"CT primary > in text at top of page ""As of...""
 
-usually:
-yesterday / 20:30
+date/ 23:59
 ",,,,"updates: thursday 
 
 CT other > table ""Preview"" > click most recent ""COVID-19 Update"" > title ""Antigen Tests"" > in first sentence ""... a total of [value] COVID-19 antigen laboratory tests...""
@@ -2156,7 +2154,8 @@ Hospitalized – PR dash > ""Hospitalizados por COVID-19"". Cumulative Hospitali
 in ICU – PR query > ""T_Pacientes_Int_Covid:"". Cumulative
 in ICU – . Currently 
 on Ventilator – PR query > ""T_Vent_Covid"". Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – PR dash > top right box > click arrow until you find > ""Convalecientes"". Deaths (confirmed and probable) – PR dash > ""Total Muertes por COVID-19/ Acumuladas"". ",,,,,"PR primary > ""Datos al…""
+on Ventilator – . Hospital Discharges – . Recovered – updates: weekly, usually Mondays
+PR dash > top right box > click arrow until you find > ""Convalecientes"". Deaths (confirmed and probable) – PR dash > ""Total Muertes por COVID-19/ Acumuladas"". ",,,,,"PR primary > ""Datos al…""
 
 above date / 00:00
 
@@ -2165,7 +2164,8 @@ or (if page date is not updated, but dash is)
 current day / 0:00
 
 note: do not use the ""Útilima actualization..."" date on dash.",,,,,,,,,,,"PR dash > ""Total casos sospechosos""",,,updates: never,updates: never,updates: never,"PR dash > ""Total Casos Confirmados""","PR dash > ""Total casos probables Antígenos""",,"calculated:
-WS2 > {Probable Cases + Positive Cases (PCR)}",updates: never,,"PR dash > ""Hospitalizados por COVID-19""",,"PR query > ""T_Pacientes_Int_Covid:""",,"PR query > ""T_Vent_Covid""",,,"PR dash > top right box > click arrow until you find > ""Convalecientes""","PR dash > ""Total Muertes por COVID-19/ Acumuladas""","PR dash > ""Total Muertos COVID-19 / Confirmadas (RT- PCR+)""
+WS2 > {Probable Cases + Positive Cases (PCR)}",updates: never,,"PR dash > ""Hospitalizados por COVID-19""",,"PR query > ""T_Pacientes_Int_Covid:""",,"PR query > ""T_Vent_Covid""",,,"updates: weekly, usually Mondays
+PR dash > top right box > click arrow until you find > ""Convalecientes""","PR dash > ""Total Muertes por COVID-19/ Acumuladas""","PR dash > ""Total Muertos COVID-19 / Confirmadas (RT- PCR+)""
 
 note: click the little arrow at the bottom of the box under ""Total Muertes"" to the right one time","PR dash > ""Total Muertes por COVID-19 / Probables""
 
