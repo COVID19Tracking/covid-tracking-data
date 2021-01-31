@@ -1579,7 +1579,7 @@ On August 19, 2020, North Dakota launched a new dashboard with a number of new d
 
 yesterday / 23:59. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – long calculation
 This formula sums antigen specimens tested by day and county to get a cumulative number.
-long calculation > hover over ""# ND Testing"" > click play button >  ""Total Ag tests (specimens) ""
+long calculation > hover over ""# ND Testing"" > click play button >  ""Total Ag tests (specimens)""
 
 note: long calculation link can be found in cell E2 of WS2. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – ND primary > title ""Serology Testing"" > ""Total""
 
@@ -1624,7 +1624,7 @@ note: this section is below the dash section. the deaths may show up red . ",,,,
 
 yesterday / 23:59",,,,"long calculation
 This formula sums antigen specimens tested by day and county to get a cumulative number.
-long calculation > hover over ""# ND Testing"" > click play button >  ""Total Ag tests (specimens) ""
+long calculation > hover over ""# ND Testing"" > click play button >  ""Total Ag tests (specimens)""
 
 note: long calculation link can be found in cell E2 of WS2",,,,,,"ND primary > title ""Serology Testing"" > ""Total""
 
