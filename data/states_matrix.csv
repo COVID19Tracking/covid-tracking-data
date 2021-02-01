@@ -684,6 +684,8 @@ ID,Idaho,https://public.tableau.com/profile/idaho.division.of.public.health#!/vi
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)** in the absence of better data. 
 
+As of January 31, 2021, Idaho does not update their COVID-19 data on Sundays, and data reported on Mondays includes data for both Sunday and Monday. Because their data is on a one day lag in our timeseries due to late updates, we will be unable to update their data on Mondays, and data reported on Tuesdays will include two days of data. 
+
 On January 20, 2021, Idaho [announced](https://twitter.com/IDHW/status/1352057437608583168) that two deaths had been removed from their total after updated records indicated that they were not due to COVID-19. Because Idaho’s data is on a one day lag due to late updates, this affects our Deaths (confirmed + probable) and Deaths (confirmed) for January 21, 2021
 
 On January 18, 2021, Idaho [announced](https://twitter.com/IDHW/status/1351318456206032903) via the official Idaho Department of Health and Welfare twitter that there would be no update to their data due to the Martin Luther King Jr. Day holiday. Additionally, they noted that the data published on January 19, 2021 would include two days of data. Because Idaho’s data is on a one day lag in our timeseries this affects our data for January 19, 2021 and January 20, 2021.
@@ -714,6 +716,7 @@ As of April 9, 2020, Idaho reports **probable and confirmed cases** separately. 
 
 yesterday / 17:00
 
+note: do not update the timestamp if data is unchanged.
 note: ID is on a one dag lag, since 5:00 MT is after we publish on most days. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: weekly
 
 ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
@@ -743,6 +746,7 @@ on Ventilator – . Hospital Discharges – . Recovered – ID dash > tab ""Stat
 
 yesterday / 17:00
 
+note: do not update the timestamp if data is unchanged.
 note: ID is on a one dag lag, since 5:00 MT is after we publish on most days",,,,"updates: weekly
 
 ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
@@ -2028,6 +2032,8 @@ OK other > click most recent ""EO COVID-19 REPORT"" > table ""Reported Hospital 
 note: only use the numbers from inside the parenthesis",,,,,"OK primary > ""OK Recovered""","OK primary > ""OK Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://oklahoma.gov/covid19.html,OK
 OR,Oregon,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://govstatus.egov.com/OR-OHA-COVID-19,https://www.twitter.com/OHAOregon,https://www.oregon.gov/oha/erd/pages/covid-19-news.aspx,,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/HospitalCapacity,,"As of January 13, 2021, Oregon’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
 
+On January 29, 2021, Oregon [announced](https://twitter.com/ohaoregon/status/1355286471687745537?s=21) that their COVID-19 case database would be down for “for server and file migration maintenance” on January 30, 2021, and as a result there would be no update to their data on January 31, 2021. Because Oregon’s data is on a one day lag in our timeseries due to late updates, we were unable to update their data on February 1, 2021.
+
 As of December 9, 2020, Oregon’s total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. This change will cause Oregon’s `totalTestResults` to begin on March 29, 2020 instead of March 4, 2020. Because Oregon’s totalTestsViral represent only electronic laboratory reporting, whereas its cases and negatives represented tests from all sources, this change causes a decrease of 10,296 tests in `totalTestResults` on March 29. The old numbers remain available by summing the positive and negative fields of our API.
 In addition, Oregon has not reported their total tests in people units since December 2, 2020 and they indicated that they will not continue to report total tests in people, so we have removed any values in **Total PCR tests (people)** we previously carried over.
 
@@ -2497,7 +2503,7 @@ note: link to long calculation is in cell E2 of WS2",,"calculated:
 UT other > table ""COVID-19 Hospital Survey Data"" > {""Number of patients currently hospitalized for confirmed COVID-19"" + ""Patients currently hospitalized as suspect COVID-19""}","UT other link > table ""Hospitalization Summary Statistics"" > ""Total Hospitalizations""","UT other link > table ""COVID-19 Hospital Survey Data"" > ""Number of patients in ICU for confirmed COVID-19""","UT other link > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""ICU Admissions"" > column ""Case Count"" > row ""Yes""",,"UT other > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""Intubated/Ventilator Use"" > column ""Case Count"" > row ""Yes""",,"UT dash > graph ""Cumulative COVID-19 Cases with Estimated Recoveries"" > hover over the furthest right green bar > ""Cumulative Estimated Recovered""","UT dash > ""Total COVID-19 Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus-dashboard.utah.gov/,UT
 VA,Virginia,https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vdh.virginia.gov/coronavirus/,https://www.twitter.com/vdhgov,,https://data.virginia.gov/resource/3u5k-c2gr.json?%24query=select+sum%28number_of_pcr_testing%29+as+pcr_testing%2C+sum%28number_of_positive_pcr_testing%29+as+pos_pcr_testing%2C+sum%28number_of_antibody_testing_encounters%29+as+antibody_total%2C+sum%28number_of_positive_antibody_testing_encounters%29+as+antibody_pos%2C+sum%28number_of_positive_antigen_testing_encounters%29+as+antigen_pos%2C+sum%28number_of_antigen_testing_encounters%29+as+antigen_total,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,,"The **Recovered** data point we report for Virginia reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
-On January 31, 2021, Virginia noted that “Surveillance system upgrades occurring on Saturday, January 30, 2021, will affect the data on the COVID-19 Cases & Testing Dashboards on January 31 and February 1, 2021. A decrease in the number of cases and tests reported on January 31, and an increase in the number of cases and tests reported on February 1 is anticipated because of these upgrades”. 
+On January 31, 2021 through February 1, 2021, Virginia noted that “Surveillance system upgrades occurring on Saturday, January 30, 2021, will affect the data on the COVID-19 Cases & Testing Dashboards on January 31 and February 1, 2021. A decrease in the number of cases and tests reported on January 31, and an increase in the number of cases and tests reported on February 1 is anticipated because of these upgrades”. 
 
 On January 12, 2021, we backfilled antibody (`totalTestsAntibody`, `positiveTestsAntibody`) and antigen (`totalTestsAntigen`, `positiveTestsAntigen`) testing time series from the statess dataset. The data from the state describes *testing encounters* for both antibody and antigen testing, since we do not track testing encounters for antibody and antigen testing, we're using the testing specimens fields.
 Antigen testing is reported as starting from January 26th, 2020, which is very early for antigen testing, we'll ask the state for clarifications.
@@ -2668,7 +2674,9 @@ note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash
 ",,,"WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
 ","WA other > button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases""",,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,,"WA dash > pg. 1 > ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.doh.wa.gov/Emergencies/Coronavirus,WA
-WI,Wisconsin,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.twitter.com/DHSWI,,,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm#capabilities,,"On January 9, 2021, Wisconsin’s **Recovered** metric decreased by approximately 20,000, however on their [official twitter](https://twitter.com/DHSWI/status/1348020141674487808) Wisconsin indicated a problem with this metric. The metric was updated, and then patched in our data, later on January 9, 2021.
+WI,Wisconsin,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.twitter.com/DHSWI,,,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm#capabilities,,"On February 1, 2021, Wisconsin’s Total PCR tests (test encounters) decreased by roughly 17k without explanation.
+
+On January 9, 2021, Wisconsin’s **Recovered** metric decreased by approximately 20,000, however on their [official twitter](https://twitter.com/DHSWI/status/1348020141674487808) Wisconsin indicated a problem with this metric. The metric was updated, and then patched in our data, later on January 9, 2021.
 
 On October 29, we populated the full time series for **Total Test Encounters (PCR)** from a time series provided by Wisconsin via CSV on their dashboard. Also as of October 29, Wisconsin's `totalTestResults` represent total test encounters instead of being calculated via pos+neg. The number of unique people ever tested remains available in the API in the `totalTestsPeopleViral` field. 
 
