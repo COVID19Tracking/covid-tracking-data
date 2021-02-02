@@ -2080,7 +2080,9 @@ OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Curr
 or (on Sunday and Monday)
 
 OR press conference > title ""COVID-19 News from Oregon Health Authority"" > click link for yesterday's release > table > column ""Total Deaths"" > row ""Total""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,OR
-PA,Pennsylvania,https://experience.arcgis.com/experience/ed2def13f9b045eda9f7d22dbc9b500e,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://www.twitter.com/PAHealthDept,https://www.media.pa.gov/Pages/Health.aspx,,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,,"On January 28, 2021, Pennsylvania [noted](https://www.media.pa.gov/pages/health-details.aspx?newsid=1273) that their case counts included backlogged antigen testing data from urgent care centers collected over a week ago. Pennsylvania will continue to report this data over the next few days, which will in turn affect our reported case counts.
+PA,Pennsylvania,https://experience.arcgis.com/experience/ed2def13f9b045eda9f7d22dbc9b500e,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://www.twitter.com/PAHealthDept,https://www.media.pa.gov/Pages/Health.aspx,,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,,"On February 1, 2021, we backfilled the full time series of **Total Test Encounters (PCR)**, from data now available on [Open Data Pennsylvania](https://data.pa.gov/Health/COVID-19-PCR-Test-Counts-March-2020-Current-Statew/r6ti-va88), and cleared our **Total Tests (PCR)** column. Going forward, we will enter PA's ""Total PCR Tests"" into Our **Total Test Encounters (PCR)** column rather than **Total Tests (PCR)**, as the state's site describes the data as encounters.
+
+On January 28, 2021, Pennsylvania [noted](https://www.media.pa.gov/pages/health-details.aspx?newsid=1273) that their case counts included backlogged antigen testing data from urgent care centers collected over a week ago. Pennsylvania will continue to report this data over the next few days, which will in turn affect our reported case counts.
 
 On January 4, 2021, Pennsylvania [announced](https://www.media.pa.gov/pages/health-details.aspx?newsid=1231) ""3,226 additional positive cases of COVID-19, in addition to 4,579 new cases reported Sunday, January 3 for a two-day total of 8,992 additional positive cases of COVID-19."" In addition, case counts for January 4, 2021 are ""atypically low"" due to technical maintenance.
 
@@ -2092,10 +2094,10 @@ On September 3, 2020, Pennsylvania [clarified](https://www.health.pa.gov/topics/
 
 On April 23, 2020, Pennsylvania revised down its total **Deaths (confirmed and probable)** from 1,622 to 1,421 to exclude some probable deaths that needed further confirmation to be linked to COVID-19","Local Time – PA dash > ""Information last updated at...""
 
-above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – PA other > ""Total PCR Tests""
+above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – PA other > ""Total PCR Tests""
 
 note: may not update on weekends
-note: if this metric does not update, leave the previous value in the cell. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – PA dash > ""Confirmed Cases"". Probable Cases – PA dash> ""Probable cases"". Total PCR Tests (People) – calculated:
+note: if this metric does not update, leave the previous value in the cell. Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – PA dash > ""Confirmed Cases"". Probable Cases – PA dash> ""Probable cases"". Total PCR Tests (People) – calculated:
 PA dash > {""Confirmed Cases"" + ""Negative Tests""}. Positive Cases (People, confirmed + probable) – calculated:
 PA dash > {""Confirmed Cases"" + ""Probable cases""}. Negative (People or Cases) – PA dash > ""Negative Tests"". Pending – . Currently 
 Hospitalized – PA dash > tab ""Hospital Preparedness"" > ""COVID-19 Patients Hosptialized"". Cumulative Hospitalized – . Currently
@@ -2117,10 +2119,10 @@ note: use this value even if it's a decrease from previous day
 note: may not update on weekends
 note: if this metric does not update, leave the previous value in the cell. Deaths (confirmed and probable) – PA dash > ""Deaths"". ",,,,,"PA dash > ""Information last updated at...""
 
-above date / above time",,,,,,,,,,,,,,"PA other > ""Total PCR Tests""
+above date / above time",,,,,,,,,,,,,"PA other > ""Total PCR Tests""
 
 note: may not update on weekends
-note: if this metric does not update, leave the previous value in the cell",,,"PA dash > ""Confirmed Cases""","PA dash> ""Probable cases""","calculated:
+note: if this metric does not update, leave the previous value in the cell",,,,"PA dash > ""Confirmed Cases""","PA dash> ""Probable cases""","calculated:
 PA dash > {""Confirmed Cases"" + ""Negative Tests""}","calculated:
 PA dash > {""Confirmed Cases"" + ""Probable cases""}","PA dash > ""Negative Tests""",,"PA dash > tab ""Hospital Preparedness"" > ""COVID-19 Patients Hosptialized""",,"PA dash > tab ""Hospital Preparedness"" >  ""COVID-19 Patients (Adult) in ICU""",,"PA dash > tab ""Hospital Preparedness"" > ""COVID-19 Patients on Ventilators""
 
