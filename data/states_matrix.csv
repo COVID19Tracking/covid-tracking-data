@@ -106,7 +106,7 @@ On Aug 15, 2020, Arkansas data changed due to deduplication and the state's remo
 
 Between July 30, 2020 and September 17, 2020, Arkansas provided Total, Positive, and Negative Antigen tests (specimens) sporadically and then stopped reporting them. This data can be found in our API. ","Local Time – AR primary > image COVID-19 Update 
 
-current day / 00:00
+current day / 0:00
 
 note: If page graphic is not updated, check state social media. AR often posts the graphic on twitter before they update the page.. Total Antigen Tests (People) – calculated:
 AR dash > tab ""Tests"" > {""Antigen Negatives"" + ""Antigen Positives""}
@@ -149,7 +149,7 @@ note: always use dash and never the graphic from the primary source. Deaths (con
 
 note: always use dash and never the graphic from the primary source. ",,,,,"AR primary > image COVID-19 Update 
 
-current day / 00:00
+current day / 0:00
 
 note: If page graphic is not updated, check state social media. AR often posts the graphic on twitter before they update the page.","calculated:
 AR dash > tab ""Tests"" > {""Antigen Negatives"" + ""Antigen Positives""}
@@ -250,7 +250,7 @@ From July 18–August 5, 2020, Arizona’s dashboard stopped displaying confirme
 
 On June 23, 2020, we updated our historical data for **Cumulative hospitalized** to match Arizona's dashboard data for ""hospitalized by date admitted."" Data for this metric is not typically reported until several days after admittance. Our daily updates will continue to compile Arizona’s overall number as of cumulative hospitalizations, regardless of date admitted.","Local Time – AZ dash > ""Date Updated""
 
-that date / 00:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – AZ dash > tab ""Summary"" > ""Total COVID-19 Serology Tests"". Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Diagnostic"" > ""Diagnostic tests completed for COVID-19""
+that date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – AZ dash > tab ""Summary"" > ""Total COVID-19 Serology Tests"". Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Diagnostic"" > ""Diagnostic tests completed for COVID-19""
 note: screenshot this page with the diagnostic tests selected
 screenshot: https://internal.covidtracking.com/screenshot?state=AZ&datatype=taco&subtype=data-dashboard. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""confirmed""
 . Probable Cases – AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""probable""
@@ -264,7 +264,7 @@ on Ventilator – . Hospital Discharges – . Recovered – long formula:
 We sum the daily discharged patients since March 10, 2020 to get a cumulative number of recovered patients.
 AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""COVID-19 Discharge"" > mouse over most recent bar in chart > ""Number:"" > Add to ""Long Formulas"" tab in sheet > enter the sum from the top. Deaths (confirmed and probable) – AZ dash > tab ""Summary"" > ""Number of Deaths"". ",,,,,"AZ dash > ""Date Updated""
 
-that date / 00:00",,,,,,,,,,"AZ dash > tab ""Summary"" > ""Total COVID-19 Serology Tests""",,,,"AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Diagnostic"" > ""Diagnostic tests completed for COVID-19""
+that date / 0:00",,,,,,,,,,"AZ dash > tab ""Summary"" > ""Total COVID-19 Serology Tests""",,,,"AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Diagnostic"" > ""Diagnostic tests completed for COVID-19""
 note: screenshot this page with the diagnostic tests selected
 screenshot: https://internal.covidtracking.com/screenshot?state=AZ&datatype=taco&subtype=data-dashboard",,,"AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""confirmed""
 ","AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""probable""
@@ -397,7 +397,7 @@ As of August 29, 2020, we store the “total overall tested” timeseries in our
 
 On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.",#REF!,,TRUE,,,"DC primary > date
 
-date / 00:00",,,,,,,,,,,,,"DC primary > embedded dash > ""Total Overall Tested""
+date / 0:00",,,,,,,,,,,,,"DC primary > embedded dash > ""Total Overall Tested""
 
 note: scroll down for the dash, and wait a few seconds for it to load",,,,,,"DC primary > embedded dash > ""Total Residents Tested""
 
@@ -672,14 +672,14 @@ On September 26, 2020, Iowa announced that due to a data update, roughly 27,000 
 
 As of May 19, 2020, Iowa reports PCR and antibody tests separately.","Local Time – IA dash > ""Last updated on: [date]"" 
 
-date above / 00:00. Total Antigen Tests (People) – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Tested"". Positive Antigen Tests (People) – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Positive"". Negative Antigen Tests (People) – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Negative"". Total Antigen Tests – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Total Tests"". Positive Antigen Tests – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Positive Tests"". Negative Antigen Tests – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Negative Tests"". Total Antibody Tests (People) – IA dash > tab ""Serology Testing"" > ""Individuals Tested"". Positive Antibody Tests (People) – IA dash > tab ""Serology Testing"" > ""Individuals Positive"". Negative Antibody Tests (People) – IA dash > tab ""Serology Testing"" > ""Individuals Negative"". Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Total Tests"". Positive Tests (PCR) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Positive Tests"". Negative Tests (PCR) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Negative Tests"". Positive Cases (PCR) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Positive"". Probable Cases – . Total PCR Tests (People) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Tested"". Positive Cases (People, confirmed + probable) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Positive"". Negative (People or Cases) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Negative"". Pending – . Currently 
+date above / 0:00. Total Antigen Tests (People) – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Tested"". Positive Antigen Tests (People) – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Positive"". Negative Antigen Tests (People) – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Negative"". Total Antigen Tests – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Total Tests"". Positive Antigen Tests – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Positive Tests"". Negative Antigen Tests – IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Negative Tests"". Total Antibody Tests (People) – IA dash > tab ""Serology Testing"" > ""Individuals Tested"". Positive Antibody Tests (People) – IA dash > tab ""Serology Testing"" > ""Individuals Positive"". Negative Antibody Tests (People) – IA dash > tab ""Serology Testing"" > ""Individuals Negative"". Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Total Tests"". Positive Tests (PCR) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Positive Tests"". Negative Tests (PCR) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Negative Tests"". Positive Cases (PCR) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Positive"". Probable Cases – . Total PCR Tests (People) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Tested"". Positive Cases (People, confirmed + probable) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Positive"". Negative (People or Cases) – IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Negative"". Pending – . Currently 
 Hospitalized – IA dash > tab ""RMCC Dashboard"" > title ""COVID-19 Patient Summary"" > ""COVID-19 Hospitalized Patients"". Cumulative Hospitalized – . Currently
 in ICU – IA dash > tab ""RMCC Dash"" > section ""COVID-19 Patient Summary"" > ""COVID-19 Patients in ICU"". Cumulative
 in ICU – . Currently 
 on Ventilator – IA dash > tab ""RMCC Dash"" > section ""Total Ventilators Available"" > ""Total COVID-19 Patients On Ventilators"". Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – IA dash > ""Total Recovered"" . Deaths (confirmed and probable) – IA dash > ""Total Deaths"". ",,,,,"IA dash > ""Last updated on: [date]"" 
 
-date above / 00:00","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Tested""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Positive""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Negative""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Total Tests""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Positive Tests""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Negative Tests""","IA dash > tab ""Serology Testing"" > ""Individuals Tested""","IA dash > tab ""Serology Testing"" > ""Individuals Positive""","IA dash > tab ""Serology Testing"" > ""Individuals Negative""",,,,,"IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Total Tests""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Positive Tests""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Negative Tests""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Positive""",,"IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Tested""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Positive""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Negative""",,"IA dash > tab ""RMCC Dashboard"" > title ""COVID-19 Patient Summary"" > ""COVID-19 Hospitalized Patients""",,"IA dash > tab ""RMCC Dash"" > section ""COVID-19 Patient Summary"" > ""COVID-19 Patients in ICU""",,"IA dash > tab ""RMCC Dash"" > section ""Total Ventilators Available"" > ""Total COVID-19 Patients On Ventilators""",,,"IA dash > ""Total Recovered"" ","IA dash > ""Total Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.iowa.gov/#CurrentStatus,IA
+date above / 0:00","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Tested""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Positive""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Individuals Negative""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Total Tests""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Positive Tests""","IA dash > tab ""Positive Case Analysis"" > title ""Antigen"" > ""Negative Tests""","IA dash > tab ""Serology Testing"" > ""Individuals Tested""","IA dash > tab ""Serology Testing"" > ""Individuals Positive""","IA dash > tab ""Serology Testing"" > ""Individuals Negative""",,,,,"IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Total Tests""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Positive Tests""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Negative Tests""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Positive""",,"IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Tested""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Positive""","IA dash > tab ""Positive Case Analysis"" > title ""PCR"" > ""Individuals Negative""",,"IA dash > tab ""RMCC Dashboard"" > title ""COVID-19 Patient Summary"" > ""COVID-19 Hospitalized Patients""",,"IA dash > tab ""RMCC Dash"" > section ""COVID-19 Patient Summary"" > ""COVID-19 Patients in ICU""",,"IA dash > tab ""RMCC Dash"" > section ""Total Ventilators Available"" > ""Total COVID-19 Patients On Ventilators""",,,"IA dash > ""Total Recovered"" ","IA dash > ""Total Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.iowa.gov/#CurrentStatus,IA
 ID,Idaho,https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard/Home,https://coronavirus.idaho.gov/,https://www.twitter.com/IDHW,,,,,"Idaho's data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update. 
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)** in the absence of better data. 
@@ -778,7 +778,7 @@ As of October 15, 2020, Illinois combines PCR and antigen tests in the total tes
 
 On September 4, 2020, Illinois reported over 140,000 new **Total PCR tests (in specimens)** and over 5,000 new **Cases.** According to the [Chicago Tribune](https://www.chicagotribune.com/coronavirus/ct-covid-19-pandemic-chicago-illinois-news-20200904-qun7unon5fhjbfhnsml4edwqia-story.html), ""The Illinois Department of Public Health said Friday there was significant slowdown in the agency's test reporting earlier this week that it is just catching up with."" ",#REF!,FALSE,,,,"IL primary > ""Information to be updated daily"" 
 
-today's date / 00:00",,,,,,,,,,,,,,"IL primary > title ""Coronavirus Disease 2019 (COVID-19) in Illinois"" > ""Total Tests Performed""",,,,,,"IL primary > ""Total Cases""","calculated:
+today's date / 0:00",,,,,,,,,,,,,,"IL primary > title ""Coronavirus Disease 2019 (COVID-19) in Illinois"" > ""Total Tests Performed""",,,,,,"IL primary > ""Total Cases""","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"IL other > click link ""Statewide Hospital Statistics1"" > title ""COVID-19 Patients"" > ""Total COVID + PUI in Hospital""
 
 note: statewide Hospital Statistics1 located at the bottom of the page below the hover-over graphs
@@ -866,7 +866,7 @@ As of May 27, 2020, Kentucky reports antibody tests separately from PCR tests.
 
 On May 23, 2020, Kentucky revised down the state's figure for **Total tests**.","Local Time – KY primary > ""Current as of...""
 
-above date / 00:00
+above date / 0:00
 
 or (On Sundays only)
 KY primary > link (pdf) KY COVID-19 Daily Report 
@@ -878,7 +878,7 @@ in ICU – KY primary > link (pdf) ""KY COVID-19 Daily Report"" > table ""Case O
 on Ventilator – KY primary > link (pdf) ""KY COVID-19 Daily Report"" > table ""Current COVID-19 Hospital Census"" > ""On Ventilator"". Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – KY primary > link (pdf) ""KY COVID-19 Daily Report"" > table ""Case Outcomes"" > ""Recovered"". Deaths (confirmed and probable) – KY primary > link (pdf) ""KY COVID-19 Daily Report"" > table ""Daily Summary"" > row ""Deaths"" > column ""Total"". ",,,,,"KY primary > ""Current as of...""
 
-above date / 00:00
+above date / 0:00
 
 or (On Sundays only)
 KY primary > link (pdf) KY COVID-19 Daily Report 
@@ -1266,7 +1266,7 @@ On June 11, 2020, we updated our historical data from a spreadsheet provided by 
 
 Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","Local Time – MI dash > tab ""Current Status"" > on right-hand side under ""MICHIGAN"" > [date]
 
-above date / 00:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Serology""
+above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Serology""
 . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Diagnostic"". Positive Tests (PCR) – long calculation
 This formula sums positive PCR tests by county and day to get a cumulative number
 long calculation > hover over ""# MI Testing"" > click play button > ""Positive"" 
@@ -1296,7 +1296,7 @@ MI dash > click link ""CUMULATIVE RECOVERED"" > ""Cumulative Total of Recovered 
 note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Deaths"" > row ""Total"". ",,,,,"MI dash > tab ""Current Status"" > on right-hand side under ""MICHIGAN"" > [date]
 
-above date / 00:00",,,,,,,,,,"MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Serology""
+above date / 0:00",,,,,,,,,,"MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Serology""
 ",,,,"MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Diagnostic""","long calculation
 This formula sums positive PCR tests by county and day to get a cumulative number
 long calculation > hover over ""# MI Testing"" > click play button > ""Positive"" 
@@ -1369,7 +1369,7 @@ On September 5, 2020, the Missouri DHSS [added an additional 72 deaths](http://t
 
 As of May 22, 2020, Missouri reports PCR tests separately from antibody tests. ","Local Time – MO dash > ""Includes data reported through....""
 
-yesterday / 23:59. Total Antigen Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type > column ""Total Individuals Tested"" > row ""Antigen"". Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Antigen"". Positive Antigen Tests – MO dash > tab ""Detail:Testing: > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over red section of bar > ""x resulted in a Positive"". Negative Antigen Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over green section of bar > ""x resulted in a Negative"". Total Antibody Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""Serology"". Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Serology"". Positive Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over red section of bar > ""x resulted in a Positive"". Negative Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over green section of bar > ""x resulted in a Negative"". Total Test Encounters (PCR) – . Total Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""PCR"". Positive Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over red section of bar > ""x resulted in a Positive"". Negative Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over green section of bar > ""x resulted in a Negative"". Positive Cases (PCR) – MO dash > ""Cases to Date"". Probable Cases – . Total PCR Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""PCR"". Positive Cases (People, confirmed + probable) – MO dash > ""Cases to Date"". Negative (People or Cases) – calculated:
+yesterday / 23:59. Total Antigen Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type > column ""Total Individuals Tested"" > row ""Antigen"". Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Antigen"". Positive Antigen Tests – MO dash > tab ""Detail:Testing: > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over red section of bar > ""x resulted in a Positive"". Negative Antigen Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over green section of bar > ""x resulted in a Negative"". Total Antibody Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""Serology"". Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Serology"". Positive Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over red section of bar > ""x resulted in a Positive"". Negative Antibody Tests – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over green section of bar > ""x resulted in a Negative"". Total Test Encounters (PCR) – . Total Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""PCR"". Positive Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over red section of bar > ""x resulted in a Positive"". Negative Tests (PCR) – MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over green section of bar > ""x resulted in a Negative"". Positive Cases (PCR) – MO dash > ""Confirmed Cases to Date"". Probable Cases – . Total PCR Tests (People) – MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""PCR"". Positive Cases (People, confirmed + probable) – MO dash > ""Confirmed Cases to Date"". Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – MO dash > tab ""Detail:Healthcare System"" > title ""Hospitalizations"" > ""Total COVID-19 Hospitalized Patients"". Cumulative Hospitalized – . Currently
 in ICU – MO dash > tab ""Detail:Healthcare System"" > title ""ICU"" > ""COVID-19 Patients in Intensive Care (ICU)"". Cumulative
@@ -1377,7 +1377,7 @@ in ICU – . Currently
 on Ventilator – MO dash > tab ""Detail:Healthcare System"" > title ""Ventilators"" > ""COVID-19 Patients on Ventilators"". Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – MO dash > ""Deaths to Date"". ",,,TRUE,,"MO dash > ""Includes data reported through....""
 
-yesterday / 23:59","MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type > column ""Total Individuals Tested"" > row ""Antigen""",,,"MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Antigen""","MO dash > tab ""Detail:Testing: > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over green section of bar > ""x resulted in a Negative""","MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""Serology""",,,"MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Serology""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over green section of bar > ""x resulted in a Negative""",,"MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""PCR""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over green section of bar > ""x resulted in a Negative""","MO dash > ""Cases to Date""",,"MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""PCR""","MO dash > ""Cases to Date""","calculated:
+yesterday / 23:59","MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type > column ""Total Individuals Tested"" > row ""Antigen""",,,"MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Antigen""","MO dash > tab ""Detail:Testing: > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Antigen"" > mouse over green section of bar > ""x resulted in a Negative""","MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""Serology""",,,"MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""Serology""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""Serology"" > mouse over green section of bar > ""x resulted in a Negative""",,"MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > column ""Total Tests"" > row ""PCR""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over red section of bar > ""x resulted in a Positive""","MO dash > tab ""Detail:Testing"" > graph ""Test Results by Test Type"" > row ""PCR"" > hover over green section of bar > ""x resulted in a Negative""","MO dash > ""Confirmed Cases to Date""",,"MO dash > tab ""Detail:Testing"" > table ""Individuals Tested by Test Type"" > column ""Total Individuals Tested"" > row ""PCR""","MO dash > ""Confirmed Cases to Date""","calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"MO dash > tab ""Detail:Healthcare System"" > title ""Hospitalizations"" > ""Total COVID-19 Hospitalized Patients""",,"MO dash > tab ""Detail:Healthcare System"" > title ""ICU"" > ""COVID-19 Patients in Intensive Care (ICU)""",,"MO dash > tab ""Detail:Healthcare System"" > title ""Ventilators"" > ""COVID-19 Patients on Ventilators""",,,,"MO dash > ""Deaths to Date""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://showmestrong.mo.gov/data/statewide-public-health/,MO
 MP,Commonwealth of the Northern Mariana Islands,https://cnmichcc.maps.arcgis.com/apps/opsdashboard/index.html#/4061b674fc964efe84f7774b7979d2b5,https://www.chcc.gov.mp/coronavirusinformation.php,https://www.twitter.com/cnmichcc,,https://services8.arcgis.com/zkkZCub5I6ydvXQj/ArcGIS/rest/services/Coronavirus_PublicDashboardView/FeatureServer/3/query?where=1%3D1&outStatistics=%5B%7B%27statisticType%27%3A+%27max%27%2C+%27onStatisticField%27%3A+%27reportdt%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27confirmedcases%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27totalspeccnmi%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27deaths%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27recovered%27%7D%2C+%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27hospitalized%27%7D%5D,,,"The Northern Mariana Islands have not posted a new **Recovered** number since July 15, 2020. 
 
@@ -1430,7 +1430,7 @@ On May 26, 2020, news reports indicated that 95 antibody tests had returned posi
 As of May 23, 2020, Mississippi is separating out PCR and antibody tests. We now report both separately. 
 ",#REF!,,TRUE,,,"MS primary > ""New Cases and Deaths as of...""
 
-""as of"" date / 00:00
+""as of"" date / 0:00
 
 ",,,,"updates: weekly
 MS primary > title ""COVID-19 Testing"" > table > column ""Antigen"" > row ""Total tests for COVID-19 statewide""
@@ -1460,7 +1460,7 @@ calculated:
 MS primary > section ""Weekly Statewide Data Charts"" > click ""All Weekly Charts"" > bar chart ""COVID-19 Hospitalized Cases by Age"" > {add up each bar}
 
 note: the title for this bar chart is not searchable on the page. it's an image. usually the update is a monday or tuesday.
-note: if this metric does not update, leave the previous value in the cell","updates: Monday - Friday
+note: if this metric does not update, leave the previous value in the cell","updates: Monday -  Friday
 MS other > graph ""Hospitalizations and ICU Use (Statewide)"" > hover over most recent date > ""Patients in an ICU""
 
 note: this is the first chart on the page",,"updates: Monday - Friday
@@ -1484,11 +1484,13 @@ On November 16, 2020, Montana’s Confirmed cases increased by more than their T
 On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",#REF!,,TRUE,TRUE,,"MT dash > tab ""MT COVID-19 Cases"" > ""Updates are made by 10:00am daily. Information is reported based on the previous day""
 
 yesterday / 23:59",,,,,,,,,,,,,,"MT dash > tab ""MT COVID-19 Cases"" > ""Total Tests""",,,"MT dash > tab ""COVID-19 Demographics"" > button ""Demographic Information for Montana COVID-19 Cases"" > table ""COVID-19 Cases in Montana"" > row ""Confirmed Cases"" ","MT dash > tab ""COVID-19 Demographics"" > button ""Demographic Information for Montana COVID-19 Cases"" > table ""COVID-19 Cases in Montana"" > row ""Probable Cases"" ",,"MT dash  > tab ""MT COVID-19 Cases"" > ""Cumulative Cases""","calculated:
-WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"MT dash  > tab ""MT COVID-19 Cases"" > ""Active Hospitalizations""","MT dash  > tab ""MT COVID-19 Cases"" > ""Total Hospitalizations""","PDF
+WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"MT dash  > tab ""MT COVID-19 Cases"" > ""Active Hospitalizations""","MT dash  > tab ""MT COVID-19 Cases"" > ""Total Hospitalizations""","updates: Tuesday - Saturday
+PDF
 MT other > click button ""COVID-19 Hospital Occupancy and Capacity in Montana"" > graph ""Statewide ICU and Ventilator Use and Capacity"" > ICU ""COVID""
 
 note: the COVID bar is dark blue
-note: only updates Tues-Sat, carry over values on days they do not update",,"PDF
+note: only updates Tues-Sat, carry over values on days they do not update",,"updates: Tuesday - Saturday
+PDF
 MT other > click button ""COVID-19 Hospital Occupancy and Capacity in Montana"" > graph ""Statewide ICU and Ventilator Use and Capacity"" > Vents ""COVID""
 
 note: the COVID bar is dark blue
@@ -1771,7 +1773,7 @@ WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"NH primary > ""Curren
 ","NH dash > table ""Hospitalizations"" > ""Cumulative""",,"NH dash > table ""Intensive Care Unit"" > ""Cumulative""",,,,"NH primary > ""Recovered""","NH primary > ""Deaths Attributed to COVID-19""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,NH
 NJ,New Jersey,https://covid19.nj.gov/#live-updates,https://covid19.nj.gov/,https://www.twitter.com/NJDeptofHealth,,https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/PPE_Capacity/FeatureServer/0/query?where=survey_period%3E%3Dtimestamp+%272020-04-27+07%3A00%3A00%27+AND+structure_measure_identifier+LIKE+%27%25ischarge%25Excluding+Deaths%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27recoveries%27%7D%5D,,,,"Local Time – NJ dash > ""Updated:""
 
-above date / 00:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NJ dash >  ""Total PCR Tests Reported"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NJ dash > ""Total Confirmed* Cases"". Probable Cases – NJ dash > ""Probable* Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
+above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NJ dash >  ""Total PCR Tests Reported"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NJ dash > ""Total Confirmed* Cases"". Probable Cases – NJ dash > ""Probable* Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
 WS2 > {Positive Cases (PCR) + Probable Cases}. Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – NJ dash > tab ""Hospital Census"" > ""Statewide"" > ""Hospitalizations"" 
@@ -1796,7 +1798,7 @@ WS2 > { Deaths (confirmed) + Deaths (probable) }
 
 . ",,,,,"NJ dash > ""Updated:""
 
-above date / 00:00",,,,,,,,,,,,,,"NJ dash >  ""Total PCR Tests Reported""",,,"NJ dash > ""Total Confirmed* Cases""","NJ dash > ""Probable* Cases""",,"calculated:
+above date / 0:00",,,,,,,,,,,,,,"NJ dash >  ""Total PCR Tests Reported""",,,"NJ dash > ""Total Confirmed* Cases""","NJ dash > ""Probable* Cases""",,"calculated:
 WS2 > {Positive Cases (PCR) + Probable Cases}","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"NJ dash > tab ""Hospital Census"" > ""Statewide"" > ""Hospitalizations"" 
 
@@ -1849,7 +1851,7 @@ On October 15, 2020, Nevada stopped reporting the number of unique people who te
 
 On October 15, 2020, Nevada stopped reporting **Total PCR tests (specimens)** and began reporting **Total PCR tests (test encounters)**. Due to this we cannot continue reporting **Total PCR tests (specimens)**, however the time series for the specimens metric is available in the historical data, and our data downloads. ","Local Time – NV dash > ""Data as of...""
 
-above date / 00:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NV dash > tab ""Trends"" > button ""Testing"" > ""Testing Encounters"". Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases"". Probable Cases – . Total PCR Tests (People) – NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested"". Positive Cases (People, confirmed + probable) – NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases"". Negative (People or Cases) – calculated:
+above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NV dash > tab ""Trends"" > button ""Testing"" > ""Testing Encounters"". Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases"". Probable Cases – . Total PCR Tests (People) – NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested"". Positive Cases (People, confirmed + probable) – NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases"". Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People)  - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – NV dash > tab ""Current Status"" > button ""Hospitalizations"" > ""Confirmed and Suspected Hospitalizations"" 
 
@@ -1866,7 +1868,7 @@ note: this figure does not update on Sunday; if this metric does not update, lea
 note: the most current data may be dated the previous day, that's expected. Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – NV dash > tab ""Current Status"" > button ""Deaths"" > ""Cumulative Deaths"". ",,,,,"NV dash > ""Data as of...""
 
-above date / 00:00",,,,,,,,,,,,,"NV dash > tab ""Trends"" > button ""Testing"" > ""Testing Encounters""",,,,"NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases""",,"NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested""","NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases""","calculated:
+above date / 0:00",,,,,,,,,,,,,"NV dash > tab ""Trends"" > button ""Testing"" > ""Testing Encounters""",,,,"NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases""",,"NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested""","NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases""","calculated:
 WS2 > {Total PCR Tests (People)  - Positive Cases (PCR)}",,"NV dash > tab ""Current Status"" > button ""Hospitalizations"" > ""Confirmed and Suspected Hospitalizations"" 
 
 note: this figure does not update on Sunday; when this metric does not update, leave the previous value 
@@ -2007,7 +2009,7 @@ On July 19 and July 20, Oklahoma noted that reported **Total cases** numbers wer
 
 Prior to April 10, 2020, Oklahoma reported ""Positive (Out-of-State)"" results. We excluded these figures from our data, as we assumed these individuals were isolated outside the state.",#REF!,,FALSE,,,"OK primary > tile ""OK Summary"" > ""Cases updated as of:"" 
 
-above date / 00:00",,,,,,,,,,"pdf
+above date / 0:00",,,,,,,,,,"pdf
 updates: weekly
 OK primary > scroll to bottom of page and click link ""Weekly Epidemiology and Surveillance Report"" > click most recent report > table ""Disease Testing"" > column ""Total Number"" > row ""Antibody tested, count"" 
 
@@ -2154,7 +2156,7 @@ On May 6, 2020, Puerto Rico stopped reporting **Negative PCR tests**.
 
 On April 22, 2020, Puerto Rico's data changed due to deduplication. This resulted in a decrease in **Total cases**.","Local Time – PR primary > ""Datos al…""
 
-above date / 00:00
+above date / 0:00
 
 or (if page date is not updated, but dash is)
  
@@ -2169,7 +2171,7 @@ on Ventilator – PR query > ""T_Vent_Covid"". Cumulative
 on Ventilator – . Hospital Discharges – . Recovered – updates: weekly, usually Mondays
 PR dash > top right box > click arrow until you find > ""Convalecientes"". Deaths (confirmed and probable) – PR dash > ""Total Muertes por COVID-19/ Acumuladas"". ",,,,,"PR primary > ""Datos al…""
 
-above date / 00:00
+above date / 0:00
 
 or (if page date is not updated, but dash is)
  
@@ -2334,7 +2336,7 @@ TN other > graph ""Statewide Number of COVID-19 Hospitalized Patients"" > you wi
 note: do not use page hospitalization number","TN dash > title ""Outcomes"" > table ""Ever Hospitalized"" > column ""Cases"" > row ""Yes""","calculated:
 TN other > graph ""Statewide Number of COVID-19 Hospitalized Patients"" > you will find the number by mousing over the most recent day > then toggle to ""Pending Cases"" and do the same thing > {Total ICU Cases + Total ICU Cases (pending)}",,"calculated:
 TN other > graph ""Statewide Number of COVID-19 Hospitalized Patients"" > you will find the number by mousing over the most recent day > then toggle to ""Pending Cases"" and do the same thing > {Total Vent Cases + Total Vent Cases (pending)}",,,"TN dash > ""Inactive/RecoveredCases""","TN dash > ""Total Deaths""","TN dash > ""Confirmed Deaths""","TN dash > ""Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.tn.gov/health/cedep/ncov.html,TN
-TX,Texas,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://www.dshs.texas.gov/coronavirus/additionaldata/,https://www.twitter.com/TexasDSHS,,http://turnips.covidtracking.com/#TX,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,,"The Texas Department of State Health Services regularly includes older cases identified by labs in their cumulative confirmed case counts. As a result, new cases reported may not necessarily have occurred in the past 24 hour period. When these increases are significant, we will specifically mention them in our daily update on twitter.
+TX,Texas,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://www.dshs.texas.gov/coronavirus/additionaldata/,https://www.twitter.com/TexasDSHS,,https://services5.arcgis.com/ACaLB9ifngzawspq/ArcGIS/rest/services/TX_DSHS_COVID19_TestData_Service/FeatureServer/3/query?where=1%3D1&outFields=%2A&cacheHint=False,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,,"The Texas Department of State Health Services regularly includes older cases identified by labs in their cumulative confirmed case counts. As a result, new cases reported may not necessarily have occurred in the past 24 hour period. When these increases are significant, we will specifically mention them in our daily update on twitter.
 
 On December 29, 2020, Texas noted that “New cases reported today (12/29) may include several days of cases for some counties as some local health departments did not report over the holiday weekend.
 
@@ -2364,7 +2366,7 @@ On June 16, 2020, Texas notes that ""The reported cases for June 16 include 2,62
 
 As of May 23, 2020, Texas reports PCR tests separately from antibody tests.",#REF!,,TRUE,,,"TX dash > ""Last Updated:""
 
-above date / above time ",,,,"TX query > ""Tests"" > ""AntigenTests""","TX query > ""Antigen Positive"" > ""antigen_pos""",,,,,"TX query > ""Tests"" > ""AntibodyTests""","TX query > ""Antibody Positive"" > ""antibody_pos""",,,"TX query > ""Tests"" > ""ViralTests""","long calculation
+above date / above time ",,,,"TX query > ""AntigenTests""","TX query > ""AntigenPositive""",,,,,"TX query > ""AntibodyTests""","TX query > ""PositiveAntibody""",,,"TX query > ""ViralTests""","long calculation
 This formula adds the number of new positive PCR tests to the number of old positive PCR tests
 long calculation > hover over ""# TX"" > click play button >  ""PCR Positives""
 
@@ -2692,7 +2694,7 @@ In early June of 2020, Wisconsin started reporting **Probable cases** of COVID-1
 
 On March 30, 2020, Wisconsin revised its cumulative **Negative PCR tests (people)** data downward without explanation.""","Local Time – WI dash > title ""Wisconsin COVID-19 Summary Statistics"" > ""Cumulative Data, Updated:""
 
-today / 00:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – long calculation
+today / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – long calculation
 This formula sums daily PCR test encounters to get a cumulative number.
 long calculation > hover over ""# WI PCR Testing Encounters"" > click play button > number under ""Last run at..."" row
 
@@ -2718,7 +2720,7 @@ on Ventilator – . Hospital Discharges – . Recovered – WI dash > title ""Wi
 
 note: number will be in parenthesis in the same line as the update time for the graph. ",,,,,"WI dash > title ""Wisconsin COVID-19 Summary Statistics"" > ""Cumulative Data, Updated:""
 
-today / 00:00",,,,,,,,,,,,,"long calculation
+today / 0:00",,,,,,,,,,,,,"long calculation
 This formula sums daily PCR test encounters to get a cumulative number.
 long calculation > hover over ""# WI PCR Testing Encounters"" > click play button > number under ""Last run at..."" row
 
