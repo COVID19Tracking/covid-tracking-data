@@ -15,15 +15,15 @@ On January 4, 2020, Alaska noted that ""counted deaths in Alaska include COVID-1
 
 On January 1, 2021, Alaska noted that there would be no update to their data on January 1, 2021.
 
-On December 25, 2020, Alaska announced on their [COVID Response Hub](https://coronavirus-response-alaska-dhss.hub.arcgis.com)that there would be no update to their data on December 25, 2020. 
+On December 25, 2020, Alaska announced on their dashboard that there would be no update to their data on December 25, 2020. 
 
-On November 17, 2020, Alaska [announced](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
+On November 17, 2020, Alaska [announced](https://alaska-coronavirus-vaccine-outreach-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
 
 On November 16, 2020 we updated the **Total cases** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
 
 On November 16, 2020 we added **Cumulative Hospitalized** (which includes both residents and non-residents), although the value does not reflect current hospitalizations.
 
-On November 7, 2020, Alaska announced that their testing dashboard would be ""temporarily disabled from November 6th to November 9th"" and that testing data could be accessed through their [data summary tables](https://coronavirus-response-alaska-dhss.hub.arcgis.com). After originally using the data summary tables on November 7, we have reversed that decision, and reverted the values to their November 6th state. The frozen values were replaced on November 10, with values from the state's [Tests Dataset](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/tests-dataset). 
+On November 7, 2020, Alaska announced that their testing dashboard would be ""temporarily disabled from November 6th to November 9th"" and that testing data could be accessed through their data summary tables. After originally using the data summary tables on November 7, we have reversed that decision, and reverted the values to their November 6th state. The frozen values were replaced on November 10, with values from the state's [Tests Dataset](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/tests-dataset). 
 
 On November 6, 2020, Alaska’s **Total PCR tests (specimens)** and **Positive PCR tests (specimens)** decreased without explanation. As a result, `Negative`, which is calculated by subtracting **Total cases** from **Total PCR tests (specimens)**, decreased as well.
 
