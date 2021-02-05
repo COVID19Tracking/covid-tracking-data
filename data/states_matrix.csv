@@ -661,7 +661,7 @@ note: please screenshot the number on the hover graph until we figure out screen
 screenshot: https://internal.covidtracking.com/screenshot?state=HI&datatype=taco&subtype=primary-source",,"HI primary > tab ""ICU Beds and Ventilators"" > graph ""Trends: COVID+ Ventilators in Use"" > hover over most recent date
 
 note: please screenshot the number on the hover graph until we figure out screenshots!
-screenshot: https://internal.covidtracking.com/screenshot?state=HI&datatype=taco&subtype=primary-source",,,,"HI primary > ""Total Fatalities""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://hiema-hub.hawaii.gov/pages/covid-dashboard,HI
+screenshot: https://internal.covidtracking.com/screenshot?state=HI&datatype=taco&subtype=primary-source",,,,"HI primary > ""Total Fatalities""","HI primary > ""Total Fatalities""",,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://hiema-hub.hawaii.gov/pages/covid-dashboard,HI
 IA,Iowa,https://coronavirus.iowa.gov/#CurrentStatus,https://coronavirus.iowa.gov/#CurrentStatus,https://www.twitter.com/IAPublicHealth,,,https://iowa.maps.arcgis.com/apps/opsdashboard/index.html#/ef0a08e22e6742d28f78c0519eac4dce,,"On December 13, 2020, Iowa’s Total antigen tests (people) decreased by 77 and their Negative antigen tests (people) decreased by 206 without explanation.
 
 On October 16, 2020, Iowa removed 12,831 tests from the state’s PCR test total. On the same day, 19,308 tests were added to the state’s antigen test total. We were unable to locate an official explanation, but these changes were likely the result of data cleaning and reorganization work.
