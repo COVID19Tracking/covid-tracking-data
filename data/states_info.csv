@@ -319,6 +319,8 @@ IN,"Indiana combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (people)** in the absence of better data.
 
+On February 4, 2021, Indiana announced that their deaths included “1,507 historical deaths identified through an audit of 2020 and 2021 COVID death records and test results”. As a result, the majority of new Deaths (confirmed + probable) and Deaths (confirmed) reported on February 4, 2021 were not reported in the previous 24 hours. We urge caution when looking at this figure.
+
 On January 5, 2021, Indiana’s Currently in ICU decreased by 9 without explanation.
 
 On November 29, 2020, Indiana announced that a historical backlog of roughly 2200 Total PCR tests (people) and about 4000 Total PCR tests (specimens) would be included in their data for November 29, 2020. The `Negative` field in the API will also be affected. As a result, new tests reported on November 29, 2020 were not all reported in the previous 24 hour period.
@@ -944,7 +946,9 @@ We report the most recent hospitalization data available for Washington. In some
 
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
-WA: On February 2, 2021, Washington [reported](https://covidtracking.com/screenshots/WA/WA-20210203-004235.png) that its death data would not be updated until February 3, 2021. Since WA is on a one-day lag in our time series, the death counts reported on February 4, 2021 will include two days of data. In addition, possibly because of its ongoing “processing issues” beginning November 21, 2020, Washington’s cumulative death count decreased by two on February 3, 2021.
+On February 3, 2021, Washington [reported](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210204-064039.png) that the “higher number of new deaths is due to a data processing backlog cleared today from February 2, 2021”. Because Washington’s data is on a one day lag in our timeseries, this will affect our data for February 4, 2021.
+
+On February 2, 2021, Washington [reported](https://covidtracking.com/screenshots/WA/WA-20210203-004235.png) that its death data would not be updated until February 3, 2021. Since WA is on a one-day lag in our time series, the death counts reported on February 4, 2021 will include two days of data. In addition, possibly because of its ongoing “processing issues” beginning November 21, 2020, Washington’s cumulative death count decreased by two on February 3, 2021.
 
 On January 20, 2021, Washington noted that there would be no update to their deaths due to “processing issues"". On January 21, 2021, Washington's data processing backlog was cleared, causing a large increase in Deaths (confirmed and probable). Because their data is on a one day lag in our timeseries, this affects our data for January 21, 2021 and January 22, 2021.
 
