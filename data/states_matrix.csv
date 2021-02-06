@@ -9,6 +9,8 @@ Notes Against
 States Current >>>",,,,,,,,,,,,link,name
 AK,Alaska,https://alaska-coronavirus-vaccine-outreach-alaska-dhss.hub.arcgis.com/app/ed1c874ca60b4c15ab09095a070065ca,https://covid19.alaska.gov/,https://www.twitter.com/Alaska_DHSS,,https://turnips.covidtracking.com/#AK,https://alaska-coronavirus-vaccine-outreach-alaska-dhss.hub.arcgis.com/app/204bf17264c84844a42a6046dd60bf82,,"Alaska combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
+As of February 6, 2021, [Alaska no longer updates](https://twitter.com/alaska_dhss/status/1355349178335944708?s=21) their COVID-19 dashboards on weekends. As a result, we will be unable to update their data on Saturdays and Sundays. 
+
 On January 20, 2021, Alaska [reported](https://www.adn.com/alaska-news/2021/01/20/tracking-covid-19-in-alaska-record-23-deaths-and-167-infections-reported-wednesday/) a comparatively large increase of 23 deaths due to a review of death certificates.
 
 On January 4, 2020, Alaska noted that ""counted deaths in Alaska include COVID-19 cases confirmed through a lab result as well as probable deaths based on confirmed COVID-19 clinical and epidemiological criteria as defined by the CDC with no confirmatory lab testing."" Due to this change we are unable to update the **Confirmed deaths** metric after January 4, 2020.
@@ -1252,6 +1254,9 @@ Our source for **Now hospitalized** and **Now in ICU** data in Michigan generall
 
 Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard. 
 
+
+As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
+
 On January 2, 2021, Michigan did not publish updated testing data by the time of our daily update. As a result, we were unable to update Total Antibody Tests, Total Tests (PCR), Positive Tests (PCR), Negative Tests (PCR), or Negative (People or Cases) on January 2, 2021.
 
 On December 23, 2020, Michigan announced via a [press release](https://www.michigan.gov/coronavirus/0,9753,7-406-98158-548250--,00.html) that their data would not be updated on December 24, 2020, December 25, 2020, December 31, 2020, or January 1, 2021 due to the holidays.
@@ -1261,8 +1266,6 @@ On November 24, 2020, Michigan announced via a [press release](https://www.michi
 On October 29, 2020, Michigan experienced connectivity issues resulting in some cases that would have been reported tomorrow to be reported today. This is due to the fact that the state has a strict 10AM cutoff for daily data reporting. This means the daily increase in cases encompasses more than one day's worth of data.
 
 On October 15, 2020, Michigan announced that due to a laboratory result processing slowdown, several cases that would normally have been included in the October 14, 2020 update were reported on October 15, 2020. The issue has since been resolved. As a result, cases reported on October 15, 2020 may not have been reported within the last 24 hour period.
-
-As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
 
 On June 11, 2020, we updated our historical data from a spreadsheet provided by Michigan's Department of Health and Human Services in order to reflect the lab-reported dates of **probable and confirmed cases** and **probable and confirmed deaths** by date of death.
 
