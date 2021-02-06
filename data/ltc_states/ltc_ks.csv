@@ -1,12 +1,12 @@
 date_collected,state,County-alias,City or State-alias,Facility-value,Type-value,blank,blank,blank,blank,Last Onset Date-value,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,SUM(Number of Cases within 14 days)-alias
-20210205,KS,Shawnee,Topeka,Aldersgate Village,Long Term Care Facility,,,,,2021-01-27,,,,,,,,,,,,,,,,,,,,,,,,5
-20210205,KS,Marion,Goessel,Bethesda Nursing Home,Long Term Care Facility,,,,,2021-01-28,,,,,,,,,,,,,,,,,,,,,,,,9
-20210205,KS,Riley,Manhattan,Big Lakes Developmental Center,Long Term Care Facility,,,,,2021-01-21,,,,,,,,,,,,,,,,,,,,,,,,8
-20210205,KS,Johnson,Shawnee,Brookdale Shawnee - January 2021,Long Term Care Facility,,,,,2021-01-30,,,,,,,,,,,,,,,,,,,,,,,,9
-20210205,KS,Lyon,Emporia,Emporia Presbyterian Manor     -- November,Long Term Care Facility,,,,,2021-01-29,,,,,,,,,,,,,,,,,,,,,,,,11
-20210205,KS,Sedgwick,Wichita,Life Care Center of Wichita - November 2020,Long Term Care Facility,,,,,2021-01-29,,,,,,,,,,,,,,,,,,,,,,,,15
-20210205,KS,Johnson,Olathe,Nottingham Health and Rehab - January 2021,Long Term Care Facility,,,,,2021-01-27,,,,,,,,,,,,,,,,,,,,,,,,5
-20210205,KS,Saline,Salina,Salina Presbyterian Manor,Long Term Care Facility,,,,,2021-01-27,,,,,,,,,,,,,,,,,,,,,,,,9
-20210205,KS,Rice,Little River,Sandstone Heights Nursing Home,Long Term Care Facility,,,,,2021-01-28,,,,,,,,,,,,,,,,,,,,,,,,9
-20210205,KS,Dickinson,Abilene,Village Manor  Memorial Health System,Long Term Care Facility,,,,,2021-01-25,,,,,,,,,,,,,,,,,,,,,,,,6
+20210206,KS,Shawnee,Topeka,Aldersgate Village,Long Term Care Facility,,,,,2021-01-27,,,,,,,,,,,,,,,,,,,,,,,,5
+20210206,KS,Marion,Goessel,Bethesda Nursing Home,Long Term Care Facility,,,,,2021-01-28,,,,,,,,,,,,,,,,,,,,,,,,9
+20210206,KS,Riley,Manhattan,Big Lakes Developmental Center,Long Term Care Facility,,,,,2021-01-21,,,,,,,,,,,,,,,,,,,,,,,,8
+20210206,KS,Johnson,Shawnee,Brookdale Shawnee - January 2021,Long Term Care Facility,,,,,2021-01-30,,,,,,,,,,,,,,,,,,,,,,,,9
+20210206,KS,Lyon,Emporia,Emporia Presbyterian Manor     -- November,Long Term Care Facility,,,,,2021-01-29,,,,,,,,,,,,,,,,,,,,,,,,11
+20210206,KS,Sedgwick,Wichita,Life Care Center of Wichita - November 2020,Long Term Care Facility,,,,,2021-01-29,,,,,,,,,,,,,,,,,,,,,,,,15
+20210206,KS,Johnson,Olathe,Nottingham Health and Rehab - January 2021,Long Term Care Facility,,,,,2021-01-27,,,,,,,,,,,,,,,,,,,,,,,,5
+20210206,KS,Saline,Salina,Salina Presbyterian Manor,Long Term Care Facility,,,,,2021-01-27,,,,,,,,,,,,,,,,,,,,,,,,9
+20210206,KS,Rice,Little River,Sandstone Heights Nursing Home,Long Term Care Facility,,,,,2021-01-28,,,,,,,,,,,,,,,,,,,,,,,,9
+20210206,KS,Dickinson,Abilene,Village Manor  Memorial Health System,Long Term Care Facility,,,,,2021-01-25,,,,,,,,,,,,,,,,,,,,,,,,6
 
