@@ -1,6 +1,8 @@
 state,notes,covid19Site,covid19SiteSecondary,covid19SiteTertiary,covid19SiteQuaternary,covid19SiteQuinary,twitter,covid19SiteOld,covidTrackingProjectPreferredTotalTestUnits,covidTrackingProjectPreferredTotalTestField,totalTestResultsField,pui,pum,name,fips
 AK,"Alaska combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
+As of February 6, 2021, [Alaska no longer updates](https://twitter.com/alaska_dhss/status/1355349178335944708?s=21) their COVID-19 dashboards on weekends. As a result, we will be unable to update their data on Saturdays and Sundays. 
+
 On January 20, 2021, Alaska [reported](https://www.adn.com/alaska-news/2021/01/20/tracking-covid-19-in-alaska-record-23-deaths-and-167-infections-reported-wednesday/) a comparatively large increase of 23 deaths due to a review of death certificates.
 
 On January 4, 2020, Alaska noted that ""counted deaths in Alaska include COVID-19 cases confirmed through a lab result as well as probable deaths based on confirmed COVID-19 clinical and epidemiological criteria as defined by the CDC with no confirmatory lab testing."" Due to this change we are unable to update the **Confirmed deaths** metric after January 4, 2020.
@@ -25,6 +27,8 @@ As of September 18, 2020, Alaska's total test results are drawn from our `totalT
 AL,"Alabama combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
+
+On February 6, 2021, Alabama's **Total antibody tests (people)** decreased from 140,376 to 108,818 without explanation.
 
 On February 5, 2021, Alabama announced that they were experiencing a technical issue with their testing data. As a result, we were unable to update their Total antibody tests (people), Total PCR tests (people), and Negative PCR tests (people), which is calculated as Total PCR tests (people) minus Confirmed cases.
 
@@ -448,6 +452,9 @@ Our source for **Now hospitalized** and **Now in ICU** data in Michigan generall
 
 Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard. 
 
+
+As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
+
 On January 2, 2021, Michigan did not publish updated testing data by the time of our daily update. As a result, we were unable to update Total Antibody Tests, Total Tests (PCR), Positive Tests (PCR), Negative Tests (PCR), or Negative (People or Cases) on January 2, 2021.
 
 On December 23, 2020, Michigan announced via a [press release](https://www.michigan.gov/coronavirus/0,9753,7-406-98158-548250--,00.html) that their data would not be updated on December 24, 2020, December 25, 2020, December 31, 2020, or January 1, 2021 due to the holidays.
@@ -457,8 +464,6 @@ On November 24, 2020, Michigan announced via a [press release](https://www.michi
 On October 29, 2020, Michigan experienced connectivity issues resulting in some cases that would have been reported tomorrow to be reported today. This is due to the fact that the state has a strict 10AM cutoff for daily data reporting. This means the daily increase in cases encompasses more than one day's worth of data.
 
 On October 15, 2020, Michigan announced that due to a laboratory result processing slowdown, several cases that would normally have been included in the October 14, 2020 update were reported on October 15, 2020. The issue has since been resolved. As a result, cases reported on October 15, 2020 may not have been reported within the last 24 hour period.
-
-As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
 
 On June 11, 2020, we updated our historical data from a spreadsheet provided by Michigan's Department of Health and Human Services in order to reflect the lab-reported dates of **probable and confirmed cases** and **probable and confirmed deaths** by date of death.
 
@@ -565,7 +570,9 @@ On September 25, 2020, North Carolina started reporting probable cases which cau
 On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press-releases/ncdhhs-corrects-covid-19-testing-totals-after-identifying-labcorp-reporting) a major correction in its **Total PCR tests (specimens)**, resulting in a decrease of more than 220,000 reported tests. 
 
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,posNeg,posNeg,Only positives,false,North Carolina,37
-ND,"On December 30, 2020, North Dakota began reporting antigen in addition to PCR testing. From December 30, 2020 to January 3, 2021, we captured those numbers combined in our Total Tests (PCR) and Total Test Encounters (PCR) fields. On January 4, 2021, we began reporting these figures separately and revised our historical data to reflect the separate antigen and PCR numbers North Dakota provides.
+ND,"On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 without explanation.
+
+On December 30, 2020, North Dakota began reporting antigen in addition to PCR testing. From December 30, 2020 to January 3, 2021, we captured those numbers combined in our Total Tests (PCR) and Total Test Encounters (PCR) fields. On January 4, 2021, we began reporting these figures separately and revised our historical data to reflect the separate antigen and PCR numbers North Dakota provides.
 
 On December 25, 2020, North Dakota announced on their [COVID-19 dashboard](https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. On January 1, 2020, they noted that there would be no update on January 1, 2020 due to the New Years holiday.
 
