@@ -357,8 +357,9 @@ On May 29, 2020, Connecticut hospitalization data changed due to reporting labor
 
 On May 27, 2020, Connecticut deduplicated some of its data, resulting in a decrease in **Cases** and **Total PCR tests (specimens)**.","Local Time – CT primary > in text at top of page ""As of...""
 
-date/ 23:59
-. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_tests”. Positive Antigen Tests – CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_positives”. Negative Antigen Tests – CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_negatives”. Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Tests Reported (molecular and antigen)"" > ""Total""
+above date / 23:59
+
+note: if time is 8:30pm, use 20:30. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_tests”. Positive Antigen Tests – CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_positives”. Negative Antigen Tests – CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_negatives”. Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Tests Reported (molecular and antigen)"" > ""Total""
 . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – CT primary > in text at top of page ""...including [number] laboratory-confirmed..."". Probable Cases – CT primary > in text at top of page ""...and [number] probable cases..."". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Cases (confirmed and probable)"" > ""Total"". Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – CT primary > table ""Connecticut COVID-19 Summary"" > row ""Patients Curently Hospitalized with COVID-19"" > ""Total"". Cumulative Hospitalized – updates: never
@@ -374,8 +375,9 @@ on Ventilator – . Hospital Discharges – . Recovered – updates: never
 note: the state stopped reporting this number 10/22, if you see a Recovered/Recoveries number let the shift lead know
 note: do not update if report does not include a new value. Deaths (confirmed and probable) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Associated Deaths"" > ""Total"" . ",,,,,"CT primary > in text at top of page ""As of...""
 
-date/ 23:59
-",,,,"CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_tests”","CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_positives”","CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_negatives”",,,,,,,,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Tests Reported (molecular and antigen)"" > ""Total""
+above date / 23:59
+
+note: if time is 8:30pm, use 20:30",,,,"CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_tests”","CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_positives”","CT query > link “Tests (pcr, antigen)” > “sum_number_of_ag_negatives”",,,,,,,,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Tests Reported (molecular and antigen)"" > ""Total""
 ",,,"CT primary > in text at top of page ""...including [number] laboratory-confirmed...""","CT primary > in text at top of page ""...and [number] probable cases...""",,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Cases (confirmed and probable)"" > ""Total""","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""Patients Curently Hospitalized with COVID-19"" > ""Total""","updates: never
 
@@ -570,10 +572,8 @@ calculated:
 GU other > scroll  to table ""COVID-19 Testing Breakdown"" > row ""SEROLOGY TESTS"" > column ""Total Positives"" >  {sum of all values in ""Total Positives"" column}
 
 note: This is now updated weekly. Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday - Friday
-GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""MOLECULAR TEST"" > column ""TOTAL"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – updates: Monday - Friday
-GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Confirmed Cases""
-. Probable Cases – updates: Monday - Friday
-GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Probable Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""COVID-19 Cases"". Negative (People or Cases) – updates: Monday - Friday
+GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""MOLECULAR TEST"" > column ""TOTAL"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Confirmed Cases""
+. Probable Cases – GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Probable Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""COVID-19 Cases"". Negative (People or Cases) – updates: Monday - Friday
 calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
@@ -582,8 +582,7 @@ Hospitalized – GU primary > most recent JIC release > table ""COVID HOSPITAL C
 in ICU – GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""IN ICU"". Cumulative
 in ICU – . Currently 
 on Ventilator – GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""ON VENTILATOR"". Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – updates: Monday - Saturday
-GU primary > most recent JIC release > look in written part at the top ""XXXX not in active isolation.""
+on Ventilator – . Hospital Discharges – . Recovered – GU primary > most recent JIC release > look in written part at the top ""XXXX not in active isolation.""
 
 note: if this metric does not update, leave the previous value in the cell. Deaths (confirmed and probable) – GU primary > most recent JIC release > ""...officially reported cases of COVID-19 with XXX deaths"". ",,,,,"GU primary > ""Posted on"" date and time from most recent JIC release
 
@@ -597,15 +596,12 @@ calculated:
 GU other > scroll  to table ""COVID-19 Testing Breakdown"" > row ""SEROLOGY TESTS"" > column ""Total Positives"" >  {sum of all values in ""Total Positives"" column}
 
 note: This is now updated weekly",,,"updates: Monday - Friday
-GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""MOLECULAR TEST"" > column ""TOTAL""",,,"updates: Monday - Friday
-GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Confirmed Cases""
-","updates: Monday - Friday
-GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Probable Cases""",,"GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""COVID-19 Cases""","updates: Monday - Friday
+GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""MOLECULAR TEST"" > column ""TOTAL""",,,"GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Confirmed Cases""
+","GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Probable Cases""",,"GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""COVID-19 Cases""","updates: Monday - Friday
 calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
-note: if a number used in this calculation does not update, leave the previous value in the cell",,"GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""COVID ADMISSION""",,"GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""IN ICU""",,"GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""ON VENTILATOR""",,,"updates: Monday - Saturday
-GU primary > most recent JIC release > look in written part at the top ""XXXX not in active isolation.""
+note: if a number used in this calculation does not update, leave the previous value in the cell",,"GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""COVID ADMISSION""",,"GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""IN ICU""",,"GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""ON VENTILATOR""",,,"GU primary > most recent JIC release > look in written part at the top ""XXXX not in active isolation.""
 
 note: if this metric does not update, leave the previous value in the cell","GU primary > most recent JIC release > ""...officially reported cases of COVID-19 with XXX deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://ghs.guam.gov/coronavirus-covid-19,GU
 HI,Hawaii,,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,https://twitter.com/HawaiiDOH,https://health.hawaii.gov/news/covid-19-updates/,https://public.tableau.com/views/EpiCurveApr4/CSVDownload.csvhttps://public.tableau.com/views/EpiCurveApr4/CSVDownload.csv?:showVizHome=no,https://hawaiicovid19.com/dashboard/,,"Hawaii’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
@@ -847,7 +843,7 @@ above date / above time. Total Antigen Tests (People) – . Positive Antigen Tes
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People"". Positive Cases (People, confirmed + probable) – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases"". Negative (People or Cases) – updates: Monday, Wednesday, Friday
-KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests"". Pending – . Currently 
+KS dash > tab ""KS COVID-19 Overview"" > ""Negative Individuals"". Pending – . Currently 
 Hospitalized – updates: Monday, Wednesday, Friday
 KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted"". Cumulative Hospitalized – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
@@ -868,7 +864,7 @@ above date / above time",,,,,,,,,,,,,,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests""",,,,,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases""","updates: Monday, Wednesday, Friday
-KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests""",,"updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Negative Individuals""",,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
 ","updates: Monday, Wednesday, Friday
@@ -1647,7 +1643,7 @@ long calculation > hover over ""# ND Negatives + Testing"" > click play button >
 note: long calculation link can be found in cell E2 of WS2. Pending – . Currently 
 Hospitalized – ND primary > tab ""Hospitalizations"" > title ""Hospitalized due to COVID"" > column ""Current"" > ""Total Hospitalized""
 
-or if the hospitalization metrics are still missing from the dasboard
+or if the hospitalization metrics are still missing from the dashboard
 
 ND social > the day's ""COVID-19 Daily Report"" > ""currently hospitalized"". Cumulative Hospitalized – ND primary > tab ""Hospitalizations"" > title ""Hospitalized Due to COVID"" > column ""Cumulative"" > ""Total Hospitalized"". Currently
 in ICU – ND primary > tab ""Hospitalizations"" > title ""Hospitalized due to COVID"" > ""Current"" > ""ICU""
@@ -1691,7 +1687,7 @@ long calculation > hover over ""# ND Negatives + Testing"" > click play button >
 
 note: long calculation link can be found in cell E2 of WS2",,"ND primary > tab ""Hospitalizations"" > title ""Hospitalized due to COVID"" > column ""Current"" > ""Total Hospitalized""
 
-or if the hospitalization metrics are still missing from the dasboard
+or if the hospitalization metrics are still missing from the dashboard
 
 ND social > the day's ""COVID-19 Daily Report"" > ""currently hospitalized""","ND primary > tab ""Hospitalizations"" > title ""Hospitalized Due to COVID"" > column ""Cumulative"" > ""Total Hospitalized""","ND primary > tab ""Hospitalizations"" > title ""Hospitalized due to COVID"" > ""Current"" > ""ICU""
 
@@ -2084,7 +2080,7 @@ On November 4, 2020, Oregon stopped reporting current hospitalization data on th
 
 On October 9, 2020, Oregon [announced}(https://www.oregon.gov/oha/ERD/Pages/OHA-changes-recovered-cases-reporting.aspx) they were removing the **Recovered** metric from their reporting and working on a revised definition of recovered. Due to this we cannot continue reporting **Recovered**, however the time series for the metric is available in the historical data, and our data downloads. 
 
-As of June 6, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.",#REF!,,TRUE,,,"OR primary > title ""Situation in Oregon"" > ""Data current as of""
+As of June 6, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.",#REF!,,TRUE,,,"OR primary > title ""Situation in Oregon"" > ""Data from...""
 
 or (Sunday and Monday only)
 
@@ -2705,7 +2701,9 @@ Between March 31 and April 15, 2020, Washington state did not report **Negative 
 
 above date / above time
 
-note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA dash > pg. 1 > ""Total Molecular Tests"". Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – WA dash > pg. 1 > ""Confirmed Cases""
+note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
+
+note: this is . Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – WA dash > pg. 1 > ""Confirmed Cases""
 . Probable Cases – WA dash > pg. 1 > ""Probable Cases""
 . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – WA dash > pg. 1 > ""Total Cases""
 . Negative (People or Cases) – . Pending – . Currently 
@@ -2719,7 +2717,9 @@ on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed 
 
 above date / above time
 
-note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash > pg. 1 > ""Total Molecular Tests""",,,,"WA dash > pg. 1 > ""Confirmed Cases""
+note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
+
+note: this is ",,,,"WA dash > pg. 1 > ""Confirmed Cases""
 ","WA dash > pg. 1 > ""Probable Cases""
 ",,"WA dash > pg. 1 > ""Total Cases""
 ",,,"WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
