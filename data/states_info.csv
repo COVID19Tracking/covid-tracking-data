@@ -179,6 +179,8 @@ As of August 29, 2020, we store the “total overall tested” timeseries in our
 On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.",https://coronavirus.dc.gov/page/coronavirus-surveillance-data,https://coronavirus.dc.gov/page/hospital-status-data,https://microstrategy.dc.gov/MicroStrategyLibrary/app/E52A533B11EA01A28FE80080EFC53DA4/30FE682111EA6FB5A6620080EF357B1F/WEF49494DFBDE44548AFB2A631C5233CC--K46,,,@_DCHealth,https://coronavirus.dc.gov/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,District of Columbia,11
 DE,"Throughout the week of December 17, 2020, Delaware has experienced technical issues with lab reporting. Please exercise caution when looking at their data from this period and be aware that 7 day averages are a more reliable metric than individual figures.
 
+On February 7, 2021, Delaware noted that due to a technical issue it was reporting 260 cases reported to DPH on February 5 as well as the new cases reported on February 6.
+
 On December 18, 2020, Delaware announced that due to laboratory reporting delays, the number of cases reported for December 17, 2020 is lower than previous days, and the number of cases reported for December 18, 2020 would be higher than previous days to make up for it. Because Delaware reports their data as of the previous day, this affects our data for December 18, 2020 and December 19, 2020.
 
 On December 7, 2020, Delaware announced that they would no longer be reporting **Recovered** as it was “no longer a true reflection of the number of persons that recovered from the disease” because this metric included only cases who had self-reported their recovery to the Division of Public Health. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
@@ -369,6 +371,8 @@ On May 23, 2020, Kentucky revised down the state's figure for **Total tests**.",
 LA,"Louisiana reports probable deaths on a weekly basis.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total tests (PCR)** in the absence of better data.
+
+On February 7, 2021, Louisiana [noted](https://twitter.com/LADeptHealth/status/1358475247410905091?s=20) the following: ""Due to a technical issue, today’s reported case and test counts only include one day of data. Because of the daily removal of newly identified duplicates and out of state cases, the new case increase may not match the difference between today’s and yesterday's total case count.""
 
 On January 24, 2021, Louisiana [announced](https://twitter.com/ladepthealth/status/1353399882674016256?s=21) via the official Louisiana Department of Health twitter that the data reported on January 24, 2021 would only include lab reports from January 23, 2021. The remainder of the data that would normally have been reported on January 24, 2021 will be included in the data for January 25, 2021. 
 
@@ -1047,6 +1051,8 @@ WY,"Wyoming’s metrics do not update every day, and don’t always update toget
 Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a percentage of “Lab Confirmed Cases by Reported Hospitalization” on their [Statistics page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/). In the absence of a better data source we convert this percentage to an integer, and as a result of the calculation, this value may fluctuate.
 
 Negatives reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
+
+On February 7, 2021, Wyoming’s *Confirmed cases” decreased by 36 and **Recovered** decreased by 2 with no explanation.
 
 On February 02, 2021, Wyoming’s Total PCR tests (specimens) decreased by roughly 4,600 and their Total PCR tests (people) decreased by approximately 1,500 without explanation. As a result, Negative PCR tests (people), which is calculated as Total PCR tests (people) minus Confirmed cases, decreased by roughly 1,600.
 
