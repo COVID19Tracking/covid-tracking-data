@@ -2703,9 +2703,9 @@ above date / above time
 
 note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county..."". Total Tests (PCR) – . Positive Tests (PCR) – long calculation
 calculated: 
-long calculation > hover over ""# WA"" > click play button > {""Positive"" + ""Positive (Data Incomplete)""}. Negative Tests (PCR) – long calculation
+long calculation > hover over ""# WA"" > click play button > ""Positive"". Negative Tests (PCR) – long calculation
 calculated: 
-long calculation > hover over ""# WA"" > click play button > {""Negative"" + ""Negative (Data Incomplete)""}. Positive Cases (PCR) – WA dash > pg. 1 > ""Confirmed Cases""
+long calculation > hover over ""# WA"" > click play button > ""Negative"". Positive Cases (PCR) – WA dash > pg. 1 > ""Confirmed Cases""
 . Probable Cases – WA dash > pg. 1 > ""Probable Cases""
 . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – WA dash > pg. 1 > ""Total Cases""
 . Negative (People or Cases) – WS2 > Negative Tests (PCR). Pending – . Currently 
@@ -2721,9 +2721,9 @@ above date / above time
 
 note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""",,"long calculation
 calculated: 
-long calculation > hover over ""# WA"" > click play button > {""Positive"" + ""Positive (Data Incomplete)""}","long calculation
+long calculation > hover over ""# WA"" > click play button > ""Positive""","long calculation
 calculated: 
-long calculation > hover over ""# WA"" > click play button > {""Negative"" + ""Negative (Data Incomplete)""}","WA dash > pg. 1 > ""Confirmed Cases""
+long calculation > hover over ""# WA"" > click play button > ""Negative""","WA dash > pg. 1 > ""Confirmed Cases""
 ","WA dash > pg. 1 > ""Probable Cases""
 ",,"WA dash > pg. 1 > ""Total Cases""
 ",WS2 > Negative Tests (PCR),,"WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
