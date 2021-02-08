@@ -730,7 +730,7 @@ ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
 note: if this metric does not update, leave the previous value in the cell. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – ID dash > tab ""Laboratory Testing"" > title ""PCR Tests"" >“Tests Performed""
 . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Confirmed Cases"". Probable Cases – ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Probable Cases"". Total PCR Tests (People) – ID dash > tab ""Laboratory Testing"" >  ""Idahoans Tested"". Positive Cases (People, confirmed + probable) – ID dash > tab ""Statewide Cases"" > ""XXX Total Statewide Cases"". Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
-Hospitalized – updates: monday/wednesday/friday by 5pm MT (this means we may pick it up the next day). 
+Hospitalized – updates: Tuesday, Thursday, Saturday
 
 ID dash > tab ""Hospitalizations"" > graph ""Patients currently hospitalized in an inpatient bed who have suspected or confirmed COVID-19"" > hover over most recent day for value 
 
@@ -738,7 +738,7 @@ note: please screenshot this page with the most recent day on the hover graph
 screenshot: https://internal.covidtracking.com/screenshot?state=ID&datatype=taco&subtype=data-dashboard
 note: if this metric does not update, leave the previous value in the cell
 note: ID also updates previous days totals, so our past values may not match theirs. Cumulative Hospitalized – ID dash > tab ""Statewide Demographics"" > ""XXX Ever Hospitalized"". Currently
-in ICU – updates: monday/wednesday/friday by 5pm MT (this means we may pick it up the next day). 
+in ICU – updates: Tuesday, Thursday, Saturday
 
 ID dash > tab Hospitalizations > graph Patients currently hospitalized in the Intensive Care Unit (ICU) with confirmed COVID-19 > hover over most recent day for value
 
@@ -759,14 +759,14 @@ ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
 
 note: if this metric does not update, leave the previous value in the cell",,,,,,,,,,"ID dash > tab ""Laboratory Testing"" > title ""PCR Tests"" >“Tests Performed""
 ",,,"ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Confirmed Cases""","ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Probable Cases""","ID dash > tab ""Laboratory Testing"" >  ""Idahoans Tested""","ID dash > tab ""Statewide Cases"" > ""XXX Total Statewide Cases""","calculated:
-WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"updates: monday/wednesday/friday by 5pm MT (this means we may pick it up the next day). 
+WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"updates: Tuesday, Thursday, Saturday
 
 ID dash > tab ""Hospitalizations"" > graph ""Patients currently hospitalized in an inpatient bed who have suspected or confirmed COVID-19"" > hover over most recent day for value 
 
 note: please screenshot this page with the most recent day on the hover graph
 screenshot: https://internal.covidtracking.com/screenshot?state=ID&datatype=taco&subtype=data-dashboard
 note: if this metric does not update, leave the previous value in the cell
-note: ID also updates previous days totals, so our past values may not match theirs","ID dash > tab ""Statewide Demographics"" > ""XXX Ever Hospitalized""","updates: monday/wednesday/friday by 5pm MT (this means we may pick it up the next day). 
+note: ID also updates previous days totals, so our past values may not match theirs","ID dash > tab ""Statewide Demographics"" > ""XXX Ever Hospitalized""","updates: Tuesday, Thursday, Saturday
 
 ID dash > tab Hospitalizations > graph Patients currently hospitalized in the Intensive Care Unit (ICU) with confirmed COVID-19 > hover over most recent day for value
 
@@ -840,26 +840,44 @@ On July 15, 2020, Kansas began reporting additional data from hospitals, and at 
 
 From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or Confirmed cases**. We have corrected the error.
 
-As of May 7, 2020, **confirmed and probable cases** are included in the case totals.","Local Time – KS dash > “Last updated:” 
+As of May 7, 2020, **confirmed and probable cases** are included in the case totals.","Local Time – updates: Monday, Wednesday, Friday
+KS dash > “Last updated:” 
 
-above date / above time
-
-note: KS usually only updates M/W/F. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People"". Positive Cases (People, confirmed + probable) – KS dash > tab ""KS COVID-19 Overview"" > ""Cases"". Negative (People or Cases) – KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests"". Pending – . Currently 
-Hospitalized – KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted"". Cumulative Hospitalized – KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
-OR
-KS dash > tab ""Hospital Summary"" > ""Total Hospitalizations""
+above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People"". Positive Cases (People, confirmed + probable) – updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Cases"". Negative (People or Cases) – updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests"". Pending – . Currently 
+Hospitalized – updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted"". Cumulative Hospitalized – updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
 . Currently
-in ICU – KS dash > tab"" Hospital Capacity"" > ""ICU Beds Used (COVID-19)"". Cumulative
-in ICU – KS dash > tab ""Hospital Summary"" > ""ICU Admissions"". Currently 
-on Ventilator – KS dash > tab ""Hospital Capacity"" > ""Ventilators Used (COVID-19)"". Cumulative 
-on Ventilator – KS dash > tab ""Hospital Summary"" > ""Mechanical Ventilation"". Hospital Discharges – . Recovered – KS dash > tab ""Hospital Summary"" > ""Discharged Patients"". Deaths (confirmed and probable) – KS dash > tab ""KS COVID-19 Overview"" > ""Statewide Deaths"". ",,,,,"KS dash > “Last updated:” 
+in ICU – updates: Monday, Wednesday, Friday
+KS dash > tab"" Hospital Capacity"" > ""ICU Beds Used (COVID-19)"". Cumulative
+in ICU – updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Summary"" > ""ICU Admissions"". Currently 
+on Ventilator – updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Capacity"" > ""Ventilators Used (COVID-19)"". Cumulative 
+on Ventilator – updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Summary"" > ""Mechanical Ventilation"". Hospital Discharges – . Recovered – updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Summary"" > ""Discharged Patients"". Deaths (confirmed and probable) – updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Statewide Deaths"". ",,,,,"updates: Monday, Wednesday, Friday
+KS dash > “Last updated:” 
 
-above date / above time
-
-note: KS usually only updates M/W/F",,,,,,,,,,,,,,"KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests""",,,,,"KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People""","KS dash > tab ""KS COVID-19 Overview"" > ""Cases""","KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests""",,"KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted""","KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
-OR
-KS dash > tab ""Hospital Summary"" > ""Total Hospitalizations""
-","KS dash > tab"" Hospital Capacity"" > ""ICU Beds Used (COVID-19)""","KS dash > tab ""Hospital Summary"" > ""ICU Admissions""","KS dash > tab ""Hospital Capacity"" > ""Ventilators Used (COVID-19)""","KS dash > tab ""Hospital Summary"" > ""Mechanical Ventilation""",,"KS dash > tab ""Hospital Summary"" > ""Discharged Patients""","KS dash > tab ""KS COVID-19 Overview"" > ""Statewide Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,KS
+above date / above time",,,,,,,,,,,,,,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests""",,,,,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People""","updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Cases""","updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests""",,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted""","updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
+","updates: Monday, Wednesday, Friday
+KS dash > tab"" Hospital Capacity"" > ""ICU Beds Used (COVID-19)""","updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Summary"" > ""ICU Admissions""","updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Capacity"" > ""Ventilators Used (COVID-19)""","updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Summary"" > ""Mechanical Ventilation""",,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Summary"" > ""Discharged Patients""","updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Statewide Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,KS
 KY,Kentucky,https://kygeonet.maps.arcgis.com/apps/opsdashboard/index.html#/543ac64bc40445918cf8bc34dc40e334,https://govstatus.egov.com/kycovid19,https://www.twitter.com/CHFSKy,,,https://chfs.ky.gov/agencies/dph/covid19/COVID19DailyReport.pdf,,"On December 24, 2020, December 25, 2020, December 31, 2020 and January 1, 2021, Kentucky did not update their data by the time of our daily update, presumably due to the holidays.
 
 On November 26, 2020, Kentucky did not update their data by the time of our daily update, presumably due to the Thanksgiving holiday.
