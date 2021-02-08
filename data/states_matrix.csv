@@ -2089,7 +2089,7 @@ on Sunday and Monday, use most recent press release > ""... as of...""
 yesterday / 00:01",,,,,,,,,,,,,,"updates: Tuesday - Saturday
 OR primary > title ""Situation in Oregon"" >  ""Total Tests""","updates: Tuesday - Saturday
 OR primary > title ""Situation in Oregon"" >  ""Positive Tests""","updates: Tuesday - Saturday
-OR primary > title ""Situation in Oregon"" >  ""Negative Tests""",updates: never,updates: never,,"OR primary > title ""Situation in Oregon"" >  ""Total Cases""
+OR primary > title ""Situation in Oregon"" >  ""Negative Tests""",,,,"OR primary > title ""Situation in Oregon"" >  ""Total Cases""
 
 on Sunday and Monday:
 
