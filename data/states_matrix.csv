@@ -1578,7 +1578,9 @@ NC other > link ""COVID-19 Patients Presumed to be Recovered"" > ""Patients Pres
 
 note: if this metric does not update, leave the previous value in the cell
 ","NC dash > link ""Cases"" > graph ""Daily Cases"" > select >  ""Deaths by Date of Death"" > ""Total Deaths""","NC dash > link ""Cases"" > graph ""Daily  Cases"" > radio buttons ""select graph view"" > select "" Deaths by Date of Death"" > ""Molecular (PCR) Positive""","NC dash > link ""Cases"" > graph ""Daily  Cases"" > radio buttons ""select graph view"" > select "" Deaths by Date of Death"" > ""Antigen Positive""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://covid19.ncdhhs.gov/dashboard,NC
-ND,North Dakota,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,https://www.twitter.com/NDDOH,,,,,"On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 without explanation.
+ND,North Dakota,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,https://www.twitter.com/NDDOH,,,,,"On February 9, 2021, North Dakota’s Confirmed cases dropped by 62 without explanation, from 93,610 to 93,548. Its combined confirmed and probable cases also dropped by 11.
+
+On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 without explanation.
 
 On December 30, 2020, North Dakota began reporting antigen in addition to PCR testing. From December 30, 2020 to January 3, 2021, we captured those numbers combined in our Total Tests (PCR) and Total Test Encounters (PCR) fields. On January 4, 2021, we began reporting these figures separately and revised our historical data to reflect the separate antigen and PCR numbers North Dakota provides.
 
@@ -2226,6 +2228,8 @@ note: click the little arrow at the bottom of the box under ""Total Muertes"" to
 RI,Rhode Island,,https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com/,https://www.twitter.com/rihealth,,,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,,"Rhode Island combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 The **Recovered** data point we report for Rhode Island reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
+
+On February 9, 2021, Rhode Island’s Total PCR tests (people) and Negative PCR tests (people) decreased by roughly 34,000 without explanation.
 
 On January 18, 2021, Rhode Island announced on their [COVID-19 dashboard](https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com/) that there will be no daily update due to the holiday, and that their data will next be updated on Tuesday, January 19, 2021.
 
