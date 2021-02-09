@@ -372,7 +372,7 @@ LA,"Louisiana reports probable deaths on a weekly basis.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total tests (PCR)** in the absence of better data.
 
-On February 7, 2021, Louisiana [noted](https://twitter.com/LADeptHealth/status/1358475247410905091?s=20) the following: ""Due to a technical issue, today’s reported case and test counts only include one day of data. Because of the daily removal of newly identified duplicates and out of state cases, the new case increase may not match the difference between today’s and yesterday's total case count.""
+On February 7, 2021, Louisiana [noted](https://twitter.com/LADeptHealth/status/1358475247410905091?s=20) on its Department of Health's twitter that ""due to a technical issue, today’s reported case and test counts only include one day of data. Because of the daily removal of newly identified duplicates and out of state cases, the new case increase may not match the difference between today’s and yesterday's total case count."" Subsequently, on February 8, 2021, Louisiana [noted](https://twitter.com/LADeptHealth/status/1358838000961134593?s=20) that case and test counts reported on February 8, 2021 included two days of data.
 
 On January 24, 2021, Louisiana [announced](https://twitter.com/ladepthealth/status/1353399882674016256?s=21) via the official Louisiana Department of Health twitter that the data reported on January 24, 2021 would only include lab reports from January 23, 2021. The remainder of the data that would normally have been reported on January 24, 2021 will be included in the data for January 25, 2021. 
 
@@ -632,7 +632,9 @@ On September 20, 2020, Nebraska started publishing **Total Tests (in specimens)*
 On November 22, 2020, Nebraska's **Recovered** metric dropped from 56,605 to 16,068 without explanation.",https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,https://gis.ne.gov/enterprise/rest/services/Covid19MapV5/MapServer/11/query?where=1%3D1&outFields=%2A&orderByFields=LAB_REPORT_DATE+desc&resultRecordCount=1&f=json,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd,@NEDHHS,http://dhhs.ne.gov/Pages/Coronavirus.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Nebraska,31
 NH,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
-On January 10, 2021, New Hampshire’s Total antigen tests (specimens) increased by 41167 without explanation.
+On February 8, 2021, New Hampshire's **Total antigen tests (specimens)** decreased by 102 without explanation.
+
+On January 10, 2021, New Hampshire’s **Total antigen tests (specimens)** increased by 41167 without explanation.
 
 On January 1, 2021, New Hampshire did not update their COVID-19 data by the time of our daily update.
 
@@ -652,6 +654,8 @@ As of May 25, 2020, New Hampshire reports PCR tests separately from antibody tes
 NJ,"The **Recovered** data point we report for New Jersey reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)**.
+
+On February 8, 2021, New Jersey [reported](https://twitter.com/GovMurphy/status/1358841345859870721) that today's data is artificially low due to electronic lab reporting issues. Data reported on February 9, 2021 is expected to correct the backlog.
 
 On January 15, 2021, New Jersey’s Probable cases decreased from 59,881 to 31,717 on their [data dashboard](https://covid19.nj.gov/#live-updates) without explanation. We believe this decrease may have been a mistake and sourced this data point from the [underlying data layer](https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/DailyCaseCounts/Feat[…]27%2C+%27onStatisticField%27%3A+%27TOTAL_AG_CASES%27%7D%5D) (today's value is 60,791) in order to avoid the decrease.
 
@@ -1026,7 +1030,9 @@ On June 18, 2020, Washington revised its **Total PCR tests (people)** downward. 
 On April 18, 2020, Washington state removed 190 **confirmed cases** that were discovered to be out-of-state residents tested in Washington laboratories. 
 
 Between March 31 and April 15, 2020, Washington state did not report **Negative PCR tests (people)**. ",https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://coronavirus.wa.gov/what-you-need-know/covid-19-risk-assessment-dashboard,https://coronavirus.wa.gov/what-you-need-know/covid-19-risk-assessment-dashboard,https://coronavirus.wa.gov/what-you-need-know/covid-19-risk-assessment-dashboard,,@WADeptHealth,https://www.doh.wa.gov/Emergencies/Coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Positives + Negatives,false,Washington,53
-WI,"On February 1, 2021, Wisconsin’s Total PCR tests (test encounters) decreased by roughly 17k without explanation.
+WI,"On February 8, 2021, Wisconsin's Total PCR tests (test encounters) decreased by roughly 13,000 without explanation.
+
+On February 1, 2021, Wisconsin’s Total PCR tests (test encounters) decreased by roughly 17,000  without explanation.
 
 On January 9, 2021, Wisconsin’s **Recovered** metric decreased by approximately 20,000, however on their [official twitter](https://twitter.com/DHSWI/status/1348020141674487808) Wisconsin indicated a problem with this metric. The metric was updated, and then patched in our data, later on January 9, 2021.
 
