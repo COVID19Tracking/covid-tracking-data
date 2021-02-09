@@ -129,6 +129,12 @@ const fastcsv = require('fast-csv');
           allOutput[facilityName] = rowData
         }
         lastProcessedFacility = facilityName
+
+        // NV now requires us to explicitly deselect "Select all" before we select the next facility
+        if (facilityName === "Select all" + "-" + facilityType) {
+          await rowElem.click()
+          await page.waitForTimeout(1000)
+        }
       }
       // now we're out of facilities. on the next pass through the loop, we'll have more to process because the click()
       // on the bottom one automatically scrolled more facilities into view.
