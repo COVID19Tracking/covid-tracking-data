@@ -1563,11 +1563,11 @@ NC other > link ""COVID-19 Patients Presumed to be Recovered"" > ""Patients Pres
 
 note: if this metric does not update, leave the previous value in the cell
 ","NC dash > link ""Cases"" > graph ""Daily Cases"" > select >  ""Deaths by Date of Death"" > ""Total Deaths""","NC dash > link ""Cases"" > graph ""Daily  Cases"" > radio buttons ""select graph view"" > select "" Deaths by Date of Death"" > ""Molecular (PCR) Positive""","NC dash > link ""Cases"" > graph ""Daily  Cases"" > radio buttons ""select graph view"" > select "" Deaths by Date of Death"" > ""Antigen Positive""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://covid19.ncdhhs.gov/dashboard,NC
-ND,North Dakota,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,https://www.twitter.com/NDDOH,,,,,"On February 10, 2021, North Dakota's Confirmed cases decreased by 32 without explanation.
+ND,North Dakota,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,https://www.twitter.com/NDDOH,,,,,"On February 10, 2021, North Dakota's Confirmed cases decreased by 32 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction).
 
-On February 9, 2021, North Dakota’s Confirmed cases dropped by 62 without explanation, from 93,610 to 93,548. Its combined confirmed and probable cases also dropped by 11.
+On February 9, 2021, North Dakota’s Confirmed cases dropped by 62 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction), from 93,610 to 93,548. Additionally, their Cases (confirmed + probable) dropped by 11.
 
-On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 without explanation.
+On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction). 
 
 On December 30, 2020, North Dakota began reporting antigen in addition to PCR testing. From December 30, 2020 to January 3, 2021, we captured those numbers combined in our Total Tests (PCR) and Total Test Encounters (PCR) fields. On January 4, 2021, we began reporting these figures separately and revised our historical data to reflect the separate antigen and PCR numbers North Dakota provides.
 
@@ -2818,7 +2818,7 @@ Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a perc
 
 Negatives reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
-On February 9, 2021, Wyoming’s **Total PCR tests (specimens)** fell from 704,836 to 595,970 with no explanation. We carried the previous day’s number.
+On February 9, 2021, Wyoming’s Total PCR tests (specimens) fell from 704,836 to 595,970. We carried the previous day’s number as we believed this may have been an error. On February 10, 2021, we learned that the decrease was ""Due to recent changes in reporting by commercial laboratories, some test results were being counted twice. Testing numbers have been corrected to reflect these changes therefore a decrease in the testing numbers will be observed for Non-WPHL labs. That decrease is attributed to the removal of duplicate tests being reported"". As a result of this new information, we are backfilling our Total PCR tests (specimens) to reflect this new information and ensure that our data aligns as closely as possible with Wyomings.
 
 On February 7, 2021, Wyoming’s **Confirmed cases** decreased by 36 and **Recovered** decreased by 2 with no explanation.
 
