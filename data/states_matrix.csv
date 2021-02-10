@@ -1563,7 +1563,9 @@ NC other > link ""COVID-19 Patients Presumed to be Recovered"" > ""Patients Pres
 
 note: if this metric does not update, leave the previous value in the cell
 ","NC dash > link ""Cases"" > graph ""Daily Cases"" > select >  ""Deaths by Date of Death"" > ""Total Deaths""","NC dash > link ""Cases"" > graph ""Daily  Cases"" > radio buttons ""select graph view"" > select "" Deaths by Date of Death"" > ""Molecular (PCR) Positive""","NC dash > link ""Cases"" > graph ""Daily  Cases"" > radio buttons ""select graph view"" > select "" Deaths by Date of Death"" > ""Antigen Positive""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://covid19.ncdhhs.gov/dashboard,NC
-ND,North Dakota,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,https://www.twitter.com/NDDOH,,,,,"On February 9, 2021, North Dakota’s Confirmed cases dropped by 62 without explanation, from 93,610 to 93,548. Its combined confirmed and probable cases also dropped by 11.
+ND,North Dakota,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,https://www.twitter.com/NDDOH,,,,,"On February 10, 2021, North Dakota's Confirmed cases decreased by 32 without explanation.
+
+On February 9, 2021, North Dakota’s Confirmed cases dropped by 62 without explanation, from 93,610 to 93,548. Its combined confirmed and probable cases also dropped by 11.
 
 On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 without explanation.
 
@@ -2628,6 +2630,8 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
+On February 9, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210210-123423.png) that the higher number of deaths was due to a “data processing backlog” from February 8, 2021 being cleared. Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 10, 2021.
+
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
 On February 3, 2021, Washington [reported](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210204-064039.png) that the “higher number of new deaths is due to a data processing backlog cleared today from February 2, 2021”. Because Washington’s data is on a one day lag in our timeseries, this will affect our data for February 4, 2021.
@@ -2668,7 +2672,7 @@ On December 18, 2020, Washington revised down their total test numbers from 3,43
 
 On December 16, 2020, Washington added all **Probable cases** reported since June, 2020 to their data for December 16, 2020. Because Washington’s data is on a one day lag in our data, this affects our data for December 17, 2020. As of December 17, 2020, we are no longer able to report Washington’s Deaths (confirmed). On December 18, 2020, we backfilled the timeseries of **Probable Cases**, **Confirmed Cases**, and **Cases (Confirmed and Probable)** from data provided on Washington’s dashboard on December 17, 2020. “Since the data is by date of specimen collection, there is missing data for recent days.
 
-On December 11, 2020, Washington **Deaths** decreased from 3016 to 2850 with no explanation.
+On December 11, 2020, Washington **Deaths** decreased from 3016 to 2850. Washington [noted](https://covidtracking.com/screenshots/WA/WA-20201211-000612.png) that ""As of December 10, 2020, death counts on our dashboard reflect those in our official vital records database (the Washington Health and Life Events System) where the cause of death was confirmed or suspected to have been COVID-19. If COVID-19 is later ruled out as the official cause of death, we will remove these deaths from our dashboard. We no longer report preliminary death information recorded in other systems."" 
 
 On December 5, 2020, Washington announced that up to 90 of the deaths reported “yesterday” were incorrectly classified and were not due to COVID-19. Because we capture Washington’s data on a one day lag due to late update times, this will affect our data for December 5, 2020.
 
