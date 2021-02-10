@@ -574,7 +574,9 @@ On September 25, 2020, North Carolina started reporting probable cases which cau
 On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press-releases/ncdhhs-corrects-covid-19-testing-totals-after-identifying-labcorp-reporting) a major correction in its **Total PCR tests (specimens)**, resulting in a decrease of more than 220,000 reported tests. 
 
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,posNeg,posNeg,Only positives,false,North Carolina,37
-ND,"On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 without explanation.
+ND,"On February 9, 2021, North Dakota’s Confirmed cases dropped by 62 without explanation, from 93,610 to 93,548. Its combined confirmed and probable cases also dropped by 11.
+
+On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 without explanation.
 
 On December 30, 2020, North Dakota began reporting antigen in addition to PCR testing. From December 30, 2020 to January 3, 2021, we captured those numbers combined in our Total Tests (PCR) and Total Test Encounters (PCR) fields. On January 4, 2021, we began reporting these figures separately and revised our historical data to reflect the separate antigen and PCR numbers North Dakota provides.
 
@@ -757,7 +759,9 @@ On November 4, 2020, Oregon stopped reporting current hospitalization data on th
 On October 9, 2020, Oregon [announced}(https://www.oregon.gov/oha/ERD/Pages/OHA-changes-recovered-cases-reporting.aspx) they were removing the **Recovered** metric from their reporting and working on a revised definition of recovered. Due to this we cannot continue reporting **Recovered**, however the time series for the metric is available in the historical data, and our data downloads. 
 
 As of June 6, 2020, Oregon only releases updated data for **Cases (confirmed plus probable)**, **Deaths (confirmed and probable)**, and **Negative PCR tests (people)** metrics on the weekend.",https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19TestingandOutcomesbyCounty/OregonsCOVID-19TestingandOutcomesbyCounty?:display_count=y&:toolbar=n&:origin=viz_share_link&:showShareOptions=false,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/HospitalCapacity,,@OHAOregon,https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/DISEASESAZ/Pages/emerging-respiratory-infections.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Oregon,41
-PA,"As of February 2, 2021, Pennsylvania's totalTestResults field is drawn from the 'totalTestEncountersViral' field instead of being calculated from positive+negative.
+PA,"On February 9, 2021, Pennsylvania [announced](https://www.media.pa.gov/pages/health-details.aspx?newsid=1286) via a press release that case data for February 8, 2021 would be low as a result of “technical maintenance to the data server on Sunday”. Data for February 9, 2021, will include cases from “catch-up reporting because of lengthy server downtime”. Additionally, they noted that death data is sourced from a different server and was not affected.
+
+As of February 2, 2021, Pennsylvania's totalTestResults field is drawn from the 'totalTestEncountersViral' field instead of being calculated from positive+negative.
 
 On February 1, 2021, we backfilled the full time series of **Total Test Encounters (PCR)**, from data now available on [Open Data Pennsylvania](https://data.pa.gov/Health/COVID-19-PCR-Test-Counts-March-2020-Current-Statew/r6ti-va88), and cleared our **Total Tests (PCR)** column. Going forward, we will enter PA's ""Total PCR Tests"" into Our **Total Test Encounters (PCR)** column rather than **Total Tests (PCR)**, as the state's site describes the data as encounters.
 
@@ -790,6 +794,8 @@ On April 22, 2020, Puerto Rico's data changed due to deduplication. This resulte
 RI,"Rhode Island combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 The **Recovered** data point we report for Rhode Island reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
+
+On February 9, 2021, Rhode Island’s Total PCR tests (people) and Negative PCR tests (people) decreased by roughly 34,000 without explanation.
 
 On January 18, 2021, Rhode Island announced on their [COVID-19 dashboard](https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com/) that there will be no daily update due to the holiday, and that their data will next be updated on Tuesday, January 19, 2021.
 
@@ -1060,7 +1066,9 @@ Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a perc
 
 Negatives reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
-On February 7, 2021, Wyoming’s *Confirmed cases” decreased by 36 and **Recovered** decreased by 2 with no explanation.
+On February 9, 2021, Wyoming’s **Total PCR tests (specimens)** fell from 704,836 to 595,970 with no explanation. We carried the previous day’s number.
+
+On February 7, 2021, Wyoming’s **Confirmed cases** decreased by 36 and **Recovered** decreased by 2 with no explanation.
 
 On February 02, 2021, Wyoming’s Total PCR tests (specimens) decreased by roughly 4,600 and their Total PCR tests (people) decreased by approximately 1,500 without explanation. As a result, Negative PCR tests (people), which is calculated as Total PCR tests (people) minus Confirmed cases, decreased by roughly 1,600.
 
