@@ -1,12 +1,10 @@
 date_collected,state,County-alias,City or State-alias,Facility-value,Type-value,blank,blank,blank,blank,Last Onset Date-value,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,SUM(Number of Cases within 14 days)-alias
-20210209,KS,Shawnee,Topeka,Aldersgate Village,Long Term Care Facility,,,,,2021-01-27,,,,,,,,,,,,,,,,,,,,,,,,5
-20210209,KS,Marion,Goessel,Bethesda Nursing Home,Long Term Care Facility,,,,,2021-01-28,,,,,,,,,,,,,,,,,,,,,,,,9
-20210209,KS,Riley,Manhattan,Big Lakes Developmental Center,Long Term Care Facility,,,,,2021-01-21,,,,,,,,,,,,,,,,,,,,,,,,8
-20210209,KS,Johnson,Shawnee,Brookdale Shawnee - January 2021,Long Term Care Facility,,,,,2021-01-30,,,,,,,,,,,,,,,,,,,,,,,,9
-20210209,KS,Lyon,Emporia,Emporia Presbyterian Manor     -- November,Long Term Care Facility,,,,,2021-01-29,,,,,,,,,,,,,,,,,,,,,,,,11
-20210209,KS,Sedgwick,Wichita,Life Care Center of Wichita - November 2020,Long Term Care Facility,,,,,2021-01-29,,,,,,,,,,,,,,,,,,,,,,,,15
-20210209,KS,Johnson,Olathe,Nottingham Health and Rehab - January 2021,Long Term Care Facility,,,,,2021-01-27,,,,,,,,,,,,,,,,,,,,,,,,5
-20210209,KS,Saline,Salina,Salina Presbyterian Manor,Long Term Care Facility,,,,,2021-01-27,,,,,,,,,,,,,,,,,,,,,,,,9
-20210209,KS,Rice,Little River,Sandstone Heights Nursing Home,Long Term Care Facility,,,,,2021-01-28,,,,,,,,,,,,,,,,,,,,,,,,9
-20210209,KS,Dickinson,Abilene,Village Manor  Memorial Health System,Long Term Care Facility,,,,,2021-01-25,,,,,,,,,,,,,,,,,,,,,,,,6
+20210210,KS,Lyon,Emporia,Emporia Presbyterian Manor     -- November,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,18
+20210210,KS,Johnson,Lenexa,Lakeview Village - January 2021,Long Term Care Facility,,,,,2021-01-30,,,,,,,,,,,,,,,,,,,,,,,,6
+20210210,KS,Coffey,Burlington,Life Care Center of Burlington,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,8
+20210210,KS,Sedgwick,Wichita,Life Care Center of Wichita - November 2020,Long Term Care Facility,,,,,2021-02-03,,,,,,,,,,,,,,,,,,,,,,,,6
+20210210,KS,Johnson,Overland Park,Park Meadows - February 2021,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,7
+20210210,KS,Rice,Little River,Sandstone Heights Nursing Home,Long Term Care Facility,,,,,2021-02-03,,,,,,,,,,,,,,,,,,,,,,,,5
+20210210,KS,Pottawatomie,Onaga,St. Mary's Manor,Long Term Care Facility,,,,,2021-02-08,,,,,,,,,,,,,,,,,,,,,,,,18
+20210210,KS,Sedgwick,Wichita,Via Christi Village Broadmoor - January 2021,Long Term Care Facility,,,,,2021-02-01,,,,,,,,,,,,,,,,,,,,,,,,8
 
