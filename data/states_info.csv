@@ -135,6 +135,8 @@ CO,"The **Recovered** data point we report for Colorado reflects the number of C
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On February 10, 2021, Colorado noted that a temporary technical issue occurring on February 9, 2021, caused their dashboard to show incomplete case counts, while testing and percent positivity data did not update. As a result, we were unable to update testing data on February 10, 2021. A full update for all affected metrics is anticipated on February 11, 2021.
+
 On January 26, 2021, Colorado [reported](https://covid19.colorado.gov/press-release/cdphe-adding-past-dated-cases-into-electronic-laboratory-reporting-system) that it would be adding over 3,000 past-dated cases from last year, particularly November and December 2020, reported by email and fax to its cumulative figures. This will cause larger than normal case counts over the next few days. We urge caution when using data from this period.
 
 As of December 11, 2020, we are switching our deaths source for Colorado from deaths due to COVID to deaths among cases because of a processing lag. On September 1, 2020, there was only a 97 difference between the two figures: 1946 deaths among cases, vs. 1849 deaths due to COVID. On December 11, 2020, there is now a 759 difference—3759 deaths among cases, as opposed to 3005 deaths due to COVID. This means 20% of deaths among cases do not have death certificate data, vs. 5% in September, indicating a lag. Previously, on July 1, 2020, we had revised our historical data to reflect the death-certificate metric instead of the deaths-among-cases metric to comply with federal standards from the National Center for Health Statistics. We are also capturing a confirmed/probable breakdown from May 15, 2020 onward, which we did not used to capture since it was not provided for due to COVID.
@@ -374,6 +376,8 @@ LA,"Louisiana reports probable deaths on a weekly basis.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total tests (PCR)** in the absence of better data.
 
+On February 10, 2021, Louisiana [announced](https://twitter.com/LADeptHealth/status/1359562769205522436?s=20) that due to a processing error, the day's case and test counts are incomplete.
+
 On February 7, 2021, Louisiana [noted](https://twitter.com/LADeptHealth/status/1358475247410905091?s=20) on its Department of Health's twitter that ""due to a technical issue, today’s reported case and test counts only include one day of data. Because of the daily removal of newly identified duplicates and out of state cases, the new case increase may not match the difference between today’s and yesterday's total case count."" Subsequently, on February 8, 2021, Louisiana [noted](https://twitter.com/LADeptHealth/status/1358838000961134593?s=20) that case and test counts reported on February 8, 2021 included two days of data.
 
 On January 24, 2021, Louisiana [announced](https://twitter.com/ladepthealth/status/1353399882674016256?s=21) via the official Louisiana Department of Health twitter that the data reported on January 24, 2021 would only include lab reports from January 23, 2021. The remainder of the data that would normally have been reported on January 24, 2021 will be included in the data for January 25, 2021. 
@@ -576,9 +580,11 @@ On September 25, 2020, North Carolina started reporting probable cases which cau
 On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press-releases/ncdhhs-corrects-covid-19-testing-totals-after-identifying-labcorp-reporting) a major correction in its **Total PCR tests (specimens)**, resulting in a decrease of more than 220,000 reported tests. 
 
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,posNeg,posNeg,Only positives,false,North Carolina,37
-ND,"On February 9, 2021, North Dakota’s Confirmed cases dropped by 62 without explanation, from 93,610 to 93,548. Its combined confirmed and probable cases also dropped by 11.
+ND,"On February 10, 2021, North Dakota's Confirmed cases decreased by 32 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction).
 
-On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 without explanation.
+On February 9, 2021, North Dakota’s Confirmed cases dropped by 62 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction), from 93,610 to 93,548. Additionally, their Cases (confirmed + probable) dropped by 11.
+
+On February 6, 2021, North Dakota’s Confirmed cases decreased by 36 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction). 
 
 On December 30, 2020, North Dakota began reporting antigen in addition to PCR testing. From December 30, 2020 to January 3, 2021, we captured those numbers combined in our Total Tests (PCR) and Total Test Encounters (PCR) fields. On January 4, 2021, we began reporting these figures separately and revised our historical data to reflect the separate antigen and PCR numbers North Dakota provides.
 
@@ -610,7 +616,7 @@ As of September 11, 2020, North Dakota’s total test results reflect total test
 
 On September 9, 2020, North Dakota began reporting “Susceptible Encounters” on its dashboard, which are defined as test encounters excluding those who have tested positive after the first time. We have begun recording the value in our **Total PCR tests (test encounters)** field.
 
-On August 19, 2020, North Dakota launched a new dashboard with a number of new data points, including race and ethnicity data and ICU data. ",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,North Dakota,38
+On August 19, 2020, North Dakota launched a new dashboard with a number of new data points, including race and ethnicity data and ICU data. ",https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,,,,@NDDOH,https://www.health.nd.gov/diseases-conditions/coronavirus,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),@NDDOH,false,North Dakota,38
 NE,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
 
 Nebraska’s **Recovered** numbers occasionally decrease without explanation.
@@ -973,6 +979,8 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
+On February 9, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210210-123423.png) that the higher number of deaths was due to a “data processing backlog” from February 8, 2021 being cleared. Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 10, 2021.
+
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
 On February 3, 2021, Washington [reported](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210204-064039.png) that the “higher number of new deaths is due to a data processing backlog cleared today from February 2, 2021”. Because Washington’s data is on a one day lag in our timeseries, this will affect our data for February 4, 2021.
@@ -1013,7 +1021,7 @@ On December 18, 2020, Washington revised down their total test numbers from 3,43
 
 On December 16, 2020, Washington added all **Probable cases** reported since June, 2020 to their data for December 16, 2020. Because Washington’s data is on a one day lag in our data, this affects our data for December 17, 2020. As of December 17, 2020, we are no longer able to report Washington’s Deaths (confirmed). On December 18, 2020, we backfilled the timeseries of **Probable Cases**, **Confirmed Cases**, and **Cases (Confirmed and Probable)** from data provided on Washington’s dashboard on December 17, 2020. “Since the data is by date of specimen collection, there is missing data for recent days.
 
-On December 11, 2020, Washington **Deaths** decreased from 3016 to 2850 with no explanation.
+On December 11, 2020, Washington **Deaths** decreased from 3016 to 2850. Washington [noted](https://covidtracking.com/screenshots/WA/WA-20201211-000612.png) that ""As of December 10, 2020, death counts on our dashboard reflect those in our official vital records database (the Washington Health and Life Events System) where the cause of death was confirmed or suspected to have been COVID-19. If COVID-19 is later ruled out as the official cause of death, we will remove these deaths from our dashboard. We no longer report preliminary death information recorded in other systems."" 
 
 On December 5, 2020, Washington announced that up to 90 of the deaths reported “yesterday” were incorrectly classified and were not due to COVID-19. Because we capture Washington’s data on a one day lag due to late update times, this will affect our data for December 5, 2020.
 
@@ -1068,7 +1076,7 @@ Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a perc
 
 Negatives reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
-On February 9, 2021, Wyoming’s **Total PCR tests (specimens)** fell from 704,836 to 595,970 with no explanation. We carried the previous day’s number.
+On February 9, 2021, Wyoming’s Total PCR tests (specimens) fell from 704,836 to 595,970. We carried the previous day’s number as we believed this may have been an error. On February 10, 2021, we learned that the decrease was ""Due to recent changes in reporting by commercial laboratories, some test results were being counted twice. Testing numbers have been corrected to reflect these changes therefore a decrease in the testing numbers will be observed for Non-WPHL labs. That decrease is attributed to the removal of duplicate tests being reported"". As a result of this new information, we are backfilling our Total PCR tests (specimens) to reflect this new information and ensure that our data aligns as closely as possible with Wyomings.
 
 On February 7, 2021, Wyoming’s **Confirmed cases** decreased by 36 and **Recovered** decreased by 2 with no explanation.
 
