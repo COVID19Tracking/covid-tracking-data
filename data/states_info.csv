@@ -13,7 +13,7 @@ On December 25, 2020, Alaska announced on their dashboard that there would be no
 
 On November 17, 2020, Alaska [announced](https://alaska-coronavirus-vaccine-outreach-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
 
-On November 16, 2020 we updated the **Total cases** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
+On November 16, 2020 we updated the **Cases (confirmed plus probable)** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
 
 On November 16, 2020 we added **Cumulative Hospitalized** (which includes both residents and non-residents), although the value does not reflect current hospitalizations.
 
@@ -32,7 +32,7 @@ On February 6, 2021, Alabama's **Total antibody tests (people)** decreased from 
 
 On February 5, 2021, Alabama announced that they were experiencing a technical issue with their testing data. As a result, we were unable to update their Total antibody tests (people), Total PCR tests (people), and Negative PCR tests (people), which is calculated as Total PCR tests (people) minus Confirmed cases.
 
-On February 02, 2021, Alabama reported a large increase in Total antibody tests (people) of approximately 33,000 without explanation. Additionally, Total PCR tests (people) decreased by approximately 11,000 without explanation, resulting in a decrease in Negative PCR tests (people).
+On February 02, 2021, Alabama reported a large increase in Total antibody tests (people) of approximately 33,000 without explanation. Additionally, **Total PCR tests (people)** decreased by approximately 11,000 without explanation, resulting in a decrease in Negative PCR tests (people).
 
 On January 30, 2021, Alabama noted on their data dashboard that due to maintenance and upgrades, the Alabama NEDSS Base System did not run on the evening of January 29, 2021, and as as result there would be no update to their dashboard on January 30, 2021. We were only able to update their Currently hospitalized and Ever hospitalized on January 30, 2021.
 
@@ -500,7 +500,7 @@ The number of unique people tested is available in our API as `totalTestsPeopleV
 On September 17, 2020, we switched Minnesota's specimens timeseries to **Total Test Encounters (PCR)** based on correspondence with the state, which revealed that their ""total approximate number of completed tests"" reflects individuals tested per day.",https://www.health.state.mn.us/diseases/coronavirus/situation.html,https://mn.gov/covid19/data/response-prep/response-capacity.jsp,,,,@mnhealth,https://www.health.state.mn.us/diseases/coronavirus/index.html,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Minnesota,27
 MO,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
-On November 21, 2020, Missouri’s **Total PCR Tests (People)** increased by less than **Positive Cases (PCR)**. As a result, **Negative (People or Cases)** saw a decline from the previous day since it is calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
+On November 21, 2020, Missouri’s **Total PCR Tests (People)** increased by less than **Confirmed cases**. As a result, **Negative (People or Cases)** saw a decline from the previous day since it is calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 On November 10, 2020, Missouri’s Total PCR tests (specimens), Negative PCR tests (specimens), Total PCR tests (people), Total antibody tests (specimens), Total antibody tests (people), Negative antibody tests (specimens), Total antigen tests (specimens), and Negative antigen tests (specimens) dropped without explanation.
 
@@ -669,7 +669,7 @@ On February 8, 2021, New Jersey [reported](https://twitter.com/GovMurphy/status/
 
 On January 15, 2021, New Jersey’s Probable cases decreased from 59,881 to 31,717 on their [data dashboard](https://covid19.nj.gov/#live-updates) without explanation. We believe this decrease may have been a mistake and sourced this data point from the [underlying data layer](https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/DailyCaseCounts/Feat[…]27%2C+%27onStatisticField%27%3A+%27TOTAL_AG_CASES%27%7D%5D) (today's value is 60,791) in order to avoid the decrease.
 
-On January 8, 2021 New Jersey’s Probable cases increased from 53,967 to 72,123 without explanation. This affected their Cases (confirmed + probable), which is calculated as Confirmed cases plus Probable cases in the absence of an explicit total case number. On January 9, 2021, their Probable cases decreased from 72,123 to 56,147. Because of this, we believe that the figure reported on January 8, 2021 was a mistake, and are correcting the number in our timeseries. 
+On January 8, 2021 New Jersey’s Probable cases increased from 53,967 to 72,123 without explanation. This affected their Cases (confirmed + probable), which is calculated as Confirmed cases plus Probable cases in the absence of an explicit total case number. On January 9, 2021, their Probable cases decreased from 72,123 to 56,147. Because of this, we believe that the figure reported on January 8, 2021 was a mistake, and have corrected the number in our timeseries. 
 
 On October 23, New Jersey's reported **Ever hospitalized** value increased dramatically from 24,517 to 37,222 with no explanation we could find: this was probably a one-time addition of backlogged data.
 
@@ -732,7 +732,7 @@ OK,"On February 3, 2020, the Oklahoma Department of Health [cautioned](https://t
 
 On January 10, 2021, Oklahoma [noted](https://oklahoma.gov/covid19/newsroom/2021/january/state-department-of-health-comments-on-spike-in-covid-19-case-nu.html) that the rise in COVID-19 cases was in part due to a “decrease in testing and a less consistent reporting schedule over the holidays”. We urge caution when interpreting their data from this time period, and encourage the use of 7 and 14-day averages as more reliable figures than individual numbers. 
 
-On December 27, 2020, we cleared Oklahoma's **Positive Cases (PCR)** field from October 19 onward. On September 8, 2020, Oklahoma [announced](https://oklahoma.gov/covid19/newsroom/2020/september/situation-update-covid-19-09082020.html) in a press release that it would transition to counting both confirmed and probable cases, instead of just confirmed cases. This change appears to have taken effect on October 19, 2020, when OK [stopped calling](https://oklahoma.gov/covid19/newsroom/2020/october/situation-update-covid-19-10192020.html) its cases ""confirmed positive cases"" in press releases, as it had before, switching the wording to ""cases."" 
+On December 27, 2020, we cleared Oklahoma's **Confirmed cases** field from October 19 onward. On September 8, 2020, Oklahoma [announced](https://oklahoma.gov/covid19/newsroom/2020/september/situation-update-covid-19-09082020.html) in a press release that it would transition to counting both confirmed and probable cases, instead of just confirmed cases. This change appears to have taken effect on October 19, 2020, when OK [stopped calling](https://oklahoma.gov/covid19/newsroom/2020/october/situation-update-covid-19-10192020.html) its cases ""confirmed positive cases"" in press releases, as it had before, switching the wording to ""cases."" 
 
 On December 22, 2020, Oklahoma noted via a [press release](https://oklahoma.gov/covid19/newsroom/2020/december/osdh-releases-covid-19-reporting-cadence-for-upcoming-holidays.html) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data for December 26, 2020 would include only the data that would have been reported on December 25, 2020, and the data for December 27, 2020 would include data for both December 26, 2020 and December 27, 2020. As a result of their executive order reports being on a one day lag, we were able to report all metrics except for Confirmed cases, Cases (confirmed + probable), Ever hospitalized, Recovered, and Deaths (confirmed + probable) on December 25, 2020. We were only able to update Confirmed cases, Cases (confirmed + probable), Ever hospitalized, Recovered, and Deaths (confirmed + probable) on December 26, 2020. They also noted that this change in reporting schedule may cause some data to be “artificially inflated”, and as with all data from this period, we urge caution is using these figures.
 
@@ -809,7 +809,7 @@ On January 18, 2021, Rhode Island announced on their [COVID-19 dashboard](https:
 
 On December 31, 2020, Rhode Island announced on their [COVID-19 dashboard](https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com) that their data would not be updated on December 31, 2020 through January 3, 2021. Their data will next be updated on January 4, 2021.
 
-On December 26, 2020, we cleared Rhode Island's **Positive Cases (PCR)** field as we learned from outreach it includes antigen tests in the figure. The full history remains available in the **Positive** field.
+On December 26, 2020, we cleared Rhode Island's **Confirmed cases** field as we learned from outreach it includes antigen tests in the figure. The full history remains available in the **Positive** field.
 
 On December 24, 2020, Rhode Island announced on their COVID-19 dashboard that their data would not be updated on December 24, 2020 through December 27, 2020. Their data will next be updated on December 28, 2020.
 
@@ -1076,7 +1076,7 @@ Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a perc
 
 Negatives reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
-On February 9, 2021, Wyoming’s Total PCR tests (specimens) fell from 704,836 to 595,970. We carried the previous day’s number as we believed this may have been an error. On February 10, 2021, we learned that the decrease was ""Due to recent changes in reporting by commercial laboratories, some test results were being counted twice. Testing numbers have been corrected to reflect these changes therefore a decrease in the testing numbers will be observed for Non-WPHL labs. That decrease is attributed to the removal of duplicate tests being reported"". As a result of this new information, we are backfilling our Total PCR tests (specimens) to reflect this new information and ensure that our data aligns as closely as possible with Wyomings.
+On February 9, 2021, Wyoming’s Total PCR tests (specimens) fell from 704,836 to 595,970. We carried the previous day’s number as we believed this may have been an error. On February 10, 2021, we learned that the decrease was ""Due to recent changes in reporting by commercial laboratories, some test results were being counted twice. Testing numbers have been corrected to reflect these changes therefore a decrease in the testing numbers will be observed for Non-WPHL labs. That decrease is attributed to the removal of duplicate tests being reported"". As a result of this new information, we are backfilling our Total PCR tests (specimens) to reflect this new information and ensure that our data aligns as closely as possible with Wyoming's.
 
 On February 7, 2021, Wyoming’s **Confirmed cases** decreased by 36 and **Recovered** decreased by 2 with no explanation.
 
