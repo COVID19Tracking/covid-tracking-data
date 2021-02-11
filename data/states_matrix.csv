@@ -828,7 +828,7 @@ above date / above time. Total Antigen Tests (People) – . Positive Antigen Tes
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People"". Positive Cases (People, confirmed + probable) – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases"". Negative (People or Cases) – updates: Monday, Wednesday, Friday
-KS dash > tab ""KS COVID-19 Overview"" > ""Negative Individuals"". Pending – . Currently 
+KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests"". Pending – . Currently 
 Hospitalized – updates: Monday, Wednesday, Friday
 KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted"". Cumulative Hospitalized – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
@@ -849,7 +849,7 @@ above date / above time",,,,,,,,,,,,,,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests""",,,,,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases""","updates: Monday, Wednesday, Friday
-KS dash > tab ""KS COVID-19 Overview"" > ""Negative Individuals""",,"updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests""",,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
 ","updates: Monday, Wednesday, Friday
@@ -1429,6 +1429,8 @@ MS,Mississippi,,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",https://www
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+From May 21, 2020 through May 26, 2020, we briefly captured Mississippi's Positive antibody tests (specimens) through state press conferences. As of May 26, 2020, Mississippi no longer reports this metric. On February 11, 2021, we cleared Mississippi's Positive antibody tests (specimens) timeseries to ensure that our data is as accurate and consistent as possible.
+
 On October 25, 2020, Mississippi announced that COVID-19 data for October 24, 2020 and October 25, 2020 would be published on Monday. As a result, Mississippi did not update on October 24, 2020 and October 25, 2020.
 
 On September 15, 2020, Mississippi resumed reporting current hospitalizations, ICU, and ventilations on the source we have historically used for this metric. We are working to backfill these data points in our historical data.
@@ -1452,9 +1454,7 @@ note: if this metric does not update, leave the previous value in the cell
 MS primary > title ""COVID-19 Testing"" > table > column ""Antibody"" > row ""Total tests for COVID-19 statewide""
 
 note: if this metric does not update, leave the previous value in the cell
-","updates: never
-
-note: this was found by our reporting team. Leave as is until we have a new source.",,,"updates: weekly
+",,,,"updates: weekly
 MS primary > title ""COVID-19 Testing"" > table > column ""PCR"" > row ""Total tests for COVID-19 statewide""
 
 note: if this metric does not update, leave the previous value in the cell
@@ -2626,7 +2626,7 @@ WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"calculated:
 VT dash > {Currently Hospitalized + Hospitalized Under Investigation}
 
 note: be careful not to use ""Currently in ICU"" instead of ""Hospitalized Under Investigation""",,"VT dash > ""Hospitalized in ICU""",,,,,"VT dash > ""Recovered""","VT dash > ""Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://experience.arcgis.com/experience/85f43bd849e743cb957993a545d17170,VT
-WA,Washington,https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,https://www.twitter.com/WADeptHealth,,,https://coronavirus.wa.gov/what-you-need-know/covid-19-risk-assessment-dashboard,,"Washington’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
+WA,Washington,https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,https://www.twitter.com/WADeptHealth,,,https://app.powerbigov.us/view?r=eyJrIjoiNGRkNTMzMWQtMTMyOC00NmRiLThiZDEtMzQ2NzdiMzkxOWVhIiwidCI6IjExZDBlMjE3LTI2NGUtNDAwYS04YmEwLTU3ZGNjMTI3ZDcyZCJ9,,"Washington’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
 
 Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
 
