@@ -21,7 +21,7 @@ On December 25, 2020, Alaska announced on their dashboard that there would be no
 
 On November 17, 2020, Alaska [announced](https://alaska-coronavirus-vaccine-outreach-alaska-dhss.hub.arcgis.com/datasets/cases-frequently-asked-questions) that “As of 11/17/2020, the cases dashboard will not be showing data on recovered and active cases due to the increasing State case load”. Due to this we cannot continue reporting **Recovered**, however the time series for this metric is available in the historical data, and our data downloads. 
 
-On November 16, 2020 we updated the **Total cases** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
+On November 16, 2020 we updated the **Cases (confirmed plus probable)** field to include only residents. We also deleted the time series for **Confirmed cases** because Alaska is lumping PCR and antigen testing for their case definition.
 
 On November 16, 2020 we added **Cumulative Hospitalized** (which includes both residents and non-residents), although the value does not reflect current hospitalizations.
 
@@ -52,7 +52,7 @@ On February 6, 2021, Alabama's **Total antibody tests (people)** decreased from 
 
 On February 5, 2021, Alabama announced that they were experiencing a technical issue with their testing data. As a result, we were unable to update their Total antibody tests (people), Total PCR tests (people), and Negative PCR tests (people), which is calculated as Total PCR tests (people) minus Confirmed cases.
 
-On February 02, 2021, Alabama reported a large increase in Total antibody tests (people) of approximately 33,000 without explanation. Additionally, Total PCR tests (people) decreased by approximately 11,000 without explanation, resulting in a decrease in Negative PCR tests (people).
+On February 02, 2021, Alabama reported a large increase in Total antibody tests (people) of approximately 33,000 without explanation. Additionally, **Total PCR tests (people)** decreased by approximately 11,000 without explanation, resulting in a decrease in Negative PCR tests (people).
 
 On January 30, 2021, Alabama noted on their data dashboard that due to maintenance and upgrades, the Alabama NEDSS Base System did not run on the evening of January 29, 2021, and as as result there would be no update to their dashboard on January 30, 2021. We were only able to update their Currently hospitalized and Ever hospitalized on January 30, 2021.
 
@@ -1737,7 +1737,7 @@ On February 8, 2021, New Jersey [reported](https://twitter.com/GovMurphy/status/
 
 On January 15, 2021, New Jersey’s Probable cases decreased from 59,881 to 31,717 on their [data dashboard](https://covid19.nj.gov/#live-updates) without explanation. We believe this decrease may have been a mistake and sourced this data point from the [underlying data layer](https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/DailyCaseCounts/Feat[…]27%2C+%27onStatisticField%27%3A+%27TOTAL_AG_CASES%27%7D%5D) (today's value is 60,791) in order to avoid the decrease.
 
-On January 8, 2021 New Jersey’s Probable cases increased from 53,967 to 72,123 without explanation. This affected their Cases (confirmed + probable), which is calculated as Confirmed cases plus Probable cases in the absence of an explicit total case number. On January 9, 2021, their Probable cases decreased from 72,123 to 56,147. Because of this, we believe that the figure reported on January 8, 2021 was a mistake, and are correcting the number in our timeseries. 
+On January 8, 2021 New Jersey’s Probable cases increased from 53,967 to 72,123 without explanation. This affected their Cases (confirmed + probable), which is calculated as Confirmed cases plus Probable cases in the absence of an explicit total case number. On January 9, 2021, their Probable cases decreased from 72,123 to 56,147. Because of this, we believe that the figure reported on January 8, 2021 was a mistake, and have corrected the number in our timeseries. 
 
 On October 23, New Jersey's reported **Ever hospitalized** value increased dramatically from 24,517 to 37,222 with no explanation we could find: this was probably a one-time addition of backlogged data.
 
