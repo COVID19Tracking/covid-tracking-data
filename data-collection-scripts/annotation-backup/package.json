@@ -1,0 +1,16 @@
+{
+  "name": "annotation-backup",
+  "version": "1.0.0",
+  "description": "Backup annotations",
+  "main": "annotation_backup.js",
+  "scripts": {
+    "build": "node annotation_backup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "airtable": "^0.10.1",
+    "fast-csv": "^4.3.6"
+  }
+}

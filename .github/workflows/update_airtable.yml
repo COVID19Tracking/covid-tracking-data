@@ -1,0 +1,42 @@
+name: Update Airtable files
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+
+defaults:
+  run:
+     working-directory: data-collection-scripts/annotation-backup
+
+jobs:
+  scrape:
+      runs-on: ubuntu-20.04
+      steps:
+        - uses: actions/checkout@v2
+        - uses: actions/cache@v2
+          with:
+            path: ~/.npm
+            key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+            restore-keys: |
+              ${{ runner.os }}-node-
+        - name: Use Node.js
+          uses: actions/setup-node@v1
+          with:
+            node-version: '14.x'
+        - name: Install dependencies
+          run: npm install
+        - name: Run scraper
+          env: # Or as an environment variable
+            AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          run: |
+            node annotation_backup.js > ../../data/annotations.csv
+        - name: Commit
+          if: github.ref == 'refs/heads/master'
+          uses: EndBug/add-and-commit@v5
+          with:
+            message: Updating scraped LTC data
+            add: data/annotations.csv
+            author_name: GitHub Actions
+            author_email: actions@github.com
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
