@@ -1932,6 +1932,8 @@ note: search for ""intubated"" in the ""Refine > keyword"" search box on the lef
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values","NY dash > click link ""Click for Fatality Data"" >  table ""Fatalities by County"" > column ""Place of Fatality"" > row ""Grand Total""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,NY
 OH,Ohio,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,,https://www.twitter.com/OHdeptofhealth,,,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,,"Ohio continually updates its **Currently hospitalized / Now hospitalized** data which can cause slight differences between their historic data and ours. 
 
+On February 10, 2021, Ohio [announced](https://odh.ohio.gov/wps/portal/gov/odh/media-center/odh-news-releases/odh-news-release-02-10-20) that up to 4,000 COVID-19 deaths were underreported in the state’s reporting system and on their COVID-29 dashboard. These deaths will be added to their counts over the week on February 11, 2021. As a result, new deaths will be substantially higher than normal throughout this period. We urge caution when interpreting data from this period. Our data quality team will continue to investigate how best to handle the addition of these death.
+
 On January 6, 2021, we switched Ohio's `totalTestResults` to draw from `totalTestsViral` instead of by calculating from positive+negative. 
 
 On December 29, 2020, Ohio provided a timeseries of Total Tests (PCR), Positive Tests (PCR), Total Antigen Tests, and Positive Antigen Tests. On January 6, 2021, we backfilled all 4 metrics from this download, which resulted in the addition of three new metrics (positive tests PCR, positive tests antigen, total tests antigen) and a full history for Total Tests (PCR).
@@ -2636,11 +2638,13 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
+Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
+
+On February 8, 2021, we began reporting Positive PCR tests (specimens), and Negative PCR tests (specimens) from Washington’s downloadable data. 
+
 On February 10, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210211-123942.png) that their cumulative hospitalizations decreased by 14, noting that “in some cases, after a detailed information review, local health departments reclassify cases as not hospitalized or hospitalized for a reason other than COVID-19.” Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 11, 2021.
 
 On February 9, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210210-123423.png) that the higher number of deaths was due to a “data processing backlog” from February 8, 2021 being cleared. Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 10, 2021.
-
-Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
 On February 3, 2021, Washington [reported](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210204-064039.png) that the “higher number of new deaths is due to a data processing backlog cleared today from February 2, 2021”. Because Washington’s data is on a one day lag in our timeseries, this will affect our data for February 4, 2021.
 
@@ -2715,7 +2719,7 @@ calculated:
 long calculation > hover over ""# WA"" > click play button > ""Negative"". Positive Cases (PCR) – WA dash > pg. 1 > ""Confirmed Cases""
 . Probable Cases – WA dash > pg. 1 > ""Probable Cases""
 . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – WA dash > pg. 1 > ""Total Cases""
-. Negative (People or Cases) – WS2 > Negative Tests (PCR). Pending – . Currently 
+. Negative (People or Cases) – . Pending – . Currently 
 Hospitalized – WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19"". Cumulative Hospitalized – WA dash > pg. 1 > ""Hospitalizations""
 . Currently
 in ICU – WA other > button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases"". Cumulative
@@ -2733,7 +2737,7 @@ calculated:
 long calculation > hover over ""# WA"" > click play button > ""Negative""","WA dash > pg. 1 > ""Confirmed Cases""
 ","WA dash > pg. 1 > ""Probable Cases""
 ",,"WA dash > pg. 1 > ""Total Cases""
-",WS2 > Negative Tests (PCR),,"WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
+",,,"WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
 ","WA other > button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases""",,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,,"WA dash > pg. 1 > ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.doh.wa.gov/Emergencies/Coronavirus,WA
 WI,Wisconsin,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.twitter.com/DHSWI,,,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm#capabilities,,"On February 8, 2021, Wisconsin's Total PCR tests (test encounters) decreased by roughly 13,000 without explanation.
