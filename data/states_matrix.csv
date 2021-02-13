@@ -393,13 +393,15 @@ note: do not update if report does not include a new value","CT primary > table 
 note: the link will open a page with a text string from the api, look for the value after the term ""confirmeddeaths""","CT query > link JSON (cases, death, hosp, date, SODA API) > ""probabledeaths""
 
 note: the link will open a page with a text string from the api, look for the value after the term ""probabledeaths"" ",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://data.ct.gov/stories/s/q5as-kyim,CT
-DC,Washington DC,,https://coronavirus.dc.gov/page/coronavirus-data,https://www.twitter.com/_DCHealth,https://coronavirus.dc.gov/newsroom,,https://coronavirus.dc.gov/page/hospital-status-data,,"On December 25, 2020, the District of Columbia announced on their [COVID-19 page](https://coronavirus.dc.gov/data) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data reported on December 26, 2020 will include numbers from December 24, 2020 and the data reported on December 27, 2020 will include numbers from December 25, 2020 and December 26, 2020.
+DC,Washington DC,,https://coronavirus.dc.gov/page/coronavirus-data,https://www.twitter.com/_DCHealth,https://coronavirus.dc.gov/newsroom,,https://coronavirus.dc.gov/page/hospital-status-data,,"On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).
+
+On December 25, 2020, the District of Columbia announced on their [COVID-19 page](https://coronavirus.dc.gov/data) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data reported on December 26, 2020 will include numbers from December 24, 2020 and the data reported on December 27, 2020 will include numbers from December 25, 2020 and December 26, 2020.
 
 As of September 18, 2020, District of Columbia's total test results are drawn from our total`TestEncountersViral` field instead of calculated via positive+negative.
 
 As of August 29, 2020, we store the “total overall tested” timeseries in our **Total Test Encounters (PCR)** field despite the following: According to our outreach, the District of Columbia’s “total overall tested” figure on its dashboard represents test encounters, the number of unique individuals tested per day, with one exception, if an individual receives a positive and a negative test on the same day, they are counted twice rather than once. 
 
-On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.",#REF!,,TRUE,,,"DC primary > date
+On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).",#REF!,,TRUE,,,"DC primary > date
 
 date / 0:00",,,,,,,,,,,,,"DC primary > embedded dash > ""Total Overall Tested""
 
@@ -824,8 +826,9 @@ From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or 
 As of May 7, 2020, **confirmed and probable cases** are included in the case totals.","Local Time – updates: Monday, Wednesday, Friday
 KS dash > “Last updated:” 
 
-above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday, Wednesday, Friday
-KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – updates: Monday, Wednesday, Friday
+above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Antigen Tests"". Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""PCR Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People"". Positive Cases (People, confirmed + probable) – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases"". Negative (People or Cases) – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests"". Pending – . Currently 
@@ -845,8 +848,9 @@ KS dash > tab ""Hospital Summary"" > ""Discharged Patients"". Deaths (confirmed 
 KS dash > tab ""KS COVID-19 Overview"" > ""Statewide Deaths"". ",,,,,"updates: Monday, Wednesday, Friday
 KS dash > “Last updated:” 
 
-above date / above time",,,,,,,,,,,,,,"updates: Monday, Wednesday, Friday
-KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests""",,,,,"updates: Monday, Wednesday, Friday
+above date / above time",,,,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Antigen Tests""",,,,,,,,,,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""PCR Tests""",,,,,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests""",,"updates: Monday, Wednesday, Friday
@@ -1932,6 +1936,8 @@ note: search for ""intubated"" in the ""Refine > keyword"" search box on the lef
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values","NY dash > click link ""Click for Fatality Data"" >  table ""Fatalities by County"" > column ""Place of Fatality"" > row ""Grand Total""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,NY
 OH,Ohio,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,,https://www.twitter.com/OHdeptofhealth,,,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,,"Ohio continually updates its **Currently hospitalized / Now hospitalized** data which can cause slight differences between their historic data and ours. 
 
+On February 10, 2021, Ohio [announced](https://odh.ohio.gov/wps/portal/gov/odh/media-center/odh-news-releases/odh-news-release-02-10-20) that up to 4,000 COVID-19 deaths were underreported in the state’s reporting system and on their COVID-29 dashboard. These deaths will be added to their counts over the week on February 11, 2021. As a result, new deaths will be substantially higher than normal throughout this period. We urge caution when interpreting data from this period. Our data quality team will continue to investigate how best to handle the addition of these death. Approximately 650 of the deaths reported on February 11, 2021, and 2500 of the deaths reported on February 12, 2021 are a result of this reconciliation.
+
 On January 6, 2021, we switched Ohio's `totalTestResults` to draw from `totalTestsViral` instead of by calculating from positive+negative. 
 
 On December 29, 2020, Ohio provided a timeseries of Total Tests (PCR), Positive Tests (PCR), Total Antigen Tests, and Positive Antigen Tests. On January 6, 2021, we backfilled all 4 metrics from this download, which resulted in the addition of three new metrics (positive tests PCR, positive tests antigen, total tests antigen) and a full history for Total Tests (PCR).
@@ -2413,7 +2419,9 @@ WS2 > {Positive Cases (PCR) + Probable Cases}",,,"TX other > tab ""Hospitals Sta
 This formula sums the most recent day of COVID-19 patients hospitalized in the ICU by trauma service area to get a total number for the state. 
 long calculation > hover over ""#TX"" > click play button > ICU
 note: long calculation link can be found in cell E2 of WS2",,,,,"TX dash > tab ""Maps"" > title ""Category Filter"" > click button ""Recovered (Estimated)""  > ""Recovered (Estimated) Total"" ","TX dash > tab ""Maps"" > title ""Category Filter"" > click button ""Fatalities""  > ""Fatalities Total"" ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,TX
-UT,Utah,https://coronavirus-dashboard.utah.gov/,,https://www.twitter.com/utahdepofhealth,,,https://coronavirus-dashboard.utah.gov/#hospitalizations-mortality,,"On December 25, 2020, Utah did not update their data by the time of our daily update, presumably due to the Christmas holiday.
+UT,Utah,https://coronavirus-dashboard.utah.gov/,,https://www.twitter.com/utahdepofhealth,,,https://coronavirus-dashboard.utah.gov/#hospitalizations-mortality,,"On February 12, 2021, we cleared the history of Utah's **Confirmed cases** field, which we previously filled using data from its positive people tested via PCR number. Utah does not present this figure as confirmed cases and instead calls its main case number, which includes both PCR and antigen tests, ""lab-confirmed cases."" We did not duplicate Utah's main case number into Confirmed cases to replace this positive PCR individuals number because the definition the state uses for ""confirmed"" is not in accordance with CSTE definitions.
+
+On December 25, 2020, Utah did not update their data by the time of our daily update, presumably due to the Christmas holiday.
 
 On November 25, 2020, Utah [announced](https://twitter.com/UtahCoronavirus/status/1331703634942451715) via their official Utah COVID-19 response twitter that there would be no update to their data on November 26, 2020. Additionally, the data that would normally have been published on November 26, 2020 will be included in the November 27, 2020 update.
 
@@ -2469,13 +2477,7 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-. Positive Cases (PCR) – long calculation
-This formula sums daily positive PCR tests by person to get a cumulative number.
-long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Positive""
-
-note: do not use the metrics for tests 
-note: link to long calculation is in cell E2 of WS2
-. Probable Cases – . Total PCR Tests (People) – calculated:
+. Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – calculated:
 WS2 > {Positive Cases (PCR) + Negative (people or cases)}
 . Positive Cases (People, confirmed + probable) – UT dash > ""Total COVID-19 Cases"". Negative (People or Cases) – long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
@@ -2530,13 +2532,7 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-","long calculation
-This formula sums daily positive PCR tests by person to get a cumulative number.
-long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Positive""
-
-note: do not use the metrics for tests 
-note: link to long calculation is in cell E2 of WS2
-",,"calculated:
+",,,"calculated:
 WS2 > {Positive Cases (PCR) + Negative (people or cases)}
 ","UT dash > ""Total COVID-19 Cases""","long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
@@ -2636,11 +2632,13 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
+Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
+
+On February 8, 2021, we began reporting Positive PCR tests (specimens), and Negative PCR tests (specimens) from Washington’s downloadable data. 
+
 On February 10, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210211-123942.png) that their cumulative hospitalizations decreased by 14, noting that “in some cases, after a detailed information review, local health departments reclassify cases as not hospitalized or hospitalized for a reason other than COVID-19.” Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 11, 2021.
 
 On February 9, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210210-123423.png) that the higher number of deaths was due to a “data processing backlog” from February 8, 2021 being cleared. Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 10, 2021.
-
-Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
 On February 3, 2021, Washington [reported](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210204-064039.png) that the “higher number of new deaths is due to a data processing backlog cleared today from February 2, 2021”. Because Washington’s data is on a one day lag in our timeseries, this will affect our data for February 4, 2021.
 
@@ -2708,14 +2706,16 @@ Between March 31 and April 15, 2020, Washington state did not report **Negative 
 
 above date / above time
 
-note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county..."". Total Tests (PCR) – . Positive Tests (PCR) – long calculation
+note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
+
+note: we need the larger number. Total Tests (PCR) – . Positive Tests (PCR) – long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive"". Negative Tests (PCR) – long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Negative"". Positive Cases (PCR) – WA dash > pg. 1 > ""Confirmed Cases""
 . Probable Cases – WA dash > pg. 1 > ""Probable Cases""
 . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – WA dash > pg. 1 > ""Total Cases""
-. Negative (People or Cases) – WS2 > Negative Tests (PCR). Pending – . Currently 
+. Negative (People or Cases) – . Pending – . Currently 
 Hospitalized – WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19"". Cumulative Hospitalized – WA dash > pg. 1 > ""Hospitalizations""
 . Currently
 in ICU – WA other > button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases"". Cumulative
@@ -2726,14 +2726,16 @@ on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed 
 
 above date / above time
 
-note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""",,"long calculation
+note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
+
+note: we need the larger number",,"long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive""","long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Negative""","WA dash > pg. 1 > ""Confirmed Cases""
 ","WA dash > pg. 1 > ""Probable Cases""
 ",,"WA dash > pg. 1 > ""Total Cases""
-",WS2 > Negative Tests (PCR),,"WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
+",,,"WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
 ","WA other > button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases""",,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,,"WA dash > pg. 1 > ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.doh.wa.gov/Emergencies/Coronavirus,WA
 WI,Wisconsin,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.twitter.com/DHSWI,,,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm#capabilities,,"On February 8, 2021, Wisconsin's Total PCR tests (test encounters) decreased by roughly 13,000 without explanation.
