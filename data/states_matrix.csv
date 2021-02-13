@@ -826,8 +826,9 @@ From July 1–July 3, 2020, we reported incorrect numbers for Kansas **Cases or 
 As of May 7, 2020, **confirmed and probable cases** are included in the case totals.","Local Time – updates: Monday, Wednesday, Friday
 KS dash > “Last updated:” 
 
-above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday, Wednesday, Friday
-KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – updates: Monday, Wednesday, Friday
+above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Antigen Tests"". Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""PCR Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People"". Positive Cases (People, confirmed + probable) – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases"". Negative (People or Cases) – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests"". Pending – . Currently 
@@ -847,8 +848,9 @@ KS dash > tab ""Hospital Summary"" > ""Discharged Patients"". Deaths (confirmed 
 KS dash > tab ""KS COVID-19 Overview"" > ""Statewide Deaths"". ",,,,,"updates: Monday, Wednesday, Friday
 KS dash > “Last updated:” 
 
-above date / above time",,,,,,,,,,,,,,"updates: Monday, Wednesday, Friday
-KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Tests""",,,,,"updates: Monday, Wednesday, Friday
+above date / above time",,,,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Antigen Tests""",,,,,,,,,,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""PCR Tests""",,,,,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests""",,"updates: Monday, Wednesday, Friday
@@ -2417,7 +2419,9 @@ WS2 > {Positive Cases (PCR) + Probable Cases}",,,"TX other > tab ""Hospitals Sta
 This formula sums the most recent day of COVID-19 patients hospitalized in the ICU by trauma service area to get a total number for the state. 
 long calculation > hover over ""#TX"" > click play button > ICU
 note: long calculation link can be found in cell E2 of WS2",,,,,"TX dash > tab ""Maps"" > title ""Category Filter"" > click button ""Recovered (Estimated)""  > ""Recovered (Estimated) Total"" ","TX dash > tab ""Maps"" > title ""Category Filter"" > click button ""Fatalities""  > ""Fatalities Total"" ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,TX
-UT,Utah,https://coronavirus-dashboard.utah.gov/,,https://www.twitter.com/utahdepofhealth,,,https://coronavirus-dashboard.utah.gov/#hospitalizations-mortality,,"On December 25, 2020, Utah did not update their data by the time of our daily update, presumably due to the Christmas holiday.
+UT,Utah,https://coronavirus-dashboard.utah.gov/,,https://www.twitter.com/utahdepofhealth,,,https://coronavirus-dashboard.utah.gov/#hospitalizations-mortality,,"On February 12, 2021, we cleared the history of Utah's **Confirmed cases** field, which we previously filled using data from its positive people tested via PCR number. Utah does not present this figure as confirmed cases and instead calls its main case number, which includes both PCR and antigen tests, ""lab-confirmed cases."" We did not duplicate Utah's main case number into Confirmed cases to replace this positive PCR individuals number because the definition the state uses for ""confirmed"" is not in accordance with CSTE definitions.
+
+On December 25, 2020, Utah did not update their data by the time of our daily update, presumably due to the Christmas holiday.
 
 On November 25, 2020, Utah [announced](https://twitter.com/UtahCoronavirus/status/1331703634942451715) via their official Utah COVID-19 response twitter that there would be no update to their data on November 26, 2020. Additionally, the data that would normally have been published on November 26, 2020 will be included in the November 27, 2020 update.
 
@@ -2473,13 +2477,7 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-. Positive Cases (PCR) – long calculation
-This formula sums daily positive PCR tests by person to get a cumulative number.
-long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Positive""
-
-note: do not use the metrics for tests 
-note: link to long calculation is in cell E2 of WS2
-. Probable Cases – . Total PCR Tests (People) – calculated:
+. Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – calculated:
 WS2 > {Positive Cases (PCR) + Negative (people or cases)}
 . Positive Cases (People, confirmed + probable) – UT dash > ""Total COVID-19 Cases"". Negative (People or Cases) – long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
@@ -2534,13 +2532,7 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-","long calculation
-This formula sums daily positive PCR tests by person to get a cumulative number.
-long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Positive""
-
-note: do not use the metrics for tests 
-note: link to long calculation is in cell E2 of WS2
-",,"calculated:
+",,,"calculated:
 WS2 > {Positive Cases (PCR) + Negative (people or cases)}
 ","UT dash > ""Total COVID-19 Cases""","long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
