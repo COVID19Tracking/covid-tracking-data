@@ -393,13 +393,15 @@ note: do not update if report does not include a new value","CT primary > table 
 note: the link will open a page with a text string from the api, look for the value after the term ""confirmeddeaths""","CT query > link JSON (cases, death, hosp, date, SODA API) > ""probabledeaths""
 
 note: the link will open a page with a text string from the api, look for the value after the term ""probabledeaths"" ",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://data.ct.gov/stories/s/q5as-kyim,CT
-DC,Washington DC,,https://coronavirus.dc.gov/page/coronavirus-data,https://www.twitter.com/_DCHealth,https://coronavirus.dc.gov/newsroom,,https://coronavirus.dc.gov/page/hospital-status-data,,"On December 25, 2020, the District of Columbia announced on their [COVID-19 page](https://coronavirus.dc.gov/data) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data reported on December 26, 2020 will include numbers from December 24, 2020 and the data reported on December 27, 2020 will include numbers from December 25, 2020 and December 26, 2020.
+DC,Washington DC,,https://coronavirus.dc.gov/page/coronavirus-data,https://www.twitter.com/_DCHealth,https://coronavirus.dc.gov/newsroom,,https://coronavirus.dc.gov/page/hospital-status-data,,"On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).
+
+On December 25, 2020, the District of Columbia announced on their [COVID-19 page](https://coronavirus.dc.gov/data) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data reported on December 26, 2020 will include numbers from December 24, 2020 and the data reported on December 27, 2020 will include numbers from December 25, 2020 and December 26, 2020.
 
 As of September 18, 2020, District of Columbia's total test results are drawn from our total`TestEncountersViral` field instead of calculated via positive+negative.
 
 As of August 29, 2020, we store the “total overall tested” timeseries in our **Total Test Encounters (PCR)** field despite the following: According to our outreach, the District of Columbia’s “total overall tested” figure on its dashboard represents test encounters, the number of unique individuals tested per day, with one exception, if an individual receives a positive and a negative test on the same day, they are counted twice rather than once. 
 
-On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.",#REF!,,TRUE,,,"DC primary > date
+On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).",#REF!,,TRUE,,,"DC primary > date
 
 date / 0:00",,,,,,,,,,,,,"DC primary > embedded dash > ""Total Overall Tested""
 
