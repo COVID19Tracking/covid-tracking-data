@@ -2706,7 +2706,9 @@ Between March 31 and April 15, 2020, Washington state did not report **Negative 
 
 above date / above time
 
-note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county..."". Total Tests (PCR) – . Positive Tests (PCR) – long calculation
+note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
+
+note: we need the larger number. Total Tests (PCR) – . Positive Tests (PCR) – long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive"". Negative Tests (PCR) – long calculation
 calculated: 
@@ -2724,7 +2726,9 @@ on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed 
 
 above date / above time
 
-note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""",,"long calculation
+note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
+
+note: we need the larger number",,"long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive""","long calculation
 calculated: 
