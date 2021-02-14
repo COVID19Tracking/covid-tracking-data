@@ -1,10 +1,10 @@
 date_collected,state,County-alias,City or State-alias,Facility-value,Type-value,blank,blank,blank,blank,Last Onset Date-value,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,SUM(Number of Cases within 14 days)-alias
-20210213,KS,Lyon,Emporia,Emporia Presbyterian Manor     -- November,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,18
-20210213,KS,Johnson,Lenexa,Lakeview Village - January 2021,Long Term Care Facility,,,,,2021-01-30,,,,,,,,,,,,,,,,,,,,,,,,6
-20210213,KS,Coffey,Burlington,Life Care Center of Burlington,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,8
-20210213,KS,Sedgwick,Wichita,Life Care Center of Wichita - November 2020,Long Term Care Facility,,,,,2021-02-03,,,,,,,,,,,,,,,,,,,,,,,,6
-20210213,KS,Johnson,Overland Park,Park Meadows - February 2021,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,7
-20210213,KS,Rice,Little River,Sandstone Heights Nursing Home,Long Term Care Facility,,,,,2021-02-03,,,,,,,,,,,,,,,,,,,,,,,,5
-20210213,KS,Pottawatomie,Onaga,St. Mary's Manor,Long Term Care Facility,,,,,2021-02-08,,,,,,,,,,,,,,,,,,,,,,,,18
-20210213,KS,Sedgwick,Wichita,Via Christi Village Broadmoor - January 2021,Long Term Care Facility,,,,,2021-02-01,,,,,,,,,,,,,,,,,,,,,,,,8
+20210214,KS,Lyon,Emporia,Emporia Presbyterian Manor     -- November,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,18
+20210214,KS,Johnson,Lenexa,Lakeview Village - January 2021,Long Term Care Facility,,,,,2021-01-30,,,,,,,,,,,,,,,,,,,,,,,,6
+20210214,KS,Coffey,Burlington,Life Care Center of Burlington,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,8
+20210214,KS,Sedgwick,Wichita,Life Care Center of Wichita - November 2020,Long Term Care Facility,,,,,2021-02-03,,,,,,,,,,,,,,,,,,,,,,,,6
+20210214,KS,Johnson,Overland Park,Park Meadows - February 2021,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,7
+20210214,KS,Rice,Little River,Sandstone Heights Nursing Home,Long Term Care Facility,,,,,2021-02-03,,,,,,,,,,,,,,,,,,,,,,,,5
+20210214,KS,Pottawatomie,Onaga,St. Mary's Manor,Long Term Care Facility,,,,,2021-02-08,,,,,,,,,,,,,,,,,,,,,,,,18
+20210214,KS,Sedgwick,Wichita,Via Christi Village Broadmoor - January 2021,Long Term Care Facility,,,,,2021-02-01,,,,,,,,,,,,,,,,,,,,,,,,8
 
