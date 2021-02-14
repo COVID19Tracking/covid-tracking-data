@@ -393,7 +393,9 @@ note: do not update if report does not include a new value","CT primary > table 
 note: the link will open a page with a text string from the api, look for the value after the term ""confirmeddeaths""","CT query > link JSON (cases, death, hosp, date, SODA API) > ""probabledeaths""
 
 note: the link will open a page with a text string from the api, look for the value after the term ""probabledeaths"" ",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://data.ct.gov/stories/s/q5as-kyim,CT
-DC,Washington DC,,https://coronavirus.dc.gov/page/coronavirus-data,https://www.twitter.com/_DCHealth,https://coronavirus.dc.gov/newsroom,,https://coronavirus.dc.gov/page/hospital-status-data,,"On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).
+DC,Washington DC,,https://coronavirus.dc.gov/page/coronavirus-data,https://www.twitter.com/_DCHealth,https://coronavirus.dc.gov/newsroom,,https://coronavirus.dc.gov/page/hospital-status-data,,"On February 13, 2021, the District of Columbia's Total PCR tests (people) decreased by 751 without explanation. 
+
+On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).
 
 On December 25, 2020, the District of Columbia announced on their [COVID-19 page](https://coronavirus.dc.gov/data) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data reported on December 26, 2020 will include numbers from December 24, 2020 and the data reported on December 27, 2020 will include numbers from December 25, 2020 and December 26, 2020.
 
