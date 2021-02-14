@@ -319,7 +319,18 @@ On July 3, 2020, Idaho revised down their **Recovered** data by about 1,500, not
 
 On June 5, 2020, Idaho reported a large batch of previously unreported tests. The state's **Total tests** number rose by approximately 2,500 more tests on June 5 than the seven-day average for new tests at that time.
 
-As of April 9, 2020, Idaho reports **probable and confirmed cases** separately. ",https://coronavirus.idaho.gov/,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Testing?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Demographics?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Hospitalizations?%3Aembed=y&%3Aembed=y&%3AshowVizHome=no&%3AshowVizHome=n&%3Adisplay_count=y&%3Adisplay_static_image=y&%3Alanguage=en&%3AapiID=host0#navType=0&navSrc=Parse,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Deaths?%3Aembed=y&%3Aembed=y&%3AshowVizHome=no&%3AshowVizHome=n&%3Adisplay_count=y&%3Adisplay_static_image=y&%3Alanguage=en&%3AapiID=host0#navType=0&navSrc=Parse,@IDHW,https://coronavirus.idaho.gov/,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,Idaho,16
+As of April 9, 2020, Idaho reports **probable and confirmed cases** separately. ",https://coronavirus.idaho.gov/,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Testing?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Demographics?%3Aembed=y&%3AshowVizHome=no&%3Adisplay_count=y,https://public.tableau.com/views/DPHIdahoCOVID-19Dashboard/Hospitalizations?%3Aembed=y&%3Aembed=y&%3AshowVizHome=no&%3AshowVizHome=n&%3Adisplay_count=y&%3Adisplay_static_image=y&%3Alanguage=en&%3AapiID=host0#navType=0&navSrc=Parse,"
+On February 13, 2021, the District of Columbia reported 426,830 **Total Test Encounters**, which is a decrease of 751 from the figure reported for the previous day. No explanation was available for this decrease.
+
+On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).
+
+On December 25, 2020, the District of Columbia announced on their [COVID-19 page](https://coronavirus.dc.gov/data) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data reported on December 26, 2020 will include numbers from December 24, 2020 and the data reported on December 27, 2020 will include numbers from December 25, 2020 and December 26, 2020.
+
+As of September 18, 2020, District of Columbia's total test results are drawn from our total`TestEncountersViral` field instead of calculated via positive+negative.
+
+As of August 29, 2020, we store the “total overall tested” timeseries in our **Total Test Encounters (PCR)** field despite the following: According to our outreach, the District of Columbia’s “total overall tested” figure on its dashboard represents test encounters, the number of unique individuals tested per day, with one exception, if an individual receives a positive and a negative test on the same day, they are counted twice rather than once. 
+
+On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).",@IDHW,https://coronavirus.idaho.gov/,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,Idaho,16
 IL,"Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (specimens)** in the absence of better data. 
 
 On January 22, 2021, Illinois began including all probable deaths reported since the beginning of the pandemic in the total case count. This means all 1,903 Probable deaths were included in the cases reported on January 22, 2021.
@@ -464,7 +475,6 @@ Our source for **Now hospitalized** and **Now in ICU** data in Michigan generall
 
 Michigan combines PCR and antigen tests in the total tests figure reported on the state's dashboard. 
 
-
 As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
 
 On January 2, 2021, Michigan did not publish updated testing data by the time of our daily update. As a result, we were unable to update Total Antibody Tests, Total Tests (PCR), Positive Tests (PCR), Negative Tests (PCR), or Negative (People or Cases) on January 2, 2021.
@@ -584,7 +594,9 @@ On September 25, 2020, North Carolina started reporting probable cases which cau
 On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press-releases/ncdhhs-corrects-covid-19-testing-totals-after-identifying-labcorp-reporting) a major correction in its **Total PCR tests (specimens)**, resulting in a decrease of more than 220,000 reported tests. 
 
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,posNeg,posNeg,Only positives,false,North Carolina,37
-ND,"On February 10, 2021, North Dakota's Confirmed cases decreased by 32 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction).
+ND,"On February 13, 2021 North Dakota's reported **Total Tests (PCR)** declined by 822 without explanation.
+
+On February 10, 2021, North Dakota's Confirmed cases decreased by 32 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction).
 
 On February 9, 2021, North Dakota’s Confirmed cases dropped by 62 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction), from 93,610 to 93,548. Additionally, their Cases (confirmed + probable) dropped by 11.
 
@@ -716,7 +728,7 @@ As of November 23, 2020, New York's `totalTestResults` are drawn from our `total
 ",https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Fatalities?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n,https://www.governor.ny.gov/news,https://forward.ny.gov/daily-hospitalization-summary-region,https://forward.ny.gov/daily-hospitalization-summary-region,@healthnygov,https://www.health.ny.gov/diseases/communicable/coronavirus/,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Only positives,false,New York,36
 OH,"Ohio continually updates its **Currently hospitalized / Now hospitalized** data which can cause slight differences between their historic data and ours. 
 
-On February 10, 2021, Ohio [announced](https://odh.ohio.gov/wps/portal/gov/odh/media-center/odh-news-releases/odh-news-release-02-10-20) that up to 4,000 COVID-19 deaths were underreported in the state’s reporting system and on their COVID-29 dashboard. These deaths will be added to their counts over the week on February 11, 2021. As a result, new deaths will be substantially higher than normal throughout this period. We urge caution when interpreting data from this period. Our data quality team will continue to investigate how best to handle the addition of these death. Approximately 650 of the deaths reported on February 11, 2021, and 2500 of the deaths reported on February 12, 2021 are a result of this reconciliation.
+On February 10, 2021, Ohio [announced](https://odh.ohio.gov/wps/portal/gov/odh/media-center/odh-news-releases/odh-news-release-02-10-20) that up to 4,000 COVID-19 deaths were underreported in the state’s reporting system and on their COVID-29 dashboard. These deaths will be added to their counts over the week on February 11, 2021. As a result, new deaths will be substantially higher than normal throughout this period. We urge caution when interpreting data from this period. Our data quality team will continue to investigate how best to handle the addition of these death. Approximately 650 of the deaths reported on February 11, 2021, 2500 of the deaths reported on February 12, 2021, and 1125 of the deaths reported on February 13, 2021 are a result of this reconciliation.
 
 On January 6, 2021, we switched Ohio's `totalTestResults` to draw from `totalTestsViral` instead of by calculating from positive+negative. 
 
@@ -960,6 +972,8 @@ VI,"Total PCR tests in the Virgin Islands is the sum of **Positive PCR tests**, 
 The Virgin Islands provides irregular data updates, so changes in values often represent multiple days of data.",https://doh.vi.gov/covid19usvi,,,,,@usvidoh,https://doh.vi.gov/,People,posNeg,posNeg,Positives Only,false,US Virgin Islands,78
 VT,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**. 
 
+On February 13, 2021 Vermont's reported **Total Tests (PCR)** declined from 961,542 to 958,666 without explanation.
+
 On February 02, 2021, Vermont reported a decrease in Total PCR Tests (specimens) of around 23K without explanation.
 
 On January 4, 2020, Vermont posted that ""the numbers of COVID-19 deaths now includes deaths among probable cases since September 6, 2020."" Due to this change we are unable to update the **Confirmed deaths** metric after January 4, 2020.
@@ -993,11 +1007,11 @@ We report the most recent hospitalization data available for Washington. In some
 
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
 
-On February 8, 2021, we began reporting Positive PCR tests (specimens), and Negative PCR tests (specimens) from Washington’s downloadable data. 
-
 On February 10, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210211-123942.png) that their cumulative hospitalizations decreased by 14, noting that “in some cases, after a detailed information review, local health departments reclassify cases as not hospitalized or hospitalized for a reason other than COVID-19.” Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 11, 2021.
 
 On February 9, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210210-123423.png) that the higher number of deaths was due to a “data processing backlog” from February 8, 2021 being cleared. Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 10, 2021.
+
+On February 8, 2021, we began reporting Positive PCR tests (specimens), and Negative PCR tests (specimens) from Washington’s downloadable data. 
 
 On February 3, 2021, Washington [reported](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210204-064039.png) that the “higher number of new deaths is due to a data processing backlog cleared today from February 2, 2021”. Because Washington’s data is on a one day lag in our timeseries, this will affect our data for February 4, 2021.
 
@@ -1086,7 +1100,9 @@ On July 4, 2020, West Virginia began making continual changes to its previous da
 On May 23, 2020, West Virginia began reporting PCR and antibody tests separately. Total test values before this date might include both PCR and antibody tests.
 
 On April 16, 2020, West Virginia began reporting current hospitalization, ICU, and ventilator metrics from 49 of 55 counties. Before April 16, 2020, those counts were less complete, as they were based on completed investigations rather than on hospital data.",https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,,@WV_DHHR,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,Specimens,posNeg,posNeg,All data,false,West Virginia,54
-WY,"Wyoming’s metrics do not update every day, and don’t always update together. As a result, please exercise extra caution when using numbers that are calculated from daily changes, especially if these calculations use multiple metrics. If anomalies are observed, numbers from previous days will be carried over until corrections are made.
+WY,"As of February 13, 2021, Wyoming does not update their COVID-19 data on Saturdays.
+
+Wyoming’s metrics do not update every day, and don’t always update together. As a result, please exercise extra caution when using numbers that are calculated from daily changes, especially if these calculations use multiple metrics. If anomalies are observed, numbers from previous days will be carried over until corrections are made.
 
 Wyoming reports the number of people *Ever hospitalized* with COVID-19 as a percentage of “Lab Confirmed Cases by Reported Hospitalization” on their [Statistics page](https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/). In the absence of a better data source we convert this percentage to an integer, and as a result of the calculation, this value may fluctuate.
 
