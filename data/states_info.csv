@@ -19,7 +19,7 @@ On November 16, 2020 we added **Cumulative Hospitalized** (which includes both r
 
 On November 7, 2020, Alaska announced that their testing dashboard would be ""temporarily disabled from November 6th to November 9th"" and that testing data could be accessed through their data summary tables. After originally using the data summary tables on November 7, we have reversed that decision, and reverted the values to their November 6th state. The frozen values were replaced on November 10, with values from the state's [Tests Dataset](https://coronavirus-response-alaska-dhss.hub.arcgis.com/datasets/tests-dataset). 
 
-On November 6, 2020, Alaska’s **Total PCR tests (specimens)** and **Positive PCR tests (specimens)** decreased without explanation. As a result, `Negative`, which is calculated by subtracting **Total cases** from **Total PCR tests (specimens)**, decreased as well.
+On November 6, 2020, Alaska’s **Total PCR tests (specimens)** and **Positive PCR tests (specimens)** decreased without explanation. As a result, `Negative`, which is calculated by subtracting **Total cases** from **Total PCR tests (specimens)**, decreased also.
 
 On November 5, 2020, Alaska’s **Total PCR tests (specimens)** increased from roughly 628k to 782k. We were unable to find an explanation for the increase.
 
@@ -172,7 +172,11 @@ On June 18, 2020, Connecticut corrected some errors in its data, resulting in a 
 On May 29, 2020, Connecticut hospitalization data changed due to reporting laboratory-confirmed cases only. These changes resulted in a decrease in the numbers for **Ever hospitalized** and **Recovered** (which can be found in our API and CSVs). 
 
 On May 27, 2020, Connecticut deduplicated some of its data, resulting in a decrease in **Cases** and **Total PCR tests (specimens)**.",https://data.ct.gov/coronavirus,https://data.ct.gov/stories/s/q5as-kyim,https://data.ct.gov/api/id/rf3k-f8fg.json?%24query=select+%2A+order+by+date+desc+limit+1,,,@ctdph,https://portal.ct.gov/Coronavirus,Specimens,posNeg,posNeg,All data,false,Connecticut,09
-DC,"On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).
+DC,"On February 14, 2021, the District of Columbia’s Total PCR Tests (people), dropped by 1,987 from 426,830 to 424,843 without explanation.
+
+On February 13, 2021, the District of Columbia's Total PCR tests (people) decreased by 751 without explanation. 
+
+On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).
 
 On December 25, 2020, the District of Columbia announced on their [COVID-19 page](https://coronavirus.dc.gov/data) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data reported on December 26, 2020 will include numbers from December 24, 2020 and the data reported on December 27, 2020 will include numbers from December 25, 2020 and December 26, 2020.
 
