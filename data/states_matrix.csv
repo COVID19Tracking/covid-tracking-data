@@ -407,14 +407,11 @@ As of August 29, 2020, we store the “total overall tested” timeseries in our
 
 On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).",#REF!,,TRUE,,,"DC primary > date
 
-date / 0:00",,,,,,,,,,,,,"DC primary > embedded dash > ""Total Overall Tested""
+date / 0:00",,,,,,,,,,,,,"DC primary > ""Total Overall Number of Tests""
+",,,,,,"DC primary > ""Total Number of DC Residents Tested""
 
-note: scroll down for the dash, and wait a few seconds for it to load",,,,,,"DC primary > embedded dash > ""Total Residents Tested""
-
-note: scroll down for the dash, and wait a few seconds for it to load
-note: although it appears this number contrasts with the other one only due to resident vs. nonresident, we know from outreach it also differs in unit. that is why it is stored in unique people","DC primary > embedded dash > ""Total Positives""
-
-note: scroll down for the dash, and wait a few seconds for it to load",,,"DC other > ""Total COVID-19 Patients in DC Hospitals""",,"DC other > ""Total COVID-19 Patients in ICU""",,"DC primary > embedded dash > tab ""Ventilator Use And Availability"" > ""Adult Ventilators in use by COVID-19 patients"" > mouse over more recent entry",,,"DC primary > embedded dash > tab ""Testing and Case Trends"" > ""Total Recovered""","DC primary > embedded dash > ""Total Lives Lost""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.dc.gov/page/coronavirus-surveillance-data,DC
+note: although it appears this number contrasts with the other one only due to resident vs. nonresident, we know from outreach it also differs in unit. that is why it is stored in unique people","DC primary > ""Total Positives""
+",,,"DC other > ""Total COVID-19 Patients in DC Hospitals""",,"DC other > ""Total COVID-19 Patients in ICU""",,"DC primary > embedded dash > tab ""Ventilator Use And Availability"" > ""Adult Ventilators in use by COVID-19 patients"" > mouse over more recent entry",,,"DC primary > ""Cleared from Isolation""","DC primary > ""Total Lives Lost""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.dc.gov/page/coronavirus-surveillance-data,DC
 DE,Delaware,https://myhealthycommunity.dhss.delaware.gov/locations/state,https://dhss.delaware.gov/dhss/dph/epi/2019novelcoronavirus.html,https://www.twitter.com/Delaware_DHSS,https://news.delaware.gov/,,,,"On February 5, 2021, Delaware [announced]() via the official Delaware Department of Health and Social Services twitter that 54 of the deaths reported on February 5, 2021 were identified as the result of a data quality review. As a result, the majority of new deaths reported on February 5, 2021 were not identified in the previous 24 hour period. 
 
 On February 7, 2021, Delaware noted that due to a technical issue it was reporting 260 cases reported to DPH on February 5 as well as the new cases reported on February 6.
@@ -2092,7 +2089,7 @@ As of June 6, 2020, Oregon only releases updated data for **Cases (confirmed plu
 
 or (Sunday and Monday only)
 
-on Sunday and Monday, use most recent press release > ""... as of...""
+on Sunday and Monday, previous day's press release > ""... as of...""
 
 yesterday / 00:01",,,,,,,,,,,,,,"updates: Tuesday - Saturday
 OR primary > title ""Situation in Oregon"" >  ""Total Tests""","updates: Tuesday - Saturday
@@ -2103,7 +2100,7 @@ on Sunday and Monday:
 
 OR press conferences > title  ""COVID-19 News from Oregon Health Authority"" > click link for yesterday's release > table > column ""Cases"" > row ""Total""
 
-note: on Sunday and Monday please screenshot this page such that both the timestamp and the cases and deaths table are visible
+note: on Sunday and Monday please screenshot this page such that both the timestamp and the cases and deaths table are visible. the best way to do this is to download the page as a pdf and upload that to the screenshot link.
 screenshot: https://internal.covidtracking.com/screenshot?state=OR&datatype=taco&subtype=press-conferences",,,"updates: Tuesday - Saturday
 
 OR other > column ""Patients with Suspected or Confirmed COVID-19"" > row ""Current Hospitalized Patients""
@@ -2483,8 +2480,12 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
 . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – calculated:
-WS2 > {Positive Cases (PCR) + Negative (people or cases)}
-. Positive Cases (People, confirmed + probable) – UT dash > ""Total COVID-19 Cases"". Negative (People or Cases) – long calculation
+long calculation
+This formula sums daily positive and negative PCR tests by person to get cumulative numbers.
+long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > {Positive + Negative}
+
+note: do not use the metrics for tests 
+note: link to long calculation is in cell E2 of WS2. Positive Cases (People, confirmed + probable) – UT dash > ""Total COVID-19 Cases"". Negative (People or Cases) – long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
 long calculation > hover over ""# UT Antigen"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Negative""
 
@@ -2538,8 +2539,12 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
 ",,,"calculated:
-WS2 > {Positive Cases (PCR) + Negative (people or cases)}
-","UT dash > ""Total COVID-19 Cases""","long calculation
+long calculation
+This formula sums daily positive and negative PCR tests by person to get cumulative numbers.
+long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > {Positive + Negative}
+
+note: do not use the metrics for tests 
+note: link to long calculation is in cell E2 of WS2","UT dash > ""Total COVID-19 Cases""","long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
 long calculation > hover over ""# UT Antigen"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Negative""
 
