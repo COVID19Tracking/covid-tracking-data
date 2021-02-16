@@ -678,6 +678,8 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 
 As of January 31, 2021, Idaho does not update their COVID-19 data on Sundays, and data reported on Mondays includes data for both Sunday and Monday. Because their data is on a one day lag in our timeseries due to late updates, we will be unable to update their data on Mondays, and data reported on Tuesdays will include two days of data. 
 
+On February 12, 2021, Idaho [announced](https://twitter.com/IDHW/status/1360362916973744131) via the official Idaho Department of Health and Welfare Twitter that there would be no update to their data on February 15, 2021 due to the President’s day holiday. Because Idaho’s data is on a one day lag in our timeseries, we were unable to update their data on February 16, 2021.
+
 On January 20, 2021, Idaho [announced](https://twitter.com/IDHW/status/1352057437608583168) that two deaths had been removed from their total after updated records indicated that they were not due to COVID-19. Because Idaho’s data is on a one day lag due to late updates, this affects our Deaths (confirmed + probable) and Deaths (confirmed) for January 21, 2021
 
 On January 18, 2021, Idaho [announced](https://twitter.com/IDHW/status/1351318456206032903) via the official Idaho Department of Health and Welfare twitter that there would be no update to their data due to the Martin Luther King Jr. Day holiday. Additionally, they noted that the data published on January 19, 2021 would include two days of data. Because Idaho’s data is on a one day lag in our timeseries this affects our data for January 19, 2021 and January 20, 2021.
@@ -2651,6 +2653,8 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
+
+On February 15, 2021, Washington announced that there would be no update to their data due to the President’s day holiday. Because Washington’s data is on a one day lag in our timeseries, we were unable to update their data on February 16, 2021.
 
 On February 10, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210211-123942.png) that their cumulative hospitalizations decreased by 14, noting that “in some cases, after a detailed information review, local health departments reclassify cases as not hospitalized or hospitalized for a reason other than COVID-19.” Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 11, 2021.
 
