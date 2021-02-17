@@ -818,7 +818,7 @@ On September 3, 2020, Pennsylvania [clarified](https://www.health.pa.gov/topics/
 On April 23, 2020, Pennsylvania revised down its total **Deaths (confirmed and probable)** from 1,622 to 1,421 to exclude some probable deaths that needed further confirmation to be linked to COVID-19",https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://padoh.maps.arcgis.com/apps/opsdashboard/index.html#/5662e22517b644ba874ca51fa7b61c94,,,,@PAHealthDept,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Only positives,false,Pennsylvania,42
 PR,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
-Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports.
+Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports. The most recent test data for Puerto Rico is taken from a [Departamento de Salud press release](https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf) from August 28, 2020. 
 
 Puerto Rico’s **Recovered** numbers occasionally decrease without explanation. We suspect this is due to some sort of data quality assurance or de-deduplication.
 
