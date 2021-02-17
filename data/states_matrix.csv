@@ -206,9 +206,7 @@ As of September 18, 2020, American Samoa's total test results are drawn from our
 
 note: if you find an updated source and have questions about the timestamp open a state thread and tag the shift leads. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – AS updates their data infrequently through press releases, emergency declarations and news articles
 
-note: check each link for new data, no need to start a thread if there isn't any. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – AS updates their data infrequently through press releases, emergency declarations and news articles
-
-note: check each link for new data, no need to start a thread if there isn't any. Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – AS updates their data infrequently through press releases, emergency declarations and news articles
+note: check each link for new data, no need to start a thread if there isn't any. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – AS updates their data infrequently through press releases, emergency declarations and news articles
 
 note: check each link for new data, no need to start a thread if there isn't any. Negative (People or Cases) – AS updates their data infrequently through press releases, emergency declarations and news articles
 
@@ -223,9 +221,7 @@ note: check each link for new data, no need to start a thread if there isn’t a
 
 note: if you find an updated source and have questions about the timestamp open a state thread and tag the shift leads",,,,,,,,,,,,,,"AS updates their data infrequently through press releases, emergency declarations and news articles
 
-note: check each link for new data, no need to start a thread if there isn't any",,,"AS updates their data infrequently through press releases, emergency declarations and news articles
-
-note: check each link for new data, no need to start a thread if there isn't any",,,"AS updates their data infrequently through press releases, emergency declarations and news articles
+note: check each link for new data, no need to start a thread if there isn't any",,,,,,"AS updates their data infrequently through press releases, emergency declarations and news articles
 
 note: check each link for new data, no need to start a thread if there isn't any","AS updates their data infrequently through press releases, emergency declarations and news articles
 
@@ -1725,7 +1721,7 @@ On November 22, 2020, Nebraska's **Recovered** metric dropped from 56,605 to 16,
 
 above date / above time (see note below)
 
-note: the time is presented in the viewer's local time (your timezone), even though it says CDT. This needs to be entered into the spreadsheet as Central Time. If you are in ET subtract 1 hour. If you are in MT add 1 hour. If you are in PT add 2 hours. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NE dash > ""Total Tests"". Positive Tests (PCR) – NE query > ""Specimens"" > value next to ""TotalPositiveAsOfThisDate"". Negative Tests (PCR) – NE query > ""Specimens"" > value next to ""TotalNotDetectedAsOfThisDate"". Positive Cases (PCR) – NE dash > ""Total Positive Cases"". Probable Cases – . Total PCR Tests (People) – NE dash > ""People Tested"". Positive Cases (People, confirmed + probable) – NE dash > ""Total Positive Cases"". Negative (People or Cases) – NE dash > ""Tested: Not Detected"". Pending – . Currently 
+note: the time is presented in the viewer's local time (your timezone), even though it says CDT. This needs to be entered into the spreadsheet as Central Time. If you are in ET subtract 1 hour. If you are in MT add 1 hour. If you are in PT add 2 hours. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NE dash > ""Total Tests"". Positive Tests (PCR) – NE query > ""Specimens"" > value next to ""TotalPositiveAsOfThisDate"". Negative Tests (PCR) – NE query > ""Specimens"" > value next to ""TotalNotDetectedAsOfThisDate"". Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – NE dash > ""People Tested"". Positive Cases (People, confirmed + probable) – NE dash > ""Total Positive Cases"". Negative (People or Cases) – NE dash > ""Tested: Not Detected"". Pending – . Currently 
 Hospitalized – NE dash > tab ""Hospitalized Cases"" > ""Active Hospitalizations"" 
 
 note: tabs can be accessed by using the arrows for the main window. Cumulative Hospitalized – NE dash > tab ""Hospitalized Cases"" > ""Total Cumulative Hospitalizations"". Currently
@@ -1737,7 +1733,7 @@ on Ventilator – . Hospital Discharges – . Recovered – NE dash > tab ""Reco
 
 above date / above time (see note below)
 
-note: the time is presented in the viewer's local time (your timezone), even though it says CDT. This needs to be entered into the spreadsheet as Central Time. If you are in ET subtract 1 hour. If you are in MT add 1 hour. If you are in PT add 2 hours. ",,,,,,,,,,,,,,"NE dash > ""Total Tests""","NE query > ""Specimens"" > value next to ""TotalPositiveAsOfThisDate""","NE query > ""Specimens"" > value next to ""TotalNotDetectedAsOfThisDate""","NE dash > ""Total Positive Cases""",,"NE dash > ""People Tested""","NE dash > ""Total Positive Cases""","NE dash > ""Tested: Not Detected""",,"NE dash > tab ""Hospitalized Cases"" > ""Active Hospitalizations"" 
+note: the time is presented in the viewer's local time (your timezone), even though it says CDT. This needs to be entered into the spreadsheet as Central Time. If you are in ET subtract 1 hour. If you are in MT add 1 hour. If you are in PT add 2 hours. ",,,,,,,,,,,,,,"NE dash > ""Total Tests""","NE query > ""Specimens"" > value next to ""TotalPositiveAsOfThisDate""","NE query > ""Specimens"" > value next to ""TotalNotDetectedAsOfThisDate""",,,"NE dash > ""People Tested""","NE dash > ""Total Positive Cases""","NE dash > ""Tested: Not Detected""",,"NE dash > tab ""Hospitalized Cases"" > ""Active Hospitalizations"" 
 
 note: tabs can be accessed by using the arrows for the main window","NE dash > tab ""Hospitalized Cases"" > ""Total Cumulative Hospitalizations""",,,,,,"NE dash > tab ""Recoveries"" > ""Recovered""","NE dash > tab ""Deaths"" > ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd/page/page_0/,NE
