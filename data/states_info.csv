@@ -174,11 +174,11 @@ On June 18, 2020, Connecticut corrected some errors in its data, resulting in a 
 On May 29, 2020, Connecticut hospitalization data changed due to reporting laboratory-confirmed cases only. These changes resulted in a decrease in the numbers for **Ever hospitalized** and **Recovered** (which can be found in our API and CSVs). 
 
 On May 27, 2020, Connecticut deduplicated some of its data, resulting in a decrease in **Cases** and **Total PCR tests (specimens)**.",https://data.ct.gov/coronavirus,https://data.ct.gov/stories/s/q5as-kyim,https://data.ct.gov/api/id/rf3k-f8fg.json?%24query=select+%2A+order+by+date+desc+limit+1,,,@ctdph,https://portal.ct.gov/Coronavirus,Specimens,posNeg,posNeg,All data,false,Connecticut,09
-DC,"On February 14, 2021, the District of Columbia’s Total PCR Tests (people), dropped by 1,987 from 426,830 to 424,843 without explanation.
+DC,"On February 16, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).
+
+On February 14, 2021, the District of Columbia’s Total PCR Tests (people), dropped by 1,987 from 426,830 to 424,843 without explanation.
 
 On February 13, 2021, the District of Columbia's Total PCR tests (people) decreased by 751 without explanation. 
-
-On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).
 
 On December 25, 2020, the District of Columbia announced on their [COVID-19 page](https://coronavirus.dc.gov/data) that there would be no update to their data on December 25, 2020 due to the Christmas holiday. Additionally, they noted that the data reported on December 26, 2020 will include numbers from December 24, 2020 and the data reported on December 27, 2020 will include numbers from December 25, 2020 and December 26, 2020.
 
@@ -299,6 +299,8 @@ Negative test results reported in our API and CSVs are calculated by subtracting
 
 As of January 31, 2021, Idaho does not update their COVID-19 data on Sundays, and data reported on Mondays includes data for both Sunday and Monday. Because their data is on a one day lag in our timeseries due to late updates, we will be unable to update their data on Mondays, and data reported on Tuesdays will include two days of data. 
 
+On February 12, 2021, Idaho [announced](https://twitter.com/IDHW/status/1360362916973744131) via the official Idaho Department of Health and Welfare Twitter that there would be no update to their data on February 15, 2021 due to the President’s day holiday. Because Idaho’s data is on a one day lag in our timeseries, we were unable to update their data on February 16, 2021.
+
 On January 20, 2021, Idaho [announced](https://twitter.com/IDHW/status/1352057437608583168) that two deaths had been removed from their total after updated records indicated that they were not due to COVID-19. Because Idaho’s data is on a one day lag due to late updates, this affects our Deaths (confirmed + probable) and Deaths (confirmed) for January 21, 2021
 
 On January 18, 2021, Idaho [announced](https://twitter.com/IDHW/status/1351318456206032903) via the official Idaho Department of Health and Welfare twitter that there would be no update to their data due to the Martin Luther King Jr. Day holiday. Additionally, they noted that the data published on January 19, 2021 would include two days of data. Because Idaho’s data is on a one day lag in our timeseries this affects our data for January 19, 2021 and January 20, 2021.
@@ -394,6 +396,8 @@ On May 23, 2020, Kentucky revised down the state's figure for **Total tests**.",
 LA,"Louisiana reports probable deaths on a weekly basis.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total tests (PCR)** in the absence of better data.
+
+On February 16, 2021, Louisiana announced that there would be no update to their data due to Mardi Gras.
 
 On February 10, 2021, Louisiana [announced](https://twitter.com/LADeptHealth/status/1359562769205522436?s=20) that due to a processing error, the day's case and test counts are incomplete.
 
@@ -909,13 +913,15 @@ As of June 10, 2020, **Total cases** include both confirmed and probable cases o
 On April 5, 2020, Tennessee reported a decline in **Recoveries**. ",https://www.tn.gov/health/cedep/ncov.html,https://apps.health.tn.gov/AEM_embed/TDH-2019-Novel-Coronavirus-Epi-and-Surveillance.pdf#toolbar=0,https://data.tn.gov/t/Public/views/HospitalizedPatients/HospitalizedPatients?:embed=y,,,@TNDeptofHealth,https://www.tn.gov/health/cedep/ncov.html,Specimens,posNeg,posNeg,Only positives,false,Tennessee,47
 TX,"The Texas Department of State Health Services regularly includes older cases identified by labs in their cumulative confirmed case counts. As a result, new cases reported may not necessarily have occurred in the past 24 hour period. When these increases are significant, we will specifically mention them in our daily update on twitter.
 
+On February 15, 2021, and February 16, 2021 Texas did not update any Testing metrics (presumably due to the winter storm they are experiencing). We will backfill the updated data if it becomes available.
+
 On December 29, 2020, Texas noted that “New cases reported today (12/29) may include several days of cases for some counties as some local health departments did not report over the holiday weekend.
 
 As of December 15, 2020, Texas’s total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. 
 
 On December 14 2020, we backfilled the full time series of **Total PCR tests (specimens)**, **Positive PCR tests (specimens)** from data available on [Texas ArcGis Layer](https://services5.arcgis.com/ACaLB9ifngzawspq/ArcGIS/rest/services/TX_DSHS_COVID19_TestData_Service/FeatureServer/6). 
 
-On December 11, 2020, Texas added probable cases to their dashboard, and provided a timeseries of **Probable cases** going back to November 1, 2020. On December 12,2020, we backfilled the **Probable cases** and adjusted  **Cases (confirmed plus probable)** based on the data provided by Texas. This causes the daily rise in Texas probable cases on November 1, 2020, to appear as 71,734. This large increase includes the data dump of 67,475 **Probable cases**, most of which are not from the most recent 24 hour period. We also backfilled **Positive antibody tests (specimens)** from the data provided by Texas at the same time.
+On December 11, 2020, Texas added probable cases to their dashboard, and provided a timeseries of **Probable cases** going back to November 1, 2020. On December 12, 2020, we backfilled the **Probable cases** and adjusted  **Cases (confirmed plus probable)** based on the data provided by Texas. This causes the daily rise in Texas probable cases on November 1, 2020, to appear as 71,734. This large increase includes the data dump of 67,475 **Probable cases**, most of which are not from the most recent 24 hour period. We also backfilled **Positive antibody tests (specimens)** from the data provided by Texas at the same time.
 
 On November 11, 2020, Texas reported that their update to **Deaths (confirmed and probable)** would be delayed due to technical difficulties.
 
@@ -1014,6 +1020,8 @@ Washington State reports **confirmed cases**, **laboratory tests**, and **deaths
 We report the most recent hospitalization data available for Washington. In some cases, this data may be reviewed and revised by the Washington State Department of Health. As a result, Washington considers hospitalization data complete after a 18-day lag period. In our data this lag is 20 days.
 
 Currently and since November 21, 2020, Washington [is reporting](https://www.doh.wa.gov/Emergencies/COVID19/DataDashboard) a variety of technical difficulties and an increased laboratory report volume. As a result, their data through these dates is incomplete and may include duplicate cases, missing negative test results, spikes due to backlog processing, and other abnormalities. Please exercise caution when looking at this data and be aware that 7 day averages are a more reliable metric than individual figures.
+
+On February 15, 2021, Washington announced that there would be no update to their data due to the President’s day holiday. Because Washington’s data is on a one day lag in our timeseries, we were unable to update their data on February 16, 2021.
 
 On February 10, 2021, Washington [announced](https://covid-tracking-project-data.s3.us-east-1.amazonaws.com/state_screenshots/WA/WA-20210211-123942.png) that their cumulative hospitalizations decreased by 14, noting that “in some cases, after a detailed information review, local health departments reclassify cases as not hospitalized or hospitalized for a reason other than COVID-19.” Because Washington’s data is on a one day lag in our timeseries, this affects our data for February 11, 2021.
 
