@@ -10,7 +10,7 @@ import zipfile
 
 # DE positives
 def de(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	df = pd.read_csv('https://myhealthycommunity.dhss.delaware.gov/locations/state/download_covid_19_data')
 	df = df[df['Unit'] == 'tests'].set_index(['Year', 'Month', 'Day']).sort_index()
 	print(df.loc[df.index.unique()[-3]][['Statistic', 'Value']], file=f)
@@ -20,7 +20,7 @@ def de(f):
 # HI PCR Test Encounters and update time
 def hi(f):
 	# HI PCR Test Encounters
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	hi = pd.read_csv("https://public.tableau.com/views/EpiCurveApr4/CSVDownload.csv?:showVizHome=no")
 	print(hi.select_dtypes(exclude=['object']).sum(), file=f)
 
@@ -34,7 +34,7 @@ def hi(f):
 
 # MA
 def ma(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	url = 'https://www.mass.gov/info-details/covid-19-response-reporting'
 	req = requests.get(url)
 	soup = BeautifulSoup(req.text, 'html.parser')
@@ -74,14 +74,14 @@ def ma(f):
 # ME
 # make sure that this does not collapse upon printing
 def me(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	print(pd.read_csv("https://gateway.maine.gov/dhhs-apps/mecdc_covid/hospital_capacity.csv", nrows=1, usecols=[0,1,2,3]).sum(), file=f)
 	print("\n\n", file=f)
 
 
 # MI Testing
 def mi(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	url = 'https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html'
 
 	req = requests.get(url)
@@ -97,7 +97,7 @@ def mi(f):
 
 # NC Antigen tests
 def nc(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	nc = pd.read_csv("https://public.tableau.com/views/NCDHHS_COVID-19_DataDownload/DailyTestingMetrics.csv", parse_dates=['Date'], index_col='Date', thousands=',')
 	print(nc.pivot(columns='Measure Names').sum().astype('int64'), file=f)
 	print("\n\n", file=f)
@@ -105,7 +105,7 @@ def nc(f):
 
 # ND Negatives and Testing
 def nd(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	url = "https://static.dwcdn.net/data/NVwou.csv"
 	headers = {"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:79.0) Gecko/20100101 Firefox/79.0"}
 	req = requests.get(url, headers=headers)
@@ -119,7 +119,7 @@ def nd(f):
 
 # OH testing
 def oh(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	key_url = "https://data.ohio.gov/apigateway-secure/data-portal/download-file/cba54974-06ab-4ec8-92bc-62a83b40614e?key=2b4420ffc0c5885f7cd42a963cfda0b489a9a6dff49461e1a921b355ee0424c029cf4ff2ee80c8c82ef901d818d71f9def8cba3651f6595bd6a07e1477438b97bbc5d7ccf7b5b66c154779ce7a4f5b83"
 	testing_url = "https://data.ohio.gov/apigateway-secure/data-portal/download-file/2ad05e55-2b1a-486c-bc07-ecb3be682d29?key=e42285cfa9a0b157b3f1bdaadcac509c44db4cfa0f90735e12b770acb1307b918cee14d5d8e4d4187eb2cab71fc9233bda8ee3eed924b8a3fad33aaa6c8915fe6f3de6f82ad4b995c2359b168ed88fa9"
 	url = testing_url
@@ -130,7 +130,7 @@ def oh(f):
 
 # TX
 def tx(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	url = 'https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx'
 	df = pd.read_excel(url, sheet_name='COVID-19 ICU', skiprows=2)
 	print("ICU", file=f)
@@ -160,7 +160,7 @@ def tx(f):
 
 # UT
 def ut(f):
-    print("Run at: ", datetime.now(), "\n", file=f)
+    print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
     url = 'https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip'
     res = requests.get(url)
     zipdata = BytesIO(res.content)
@@ -183,7 +183,7 @@ def ut(f):
 
 # WA
 def wa(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	wa_link = 'https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/PUBLIC_Tests_by_Specimen_Collection.xlsx'
 	print("Link = ", wa_link, file=f)
 
@@ -195,7 +195,7 @@ def wa(f):
 
 # WI PCR Testing Encounters
 def wi(f):
-	print("Run at: ", datetime.now(), "\n", file=f)
+	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	wi = pd.read_csv("https://bi.wisconsin.gov/t/DHS/views/PercentPositivebyTestPersonandaComparisonandTestCapacity/TestCapacityDashboard.csv", thousands=",")
 	print("PCR Testing Encounters: " + str(wi[wi['Measure Names'] == 'Total people tested daily']['Number of Tests'].sum()), file=f)
 	print("\n\n", file=f)
@@ -203,7 +203,7 @@ def wi(f):
 
 # WV Testing
 def wv(f): 
-    print("Run at: ", datetime.now().isoformat(), "\n", file=f)
+    print("Run at: ", datetime.now(tz('US/Eastern')).isoformat(), "\n", file=f)
     wv = pd.read_csv("https://raw.githubusercontent.com/COVID19Tracking/covid19-datafetcher/data/wv_lab_tests.csv", thousands=",")
     print(wv.loc[:, wv.columns != 'date'].sum(axis=0), file=f)
     print("\n\n", file=f)
@@ -218,7 +218,7 @@ def main():
 			try:
 				fun(f)
 			except:
-				print("Encountered an error running at", datetime.now(), file=f)
+				print("Encountered an error running at", datetime.now(tz('US/Eastern')), file=f)
 
 
 if __name__ == "__main__":
