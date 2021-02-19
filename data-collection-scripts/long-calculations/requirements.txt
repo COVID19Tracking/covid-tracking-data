@@ -1,0 +1,5 @@
+pandas
+requests
+pytz
+bs4
+openpyxl
