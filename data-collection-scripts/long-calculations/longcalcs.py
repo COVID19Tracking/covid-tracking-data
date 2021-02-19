@@ -32,7 +32,7 @@ def hi(f):
 	print("\n\n", file=f)
 
 
-# MA
+# MA Cases, Tests, and Hospitalizations
 def ma(f):
 	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	url = 'https://www.mass.gov/info-details/covid-19-response-reporting'
@@ -71,8 +71,7 @@ def ma(f):
 	print("\n\n", file=f)
 
 
-# ME
-# make sure that this does not collapse upon printing
+# ME Hospitalizations
 def me(f):
 	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	print(pd.read_csv("https://gateway.maine.gov/dhhs-apps/mecdc_covid/hospital_capacity.csv", nrows=1, usecols=[0,1,2,3]).sum(), file=f)
@@ -128,7 +127,7 @@ def oh(f):
 	print("\n\n", file=f)
 
 
-# TX
+# TX Time, Testing, and ICU
 def tx(f):
 	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	url = 'https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx'
@@ -158,7 +157,7 @@ def tx(f):
 	print("\n\n", file=f)
 
 
-# UT
+# UT Testing
 def ut(f):
     print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
     url = 'https://coronavirus-dashboard.utah.gov/Utah_COVID19_data.zip'
@@ -181,7 +180,7 @@ def ut(f):
         print("\n\n", file=f)
 
 
-# WA
+# WA Testing
 def wa(f):
 	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	wa_link = 'https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/PUBLIC_Tests_by_Specimen_Collection.xlsx'
