@@ -211,7 +211,7 @@ def wv(f):
 def main():
 	state = ['de','hi','ma','me', 'mi', 'nc', 'nd', 'oh', 'tx', 'ut', 'wa', 'wi', 'wv']
 	for s in state:
-		path = '../data/' + s + '.txt'
+		path = '../../data/long_calculations/' + s + '.txt'
 		fun = globals()[s]
 		with open(path, 'a+') as f:
 			try:
