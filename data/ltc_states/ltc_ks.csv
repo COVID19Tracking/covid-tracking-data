@@ -1,7 +1,7 @@
 date_collected,state,County-alias,City or State-alias,Facility-value,Type-value,blank,blank,blank,blank,Last Onset Date-value,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,SUM(Number of Cases within 14 days)-alias
-20210218,KS,Lyon,Emporia,Emporia Presbyterian Manor     -- November,Long Term Care Facility,,,,,2021-02-08,,,,,,,,,,,,,,,,,,,,,,,,8
-20210218,KS,Wyandotte,Kansas City,Healthcare Resort of KC,Long Term Care Facility,,,,,2021-02-15,,,,,,,,,,,,,,,,,,,,,,,,6
-20210218,KS,Shawnee,Topeka,Healthcare Resort of Topeka,Long Term Care Facility,,,,,2021-02-15,,,,,,,,,,,,,,,,,,,,,,,,5
-20210218,KS,Coffey,Burlington,Life Care Center of Burlington,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,8
-20210218,KS,Pottawatomie,Onaga,St. Mary's Manor,Long Term Care Facility,,,,,2021-02-15,,,,,,,,,,,,,,,,,,,,,,,,17
+20210219,KS,Lyon,Emporia,Emporia Presbyterian Manor     -- November,Long Term Care Facility,,,,,2021-02-08,,,,,,,,,,,,,,,,,,,,,,,,8
+20210219,KS,Wyandotte,Kansas City,Healthcare Resort of KC,Long Term Care Facility,,,,,2021-02-15,,,,,,,,,,,,,,,,,,,,,,,,6
+20210219,KS,Shawnee,Topeka,Healthcare Resort of Topeka,Long Term Care Facility,,,,,2021-02-15,,,,,,,,,,,,,,,,,,,,,,,,5
+20210219,KS,Coffey,Burlington,Life Care Center of Burlington,Long Term Care Facility,,,,,2021-02-05,,,,,,,,,,,,,,,,,,,,,,,,8
+20210219,KS,Pottawatomie,Onaga,St. Mary's Manor,Long Term Care Facility,,,,,2021-02-15,,,,,,,,,,,,,,,,,,,,,,,,17
 
