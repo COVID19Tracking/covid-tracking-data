@@ -48,3 +48,13 @@ dtype: object
 
 
 
+Run at:  2021-02-21 16:38:20.439418-05:00 
+
+Date                                                2021-02-20
+Hospitalized- Total COVID-19 Patients                       75
+Hospitalized- COVID-19 Patients In Critical Care            24
+Hospitalized- COVID-19 Patients on Ventilators               6
+dtype: object
+
+
+
