@@ -30,3 +30,11 @@ dtype: float64
 
 
 
+Run at:  2021-02-21T04:39:57.109389-05:00 
+
+Confirmatory Lab Test      2065487
+Daily Antibody Lab Test      31754
+dtype: int64
+
+
+
