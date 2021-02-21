@@ -266,7 +266,9 @@ Hospitalized – AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""In
 in ICU – AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""ICU Beds for COVID-19"" > mouse over most recent date in bar chart > ""Number:"". Cumulative
 in ICU – . Currently 
 on Ventilator – AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""Ventilators in Use COVID-19"" > mouse over most recent date in bar chart > ""Number:"". Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – long formula:
+on Ventilator – . Hospital Discharges – long formula:
+We sum the daily discharged patients since March 10, 2020 to get a cumulative number of recovered patients.
+AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""COVID-19 Discharge"" > mouse over most recent bar in chart > ""Number:"" > Add to ""Long Formulas"" tab in sheet > enter the sum from the top. Recovered – long formula:
 We sum the daily discharged patients since March 10, 2020 to get a cumulative number of recovered patients.
 AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""COVID-19 Discharge"" > mouse over most recent bar in chart > ""Number:"" > Add to ""Long Formulas"" tab in sheet > enter the sum from the top. Deaths (confirmed and probable) – AZ dash > tab ""Summary"" > ""Number of Deaths"". ",,,,,"AZ dash > ""Date Updated""
 
@@ -275,7 +277,9 @@ note: screenshot this page with the diagnostic tests selected
 screenshot: https://internal.covidtracking.com/screenshot?state=AZ&datatype=taco&subtype=data-dashboard",,,"AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""confirmed""
 ","AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""probable""
 ","AZ dash > tab ""Summary"" > ""Total COVID-19 Diagnostic Tests""","AZ dash > tab ""Summary"" > ""Number of Cases""","calculated:
-WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""Inpatient COVID-19"" > mouse over most recent date in bar chart > ""Number:""","AZ dash > tab ""Hospitalization"" > ""Number of Cases Hospitalized""","AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""ICU Beds for COVID-19"" > mouse over most recent date in bar chart > ""Number:""",,"AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""Ventilators in Use COVID-19"" > mouse over most recent date in bar chart > ""Number:""",,,"long formula:
+WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""Inpatient COVID-19"" > mouse over most recent date in bar chart > ""Number:""","AZ dash > tab ""Hospitalization"" > ""Number of Cases Hospitalized""","AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""ICU Beds for COVID-19"" > mouse over most recent date in bar chart > ""Number:""",,"AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""Ventilators in Use COVID-19"" > mouse over most recent date in bar chart > ""Number:""",,"long formula:
+We sum the daily discharged patients since March 10, 2020 to get a cumulative number of recovered patients.
+AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""COVID-19 Discharge"" > mouse over most recent bar in chart > ""Number:"" > Add to ""Long Formulas"" tab in sheet > enter the sum from the top","long formula:
 We sum the daily discharged patients since March 10, 2020 to get a cumulative number of recovered patients.
 AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""COVID-19 Discharge"" > mouse over most recent bar in chart > ""Number:"" > Add to ""Long Formulas"" tab in sheet > enter the sum from the top","AZ dash > tab ""Summary"" > ""Number of Deaths""","AZ dash > tab ""Summary"" > hover over ""Number of Deaths"" > ""confirmed"" ","AZ dash > tab ""Summary"" > hover over ""Number of Deaths"" > ""probable"" ",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.azdhs.gov/preparedness/epidemiology-disease-control/infectious-disease-epidemiology/index.php#novel-coronavirus-home,AZ
 CA,California,https://public.tableau.com/views/COVID-19CasesDashboard_15931020425010/Cases?:embed=y&:showVizHome=no,https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx,https://www.twitter.com/CAPublicHealth,https://www.cdph.ca.gov/Programs/OPA/Pages/New-Release-2020.aspx,,https://public.tableau.com/views/COVID-19HospitalsDashboard/Hospitals?:embed=y&:showVizHome=no,,"On December 16, 2020, California [announced](https://www.cdph.ca.gov/Programs/OPA/Pages/NR20-338.aspx) that their cases for December 16, 2020 include 15,337 cases from previous days due to a change in case processing. It appears this new process will regularly include a higher volume of cases that were not identified within the previous 24 hours.
@@ -329,7 +333,11 @@ note: scroll beneath dashboard for toggle","CO primary > ""People Tested""","CO 
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"calculated: 
 CO primary > scroll beneath dashboard and toggle dark blue rectangle labeled ""Hospital Data Snapshot"" > {Number of patients currently hospitalized for confirmed COVID-19 + Patients currently hospitalized as COVID-19 persons under investigation}
 
-note: scroll beneath dashboard for toggle, do not click the button near the top of the dashboard labeled Hospital Data","CO primary > ""Hospitalized""",,,,,,"long formula:
+note: scroll beneath dashboard for toggle, do not click the button near the top of the dashboard labeled Hospital Data","CO primary > ""Hospitalized""",,,,,"long formula:
+We sum the daily discharged patients since March 10, 2020 to get a cumulative number of recovered patients.
+CO primary > toggle dark blue rectangle below dashboard ""Hospital data snapshot"" > ""Number of patients discharged/transferred within past the 24 hours"" > go to Long Formula tab below > CO column > add most recent discharge value to the proper date > take number from the ""Date v / sum ->"" row and enter it here
+
+note: scroll beneath dashboard for toggle, do not click the button near the top of the dashboard labeled Hospital Data","long formula:
 We sum the daily discharged patients since March 10, 2020 to get a cumulative number of recovered patients.
 CO primary > toggle dark blue rectangle below dashboard ""Hospital data snapshot"" > ""Number of patients discharged/transferred within past the 24 hours"" > go to Long Formula tab below > CO column > add most recent discharge value to the proper date > take number from the ""Date v / sum ->"" row and enter it here
 
