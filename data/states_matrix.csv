@@ -715,7 +715,7 @@ As of April 9, 2020, Idaho reports **probable and confirmed cases** separately. 
 yesterday / 17:00
 
 note: do not update the timestamp if data is unchanged.
-note: ID is on a one dag lag, since 5:00 MT is after we publish on most days. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: weekly
+note: ID is on a one dag lag, since 5:00 MT is after we publish on most days. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: monthly
 
 ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
 
@@ -745,7 +745,7 @@ on Ventilator – . Hospital Discharges – . Recovered – ID dash > tab ""Stat
 yesterday / 17:00
 
 note: do not update the timestamp if data is unchanged.
-note: ID is on a one dag lag, since 5:00 MT is after we publish on most days",,,,"updates: weekly
+note: ID is on a one dag lag, since 5:00 MT is after we publish on most days",,,,"updates: monthly
 
 ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
 
@@ -843,7 +843,7 @@ KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People"". Posi
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases"". Negative (People or Cases) – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests"". Pending – . Currently 
 Hospitalized – updates: Monday, Wednesday, Friday
-KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted"". Cumulative Hospitalized – updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Capacity"" > ""COVID-19 Patients Admitted"". Cumulative Hospitalized – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
 . Currently
 in ICU – updates: Monday, Wednesday, Friday
@@ -865,7 +865,7 @@ KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""PCR Tests""",,
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Cases""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests""",,"updates: Monday, Wednesday, Friday
-KS dash > tab ""Hospital Capcity"" > ""COVID-19 Patients Admitted""","updates: Monday, Wednesday, Friday
+KS dash > tab ""Hospital Capacity"" > ""COVID-19 Patients Admitted""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
 ","updates: Monday, Wednesday, Friday
 KS dash > tab"" Hospital Capacity"" > ""ICU Beds Used (COVID-19)""","updates: Monday, Wednesday, Friday
@@ -2679,7 +2679,7 @@ WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"calculated:
 VT dash > {Currently Hospitalized + Hospitalized Under Investigation}
 
 note: be careful not to use ""Currently in ICU"" instead of ""Hospitalized Under Investigation""",,"VT dash > ""Hospitalized in ICU""",,,,,"VT dash > ""Recovered""","VT dash > ""Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://experience.arcgis.com/experience/85f43bd849e743cb957993a545d17170,VT
-WA,Washington,https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,https://www.twitter.com/WADeptHealth,,,https://app.powerbigov.us/view?r=eyJrIjoiNGRkNTMzMWQtMTMyOC00NmRiLThiZDEtMzQ2NzdiMzkxOWVhIiwidCI6IjExZDBlMjE3LTI2NGUtNDAwYS04YmEwLTU3ZGNjMTI3ZDcyZCJ9,,"Washington’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
+WA,Washington,https://www.doh.wa.gov/Emergencies/NovelCoronavirusOutbreak2020COVID19/DataDashboard,https://www.doh.wa.gov/Emergencies/Coronavirus,https://www.twitter.com/WADeptHealth,,,https://coronavirus.wa.gov/what-you-need-know/roadmap-recovery-metrics,,"Washington’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
 
 Washington State reports **confirmed cases**, **laboratory tests**, and **deaths** as of the previous day. 
 
@@ -2771,9 +2771,9 @@ long calculation > hover over ""# WA"" > click play button > ""Negative"". Posit
 . Probable Cases – WA dash > pg. 1 > ""Probable Cases""
 . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – WA dash > pg. 1 > ""Total Cases""
 . Negative (People or Cases) – . Pending – . Currently 
-Hospitalized – WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19"". Cumulative Hospitalized – WA dash > pg. 1 > ""Hospitalizations""
+Hospitalized – WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19"". Cumulative Hospitalized – WA dash > pg. 1 > ""Hospitalizations""
 . Currently
-in ICU – WA other > button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases"". Cumulative
+in ICU – WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases"". Cumulative
 in ICU – . Currently 
 on Ventilator – WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date. Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – WA dash > pg. 1 > ""Deaths""
@@ -2790,8 +2790,8 @@ calculated:
 long calculation > hover over ""# WA"" > click play button > ""Negative""","WA dash > pg. 1 > ""Confirmed Cases""
 ","WA dash > pg. 1 > ""Probable Cases""
 ",,"WA dash > pg. 1 > ""Total Cases""
-",,,"WA other > button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
-","WA other > button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases""",,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,,"WA dash > pg. 1 > ""Deaths""
+",,,"WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
+","WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases""",,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,,"WA dash > pg. 1 > ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.doh.wa.gov/Emergencies/Coronavirus,WA
 WI,Wisconsin,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.twitter.com/DHSWI,,,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm#capabilities,,"On February 8, 2021, Wisconsin's Total PCR tests (test encounters) decreased by roughly 13,000 without explanation.
 
@@ -2925,8 +2925,7 @@ WY site > click link ""COVID-19 Testing Data"" > table ""COVID-19 Resulted Tests
 download
 WY primary > scroll all the way down to the tableau bottom menu bar > click second icon from right Download > select ""Crosstab"" > select ""Lab By date"" > download > sum of row 4 ""Number of positives""
 
-note: some people do not see the ""Lab By date"" option in the pop-up, if that's the case ask another DC/SL to post it in a thread
-note: post the file as a screenshot
+note: upload the file as a screenshot, not a picture of the file. 
 screenshot: https://internal.covidtracking.com/screenshot?state=WY&datatype=taco&subtype=primary-source","updates: weekdays
  download 
 WY primary > scroll all the way down to the tableau bottom menu bar > click second icon from right Download > select ""Crosstab"" > select ""Lab By date"" > download > sum of row 3 ""Number of negatives"" ","WY dash > ""Lab Confirmed Cases""
