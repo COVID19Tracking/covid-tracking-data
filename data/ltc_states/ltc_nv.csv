@@ -1,12 +1,12 @@
 Facility Name,Facility Type,County,Unique Confirmed Cases,Deaths Residents/Patients,Deaths Staff,Attack Rate Residents/Patients,Attack Rate Staff,Confirmed COVID-19 Cases Residents/Patients,Confirmed COVID-19 Cases Staff,Confirmed COVID-19 Cases Imported
-Select all-Assisted Living,Assisted Living,Carson City,2223,224,3,28.38%,21.95%,"1,413",810,62
+Select all-Assisted Living,Assisted Living,Carson City,2229,224,3,28.44%,21.99%,"1,417",812,62
 A HAND OF HOPE,Assisted Living,Clark,2,0,0,50.00%,33.33%,1,1,0
 A SUMMERDALE HOMES @ RIATA,Assisted Living,Washoe,7,0,0,100.00%,0.00%,7,0,0
 ABSOLUTE CIRCLE OF CARE,Assisted Living,Clark,1,0,0,0.00%,33.33%,0,1,0
 ACACIA OASIS,Assisted Living,Clark,23,0,0,28.57%,16.67%,10,13,1
 AEGIS LIVING,Assisted Living,Clark,11,0,0,8.16%,14.00%,4,7,0
 ALEBRIS OF CRYSTAL SPRINGS,Assisted Living,Clark,11,0,0,77.78%,66.67%,7,4,0
-ALOHA PARADISE CARE HOME,Assisted Living,Clark,1,0,0,0.00%,33.33%,0,1,0
+ALOHA PARADISE CARE HOME,Assisted Living,Clark,2,0,0,14.29%,33.33%,1,1,0
 ALZHEIMER LUXURY CARE,Assisted Living,Clark,7,2,0,85.71%,20.00%,6,1,0
 AMERICAN SENIOR HOME-ROBINDALE/ LANIKEHA RESIDENTIAL,Assisted Living,Clark,5,0,0,33.33%,100.00%,2,3,0
 AMY'S CABIN HIRC,Assisted Living,Carson City,2,1,0,50.00%,50.00%,1,1,0
@@ -80,13 +80,14 @@ LIFE SHARE CARE HOME,Assisted Living,Clark,12,1,0,100.00%,66.67%,8,4,0
 LIVE N LOVE,Assisted Living,Clark,3,1,0,33.33%,33.33%,2,1,0
 LONGEVITY RESIDENTIAL CARE,Assisted Living,Washoe,9,0,0,100.00%,33.33%,7,2,0
 MARTHA'S HOUSE SENIOR LIVING,Assisted Living,Clark,1,0,0,20.00%,0.00%,1,0,0
-MARVEL MANOR,Assisted Living,Clark,11,3,0,60.00%,55.56%,6,5,0
+MARVEL MANOR,Assisted Living,Clark,13,3,0,70.00%,66.67%,7,6,0
 MAR-VON SENIOR CARE,Assisted Living,Washoe,14,1,0,71.43%,100.00%,10,4,0
 MASON VALLEY RESIDENCE,Assisted Living,Lyon,39,4,0,75.00%,60.00%,24,15,0
+MAYHILL MANOR,Assisted Living,Clark,2,0,0,25.00%,33.33%,1,1,0
 MERRILL GARDENS AT GREEN VALLEY RANCH,Assisted Living,Clark,15,2,0,9.57%,14.29%,9,6,0
 MERRILL GARDENS AT SIENA HILLS (ASSISTED LIVING),Assisted Living,Clark,40,2,0,29.87%,36.96%,23,17,0
 MERRILL GARDENS AT SIENA HILLS (GARDEN HOUSE MEMORY CARE),Assisted Living,Clark,35,5,0,74.29%,34.62%,26,9,0
-MESA VALLEY ESTATES,Assisted Living,Clark,7,1,0,16.67%,2.56%,6,1,1
+MESA VALLEY ESTATES,Assisted Living,Clark,8,1,0,19.44%,2.56%,7,1,1
 MIJN CORP 1748 MINER WAY,Assisted Living,Clark,1,0,0,33.33%,0.00%,1,0,0
 MIJN CORP 4009 E ST LOUIS AVE,Assisted Living,Clark,4,0,0,100.00%,100.00%,3,1,0
 MIMI'S CARE HOME,Assisted Living,Clark,7,1,0,80.00%,50.00%,4,3,0
@@ -151,7 +152,7 @@ WE CARE RESIDENTIAL,Assisted Living,Clark,7,1,0,50.00%,66.67%,3,4,0
 WELBROOK GRAND MONTECITO,Assisted Living,Clark,20,1,0,86.67%,35.00%,13,7,0
 WENTWORTH OF LAS VEGAS,Assisted Living,Clark,41,4,0,22.52%,19.28%,25,16,0
 YSL CARE HOME LLC (HIRC),Assisted Living,Clark,1,0,0,0.00%,50.00%,0,1,0
-Select all-Skilled Nursing,Skilled Nursing,Carson City,5228,492,11,50.01%,28.99%,"2,848","2,380",502
+Select all-Skilled Nursing,Skilled Nursing,Carson City,5252,492,11,50.38%,29.02%,"2,869","2,383",504
 ADVANCED HEALTH CARE OF HENDERSON,Skilled Nursing,Clark,19,3,0,34.29%,8.97%,12,7,1
 ADVANCED HEALTH CARE OF LAS VEGAS,Skilled Nursing,Clark,28,2,0,25.93%,28.00%,7,21,2
 ADVANCED HEALTH CARE OF PARADISE,Skilled Nursing,Clark,53,3,0,87.88%,29.63%,29,24,14
@@ -195,13 +196,13 @@ NEURORESTORATIVE NEVADA,Skilled Nursing,Washoe,29,1,0,16.67%,40.00%,3,26,1
 NEVADA STATE VETERANS HOME - BOULDER CITY,Skilled Nursing,Clark,139,15,0,39.16%,32.31%,65,74,8
 NORTH LAS VEGAS CARE CENTER,Skilled Nursing,Clark,144,2,0,55.70%,37.09%,88,56,0
 NORTHERN NEVADA STATE VETERANS HOME,Skilled Nursing,Washoe,59,4,0,21.05%,25.00%,16,43,0
-ORMSBY POST-ACUTE REHAB,Skilled Nursing,Carson City,68,15,1,40.26%,0.00%,31,37,0
+ORMSBY POST-ACUTE REHAB,Skilled Nursing,Carson City,88,15,1,64.94%,0.00%,50,38,2
 PAHRUMP HEALTH AND REHABILITATION CENTER,Skilled Nursing,Nye,64,8,1,61.43%,20.79%,43,21,5
 PERSHING GENERAL HOSPITAL AND NURSING HOME,Skilled Nursing,Pershing,11,0,0,8.00%,11.25%,2,9,0
 PREMIER HEALTH AND REHAB,Skilled Nursing,Clark,75,15,0,62.50%,25.00%,45,30,0
 ROSEWOOD REHABILITATION CENTER,Skilled Nursing,Washoe,91,12,0,54.67%,34.48%,41,50,4
 ROYAL SPRINGS HEALTHCARE AND REHAB,Skilled Nursing,Clark,180,8,2,50.00%,21.85%,109,71,77
-SAGE CREEK POST-ACUTE,Skilled Nursing,Clark,39,1,0,45.16%,38.46%,14,25,5
+SAGE CREEK POST-ACUTE,Skilled Nursing,Clark,43,1,0,51.61%,41.54%,16,27,5
 SIERRA RIDGE HEALTH AND WELLNESS SUITES,Skilled Nursing,Washoe,11,0,0,13.79%,13.21%,4,7,0
 SILVER HILLS HEALTH CARE CENTER,Skilled Nursing,Clark,151,14,0,72.52%,32.75%,95,56,47
 SILVER RIDGE HEALTH CARE CENTER,Skilled Nursing,Clark,219,25,0,84.85%,69.03%,112,107,76
