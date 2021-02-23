@@ -1,5 +1,5 @@
 Facility Name,Facility Type,County,Unique Confirmed Cases,Deaths Residents/Patients,Deaths Staff,Attack Rate Residents/Patients,Attack Rate Staff,Confirmed COVID-19 Cases Residents/Patients,Confirmed COVID-19 Cases Staff,Confirmed COVID-19 Cases Imported
-Select all-Assisted Living,Assisted Living,Carson City,2229,224,3,28.44%,21.99%,"1,417",812,62
+Select all-Assisted Living,Assisted Living,Carson City,2233,224,3,28.47%,21.96%,"1,421",812,62
 A HAND OF HOPE,Assisted Living,Clark,2,0,0,50.00%,33.33%,1,1,0
 A SUMMERDALE HOMES @ RIATA,Assisted Living,Washoe,7,0,0,100.00%,0.00%,7,0,0
 ABSOLUTE CIRCLE OF CARE,Assisted Living,Clark,1,0,0,0.00%,33.33%,0,1,0
@@ -128,8 +128,9 @@ SILVER SKY ASSISTED LIVING,Assisted Living,Clark,13,0,0,16.25%,0.00%,13,0,0
 SILVER SKY AT DEER SPRINGS ASSISTED LIVING,Assisted Living,Clark,9,1,0,7.78%,4.88%,7,2,0
 SILVERADO RANCH MEMORY CARE,Assisted Living,Clark,9,0,0,50.00%,57.14%,5,4,0
 SKYLINE ESTATES (9346),Assisted Living,Carson City,20,8,0,18.18%,13.33%,14,6,1
+SOUTH MEADOWS RESIDENTIAL CARE HOME,Assisted Living,Washoe,3,0,0,37.50%,0.00%,3,0,0
 STERLING RIDGE,Assisted Living,Clark,28,4,0,18.07%,20.00%,15,13,0
-STONE VALLEY ALZHEIMERS SPECIAL CARE CENTER,Assisted Living,Washoe,44,6,0,78.57%,28.95%,33,11,0
+STONE VALLEY ALZHEIMERS SPECIAL CARE CENTER,Assisted Living,Washoe,45,6,0,80.95%,28.95%,34,11,0
 SUMMIT ESTATES ASSISTED LIVING AND MEMORY CARE,Assisted Living,Washoe,26,1,0,14.78%,12.50%,17,9,0
 SUNRISE OF HENDERSON ASSISTED LIVING,Assisted Living,Clark,52,5,0,32.84%,42.86%,22,30,0
 THE AMERICANA ASSISTED LIVING,Assisted Living,Clark,2,0,0,4.00%,5.00%,1,1,0
@@ -152,13 +153,13 @@ WE CARE RESIDENTIAL,Assisted Living,Clark,7,1,0,50.00%,66.67%,3,4,0
 WELBROOK GRAND MONTECITO,Assisted Living,Clark,20,1,0,86.67%,35.00%,13,7,0
 WENTWORTH OF LAS VEGAS,Assisted Living,Clark,41,4,0,22.52%,19.28%,25,16,0
 YSL CARE HOME LLC (HIRC),Assisted Living,Clark,1,0,0,0.00%,50.00%,0,1,0
-Select all-Skilled Nursing,Skilled Nursing,Carson City,5252,492,11,50.38%,29.02%,"2,869","2,383",504
+Select all-Skilled Nursing,Skilled Nursing,Carson City,5254,493,11,50.40%,29.03%,"2,870","2,384",504
 ADVANCED HEALTH CARE OF HENDERSON,Skilled Nursing,Clark,19,3,0,34.29%,8.97%,12,7,1
 ADVANCED HEALTH CARE OF LAS VEGAS,Skilled Nursing,Clark,28,2,0,25.93%,28.00%,7,21,2
 ADVANCED HEALTH CARE OF PARADISE,Skilled Nursing,Clark,53,3,0,87.88%,29.63%,29,24,14
 ADVANCED HEALTH CARE OF RENO,Skilled Nursing,Washoe,22,0,0,16.67%,10.00%,7,15,0
 ADVANCED HEALTH CARE OF SUMMERLIN,Skilled Nursing,Clark,37,4,0,59.38%,32.73%,19,18,5
-ALTA SKILLED NURSING AND REHABILITATION CENTER,Skilled Nursing,Washoe,183,14,0,64.61%,34.69%,115,68,18
+ALTA SKILLED NURSING AND REHABILITATION CENTER,Skilled Nursing,Washoe,185,15,0,65.17%,35.20%,116,69,18
 BATTLE MOUNTAIN GENERAL HOSPITAL SKILLED NURSING FACILITY,Skilled Nursing,Lander,27,1,0,31.82%,111.11%,7,20,0
 BOULDER CITY HOSPITAL (SNF),Skilled Nursing,Clark,2,0,0,2.56%,2.63%,1,1,0
 CANYON VISTA,Skilled Nursing,Clark,216,17,0,121.65%,40.00%,118,98,8
