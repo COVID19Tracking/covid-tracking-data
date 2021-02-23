@@ -380,10 +380,7 @@ note: do not update if report does not include a new value. Currently
 in ICU – . Cumulative
 in ICU – . Currently 
 on Ventilator – . Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – updates: never
-
-note: the state stopped reporting this number 10/22, if you see a Recovered/Recoveries number let the shift lead know
-note: do not update if report does not include a new value. Deaths (confirmed and probable) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Associated Deaths"" > ""Total"" . ",,,,,"CT primary > in text at top of page ""As of...""
+on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Associated Deaths"" > ""Total"" . ",,,,,"CT primary > in text at top of page ""As of...""
 
 above date / 23:59
 
@@ -393,10 +390,7 @@ WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"CT primary > table ""Connect
 
 note: the state stopped reporting this number 10/22, if you see a Cumulative Hospitalization number let the shift lead know
 note: if there's no update it will not be in the pdf
-note: do not update if report does not include a new value",,,,,,"updates: never
-
-note: the state stopped reporting this number 10/22, if you see a Recovered/Recoveries number let the shift lead know
-note: do not update if report does not include a new value","CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Associated Deaths"" > ""Total"" ","CT query > link JSON (cases, death, hosp, date, SODA API) > ""confirmeddeaths"":
+note: do not update if report does not include a new value",,,,,,,"CT primary > table ""Connecticut COVID-19 Summary"" > row ""COVID-19 Associated Deaths"" > ""Total"" ","CT query > link JSON (cases, death, hosp, date, SODA API) > ""confirmeddeaths"":
 
 note: the link will open a page with a text string from the api, look for the value after the term ""confirmeddeaths""","CT query > link JSON (cases, death, hosp, date, SODA API) > ""probabledeaths""
 
