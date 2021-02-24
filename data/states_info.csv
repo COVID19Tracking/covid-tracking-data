@@ -695,6 +695,8 @@ NJ,"The **Recovered** data point we report for New Jersey reflects the number of
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)**.
 
+New Jersey does not update their **Total PCR tests (specimens)** everyday. If **Total PCR tests (specimens)** is not updated, we are unable to update their **Negative PCR tests (specimens)**, which is calculated as **Total PCR tests (specimens)** minus **Confirmed cases**.
+
 On February 8, 2021, New Jersey [reported](https://twitter.com/GovMurphy/status/1358841345859870721) that today's data is artificially low due to electronic lab reporting issues. Data reported on February 9, 2021 is expected to correct the backlog.
 
 On January 15, 2021, New Jersey’s Probable cases decreased from 59,881 to 31,717 on their [data dashboard](https://covid19.nj.gov/#live-updates) without explanation. We believe this decrease may have been a mistake and sourced this data point from the [underlying data layer](https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/DailyCaseCounts/Feat[…]27%2C+%27onStatisticField%27%3A+%27TOTAL_AG_CASES%27%7D%5D) (today's value is 60,791) in order to avoid the decrease.
@@ -702,8 +704,6 @@ On January 15, 2021, New Jersey’s Probable cases decreased from 59,881 to 31,7
 On January 8, 2021 New Jersey’s Probable cases increased from 53,967 to 72,123 without explanation. This affected their Cases (confirmed + probable), which is calculated as Confirmed cases plus Probable cases in the absence of an explicit total case number. On January 9, 2021, their Probable cases decreased from 72,123 to 56,147. Because of this, we believe that the figure reported on January 8, 2021 was a mistake, and have corrected the number in our timeseries. 
 
 On October 23, New Jersey's reported **Ever hospitalized** value increased dramatically from 24,517 to 37,222 with no explanation we could find: this was probably a one-time addition of backlogged data.
-
-On September 1, New Jersey did not update their total PCR test figure by the time of our update, however total cases increased from 191,160 to 192,290.
 
 On August 7, 2020, we back-filled New Jersey's **Probable deaths** with data provided by the state. This removed apparent spikes in deaths due to the state's irregular reporting.
 
