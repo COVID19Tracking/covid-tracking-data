@@ -119,3 +119,14 @@ Update time:  02/21/2021 08:30:00
 
 
 
+Run at:  2021-02-24 16:38:08.873387-05:00 
+
+New Cases                  26408
+New Positive Tests         26785
+Total Test Encounters    1070170
+dtype: int64
+
+Update time:  02/21/2021 08:30:00
+
+
+
