@@ -2315,7 +2315,7 @@ on Ventilator – SC other > ""COVID patients ventilated:"". Cumulative
 on Ventilator – . Hospital Discharges – . Recovered – calculated:
 SC primary > title ""State Recovery Estimate"" > you will need the recovery % and the number from the second paragraph that says ""...XXXX individuals for which we have symptom onset data...""
 
-note: if % recovered = 89% and individuals = 23548 the formula is =FLOOR(23548*0.89,1)
+note: if % recovered = 89% and individuals = 23548 the formula is =FLOOR(23548*0.891,1)
 
 note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – calculated:
@@ -2330,7 +2330,7 @@ SC dash > Total Positive Cases > {Confirmed + Probable}","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"SC other > ""COVID-19 patients hospitalized:""","SC primary > ""Hospitalizations All""","SC other > ""COVID patients in ICU:""",,"SC other > ""COVID patients ventilated:""",,,"calculated:
 SC primary > title ""State Recovery Estimate"" > you will need the recovery % and the number from the second paragraph that says ""...XXXX individuals for which we have symptom onset data...""
 
-note: if % recovered = 89% and individuals = 23548 the formula is =FLOOR(23548*0.89,1)
+note: if % recovered = 89% and individuals = 23548 the formula is =FLOOR(23548*0.891,1)
 
 note: if this metric does not update, leave the previous value in the cell
 ","calculated:
