@@ -1930,8 +1930,14 @@ As of November 23, 2020, New York's `totalTestResults` are drawn from our `total
 above date / 14:00
 
 note: in upper right corner of dash, make sure to use ""as of"" date/time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NY dash > ""Total Persons Tested"". Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NY dash > ""Total Tested Positive"". Negative (People or Cases) – . Pending – . Currently 
-Hospitalized – NY other > mouse over the blue bar in the latest day > ""Total COVID-19 Patients Hospitalized"". Cumulative Hospitalized – updates: never. Currently
-in ICU – NY other > mouse over the yellow bar in the latest day > ""Total COVID-19 Patients in ICU"". Cumulative
+Hospitalized – NY other > mouse over the blue bar in the latest day > ""Total COVID-19 Patients Hospitalized""
+
+note: screenshot this graph, hovering over the most recent day’s bar corresponding to COVID-19 patients hospitalized
+screenshot: https://internal.covidtracking.com/screenshot?state=NY&datatype=taco&subtype=other-source. Cumulative Hospitalized – updates: never. Currently
+in ICU – NY other > mouse over the yellow bar in the latest day > ""Total COVID-19 Patients in ICU""
+
+note: screenshot this graph, hovering over the most recent day’s bar corresponding to COVID-19 patients in ICU
+screenshot: https://internal.covidtracking.com/screenshot?state=NY&datatype=taco&subtype=other-source. Cumulative
 in ICU – . Currently 
 on Ventilator – NY press conferences > find most recent COVID related press release > title ""Today's data is summarized briefly below"" > ""Number ICU with Intubation""
 
@@ -1942,7 +1948,13 @@ note: search for ""intubated"" in the ""Refine > keyword"" search box on the lef
 
 above date / 14:00
 
-note: in upper right corner of dash, make sure to use ""as of"" date/time",,,,,,,,,,,,,"NY dash > ""Total Persons Tested""",,,,,,,"NY dash > ""Total Tested Positive""",,,"NY other > mouse over the blue bar in the latest day > ""Total COVID-19 Patients Hospitalized""",updates: never,"NY other > mouse over the yellow bar in the latest day > ""Total COVID-19 Patients in ICU""",,"NY press conferences > find most recent COVID related press release > title ""Today's data is summarized briefly below"" > ""Number ICU with Intubation""
+note: in upper right corner of dash, make sure to use ""as of"" date/time",,,,,,,,,,,,,"NY dash > ""Total Persons Tested""",,,,,,,"NY dash > ""Total Tested Positive""",,,"NY other > mouse over the blue bar in the latest day > ""Total COVID-19 Patients Hospitalized""
+
+note: screenshot this graph, hovering over the most recent day’s bar corresponding to COVID-19 patients hospitalized
+screenshot: https://internal.covidtracking.com/screenshot?state=NY&datatype=taco&subtype=other-source",updates: never,"NY other > mouse over the yellow bar in the latest day > ""Total COVID-19 Patients in ICU""
+
+note: screenshot this graph, hovering over the most recent day’s bar corresponding to COVID-19 patients in ICU
+screenshot: https://internal.covidtracking.com/screenshot?state=NY&datatype=taco&subtype=other-source",,"NY press conferences > find most recent COVID related press release > title ""Today's data is summarized briefly below"" > ""Number ICU with Intubation""
 
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values",,"NY press Conferences > find most recent COVID related press release > title ""Today's data is summarized briefly below"" > ""Total Discharges""
 
