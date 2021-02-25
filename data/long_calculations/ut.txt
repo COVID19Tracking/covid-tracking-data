@@ -286,3 +286,27 @@ PCR/amplification NEGATIVE  2478293
 
 
 
+Run at:  2021-02-25 04:47:06.314196-05:00 
+
+Metrics for People (from Overview_Number of People Tested by Date_2021-02-24.csv) 
+=================================================================================
+                              Count
+Test Type         Result           
+Antigen by DFA/IF NEGATIVE   291244
+                  POSITIVE    55574
+PCR/amplification NEGATIVE  1521375
+                  POSITIVE   312401
+
+
+
+Metrics for Tests (from Overview_Total Tests by Date_2021-02-24.csv) 
+====================================================================
+                              Count
+Test Type         Result           
+Antigen by DFA/IF NEGATIVE   867062
+                  POSITIVE    57982
+PCR/amplification NEGATIVE  2478293
+                  POSITIVE   341007
+
+
+
