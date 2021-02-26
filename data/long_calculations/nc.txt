@@ -163,3 +163,14 @@ dtype: int64
 
 
 
+Run at:  2021-02-26 16:38:23.025516-05:00 
+
+                Measure Names           
+Measure Values  Antigen Test                  749095
+                Daily Tests Total           10150647
+                Molecular Test               6570558
+                Positive Test Percentage          27
+dtype: int64
+
+
+
