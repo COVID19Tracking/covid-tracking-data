@@ -10,7 +10,7 @@ Brooke,Stonerise Wellsburg (Wellsburg-Valley Center),0,0,0,0,0,42,32,8,No
 Cabell,Cabell Health Care Center,0,0,0,0,0,0,9,0,No
 Cabell,Heritage Center,0,0,0,0,0,86,62,13,No
 Cabell,Huntington Health and Rehabilitation Center,29,3,26,96,73,125,78,26,Yes
-Cabell,Madison Park Healthcare,0,0,0,4,12,4,23,1,Yes
+Cabell,Madison Park Healthcare,0,0,0,0,0,4,23,1,No
 Cabell,St. Mary's Hospital,0,0,0,0,0,2,10,0,No
 Calhoun,Minnie Hamilton Health Care,0,0,0,0,0,0,5,0,No
 Clay,Clay Health Care Center,0,0,0,0,0,0,6,0,No
@@ -23,7 +23,7 @@ Fayette,Montgomery General Hospital (Skilled Nursing),0,0,0,0,0,7,12,4,No
 Gilmer,Glenville Center,0,0,0,0,0,48,25,0,No
 Grant,Grant Rehabilitation and Care Center,0,0,0,0,0,50,37,6,No
 Greenbrier,Greenbrier Health Care Center,0,0,0,0,0,19,12,1,No
-Greenbrier,Stonerise Lewisburg (Lewisburg Center),0,0,21,24,33,26,33,21,Yes
+Greenbrier,Stonerise Lewisburg (Lewisburg Center),0,0,0,0,0,37,33,21,No
 Greenbrier,Stonerise Rainelle (Meadow Garden),0,0,0,0,0,0,3,0,No
 Greenbrier,White Sulphur Springs Center,0,0,0,0,0,5,0,0,No
 Hampshire,Hampshire Center,0,0,0,0,0,40,19,1,No
@@ -45,28 +45,28 @@ Jefferson,Canterbury Center,0,0,0,0,0,1,3,0,No
 Jefferson,Shenandoah Center,0,0,0,0,0,19,4,4,No
 Jefferson,Willow Tree Healthcare Center,0,0,0,0,0,45,28,5,No
 Kanawha,Arthur B Hodges Center,0,0,0,0,0,1,11,0,No
-Kanawha,Cedar Ridge Center,0,0,0,2,5,83,47,6,Yes
+Kanawha,Cedar Ridge Center,0,0,0,0,0,83,47,6,No
 Kanawha,Columbia St. Francis Hospital,0,0,0,0,0,0,1,0,No
 Kanawha,Dunbar Center,0,0,0,0,0,12,32,1,No
-Kanawha,Glasgow Health and Rehabilitation Center,2,0,0,0,0,61,43,10,Yes
+Kanawha,Glasgow Health and Rehabilitation Center,1,0,0,0,0,60,43,10,Yes
 Kanawha,Marmet Center,0,0,0,0,0,60,31,11,No
 Kanawha,Meadowbrook Acres,0,0,0,0,0,52,44,13,No
 Kanawha,Oak Ridge Center,0,0,0,0,0,23,26,2,No
 Kanawha,Riverside Health and Rehabilitation Center,0,0,0,0,0,41,36,11,No
-Kanawha,Stonerise Charleston (Eastbrook Center),0,0,1,12,17,69,51,4,Yes
+Kanawha,Stonerise Charleston (Eastbrook Center),0,0,0,0,0,69,51,4,No
 Kanawha,Valley Center,0,0,0,0,0,118,72,22,No
 Lewis,Crestview Manor Nursing and Rehabilitation,0,0,0,0,0,4,6,0,No
 Lincoln,Lincoln Nursing and Rehabilitation Center,0,0,0,0,0,2,7,0,No
 Logan,Logan Center,0,0,0,0,0,31,13,1,No
-Logan,Trinity Health Care of Logan,0,1,0,0,6,97,77,18,Yes
+Logan,Trinity Health Care of Logan,0,0,0,0,0,97,77,18,No
 Marion,Fairmont Healthcare and Rehabilitation Center,0,0,0,0,0,4,6,0,No
 Marion,John Manchin Sr. Health Care Center,0,0,0,0,0,0,6,0,No
 Marion,Pierpont Center at Fairmont Campus,0,0,0,0,0,58,42,4,No
 Marion,St. Barbara's Memorial Nursing Home,0,0,0,0,0,22,18,2,No
-Marion,Tygart Center at Fairmont Campus,0,0,0,21,14,21,14,0,Yes
+Marion,Tygart Center at Fairmont Campus,0,0,0,0,0,21,14,0,No
 Marshall,Cameron Nursing and Rehabilitation Center,0,0,0,0,0,42,26,11,No
 Marshall,Stonerise Moundsville (Mound View),0,0,0,0,0,80,76,10,No
-Mason,Lakin Hospital,0,0,8,27,51,27,51,8,Yes
+Mason,Lakin Hospital,0,0,0,0,0,27,51,8,No
 Mason,Pleasant Valley Nursing and Rehabilitation Center,0,0,0,0,0,2,8,0,No
 McDowell,McDowell Nursing and Rehabilitation Center,0,0,0,0,0,0,6,0,No
 McDowell,Welch Community Hospital,0,0,0,0,0,0,2,0,No
@@ -76,10 +76,10 @@ Mercer,Princeton Health Care Center,0,0,0,0,0,53,59,24,No
 Mercer,Stonerise Princeton (Princeton Center),0,0,0,0,0,14,21,6,No
 Mineral,Dawn View Center,0,0,0,0,0,2,7,0,No
 Mineral,Stonerise Keyser (Piney Valley),0,0,0,0,0,98,74,35,No
-Mingo,Trinity Health Care of Mingo,11,7,0,9,1,34,13,2,Yes
+Mingo,Trinity Health Care of Mingo,0,0,0,0,0,34,13,3,No
 Monongalia,Madison Center,0,0,0,0,0,54,28,13,No
 Monongalia,Morgantown Health and Rehabilitation Center,0,0,0,0,0,64,23,9,No
-Monongalia,Stonerise Morgantown (Mapleshire Nursing and Rehabilitation Center),2,0,0,0,0,66,39,4,Yes
+Monongalia,Stonerise Morgantown (Mapleshire Nursing and Rehabilitation Center),1,0,0,1,0,66,39,4,Yes
 Monongalia,Sundale Nursing Home,0,0,0,0,0,35,26,5,No
 Monroe,Stonerise Lindside (Springfield Center),0,0,0,0,0,43,76,7,No
 Morgan,Stonerise Berkeley Springs (Berkeley Springs Center),0,0,0,0,0,0,0,0,No
@@ -88,7 +88,7 @@ Nicholas,Summersville Regional Medical Center,0,0,0,0,0,1,2,0,No
 Ohio,Continuous Care Center Wheeling Hospital,0,0,0,0,0,87,72,13,No
 Ohio,Good Shepherd Nursing Home,0,0,0,0,0,20,45,0,No
 Ohio,Guardian Elder Care at Wheeling,0,0,0,0,0,97,51,23,No
-Pendleton,Pendleton Manor,0,0,0,19,27,22,38,0,Yes
+Pendleton,Pendleton Manor,0,0,0,0,0,22,38,0,No
 Pleasants,Stonerise Belmont (Carehaven of Pleasants),0,0,0,0,0,0,7,0,No
 Pocahontas,Pocahontas Center,0,0,0,0,0,61,31,5,No
 Preston,Hopemont Hospital,0,0,0,0,0,30,39,2,No
@@ -98,7 +98,7 @@ Putnam,Teays Valley Center,0,0,0,0,0,42,67,7,No
 Raleigh,Jackie Withrow Hospital,0,0,0,0,0,2,14,0,No
 Raleigh,Pine Lodge,0,0,12,13,21,58,43,12,Yes
 Raleigh,Raleigh Center,0,0,0,0,0,2,4,0,No
-Raleigh,Stonerise Beckley (Harper Mills),1,1,0,17,12,18,19,0,Yes
+Raleigh,Stonerise Beckley (Harper Mills),0,0,0,18,13,18,19,0,Yes
 Randolph,Elkins Regional Convalescent Center,2,7,0,16,26,18,36,0,Yes
 Randolph,Nella's Inc,0,0,0,0,0,3,10,0,No
 Randolph,Nellas Nursing Home,0,0,0,0,0,0,5,0,No
@@ -111,12 +111,12 @@ Taylor,Rosewood Center,0,0,0,0,0,37,21,8,No
 Taylor,Taylor Health Care Center,0,0,0,0,0,12,8,2,No
 Tucker,Cortland Acres Nursing Home,0,0,0,0,0,13,18,1,No
 Tyler,Sistersville Center,0,0,0,0,0,17,11,0,No
-Upshur,Holbrook Nursing Home,0,1,15,70,54,70,55,15,Yes
+Upshur,Holbrook Nursing Home,0,2,15,70,54,70,56,15,Yes
 Upshur,St. Joseph's Hospital,0,0,0,0,0,0,4,0,No
 Wayne,Wayne Nursing and Rehabilitation Center,0,0,0,0,0,47,41,9,No
 Webster,Webster Nursing and Rehabilitation Center,0,0,0,0,0,1,9,0,No
 Wetzel,New Martinsville Center,0,0,0,0,0,80,65,14,No
-Wirt,Elizabeth Care Center,0,0,0,2,6,2,6,0,Yes
+Wirt,Elizabeth Care Center,0,1,0,2,7,2,7,0,Yes
 Wood,Ohio Valley Health Care,0,0,0,0,0,40,30,7,No
 Wood,Parkersburg Center,0,0,0,0,0,24,16,2,No
 Wood,Stonerise Parkersburg (Eagle Pointe),0,0,0,0,0,97,37,21,No
