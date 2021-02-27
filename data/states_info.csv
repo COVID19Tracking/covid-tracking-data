@@ -356,6 +356,8 @@ IN,"Indiana combines PCR and antigen tests in the total tests figure reported on
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (people)** in the absence of better data.
 
+On February 26, 2021, Indiana announced that due to a historic load of negative tests, 663 older Total PCR tests (people) and 2150 Total PCR tests (specimens) would be included in their data for the day.
+
 On February 4, 2021, Indiana announced that their deaths included “1,507 historical deaths identified through an audit of 2020 and 2021 COVID death records and test results”. As a result, the majority of new Deaths (confirmed + probable) and Deaths (confirmed) reported on February 4, 2021 were not reported in the previous 24 hours. We urge caution when looking at this figure.
 
 On January 5, 2021, Indiana’s Currently in ICU decreased by 9 without explanation.
@@ -864,7 +866,7 @@ On September 25, 2020, Rhode Island removed 240 duplicate cases from its case co
 As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**.",https://health.ri.gov/data/covid-19/,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/gviz/tq?tqx=out:csv&sheet=1592746937,,,@rihealth,https://health.ri.gov/diseases/respiratory/?parm=163,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Rhode Island,44
 SC,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On February 23, 2021 through February 25, 2021, South Carolina’s Recovered metric was absent from their data dashboard, potentially due to [technical issues](https://twitter.com/scdhec/status/1364619613313634304). As a result, we were unable to update their Recovered.
+On February 23, 2021 through February 26, 2021, South Carolina’s Recovered metric was absent from their data dashboard, potentially due to [technical issues](https://twitter.com/scdhec/status/1364619613313634304). As a result, we were unable to update their Recovered.
 
 On February 23, 2021, South Carolina’s testing and recovery data was not available from their [dashboard](https://scdhec.gov/covid19/south-carolina-county-level-data-covid-19) due to [“technical issues”](https://twitter.com/scdhec/status/1364619613313634304) As a result, we were unable to update their testing data on February 23, 2021.
 
