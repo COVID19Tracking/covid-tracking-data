@@ -160,3 +160,12 @@ Year Month Day
 
 
 
+Run at:  2021-02-28 04:40:23.622473-05:00 
+
+                     Statistic      Value
+Year Month Day                           
+2021 2     24   Positive Tests    89959.0
+           24      Total Tests  1387364.0
+
+
+
