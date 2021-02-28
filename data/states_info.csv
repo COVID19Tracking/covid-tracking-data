@@ -770,7 +770,9 @@ On November 23, 2020 Ohio announced that their data for November 23, 2020 would 
 
 On November 18, 2020, Ohio reported 5246480 **Total PCR tests (specimens)** - the same number that was reported on November 15, 2020, and a drop of roughly 102k tests from November 17, 2020. Because Ohio announced that their data for November 18, 2020 would be incomplete, and we suspect this decrease was a result of that, we did not update **Total PCR tests (specimens)**, or `Negative` on November 18, 2020.
 ",https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations,,,@OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/know-our-programs/Novel-Coronavirus/welcome/,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Ohio,39
-OK,"On February 11, 2021, Oklahoma announced via a [press release](https://oklahoma.gov/covid19/newsroom/2021/february/situation-update--covid-19-02-11-2021.html) that due to delayed reporting by facilities, and time taken to investigate previously deferred cases, the “majority” of new deaths reported on February 11, 2021 occurred in November, 2020.
+OK,"On February 27, 2021, Oklahoma's Total PCR Tests  dropped by 3,314 without explanation.
+
+On February 11, 2021, Oklahoma announced via a [press release](https://oklahoma.gov/covid19/newsroom/2021/february/situation-update--covid-19-02-11-2021.html) that due to delayed reporting by facilities, and time taken to investigate previously deferred cases, the “majority” of new deaths reported on February 11, 2021 occurred in November, 2020.
 
 On February 3, 2020, the Oklahoma Department of Health [cautioned](https://twitter.com/healthyoklahoma/status/1357016405586178050?s=21) that the 52 deaths reported on this date occurred between January 4, 2021 and February 1, 2021, with 32 of them having occurred since January 27, 2021.
 
@@ -866,7 +868,7 @@ On September 25, 2020, Rhode Island removed 240 duplicate cases from its case co
 As of August 17, 2020, our **Total tests** metrics include Rhode Island's **Total tests (in test encounters)**.",https://health.ri.gov/data/covid-19/,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/gviz/tq?tqx=out:csv&sheet=1592746937,,,@rihealth,https://health.ri.gov/diseases/respiratory/?parm=163,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),All data,false,Rhode Island,44
 SC,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On February 23, 2021 through February 26, 2021, South Carolina’s Recovered metric was absent from their data dashboard, potentially due to [technical issues](https://twitter.com/scdhec/status/1364619613313634304). As a result, we were unable to update their Recovered.
+On February 23, 2021 through February 27, 2021, South Carolina’s Recovered metric was absent from their data dashboard, potentially due to [technical issues](https://twitter.com/scdhec/status/1364619613313634304). As a result, we were unable to update their Recovered.
 
 On February 23, 2021, South Carolina’s testing and recovery data was not available from their [dashboard](https://scdhec.gov/covid19/south-carolina-county-level-data-covid-19) due to [“technical issues”](https://twitter.com/scdhec/status/1364619613313634304) As a result, we were unable to update their testing data on February 23, 2021.
 
