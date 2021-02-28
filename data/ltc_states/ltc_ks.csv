@@ -1,5 +1,5 @@
 date_collected,state,County-alias,City or State-alias,Facility-value,Type-value,blank,blank,blank,blank,Last Onset Date-value,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,blank,SUM(Number of Cases within 14 days)-alias
-20210227,KS,Wyandotte,Kansas City,Healthcare Resort of KC,Long Term Care Facility,,,,,2021-02-18,,,,,,,,,,,,,,,,,,,,,,,,7
-20210227,KS,Shawnee,Topeka,Healthcare Resort of Topeka - January 2021,Long Term Care Facility,,,,,2021-02-17,,,,,,,,,,,,,,,,,,,,,,,,7
-20210227,KS,Coffey,Burlington,Life Care Center of Burlington,Long Term Care Facility,,,,,2021-02-15,,,,,,,,,,,,,,,,,,,,,,,,11
+20210228,KS,Wyandotte,Kansas City,Healthcare Resort of KC,Long Term Care Facility,,,,,2021-02-18,,,,,,,,,,,,,,,,,,,,,,,,7
+20210228,KS,Shawnee,Topeka,Healthcare Resort of Topeka - January 2021,Long Term Care Facility,,,,,2021-02-17,,,,,,,,,,,,,,,,,,,,,,,,7
+20210228,KS,Coffey,Burlington,Life Care Center of Burlington,Long Term Care Facility,,,,,2021-02-15,,,,,,,,,,,,,,,,,,,,,,,,11
 
