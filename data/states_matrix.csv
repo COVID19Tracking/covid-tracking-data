@@ -104,6 +104,8 @@ AL dash > ""Presumed Recoveries""
 note: if this metric does not update, leave the previous value in the cell","AL dash > ""Deaths"" > ""Total Statewide""","AL dash > ""Deaths"" > ""Confirmed""","AL dash > ""Deaths"" > ""Probable""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://alpublichealth.maps.arcgis.com/apps/opsdashboard/index.html#/6d2771faa9da4a2786a509d82c8cf0f7,AL
 AR,Arkansas,https://experience.arcgis.com/experience/c2ef4a4fcbe5458fbf2e48a21e4fece9,https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus#Covidnumbers,https://www.twitter.com/adhpio,https://www.youtube.com/channel/UCLJcNdgp2PMEmiqJEoYzqwQ/videos?view=0&sort=dd&flow=grid,,https://www.healthy.arkansas.gov/programs-services/topics/covid-19-reports,,"Arkansas reports a category of “non-COVID deaths,” representing individuals who died with COVID positive but of causes unrelated to COVID. We do not count these individuals in our deaths metric, consistent with our policy of tracking only individuals with COVID as a cause of death where possible.
 
+On February 28, 2021, Arkansas’s total Deaths decreased by over 200. Arkansas [stated](https://twitter.com/ADHPIO/status/1366163333225799682) that this decrease was because of data clean-up and deduplication.
+
 During the week of September 20, 2020, Arkansas made some continual adjustments to its antigen people tested numbers, resulting in some fluctuation in its negatives and totals.
 
 As of September 18, 2020, Arkansas's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative. The totals do not include repeat positives—counting individuals only for their first positive—but do count repeat negative tests.
@@ -2622,8 +2624,12 @@ On August 7, 2020, due to the release of a backlog, Virginia reported an abnorma
 As of May 15, 2020, Virginia is reporting PCR tests and antibody tests separately. ",#REF!,TRUE,TRUE,,,"VA primary > dash > ""Data entered by 5:00 PM the prior day.""
 
 yesterday / 17:00",,,,"VA dash >  tab ""Testing""  > Combo box: ""Antigen Only"" > Title ""All health districts testing encounters antigen only""
-","VA query > ""antigen_pos""",,,,,"VA dash >  tab ""Testing""  > Combo box: ""Antibody Only"" > Title ""All health districts testing encounters antibody only""
-","VA query > ""antibody_pos""",,"VA dash >  tab ""Summary""  > title ""Testing (PCR Only)"" > "" Testing Encounters PCR Only"" 
+
+note: screenshot this page after selecting ""Antigen Only"" such that ""All health districts testing encounters antigen only"" is visible
+screenshot: https://internal.covidtracking.com/screenshot?state=VA&datatype=taco&subtype=data-dashboard","VA query > ""antigen_pos""",,,,,"VA dash >  tab ""Testing""  > Combo box: ""Antibody Only"" > Title ""All health districts testing encounters antibody only""
+
+note: screenshot this page after selecting ""Antibody Only"" such that ""All health districts testing encounters antibody only"" is visible
+screenshot: https://internal.covidtracking.com/screenshot?state=VA&datatype=taco&subtype=data-dashboard","VA query > ""antibody_pos""",,"VA dash >  tab ""Summary""  > title ""Testing (PCR Only)"" > "" Testing Encounters PCR Only"" 
 ",,"VA query > ""pos_pcr_testing:""",,"VA dash > tab ""Summary"" > title ""Total Cases"" > ""Confirmed""","VA dash > tab ""Summary"" > title ""Total Cases"" > ""Probable""",,"VA dash > tab ""Summary"" > ""Total Cases""",,"VA other > title ""COVID-19 in Virginia Hospitals"" > title ""Hospitalizations"" > ""….pending""
 
 note: the word is highlighted in blue","VA other > title ""COVID-19 in Virginia Hospitals"" > title ""Hospitalizations"" > ""Combined number of confirmed positive COVID-19 patients who are currently...""
