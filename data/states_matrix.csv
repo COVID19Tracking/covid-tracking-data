@@ -2623,13 +2623,7 @@ On August 7, 2020, due to the release of a backlog, Virginia reported an abnorma
 
 As of May 15, 2020, Virginia is reporting PCR tests and antibody tests separately. ",#REF!,TRUE,TRUE,,,"VA primary > dash > ""Data entered by 5:00 PM the prior day.""
 
-yesterday / 17:00",,,,"VA dash >  tab ""Testing""  > Combo box: ""Antigen Only"" > Title ""All health districts testing encounters antigen only""
-
-note: screenshot this page after selecting ""Antigen Only"" such that ""All health districts testing encounters antigen only"" is visible
-screenshot: https://internal.covidtracking.com/screenshot?state=VA&datatype=taco&subtype=data-dashboard","VA query > ""antigen_pos""",,,,,"VA dash >  tab ""Testing""  > Combo box: ""Antibody Only"" > Title ""All health districts testing encounters antibody only""
-
-note: screenshot this page after selecting ""Antibody Only"" such that ""All health districts testing encounters antibody only"" is visible
-screenshot: https://internal.covidtracking.com/screenshot?state=VA&datatype=taco&subtype=data-dashboard","VA query > ""antibody_pos""",,"VA dash >  tab ""Summary""  > title ""Testing (PCR Only)"" > "" Testing Encounters PCR Only"" 
+yesterday / 17:00",,,,"VA dash >  tab ""Testing""  > Combo box: ""Antigen Only"" > Title ""All health districts testing encounters antigen only""","VA query > ""antigen_pos""",,,,,"VA dash >  tab ""Testing""  > Combo box: ""Antibody Only"" > Title ""All health districts testing encounters antibody only""","VA query > ""antibody_pos""",,"VA dash >  tab ""Summary""  > title ""Testing (PCR Only)"" > "" Testing Encounters PCR Only"" 
 ",,"VA query > ""pos_pcr_testing:""",,"VA dash > tab ""Summary"" > title ""Total Cases"" > ""Confirmed""","VA dash > tab ""Summary"" > title ""Total Cases"" > ""Probable""",,"VA dash > tab ""Summary"" > ""Total Cases""",,"VA other > title ""COVID-19 in Virginia Hospitals"" > title ""Hospitalizations"" > ""….pending""
 
 note: the word is highlighted in blue","VA other > title ""COVID-19 in Virginia Hospitals"" > title ""Hospitalizations"" > ""Combined number of confirmed positive COVID-19 patients who are currently...""
