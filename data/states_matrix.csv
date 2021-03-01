@@ -2339,8 +2339,8 @@ on Ventilator – SC other > ""COVID patients ventilated:"". Cumulative
 on Ventilator – . Hospital Discharges – . Recovered – calculated:
 SC primary > title ""State Recovery Estimate"" > you will need the recovery % and the number from the second paragraph that says ""...XXXX individuals for which we have symptom onset data...""
 
+note: SC has recently removed this metric from their dashboard. if you can't find it, start a slack thread and leave the previous value in the cell
 note: if % recovered = 89% and individuals = 23548 the formula is =FLOOR(23548*0.891,1)
-
 note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – calculated:
 SC dash > title ""Deaths in Individuals with COVID-19 infection"" > {Confirmed + Probable}. ",,,,,"SC primary > ""As of ...""
@@ -2354,8 +2354,8 @@ SC dash > Total Positive Cases > {Confirmed + Probable}","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"SC other > ""COVID-19 patients hospitalized:""","SC primary > ""Hospitalizations All""","SC other > ""COVID patients in ICU:""",,"SC other > ""COVID patients ventilated:""",,,"calculated:
 SC primary > title ""State Recovery Estimate"" > you will need the recovery % and the number from the second paragraph that says ""...XXXX individuals for which we have symptom onset data...""
 
+note: SC has recently removed this metric from their dashboard. if you can't find it, start a slack thread and leave the previous value in the cell
 note: if % recovered = 89% and individuals = 23548 the formula is =FLOOR(23548*0.891,1)
-
 note: if this metric does not update, leave the previous value in the cell
 ","calculated:
 SC dash > title ""Deaths in Individuals with COVID-19 infection"" > {Confirmed + Probable}","SC dash > title ""Deaths in Individuals with COVID-19 infection"" >  ""Confirmed""","SC dash > title ""Deaths in Individuals with COVID-19 infection"" > ""Probable""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/south-carolina-county-level-data-covid-19,SC
