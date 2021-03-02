@@ -1534,6 +1534,8 @@ NC,North Carolina,https://covid19.ncdhhs.gov/dashboard,https://covid19.ncdhhs.go
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data. 
 
+On March 2nd, 2021, we backfilled North Carolina's **Total PCR tests (specimens)** from the state provided dataset. This added 2 months of data to the beginning of the series (March 17, 2020 to May 17, 2020). This update also separates the captured lumped PCR and antigen tests previously stored in **Total PCR tests (specimens)**, starting on September 22, 2020
+
 On February 28, 2021, North Carolina [noted](https://covidtracking.com/screenshots/NC/NC-20210228-115701.png) that its data dashboards would not update on that day in order to make changes to improve system performance.
 
 On February 3, 2021, the North Carolina Department of Health and Human Services [reported](https://twitter.com/ncdhhs/status/1357052211252068354) that the day's case counts were much larger than usual because of the inclusion of a backlog of nearly 8,000 cases identified at FastMed clinics during December 2020 and January 2021. 
@@ -1985,7 +1987,9 @@ screenshot: https://internal.covidtracking.com/screenshot?state=NY&datatype=taco
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values",,"NY press Conferences > find most recent COVID related press release > title ""Today's data is summarized briefly below"" > ""Total Discharges""
 
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values",,"NY dash > click link ""Click for Fatality Data"" >  table ""Fatalities by County"" > column ""Place of Fatality"" > row ""Grand Total""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,NY
-OH,Ohio,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,,https://www.twitter.com/OHdeptofhealth,,,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,,"Since February 10, 2021, Ohio has been reconciling their death data. As a result, death figures may fluctuate more than normal, and may include deaths which were not reported in the previous 24 hours. We urge caution when interpreting data from this period and encourage the use of 7 and 14-day averages as more reliable metrics. Our data quality team will continue to investigate how best to handle changes to their data.
+OH,Ohio,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,,https://www.twitter.com/OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/media-center/ODH-News-Releases,,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,,"As of March 2, 2021, Ohio updates their mortality figures twice a week as death certificate information is received and verified from the National Center for Health Statistics.
+
+Since February 10, 2021, Ohio has been reconciling their death data. As a result, death figures may fluctuate more than normal, and may include deaths which were not reported in the previous 24 hours. We urge caution when interpreting data from this period and encourage the use of 7 and 14-day averages as more reliable metrics. Our data quality team will continue to investigate how best to handle changes to their data.
 
 Ohio continually updates its **Currently hospitalized / Now hospitalized** data which can cause slight differences between their historic data and ours. 
 
