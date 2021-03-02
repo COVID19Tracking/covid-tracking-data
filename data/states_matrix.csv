@@ -1500,6 +1500,8 @@ note: if this metric does not update, leave the previous value in the cell
 ","MS primary > title ""Cases and Deaths by County"" > table > column ""Total Deaths"" > ""Total""","MS primary > title ""Case Classifications"" > table > column ""Confirmed"" > ""Deaths""","MS primary > title ""Case Classifications"" > table > column ""Probable"" > row ""Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"https://msdh.ms.gov/msdhsite/_static/14,0,420.html",MS
 MT,Montana,https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,,https://www.twitter.com/dphhsmt,,,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data. Prior to January 27, 2021, it was calculated by subtracting **Cases (confirmed + probable)** from **Total PCR tests (specimens)**
 
+On March 2, 2021, Montana's Confirmed cases decreased by 91 without explanation.
+
 On February 25, 2021, Montana’s Confirmed cases decreased by 83 without explanation.
 
 On February 24, 2021, Montana’s **Confirmed cases** decreased by 117 without explanation.
@@ -1558,8 +1560,11 @@ On July 22, 2020, North Carolina started reporting the number of patients **curr
 
 above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – long calculation
 This formula sums daily antigen tests to get a cumulative number.
-long calculation > hover over ""# NC Antigen tests"" > click play button > ""Antigen Tests""
-note: long calculation link can be found in cell E2 of WS2. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NC dash > ""Completed Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NC dash > ""Molecular (PCR) Positive Cases""
+long calculation > hover over ""# NC tests"" > click play button > ""Antigen Test""
+note: long calculation link can be found in cell E2 of WS2. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – long calculation
+This formula sums daily PCR tests to get a cumulative number.
+long calculation > hover over ""# NC tests"" > click play button > ""Molecular Tests""
+note: long calculation link can be found in cell E2 of WS2. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NC dash > ""Molecular (PCR) Positive Cases""
 . Probable Cases – NC dash > ""Antigen Positive Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NC dash > ""Total Cases""
 . Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}. Pending – . Currently 
@@ -1577,8 +1582,11 @@ note: if this metric does not update, leave the previous value in the cell
 
 above date / above time",,,,"long calculation
 This formula sums daily antigen tests to get a cumulative number.
-long calculation > hover over ""# NC Antigen tests"" > click play button > ""Antigen Tests""
-note: long calculation link can be found in cell E2 of WS2",,,,,,,,,,"NC dash > ""Completed Tests""",,,"NC dash > ""Molecular (PCR) Positive Cases""
+long calculation > hover over ""# NC tests"" > click play button > ""Antigen Test""
+note: long calculation link can be found in cell E2 of WS2",,,,,,,,,,"long calculation
+This formula sums daily PCR tests to get a cumulative number.
+long calculation > hover over ""# NC tests"" > click play button > ""Molecular Tests""
+note: long calculation link can be found in cell E2 of WS2",,,"NC dash > ""Molecular (PCR) Positive Cases""
 ","NC dash > ""Antigen Positive Cases""",,"NC dash > ""Total Cases""
 ","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"NC dash > ""Currently Hospitalized""
@@ -2301,7 +2309,7 @@ on Ventilator – . Hospital Discharges – RI other > ""Cumulative hospital dis
 today / 13:00 on weekdays, Fri date / 13:00 on weekends",,,,,,,,,,,,,"RI other > ""Cumulative total tests completed (may count people more than once)""",,"RI other > ""Cumulative positive tests (may count people more than once)""","RI other > ""Cumulative negative tests (may count people more than once)""",,,"RI other > ""Cumulative people tested (one count per person)"" ","RI primary > ""Total Positive Cases""","RI other > ""Cumulative people who have only tested negative (counts first negative lab per person)"" ",,"RI other > ""Currently Hospitalized""","RI other > ""Cumulative Hospital Admissions""","RI other > ""Currently in ICU""",,"RI other > ""Currently vented""",,"RI other > ""Cumulative hospital discharges""",,"RI primary > ""Total Fatalities""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://health.ri.gov/data/covid-19/,RI
 SC,South Carolina,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,https://www.twitter.com/scdhec,,,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/hospital-bed-capacity-covid-19,,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
-On February 23, 2021 through March 1, 2021, South Carolina’s Recovered metric was absent from their data dashboard, potentially due to [technical issues](https://twitter.com/scdhec/status/1364619613313634304). As a result, we were unable to update their Recovered.
+On February 23, 2021 through March 2, 2021, South Carolina’s Recovered metric was absent from their data dashboard, potentially due to [technical issues](https://twitter.com/scdhec/status/1364619613313634304). As a result, we were unable to update their Recovered.
 
 On February 23, 2021, South Carolina’s testing and recovery data was not available from their [dashboard](https://scdhec.gov/covid19/south-carolina-county-level-data-covid-19) due to [“technical issues”](https://twitter.com/scdhec/status/1364619613313634304) As a result, we were unable to update their testing data on February 23, 2021.
 
