@@ -1170,8 +1170,8 @@ As of May 20, 2020, Maine reports PCR tests and antibody tests separately.","Loc
 yesterday / 23:59. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Total"" 
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-
-. Positive Antigen Tests – ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Positive""
+note: please take a screenshot of the whole table
+screenshot: https://internal.covidtracking.com/screenshot?state=ME&datatype=taco&subtype=data-dashboard. Positive Antigen Tests – ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Positive""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
 . Negative Antigen Tests – ME dash > table ""All Reported COVID-19 Tests in Maine"" > Antigen > ""Negative""
@@ -1224,8 +1224,8 @@ on Ventilator – . Hospital Discharges – . Recovered – ME dash > table ""Cu
 yesterday / 23:59",,,,"ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Total"" 
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-
-","ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Positive""
+note: please take a screenshot of the whole table
+screenshot: https://internal.covidtracking.com/screenshot?state=ME&datatype=taco&subtype=data-dashboard","ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Positive""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
 ","ME dash > table ""All Reported COVID-19 Tests in Maine"" > Antigen > ""Negative""
