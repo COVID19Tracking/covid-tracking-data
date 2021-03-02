@@ -15,9 +15,17 @@ def scrape():
 
     soup = BeautifulSoup(page.text, 'html.parser')
 
-    table = soup.find('table')
+    tables = soup.find_all('table')
+    if tables == None:
+        raise ValueError("failed to get any table from the page, maybe the url is wrong...")
+
+    table = None
+    for t in tables:
+        if "Diagnostic" in str(t.find_all('tr')[0]):
+            table = t
+
     if table == None:
-        raise ValueError("failed to get the table from the page, maybe the url is wrong...")
+        raise ValueError("Could not find 'In Vitro Diagnostic Products' Table")
 
     rows = table.find_all('tr')[1:]
 
