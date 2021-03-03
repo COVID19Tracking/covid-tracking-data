@@ -951,7 +951,7 @@ note: this figure may be updated weekly, if this metric does not update, leave t
 . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Total Cases"". Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 . Pending – . Currently 
-Hospitalized – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Positive Patients in Hospitals"". Cumulative Hospitalized – . Currently
+Hospitalized – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients in Hospitals"". Cumulative Hospitalized – . Currently
 in ICU – . Cumulative
 in ICU – . Currently 
 on Ventilator – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients on Ventilators"". Cumulative 
@@ -965,7 +965,7 @@ note: If no values have updated carry over previous timestamp.",,,,"LA dash > ti
 note: this figure may be updated weekly, if this metric does not update, leave the previous value in the cell
 ",,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Total Cases""","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
-",,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Positive Patients in Hospitals""",,,,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients on Ventilators""",,,"updates: weekly
+",,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients in Hospitals""",,,,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients on Ventilators""",,,"updates: weekly
 LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Presumed Recovered""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Total Deaths""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Deaths"" > ""Confirmed""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Deaths"" > ""Probable""
 
 note: this figure is updated weekly. if this metric does not update, leave the previous value in the cell",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,http://ldh.la.gov/Coronavirus/,LA
@@ -2552,7 +2552,7 @@ This formula sums daily positive and negative PCR tests by person to get cumulat
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > {Positive + Negative}
 
 note: do not use the metrics for tests 
-note: link to long calculation is in cell E2 of WS2. Positive Cases (People, confirmed + probable) – UT dash > ""Total COVID-19 Cases"". Negative (People or Cases) – long calculation
+note: link to long calculation is in cell E2 of WS2. Positive Cases (People, confirmed + probable) – UT dash > ""COVID-19 Cases"". Negative (People or Cases) – long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
 long calculation > hover over ""# UT Antigen"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Negative""
 
@@ -2611,7 +2611,7 @@ This formula sums daily positive and negative PCR tests by person to get cumulat
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > {Positive + Negative}
 
 note: do not use the metrics for tests 
-note: link to long calculation is in cell E2 of WS2","UT dash > ""Total COVID-19 Cases""","long calculation
+note: link to long calculation is in cell E2 of WS2","UT dash > ""COVID-19 Cases""","long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
 long calculation > hover over ""# UT Antigen"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Negative""
 
