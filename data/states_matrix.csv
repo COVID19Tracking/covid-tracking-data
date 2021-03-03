@@ -1534,7 +1534,11 @@ NC,North Carolina,https://covid19.ncdhhs.gov/dashboard,https://covid19.ncdhhs.go
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data. 
 
-On March 2nd, 2021, we backfilled North Carolina's **Total PCR tests (specimens)** from the state provided dataset. This added 2 months of data to the beginning of the series (March 17, 2020 to May 17, 2020). This update also separates the captured lumped PCR and antigen tests previously stored in **Total PCR tests (specimens)**, starting on September 22, 2020
+On March 3, 2021, we cleared the history of Negative (people or cases) in North Carolina. This number mixed units, but we kept it because we relied on it for `totalTestResults.` Now, with `totalTestResults` drawn from `totalTestsViral`, we no longer need the negatives field to be filled.
+
+As of March 3, 2021, North Carolina's `totalTestResults` are drawn from `totalTestsViral` instead of calculated via positive+negative. This update resulted in a drop of 880,339 tests, mostly due to the removal of antigen tests from the number.
+
+On March 2nd, 2021, we backfilled North Carolina's **Total PCR tests (specimens)** from the state provided dataset. This added 2 months of data to the beginning of the series (March 17, 2020 to May 17, 2020). This update also separates the captured lumped PCR and antigen tests previously stored in **Total PCR tests (specimens)**, starting on September 22, 2020.
 
 On February 28, 2021, North Carolina [noted](https://covidtracking.com/screenshots/NC/NC-20210228-115701.png) that its data dashboards would not update on that day in order to make changes to improve system performance.
 
@@ -1568,8 +1572,7 @@ This formula sums daily PCR tests to get a cumulative number.
 long calculation > hover over ""# NC tests"" > click play button > ""Molecular Tests""
 note: long calculation link can be found in cell E2 of WS2. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NC dash > ""Molecular (PCR) Positive Cases""
 . Probable Cases – NC dash > ""Antigen Positive Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NC dash > ""Total Cases""
-. Negative (People or Cases) – calculated:
-WS2 > {Total Tests (PCR) - Positive Cases (PCR)}. Pending – . Currently 
+. Negative (People or Cases) – . Pending – . Currently 
 Hospitalized – NC dash > ""Currently Hospitalized""
 . Cumulative Hospitalized – . Currently
 in ICU – NC dash > menu ""Dashboard"" > click ""Hospitalizations"" > scroll down to bar graph titled ""Number of COVID-19 Adult ICU Patients | Statewide"" > select ""Adult ICU Patients"" > ""Adult ICU Patients""
@@ -1590,8 +1593,7 @@ This formula sums daily PCR tests to get a cumulative number.
 long calculation > hover over ""# NC tests"" > click play button > ""Molecular Tests""
 note: long calculation link can be found in cell E2 of WS2",,,"NC dash > ""Molecular (PCR) Positive Cases""
 ","NC dash > ""Antigen Positive Cases""",,"NC dash > ""Total Cases""
-","calculated:
-WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"NC dash > ""Currently Hospitalized""
+",,,"NC dash > ""Currently Hospitalized""
 ",,"NC dash > menu ""Dashboard"" > click ""Hospitalizations"" > scroll down to bar graph titled ""Number of COVID-19 Adult ICU Patients | Statewide"" > select ""Adult ICU Patients"" > ""Adult ICU Patients""
 ",,,,"updates: weekly on Monday
 NC other > link ""COVID-19 Patients Presumed to be Recovered"" > ""Patients Presumed to be Recovered =""
