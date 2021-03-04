@@ -265,3 +265,14 @@ dtype: int64
 Run at:  2021-03-03 16:39:10.303155-05:00 
 
 Encountered an error running at 2021-03-03 16:39:10.554647-05:00
+Run at:  2021-03-04 04:46:26.630515-05:00 
+
+                Measure Names           
+Measure Values  Antigen Test                  779652
+                Daily Tests Total           10341299
+                Molecular Test               6730653
+                Positive Test Percentage          27
+dtype: int64
+
+
+

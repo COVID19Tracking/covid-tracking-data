@@ -265,3 +265,14 @@ Update time:  02/28/2021 08:30:00
 Run at:  2021-03-03 16:38:48.271021-05:00 
 
 Encountered an error running at 2021-03-03 16:39:03.417004-05:00
+Run at:  2021-03-04 04:46:16.488870-05:00 
+
+New Cases                  26759
+New Positive Tests         27528
+Total Test Encounters    1124866
+dtype: int64
+
+Update time:  03/01/2021 08:30:00
+
+
+
