@@ -258,3 +258,13 @@ dtype: object
 
 
 
+Run at:  2021-03-04 16:39:07.136176-05:00 
+
+Date                                                2021-03-04
+Hospitalized- Total COVID-19 Patients                       69
+Hospitalized- COVID-19 Patients In Critical Care            23
+Hospitalized- COVID-19 Patients on Ventilators               8
+dtype: object
+
+
+

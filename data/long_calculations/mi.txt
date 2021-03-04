@@ -258,3 +258,13 @@ dtype: int64
 
 
 
+Run at:  2021-03-04 16:39:07.370236-05:00 
+
+Link =  https://www.michigan.gov//documents/coronavirus/Diagnostic_Tests_by_Result_and_County_2021-03-04_718245_7.xlsx
+Negative     9789502
+Positive      749121
+Total       10538623
+dtype: int64
+
+
+
