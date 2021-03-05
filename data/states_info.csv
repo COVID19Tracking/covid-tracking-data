@@ -509,6 +509,8 @@ Michigan combines PCR and antigen tests in the total tests figure reported on th
 
 Michigan does not update their COVID-19 data on Sundays. As a result, new referrals of confirmed cases to the MDSS regularly affect the Confirmed cases we report on Mondays and over the weekend.
 
+On March 4, 2021, we deleted the history of **Negative (people or cases)**, because they represented negative tests, not individuals. Now that `totalTestResults` is not calculated from positive+negative, we do not need to duplicate negative specimens in the people field.
+
 As of March 4, 2021, Michigan's `totalTestResults` are drawn from `totalTestsViral` instead of calculated via positive+negative. The total tests grew by 96,532, mostly due to addition of repeat positive tests.
 
 On March 4, 2021, we fixed an error in a backfill from June 11, 2020, where we forgot to paste historical data from March 10, 2020 to March 16, 2020 for Positive Tests (PCR), Negative Tests (PCR), Total Tests (PCR), and Deaths.
