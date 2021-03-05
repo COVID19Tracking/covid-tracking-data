@@ -509,6 +509,8 @@ Michigan combines PCR and antigen tests in the total tests figure reported on th
 
 Michigan does not update their COVID-19 data on Sundays. As a result, new referrals of confirmed cases to the MDSS regularly affect the Confirmed cases we report on Mondays and over the weekend.
 
+As of March 4, 2021, Michigan's `totalTestResults` are drawn from `totalTestsViral` instead of calculated via positive+negative. The total tests grew by 96,532, mostly due to addition of repeat positive tests.
+
 On March 4, 2021, we fixed an error in a backfill from June 11, 2020, where we forgot to paste historical data from March 10, 2020 to March 16, 2020 for Positive Tests (PCR), Negative Tests (PCR), Total Tests (PCR), and Deaths.
 
 As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
@@ -525,7 +527,7 @@ On October 15, 2020, Michigan announced that due to a laboratory result processi
 
 On June 11, 2020, we updated our historical data from a spreadsheet provided by Michigan's Department of Health and Human Services in order to reflect the lab-reported dates of **probable and confirmed cases** and **probable and confirmed deaths** by date of death.
 
-Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173-531113--,00.html",https://app.powerbigov.us/view?r=eyJrIjoiNDY0ZGVlMDItMzUzNC00ZGE5LWFjYzQtNzliOGJkZWQ4YTgzIiwidCI6ImQ1ZmI3MDg3LTM3NzctNDJhZC05NjZhLTg5MmVmNDcyMjVkMSJ9,,@MichiganHHS,https://www.michigan.gov/coronavirus,Specimens,totalTestsViral,posNeg,All data,false,Michigan,26
+Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173-531113--,00.html",https://app.powerbigov.us/view?r=eyJrIjoiNDY0ZGVlMDItMzUzNC00ZGE5LWFjYzQtNzliOGJkZWQ4YTgzIiwidCI6ImQ1ZmI3MDg3LTM3NzctNDJhZC05NjZhLTg5MmVmNDcyMjVkMSJ9,,@MichiganHHS,https://www.michigan.gov/coronavirus,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Michigan,26
 MN,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
 
 On March 4, 2021, Minnesota [announced](https://twitter.com/dhmontgomery/status/1367573935160631297) that an audit discovered 4 private labs which had not been properly reporting test results to the Minnesota Department of Health. The data for March 4, 2021, includes roughly 31,000 older test results from 3 of these labs.
@@ -935,7 +937,9 @@ On August 14, 2020, South Carolina reported an unusually large number of tests w
 On July 18, 2020, South Carolina announced it was transitioning to new reporting systems and that ""there may be incomplete data with significant gaps."" Though reporting resumed July 28, 2020, this resulted in data being carried over at times. We will backfill with the updated numbers when they are available.
 
 As of June 11, 2020, South Carolina reports PCR tests separately from antibody tests. Total test numbers were reduced by around 22,000 as a result of this change. ",https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19,https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/sc-demographic-data-covid-19,https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/hospital-bed-capacity-covid-19,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/south-carolina-county-level-data-covid-19,https://public.tableau.com/views/MainDashboard_15964746061440/Testing?%3Aembed=y&%3AshowVizHome=no&%3Ahost_url=https%3A%2F%2Fpublic.tableau.com%2F&%3Aembed_code_version=3&%3Atabs=no&%3Atoolbar=no&%3Aanimate_transition=no&%3Adisplay_static_image=no&%3Adisplay_spinner=no&%3Adisplay_overlay=no&%3Adisplay_count=yes&%3Alanguage=en&publish=yes&%3AloadOrderID=2,@scdhec,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,Specimens,posNeg,posNeg,All data,false,South Carolina,45
-SD,"On March 4, 2021, we backfilled South Dakota's **Total Tests (Specimens)** and **Positive Tests (PCR)** with data from the ""PCR Test Positivity Rate by Date Reported to SD-DOH"" on the state's dashboard. The updated time series includes only PCR tests.
+SD,"As of March 4, 2021, South Dakota's `totalTestResults` field is taken directly from `totalTestsViral` instead of calculated from positive + negative. 
+
+On March 4, 2021, we backfilled South Dakota's **Total Tests (Specimens)** and **Positive Tests (PCR)** with data from the ""PCR Test Positivity Rate by Date Reported to SD-DOH"" on the state's dashboard. The updated time series includes only PCR tests.
 
 On February 11, 2021, South Dakota [announced](https://twitter.com/SDDOH/status/1359925746219814916?s=20) on the official South Dakota Department of Health twitter that “a large number of COVID-19 test results are reported in today’s update due to IT system updates completed on one of several reporting methods”. As a result, not all new tests reported on February 11, 2021 were reported in the previous 24 hour period.
 
@@ -949,7 +953,7 @@ As of September 18, 2020, South Dakota's total test results are drawn from our `
 
 On August 27, the South Dakota Department of Health included cases from August 25 and 26 in their update due to a reporting aberration, resulting in a 343 case increase. They have provided historical case counts, and we are working to backfill our data.
 
-On July 27, 2020, **Negative PCR tests** decreased by 148 for unclear reasons.",https://doh.sd.gov/COVID/Dashboard.aspx,,,,,@SDDOH,https://doh.sd.gov/news/Coronavirus.aspx,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,South Dakota,46
+On July 27, 2020, **Negative PCR tests** decreased by 148 for unclear reasons.",https://doh.sd.gov/COVID/Dashboard.aspx,,,,,@SDDOH,https://doh.sd.gov/news/Coronavirus.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,South Dakota,46
 TN,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 Tennessee continually updates its **Currently hospitalized / Now hospitalized** data which can cause differences between their historic data and ours. 
