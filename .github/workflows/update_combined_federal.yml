@@ -36,7 +36,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: EndBug/add-and-commit@v7
         with:
-          message: Updating long calculation data
+          message: Updating combined federal data
           add: 'data/combined_federal_data.csv'
           author_name: GitHub Actions
           author_email: actions@github.com
