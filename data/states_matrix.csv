@@ -1258,6 +1258,12 @@ Michigan combines PCR and antigen tests in the total tests figure reported on th
 
 Michigan does not update their COVID-19 data on Sundays. As a result, new referrals of confirmed cases to the MDSS regularly affect the Confirmed cases we report on Mondays and over the weekend.
 
+On March 4, 2021, we deleted the history of **Negative (people or cases)**, because they represented negative tests, not individuals. Now that `totalTestResults` is not calculated from positive+negative, we do not need to duplicate negative specimens in the people field.
+
+As of March 4, 2021, Michigan's `totalTestResults` are drawn from `totalTestsViral` instead of calculated via positive+negative. The total tests grew by 96,532, mostly due to addition of repeat positive tests.
+
+On March 4, 2021, we fixed an error in a backfill from June 11, 2020, where we forgot to paste historical data from March 10, 2020 to March 16, 2020 for Positive Tests (PCR), Negative Tests (PCR), Total Tests (PCR), and Deaths.
+
 As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
 
 On January 2, 2021, Michigan did not publish updated testing data by the time of our daily update. As a result, we were unable to update Total Antibody Tests, Total Tests (PCR), Positive Tests (PCR), Negative Tests (PCR), or Negative (People or Cases) on January 2, 2021.
@@ -1283,7 +1289,7 @@ note: long calculation link can be found in cell E2 of WS2. Negative Tests (PCR)
 This formula sums negative PCR tests by county and day to get a cumulative number
 long calculation > hover over ""# MI Testing"" > click play button > ""Negative"" 
 
-note: long calculation link can be found in cell E2 of WS2. Positive Cases (PCR) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Confirmed"". Probable Cases – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Probable"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total"". Negative (People or Cases) – WS2 > Negative Tests (PCR). Pending – . Currently 
+note: long calculation link can be found in cell E2 of WS2. Positive Cases (PCR) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Confirmed"". Probable Cases – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Probable"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total"". Negative (People or Cases) – . Pending – . Currently 
 Hospitalized – calculated:
 MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > {""Total Hospitalized Adult
 Suspected/Confirmed"" + ""Hospitalized Peds Confirmed/Suspected""}
@@ -1313,7 +1319,7 @@ note: long calculation link can be found in cell E2 of WS2","long calculation
 This formula sums negative PCR tests by county and day to get a cumulative number
 long calculation > hover over ""# MI Testing"" > click play button > ""Negative"" 
 
-note: long calculation link can be found in cell E2 of WS2","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Confirmed""","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Probable""",,"MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total""",WS2 > Negative Tests (PCR),,"calculated:
+note: long calculation link can be found in cell E2 of WS2","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Confirmed""","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Probable""",,"MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total""",,,"calculated:
 MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > {""Total Hospitalized Adult
 Suspected/Confirmed"" + ""Hospitalized Peds Confirmed/Suspected""}
 
@@ -2366,7 +2372,9 @@ note: if % recovered = 89% and individuals = 23548 the formula is =FLOOR(23548*0
 note: if this metric does not update, leave the previous value in the cell
 ","calculated:
 SC dash > title ""Deaths in Individuals with COVID-19 infection"" > {Confirmed + Probable}","SC dash > title ""Deaths in Individuals with COVID-19 infection"" >  ""Confirmed""","SC dash > title ""Deaths in Individuals with COVID-19 infection"" > ""Probable""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/south-carolina-county-level-data-covid-19,SC
-SD,South Dakota,https://doh.sd.gov/COVID/Dashboard.aspx,https://doh.sd.gov/news/Coronavirus.aspx,https://www.twitter.com/SDDOH,,,,,"On March 4, 2021, we backfilled South Dakota's **Total Tests (Specimens)** and **Positive Tests (PCR)** with data from the ""PCR Test Positivity Rate by Date Reported to SD-DOH"" on the state's dashboard. The updated time series includes only PCR tests.
+SD,South Dakota,https://doh.sd.gov/COVID/Dashboard.aspx,https://doh.sd.gov/news/Coronavirus.aspx,https://www.twitter.com/SDDOH,,,,,"As of March 4, 2021, South Dakota's `totalTestResults` field is taken directly from `totalTestsViral` instead of calculated from positive + negative. 
+
+On March 4, 2021, we backfilled South Dakota's **Total Tests (Specimens)** and **Positive Tests (PCR)** with data from the ""PCR Test Positivity Rate by Date Reported to SD-DOH"" on the state's dashboard. The updated time series includes only PCR tests.
 
 On February 11, 2021, South Dakota [announced](https://twitter.com/SDDOH/status/1359925746219814916?s=20) on the official South Dakota Department of Health twitter that “a large number of COVID-19 test results are reported in today’s update due to IT system updates completed on one of several reporting methods”. As a result, not all new tests reported on February 11, 2021 were reported in the previous 24 hour period.
 

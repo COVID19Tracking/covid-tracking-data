@@ -351,6 +351,8 @@ As of August 29, 2020, we store the “total overall tested” timeseries in our
 On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).",@IDHW,https://coronavirus.idaho.gov/,People,totalTestsPeopleViral,Total PCR Tests (People),All data,false,Idaho,16
 IL,"Negative test results reported in our API and CSVs are calculated by subtracting **Total cases** from **Total PCR tests (specimens)** in the absence of better data. 
 
+On March 4, 2021, we cleared the history of **Negative (people or cases)** in Illinois. This number mixed units and we no longer need it to calculate `totalTestResults`.
+
 As of March 4, 2021, Illinois' `totalTestResults` is drawn from `totalTestsViral` instead of being calculated via positive+negative. This change had no impact on the number of tests at the topline. 
 
 On March 4, 2021, we backfilled the history of Illinois' **Total PCR Tests (specimens)** from data by date of report it posts on its website to add history from March 10, 2020 to May 24, 2020, when we did not have captured data.
@@ -507,6 +509,8 @@ Michigan combines PCR and antigen tests in the total tests figure reported on th
 
 Michigan does not update their COVID-19 data on Sundays. As a result, new referrals of confirmed cases to the MDSS regularly affect the Confirmed cases we report on Mondays and over the weekend.
 
+On March 4, 2021, we fixed an error in a backfill from June 11, 2020, where we forgot to paste historical data from March 10, 2020 to March 16, 2020 for Positive Tests (PCR), Negative Tests (PCR), Total Tests (PCR), and Deaths.
+
 As of July 7, 2020, Michigan updates its death figures three times a week after conducting reviews of death certificates. As a result, ""new"" deaths may not always reflect deaths in the past 24 hours.
 
 On January 2, 2021, Michigan did not publish updated testing data by the time of our daily update. As a result, we were unable to update Total Antibody Tests, Total Tests (PCR), Positive Tests (PCR), Negative Tests (PCR), or Negative (People or Cases) on January 2, 2021.
@@ -523,6 +527,8 @@ On June 11, 2020, we updated our historical data from a spreadsheet provided by 
 
 Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html","https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173-531113--,00.html",https://app.powerbigov.us/view?r=eyJrIjoiNDY0ZGVlMDItMzUzNC00ZGE5LWFjYzQtNzliOGJkZWQ4YTgzIiwidCI6ImQ1ZmI3MDg3LTM3NzctNDJhZC05NjZhLTg5MmVmNDcyMjVkMSJ9,,@MichiganHHS,https://www.michigan.gov/coronavirus,Specimens,totalTestsViral,posNeg,All data,false,Michigan,26
 MN,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
+
+On March 4, 2021, Minnesota [announced](https://twitter.com/dhmontgomery/status/1367573935160631297) that an audit discovered 4 private labs which had not been properly reporting test results to the Minnesota Department of Health. The data for March 4, 2021, includes roughly 31,000 older test results from 3 of these labs.
 
 On January 28, 2021, Minnesota reported a delay in hospital data for January 27th, 2021. Reporting for both dates will be available tomorrow.
 
@@ -929,7 +935,9 @@ On August 14, 2020, South Carolina reported an unusually large number of tests w
 On July 18, 2020, South Carolina announced it was transitioning to new reporting systems and that ""there may be incomplete data with significant gaps."" Though reporting resumed July 28, 2020, this resulted in data being carried over at times. We will backfill with the updated numbers when they are available.
 
 As of June 11, 2020, South Carolina reports PCR tests separately from antibody tests. Total test numbers were reduced by around 22,000 as a result of this change. ",https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/monitoring-testing-covid-19,https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/sc-demographic-data-covid-19,https://www.scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/hospital-bed-capacity-covid-19,https://scdhec.gov/infectious-diseases/viruses/coronavirus-disease-2019-covid-19/south-carolina-county-level-data-covid-19,https://public.tableau.com/views/MainDashboard_15964746061440/Testing?%3Aembed=y&%3AshowVizHome=no&%3Ahost_url=https%3A%2F%2Fpublic.tableau.com%2F&%3Aembed_code_version=3&%3Atabs=no&%3Atoolbar=no&%3Aanimate_transition=no&%3Adisplay_static_image=no&%3Adisplay_spinner=no&%3Adisplay_overlay=no&%3Adisplay_count=yes&%3Alanguage=en&publish=yes&%3AloadOrderID=2,@scdhec,https://scdhec.gov/health/infectious-diseases/viruses/coronavirus-disease-2019-covid-19,Specimens,posNeg,posNeg,All data,false,South Carolina,45
-SD,"On February 11, 2021, South Dakota [announced](https://twitter.com/SDDOH/status/1359925746219814916?s=20) on the official South Dakota Department of Health twitter that “a large number of COVID-19 test results are reported in today’s update due to IT system updates completed on one of several reporting methods”. As a result, not all new tests reported on February 11, 2021 were reported in the previous 24 hour period.
+SD,"On March 4, 2021, we backfilled South Dakota's **Total Tests (Specimens)** and **Positive Tests (PCR)** with data from the ""PCR Test Positivity Rate by Date Reported to SD-DOH"" on the state's dashboard. The updated time series includes only PCR tests.
+
+On February 11, 2021, South Dakota [announced](https://twitter.com/SDDOH/status/1359925746219814916?s=20) on the official South Dakota Department of Health twitter that “a large number of COVID-19 test results are reported in today’s update due to IT system updates completed on one of several reporting methods”. As a result, not all new tests reported on February 11, 2021 were reported in the previous 24 hour period.
 
 On December 24, 2020, South Dakota [announced](https://twitter.com/SDDOH/status/1342173217918746626) via the official South Dakota Department of Health twitter that there would be no update to their data on December 25, 2020 due to the holiday. Additionally, they noted that the data reported on December 26, 2020, would be the data which normally would have been reported on December 25, 2020, and the data reported on December 27, 2020 would include two days of data. On December 31, 2020, they noted that there would be no update to their data on January 1, 2021 due to the New Years holiday, and that the data reported on January 2, 2021, would be the data which normally would have been reported on January 1, 2021, and the data reported on January 3, 2021 would include two days of data.
 
@@ -996,7 +1004,9 @@ On July 22, 2020, we began reporting **Currently in ICU** for Texas. We are curr
 On June 16, 2020, Texas notes that ""The reported cases for June 16 include 2,622 new cases and 1,476 cases that were previously diagnosed among Texas Department of Criminal Justice inmates but that had not been reported by local health departments (887 from Anderson County and 589 from Brazoria County)."" 
 
 As of May 23, 2020, Texas reports PCR tests separately from antibody tests.",https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/ed483ecd702b4298ab01e8b9cafc8b83,https://services5.arcgis.com/ACaLB9ifngzawspq/ArcGIS/rest/services/TX_DSHS_COVID19_Test[…]&outFields=%2A&orderByFields=Date+desc&resultRecordCount=1,https://www.dshs.texas.gov/coronavirus/TexasCOVID-19HospitalizationsOverTimebyTSA.xlsx,https://txdshs.maps.arcgis.com/apps/opsdashboard/index.html#/0d8bdf9be927459d9cb11b9eaef6101f,,@TexasDSHS,https://dshs.texas.gov/coronavirus/,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Texas,48
-UT,"On February 12, 2021, we cleared the history of Utah's **Confirmed cases** field, which we previously filled using data from its positive people tested via PCR number. Utah does not present this figure as confirmed cases and instead calls its main case number, which includes both PCR and antigen tests, ""lab-confirmed cases."" We did not duplicate Utah's main case number into Confirmed cases to replace this positive PCR individuals number because the definition the state uses for ""confirmed"" is not in accordance with CSTE definitions.
+UT,"On March 4, 2021, Utah did not update their COVID-19 dashboards by the time of our daily update. As a result, we were unable to update their Cases (confirmed + probable) and hospitalization and death data.
+
+On February 12, 2021, we cleared the history of Utah's **Confirmed cases** field, which we previously filled using data from its positive people tested via PCR number. Utah does not present this figure as confirmed cases and instead calls its main case number, which includes both PCR and antigen tests, ""lab-confirmed cases."" We did not duplicate Utah's main case number into Confirmed cases to replace this positive PCR individuals number because the definition the state uses for ""confirmed"" is not in accordance with CSTE definitions.
 
 On December 25, 2020, Utah did not update their data by the time of our daily update, presumably due to the Christmas holiday.
 
