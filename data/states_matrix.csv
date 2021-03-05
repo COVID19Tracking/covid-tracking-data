@@ -1978,9 +1978,11 @@ screenshot: https://internal.covidtracking.com/screenshot?state=NY&datatype=taco
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values",,"NY press Conferences > find most recent COVID related press release > title ""Today's data is summarized briefly below"" > ""Total Discharges""
 
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values",,"NY dash > click link ""Click for Fatality Data"" >  table ""Fatalities by County"" > column ""Place of Fatality"" > row ""Grand Total""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,NY
-OH,Ohio,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,,https://www.twitter.com/OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/media-center/ODH-News-Releases,,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,,"As of March 2, 2021, Ohio updates their mortality figures twice a week as death certificate information is received and verified from the National Center for Health Statistics.
+OH,Ohio,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,,https://www.twitter.com/OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/media-center/ODH-News-Releases,,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,,"As of March 2, 2021, Ohio updates their mortality figures twice a week as death certificate information is received and verified from the National Center for Health Statistics. As a result of this change, Deaths (confirmed + probable) decreased from 17,346 to 17,189 on March 2, 2021. To allow our data quality team time to evaluate this change, we did not record this change on March 2, 2021, and backfilled our timeseries on March 3, 2021.
 
-Since February 10, 2021, Ohio has been reconciling their death data. As a result, death figures may fluctuate more than normal, and may include deaths which were not reported in the previous 24 hours. We urge caution when interpreting data from this period and encourage the use of 7 and 14-day averages as more reliable metrics. Our data quality team will continue to investigate how best to handle changes to their data.
+As of March 2, 2021, Ohio no longer reports Deaths (confirmed) and Deaths (probable) on their [COVID-19 dashboard](https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/). As a result, we are unable to update these metrics.
+
+From February 10, 2021 through March 1, 2021, Ohio reconciled their death data. As a result, death figures from this period may fluctuate more than normal, and may include deaths which were not reported in the previous 24 hours. We urge caution when interpreting data from this period and encourage the use of 7 and 14-day averages as more reliable metrics. Our data quality team will continue to investigate how best to handle changes to their data.
 
 Ohio continually updates its **Currently hospitalized / Now hospitalized** data which can cause slight differences between their historic data and ours. 
 
@@ -2036,7 +2038,7 @@ note: screenshot this graph - hover over most recent day’s red bar correspondi
 screenshot: https://internal.covidtracking.com/screenshot?state=OH&datatype=taco&subtype=data-dashboard. Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – OH dash > ""COVID-19 Dashboard"" > menu ""Overview"" >""Presumed Recovered""
 
-note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link. Deaths (confirmed and probable) – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" >  ""Total Deaths"" . ",,,,,"OH dash > ""Last updated"" & ""Updated daily at...""
+note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link. Deaths (confirmed and probable) – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" >  ""Deaths in State of Ohio"" . ",,,,,"OH dash > ""Last updated"" & ""Updated daily at...""
 
 above date / 14:00",,,,"long calculation
 This formula sums daily antigen tests to get a cumulative number. 
@@ -2066,7 +2068,11 @@ screenshot: https://internal.covidtracking.com/screenshot?state=OH&datatype=taco
 note: screenshot this graph - hover over most recent day’s red bar corresponding to COVID-19 positive - vent. 
 screenshot: https://internal.covidtracking.com/screenshot?state=OH&datatype=taco&subtype=data-dashboard",,,"OH dash > ""COVID-19 Dashboard"" > menu ""Overview"" >""Presumed Recovered""
 
-note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link","OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" >  ""Total Deaths"" ","OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Confirmed Deaths""","OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""CDC Expanded Death Definition (Probable)"" ",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/,OH
+note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link","OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" >  ""Deaths in State of Ohio"" ","updates:never
+
+OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Confirmed Deaths""","updates:never
+
+OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""CDC Expanded Death Definition (Probable)"" ",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/,OH
 OK,Oklahoma,,https://coronavirus.health.ok.gov/,https://www.twitter.com/HealthyOklahoma,https://coronavirus.health.ok.gov/news,,https://oklahoma.gov/covid19/newsroom/executive-order-reports.html,,"On February 27, 2021, Oklahoma's Total PCR Tests  dropped by 3,314 without explanation.
 
 On February 11, 2021, Oklahoma announced via a [press release](https://oklahoma.gov/covid19/newsroom/2021/february/situation-update--covid-19-02-11-2021.html) that due to delayed reporting by facilities, and time taken to investigate previously deferred cases, the “majority” of new deaths reported on February 11, 2021 occurred in November, 2020.
@@ -2252,8 +2258,16 @@ or (if page date is not updated, but dash is)
  
 current day / 0:00
 
-note: do not use the ""Útilima actualization..."" date on dash.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – PR dash > ""Total casos sospechosos"". Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: never. Positive Tests (PCR) – updates: never. Negative Tests (PCR) – updates: never. Positive Cases (PCR) – PR dash > ""Total Casos Confirmados"". Probable Cases – PR dash > ""Total casos probables Antígenos"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
-WS2 > {Probable Cases + Positive Cases (PCR)}. Negative (People or Cases) – updates: never. Pending – . Currently 
+note: do not use the ""Útilima actualization..."" date on dash.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – PR dash > ""Total casos sospechosos"". Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: never
+
+data is from this press release https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf. Positive Tests (PCR) – updates: never
+
+data is from this press release https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf. Negative Tests (PCR) – updates: never
+
+data is from this press release https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf. Positive Cases (PCR) – PR dash > ""Total Casos Confirmados"". Probable Cases – PR dash > ""Total casos probables Antígenos"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
+WS2 > {Probable Cases + Positive Cases (PCR)}. Negative (People or Cases) – updates: never
+
+data is from this press release https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf. Pending – . Currently 
 Hospitalized – PR dash > ""Hospitalizados por COVID-19"". Cumulative Hospitalized – . Currently
 in ICU – PR query > ""T_Pacientes_Int_Covid:"". Cumulative
 in ICU – . Currently 
@@ -2267,8 +2281,16 @@ or (if page date is not updated, but dash is)
  
 current day / 0:00
 
-note: do not use the ""Útilima actualization..."" date on dash.",,,,,,,,,,,"PR dash > ""Total casos sospechosos""",,,updates: never,updates: never,updates: never,"PR dash > ""Total Casos Confirmados""","PR dash > ""Total casos probables Antígenos""",,"calculated:
-WS2 > {Probable Cases + Positive Cases (PCR)}",updates: never,,"PR dash > ""Hospitalizados por COVID-19""",,"PR query > ""T_Pacientes_Int_Covid:""",,"PR query > ""T_Vent_Covid""",,,"updates: weekly, usually Mondays
+note: do not use the ""Útilima actualization..."" date on dash.",,,,,,,,,,,"PR dash > ""Total casos sospechosos""",,,"updates: never
+
+data is from this press release https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf","updates: never
+
+data is from this press release https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf","updates: never
+
+data is from this press release https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf","PR dash > ""Total Casos Confirmados""","PR dash > ""Total casos probables Antígenos""",,"calculated:
+WS2 > {Probable Cases + Positive Cases (PCR)}","updates: never
+
+data is from this press release https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf",,"PR dash > ""Hospitalizados por COVID-19""",,"PR query > ""T_Pacientes_Int_Covid:""",,"PR query > ""T_Vent_Covid""",,,"updates: weekly, usually Mondays
 PR dash > top right box > click arrow until you find > ""Convalecientes""","PR dash > ""Total Muertes por COVID-19/ Acumuladas""","PR dash > ""Total Muertos COVID-19 / Confirmadas (RT- PCR+)""
 
 note: click the little arrow at the bottom of the box under ""Total Muertes"" to the right one time","PR dash > ""Total Muertes por COVID-19 / Probables""
@@ -2349,7 +2371,9 @@ Hospitalized – SC other > ""COVID-19 patients hospitalized:"". Cumulative Hosp
 in ICU – SC other > ""COVID patients in ICU:"". Cumulative
 in ICU – . Currently 
 on Ventilator – SC other > ""COVID patients ventilated:"". Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – calculated:
+on Ventilator – . Hospital Discharges – . Recovered – updates:never
+
+calculated:
 SC primary > title ""State Recovery Estimate"" > you will need the recovery % and the number from the second paragraph that says ""...XXXX individuals for which we have symptom onset data...""
 
 note: SC has recently removed this metric from their dashboard. if you can't find it, start a slack thread and leave the previous value in the cell
@@ -2364,7 +2388,9 @@ above date / time",,,,"SC primary > tab ""go to Testing"" > table ""Type of COVI
 ",,"SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Grand Total"" > row ""Viral (molecular)""
 ","SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Positive"" > row ""Viral (molecular)""\","SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Negative"" > row ""Viral (molecular)""","SC dash > title ""Total Positive Cases"" > ""Confirmed""","SC dash > title ""Total Positive Cases"" > ""Probable""",,"calculated:
 SC dash > Total Positive Cases > {Confirmed + Probable}","calculated: 
-WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"SC other > ""COVID-19 patients hospitalized:""","SC primary > ""Hospitalizations All""","SC other > ""COVID patients in ICU:""",,"SC other > ""COVID patients ventilated:""",,,"calculated:
+WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"SC other > ""COVID-19 patients hospitalized:""","SC primary > ""Hospitalizations All""","SC other > ""COVID patients in ICU:""",,"SC other > ""COVID patients ventilated:""",,,"updates:never
+
+calculated:
 SC primary > title ""State Recovery Estimate"" > you will need the recovery % and the number from the second paragraph that says ""...XXXX individuals for which we have symptom onset data...""
 
 note: SC has recently removed this metric from their dashboard. if you can't find it, start a slack thread and leave the previous value in the cell
