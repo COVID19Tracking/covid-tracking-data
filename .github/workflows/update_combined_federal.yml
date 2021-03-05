@@ -29,7 +29,9 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run combiner
-        run: python combine.py STDOUT > ../../data/combined_federal_data.csv
+        run: |
+          jupyter nbconvert --to python combine.ipynb
+          python combine.py STDOUT > ../../data/combined_federal_data.csv
       - name: Commit
         if: github.ref == 'refs/heads/master'
         uses: EndBug/add-and-commit@v7
