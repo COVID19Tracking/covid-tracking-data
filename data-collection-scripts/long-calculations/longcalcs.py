@@ -75,6 +75,11 @@ def ma(f):
 def me(f):
 	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	print(pd.read_csv("https://gateway.maine.gov/dhhs-apps/mecdc_covid/hospital_capacity.csv", nrows=1, usecols=[0,1,2,3]).sum(), file=f)
+
+	# Testing
+	me = pd.read_csv('https://analytics.maine.gov/t/CDCExternal/views/covid-19-maine-cdc-dashboard/7_DailyLabResults.csv', thousands=',', parse_dates=['Day of Lab Received Date'])
+	me['Positive'] = me['Positive Tests'].fillna(me['Positive Tests Flexible'].fillna(0))
+	print(me.pivot(index='Day of Lab Received Date', columns='Type', values=['All Tests', 'Positive']).sum(), file=f)
 	print("\n\n", file=f)
 
 
@@ -98,7 +103,9 @@ def mi(f):
 def nc(f):
 	print("Run at: ", datetime.now(tz('US/Eastern')), "\n", file=f)
 	nc = pd.read_csv("https://public.tableau.com/views/NCDHHS_COVID-19_DataDownload/DailyTestingMetrics.csv", parse_dates=['Date'], index_col='Date', thousands=',')
-	print(nc.pivot(columns='Measure Names').sum().astype('int64'), file=f)
+	nc = nc.pivot(columns='Measure Names', values='Measure Values')
+	nc['Molecular Test'] = nc['Molecular Test'].fillna(nc['Daily Tests Total'].fillna(0))
+	print(nc.sum().astype('int64'), file=f)
 	print("\n\n", file=f)
 
 
