@@ -1990,8 +1990,6 @@ From February 10, 2021 through March 1, 2021, Ohio reconciled their death data. 
 
 Ohio continually updates its **Currently hospitalized / Now hospitalized** data which can cause slight differences between their historic data and ours. 
 
-On March 5, 2021, Ohio announced that 428 of the 752 deaths reported were from Ohio residents who had died out of state, and whose death certificates have just been received by the ODH Bureau of Vital Statistics. We urge caution when interpreting Ohio’s death figures, and encourage the use of 7 and 14-day averages as more reliable metrics than individual figures.
-
 On February 10, 2021, Ohio [announced](https://odh.ohio.gov/wps/portal/gov/odh/media-center/odh-news-releases/odh-news-release-02-10-20) that up to 4,000 COVID-19 deaths were underreported in the state’s reporting system and on their COVID-29 dashboard. These deaths will be added to their counts over the week on February 11, 2021. As a result, new deaths will be substantially higher than normal throughout this period. We urge caution when interpreting data from this period. Our data quality team will continue to investigate how best to handle the addition of these death. Approximately 650 of the deaths reported on February 11, 2021, 2500 of the deaths reported on February 12, 2021, and 1125 of the deaths reported on February 13, 2021 are a result of this reconciliation. On February 15, 2021, Ohio noted that they were continuing to reconcile deaths through a deep review of data which may result in fluctuations in death data.
 
 On January 6, 2021, we switched Ohio's `totalTestResults` to draw from `totalTestsViral` instead of by calculating from positive+negative. 
