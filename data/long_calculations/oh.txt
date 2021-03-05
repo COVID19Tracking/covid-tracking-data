@@ -418,3 +418,18 @@ dtype: float64
 
 
 
+Run at:  2021-03-05 16:39:07.357698-05:00 
+
+Confirmatory Lab Total Tested (Daily)                       10144547.00
+Confirmatory Lab Total Positive (Daily)                       861702.00
+Confirmatory Lab Percent Positive (Daily)                         28.79
+Presumptive Lab Total Tested (Daily)                         1751798.00
+Presumptive Lab Total Positive (Daily)                         85756.00
+Presumptive Lab Percent Positive (Daily)                           8.41
+Confirmatory and Presumptive Lab Total Positive (Daily)       760705.00
+Confirmatory and Presumptive Lab Total Tested (Daily)        8136437.00
+Confirmatory and Presumptive Lab Percent Positive (Daily)         12.72
+dtype: float64
+
+
+
