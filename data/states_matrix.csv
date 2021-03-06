@@ -1879,7 +1879,8 @@ note: add 15642 unless/until we receive an updated number",,"calculated:
 WS2 > { Deaths (confirmed) + Deaths (probable) }
 
 ","NJ dash > tab ""Cases and Trends"" > ""Total Confirmed Deaths""","NJ dash> tab ""Cases and Trends"" > ""Total Probable Deaths*""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://covid19.nj.gov/#live-updates,NJ
-NM,New Mexico,https://cvprovider.nmhealth.org/public-dashboard.html,,https://www.twitter.com/NMDOH,https://cv.nmhealth.org/newsroom/,,,,"
+NM,New Mexico,https://cvprovider.nmhealth.org/public-dashboard.html,,https://www.twitter.com/NMDOH,https://cv.nmhealth.org/newsroom/,,,,"As of March 5, 2021, New Mexico's `totalTestResults` are drawn directly from `totalTestsViral` instead of calculated via positive+negative.
+
 On March 1, 2021, we backfilled **Total PCR tests (specimens)**  in New Mexico from April 10, 2020 through May 11, 2020 using a query from New Mexico's site. On March 5, 2021, we backfilled **Total PCR tests (specimens)** from March 7, 2020 through April 10, 2020 from screenshots of New Mexico's dashboard. We also cleared Negative (People or cases) after April 6, 2020 and we cleared the history of New Mexico's **Negative (people or cases)**. The number previously mixed units and is no longer needed since `totalTestResults` are no longer calculated via positive+negative.
 
 On January 15, 2021, New Mexico’s **Total PCR tests (specimens)** decreased by approximately 13,000 without explanation.
@@ -2935,9 +2936,9 @@ note: number will be in parenthesis in the same line as the update time for the 
 note: number will be in parenthesis in the same line as the update time for the graph",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhs.wisconsin.gov/covid-19/cases.htm,WI
 WV,West Virginia,https://dhhr.wv.gov/COVID-19/Pages/default.aspx,https://dhhr.wv.gov/COVID-19/Pages/default.aspx,https://www.twitter.com/WV_DHHR,,,,,"West Virginia reports new antibody tests daily. We sum these numbers in a running total to report a value for the total number of antibody tests West Virginia has conducted. 
 
-On March 5, 2021, we cleared the history of West Virginia's **Negative (people or cases)**. The number previously mixed units and is no longer needed since `totalTestResults` are no longer calculated via positive+negative.
-
 As of March 5, 2021, West Virginia's `totalTestResults` are drawn directly from `totalTestsViral` instead of calculated via positive+negative. This change resulted in a decrease of 26637 tests due to the removal of probable cases from the figure.
+
+On March 5, 2021, we cleared the history of West Virginia's **Negative (people or cases)**. The number previously mixed units and is no longer needed since `totalTestResults` are no longer calculated via positive+negative.
 
 On March 5, 2021, we backfilled the history of West Virginia's **Total PCR Tests (specimens)** from data scraped from its dashboard. This allowed us to get historical testing data we did not have from March 13, 2020 to April 28, 2020.
 
