@@ -1879,7 +1879,8 @@ note: add 15642 unless/until we receive an updated number",,"calculated:
 WS2 > { Deaths (confirmed) + Deaths (probable) }
 
 ","NJ dash > tab ""Cases and Trends"" > ""Total Confirmed Deaths""","NJ dash> tab ""Cases and Trends"" > ""Total Probable Deaths*""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://covid19.nj.gov/#live-updates,NJ
-NM,New Mexico,https://cvprovider.nmhealth.org/public-dashboard.html,,https://www.twitter.com/NMDOH,https://cv.nmhealth.org/newsroom/,,,,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**. 
+NM,New Mexico,https://cvprovider.nmhealth.org/public-dashboard.html,,https://www.twitter.com/NMDOH,https://cv.nmhealth.org/newsroom/,,,,"
+On March 1, 2021, we backfilled **Total PCR tests (specimens)**  in New Mexico from April 10, 2020 through May 11, 2020 using a query from New Mexico's site. On March 5, 2021, we backfilled **Total PCR tests (specimens)** from March 7, 2020 through April 10, 2020 from screenshots of New Mexico's dashboard. We also cleared Negative (People or cases) after April 6, 2020 and we cleared the history of New Mexico's **Negative (people or cases)**. The number previously mixed units and is no longer needed since `totalTestResults` are no longer calculated via positive+negative.
 
 On January 15, 2021, New Mexico’s **Total PCR tests (specimens)** decreased by approximately 13,000 without explanation.
 
@@ -1887,8 +1888,7 @@ On November 18, 2020, we shifted the entire time series of New Mexico metrics by
 
 above date / above time (see note below)
 
-note: the time is presented in the viewer's local time (your timezone), but it needs to be entered into the spreadsheet as Mountain Time. If you are in ET subtract 2 hours. If you are in CT subtract 1 hour. If you are in PT add 1 hour. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NM dash > ""Total # of Tests Performed"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NM dash > ""Number of Cases"". Negative (People or Cases) – calculated:
-WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}. Pending – . Currently 
+note: the time is presented in the viewer's local time (your timezone), but it needs to be entered into the spreadsheet as Mountain Time. If you are in ET subtract 2 hours. If you are in CT subtract 1 hour. If you are in PT add 1 hour. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NM dash > ""Total # of Tests Performed"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NM dash > ""Number of Cases"". Negative (People or Cases) – . Pending – . Currently 
 Hospitalized – NM dash > ""Current Hospitalizations"". Cumulative Hospitalized – NM dash > ""Total Hospitalizations"". Currently
 in ICU – . Cumulative
 in ICU – . Currently 
@@ -1897,8 +1897,7 @@ on Ventilator – . Hospital Discharges – . Recovered – NM dash > ""Total Re
 
 above date / above time (see note below)
 
-note: the time is presented in the viewer's local time (your timezone), but it needs to be entered into the spreadsheet as Mountain Time. If you are in ET subtract 2 hours. If you are in CT subtract 1 hour. If you are in PT add 1 hour. ",,,,,,,,,,,,,,"NM dash > ""Total # of Tests Performed""",,,,,,"NM dash > ""Number of Cases""","calculated:
-WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"NM dash > ""Current Hospitalizations""","NM dash > ""Total Hospitalizations""",,,,,,"NM dash > ""Total Recovered""","NM dash > ""Total Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://cv.nmhealth.org/,NM
+note: the time is presented in the viewer's local time (your timezone), but it needs to be entered into the spreadsheet as Mountain Time. If you are in ET subtract 2 hours. If you are in CT subtract 1 hour. If you are in PT add 1 hour. ",,,,,,,,,,,,,,"NM dash > ""Total # of Tests Performed""",,,,,,"NM dash > ""Number of Cases""",,,"NM dash > ""Current Hospitalizations""","NM dash > ""Total Hospitalizations""",,,,,,"NM dash > ""Total Recovered""","NM dash > ""Total Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://cv.nmhealth.org/,NM
 NV,Nevada,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,http://dpbh.nv.gov/coronavirus/,https://www.twitter.com/dhhsnevada,,,,,"The Nevada Department of Health and Human Services states that due to testing performed on environmental samples, the number of Total PCR Tests (test encounters) reported is higher than the number of test encounters including only tests performed on people.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
@@ -2935,8 +2934,6 @@ note: number will be in parenthesis in the same line as the update time for the 
 
 note: number will be in parenthesis in the same line as the update time for the graph",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhs.wisconsin.gov/covid-19/cases.htm,WI
 WV,West Virginia,https://dhhr.wv.gov/COVID-19/Pages/default.aspx,https://dhhr.wv.gov/COVID-19/Pages/default.aspx,https://www.twitter.com/WV_DHHR,,,,,"West Virginia reports new antibody tests daily. We sum these numbers in a running total to report a value for the total number of antibody tests West Virginia has conducted. 
-
-Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 On March 5, 2021, we cleared the history of West Virginia's **Negative (people or cases)**. The number previously mixed units and is no longer needed since `totalTestResults` are no longer calculated via positive+negative.
 
