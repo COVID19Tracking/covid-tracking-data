@@ -172,3 +172,9 @@ PCR Testing Encounters: 7037081
 
 
 
+Run at:  2021-03-06 04:42:15.801369-05:00 
+
+PCR Testing Encounters: 7037177
+
+
+
