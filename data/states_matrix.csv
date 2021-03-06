@@ -818,8 +818,7 @@ WS2 > {Total PCR Tests (People) - Positive Cases (People, confirmed + probable}"
 note: please screenshot this graph while hovering over the most recent day
 screenshot: https://internal.covidtracking.com/screenshot?state=IN&datatype=taco&subtype=primary-source","IN dash > title ""Hospitalizations"" > ""Unique Patients""","IN other > ""BEDS_ICU_OCCUPIED_COVID_19""
 
-note: if you have trouble reading the table expand the column","IN dash > title ""ICU Admits"" > ""Unique Patients""","IN other > ""VENTS_ALL_USE_COVID_19""",,"
-IN dash > title ""Recovery"" > ""Unique Patients""",,"calculated: 
+note: if you have trouble reading the table expand the column","IN dash > title ""ICU Admits"" > ""Unique Patients""","IN other > ""VENTS_ALL_USE_COVID_19""",,"IN dash > title ""Recovery"" > ""Unique Patients""",,"calculated: 
 IN primary > {Total Deaths + Total Probable Deaths}
 
 note: ""Total Probable Deaths"" is near the bottom of the page","IN primary > ""Total Deaths""","IN primary > title ""Probable COVID-19 Counts"" > ""Total Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.coronavirus.in.gov/2393.htm,IN
@@ -2843,7 +2842,9 @@ above date / above time
 
 note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
 
-note: we need the larger number. Total Tests (PCR) – . Positive Tests (PCR) – long calculation
+note: we need the larger number
+note: please screenshot this dash
+screenshot: https://internal.covidtracking.com/screenshot?state=WA&datatype=taco&subtype=data-dashboard. Total Tests (PCR) – . Positive Tests (PCR) – long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive"". Negative Tests (PCR) – long calculation
 calculated: 
@@ -2863,7 +2864,9 @@ above date / above time
 
 note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
 
-note: we need the larger number",,"long calculation
+note: we need the larger number
+note: please screenshot this dash
+screenshot: https://internal.covidtracking.com/screenshot?state=WA&datatype=taco&subtype=data-dashboard",,"long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive""","long calculation
 calculated: 
