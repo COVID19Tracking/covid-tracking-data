@@ -813,7 +813,10 @@ As of October 16, 2020, Indiana’s total test results are drawn from our totalT
 above date / above time",,,,,,,,,,,,,,"IN primary > ""Total Tests Administered""","IN query > ""pos_tests"": 
 
 note: the link will open a page with a text string from the api, look for the value after the term ""pos_tests""",,,,"IN primary > ""Total Individuals Tested""","IN primary > ""Total Positive Cases""","calculated: 
-WS2 > {Total PCR Tests (People) - Positive Cases (People, confirmed + probable}",,"IN primary > title ""Hospitalizations"" > graph ""Statewide COVID-19 Hospital Census"" > hover over most recent day > ""Total COVID19 Patients""","IN dash > title ""Hospitalizations"" > ""Unique Patients""","IN other > ""BEDS_ICU_OCCUPIED_COVID_19""
+WS2 > {Total PCR Tests (People) - Positive Cases (People, confirmed + probable}",,"IN primary > title ""Hospitalizations"" > graph ""Statewide COVID-19 Hospital Census"" > hover over most recent day > ""Total COVID19 Patients""
+
+note: please screenshot this graph while hovering over the most recent day
+screenshot: https://internal.covidtracking.com/screenshot?state=IN&datatype=taco&subtype=primary-source","IN dash > title ""Hospitalizations"" > ""Unique Patients""","IN other > ""BEDS_ICU_OCCUPIED_COVID_19""
 
 note: if you have trouble reading the table expand the column","IN dash > title ""ICU Admits"" > ""Unique Patients""","IN other > ""VENTS_ALL_USE_COVID_19""",,"
 IN dash > title ""Recovery"" > ""Unique Patients""",,"calculated: 
