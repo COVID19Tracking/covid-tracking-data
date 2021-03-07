@@ -264,7 +264,10 @@ From July 18–August 5, 2020, Arizona’s dashboard stopped displaying confirme
 
 On June 23, 2020, we updated our historical data for **Cumulative hospitalized** to match Arizona's dashboard data for ""hospitalized by date admitted."" Data for this metric is not typically reported until several days after admittance. Our daily updates will continue to compile Arizona’s overall number as of cumulative hospitalizations, regardless of date admitted.","Local Time – AZ dash > ""Date Updated""
 
-that date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – AZ dash > tab ""Summary"" > ""Total COVID-19 Serology Tests"". Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Diagnostic"" > ""Diagnostic tests completed for COVID-19""
+that date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – AZ dash > tab ""Summary"" > ""Total COVID-19 Serology Tests"". Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Serology"" > ""Serology tests completed for COVID-19""
+
+note: screenshot this page with the serology tests selected
+screenshot: https://internal.covidtracking.com/screenshot?state=AZ&datatype=taco&subtype=data-dashboard. Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Diagnostic"" > ""Diagnostic tests completed for COVID-19""
 note: screenshot this page with the diagnostic tests selected
 screenshot: https://internal.covidtracking.com/screenshot?state=AZ&datatype=taco&subtype=data-dashboard. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""confirmed""
 . Probable Cases – AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""probable""
@@ -278,7 +281,10 @@ on Ventilator – . Hospital Discharges – long formula:
 We sum the daily discharged patients since March 10, 2020 to get a cumulative number of recovered patients.
 AZ dash > tab ""Hospital COVID-19 Specific Metrics"" > tab ""COVID-19 Discharge"" > mouse over most recent bar in chart > ""Number:"" > Add to ""Long Formulas"" tab in sheet > enter the sum from the top. Recovered – . Deaths (confirmed and probable) – AZ dash > tab ""Summary"" > ""Number of Deaths"". ",,,,,"AZ dash > ""Date Updated""
 
-that date / 0:00",,,,,,,,,,"AZ dash > tab ""Summary"" > ""Total COVID-19 Serology Tests""",,,,"AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Diagnostic"" > ""Diagnostic tests completed for COVID-19""
+that date / 0:00",,,,,,,"AZ dash > tab ""Summary"" > ""Total COVID-19 Serology Tests""",,,"AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Serology"" > ""Serology tests completed for COVID-19""
+
+note: screenshot this page with the serology tests selected
+screenshot: https://internal.covidtracking.com/screenshot?state=AZ&datatype=taco&subtype=data-dashboard",,,,"AZ dash > tab ""Laboratory Testing"" > tab ""Tests Conducted"" > dropdown ""Choose a test type to filter the data"" > select ""Diagnostic"" > ""Diagnostic tests completed for COVID-19""
 note: screenshot this page with the diagnostic tests selected
 screenshot: https://internal.covidtracking.com/screenshot?state=AZ&datatype=taco&subtype=data-dashboard",,,"AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""confirmed""
 ","AZ dash > tab ""Summary"" > hover over ""Number of Cases #"" > ""probable""
