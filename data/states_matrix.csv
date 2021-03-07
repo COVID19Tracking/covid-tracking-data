@@ -2261,6 +2261,8 @@ note: may not update on weekends
 note: if this metric does not update, leave the previous value in the cell","PA dash > ""Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,PA
 PR,Puerto Rico,https://bioseguridad.maps.arcgis.com/apps/opsdashboard/index.html#/d7308c1abb4747e584329adf1215125e,http://www.salud.gov.pr/Pages/coronavirus.aspx,https://twitter.com/desaludpr,,https://services5.arcgis.com/klquQoHA0q9zjblu/ArcGIS/rest/services/Datos_Totales_View7/FeatureServer/0/query?where=1%3D1&outFields=T_Muertes_COVID_RD%2CT_Muertes_Combinadas%2CT_Pacientes_Int_Covid%2CT_Vent_Covid%2CT_Serologicos_Pos%2CT_Casos_Unicos%2CT_Molecular_Pos%2CT_Fatalidades%2CT_Hospitalizados,,,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
+On March 7, 2021, Puerto Rico's dashboard link was broken and required a login. As a result, data will be frozen until a suitable replacement is found.
+
 Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports. The most recent test data for Puerto Rico is taken from a [Departamento de Salud press release](https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf) from August 28, 2020. 
 
 Puerto Rico’s **Recovered** numbers occasionally decrease without explanation. We suspect this is due to some sort of data quality assurance or de-deduplication.
