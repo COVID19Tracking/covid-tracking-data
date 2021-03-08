@@ -147,6 +147,8 @@ CO,"The **Recovered** data point we report for Colorado reflects the number of C
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
+On March 7, 2021, Colorado did not update its Currently hospitalized, **Confirmed cases,** **Probable cases,** **Recovered,** **Negative PCR tests (people)**, **Confirmed deaths**, and **Probable deaths** before our publication time
+
 On February 10, 2021, Colorado noted that a temporary technical issue occurring on February 9, 2021, caused their dashboard to show incomplete case counts, while testing and percent positivity data did not update. As a result, we were unable to update testing data on February 10, 2021. A full update for all affected metrics is anticipated on February 11, 2021.
 
 On January 26, 2021, Colorado [reported](https://covid19.colorado.gov/press-release/cdphe-adding-past-dated-cases-into-electronic-laboratory-reporting-system) that it would be adding over 3,000 past-dated cases from last year, particularly November and December 2020, reported by email and fax to its cumulative figures. This will cause larger than normal case counts over the next few days. We urge caution when using data from this period.
@@ -629,7 +631,9 @@ On November 16, 2020, Montana’s Confirmed cases increased by more than their T
 On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",https://montana.maps.arcgis.com/apps/MapSeries/index.html?appid=7c34f3412536439491adcc2103421d4b,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt/demographics,https://dphhs.mt.gov/Portals/85/publichealth/documents/CDEpi/DiseasesAtoZ/2019-nCoV/Status%20Update%20Data%20Report_3062021.pdf,,,@dphhsmt,https://dphhs.mt.gov/publichealth/cdepi/diseases/coronavirusmt,Specimens,totalTestsViral,Total Tests (PCR),All data,false,Montana,30
 NC,"The metric reported in our API as `totalTestsAntigen` only includes tests reported after September, 22, 2020. If previous values become available from North Carolina we will backfill the complete time series. 
 
-Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data. 
+Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
+
+As of March 6, 2021, North Carolina no longer updates their COVID-19 data on Sundays. 
 
 On March 3, 2021, we cleared the history of Negative (people or cases) in North Carolina. This number mixed units, but we kept it because we relied on it for `totalTestResults.` Now, with `totalTestResults` drawn from `totalTestsViral`, we no longer need the negatives field to be filled.
 
@@ -660,7 +664,9 @@ On September 25, 2020, North Carolina started reporting probable cases which cau
 On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press-releases/ncdhhs-corrects-covid-19-testing-totals-after-identifying-labcorp-reporting) a major correction in its **Total PCR tests (specimens)**, resulting in a decrease of more than 220,000 reported tests. 
 
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.",https://www.ncdhhs.gov/covid-19-case-count-nc,https://files.nc.gov/covid/documents/dashboard/Weekly-COVID19-Patients-Presumed-to-be-Recovered.pdf,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_HospitalizationsE/Hospitalizations?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=no&:language=en&publish=yes&:loadOrderID=0,https://public.tableau.com/views/NCDHHS_COVID-19_Dashboard_Cases_County/NCDHHS_Dashboard_Cases2?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=no&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=0,,@ncdhhs,https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,North Carolina,37
-ND,"On February 13, 2021 North Dakota's reported **Total Tests (PCR)** declined by 822 without explanation.
+ND,"On March 7, 2021, North Dakota’s Total PCR tests (people) decreased by 75 and Negatives decreased by 109 without explanation.
+
+On February 13, 2021 North Dakota's reported **Total Tests (PCR)** declined by 822 without explanation.
 
 On February 10, 2021, North Dakota's Confirmed cases decreased by 32 due to an [assessment of software malfunction](https://www.health.nd.gov/news/update-public-health-laboratory-completes-assessment-software-malfunction).
 
@@ -888,6 +894,8 @@ On September 3, 2020, Pennsylvania [clarified](https://www.health.pa.gov/topics/
 On April 23, 2020, Pennsylvania revised down its total **Deaths (confirmed and probable)** from 1,622 to 1,421 to exclude some probable deaths that needed further confirmation to be linked to COVID-19",https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,https://padoh.maps.arcgis.com/apps/opsdashboard/index.html#/5662e22517b644ba874ca51fa7b61c94,,,,@PAHealthDept,https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx,Encounters,totalTestEncountersViral,Total Test Encounters (PCR),Only positives,false,Pennsylvania,42
 PR,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
+On March 7, 2021, Puerto Rico's dashboard link was broken and required a login. As a result, data will be frozen until a suitable replacement is found.
+
 Puerto Rico does not report test data on its data dashboard. Data for **Total PCR Tests (in specimens)** and **Positive PCR Tests (in specimens)** is taken from infrequent press reports. The most recent test data for Puerto Rico is taken from a [Departamento de Salud press release](https://github.com/COVID19Tracking/issues/files/5307568/Actualizacion.de.los.resultados.de.las.pruebas.moleculares.y.serologicas.para.Covid-19.registradas.en.Bioportal.del.Depto.de.Salud.pdf) from August 28, 2020. 
 
 Puerto Rico’s **Recovered** numbers occasionally decrease without explanation. We suspect this is due to some sort of data quality assurance or de-deduplication.
@@ -978,6 +986,8 @@ TN,"Negative test results reported in our API and CSVs are calculated by subtrac
 
 Tennessee continually updates its **Currently hospitalized / Now hospitalized** data which can cause differences between their historic data and ours. 
 
+On March 7, 2021, Tennessee did not provide an update before the end of our daily publication shift.
+
 As of March 1, 2021, Tennessee's `totalTestResults` field is taken directly from `totalTestsViral` instead of calculated from positive + negative. We backfilled the data for March 24, 2020 through March 1, 2021 using the time-series posted in Tennessee's [Downloadable Datasets](https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html). We also cleared the history of Negative (people or cases) since it was calculated using mixed units.
 
 On January 1, 2021, the Tennessee Department of Health [announced](https://twitter.com/TNDeptofHealth/status/1345117770543996940?s=20) that its update for January 2, 2021 would include data from both January 1 and January 2, presumably because of the holiday. We were able to update **Now hospitalized** from Tennessee’s separate [hospitalization source](https://www.tn.gov/health/cedep/ncov/data/hospitalization-data/current-covid-hospitalizations.html).
@@ -994,6 +1004,10 @@ As of June 10, 2020, **Total cases** include both confirmed and probable cases o
 
 On April 5, 2020, Tennessee reported a decline in **Recoveries**. ",https://www.tn.gov/health/cedep/ncov.html,https://apps.health.tn.gov/AEM_embed/TDH-2019-Novel-Coronavirus-Epi-and-Surveillance.pdf#toolbar=0,https://data.tn.gov/t/Public/views/HospitalizedPatients/HospitalizedPatients?:embed=y,,,@TNDeptofHealth,https://www.tn.gov/health/cedep/ncov.html,Specimens,totalTestsViral,Total Tests (PCR),Only positives,false,Tennessee,47
 TX,"The Texas Department of State Health Services regularly includes older cases identified by labs in their cumulative confirmed case counts. As a result, new cases reported may not necessarily have occurred in the past 24 hour period. When these increases are significant, we will specifically mention them in our daily update on Twitter.
+
+On March 6, 2021 through March 7, 2021, Texas announced that due to a technical issue, fewer lab results would be reported. We urge caution when interpreting their testing data for this day.
+
+On March 7, 2021, Texas’ Positive antigen tests (specimens) decreased by 532 without explanation.
 
 On February 21, 2021, Texas’s Positive PCR tests (specimens) decreased by over 10,000 without explanation. Throughout the week, Texas has experienced multiple weather-related issues which have impacted their data reporting. We urge caution when interpreting data from this period.
 
@@ -1212,7 +1226,7 @@ On July 4, 2020, West Virginia began making continual changes to its previous da
 On May 23, 2020, West Virginia began reporting PCR and antibody tests separately. Total test values before this date might include both PCR and antibody tests.
 
 On April 16, 2020, West Virginia began reporting current hospitalization, ICU, and ventilator metrics from 49 of 55 counties. Before April 16, 2020, those counts were less complete, as they were based on completed investigations rather than on hospital data.",https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,,@WV_DHHR,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,Specimens,totalTestsViral,Total Tests (PCR),All data,false,West Virginia,54
-WY,"As of February 13, 2021, Wyoming does not update their COVID-19 data on Saturdays.
+WY,"As of February 13, 2021, Wyoming does not update their COVID-19 data on Saturdays. Beginning on March 7, 2021, they no longer update their COVID-19 data on Saturdays or Sundays. 
 
 Wyoming’s metrics do not update every day, and don’t always update together. As a result, please exercise extra caution when using numbers that are calculated from daily changes, especially if these calculations use multiple metrics. If anomalies are observed, numbers from previous days will be carried over until corrections are made.
 
