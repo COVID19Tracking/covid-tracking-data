@@ -185,6 +185,7 @@ def ut(f):
         print(title, "\n"+"="*len(title), file=f)
         df = pd.read_csv(zip.open(zf.filename)).drop(columns=[' Total Daily Tests', 'Total Positive Tests', 'Daily People Tested', 'Daily Positive Tests'], errors="ignore")
         print(df.groupby(['Test Type', 'Result']).sum(), file=f)
+        print(df.groupby('Test Type').sum(), file=f)
         print("\n\n", file=f)
 
 
