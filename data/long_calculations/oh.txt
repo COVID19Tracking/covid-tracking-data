@@ -583,3 +583,6 @@ dtype: float64
 
 
 
+Run at:  2021-03-11 04:48:06.493475-05:00 
+
+Encountered an error running at 2021-03-11 04:48:07.288655-05:00
