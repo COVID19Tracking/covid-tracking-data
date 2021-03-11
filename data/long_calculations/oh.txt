@@ -586,3 +586,18 @@ dtype: float64
 Run at:  2021-03-11 04:48:06.493475-05:00 
 
 Encountered an error running at 2021-03-11 04:48:07.288655-05:00
+Run at:  2021-03-11 16:39:50.047665-05:00 
+
+Confirmatory Lab Total Tested (Daily)                       10366545.00
+Confirmatory Lab Total Positive (Daily)                       868666.00
+Confirmatory Lab Percent Positive (Daily)                         29.03
+Presumptive Lab Total Tested (Daily)                         1854123.00
+Presumptive Lab Total Positive (Daily)                         88561.00
+Presumptive Lab Percent Positive (Daily)                           8.67
+Confirmatory and Presumptive Lab Total Positive (Daily)       770474.00
+Confirmatory and Presumptive Lab Total Tested (Daily)        8460760.00
+Confirmatory and Presumptive Lab Percent Positive (Daily)         12.95
+dtype: float64
+
+
+
