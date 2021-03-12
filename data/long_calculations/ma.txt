@@ -1300,3 +1300,34 @@ dtype: object
 
 
 
+Run at:  2021-03-12 16:39:20.141277-05:00 
+
+Download link =  https://www.mass.gov/doc/covid-19-raw-data-march-11-2021/download
+PCR Total People
+4997818 
+
+All Positive Molecular Tests                         673291.0
+All Positive Molecular Tests_Higher Ed ONLY           14055.0
+All Positive Molecular Tests_MA without Higher ED    507819.0
+dtype: float64
+
+
+
+
+Weekly link =  https://www.mass.gov/doc/weekly-public-health-report-raw-data-march-11-2021/download
+Positive Tests                           15689.0
+Total Tests                             157566.0
+Unnamed: 3                                   0.0
+DATA CURRENT AS OF 11:59PM ON 3/9/21         0.0
+dtype: float64
+
+Ever Hospitalized 
+
+Race/Ethnicity        White, non-HispanicBlack or African American, ...
+All Cases                                                        595264
+Ever Hospitaltized                                                19960
+Deaths                                                            16509
+dtype: object
+
+
+
