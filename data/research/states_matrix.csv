@@ -538,9 +538,8 @@ updates: weekly
 calculated:
 GU other > scroll  to table ""COVID-19 Testing Breakdown"" > row ""SEROLOGY TESTS"" > column ""Total Positives"" >  {sum of all values in ""Total Positives"" column}
 
-note: This is now updated weekly. Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday - Friday
-GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""MOLECULAR TEST"" > column ""TOTAL"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Confirmed Cases""
-. Probable Cases – GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Probable Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""COVID-19 Cases"". Negative (People or Cases) – updates: Monday - Friday
+note: This is now updated weekly. Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – GU avocado > n/a > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Confirmed Cases""
+. Probable Cases – GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Probable Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – GU avocado > n/a > positive. Negative (People or Cases) – updates: Monday - Friday
 calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
@@ -551,7 +550,7 @@ in ICU – . Currently
 on Ventilator – GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""ON VENTILATOR"". Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – GU primary > most recent JIC release > look in written part at the top ""XXXX not in active isolation.""
 
-note: if this metric does not update, leave the previous value in the cell. Deaths (confirmed and probable) – GU primary > most recent JIC release > ""...officially reported cases of COVID-19 with XXX deaths"". ",,,,,"GU primary > ""Posted on"" date and time from most recent JIC release
+note: if this metric does not update, leave the previous value in the cell. Deaths (confirmed and probable) – GU avocado > n/a > death. ",,,,,"GU primary > ""Posted on"" date and time from most recent JIC release
 
 note: if information comes from a JIC Release without the table use date and time of publish of that release
 note: if deaths are sourced from a recent press release, use the publish time of that one if it is the most recent",,,,"updates: Monday - Friday
@@ -562,15 +561,14 @@ updates: weekly
 calculated:
 GU other > scroll  to table ""COVID-19 Testing Breakdown"" > row ""SEROLOGY TESTS"" > column ""Total Positives"" >  {sum of all values in ""Total Positives"" column}
 
-note: This is now updated weekly",,,"updates: Monday - Friday
-GU primary > most recent JIC release > table ""COVID-19 DIAGNOSTIC TESTING ON GUAM"" > row ""MOLECULAR TEST"" > column ""TOTAL""",,,"GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Confirmed Cases""
-","GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Probable Cases""",,"GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""COVID-19 Cases""","updates: Monday - Friday
+note: This is now updated weekly",,,GU avocado > n/a > totalTestsViral,,,"GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Confirmed Cases""
+","GU primary > most recent JIC release > table ""COVID-19 CASE COUNT"" > ""Probable Cases""",,GU avocado > n/a > positive,"updates: Monday - Friday
 calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
 note: if a number used in this calculation does not update, leave the previous value in the cell",,"GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""COVID ADMISSION""",,"GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""IN ICU""",,"GU primary > most recent JIC release > table ""COVID HOSPITAL CENSUS"" > column ""TOTAL"" > ""ON VENTILATOR""",,,"GU primary > most recent JIC release > look in written part at the top ""XXXX not in active isolation.""
 
-note: if this metric does not update, leave the previous value in the cell","GU primary > most recent JIC release > ""...officially reported cases of COVID-19 with XXX deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://ghs.guam.gov/coronavirus-covid-19,GU
+note: if this metric does not update, leave the previous value in the cell",GU avocado > n/a > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://ghs.guam.gov/coronavirus-covid-19,GU
 HI,Hawaii,,https://health.hawaii.gov/coronavirusdisease2019/what-you-should-know/current-situation-in-hawaii/,https://twitter.com/HawaiiDOH,https://health.hawaii.gov/news/covid-19-updates/,https://public.tableau.com/views/EpiCurveApr4/CSVDownload.csvhttps://public.tableau.com/views/EpiCurveApr4/CSVDownload.csv?:showVizHome=no,https://hawaiicovid19.com/dashboard/,,"Hawaii’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
 
 On February 2, 2021, Hawaii's **Total PCR Tests (Test Encounters)** decreased by more than 15,000 and **Positive PCR Tests (specimens)** decreased by more than 150 without explanation. 
@@ -593,13 +591,12 @@ As of August 5, 2020, we are collecting **Now hospitalized**, **Now in ICU**, an
 This formula presents the update time in the correct time zone.
 long calculation > hover over ""# HI PCR Test Encounters"" > click play button > ""Update time:"" 
 
-above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – HI primary > ""Total COVID-19 Tests"". Total Tests (PCR) – . Positive Tests (PCR) – HI primary > ""Total COVID-19 Tests"" > ""XXXXX total number of positive tests"". Negative Tests (PCR) – . Positive Cases (PCR) – HI primary > ""Confirmed Cases"". Probable Cases – updates: weekly
+above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – HI primary > ""Total COVID-19 Tests"". Total Tests (PCR) – HI avocado > n/a > totalTestsViral. Positive Tests (PCR) – HI primary > ""Total COVID-19 Tests"" > ""XXXXX total number of positive tests"". Negative Tests (PCR) – . Positive Cases (PCR) – HI primary > ""Confirmed Cases"". Probable Cases – updates: weekly
 calculated:
 HI site > click link ""Probable Cases"" > title ""Hawaii COVID-19 Probable Cases"" > { Sum of ""Total Probable Cases"" column}
 
 note: will look like = 9 + 67 + 0 + 102 +1
-note: this value is updated weekly (fri), if this metric does not update, leave the previous value in the cell. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
-WS2 > {Positive Cases (PCR) + Probable Cases}. Negative (People or Cases) – . Pending – . Currently 
+note: this value is updated weekly (fri), if this metric does not update, leave the previous value in the cell. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – HI avocado > n/a > positive. Negative (People or Cases) – . Pending – . Currently 
 Hospitalized – HI primary > tab ""Hospitalization"" > graph ""Confirmed COVID-19 Positive Patients"" > hover over most recent date
 
 note: TEMPORARY OVERRIDE: HI primary > tab ""Hospitalization"" > ""Currently hospitalized""
@@ -620,13 +617,12 @@ on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed 
 This formula presents the update time in the correct time zone.
 long calculation > hover over ""# HI PCR Test Encounters"" > click play button > ""Update time:"" 
 
-above date / above time",,,,,,,,,,,,,"HI primary > ""Total COVID-19 Tests""",,"HI primary > ""Total COVID-19 Tests"" > ""XXXXX total number of positive tests""",,"HI primary > ""Confirmed Cases""","updates: weekly
+above date / above time",,,,,,,,,,,,,"HI primary > ""Total COVID-19 Tests""",HI avocado > n/a > totalTestsViral,"HI primary > ""Total COVID-19 Tests"" > ""XXXXX total number of positive tests""",,"HI primary > ""Confirmed Cases""","updates: weekly
 calculated:
 HI site > click link ""Probable Cases"" > title ""Hawaii COVID-19 Probable Cases"" > { Sum of ""Total Probable Cases"" column}
 
 note: will look like = 9 + 67 + 0 + 102 +1
-note: this value is updated weekly (fri), if this metric does not update, leave the previous value in the cell",,"calculated:
-WS2 > {Positive Cases (PCR) + Probable Cases}",,,"HI primary > tab ""Hospitalization"" > graph ""Confirmed COVID-19 Positive Patients"" > hover over most recent date
+note: this value is updated weekly (fri), if this metric does not update, leave the previous value in the cell",,HI avocado > n/a > positive,,,"HI primary > tab ""Hospitalization"" > graph ""Confirmed COVID-19 Positive Patients"" > hover over most recent date
 
 note: TEMPORARY OVERRIDE: HI primary > tab ""Hospitalization"" > ""Currently hospitalized""
 note: please screenshot the number on the hover graph until we figure out screenshots!
@@ -761,7 +757,7 @@ As of October 15, 2020, Illinois combines PCR and antigen tests in the total tes
 
 On September 4, 2020, Illinois reported over 140,000 new **Total PCR tests (in specimens)** and over 5,000 new **Cases.** According to the [Chicago Tribune](https://www.chicagotribune.com/coronavirus/ct-covid-19-pandemic-chicago-illinois-news-20200904-qun7unon5fhjbfhnsml4edwqia-story.html), ""The Illinois Department of Public Health said Friday there was significant slowdown in the agency's test reporting earlier this week that it is just catching up with."" ",#REF!,FALSE,,,,"IL primary > ""Information to be updated daily"" 
 
-today's date / 0:00",,,,,,,,,,,,,,"IL primary > title ""Coronavirus Disease 2019 (COVID-19) in Illinois"" > ""Total Tests Performed""",,,,,,"IL primary > ""Total Cases""","calculated:
+today's date / 0:00",,,,,,,,,,,,,,IL avocado > n/a > totalTestsViral,,,,,,IL avocado > Specimen Collection > positive,"calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"IL other > click link ""Statewide Hospital Statistics1"" > title ""COVID-19 Patients"" > ""Total COVID + PUI in Hospital""
 
 note: statewide Hospital Statistics1 located at the bottom of the page below the hover-over graphs
@@ -771,8 +767,7 @@ note: ""Statewide Hospital Statistics1"" is located at the bottom of the page be
 note: this is not a calculation, the label has a “+” in it.",,"IL other > click linj ""Statewide Hospital Statistics1"" > title ""Ventilators"" > ""Vents used by COVID + PUIs""
 
 note: ""Statewide Hospital Statistics1"" located at the bottom of the page below the hover-over graphs
-note: this is not a calculation, the label has a “+” in it.",,,,"calculated:
-IL primary > {Confirmed Deaths+Probable Deaths}","IL primary > ""Confirmed Deaths""","updates: weekly
+note: this is not a calculation, the label has a “+” in it.",,,,IL avocado > Specimen Collection > death,"IL primary > ""Confirmed Deaths""","updates: weekly
 IL primary > ""Probable Deaths""
 
 note: if this metric does not update, leave the previous value in the cell",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,IL
@@ -792,16 +787,13 @@ On November 29, 2020, Indiana announced that a historical backlog of roughly 220
 
 As of October 16, 2020, Indiana’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative.",#REF!,,TRUE,,,"IN primary > ""Below results are as of…""
 
-above date / above time",,,,,,,,,,,,,,"IN primary > ""Total Tests Administered""","IN query > ""pos_tests"": 
+above date / above time",,,,,,,,,,,,,,IN avocado > Specimen Collection > totalTestsViral,"IN query > ""pos_tests"": 
 
-note: the link will open a page with a text string from the api, look for the value after the term ""pos_tests""",,,,"IN primary > ""Total Individuals Tested""","IN primary > ""Total Positive Cases""","calculated: 
+note: the link will open a page with a text string from the api, look for the value after the term ""pos_tests""",,,,"IN primary > ""Total Individuals Tested""",IN avocado > Specimen Collection > positive,"calculated: 
 WS2 > {Total PCR Tests (People) - Positive Cases (People, confirmed + probable}",,"IN primary > title ""Hospitalizations"" > graph ""Statewide COVID-19 Hospital Census"" > hover over most recent day > ""Total COVID19 Patients""","IN dash > title ""Hospitalizations"" > ""Unique Patients""","IN other > ""BEDS_ICU_OCCUPIED_COVID_19""
 
 note: if you have trouble reading the table expand the column","IN dash > title ""ICU Admits"" > ""Unique Patients""","IN other > ""VENTS_ALL_USE_COVID_19""",,"
-IN dash > title ""Recovery"" > ""Unique Patients""",,"calculated: 
-IN primary > {Total Deaths + Total Probable Deaths}
-
-note: ""Total Probable Deaths"" is near the bottom of the page","IN primary > ""Total Deaths""","IN primary > title ""Probable COVID-19 Counts"" > ""Total Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.coronavirus.in.gov/2393.htm,IN
+IN dash > title ""Recovery"" > ""Unique Patients""",,IN avocado > Death > death,"IN primary > ""Total Deaths""","IN primary > title ""Probable COVID-19 Counts"" > ""Total Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.coronavirus.in.gov/2393.htm,IN
 KS,Kansas,https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,http://www.kdheks.gov/coronavirus/,https://www.twitter.com/kdhe,https://vimeo.com/showcase/6935373,,,,"Kansas combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Kansas reports most of its data on Mondays, Wednesdays, and Fridays only, so there are often large changes in the values, which can represent 2-3 days of data.
@@ -828,10 +820,10 @@ As of May 7, 2020, **confirmed and probable cases** are included in the case tot
 KS dash > “Last updated:” 
 
 above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: Monday, Wednesday, Friday
-KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Antigen Tests"". Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday, Wednesday, Friday
-KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""PCR Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > "" XXX,XXX Antigen Tests"". Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""X,XXX,XXX PCR Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People"". Positive Cases (People, confirmed + probable) – updates: Monday, Wednesday, Friday
-KS dash > tab ""KS COVID-19 Overview"" > ""Cases"". Negative (People or Cases) – updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""COVID-19 Cases"". Negative (People or Cases) – updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests"". Pending – . Currently 
 Hospitalized – updates: Monday, Wednesday, Friday
 KS dash > tab ""Hospital Capacity"" > ""COVID-19 Patients Admitted"". Cumulative Hospitalized – updates: Monday, Wednesday, Friday
@@ -850,10 +842,10 @@ KS dash > tab ""KS COVID-19 Overview"" > ""Statewide Deaths"". ",,,,,"updates: M
 KS dash > “Last updated:” 
 
 above date / above time",,,,"updates: Monday, Wednesday, Friday
-KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""Antigen Tests""",,,,,,,,,,"updates: Monday, Wednesday, Friday
-KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""PCR Tests""",,,,,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > "" XXX,XXX Antigen Tests""",,,,,,,,,,"updates: Monday, Wednesday, Friday
+KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""X,XXX,XXX PCR Tests""",,,,,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Testing Rates"" > section ""Overall Testing"" > ""People""","updates: Monday, Wednesday, Friday
-KS dash > tab ""KS COVID-19 Overview"" > ""Cases""","updates: Monday, Wednesday, Friday
+KS dash > tab ""KS COVID-19 Overview"" > ""COVID-19 Cases""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Negative Tests""",,"updates: Monday, Wednesday, Friday
 KS dash > tab ""Hospital Capacity"" > ""COVID-19 Patients Admitted""","updates: Monday, Wednesday, Friday
 KS dash > tab ""KS COVID-19 Overview"" > ""Hospitalizations""
@@ -938,10 +930,10 @@ Between April 20 and April 24, 2020, Louisiana did not report testing data from 
 
 today / 12:00
 
-note: If no values have updated carry over previous timestamp.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – LA dash > title ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Antigen"". Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Molecular"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Confirmed Cases"". Probable Cases – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Probable Cases""
+note: If no values have updated carry over previous timestamp.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – LA dash > title ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Antigen"". Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – LA avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Confirmed Cases"". Probable Cases – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Probable Cases""
 
 note: this figure may be updated weekly, if this metric does not update, leave the previous value in the cell
-. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Total Cases"". Negative (People or Cases) – calculated:
+. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – LA avocado > Specimen Collection > positive. Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 . Pending – . Currently 
 Hospitalized – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients in Hospitals"". Cumulative Hospitalized – . Currently
@@ -953,10 +945,10 @@ LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Presumed Recovere
 
 today / 12:00
 
-note: If no values have updated carry over previous timestamp.",,,,"LA dash > title ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Antigen""",,,,,,,,,,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Molecular""",,,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Confirmed Cases""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Probable Cases""
+note: If no values have updated carry over previous timestamp.",,,,"LA dash > title ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Antigen""",,,,,,,,,,LA avocado > Specimen Collection > totalTestsViral,,,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Confirmed Cases""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Probable Cases""
 
 note: this figure may be updated weekly, if this metric does not update, leave the previous value in the cell
-",,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Total Cases""","calculated:
+",,LA avocado > Specimen Collection > positive,"calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 ",,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients in Hospitals""",,,,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients on Ventilators""",,,"updates: weekly
 LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Presumed Recovered""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Total Deaths""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Deaths"" > ""Confirmed""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Deaths"" > ""Probable""
@@ -1000,21 +992,17 @@ This formula sums daily positive antibody tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Weekly link"" > ""Positive Tests ""
 
 note: if this metric does not update, leave the previous value in the cell
-note: long calculation link can be found in cell E2 of WS2. Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MA primary > button ""Today's Overview"" > title “Testing"" > ""Tests Reported""
-note: the second number in this section. Positive Tests (PCR) – long calculation
+note: long calculation link can be found in cell E2 of WS2. Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MA avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – long calculation
 This formula sums daily positive PCR tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Download link"" > ""All Positive Molecular Tests""
 
-note: long calculation link can be found in cell E2 of WS2. Negative Tests (PCR) – . Positive Cases (PCR) – MA primary > button ""Today's Overview"" > title ""Cases"" > ""Confirmed Cases"" > ""bringing the total to XXXXX total confirmed cases""
-
-. Probable Cases – MA primary > button ""Today's Overview"" > title ""Cases"" > ""Probable Cases"" > ""bringing the total to XXXXX total probable cases""
-
+note: long calculation link can be found in cell E2 of WS2. Negative Tests (PCR) – . Positive Cases (PCR) – MA avocado > Specimen Collection > positiveCasesViral. Probable Cases – MA avocado > Specimen Collection > probableCases
 . Total PCR Tests (People) – long calculation
 This formula sums the timeseries of new PCR tests (people) to get a cumulative number. 
 long calculation > hover over ""# MA"" > click play button > title ""Download link"" > ""PCR Total People""
 
 note: long calculation link can be found in cell E2 of WS2. Positive Cases (People, confirmed + probable) – calculated: 
-WS2 {Positive Cases (PCR) + Probable Cases}. Negative (People or Cases) – calculated:
+WS3 {Positive Cases (PCR) + Probable Cases}. Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""Hospitalizations"" > ""There are XXX patients hospitalized for COVID"". Cumulative Hospitalized – updated: thursday
 long calculation
@@ -1031,7 +1019,7 @@ MA primary > link ""Weekly COVID-19 Public Health Report"" > pg. title ""Massach
 
 note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – calculated:
-WS2 > { Deaths (confirmed) + Deaths (probable) }. ",,,,,"MA primary > title ""COVID-19 Interactive Data Dashboard"" > ""Data as of:""
+WS3 > {Deaths (confirmed) + Deaths (probable)}. ",,,,,"MA primary > title ""COVID-19 Interactive Data Dashboard"" > ""Data as of:""
 
 date from above / 23:59pm
 
@@ -1047,21 +1035,17 @@ This formula sums daily positive antibody tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Weekly link"" > ""Positive Tests ""
 
 note: if this metric does not update, leave the previous value in the cell
-note: long calculation link can be found in cell E2 of WS2",,,,,,"MA primary > button ""Today's Overview"" > title “Testing"" > ""Tests Reported""
-note: the second number in this section","long calculation
+note: long calculation link can be found in cell E2 of WS2",,,,,,MA avocado > Specimen Collection > totalTestsViral,"long calculation
 This formula sums daily positive PCR tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Download link"" > ""All Positive Molecular Tests""
 
-note: long calculation link can be found in cell E2 of WS2",,"MA primary > button ""Today's Overview"" > title ""Cases"" > ""Confirmed Cases"" > ""bringing the total to XXXXX total confirmed cases""
-
-","MA primary > button ""Today's Overview"" > title ""Cases"" > ""Probable Cases"" > ""bringing the total to XXXXX total probable cases""
-
+note: long calculation link can be found in cell E2 of WS2",,MA avocado > Specimen Collection > positiveCasesViral,"MA avocado > Specimen Collection > probableCases
 ","long calculation
 This formula sums the timeseries of new PCR tests (people) to get a cumulative number. 
 long calculation > hover over ""# MA"" > click play button > title ""Download link"" > ""PCR Total People""
 
 note: long calculation link can be found in cell E2 of WS2","calculated: 
-WS2 {Positive Cases (PCR) + Probable Cases}","calculated:
+WS3 {Positive Cases (PCR) + Probable Cases}","calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""Hospitalizations"" > ""There are XXX patients hospitalized for COVID""","updated: thursday
 long calculation
 This formula sums the weekly breakdown by race of ever hospitalized to get a cumulative number. 
@@ -1073,7 +1057,7 @@ MA primary > link ""Weekly COVID-19 Public Health Report"" > pg. title ""Massach
 
 note: if this metric does not update, leave the previous value in the cell
 ","calculated:
-WS2 > { Deaths (confirmed) + Deaths (probable) }","MA primary > button ""Today's Overview"" > title ""Deaths"" > ""Confirmed Deaths"" > ""There have been XXXXX confirmed deaths in total.""","MA primary > button ""Today's Overview"" > title ""Deaths"" > ""Probable Deaths"" > ""There have been XXXXX probable deaths in total.""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,MA
+WS3 > {Deaths (confirmed) + Deaths (probable)}",MA avocado > Death > deathConfirmed,MA avocado > Death > deathProbable,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,MA
 MD,Maryland,https://coronavirus.maryland.gov/,https://governor.maryland.gov/coronavirus/,https://www.twitter.com/MDHealthDept,https://governor.maryland.gov/coronavirus/,http://turnips.covidtracking.com/#MD,https://coronavirus.maryland.gov/datasets/mdcovid19-serologytests/data,,"As of October 16, 2020, Maryland’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative. This will result in TotalTestResults only going back to 3/24 instead of 3/5.
 
 On August 31, 2020, we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.
@@ -1096,10 +1080,10 @@ note: the column names will be formated like this:  d_10_14_2020. Negative Antib
 MD other link > scroll to most recent column > row 3
  
 note: this number is updated weekly (wednesday). if this metric does not update, leave the previous value in the cell
-note: the column names will be formated like this:  d_10_14_2020. Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MD dash > ""Testing Volume"". Positive Tests (PCR) – MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
+note: the column names will be formated like this:  d_10_14_2020. Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MD avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
 
-. Negative Tests (PCR) – . Positive Cases (PCR) – MD dash > ""Confirmed Cases"". Probable Cases – . Total PCR Tests (People) – calculated:
-MD dash > {Confirmed Cases  +  Persons Tested Negative}. Positive Cases (People, confirmed + probable) – MD dash > ""Confirmed Cases"". Negative (People or Cases) – MD dash > ""Persons Tested Negative"". Pending – . Currently 
+. Negative Tests (PCR) – . Positive Cases (PCR) – MD avocado > Specimen Collection > positiveTestsViral. Probable Cases – . Total PCR Tests (People) – calculated:
+MD dash > {Confirmed Cases  +  Persons Tested Negative}. Positive Cases (People, confirmed + probable) – MD avocado > Report > positive. Negative (People or Cases) – MD dash > ""Persons Tested Negative"". Pending – . Currently 
 Hospitalized – MD dash > ""Currently Hospitalized"". Cumulative Hospitalized – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized "" note: this is a section below the dashboard.. Currently
 in ICU – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
 
@@ -1109,9 +1093,7 @@ on Ventilator – . Cumulative
 on Ventilator – . Hospital Discharges – . Recovered – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Released from isolation"" 
 
 note: this is a section below the dashboard.. Deaths (confirmed and probable) – calculated:
-MD dash > title ""COVID-19 Statistics in Maryland"" > {Number of confirmed deaths + Number of probable deaths}
-
-note: this is a section below the dashboard.. ",,,,,"MD dash > ""Note: Maryland Department of Health updates these data daily during the 10am hour""
+WS3 > {Deaths (confirmed) + Deaths (probable)}. ",,,,,"MD dash > ""Note: Maryland Department of Health updates these data daily during the 10am hour""
 
 today / 10:00",,,,,,,"updates: wednesday
 MD other > scroll to most recent column > row 1
@@ -1127,21 +1109,15 @@ note: the column names will be formated like this:  d_10_14_2020","updates: week
 MD other link > scroll to most recent column > row 3
  
 note: this number is updated weekly (wednesday). if this metric does not update, leave the previous value in the cell
-note: the column names will be formated like this:  d_10_14_2020",,,,,"MD dash > ""Testing Volume""","MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
+note: the column names will be formated like this:  d_10_14_2020",,,,,MD avocado > Specimen Collection > totalTestsViral,"MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
 
-",,"MD dash > ""Confirmed Cases""",,"calculated:
-MD dash > {Confirmed Cases  +  Persons Tested Negative}","MD dash > ""Confirmed Cases""","MD dash > ""Persons Tested Negative""",,"MD dash > ""Currently Hospitalized""","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized "" note: this is a section below the dashboard.","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
+",,MD avocado > Specimen Collection > positiveTestsViral,,"calculated:
+MD dash > {Confirmed Cases  +  Persons Tested Negative}",MD avocado > Report > positive,"MD dash > ""Persons Tested Negative""",,"MD dash > ""Currently Hospitalized""","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized "" note: this is a section below the dashboard.","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
 
 note: this is a section below the dashboard.",,,,,"MD dash > title ""COVID-19 Statistics in Maryland"" > ""Released from isolation"" 
 
 note: this is a section below the dashboard.","calculated:
-MD dash > title ""COVID-19 Statistics in Maryland"" > {Number of confirmed deaths + Number of probable deaths}
-
-note: this is a section below the dashboard.","MD dash > title ""COVID-19 Statistics in Maryland"" > """"Number of confirmed deaths""""
-
-note: this is a section below the dashboard.","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Number of probable deaths""
-
-note: this is a section below the dashboard.",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,MD
+WS3 > {Deaths (confirmed) + Deaths (probable)}",MD avocado > Death > deathConfirmed,MD avocado > Death > deathProbable,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://phpa.health.maryland.gov/Pages/Novel-coronavirus.aspx,MD
 ME,Maine,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,https://www.twitter.com/mainedhhs,,,,,"Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
 
 As of March 4, 2021, Maine's `totalTestResults` are drawn directly from `totalTestsViral` instead of calculated by adding positive+negative, causing a drop of 225 in the daily increase in tests and 41,208 in the total tests, mostly due to the removal of non-resident tests.
@@ -1164,11 +1140,7 @@ On June 23, 2020, Maine began reporting the dates of **cases**, **deaths**, **re
 
 As of May 20, 2020, Maine reports PCR tests and antibody tests separately.","Local Time – ME dash > ""...COVID-19 case investigation data included as of 11:59 PM the previous day""
 
-yesterday / 23:59. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Total"" 
-
-note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-note: please take a screenshot of the whole table
-screenshot: https://internal.covidtracking.com/screenshot?state=ME&datatype=taco&subtype=data-dashboard. Positive Antigen Tests – ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Positive""
+yesterday / 23:59. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – ME avocado > test result > totalTestsAntigen. Positive Antigen Tests – ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Positive""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
 . Negative Antigen Tests – ME dash > table ""All Reported COVID-19 Tests in Maine"" > Antigen > ""Negative""
@@ -1183,16 +1155,13 @@ note: this metric is updated monday - friday, if this metric does not update, le
 . Negative Antibody Tests – ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antibody"" > row ""Negative""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-. Total Test Encounters (PCR) – . Total Tests (PCR) – ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Molecular Testing"" > row ""Total""
-
-note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-. Positive Tests (PCR) – ME dash > table ""All Reported COVID-19 Tests in Maine"" >  column ""Molecular Testing"" > row ""Positive""
+. Total Test Encounters (PCR) – . Total Tests (PCR) – ME avocado > test result > totalTestsViral. Positive Tests (PCR) – ME dash > table ""All Reported COVID-19 Tests in Maine"" >  column ""Molecular Testing"" > row ""Positive""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
 . Negative Tests (PCR) – ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Molecular Testing"" > row ""Negative""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-. Positive Cases (PCR) – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Confirmed cases"" > row ""Statewide"". Probable Cases – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Probable Cases"" > row ""Statewide"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Cases"" > row ""Statewide"". Negative (People or Cases) – calculated:
+. Positive Cases (PCR) – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Confirmed cases"" > row ""Statewide"". Probable Cases – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Probable Cases"" > row ""Statewide"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – ME avocado > n/a > positive. Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
 note: if a number used in this calculation does not update, leave the previous value in the cell
@@ -1216,13 +1185,9 @@ long calculation > hover over ""# ME"" > click play button > ""Hospitalized- COV
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell.
 note: long calculation link can be found in cell E2 of WS2. Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Completed Isolations"" > row ""Statewide"". Deaths (confirmed and probable) – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Deaths"" > row ""Statewide"". ",,,,,"ME dash > ""...COVID-19 case investigation data included as of 11:59 PM the previous day""
+on Ventilator – . Hospital Discharges – . Recovered – ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Completed Isolations"" > row ""Statewide"". Deaths (confirmed and probable) – ME avocado > n/a > death. ",,,,,"ME dash > ""...COVID-19 case investigation data included as of 11:59 PM the previous day""
 
-yesterday / 23:59",,,,"ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Total"" 
-
-note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-note: please take a screenshot of the whole table
-screenshot: https://internal.covidtracking.com/screenshot?state=ME&datatype=taco&subtype=data-dashboard","ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Positive""
+yesterday / 23:59",,,,ME avocado > test result > totalTestsAntigen,"ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antigen"" > row ""Positive""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
 ","ME dash > table ""All Reported COVID-19 Tests in Maine"" > Antigen > ""Negative""
@@ -1237,16 +1202,13 @@ note: this metric is updated monday - friday, if this metric does not update, le
 ","ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Antibody"" > row ""Negative""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-",,"ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Molecular Testing"" > row ""Total""
-
-note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-","ME dash > table ""All Reported COVID-19 Tests in Maine"" >  column ""Molecular Testing"" > row ""Positive""
+",,ME avocado > test result > totalTestsViral,"ME dash > table ""All Reported COVID-19 Tests in Maine"" >  column ""Molecular Testing"" > row ""Positive""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
 ","ME dash > table ""All Reported COVID-19 Tests in Maine"" > column ""Molecular Testing"" > row ""Negative""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell
-","ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Confirmed cases"" > row ""Statewide""","ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Probable Cases"" > row ""Statewide""",,"ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Cases"" > row ""Statewide""","calculated:
+","ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Confirmed cases"" > row ""Statewide""","ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Probable Cases"" > row ""Statewide""",,ME avocado > n/a > positive,"calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
 note: if a number used in this calculation does not update, leave the previous value in the cell
@@ -1265,7 +1227,7 @@ This calculation pulls the most recent Currently on ventilator value from Maine'
 long calculation > hover over ""# ME"" > click play button > ""Hospitalized- COVID-19 Patients on Ventilators""
 
 note: this metric is updated monday - friday, if this metric does not update, leave the previous value in the cell.
-note: long calculation link can be found in cell E2 of WS2",,,"ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Completed Isolations"" > row ""Statewide""","ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Deaths"" > row ""Statewide""","ME dash > tab ""Case rates by county"" > dropdown ""Case Status"" > select ""Confirmed"" > ""Deaths""","ME dash > section ""Case Rates by County"" > dropdown ""Case Status"" > select ""Probable"" > ""Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,ME
+note: long calculation link can be found in cell E2 of WS2",,,"ME dash > table ""Cumulative COVID-19 Cases by County"" > column ""Completed Isolations"" > row ""Statewide""",ME avocado > n/a > death,"ME dash > tab ""Case rates by county"" > dropdown ""Case Status"" > select ""Confirmed"" > ""Deaths""","ME dash > section ""Case Rates by County"" > dropdown ""Case Status"" > select ""Probable"" > ""Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus/data.shtml,ME
 MI,Michigan,"https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html",https://www.michigan.gov/coronavirus/,https://www.twitter.com/MichiganHHS,,,"https://www.michigan.gov/coronavirus/0,9753,7-406-98159-523641--,00.html",,"Michigan updates its **Recovered** metric weekly and does not update any data on Sundays.
 
 Our source for **Now hospitalized** and **Now in ICU** data in Michigan generally updates on Mondays and Fridays only. 
@@ -1297,7 +1259,7 @@ On June 11, 2020, we updated our historical data from a spreadsheet provided by 
 Since March 10, 2020, Michigan has reported each day's Positive and Negative tests (people) by county but has never totaled these metrics for the state. We add new Positive and Negative tests (people) values daily to a running sum and report the total. ","Local Time – MI dash > tab ""Current Status"" > on right-hand side under ""MICHIGAN"" > [date]
 
 above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Serology""
-. Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Diagnostic"". Positive Tests (PCR) – long calculation
+. Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MI avocado > n/a > totalTestsViral. Positive Tests (PCR) – long calculation
 This formula sums positive PCR tests by county and day to get a cumulative number
 long calculation > hover over ""# MI Testing"" > click play button > ""Positive"" 
 
@@ -1305,7 +1267,7 @@ note: long calculation link can be found in cell E2 of WS2. Negative Tests (PCR)
 This formula sums negative PCR tests by county and day to get a cumulative number
 long calculation > hover over ""# MI Testing"" > click play button > ""Negative"" 
 
-note: long calculation link can be found in cell E2 of WS2. Positive Cases (PCR) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Confirmed"". Probable Cases – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Probable"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total"". Negative (People or Cases) – WS2 > Negative Tests (PCR). Pending – . Currently 
+note: long calculation link can be found in cell E2 of WS2. Positive Cases (PCR) – MI avocado > symptom onset > positiveCasesViral. Probable Cases – MI avocado > symptom onset > probableCases. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total"". Negative (People or Cases) – WS2 > Negative Tests (PCR). Pending – . Currently 
 Hospitalized – calculated:
 MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > {""Total Hospitalized Adult
 Suspected/Confirmed"" + ""Hospitalized Peds Confirmed/Suspected""}
@@ -1327,7 +1289,7 @@ note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Deaths"" > row ""Total"". ",,,,,"MI dash > tab ""Current Status"" > on right-hand side under ""MICHIGAN"" > [date]
 
 above date / 0:00",,,,,,,,,,"MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Serology""
-",,,,"MI dash > tab ""Current Status"" > table ""Laboratory Testing"" > column ""Tests Performed"" > row ""Diagnostic""","long calculation
+",,,,MI avocado > n/a > totalTestsViral,"long calculation
 This formula sums positive PCR tests by county and day to get a cumulative number
 long calculation > hover over ""# MI Testing"" > click play button > ""Positive"" 
 
@@ -1335,7 +1297,7 @@ note: long calculation link can be found in cell E2 of WS2","long calculation
 This formula sums negative PCR tests by county and day to get a cumulative number
 long calculation > hover over ""# MI Testing"" > click play button > ""Negative"" 
 
-note: long calculation link can be found in cell E2 of WS2","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Confirmed""","MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Probable""",,"MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total""",WS2 > Negative Tests (PCR),,"calculated:
+note: long calculation link can be found in cell E2 of WS2",MI avocado > symptom onset > positiveCasesViral,MI avocado > symptom onset > probableCases,,"MI dash > tab ""Current Status"" > table ""Current Totals"" > column ""Cases"" > row ""Total""",WS2 > Negative Tests (PCR),,"calculated:
 MI other > table ""COVID-19 Metrics XX/XX/2021"" > column ""Total"" > {""Total Hospitalized Adult
 Suspected/Confirmed"" + ""Hospitalized Peds Confirmed/Suspected""}
 
@@ -1373,8 +1335,7 @@ The number of unique people tested is available in our API as `totalTestsPeopleV
 
 On September 17, 2020, we switched Minnesota's specimens timeseries to **Total Test Encounters (PCR)** based on correspondence with the state, which revealed that their ""total approximate number of completed tests"" reflects individuals tested per day.",#REF!,,TRUE,TRUE,,"MN primary > ""Updated daily at 11 a.m., with data current as of 4 p.m. the previous day.""
 
-yesterday / 16:00",,,,"MN primary > title ""Testing"" >
-""Total approximate completed tests (cumulative)"" table > Total approximate number of completed antigen tests (cumulative):""",,,,,,,,,"MN primary > title ""Testing"" >""Total approximate number of completed PCR tests (cumulative):""",,,,"MN primary > title ""Daily Update"" > ""Total confirmed cases (PCR positive) (cumulative)","MN primary > title ""Daily Update"" > ""Total probable cases (Antigen positive) (cumulative)","MN primary > title ""Testing"" > ""Total approximate number of people tested""","MN primary > title ""Daily Update"" > ""Total positive cases (cumulative)","calculated:
+yesterday / 16:00",,,,MN avocado > n/a > totalTestsAntigen,,,,,,,,,"MN primary > title ""Testing"" >""Total approximate number of completed PCR tests (cumulative):""",,,,MN avocado > specimen collection > positiveCasesViral,MN avocado > specimen collection > probableCases,"MN primary > title ""Testing"" > ""Total approximate number of people tested""",MN avocado > specimen collection > positive,"calculated:
 WS2 > {Total PCR Tests (People)  - Positive Cases (PCR)}",,"updates: Monday - Friday
 calculated:
 MN other > section ""Hospital Capacity"" > uncheck non-COVID box in ""FILTER BY COVID OR NON-COVID"" dropdown in upper lefthand corner > hover over most recent day for both graphs > {ICU + Non-ICU}","MN primary > title ""Hospitalization"" > ""Total cases hospitalized (cumulative)""","updates: Monday - Friday
@@ -1525,7 +1486,7 @@ On November 16, 2020, Montana’s Confirmed cases increased by more than their T
 
 On November 8, 2020, Montana's reported **Recovered** value decreased by 32 with no explanation.",#REF!,,TRUE,TRUE,,"MT dash > tab ""MT COVID-19 Cases"" > ""Updates are made by 10:00am daily. Information is reported based on the previous day""
 
-yesterday / 23:59",,,,,,,,,,,,,,"MT dash > tab ""MT COVID-19 Cases"" > ""Total Tests""",,,"PDF
+yesterday / 23:59",,,,,,,,,,,,,,MT avocado > n/a > totalTestsViral,,,"PDF
 MT dash > tab ""COVID-19 Demographics"" > button ""Demographic Tables for Montana COVID-19 Cases"" > table ""COVID-19 Cases in Montana"" > row ""Confirmed Cases"" ","PDF
 MT dash > tab ""COVID-19 Demographics"" > button ""Demographic Tables for Montana COVID-19 Cases"" > table ""COVID-19 Cases in Montana"" > row ""Probable Cases"" ",,"MT dash  > tab ""MT COVID-19 Cases"" > ""Cumulative Cases""","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"MT dash  > tab ""MT COVID-19 Cases"" > ""Active Hospitalizations""","MT dash  > tab ""MT COVID-19 Cases"" > ""Total Hospitalizations""","updates: Tuesday - Saturday
@@ -1575,15 +1536,8 @@ On August 12, 2020, North Carolina [announced](https://www.ncdhhs.gov/news/press
 
 On July 22, 2020, North Carolina started reporting the number of patients **currently in the ICU**.","Local Time – NC primary > ""Last updated…""
 
-above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – long calculation
-This formula sums daily antigen tests to get a cumulative number.
-long calculation > hover over ""# NC tests"" > click play button > ""Antigen Test""
-note: long calculation link can be found in cell E2 of WS2. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – long calculation
-This formula sums daily PCR tests to get a cumulative number.
-long calculation > hover over ""# NC tests"" > click play button > ""Molecular Tests""
-note: long calculation link can be found in cell E2 of WS2. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NC dash > ""Molecular (PCR) Positive Cases""
-. Probable Cases – NC dash > ""Antigen Positive Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NC dash > ""Total Cases""
-. Negative (People or Cases) – calculated:
+above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – NC avocado > Specimen Collection > totalTestsAntigen. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NC avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NC avocado > Specimen Collection > positiveCasesViral
+. Probable Cases – NC avocado > Specimen Collection > probableCases. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NC avocado > Report > positive . Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – NC dash > ""Currently Hospitalized""
 . Cumulative Hospitalized – . Currently
@@ -1595,24 +1549,17 @@ on Ventilator – . Hospital Discharges – updates: weekly on Monday
 NC other > link ""COVID-19 Patients Presumed to be Recovered"" > ""Patients Presumed to be Recovered =""
 
 note: if this metric does not update, leave the previous value in the cell
-. Recovered – . Deaths (confirmed and probable) – NC dash > link ""Cases"" > graph ""Deaths by Date of Death"" > ""Total Deaths"". ",,,,,"NC primary > ""Last updated…""
+. Recovered – . Deaths (confirmed and probable) – NC avocado > Death > death. ",,,,,"NC primary > ""Last updated…""
 
-above date / above time",,,,"long calculation
-This formula sums daily antigen tests to get a cumulative number.
-long calculation > hover over ""# NC tests"" > click play button > ""Antigen Test""
-note: long calculation link can be found in cell E2 of WS2",,,,,,,,,,"long calculation
-This formula sums daily PCR tests to get a cumulative number.
-long calculation > hover over ""# NC tests"" > click play button > ""Molecular Tests""
-note: long calculation link can be found in cell E2 of WS2",,,"NC dash > ""Molecular (PCR) Positive Cases""
-","NC dash > ""Antigen Positive Cases""",,"NC dash > ""Total Cases""
-","calculated:
+above date / above time",,,,NC avocado > Specimen Collection > totalTestsAntigen,,,,,,,,,,NC avocado > Specimen Collection > totalTestsViral,,,"NC avocado > Specimen Collection > positiveCasesViral
+",NC avocado > Specimen Collection > probableCases,,NC avocado > Report > positive ,"calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"NC dash > ""Currently Hospitalized""
 ",,"NC dash > menu ""Dashboard"" > click ""Hospitalizations"" > scroll down to bar graph titled ""Number of COVID-19 Adult ICU Patients | Statewide"" > select ""Adult ICU Patients"" > ""Adult ICU Patients""
 ",,,,"updates: weekly on Monday
 NC other > link ""COVID-19 Patients Presumed to be Recovered"" > ""Patients Presumed to be Recovered =""
 
 note: if this metric does not update, leave the previous value in the cell
-",,"NC dash > link ""Cases"" > graph ""Deaths by Date of Death"" > ""Total Deaths""","NC dash > link ""Cases"" > graph "" Deaths by Date of Death"" > ""Molecular (PCR) Positive Deaths""","NC dash > link ""Cases"" > graph "" Deaths by Date of Death"" > ""Antigen Positive""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://covid19.ncdhhs.gov/dashboard,NC
+",,NC avocado > Death > death,"NC dash > link ""Cases"" > graph "" Deaths by Date of Death"" > ""Molecular (PCR) Positive Deaths""","NC dash > link ""Cases"" > graph "" Deaths by Date of Death"" > ""Antigen Positive""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://covid19.ncdhhs.gov/dashboard,NC
 ND,North Dakota,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,,https://www.twitter.com/NDDOH,,,,,"On March 7, 2021, North Dakota’s Total PCR tests (people) decreased by 75 and Negatives decreased by 109 without explanation.
 
 On February 13, 2021 North Dakota's reported **Total Tests (PCR)** declined by 822 without explanation.
