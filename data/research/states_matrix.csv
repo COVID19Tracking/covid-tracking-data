@@ -1842,9 +1842,7 @@ WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"NH primary > ""Curren
 ","NH dash > table ""Hospitalizations"" > ""Cumulative""",,"NH dash > table ""Intensive Care Unit"" > ""Cumulative""",,,,"NH primary > ""Recovered""",NH avocado > Death > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,NH
 NJ,New Jersey,https://covid19.nj.gov/#live-updates,https://covid19.nj.gov/,https://www.twitter.com/NJDeptofHealth,,https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/PPE_Capacity/FeatureServer/0/query?where=survey_period%3E%3Dtimestamp+%272020-04-27+07%3A00%3A00%27+AND+structure_measure_identifier+LIKE+%27%25ischarge%25Excluding+Deaths%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27recoveries%27%7D%5D,,,,"Local Time – NJ dash > ""Updated:""
 
-above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NJ dash >  ""Total PCR Tests Reported""
-
-note: this does not update everyday, if not updated, leave previous value in cell. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NJ dash > ""Total Confirmed* Cases"". Probable Cases – NJ dash > ""Probable* Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
+above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NJ avocado > n/a > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NJ dash > ""Total Confirmed* Cases"". Probable Cases – NJ dash > ""Probable* Cases"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
 WS2 > {Positive Cases (PCR) + Probable Cases}. Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
@@ -1872,9 +1870,7 @@ WS2 > { Deaths (confirmed) + Deaths (probable) }
 
 . ",,,,,"NJ dash > ""Updated:""
 
-above date / 0:00",,,,,,,,,,,,,,"NJ dash >  ""Total PCR Tests Reported""
-
-note: this does not update everyday, if not updated, leave previous value in cell",,,"NJ dash > ""Total Confirmed* Cases""","NJ dash > ""Probable* Cases""",,"calculated:
+above date / 0:00",,,,,,,,,,,,,,NJ avocado > n/a > totalTestsViral,,,"NJ dash > ""Total Confirmed* Cases""","NJ dash > ""Probable* Cases""",,"calculated:
 WS2 > {Positive Cases (PCR) + Probable Cases}","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 
@@ -1906,18 +1902,18 @@ On November 18, 2020, we shifted the entire time series of New Mexico metrics by
 
 above date / above time (see note below)
 
-note: the time is presented in the viewer's local time (your timezone), but it needs to be entered into the spreadsheet as Mountain Time. If you are in ET subtract 2 hours. If you are in CT subtract 1 hour. If you are in PT add 1 hour. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NM dash > ""Total # of Tests Performed"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NM dash > ""Number of Cases"". Negative (People or Cases) – calculated:
+note: the time is presented in the viewer's local time (your timezone), but it needs to be entered into the spreadsheet as Mountain Time. If you are in ET subtract 2 hours. If you are in CT subtract 1 hour. If you are in PT add 1 hour. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NM avocado > report > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NM avocado > report > positive. Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}. Pending – . Currently 
 Hospitalized – NM dash > ""Current Hospitalizations"". Cumulative Hospitalized – NM dash > ""Total Hospitalizations"". Currently
 in ICU – . Cumulative
 in ICU – . Currently 
 on Ventilator – . Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – NM dash > ""Total Recovered"". Deaths (confirmed and probable) – NM dash > ""Total Deaths"". ",,,,,"NM dash > ""Last Updated""
+on Ventilator – . Hospital Discharges – . Recovered – NM dash > ""Total Recovered"". Deaths (confirmed and probable) – NM avocado > report > positive. ",,,,,"NM dash > ""Last Updated""
 
 above date / above time (see note below)
 
-note: the time is presented in the viewer's local time (your timezone), but it needs to be entered into the spreadsheet as Mountain Time. If you are in ET subtract 2 hours. If you are in CT subtract 1 hour. If you are in PT add 1 hour. ",,,,,,,,,,,,,,"NM dash > ""Total # of Tests Performed""",,,,,,"NM dash > ""Number of Cases""","calculated:
-WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"NM dash > ""Current Hospitalizations""","NM dash > ""Total Hospitalizations""",,,,,,"NM dash > ""Total Recovered""","NM dash > ""Total Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://cv.nmhealth.org/,NM
+note: the time is presented in the viewer's local time (your timezone), but it needs to be entered into the spreadsheet as Mountain Time. If you are in ET subtract 2 hours. If you are in CT subtract 1 hour. If you are in PT add 1 hour. ",,,,,,,,,,,,,,NM avocado > report > totalTestsViral,,,,,,NM avocado > report > positive,"calculated:
+WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"NM dash > ""Current Hospitalizations""","NM dash > ""Total Hospitalizations""",,,,,,"NM dash > ""Total Recovered""",NM avocado > report > positive,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://cv.nmhealth.org/,NM
 NV,Nevada,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,http://dpbh.nv.gov/coronavirus/,https://www.twitter.com/dhhsnevada,,,,,"The Nevada Department of Health and Human Services states that due to testing performed on environmental samples, the number of Total PCR Tests (test encounters) reported is higher than the number of test encounters including only tests performed on people.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
@@ -1932,7 +1928,7 @@ On October 15, 2020, Nevada stopped reporting the number of unique people who te
 
 On October 15, 2020, Nevada stopped reporting **Total PCR tests (specimens)** and began reporting **Total PCR tests (test encounters)**. Due to this we cannot continue reporting **Total PCR tests (specimens)**, however the time series for the specimens metric is available in the historical data, and our data downloads. ","Local Time – NV dash > ""Data as of...""
 
-above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NV dash > tab ""Trends"" > button ""Testing"" > ""Testing Encounters"". Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases"". Probable Cases – . Total PCR Tests (People) – NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested"". Positive Cases (People, confirmed + probable) – NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases"". Negative (People or Cases) – calculated:
+above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NV avocado > Specimen Collection > totalTestEncountersViral. Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NV avocado > Specimen Collection > positiveCasesViral. Probable Cases – . Total PCR Tests (People) – NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested"". Positive Cases (People, confirmed + probable) – NV avocado > Specimen Collection > totalTestEncountersViral. Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People)  - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – NV dash > tab ""Current Status"" > button ""Hospitalizations"" > ""Confirmed and Suspected Hospitalizations"" 
 
@@ -1947,9 +1943,9 @@ on Ventilator – NV dash > NV dash > tab ""Current Status"" > button ""Hospital
 
 note: this figure does not update on Sunday; if this metric does not update, leave the previous value 
 note: the most current data may be dated the previous day, that's expected. Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – NV dash > tab ""Current Status"" > button ""Deaths"" > ""Cumulative Deaths"". ",,,,,"NV dash > ""Data as of...""
+on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – NV avocado > Death > death. ",,,,,"NV dash > ""Data as of...""
 
-above date / 0:00",,,,,,,,,,,,,"NV dash > tab ""Trends"" > button ""Testing"" > ""Testing Encounters""",,,,"NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases""",,"NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested""","NV dash > tab ""Current Status"" > button ""Confirmed Cases"" > ""Cumulative Cases""","calculated:
+above date / 0:00",,,,,,,,,,,,,NV avocado > Specimen Collection > totalTestEncountersViral,,,,NV avocado > Specimen Collection > positiveCasesViral,,"NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested""",NV avocado > Specimen Collection > totalTestEncountersViral,"calculated:
 WS2 > {Total PCR Tests (People)  - Positive Cases (PCR)}",,"NV dash > tab ""Current Status"" > button ""Hospitalizations"" > ""Confirmed and Suspected Hospitalizations"" 
 
 note: this figure does not update on Sunday; when this metric does not update, leave the previous value 
@@ -1959,7 +1955,7 @@ note: this figure does not update on Sunday; when this metric does not update, l
 note: the most current data may be dated the previous day, that's expected",,"NV dash > NV dash > tab ""Current Status"" > button ""Hospitalizations"" > ""Total Ventilators"" 
 
 note: this figure does not update on Sunday; if this metric does not update, leave the previous value 
-note: the most current data may be dated the previous day, that's expected",,,,"NV dash > tab ""Current Status"" > button ""Deaths"" > ""Cumulative Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,NV
+note: the most current data may be dated the previous day, that's expected",,,,NV avocado > Death > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,NV
 NY,New York,https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Map?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n,https://www.governor.ny.gov/news,https://www.twitter.com/healthnygov,https://www.governor.ny.gov/news,,https://forward.ny.gov/daily-hospitalization-summary-region,,"New York City reports **Deaths (probable)** from COVID-19 that New York State does not include in its data reporting. Because we collect state data, not city or county data, these New York City probable deaths from COVID-19 are not included in our dataset. The total number of deaths from COVID-19 for New York State reported by the CDC is significantly larger than the total number of deaths from COVID-19 reported by New York State. 
 
 The **Recovered** data point we report for New York reflects the number of lab-confirmed COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
