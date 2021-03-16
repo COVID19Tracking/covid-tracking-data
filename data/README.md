@@ -35,6 +35,7 @@ We also process this data into [cdc_vaccines_timeseries_daily.csv](https://githu
   This data is also available processed into a CSV time series format in [cdc_vaccines_ltc_timeseries.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines_ltc_timeseries.csv) 
   and [cdc_vaccines_ltc_timeseries_daily.csv](https://github.com/COVID19Tracking/covid-tracking-data/blob/master/data/cdc_vaccines_ltc_timeseries_daily.csv)
 - CDC testing data, saved to [cdc_testing.json](https://github.com/COVID19Tracking/covid-tracking-data/commits/master/data/cdc_testing.json)
+- CDC Provisional COVID-19 Death Counts, saved to [cdc_provisional_deaths.csv](https://github.com/COVID19Tracking/covid-tracking-data/commits/master/data/cdc_provisional_deaths.csv)
 
 We have saved, but are no longer updating, older CDC case, testing and deaths data. To see how these files had changed in the past, see the GitHub history as follows:
 - https://github.com/COVID19Tracking/covid-tracking-data/commits/master/data/cdc.csv
