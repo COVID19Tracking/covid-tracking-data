@@ -2814,11 +2814,7 @@ In early June of 2020, Wisconsin started reporting **Probable cases** of COVID-1
 
 On March 30, 2020, Wisconsin revised its cumulative **Negative PCR tests (people)** data downward without explanation.""","Local Time – WI dash > title ""Wisconsin COVID-19 Summary Statistics"" > ""Cumulative Data, Updated:""
 
-today / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – long calculation
-This formula sums daily PCR test encounters to get a cumulative number.
-long calculation > hover over ""# WI PCR Testing Encounters"" > click play button > number under ""Last run at..."" row
-
-note: long calculation is in cell E2 of WS2. Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – WI dash > title ""Wisconsin COVID-19 Summary Statistics > title Testing"" > ""Positive (Confirmed Cases)"". Probable Cases – WI primary > bar graph ""Percent of confirmed COVID-19 cases by age group"" > button menu ""Select case confirmation status:"" > select ""Probable""  
+today / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WI avocado > Test result > totalTestEncountersViral. Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – WI avocado > Symptom Onset > positiveCasesViral. Probable Cases – WI primary > bar graph ""Percent of confirmed COVID-19 cases by age group"" > button menu ""Select case confirmation status:"" > select ""Probable""  
 
 note: number will be in parenthesis in the same line as the update time for the graph
 . Total PCR Tests (People) – WI dash > title ""Wisconsin COVID-19 Summary Statistics"" > title ""Testing"" >  ""Total People Tested"". Positive Cases (People, confirmed + probable) – WI primary > bar graph ""Percent of confirmed COVID-19 cases by age group"" > button menu ""Select case confirmation as:"" > select ""Confirmed and Probable""  
@@ -2840,11 +2836,7 @@ on Ventilator – . Hospital Discharges – . Recovered – WI dash > title ""Wi
 
 note: number will be in parenthesis in the same line as the update time for the graph. ",,,,,"WI dash > title ""Wisconsin COVID-19 Summary Statistics"" > ""Cumulative Data, Updated:""
 
-today / 0:00",,,,,,,,,,,,,"long calculation
-This formula sums daily PCR test encounters to get a cumulative number.
-long calculation > hover over ""# WI PCR Testing Encounters"" > click play button > number under ""Last run at..."" row
-
-note: long calculation is in cell E2 of WS2",,,,"WI dash > title ""Wisconsin COVID-19 Summary Statistics > title Testing"" > ""Positive (Confirmed Cases)""","WI primary > bar graph ""Percent of confirmed COVID-19 cases by age group"" > button menu ""Select case confirmation status:"" > select ""Probable""  
+today / 0:00",,,,,,,,,,,,,WI avocado > Test result > totalTestEncountersViral,,,,WI avocado > Symptom Onset > positiveCasesViral,"WI primary > bar graph ""Percent of confirmed COVID-19 cases by age group"" > button menu ""Select case confirmation status:"" > select ""Probable""  
 
 note: number will be in parenthesis in the same line as the update time for the graph
 ","WI dash > title ""Wisconsin COVID-19 Summary Statistics"" > title ""Testing"" >  ""Total People Tested""","WI primary > bar graph ""Percent of confirmed COVID-19 cases by age group"" > button menu ""Select case confirmation as:"" > select ""Confirmed and Probable""  
@@ -2859,9 +2851,7 @@ note: this page can have issues updating properly, please give it a hard refresh
 
 note: number will be in parenthesis in the same line as the update time for the graph",,,,"WI dash > title ""Wisconsin COVID-19 Summary Statistics"" > title ""Recovery Status"" > ""Recovered""","WI dash > menu ""COVID-19: Data Pages"" > click ""Deaths"" > bar graph ""Percent of COVID-19 deaths by age group"" > button menu ""Select case confirmation status:"" > select ""Confirmed and probable""
 
-note: number will be in parenthesis in the same line as the update time for the graph","WI dash > menu ""COVID-19: Data Pages"" > click ""Deaths"" > bar graph ""Percent of COVID-19 deaths by age group"" > button menu ""Select case confirmation status:"" > select ""Confirmed"" 
-
-note: number will be in parenthesis in the same line as the update time for the graph","WI dash > menu ""COVID-19: Data Pages"" > click ""Deaths"" > bar graph ""Percent of COVID-19 deaths by age group"" > button menu ""Select case confirmation status:"" > select ""Probable""
+note: number will be in parenthesis in the same line as the update time for the graph",WI avocado > Report > deathConfirmed,"WI dash > menu ""COVID-19: Data Pages"" > click ""Deaths"" > bar graph ""Percent of COVID-19 deaths by age group"" > button menu ""Select case confirmation status:"" > select ""Probable""
 
 note: number will be in parenthesis in the same line as the update time for the graph",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhs.wisconsin.gov/covid-19/cases.htm,WI
 WV,West Virginia,https://dhhr.wv.gov/COVID-19/Pages/default.aspx,https://dhhr.wv.gov/COVID-19/Pages/default.aspx,https://www.twitter.com/WV_DHHR,,,,,"West Virginia reports new antibody tests daily. We sum these numbers in a running total to report a value for the total number of antibody tests West Virginia has conducted. 
@@ -2946,7 +2936,7 @@ WY primary > scroll all the way down to the tableau bottom menu bar > click seco
 ","WY dash > ""Probable Cases""
 ","updates: weekdays
 WY site > click link ""COVID-19 Testing Data"" > ""Number of People Tested""","calculated:
-WY dash > {""Lab Confirmed Cases"" + ""Probable Cases""}","updates: weekdays
+WS3 > {""Positive Cases (PCR)"" + ""Probable Cases""}","updates: weekdays
 calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}
 
