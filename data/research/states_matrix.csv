@@ -1712,7 +1712,7 @@ On November 22, 2020, Nebraska's **Recovered** metric dropped from 56,605 to 16,
 
 above date / above time (see note below)
 
-note: the time is presented in the viewer's local time (your timezone), even though it says CDT. This needs to be entered into the spreadsheet as Central Time. If you are in ET subtract 1 hour. If you are in MT add 1 hour. If you are in PT add 2 hours. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NE dash > ""Total Tests"". Positive Tests (PCR) – NE query > ""Specimens"" > value next to ""TotalPositiveAsOfThisDate"". Negative Tests (PCR) – NE query > ""Specimens"" > value next to ""TotalNotDetectedAsOfThisDate"". Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – NE dash > ""People Tested"". Positive Cases (People, confirmed + probable) – NE dash > ""Total Positive Cases"". Negative (People or Cases) – NE dash > ""Tested: Not Detected"". Pending – . Currently 
+note: the time is presented in the viewer's local time (your timezone), even though it says CDT. This needs to be entered into the spreadsheet as Central Time. If you are in ET subtract 1 hour. If you are in MT add 1 hour. If you are in PT add 2 hours. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NE avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – NE query > ""Specimens"" > value next to ""TotalPositiveAsOfThisDate"". Negative Tests (PCR) – NE query > ""Specimens"" > value next to ""TotalNotDetectedAsOfThisDate"". Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – NE dash > ""People Tested"". Positive Cases (People, confirmed + probable) – NE dash > ""Total Positive Cases"". Negative (People or Cases) – NE dash > ""Tested: Not Detected"". Pending – . Currently 
 Hospitalized – NE dash > tab ""Hospitalized Cases"" > ""Active Hospitalizations"" 
 
 note: tabs can be accessed by using the arrows for the main window. Cumulative Hospitalized – NE dash > tab ""Hospitalized Cases"" > ""Total Cumulative Hospitalizations"". Currently
@@ -1724,7 +1724,7 @@ on Ventilator – . Hospital Discharges – . Recovered – NE dash > tab ""Reco
 
 above date / above time (see note below)
 
-note: the time is presented in the viewer's local time (your timezone), even though it says CDT. This needs to be entered into the spreadsheet as Central Time. If you are in ET subtract 1 hour. If you are in MT add 1 hour. If you are in PT add 2 hours. ",,,,,,,,,,,,,,"NE dash > ""Total Tests""","NE query > ""Specimens"" > value next to ""TotalPositiveAsOfThisDate""","NE query > ""Specimens"" > value next to ""TotalNotDetectedAsOfThisDate""",,,"NE dash > ""People Tested""","NE dash > ""Total Positive Cases""","NE dash > ""Tested: Not Detected""",,"NE dash > tab ""Hospitalized Cases"" > ""Active Hospitalizations"" 
+note: the time is presented in the viewer's local time (your timezone), even though it says CDT. This needs to be entered into the spreadsheet as Central Time. If you are in ET subtract 1 hour. If you are in MT add 1 hour. If you are in PT add 2 hours. ",,,,,,,,,,,,,,NE avocado > Specimen Collection > totalTestsViral,"NE query > ""Specimens"" > value next to ""TotalPositiveAsOfThisDate""","NE query > ""Specimens"" > value next to ""TotalNotDetectedAsOfThisDate""",,,"NE dash > ""People Tested""","NE dash > ""Total Positive Cases""","NE dash > ""Tested: Not Detected""",,"NE dash > tab ""Hospitalized Cases"" > ""Active Hospitalizations"" 
 
 note: tabs can be accessed by using the arrows for the main window","NE dash > tab ""Hospitalized Cases"" > ""Total Cumulative Hospitalizations""",,,,,,"NE dash > tab ""Recoveries"" > ""Recovered""","NE dash > tab ""Deaths"" > ""Deaths""
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd/page/page_0/,NE
@@ -2092,8 +2092,7 @@ or (Sunday and Monday only)
 
 on Sunday and Monday, previous day's press release > ""... as of...""
 
-yesterday / 00:01",,,,,,,,,,,,,,"updates: Tuesday - Saturday
-OR primary > title ""Situation in Oregon"" >  ""Total Tests""","updates: Tuesday - Saturday
+yesterday / 00:01",,,,,,,,,,,,,,OR avocado > Test Result > totalTestsViral,"updates: Tuesday - Saturday
 OR primary > title ""Situation in Oregon"" >  ""Positive Tests""","updates: Tuesday - Saturday
 OR primary > title ""Situation in Oregon"" >  ""Negative Tests""",,,,"OR primary > title ""Situation in Oregon"" >  ""Total Cases""
 
@@ -2139,12 +2138,8 @@ On September 3, 2020, Pennsylvania [clarified](https://www.health.pa.gov/topics/
 
 On April 23, 2020, Pennsylvania revised down its total **Deaths (confirmed and probable)** from 1,622 to 1,421 to exclude some probable deaths that needed further confirmation to be linked to COVID-19","Local Time – PA dash > ""Information last updated at...""
 
-above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – PA other > ""Total PCR Tests""
-
-note: may not update on weekends
-note: if this metric does not update, leave the previous value in the cell. Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – PA dash > ""Confirmed Cases"". Probable Cases – PA dash> ""Probable cases"". Total PCR Tests (People) – calculated:
-PA dash > {""Confirmed Cases"" + ""Negative Tests""}. Positive Cases (People, confirmed + probable) – calculated:
-PA dash > {""Confirmed Cases"" + ""Probable cases""}. Negative (People or Cases) – PA dash > ""Negative Tests"". Pending – . Currently 
+above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – PA avocado > Test Result > totalTestEncountersViral. Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – PA dash > ""Confirmed Cases"". Probable Cases – PA dash> ""Probable cases"". Total PCR Tests (People) – calculated:
+PA dash > {""Confirmed Cases"" + ""Negative Tests""}. Positive Cases (People, confirmed + probable) – PA avocado > Report > positive. Negative (People or Cases) – PA dash > ""Negative Tests"". Pending – . Currently 
 Hospitalized – PA dash > tab ""Hospital Preparedness"" > ""COVID-19 Patients Hosptialized"". Cumulative Hospitalized – . Currently
 in ICU – PA dash > tab ""Hospital Preparedness"" >  ""COVID-19 Patients (Adult) in ICU"". Cumulative
 in ICU – . Currently 
@@ -2162,14 +2157,10 @@ TC = ""Total Cases""
 note: use this value even if it's a decrease from previous day
 
 note: may not update on weekends
-note: if this metric does not update, leave the previous value in the cell. Deaths (confirmed and probable) – PA dash > ""Deaths"". ",,,,,"PA dash > ""Information last updated at...""
+note: if this metric does not update, leave the previous value in the cell. Deaths (confirmed and probable) – PA avocado > Death > death. ",,,,,"PA dash > ""Information last updated at...""
 
-above date / above time",,,,,,,,,,,,,"PA other > ""Total PCR Tests""
-
-note: may not update on weekends
-note: if this metric does not update, leave the previous value in the cell",,,,"PA dash > ""Confirmed Cases""","PA dash> ""Probable cases""","calculated:
-PA dash > {""Confirmed Cases"" + ""Negative Tests""}","calculated:
-PA dash > {""Confirmed Cases"" + ""Probable cases""}","PA dash > ""Negative Tests""",,"PA dash > tab ""Hospital Preparedness"" > ""COVID-19 Patients Hosptialized""",,"PA dash > tab ""Hospital Preparedness"" >  ""COVID-19 Patients (Adult) in ICU""",,"PA dash > tab ""Hospital Preparedness"" > ""COVID-19 Patients on Ventilators""
+above date / above time",,,,,,,,,,,,,PA avocado > Test Result > totalTestEncountersViral,,,,"PA dash > ""Confirmed Cases""","PA dash> ""Probable cases""","calculated:
+PA dash > {""Confirmed Cases"" + ""Negative Tests""}",PA avocado > Report > positive,"PA dash > ""Negative Tests""",,"PA dash > tab ""Hospital Preparedness"" > ""COVID-19 Patients Hosptialized""",,"PA dash > tab ""Hospital Preparedness"" >  ""COVID-19 Patients (Adult) in ICU""",,"PA dash > tab ""Hospital Preparedness"" > ""COVID-19 Patients on Ventilators""
 
 note: if you see an ECMO number reported, alert shift lead",,,"calculated:
 PA other > find ""Recovered***"" percentage > find ""Total Cases""
@@ -2182,7 +2173,7 @@ TC = ""Total Cases""
 note: use this value even if it's a decrease from previous day
 
 note: may not update on weekends
-note: if this metric does not update, leave the previous value in the cell","PA dash > ""Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,PA
+note: if this metric does not update, leave the previous value in the cell",PA avocado > Death > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,PA
 PR,Puerto Rico,https://bioseguridad.maps.arcgis.com/apps/opsdashboard/index.html#/d7308c1abb4747e584329adf1215125e,http://www.salud.gov.pr/Pages/coronavirus.aspx,https://twitter.com/desaludpr,,https://services5.arcgis.com/klquQoHA0q9zjblu/ArcGIS/rest/services/Datos_Totales_View7/FeatureServer/0/query?where=1%3D1&outFields=T_Muertes_COVID_RD%2CT_Muertes_Combinadas%2CT_Pacientes_Int_Covid%2CT_Vent_Covid%2CT_Serologicos_Pos%2CT_Casos_Unicos%2CT_Molecular_Pos%2CT_Fatalidades%2CT_Hospitalizados,,,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
 On March 7, 2021, Puerto Rico's dashboard link was broken and required a login. As a result, data will be frozen until a suitable replacement is found.
@@ -2208,7 +2199,7 @@ or (if page date is not updated, but dash is)
 current day / 0:00
 
 note: do not use the ""Útilima actualization..."" date on dash.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – PR dash > ""Total casos sospechosos"". Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: never. Positive Tests (PCR) – updates: never. Negative Tests (PCR) – updates: never. Positive Cases (PCR) – PR dash > ""Total Casos Confirmados"". Probable Cases – PR dash > ""Total casos probables Antígenos"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
-WS2 > {Probable Cases + Positive Cases (PCR)}. Negative (People or Cases) – updates: never. Pending – . Currently 
+WS3 > {Probable Cases + Positive Cases (PCR)}. Negative (People or Cases) – updates: never. Pending – . Currently 
 Hospitalized – PR dash > ""Hospitalizados por COVID-19"". Cumulative Hospitalized – . Currently
 in ICU – PR query > ""T_Pacientes_Int_Covid:"". Cumulative
 in ICU – . Currently 
@@ -2223,7 +2214,7 @@ or (if page date is not updated, but dash is)
 current day / 0:00
 
 note: do not use the ""Útilima actualization..."" date on dash.",,,,,,,,,,,"PR dash > ""Total casos sospechosos""",,,updates: never,updates: never,updates: never,"PR dash > ""Total Casos Confirmados""","PR dash > ""Total casos probables Antígenos""",,"calculated:
-WS2 > {Probable Cases + Positive Cases (PCR)}",updates: never,,"PR dash > ""Hospitalizados por COVID-19""",,"PR query > ""T_Pacientes_Int_Covid:""",,"PR query > ""T_Vent_Covid""",,,"updates: weekly, usually Mondays
+WS3 > {Probable Cases + Positive Cases (PCR)}",updates: never,,"PR dash > ""Hospitalizados por COVID-19""",,"PR query > ""T_Pacientes_Int_Covid:""",,"PR query > ""T_Vent_Covid""",,,"updates: weekly, usually Mondays
 PR dash > top right box > click arrow until you find > ""Convalecientes""","PR dash > ""Total Muertes por COVID-19/ Acumuladas""","PR dash > ""Total Muertos COVID-19 / Confirmadas (RT- PCR+)""
 
 note: click the little arrow at the bottom of the box under ""Total Muertes"" to the right one time","PR dash > ""Total Muertes por COVID-19 / Probables""
