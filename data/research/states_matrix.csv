@@ -1972,7 +1972,7 @@ note: long calculation is in cell E2. Negative Antigen Tests – . Total Antibod
 This formula sums daily positive PCR tests to get a cumulative number. 
 long calculation > hover over #OH testing > click play button > ""Confirmatory Lab Total Positive (Daily)""
 
-note: long calculation is in cell E2. Negative Tests (PCR) – . Positive Cases (PCR) – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Confirmed Cases"". Probable Cases – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""CDC Expanded Case Definition (Probable)"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Total Cases"" . Negative (People or Cases) – . Pending – . Currently 
+note: long calculation is in cell E2. Negative Tests (PCR) – . Positive Cases (PCR) – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Confirmed Cases"". Probable Cases – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""CDC Expanded Case Definition (Probable)"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – OH avocado > ""Symptom Onset > positive. Negative (People or Cases) – . Pending – . Currently 
 Hospitalized – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Hospitalizations"" > graph ""Current Confirmed COVID - 19 Patient Count in Ohio Hospitals by Day"" >  mouse over grey bar > ""COVID-19 Positive"" > ""Patient Count""
 
 note: some people experience browser issues with the graph. you can try expanding your browser or switching to a different browser if you have trouble.
@@ -1993,7 +1993,7 @@ note: screenshot this graph - hover over most recent day’s red bar correspondi
 screenshot: https://internal.covidtracking.com/screenshot?state=OH&datatype=taco&subtype=data-dashboard. Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – OH dash > ""COVID-19 Dashboard"" > menu ""Overview"" >""Presumed Recovered""
 
-note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link. Deaths (confirmed and probable) – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" >  ""Total Deaths"" . ",,,,,"OH dash > ""Last updated"" & ""Updated daily at...""
+note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link. Deaths (confirmed and probable) – OH avocado > death > death. ",,,,,"OH dash > ""Last updated"" & ""Updated daily at...""
 
 above date / 14:00",,,,OH avocado > test result > totalTestsAntigen,"long calculation
 This formula sums daily positive antigen tests to get a cumulative number. 
@@ -2003,7 +2003,7 @@ note: long calculation is in cell E2",,,,,,,,,OH avocado > test result > totalTe
 This formula sums daily positive PCR tests to get a cumulative number. 
 long calculation > hover over #OH testing > click play button > ""Confirmatory Lab Total Positive (Daily)""
 
-note: long calculation is in cell E2",,"OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Confirmed Cases""","OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""CDC Expanded Case Definition (Probable)""",,"OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Total Cases"" ",,,"OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Hospitalizations"" > graph ""Current Confirmed COVID - 19 Patient Count in Ohio Hospitals by Day"" >  mouse over grey bar > ""COVID-19 Positive"" > ""Patient Count""
+note: long calculation is in cell E2",,"OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Confirmed Cases""","OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""CDC Expanded Case Definition (Probable)""",,"OH avocado > ""Symptom Onset > positive",,,"OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Hospitalizations"" > graph ""Current Confirmed COVID - 19 Patient Count in Ohio Hospitals by Day"" >  mouse over grey bar > ""COVID-19 Positive"" > ""Patient Count""
 
 note: some people experience browser issues with the graph. you can try expanding your browser or switching to a different browser if you have trouble.
 note: screenshot this graph - hover over most recent day’s gray bar corresponding to COVID-19 positive. 
@@ -2019,7 +2019,7 @@ screenshot: https://internal.covidtracking.com/screenshot?state=OH&datatype=taco
 note: screenshot this graph - hover over most recent day’s red bar corresponding to COVID-19 positive - vent. 
 screenshot: https://internal.covidtracking.com/screenshot?state=OH&datatype=taco&subtype=data-dashboard",,,"OH dash > ""COVID-19 Dashboard"" > menu ""Overview"" >""Presumed Recovered""
 
-note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link","OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" >  ""Total Deaths"" ","OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Confirmed Deaths""","OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""CDC Expanded Death Definition (Probable)"" ",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/,OH
+note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link",OH avocado > death > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/,OH
 OK,Oklahoma,,https://coronavirus.health.ok.gov/,https://www.twitter.com/HealthyOklahoma,https://coronavirus.health.ok.gov/news,,https://oklahoma.gov/covid19/newsroom/executive-order-reports.html,,"On February 27, 2021, Oklahoma's Total PCR Tests  dropped by 3,314 without explanation.
 
 On February 11, 2021, Oklahoma announced via a [press release](https://oklahoma.gov/covid19/newsroom/2021/february/situation-update--covid-19-02-11-2021.html) that due to delayed reporting by facilities, and time taken to investigate previously deferred cases, the “majority” of new deaths reported on February 11, 2021 occurred in November, 2020.
