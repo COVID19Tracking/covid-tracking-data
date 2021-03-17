@@ -1907,7 +1907,7 @@ As of November 23, 2020, New York's `totalTestResults` are drawn from our `total
 
 above date / 14:00
 
-note: in upper right corner of dash, make sure to use ""as of"" date/time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NY dash > ""Total Persons Tested"". Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NY dash > ""Total Tested Positive"". Negative (People or Cases) – . Pending – . Currently 
+note: in upper right corner of dash, make sure to use ""as of"" date/time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NY avocado > test result > totalTestEncountersViral. Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – . Probable Cases – . Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – NY avocado > test result > positive. Negative (People or Cases) – . Pending – . Currently 
 Hospitalized – NY other > mouse over the blue bar in the latest day > ""Total COVID-19 Patients Hospitalized""
 
 note: screenshot this graph, hovering over the most recent day’s bar corresponding to COVID-19 patients hospitalized
@@ -1922,11 +1922,11 @@ on Ventilator – NY press conferences > find most recent COVID related press re
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values. Cumulative 
 on Ventilator – . Hospital Discharges – NY press Conferences > find most recent COVID related press release > title ""Today's data is summarized briefly below"" > ""Total Discharges""
 
-note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values. Recovered – . Deaths (confirmed and probable) – NY dash > click link ""Click for Fatality Data"" >  table ""Fatalities by County"" > column ""Place of Fatality"" > row ""Grand Total"". ",,,,,"NY dash > ""Testing data as of:"" 
+note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values. Recovered – . Deaths (confirmed and probable) – NY dash > click link ""Click for Fatality Data"" > table ""Fatalities by County"" > column ""Place of Fatality"" > row ""Grand Total"""". ",,,,,"NY dash > ""Testing data as of:"" 
 
 above date / 14:00
 
-note: in upper right corner of dash, make sure to use ""as of"" date/time",,,,,,,,,,,,,"NY dash > ""Total Persons Tested""",,,,,,,"NY dash > ""Total Tested Positive""",,,"NY other > mouse over the blue bar in the latest day > ""Total COVID-19 Patients Hospitalized""
+note: in upper right corner of dash, make sure to use ""as of"" date/time",,,,,,,,,,,,,NY avocado > test result > totalTestEncountersViral,,,,,,,NY avocado > test result > positive,,,"NY other > mouse over the blue bar in the latest day > ""Total COVID-19 Patients Hospitalized""
 
 note: screenshot this graph, hovering over the most recent day’s bar corresponding to COVID-19 patients hospitalized
 screenshot: https://internal.covidtracking.com/screenshot?state=NY&datatype=taco&subtype=other-source",updates: never,"NY other > mouse over the yellow bar in the latest day > ""Total COVID-19 Patients in ICU""
@@ -1936,7 +1936,7 @@ screenshot: https://internal.covidtracking.com/screenshot?state=NY&datatype=taco
 
 note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values",,"NY press Conferences > find most recent COVID related press release > title ""Today's data is summarized briefly below"" > ""Total Discharges""
 
-note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values",,"NY dash > click link ""Click for Fatality Data"" >  table ""Fatalities by County"" > column ""Place of Fatality"" > row ""Grand Total""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,NY
+note: search for ""intubated"" in the ""Refine > keyword"" search box on the left side of the PRs to locate the PRs with values",,"NY dash > click link ""Click for Fatality Data"" > table ""Fatalities by County"" > column ""Place of Fatality"" > row ""Grand Total""""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases,NY
 OH,Ohio,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/,,https://www.twitter.com/OHdeptofhealth,https://odh.ohio.gov/wps/portal/gov/odh/media-center/ODH-News-Releases,,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/cases,,"As of March 2, 2021, Ohio updates their mortality figures twice a week as death certificate information is received and verified from the National Center for Health Statistics. As a result of this change, Deaths (confirmed + probable) decreased from 17,346 to 17,189 on March 2, 2021. To allow our data quality team time to evaluate this change, we did not record this change on March 2, 2021, and backfilled our timeseries on March 3, 2021.
 
 As of March 2, 2021, Ohio no longer reports Deaths (confirmed) and Deaths (probable) on their [COVID-19 dashboard](https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/overview/). As a result, we are unable to update these metrics.
