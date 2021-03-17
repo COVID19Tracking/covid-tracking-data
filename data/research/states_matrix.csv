@@ -1964,15 +1964,11 @@ On November 23, 2020 Ohio announced that their data for November 23, 2020 would 
 On November 18, 2020, Ohio reported 5246480 **Total PCR tests (specimens)** - the same number that was reported on November 15, 2020, and a drop of roughly 102k tests from November 17, 2020. Because Ohio announced that their data for November 18, 2020 would be incomplete, and we suspect this decrease was a result of that, we did not update **Total PCR tests (specimens)**, or `Negative` on November 18, 2020.
 ","Local Time – OH dash > ""Last updated"" & ""Updated daily at...""
 
-above date / 14:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – long calculation
-This formula sums daily antigen tests to get a cumulative number. 
-long calculation > hover over #OH testing > click play button > ""Presumptive Lab Total Tested (Daily)"" 
-
-note: long calculation is in cell E2. Positive Antigen Tests – long calculation
+above date / 14:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – OH avocado > test result > totalTestsAntigen. Positive Antigen Tests – long calculation
 This formula sums daily positive antigen tests to get a cumulative number. 
 long calculation > hover over #OH testing > click play button > ""Presumptive Lab Total Positive (Daily)""
 
-note: long calculation is in cell E2. Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Total Tested in Ohio"". Positive Tests (PCR) – long calculation
+note: long calculation is in cell E2. Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – OH avocado > test result > totalTestsViral. Positive Tests (PCR) – long calculation
 This formula sums daily positive PCR tests to get a cumulative number. 
 long calculation > hover over #OH testing > click play button > ""Confirmatory Lab Total Positive (Daily)""
 
@@ -1999,15 +1995,11 @@ on Ventilator – . Hospital Discharges – . Recovered – OH dash > ""COVID-19
 
 note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link. Deaths (confirmed and probable) – OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" >  ""Total Deaths"" . ",,,,,"OH dash > ""Last updated"" & ""Updated daily at...""
 
-above date / 14:00",,,,"long calculation
-This formula sums daily antigen tests to get a cumulative number. 
-long calculation > hover over #OH testing > click play button > ""Presumptive Lab Total Tested (Daily)"" 
-
-note: long calculation is in cell E2","long calculation
+above date / 14:00",,,,OH avocado > test result > totalTestsAntigen,"long calculation
 This formula sums daily positive antigen tests to get a cumulative number. 
 long calculation > hover over #OH testing > click play button > ""Presumptive Lab Total Positive (Daily)""
 
-note: long calculation is in cell E2",,,,,,,,,"OH dash > ""COVID-19 Dashboard"" > menu pulldown ""Key Metrics"" > ""Cases"" > ""Total Tested in Ohio""","long calculation
+note: long calculation is in cell E2",,,,,,,,,OH avocado > test result > totalTestsViral,"long calculation
 This formula sums daily positive PCR tests to get a cumulative number. 
 long calculation > hover over #OH testing > click play button > ""Confirmatory Lab Total Positive (Daily)""
 
