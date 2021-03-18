@@ -2154,7 +2154,7 @@ note: use this value even if it's a decrease from previous day
 
 note: may not update on weekends
 note: if this metric does not update, leave the previous value in the cell",PA avocado > Death > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,PA
-PR,Puerto Rico,https://bioseguridad.maps.arcgis.com/apps/opsdashboard/index.html#/d7308c1abb4747e584329adf1215125e,http://www.salud.gov.pr/Pages/coronavirus.aspx,https://twitter.com/desaludpr,,https://services5.arcgis.com/klquQoHA0q9zjblu/ArcGIS/rest/services/Datos_Totales_View7/FeatureServer/0/query?where=1%3D1&outFields=T_Muertes_COVID_RD%2CT_Muertes_Combinadas%2CT_Pacientes_Int_Covid%2CT_Vent_Covid%2CT_Serologicos_Pos%2CT_Casos_Unicos%2CT_Molecular_Pos%2CT_Fatalidades%2CT_Hospitalizados,,,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
+PR,Puerto Rico,https://covid19datos.salud.gov.pr,http://www.salud.gov.pr/Pages/coronavirus.aspx,https://twitter.com/desaludpr,,https://services5.arcgis.com/klquQoHA0q9zjblu/ArcGIS/rest/services/Datos_Totales_View7/FeatureServer/0/query?where=1%3D1&outFields=T_Muertes_COVID_RD%2CT_Muertes_Combinadas%2CT_Pacientes_Int_Covid%2CT_Vent_Covid%2CT_Serologicos_Pos%2CT_Casos_Unicos%2CT_Molecular_Pos%2CT_Fatalidades%2CT_Hospitalizados,,,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
 On March 7, 2021, Puerto Rico's dashboard link was broken and required a login. As a result, data will be frozen until a suitable replacement is found.
 
@@ -2745,9 +2745,7 @@ Between March 31 and April 15, 2020, Washington state did not report **Negative 
 
 above date / above time
 
-note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
-
-note: we need the larger number. Total Tests (PCR) – . Positive Tests (PCR) – long calculation
+note: WA is on a permanent 1 day lag due to late updates. . Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – WA avocado > Specimen Collection > totalTestEncountersViral. Total Tests (PCR) – . Positive Tests (PCR) – long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive"". Negative Tests (PCR) – long calculation
 calculated: 
@@ -2763,9 +2761,7 @@ on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed 
 
 above date / above time
 
-note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,"WA dash > tab ""Testing"" > ""XXXXXXX test results do not have an assigned county...""
-
-note: we need the larger number",,"long calculation
+note: WA is on a permanent 1 day lag due to late updates. ",,,,,,,,,,,,,WA avocado > Specimen Collection > totalTestEncountersViral,,"long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive""","long calculation
 calculated: 
