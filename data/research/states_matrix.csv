@@ -512,7 +512,7 @@ As of September 18, 2020, Georgia's total test results are drawn from our `total
 
 As of August 28, 2020, we started reporting patients Now hospitalized from the [Georgia Geospatial Information Office](https://www.arcgis.com/apps/opsdashboard/index.html#/e40c39564f724af7bfe8fd5d88deadb6). The new count includes both patients with a confirmed COVID-19 diagnosis and patients under investigation, as is our standard practice where possible.",#REF!,TRUE,TRUE,,,"GA primary > ""...as of...""
 
-above date / above time",,,,GA avocado > report > totalTestsAntigen,"GA primary > table ""COVID-19 Testing"" > ""Total Antigen"" > ""Number of Positive Tests""",,,,,"GA primary > title ""COVID-19 Testing"" > ""Total Antibody (Serology)"" > ""Number of Tests""","GA primary> title ""COVID-19 Testing"" > ""Total Antibody (Serology)"" > ""Number of Positive Tests""",,,GA avocado > report > totalTestsViral,"GA primary > table ""COVID-19 Testing"" > ""Total PCR/ Molecular"" > ""Number of Positive Tests""",,"GA primary > title ""Georgia Overall COVID-19 Status"" > ""Confirmed Cases""","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Antigen Positive Cases""",,GA avocado > report > positive,,,"calculated:
+above date / above time",,,,GA avocado > Specimen Collection > totalTestsAntigen,"GA primary > table ""COVID-19 Testing"" > ""Total Antigen"" > ""Number of Positive Tests""",,,,,"GA primary > title ""COVID-19 Testing"" > ""Total Antibody (Serology)"" > ""Number of Tests""","GA primary> title ""COVID-19 Testing"" > ""Total Antibody (Serology)"" > ""Number of Positive Tests""",,,GA avocado > Specimen Collection > totalTestsViral,"GA primary > table ""COVID-19 Testing"" > ""Total PCR/ Molecular"" > ""Number of Positive Tests""",,"GA primary > title ""Georgia Overall COVID-19 Status"" > ""Confirmed Cases""","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Antigen Positive Cases""",,GA avocado > Symptom Onset > positive,,,"calculated:
 GA other > title ""Statewide Data"" > {""Covid-19 Patients"" + ""Patients Under Investigation""}","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Hospitalizations""",,"GA primary > title ""Georgia Overall COVID-19 Status"" > ""ICU Admissions""",,,,,"calculated:
 GA primary> {Confirmed Deaths + Probable Deaths}","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Confirmed Deaths""","GA primary> title ""Georgia Overall COVID-19 Status"" > ""Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://dph.georgia.gov/covid-19-daily-status-report,GA
 GU,Guam,http://dphss.guam.gov/covid-19/,http://dphss.guam.gov/covid-19/,https://www.facebook.com/GHSOCD,https://ghs.guam.gov/coronavirus-covid-19,,https://drive.google.com/file/d/1n-vrUGzEzs7rjcxXBFEbIMmeUQykuyO9/view,,"As of November 21, 2020, Guam’s Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
@@ -2675,11 +2675,9 @@ On August 19, 2020, Vermont's **total tests** decreased by about 200 tests with 
 
 Between May 15 and May 16, 2020, Vermont's **total tests** decreased by about 1,000 tests with no explanation.",#REF!,,TRUE,TRUE,,"VT dash > tab Info ""...reflecting counts as of end of previous day.""
 
-yesterday / 23:59",,,,,,,,,,,,,,"VT dash > ""Total Tests""",,,"VT dash > tab ""Cases and Deaths"" > ""Total Confirmed Cases""
+yesterday / 23:59",,,,,,,,,,,,,,VT avocado > Specimen Collection > totalTestsViral,,,VT avocado > Report > positiveCasesViral,"VT avocado > Report > probableCases
 
-note: depending on your screen the tabs may all show along the bottom of the dash, or may just show one at a time with arrows on the left and right","VT dash > tab ""Cases and Deaths"" > ""Total Probable Cases""
-
-note: depending on your screen the tabs may all show along the bottom of the dash, or may just show one at a time with arrows on the left and right","VT dash > ""People Tested""","VT dash > ""New Cases"" > XXXX total","calculated:
+","VT dash > ""People Tested""",VT avocado > Report > positive,"calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"calculated:
 VT dash > {Currently Hospitalized + Hospitalized Under Investigation}
 
@@ -2772,16 +2770,14 @@ note: we need the larger number. Total Tests (PCR) – . Positive Tests (PCR) �
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive"". Negative Tests (PCR) – long calculation
 calculated: 
-long calculation > hover over ""# WA"" > click play button > ""Negative"". Positive Cases (PCR) – WA dash > pg. 1 > ""Confirmed Cases""
-. Probable Cases – WA dash > pg. 1 > ""Probable Cases""
-. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – WA dash > pg. 1 > ""Total Cases""
-. Negative (People or Cases) – . Pending – . Currently 
+long calculation > hover over ""# WA"" > click play button > ""Negative"". Positive Cases (PCR) – WA avocado > Specimen Collection > positiveCasesViral. Probable Cases – WA avocado > Specimen Collection > probableCases
+. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – WA avocado > Specimen Collection > positive. Negative (People or Cases) – . Pending – . Currently 
 Hospitalized – WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19"". Cumulative Hospitalized – WA dash > pg. 1 > ""Hospitalizations""
 . Currently
 in ICU – WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases"". Cumulative
 in ICU – . Currently 
 on Ventilator – WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date. Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – WA dash > pg. 1 > ""Deaths""
+on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – WA avocado > Death > death
 . ",,,,,"WA dash > ""Data as of..""
 
 above date / above time
@@ -2792,11 +2788,9 @@ note: we need the larger number",,"long calculation
 calculated: 
 long calculation > hover over ""# WA"" > click play button > ""Positive""","long calculation
 calculated: 
-long calculation > hover over ""# WA"" > click play button > ""Negative""","WA dash > pg. 1 > ""Confirmed Cases""
-","WA dash > pg. 1 > ""Probable Cases""
-",,"WA dash > pg. 1 > ""Total Cases""
-",,,"WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
-","WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases""",,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,,"WA dash > pg. 1 > ""Deaths""
+long calculation > hover over ""# WA"" > click play button > ""Negative""",WA avocado > Specimen Collection > positiveCasesViral,"WA avocado > Specimen Collection > probableCases
+",,WA avocado > Specimen Collection > positive,,,"WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Beds Occupied by COVID patients"" > ""Staffed acute care beds occupied by adults with suspected and confirmed COVID-19""","WA dash > pg. 1 > ""Hospitalizations""
+","WA other > scroll to ""COVID-19 Risk Assessment Dashboard"" >  button ""Percent of adult ICU staffed beds occupied by COVID-19 cases"" > ""Adult ICU staffed beds occupied by suspected and confirmed COVID-19 cases""",,"WA dash > scroll down to ""Summary Data Tables"" > click ""Hospitalizations and Ventilations"" > column ""Total COVID-19 Patients Ventilated"" > row of most recent date",,,,"WA avocado > Death > death
 ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.doh.wa.gov/Emergencies/Coronavirus,WA
 WI,Wisconsin,https://www.dhs.wisconsin.gov/covid-19/data.htm,https://www.dhs.wisconsin.gov/outbreaks/index.htm,https://www.twitter.com/DHSWI,,,https://www.dhs.wisconsin.gov/covid-19/hosp-data.htm#capabilities,,"On February 8, 2021, Wisconsin's Total PCR tests (test encounters) decreased by roughly 13,000 without explanation.
 
