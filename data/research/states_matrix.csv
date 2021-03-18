@@ -2154,7 +2154,7 @@ note: use this value even if it's a decrease from previous day
 
 note: may not update on weekends
 note: if this metric does not update, leave the previous value in the cell",PA avocado > Death > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx,PA
-PR,Puerto Rico,https://covid19datos.salud.gov.pr,http://www.salud.gov.pr/Pages/coronavirus.aspx,https://twitter.com/desaludpr,,https://services5.arcgis.com/klquQoHA0q9zjblu/ArcGIS/rest/services/Datos_Totales_View7/FeatureServer/0/query?where=1%3D1&outFields=T_Muertes_COVID_RD%2CT_Muertes_Combinadas%2CT_Pacientes_Int_Covid%2CT_Vent_Covid%2CT_Serologicos_Pos%2CT_Casos_Unicos%2CT_Molecular_Pos%2CT_Fatalidades%2CT_Hospitalizados,,,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
+PR,Puerto Rico,https://covid19datos.salud.gov.pr,http://www.salud.gov.pr/Pages/coronavirus.aspx,https://twitter.com/desaludpr,,https://services5.arcgis.com/klquQoHA0q9zjblu/ArcGIS/rest/services/Datos_Totales_View7/FeatureServer/0/query?where=1%3D1&outFields=T_Muertes_COVID_RD%2CT_Muertes_Combinadas%2CT_Pacientes_Int_Covid%2CT_Vent_Covid%2CT_Serologicos_Pos%2CT_Casos_Unicos%2CT_Molecular_Pos%2CT_Fatalidades%2CT_Hospitalizados,http://www.salud.gov.pr/Estadisticas-Registros-y-Publicaciones/Estadsticas%20Casos%20Positivos%20COVID19%20Marzo%202021/Forms/AllItems.aspx#InplviewHash1321c69d-973f-42d8-a4d3-c57a9885e463=,,"Reported **Deaths** include both confirmed and probable COVID-19 deaths.
 
 On March 7, 2021, Puerto Rico's dashboard link was broken and required a login. As a result, data will be frozen until a suitable replacement is found.
 
@@ -2178,7 +2178,7 @@ or (if page date is not updated, but dash is)
  
 current day / 0:00
 
-note: do not use the ""Útilima actualization..."" date on dash.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – PR dash > ""Total casos sospechosos"". Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: never. Positive Tests (PCR) – updates: never. Negative Tests (PCR) – updates: never. Positive Cases (PCR) – PR dash > ""Total Casos Confirmados"". Probable Cases – PR dash > ""Total casos probables Antígenos"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
+note: do not use the ""Útilima actualization..."" date on dash.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – PR dash > ""Total casos sospechosos"". Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: never. Positive Tests (PCR) – updates: never. Negative Tests (PCR) – updates: never. Positive Cases (PCR) – PR dash > tab ""Estadísticas"" > ""CASOS CONFIRMADOS"" > ""ACUMULADO"". Probable Cases – PR dash > tab ""Estadísticas"" > ""CASOS PROBABLES"" > ""ACUMULADO"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
 WS3 > {Probable Cases + Positive Cases (PCR)}. Negative (People or Cases) – updates: never. Pending – . Currently 
 Hospitalized – PR dash > ""Hospitalizados por COVID-19"". Cumulative Hospitalized – . Currently
 in ICU – PR query > ""T_Pacientes_Int_Covid:"". Cumulative
@@ -2193,13 +2193,11 @@ or (if page date is not updated, but dash is)
  
 current day / 0:00
 
-note: do not use the ""Útilima actualization..."" date on dash.",,,,,,,,,,,"PR dash > ""Total casos sospechosos""",,,updates: never,updates: never,updates: never,"PR dash > ""Total Casos Confirmados""","PR dash > ""Total casos probables Antígenos""",,"calculated:
+note: do not use the ""Útilima actualization..."" date on dash.",,,,,,,,,,,"PR dash > ""Total casos sospechosos""",,,updates: never,updates: never,updates: never,"PR dash > tab ""Estadísticas"" > ""CASOS CONFIRMADOS"" > ""ACUMULADO""","PR dash > tab ""Estadísticas"" > ""CASOS PROBABLES"" > ""ACUMULADO""",,"calculated:
 WS3 > {Probable Cases + Positive Cases (PCR)}",updates: never,,"PR dash > ""Hospitalizados por COVID-19""",,"PR query > ""T_Pacientes_Int_Covid:""",,"PR query > ""T_Vent_Covid""",,,"updates: weekly, usually Mondays
-PR dash > top right box > click arrow until you find > ""Convalecientes""","PR dash > ""Total Muertes por COVID-19/ Acumuladas""","PR dash > ""Total Muertos COVID-19 / Confirmadas (RT- PCR+)""
-
-note: click the little arrow at the bottom of the box under ""Total Muertes"" to the right one time","PR dash > ""Total Muertes por COVID-19 / Probables""
-
-note: click the little arrow at the bottom of the box under ""Total Muertes"" to the right one time from the last step",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,http://www.salud.gov.pr/Pages/coronavirus.aspx,PR
+PR dash > top right box > click arrow until you find > ""Convalecientes""","PR dash > ""Total Muertes por COVID-19/ Acumuladas""","PDF
+PR other > most recent ""Informe Casos Positivos COVID-19..."" > Muertes confirmadas","PDF
+PR other > most recent ""Informe Casos Positivos COVID-19..."" > Muertes probables",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,http://www.salud.gov.pr/Pages/coronavirus.aspx,PR
 RI,Rhode Island,,https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com/,https://www.twitter.com/rihealth,,,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,,"Rhode Island combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 The **Recovered** data point we report for Rhode Island reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
@@ -2459,12 +2457,8 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for tests
 note: link to long calculation is in cell E2 of WS2
-. Total Antigen Tests – long calculation
-This formula sums daily antigen tests by person to get a cumulative number.
-long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for tests"" > title ""TOTAL"" > ""test type :Antigen by DFA/IF""
-
-note: do not use the metrics for people
-note: long calculation is in cell E2 of WS2. Positive Antigen Tests – long calculation
+. Total Antigen Tests – calculated:
+UT avocado > Specimen Collection > {""positiveTestsAntigen"" + ""negativeTestsAntigen""}. Positive Antigen Tests – long calculation
 This formula sums daily positive antigen tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type :Antigen by DFA/IF"" > ""Positive""
 
@@ -2476,12 +2470,8 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-. Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – long calculation
-This formula sums daily positive antigen tests by person to get a cumulative number.
-long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for people""> ""test type :Antigen by DFA/IF"" > ""Positive""
-
-note: do not use the metrics for tests
-note: long calculation is in cell E2 of WS2. Positive Tests (PCR) – long calculation
+. Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – calculated:
+UT avocado > Specimen Collection > {""positiveTestsViral"" + ""negativeTestsViral""}. Positive Tests (PCR) – long calculation
 This formula sums daily positive PCR tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type: PCR/amplification"" > ""Positive""
 
@@ -2499,7 +2489,7 @@ This formula sums daily positive and negative PCR tests by person to get cumulat
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > {Positive + Negative}
 
 note: do not use the metrics for tests 
-note: link to long calculation is in cell E2 of WS2. Positive Cases (People, confirmed + probable) – UT dash > ""COVID-19 Cases"". Negative (People or Cases) – long calculation
+note: link to long calculation is in cell E2 of WS2. Positive Cases (People, confirmed + probable) – UT avocado > Symptom Onset > positive. Negative (People or Cases) – long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
 long calculation > hover over ""# UT Antigen"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Negative""
 
@@ -2530,12 +2520,8 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for tests
 note: link to long calculation is in cell E2 of WS2
-","long calculation
-This formula sums daily antigen tests by person to get a cumulative number.
-long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for tests"" > title ""TOTAL"" > ""test type :Antigen by DFA/IF""
-
-note: do not use the metrics for people
-note: long calculation is in cell E2 of WS2","long calculation
+","calculated:
+UT avocado > Specimen Collection > {""positiveTestsAntigen"" + ""negativeTestsAntigen""}","long calculation
 This formula sums daily positive antigen tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type :Antigen by DFA/IF"" > ""Positive""
 
@@ -2547,12 +2533,8 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-",,,,,,,,"long calculation
-This formula sums daily positive antigen tests by person to get a cumulative number.
-long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for people""> ""test type :Antigen by DFA/IF"" > ""Positive""
-
-note: do not use the metrics for tests
-note: long calculation is in cell E2 of WS2","long calculation
+",,,,,,,,"calculated:
+UT avocado > Specimen Collection > {""positiveTestsViral"" + ""negativeTestsViral""}","long calculation
 This formula sums daily positive PCR tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type: PCR/amplification"" > ""Positive""
 
@@ -2570,7 +2552,7 @@ This formula sums daily positive and negative PCR tests by person to get cumulat
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > {Positive + Negative}
 
 note: do not use the metrics for tests 
-note: link to long calculation is in cell E2 of WS2","UT dash > ""COVID-19 Cases""","long calculation
+note: link to long calculation is in cell E2 of WS2",UT avocado > Symptom Onset > positive,"long calculation
 This formula sums daily negative PCR tests by person to get a cumulative number.
 long calculation > hover over ""# UT Antigen"" > click play button > title ""Metrics for People"" > ""test type: PCR/amplification"" > ""Negative""
 
