@@ -1620,15 +1620,7 @@ note: if this metric does not update, leave the previous value in the cell
 
 note: this metric is updated irregularly
 note: if this metric does not update, leave the previous value in the cell
-. Total Test Encounters (PCR) – long calculation
-This formula sums PCR test encounters by day and county to get a cumulative number.
-long calculation > hover over ""# ND Negatives + Testing"" > click play button > ""Total PCR tests (susceptible test encounters)  ""
-
-note: long calculation link can be found in cell E2 of WS2. Total Tests (PCR) – long calculation
-This formula sums PCR specimens tested by day and county to get a cumulative number.
-long calculation > hover over ""# ND Negatives + Testing"" > click play button >  ""Total PCR tests (specimens) ""
-
-note: long calculation link can be found in cell E2 of WS2. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – ND primary > column ""Cumulative"" > ""Positives""  > ""Confirmed (PCR Tests)"". Probable Cases – ND primary > column ""Cumulative"" > title ""Positives"" > ""Probable (Antigen Tests)"". Total PCR Tests (People) – ND primary > column ""Cumulative"" > ""Tests""  > ""Unique Individuals"". Positive Cases (People, confirmed + probable) – ND primary > column ""Cumulative"" > ""Positives""  > ""Total (PCR and Antigen Tests)"". Negative (People or Cases) – long calculation
+. Total Test Encounters (PCR) – ND avocado > n/a > totalTestEncountersViral. Total Tests (PCR) – ND avocado > n/a > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – ND avocado > n/a > positiveCasesViral. Probable Cases – ND avocado > n/a > probableCases. Total PCR Tests (People) – ND primary > column ""Cumulative"" > ""Tests""  > ""Unique Individuals"". Positive Cases (People, confirmed + probable) – ND avocado > n/a > positive. Negative (People or Cases) – long calculation
 This formula sums cumulative people tested negative by county to get a total number for the state.
 long calculation > hover over ""# ND Negatives + Testing"" > click play button > ""Total Negatives""
 
@@ -1644,10 +1636,7 @@ note: if this metric does not update, leave the previous value in the cell
 . Cumulative
 in ICU – ND primary > tab ""Hospitalizations"" > title ""Hospitalized Due to COVID"" > column ""Cumulative"" > ""ICU"". Currently 
 on Ventilator – . Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – ND primary > column ""Cumulative"" > section ""Recovered and Deaths"" > ""Recovered"". Deaths (confirmed and probable) – calculated:
-ND primary > scroll to table under dash Deaths > {""Total number of individuals who tested positive and died from any cause while infected with COVID-19"" + column ""2020"" ""Deaths of Individuals Presumed Positive"" + column 2021 ""Deaths of Individuals Presumed Positive""}
-
-note: this section is below the dash section. the deaths may show up red . ",,,,,"ND primary > ""The North Dakota Department of Health dashboard is updated daily by 11 am and includes cases reported through the previous day. ""
+on Ventilator – . Hospital Discharges – . Recovered – ND primary > column ""Cumulative"" > section ""Recovered and Deaths"" > ""Recovered"". Deaths (confirmed and probable) – ND avocado > n/a > death. ",,,,,"ND primary > ""The North Dakota Department of Health dashboard is updated daily by 11 am and includes cases reported through the previous day. ""
 
 yesterday / 23:59",,,,"long calculation
 This formula sums antigen specimens tested by day and county to get a cumulative number.
@@ -1665,15 +1654,7 @@ note: if this metric does not update, leave the previous value in the cell
 
 note: this metric is updated irregularly
 note: if this metric does not update, leave the previous value in the cell
-","long calculation
-This formula sums PCR test encounters by day and county to get a cumulative number.
-long calculation > hover over ""# ND Negatives + Testing"" > click play button > ""Total PCR tests (susceptible test encounters)  ""
-
-note: long calculation link can be found in cell E2 of WS2","long calculation
-This formula sums PCR specimens tested by day and county to get a cumulative number.
-long calculation > hover over ""# ND Negatives + Testing"" > click play button >  ""Total PCR tests (specimens) ""
-
-note: long calculation link can be found in cell E2 of WS2",,,"ND primary > column ""Cumulative"" > ""Positives""  > ""Confirmed (PCR Tests)""","ND primary > column ""Cumulative"" > title ""Positives"" > ""Probable (Antigen Tests)""","ND primary > column ""Cumulative"" > ""Tests""  > ""Unique Individuals""","ND primary > column ""Cumulative"" > ""Positives""  > ""Total (PCR and Antigen Tests)""","long calculation
+",ND avocado > n/a > totalTestEncountersViral,ND avocado > n/a > totalTestsViral,,,ND avocado > n/a > positiveCasesViral,ND avocado > n/a > probableCases,"ND primary > column ""Cumulative"" > ""Tests""  > ""Unique Individuals""",ND avocado > n/a > positive,"long calculation
 This formula sums cumulative people tested negative by county to get a total number for the state.
 long calculation > hover over ""# ND Negatives + Testing"" > click play button > ""Total Negatives""
 
@@ -1684,10 +1665,7 @@ or if the hospitalization metrics are still missing from the dashboard
 ND social > the day's ""COVID-19 Daily Report"" > ""currently hospitalized""","ND primary > tab ""Hospitalizations"" > title ""Hospitalized Due to COVID"" > column ""Cumulative"" > ""Total Hospitalized""","ND primary > tab ""Hospitalizations"" > title ""Hospitalized due to COVID"" > ""Current"" > ""ICU""
 
 note: if this metric does not update, leave the previous value in the cell
-","ND primary > tab ""Hospitalizations"" > title ""Hospitalized Due to COVID"" > column ""Cumulative"" > ""ICU""",,,,"ND primary > column ""Cumulative"" > section ""Recovered and Deaths"" > ""Recovered""","calculated:
-ND primary > scroll to table under dash Deaths > {""Total number of individuals who tested positive and died from any cause while infected with COVID-19"" + column ""2020"" ""Deaths of Individuals Presumed Positive"" + column 2021 ""Deaths of Individuals Presumed Positive""}
-
-note: this section is below the dash section. the deaths may show up red ",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,ND
+","ND primary > tab ""Hospitalizations"" > title ""Hospitalized Due to COVID"" > column ""Cumulative"" > ""ICU""",,,,"ND primary > column ""Cumulative"" > section ""Recovered and Deaths"" > ""Recovered""",ND avocado > n/a > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.health.nd.gov/diseases-conditions/coronavirus/north-dakota-coronavirus-cases,ND
 NE,Nebraska,https://experience.arcgis.com/experience/ece0db09da4d4ca68252c3967aa1e9dd/page/page_0/,http://dhhs.ne.gov/Pages/Coronavirus.aspx,https://www.twitter.com/NEDHHS,,https://turnips.covidtracking.com/#NE,,,"Nebraska combines PCR and antigen tests in the total tests figure reported on the state's dashboard, and thus antigen tests are included in our ""Total Tests (PCR)"" metric. Nebraska's cumulative data values often decrease without explanation, likely due to deduplication or other data corrections.
 
 Nebraska’s **Recovered** numbers occasionally decrease without explanation.
