@@ -1082,7 +1082,7 @@ MD other link > scroll to most recent column > row 3
 note: this number is updated weekly (wednesday). if this metric does not update, leave the previous value in the cell
 note: the column names will be formated like this:  d_10_14_2020. Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MD avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
 
-. Negative Tests (PCR) – . Positive Cases (PCR) – MD avocado > Specimen Collection > positiveTestsViral. Probable Cases – . Total PCR Tests (People) – calculated:
+. Negative Tests (PCR) – . Positive Cases (PCR) – MD avocado > Report > positive. Probable Cases – . Total PCR Tests (People) – calculated:
 MD dash > {Confirmed Cases  +  Persons Tested Negative}. Positive Cases (People, confirmed + probable) – MD avocado > Report > positive. Negative (People or Cases) – MD dash > ""Persons Tested Negative"". Pending – . Currently 
 Hospitalized – MD dash > ""Currently Hospitalized"". Cumulative Hospitalized – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized "" note: this is a section below the dashboard.. Currently
 in ICU – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
@@ -1111,7 +1111,7 @@ MD other link > scroll to most recent column > row 3
 note: this number is updated weekly (wednesday). if this metric does not update, leave the previous value in the cell
 note: the column names will be formated like this:  d_10_14_2020",,,,,MD avocado > Specimen Collection > totalTestsViral,"MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
 
-",,MD avocado > Specimen Collection > positiveTestsViral,,"calculated:
+",,MD avocado > Report > positive,,"calculated:
 MD dash > {Confirmed Cases  +  Persons Tested Negative}",MD avocado > Report > positive,"MD dash > ""Persons Tested Negative""",,"MD dash > ""Currently Hospitalized""","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized "" note: this is a section below the dashboard.","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
 
 note: this is a section below the dashboard.",,,,,"MD dash > title ""COVID-19 Statistics in Maryland"" > ""Released from isolation"" 
