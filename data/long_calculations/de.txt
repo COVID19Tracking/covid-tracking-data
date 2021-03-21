@@ -529,3 +529,12 @@ Year Month Day
 
 
 
+Run at:  2021-03-21 05:47:14.765577-04:00 
+
+                     Statistic      Value
+Year Month Day                           
+2021 3     17   Positive Tests    95026.0
+           17      Total Tests  1507433.0
+
+
+
