@@ -131,7 +131,7 @@ note: always use dash and never the graphic from the primary source. Negative An
 
 note: always use dash and never the graphic from the primary source. Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – AR avocado > n/a > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – AR dash > tab ""Tests"" > ""PCR Negatives""
 
-note: always use dash and never the graphic from the primary source. Positive Cases (PCR) – AR dash > tab ""Total Cases"" > ""Confirmed""
+note: always use dash and never the graphic from the primary source. Positive Cases (PCR) – AR dash > tab ""Total Cases"" > ""Confirmed Cases""
 
 note: always use dash and never the graphic from the primary source. Probable Cases – AR dash > tab ""Total Cases"" > ""Probable Cases""
 
@@ -169,7 +169,7 @@ note: always use dash and never the graphic from the primary source","AR dash > 
 
 note: always use dash and never the graphic from the primary source",,,,,,,,,,,AR avocado > n/a > totalTestsViral,,"AR dash > tab ""Tests"" > ""PCR Negatives""
 
-note: always use dash and never the graphic from the primary source","AR dash > tab ""Total Cases"" > ""Confirmed""
+note: always use dash and never the graphic from the primary source","AR dash > tab ""Total Cases"" > ""Confirmed Cases""
 
 note: always use dash and never the graphic from the primary source","AR dash > tab ""Total Cases"" > ""Probable Cases""
 
@@ -420,21 +420,21 @@ yesterday / 18:00. Total Antigen Tests (People) – . Positive Antigen Tests (Pe
 This formula generates the most recent value for positive tests by test available in the CSV.
 long calculation > hover over ""# DE Positives"" > click play button > Positive Tests
 
-note: link to long calculation is in cell E2 of WS2. Negative Tests (PCR) – . Positive Cases (PCR) – DE avocado > Report > positiveCasesViral. Probable Cases – DE avocado > Report > probableCases. Total PCR Tests (People) – DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Persons Tested"" > ""State of Delaware"". Positive Cases (People, confirmed + probable) – DE avocado > Report > positive. Negative (People or Cases) – DE dash > title ""Key Public Health Metrics"" > ""Persons Tested Negative"". Pending – . Currently 
+note: link to long calculation is in cell E2 of WS2. Negative Tests (PCR) – . Positive Cases (PCR) – DE avocado > report > positiveCasesViral. Probable Cases – DE avocado > report > probableCases. Total PCR Tests (People) – DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Persons Tested"" > ""State of Delaware"". Positive Cases (People, confirmed + probable) – DE avocado > report > positive. Negative (People or Cases) – DE dash > title ""Key Public Health Metrics"" > ""Persons Tested Negative"". Pending – . Currently 
 Hospitalized – DE dash > title ""Key Public Health Metrics"" > ""Current Hospitalizations"". Cumulative Hospitalized – . Currently
 in ICU – DE dash > title ""Key Public Health Metrics"" > ""Current Critical Hospitalizations"". Cumulative
 in ICU – . Currently 
 on Ventilator – . Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – DE avocado > Death > death
+on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – DE avocado > death > death
 . ",,,,,"DE dash > ""Data are current as of 6pm the previous day"" 
 
 yesterday / 18:00",,,,,,,,,,,,,"DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Tests"" > ""State of Delaware""",,"long calculation
 This formula generates the most recent value for positive tests by test available in the CSV.
 long calculation > hover over ""# DE Positives"" > click play button > Positive Tests
 
-note: link to long calculation is in cell E2 of WS2",,DE avocado > Report > positiveCasesViral,DE avocado > Report > probableCases,"DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Persons Tested"" > ""State of Delaware""",DE avocado > Report > positive,"DE dash > title ""Key Public Health Metrics"" > ""Persons Tested Negative""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Hospitalizations""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Critical Hospitalizations""",,,,,,"DE avocado > Death > death
-","DE avocado > Death > deathConfirmed
-","DE avocado > Death > deathProbable
+note: link to long calculation is in cell E2 of WS2",,DE avocado > report > positiveCasesViral,DE avocado > report > probableCases,"DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Persons Tested"" > ""State of Delaware""",DE avocado > report > positive,"DE dash > title ""Key Public Health Metrics"" > ""Persons Tested Negative""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Hospitalizations""",,"DE dash > title ""Key Public Health Metrics"" > ""Current Critical Hospitalizations""",,,,,,"DE avocado > death > death
+","DE avocado > death > deathConfirmed
+","DE avocado > death > deathProbable
 ",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.delaware.gov/,DE
 FL,Florida,https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/,http://ww11.doh.state.fl.us/comm/_partners/covid19_report_archive/total-antibody-results/serology-reports/serology_latest.pdf,https://www.twitter.com/HealthyFla,,https://turnips.covidtracking.com/#FL,https://bi.ahca.myflorida.com/t/ABICC/views/Public/COVIDHospitalizationsCounty?:isGuestRedirectFromVizportal=y&:embed=y,,"Florida combines PCR and antigen tests in the total tests figure reported on the state's dashboard (first noted July 2, 2020). We include data for Florida non-residents in our deaths and hospitalizations figures but not in cases and tests. For some metrics, we use machine queries against the Florida Department of Health's raw data, which may not be displayed on its [dashboard](https://experience.arcgis.com/experience/96dd742462124fa0b38ddedb9b25e429/).
 
@@ -757,7 +757,7 @@ As of October 15, 2020, Illinois combines PCR and antigen tests in the total tes
 
 On September 4, 2020, Illinois reported over 140,000 new **Total PCR tests (in specimens)** and over 5,000 new **Cases.** According to the [Chicago Tribune](https://www.chicagotribune.com/coronavirus/ct-covid-19-pandemic-chicago-illinois-news-20200904-qun7unon5fhjbfhnsml4edwqia-story.html), ""The Illinois Department of Public Health said Friday there was significant slowdown in the agency's test reporting earlier this week that it is just catching up with."" ",#REF!,FALSE,,,,"IL primary > ""Information to be updated daily"" 
 
-today's date / 0:00",,,,,,,,,,,,,,IL avocado > n/a > totalTestsViral,,,,,,IL avocado > Specimen Collection > positive,"calculated:
+today's date / 0:00",,,,,,,,,,,,,,IL avocado > n/a > totalTestsViral,,,,,,IL avocado > specimen collection > positive,"calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"IL other > click link ""Statewide Hospital Statistics1"" > title ""COVID-19 Patients"" > ""Total COVID + PUI in Hospital""
 
 note: statewide Hospital Statistics1 located at the bottom of the page below the hover-over graphs
@@ -767,7 +767,7 @@ note: ""Statewide Hospital Statistics1"" is located at the bottom of the page be
 note: this is not a calculation, the label has a “+” in it.",,"IL other > click linj ""Statewide Hospital Statistics1"" > title ""Ventilators"" > ""Vents used by COVID + PUIs""
 
 note: ""Statewide Hospital Statistics1"" located at the bottom of the page below the hover-over graphs
-note: this is not a calculation, the label has a “+” in it.",,,,IL avocado > Specimen Collection > death,"IL primary > ""Confirmed Deaths""","updates: weekly
+note: this is not a calculation, the label has a “+” in it.",,,,IL avocado > specimen collection > death,"IL primary > ""Confirmed Deaths""","updates: weekly
 IL primary > ""Probable Deaths""
 
 note: if this metric does not update, leave the previous value in the cell",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,http://www.dph.illinois.gov/topics-services/diseases-and-conditions/diseases-a-z-list/coronavirus,IL
@@ -787,13 +787,13 @@ On November 29, 2020, Indiana announced that a historical backlog of roughly 220
 
 As of October 16, 2020, Indiana’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative.",#REF!,,TRUE,,,"IN primary > ""Below results are as of…""
 
-above date / above time",,,,,,,,,,,,,,IN avocado > Specimen Collection > totalTestsViral,"IN query > ""pos_tests"": 
+above date / above time",,,,,,,,,,,,,,IN avocado > specimen collection > totalTestsViral,"IN query > ""pos_tests"": 
 
-note: the link will open a page with a text string from the api, look for the value after the term ""pos_tests""",,,,"IN primary > ""Total Individuals Tested""",IN avocado > Specimen Collection > positive,"calculated: 
+note: the link will open a page with a text string from the api, look for the value after the term ""pos_tests""",,,,"IN primary > ""Total Individuals Tested""",IN avocado > specimen collection > positive,"calculated: 
 WS2 > {Total PCR Tests (People) - Positive Cases (People, confirmed + probable}",,"IN primary > title ""Hospitalizations"" > graph ""Statewide COVID-19 Hospital Census"" > hover over most recent day > ""Total COVID19 Patients""","IN dash > title ""Hospitalizations"" > ""Unique Patients""","IN other > ""BEDS_ICU_OCCUPIED_COVID_19""
 
 note: if you have trouble reading the table expand the column","IN dash > title ""ICU Admits"" > ""Unique Patients""","IN other > ""VENTS_ALL_USE_COVID_19""",,"
-IN dash > title ""Recovery"" > ""Unique Patients""",,IN avocado > Death > death,"IN primary > ""Total Deaths""","IN primary > title ""Probable COVID-19 Counts"" > ""Total Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.coronavirus.in.gov/2393.htm,IN
+IN dash > title ""Recovery"" > ""Unique Patients""",,IN avocado > death > death,"IN primary > ""Total Deaths""","IN primary > title ""Probable COVID-19 Counts"" > ""Total Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.coronavirus.in.gov/2393.htm,IN
 KS,Kansas,https://www.coronavirus.kdheks.gov/160/COVID-19-in-Kansas,http://www.kdheks.gov/coronavirus/,https://www.twitter.com/kdhe,https://vimeo.com/showcase/6935373,,,,"Kansas combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
 
 Kansas reports most of its data on Mondays, Wednesdays, and Fridays only, so there are often large changes in the values, which can represent 2-3 days of data.
@@ -930,10 +930,10 @@ Between April 20 and April 24, 2020, Louisiana did not report testing data from 
 
 today / 12:00
 
-note: If no values have updated carry over previous timestamp.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – LA dash > title ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Antigen"". Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – LA avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Confirmed Cases"". Probable Cases – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Probable Cases""
+note: If no values have updated carry over previous timestamp.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – LA dash > title ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Antigen"". Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – LA avocado > specimen collection > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Confirmed Cases"". Probable Cases – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Probable Cases""
 
 note: this figure may be updated weekly, if this metric does not update, leave the previous value in the cell
-. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – LA avocado > Specimen Collection > positive. Negative (People or Cases) – calculated:
+. Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – LA avocado > specimen collection > positive. Negative (People or Cases) – calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 . Pending – . Currently 
 Hospitalized – LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients in Hospitals"". Cumulative Hospitalized – . Currently
@@ -945,10 +945,10 @@ LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Presumed Recovere
 
 today / 12:00
 
-note: If no values have updated carry over previous timestamp.",,,,"LA dash > title ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Antigen""",,,,,,,,,,LA avocado > Specimen Collection > totalTestsViral,,,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Confirmed Cases""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Probable Cases""
+note: If no values have updated carry over previous timestamp.",,,,"LA dash > title ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Tests"" > ""Antigen""",,,,,,,,,,LA avocado > specimen collection > totalTestsViral,,,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Confirmed Cases""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Cases"" > ""Probable Cases""
 
 note: this figure may be updated weekly, if this metric does not update, leave the previous value in the cell
-",,LA avocado > Specimen Collection > positive,"calculated:
+",,LA avocado > specimen collection > positive,"calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}
 ",,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients in Hospitals""",,,,"LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""COVID Patients on Ventilators""",,,"updates: weekly
 LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Presumed Recovered""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > ""Total Deaths""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Deaths"" > ""Confirmed""","LA dash > ""Louisiana Coronavirus (COVID-19) Information"" > title ""Total Deaths"" > ""Probable""
@@ -2036,7 +2036,9 @@ note: updates weekly (usually friday). if this metric does not update, leave the
 ",,,"pdf
 OK other > click most recent ""EO COVID-19 REPORT"" > ""Cumulative Reported Testing Numbers*""(p. 2) > ""Total Number of Specimens Tested""","pdf
 OK other > click most recent ""EO COVID-19 REPORT"" > ""Cumulative Reported Testing Numbers*""(p. 2) > ""Total Positive Specimens""","pdf
-OK other > click most recent ""EO COVID-19 REPORT"" > ""Cumulative Reported Testing Numbers*""(p. 2) > ""Total Negative Specimens""",,,,"OK primary > ""OK Cases""",WS2 > Negative Tests (PCR),"pdf
+OK other > click most recent ""EO COVID-19 REPORT"" > ""Cumulative Reported Testing Numbers*""(p. 2) > ""Total Negative Specimens""",,,,"OK primary > ""OSDH Disease Investigation Summary"" > ""OK Cases""
+
+note: OK provides both OSDH and CDC numbers on their main dash, use OSDH",WS2 > Negative Tests (PCR),"pdf
 OK other > click most recent ""EO COVID-19 REPORT"" > ""Daily Reported Testing Numbers*""(p. 2) >  ""Number of Specimens Currently Pending""","pdf
 OK other > click most recent ""EO COVID-19 REPORT"" > title ""Reported Hospital Status*""(p. 2) > ""COVID-19 Cases Currently Hospitalized""
 
@@ -2046,7 +2048,9 @@ note: screenshot this graph, hovering over the most recent day
 screenshot: https://internal.covidtracking.com/screenshot?state=OK&datatype=taco&subtype=primary-source","pdf
 OK other > click most recent ""EO COVID-19 REPORT"" > table ""Reported Hospital Status"" > row ""COVID-19 Cases Currently Hospitalized"" > ""([number] in ICU)""
 
-note: only use the numbers from inside the parenthesis",,,,,"OK primary > ""OK Recovered""","OK primary > ""OK Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://oklahoma.gov/covid19.html,OK
+note: only use the numbers from inside the parenthesis",,,,,"OK primary > ""OK Recovered""","OK primary > ""OSDH Disease Investigation Summary"" > ""OK Deaths""
+
+note: OK provides both OSDH and CDC numbers on their main dash, use OSDH",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://oklahoma.gov/covid19.html,OK
 OR,Oregon,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/CaseandTesting,https://govstatus.egov.com/OR-OHA-COVID-19,https://www.twitter.com/OHAOregon,https://www.oregon.gov/oha/erd/pages/covid-19-news.aspx,,https://public.tableau.com/profile/oregon.health.authority.covid.19#!/vizhome/OregonCOVID-19Update/HospitalCapacity,,"As of January 13, 2021, Oregon’s data is on a 1 day lag in our timeseries due to consistently updating after 7:30 pm Eastern Time, when we publish our daily update.
 
 On February 8, 2021, we cleared the history of our confirmed and probable cases fields in Oregon. Before Oregon switched to reporting tests in units of specimens, we had used its figures for people testing positive to represent confirmed cases and subtracted that number from total cases to get probable cases. However, it turned out that Oregon's people tested figure included people testing positive with antigen, so the positive people tested figure did not accurately reflect confirmed cases.
