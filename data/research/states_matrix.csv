@@ -483,7 +483,8 @@ FL primary > link ""See Serology Report"" > title ""Summary"" > ""Positive""","p
 FL primary > link ""See Serology Report"" > title ""Summary"" > ""Negative""","pdf
 FL primary > link See Serology Report > title Weekly SARS-CoV-2 IgG... (first of two titles) > ""Total""","pdf
 FL primary > link ""See Serology Report"" > title ""Weekly SARS-CoV-2 IgG..."" (first of two titles) > ""Positive""","pdf
-FL primary > link ""See Serology Report"" > title ""Weekly SARS-CoV-2 IgG..."" (first of two titles) > ""Negative""","FL query > link ""PCR Test Encounters"" > ""pcr_encounters""","PDF
+FL primary > link ""See Serology Report"" > title ""Weekly SARS-CoV-2 IgG..."" (first of two titles) > ""Negative""","calculated:
+FL query > link ""PCR Test Encounters"" > {pcr_encounters_neg + pcr_encounters_pos}","PDF
 FL primary >  link ""See State Report"" > table ""COVID-19: testing by laboratory"" > column ""Total"" > row ""Total""
 
 note: go to the end of the pdf and scroll back for totals","PDF
@@ -757,7 +758,7 @@ As of October 15, 2020, Illinois combines PCR and antigen tests in the total tes
 
 On September 4, 2020, Illinois reported over 140,000 new **Total PCR tests (in specimens)** and over 5,000 new **Cases.** According to the [Chicago Tribune](https://www.chicagotribune.com/coronavirus/ct-covid-19-pandemic-chicago-illinois-news-20200904-qun7unon5fhjbfhnsml4edwqia-story.html), ""The Illinois Department of Public Health said Friday there was significant slowdown in the agency's test reporting earlier this week that it is just catching up with."" ",#REF!,FALSE,,,,"IL primary > ""Information to be updated daily"" 
 
-today's date / 0:00",,,,,,,,,,,,,,IL avocado > n/a > totalTestsViral,,,,,,IL avocado > specimen collection > positive,"calculated:
+today's date / 0:00",,,,IL avocado > n/a > totalTestsAntigen,,,,,,,,,,IL avocado > n/a > totalTestsViral,,,,,,IL avocado > specimen collection > positive,"calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"IL other > click link ""Statewide Hospital Statistics1"" > title ""COVID-19 Patients"" > ""Total COVID + PUI in Hospital""
 
 note: statewide Hospital Statistics1 located at the bottom of the page below the hover-over graphs
@@ -1082,7 +1083,7 @@ MD other link > scroll to most recent column > row 3
 note: this number is updated weekly (wednesday). if this metric does not update, leave the previous value in the cell
 note: the column names will be formated like this:  d_10_14_2020. Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MD avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
 
-. Negative Tests (PCR) – . Positive Cases (PCR) – MD avocado > Report > positive. Probable Cases – . Total PCR Tests (People) – calculated:
+. Negative Tests (PCR) – . Positive Cases (PCR) – MD dash > ""Confirmed Cases"". Probable Cases – . Total PCR Tests (People) – calculated:
 MD dash > {Confirmed Cases  +  Persons Tested Negative}. Positive Cases (People, confirmed + probable) – MD avocado > Report > positive. Negative (People or Cases) – MD dash > ""Persons Tested Negative"". Pending – . Currently 
 Hospitalized – MD dash > ""Currently Hospitalized"". Cumulative Hospitalized – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized "" note: this is a section below the dashboard.. Currently
 in ICU – MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
@@ -1111,7 +1112,7 @@ MD other link > scroll to most recent column > row 3
 note: this number is updated weekly (wednesday). if this metric does not update, leave the previous value in the cell
 note: the column names will be formated like this:  d_10_14_2020",,,,,MD avocado > Specimen Collection > totalTestsViral,"MD query > click ""PCR Testing and positives"" > ""total_number_of_positives""
 
-",,MD avocado > Report > positive,,"calculated:
+",,"MD dash > ""Confirmed Cases""",,"calculated:
 MD dash > {Confirmed Cases  +  Persons Tested Negative}",MD avocado > Report > positive,"MD dash > ""Persons Tested Negative""",,"MD dash > ""Currently Hospitalized""","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Ever hospitalized "" note: this is a section below the dashboard.","MD dash > title ""COVID-19 Statistics in Maryland"" > ""Intensive care ""
 
 note: this is a section below the dashboard.",,,,,"MD dash > title ""COVID-19 Statistics in Maryland"" > ""Released from isolation"" 
@@ -1430,7 +1431,7 @@ As of May 23, 2020, Mississippi is separating out PCR and antibody tests. We now
 ""as of"" date / 0:00
 
 ",,,,"updates: weekly
-MS primary > title ""COVID-19 Testing"" > table > column ""Antigen"" > row ""Total tests for COVID-19 statewide""
+MS primary > title ""COVID-19 Testing"" > table > column ""Antigen tests"" > second column ""XXX,XXX""
 
 note: if this metric does not update, leave the previous value in the cell
 ",,,,,,"updates: weekly
@@ -1438,7 +1439,7 @@ MS primary > title ""COVID-19 Testing"" > table > column ""Antibody"" > row ""To
 
 note: if this metric does not update, leave the previous value in the cell
 ",,,,"updates: weekly
-MS primary > title ""COVID-19 Testing"" > table > column ""PCR"" > row ""Total tests for COVID-19 statewide""
+MS primary > title ""COVID-19 Testing"" > table > row ""PCR tests"" > second column ""X,XXX,XXX""
 
 note: if this metric does not update, leave the previous value in the cell
 ",,,"MS primary > title ""Case Classifications"" > table > column ""Confirmed"" > row ""Cases""","MS primary > title ""Case Classifications"" > table > column ""Probable"" > row ""Cases""",,"MS primary > title ""Case Classifications"" > table > column ""Total"" > row ""Cases""","updates: weekly
@@ -1820,12 +1821,12 @@ Hospitalized – NM dash > ""Current Hospitalizations"". Cumulative Hospitalized
 in ICU – . Cumulative
 in ICU – . Currently 
 on Ventilator – . Cumulative 
-on Ventilator – . Hospital Discharges – . Recovered – NM dash > ""Total Recovered"". Deaths (confirmed and probable) – NM avocado > report > positive. ",,,,,"NM dash > ""Last Updated""
+on Ventilator – . Hospital Discharges – . Recovered – NM dash > ""Total Recovered"". Deaths (confirmed and probable) – NM avocado > report > death. ",,,,,"NM dash > ""Last Updated""
 
 above date / above time (see note below)
 
 note: the time is presented in the viewer's local time (your timezone), but it needs to be entered into the spreadsheet as Mountain Time. If you are in ET subtract 2 hours. If you are in CT subtract 1 hour. If you are in PT add 1 hour. ",,,,,,,,,,,,,,NM avocado > report > totalTestsViral,,,,,,NM avocado > report > positive,"calculated:
-WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"NM dash > ""Current Hospitalizations""","NM dash > ""Total Hospitalizations""",,,,,,"NM dash > ""Total Recovered""",NM avocado > report > positive,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://cv.nmhealth.org/,NM
+WS2 > {Total Tests (PCR) - Positive Cases (People, confirmed + probable)}",,"NM dash > ""Current Hospitalizations""","NM dash > ""Total Hospitalizations""",,,,,,"NM dash > ""Total Recovered""",NM avocado > report > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://cv.nmhealth.org/,NM
 NV,Nevada,https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9,http://dpbh.nv.gov/coronavirus/,https://www.twitter.com/dhhsnevada,,,,,"The Nevada Department of Health and Human Services states that due to testing performed on environmental samples, the number of Total PCR Tests (test encounters) reported is higher than the number of test encounters including only tests performed on people.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (people)**.
@@ -1840,7 +1841,7 @@ On October 15, 2020, Nevada stopped reporting the number of unique people who te
 
 On October 15, 2020, Nevada stopped reporting **Total PCR tests (specimens)** and began reporting **Total PCR tests (test encounters)**. Due to this we cannot continue reporting **Total PCR tests (specimens)**, however the time series for the specimens metric is available in the historical data, and our data downloads. ","Local Time – NV dash > ""Data as of...""
 
-above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NV avocado > Specimen Collection > totalTestEncountersViral. Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NV avocado > Specimen Collection > positiveCasesViral. Probable Cases – . Total PCR Tests (People) – NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested"". Positive Cases (People, confirmed + probable) – NV avocado > Specimen Collection > totalTestEncountersViral. Negative (People or Cases) – calculated:
+above date / 0:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – NV avocado > Specimen Collection > totalTestEncountersViral. Total Tests (PCR) – . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NV avocado > Specimen Collection > positiveCasesViral. Probable Cases – . Total PCR Tests (People) – NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested"". Positive Cases (People, confirmed + probable) – . Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People)  - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – NV dash > tab ""Current Status"" > button ""Hospitalizations"" > ""Confirmed and Suspected Hospitalizations"" 
 
@@ -1857,7 +1858,7 @@ note: this figure does not update on Sunday; if this metric does not update, lea
 note: the most current data may be dated the previous day, that's expected. Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – NV avocado > Death > death. ",,,,,"NV dash > ""Data as of...""
 
-above date / 0:00",,,,,,,,,,,,,NV avocado > Specimen Collection > totalTestEncountersViral,,,,NV avocado > Specimen Collection > positiveCasesViral,,"NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested""",NV avocado > Specimen Collection > totalTestEncountersViral,"calculated:
+above date / 0:00",,,,,,,,,,,,,NV avocado > Specimen Collection > totalTestEncountersViral,,,,NV avocado > Specimen Collection > positiveCasesViral,,"NV dash > tab ""Trends"" > button ""Testing"" > ""People Tested""",,"calculated:
 WS2 > {Total PCR Tests (People)  - Positive Cases (PCR)}",,"NV dash > tab ""Current Status"" > button ""Hospitalizations"" > ""Confirmed and Suspected Hospitalizations"" 
 
 note: this figure does not update on Sunday; when this metric does not update, leave the previous value 
@@ -2181,7 +2182,7 @@ in ICU – PR query > ""T_Pacientes_Int_Covid:"". Cumulative
 in ICU – . Currently 
 on Ventilator – PR query > ""T_Vent_Covid"". Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – updates: weekly, usually Mondays
-PR dash > top right box > click arrow until you find > ""Convalecientes"". Deaths (confirmed and probable) – PR dash > ""Total Muertes por COVID-19/ Acumuladas"". ",,,,,"PR primary > ""Datos al…""
+PR dash > top right box > click arrow until you find > ""Convalecientes"". Deaths (confirmed and probable) – PR dash > ""MUERTES ADICIONALES"" > ""Acumulados"". ",,,,,"PR primary > ""Datos al…""
 
 above date / 0:00
 
@@ -2191,7 +2192,7 @@ current day / 0:00
 
 note: do not use the ""Útilima actualization..."" date on dash.",,,,,,,,,,,"PR dash > ""Total casos sospechosos""",,,updates: never,updates: never,updates: never,"PR dash > tab ""Estadísticas"" > ""CASOS CONFIRMADOS"" > ""ACUMULADO""","PR dash > tab ""Estadísticas"" > ""CASOS PROBABLES"" > ""ACUMULADO""",,"calculated:
 WS3 > {Probable Cases + Positive Cases (PCR)}",updates: never,,"PR dash > ""Hospitalizados por COVID-19""",,"PR query > ""T_Pacientes_Int_Covid:""",,"PR query > ""T_Vent_Covid""",,,"updates: weekly, usually Mondays
-PR dash > top right box > click arrow until you find > ""Convalecientes""","PR dash > ""Total Muertes por COVID-19/ Acumuladas""","PDF
+PR dash > top right box > click arrow until you find > ""Convalecientes""","PR dash > ""MUERTES ADICIONALES"" > ""Acumulados""","PDF
 PR other > most recent ""Informe Casos Positivos COVID-19..."" > Muertes confirmadas","PDF
 PR other > most recent ""Informe Casos Positivos COVID-19..."" > Muertes probables",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,http://www.salud.gov.pr/Pages/coronavirus.aspx,PR
 RI,Rhode Island,,https://ri-department-of-health-covid-19-data-rihealth.hub.arcgis.com/,https://www.twitter.com/rihealth,,,https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583,,"Rhode Island combines PCR and antigen tests in the total tests figure reported on the state's dashboard.
@@ -2496,7 +2497,7 @@ UT other > table ""COVID-19 Hospital Survey Data"" > {""Number of patients curre
 in ICU – UT other link > table ""COVID-19 Hospital Survey Data"" > ""Number of patients in ICU for confirmed COVID-19"". Cumulative
 in ICU – UT other link > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""ICU Admissions"" > column ""Case Count"" > row ""Yes"". Currently 
 on Ventilator – . Cumulative 
-on Ventilator – UT other > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""Intubated/Ventilator Use"" > column ""Case Count"" > row ""Yes"". Hospital Discharges – . Recovered – UT dash > graph ""Cumulative COVID-19 Cases with Estimated Recoveries"" > hover over the furthest right green bar > ""Cumulative Estimated Recovered"". Deaths (confirmed and probable) – UT dash > ""Total COVID-19 Deaths"". ",,,,,"UT dash > ""Data for this report were accessed on…""
+on Ventilator – UT other > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""Intubated/Ventilator Use"" > column ""Case Count"" > row ""Yes"". Hospital Discharges – . Recovered – UT dash > graph ""Cumulative COVID-19 Cases with Estimated Recoveries"" > hover over the furthest right green bar > ""Cumulative Estimated Recovered"". Deaths (confirmed and probable) – UT avocado > Death > death. ",,,,,"UT dash > ""Data for this report were accessed on…""
 
 above date / above time
 
@@ -2554,7 +2555,7 @@ long calculation > hover over ""# UT Antigen"" > click play button > title ""Met
 
 note: do not use the metrics for tests 
 note: link to long calculation is in cell E2 of WS2",,"calculated:
-UT other > table ""COVID-19 Hospital Survey Data"" > {""Number of patients currently hospitalized for confirmed COVID-19"" + ""Patients currently hospitalized as suspect COVID-19""}","UT other link > table ""Hospitalization Summary Statistics"" > ""Total Hospitalizations""","UT other link > table ""COVID-19 Hospital Survey Data"" > ""Number of patients in ICU for confirmed COVID-19""","UT other link > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""ICU Admissions"" > column ""Case Count"" > row ""Yes""",,"UT other > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""Intubated/Ventilator Use"" > column ""Case Count"" > row ""Yes""",,"UT dash > graph ""Cumulative COVID-19 Cases with Estimated Recoveries"" > hover over the furthest right green bar > ""Cumulative Estimated Recovered""","UT dash > ""Total COVID-19 Deaths""",,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.utah.gov/case-counts/,UT
+UT other > table ""COVID-19 Hospital Survey Data"" > {""Number of patients currently hospitalized for confirmed COVID-19"" + ""Patients currently hospitalized as suspect COVID-19""}","UT other link > table ""Hospitalization Summary Statistics"" > ""Total Hospitalizations""","UT other link > table ""COVID-19 Hospital Survey Data"" > ""Number of patients in ICU for confirmed COVID-19""","UT other link > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""ICU Admissions"" > column ""Case Count"" > row ""Yes""",,"UT other > title ""Level of Care Required for Patients Who Have Been Hospitalized with COVID-19"" > table ""Intubated/Ventilator Use"" > column ""Case Count"" > row ""Yes""",,"UT dash > graph ""Cumulative COVID-19 Cases with Estimated Recoveries"" > hover over the furthest right green bar > ""Cumulative Estimated Recovered""",UT avocado > Death > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.utah.gov/case-counts/,UT
 VA,Virginia,https://www.vdh.virginia.gov/coronavirus/covid-19-in-virginia/,https://www.vdh.virginia.gov/coronavirus/,https://www.twitter.com/vdhgov,,https://data.virginia.gov/resource/3u5k-c2gr.json?%24query=select+sum%28number_of_pcr_testing%29+as+pcr_testing%2C+sum%28number_of_positive_pcr_testing%29+as+pos_pcr_testing%2C+sum%28number_of_antibody_testing_encounters%29+as+antibody_total%2C+sum%28number_of_positive_antibody_testing_encounters%29+as+antibody_pos%2C+sum%28number_of_positive_antigen_testing_encounters%29+as+antigen_pos%2C+sum%28number_of_antigen_testing_encounters%29+as+antigen_total,https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/,,"The **Recovered** data point we report for Virginia reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
 On February 22, 2021 through March 1, 2021, Virginia announced that the Virginia Department of Health was processing 2021 death certificates resulting from a “post-holiday surge of COVID-19 cases”. As a result, new deaths from this time period may be larger than usual. We urge caution when interpreting data from this period, and encourage the use of 7 and 14-day averages as more reliable metrics.
