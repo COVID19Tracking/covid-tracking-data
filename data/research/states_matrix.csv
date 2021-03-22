@@ -323,7 +323,7 @@ screenshot: https://internal.covidtracking.com/screenshot?state=CO&datatype=taco
 
 note: scroll beneath dashboard for toggle","CO primary > toggle button ""Case Summary Snapshot"" > ""Probable cases""
 
-note: scroll beneath dashboard for toggle","CO primary > ""People Tested""",CO avocado > report > positive,"calculated:
+note: scroll beneath dashboard for toggle","CO primary > ""People Tested""",CO avocado > dashboard > positive,"calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"calculated: 
 CO primary > scroll beneath dashboard and toggle dark blue rectangle labeled ""Hospital Data Snapshot"" > {Number of patients currently hospitalized for confirmed COVID-19 + Patients currently hospitalized as COVID-19 persons under investigation}
 
@@ -2260,10 +2260,10 @@ On July 18, 2020, South Carolina announced it was transitioning to new reporting
 
 As of June 11, 2020, South Carolina reports PCR tests separately from antibody tests. Total test numbers were reduced by around 22,000 as a result of this change. ","Local Time – SC primary > ""As of ...""
 
-above date / time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Grand Total"" > row ""Antigen"". Positive Antigen Tests – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Positive"" > row ""Antigen"". Negative Antigen Tests – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Negative"" > row ""Antigen"". Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed""> column ""Grand Total"" > row ""Antibody (Serology)""
+above date / time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – SC primary > tab ""Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Grand Total"" > row ""Antigen"". Positive Antigen Tests – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Positive"" > row ""Antigen"". Negative Antigen Tests – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Negative"" > row ""Antigen"". Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed""> column ""Grand Total"" > row ""Antibody (Serology)""
 . Positive Antibody Tests – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Positive"" > row ""Antibody (Serology)""
 . Negative Antibody Tests – SC primary > tab go to Testing > table Type of COVID-19 Tests Being Performed > column Negative > row ""Antibody (Serology)""
-. Total Test Encounters (PCR) – . Total Tests (PCR) – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Grand Total"" > row ""Viral (molecular)""
+. Total Test Encounters (PCR) – . Total Tests (PCR) – SC primary > tab ""Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Grand Total"" > row ""Viral (molecular)""
 . Positive Tests (PCR) – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Positive"" > row ""Viral (molecular)""\. Negative Tests (PCR) – SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Negative"" > row ""Viral (molecular)"". Positive Cases (PCR) – SC dash > title ""Total Positive Cases"" > ""Confirmed"". Probable Cases – SC dash > title ""Total Positive Cases"" > ""Probable"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
 SC dash > Total Positive Cases > {Confirmed + Probable}. Negative (People or Cases) – calculated: 
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}. Pending – . Currently 
@@ -2280,10 +2280,10 @@ note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – calculated:
 SC dash > title ""Deaths in Individuals with COVID-19 infection"" > {Confirmed + Probable}. ",,,,,"SC primary > ""As of ...""
 
-above date / time",,,,"SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Grand Total"" > row ""Antigen""","SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Positive"" > row ""Antigen""","SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Negative"" > row ""Antigen""",,,,"SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed""> column ""Grand Total"" > row ""Antibody (Serology)""
+above date / time",,,,"SC primary > tab ""Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Grand Total"" > row ""Antigen""","SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Positive"" > row ""Antigen""","SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Negative"" > row ""Antigen""",,,,"SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed""> column ""Grand Total"" > row ""Antibody (Serology)""
 ","SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Positive"" > row ""Antibody (Serology)""
 ","SC primary > tab go to Testing > table Type of COVID-19 Tests Being Performed > column Negative > row ""Antibody (Serology)""
-",,"SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Grand Total"" > row ""Viral (molecular)""
+",,"SC primary > tab ""Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Grand Total"" > row ""Viral (molecular)""
 ","SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"">  column ""Positive"" > row ""Viral (molecular)""\","SC primary > tab ""go to Testing"" > table ""Type of COVID-19 Tests Being Performed"" > column ""Negative"" > row ""Viral (molecular)""","SC dash > title ""Total Positive Cases"" > ""Confirmed""","SC dash > title ""Total Positive Cases"" > ""Probable""",,"calculated:
 SC dash > Total Positive Cases > {Confirmed + Probable}","calculated: 
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"SC other > ""COVID-19 patients hospitalized:""","SC primary > ""Hospitalizations All""","SC other > ""COVID patients in ICU:""",,"SC other > ""COVID patients ventilated:""",,,"calculated:
