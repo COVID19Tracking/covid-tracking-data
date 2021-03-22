@@ -992,17 +992,17 @@ This formula sums daily positive antibody tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Weekly link"" > ""Positive Tests ""
 
 note: if this metric does not update, leave the previous value in the cell
-note: long calculation link can be found in cell E2 of WS2. Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MA avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – long calculation
+note: long calculation link can be found in cell E2 of WS2. Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MA avocado > specimen collection > totalTestsViral. Positive Tests (PCR) – long calculation
 This formula sums daily positive PCR tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Download link"" > ""All Positive Molecular Tests""
 
-note: long calculation link can be found in cell E2 of WS2. Negative Tests (PCR) – . Positive Cases (PCR) – MA avocado > Specimen Collection > positiveCasesViral. Probable Cases – MA avocado > Specimen Collection > probableCases
+note: long calculation link can be found in cell E2 of WS2. Negative Tests (PCR) – . Positive Cases (PCR) – MA avocado > specimen collection > positiveCasesViral. Probable Cases – MA avocado > specimen collection > probableCases
 . Total PCR Tests (People) – long calculation
 This formula sums the timeseries of new PCR tests (people) to get a cumulative number. 
 long calculation > hover over ""# MA"" > click play button > title ""Download link"" > ""PCR Total People""
 
 note: long calculation link can be found in cell E2 of WS2. Positive Cases (People, confirmed + probable) – calculated: 
-WS3 {Positive Cases (PCR) + Probable Cases}. Negative (People or Cases) – calculated:
+MA avocado > {positiveCasesViral + probableCases}. Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""Hospitalizations"" > ""There are XXX patients hospitalized for COVID"". Cumulative Hospitalized – updated: thursday
 long calculation
@@ -1019,7 +1019,7 @@ MA primary > link ""Weekly COVID-19 Public Health Report"" > pg. title ""Massach
 
 note: if this metric does not update, leave the previous value in the cell
 . Deaths (confirmed and probable) – calculated:
-WS3 > {Deaths (confirmed) + Deaths (probable)}. ",,,,,"MA primary > title ""COVID-19 Interactive Data Dashboard"" > ""Data as of:""
+MA avocado > {deathConfirmed + deathProbable}. ",,,,,"MA primary > title ""COVID-19 Interactive Data Dashboard"" > ""Data as of:""
 
 date from above / 23:59pm
 
@@ -1035,17 +1035,17 @@ This formula sums daily positive antibody tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Weekly link"" > ""Positive Tests ""
 
 note: if this metric does not update, leave the previous value in the cell
-note: long calculation link can be found in cell E2 of WS2",,,,,,MA avocado > Specimen Collection > totalTestsViral,"long calculation
+note: long calculation link can be found in cell E2 of WS2",,,,,,MA avocado > specimen collection > totalTestsViral,"long calculation
 This formula sums daily positive PCR tests to get a cumulative number.
 long calculation > hover over ""# MA"" > click play button > title ""Download link"" > ""All Positive Molecular Tests""
 
-note: long calculation link can be found in cell E2 of WS2",,MA avocado > Specimen Collection > positiveCasesViral,"MA avocado > Specimen Collection > probableCases
+note: long calculation link can be found in cell E2 of WS2",,MA avocado > specimen collection > positiveCasesViral,"MA avocado > specimen collection > probableCases
 ","long calculation
 This formula sums the timeseries of new PCR tests (people) to get a cumulative number. 
 long calculation > hover over ""# MA"" > click play button > title ""Download link"" > ""PCR Total People""
 
 note: long calculation link can be found in cell E2 of WS2","calculated: 
-WS3 {Positive Cases (PCR) + Probable Cases}","calculated:
+MA avocado > {positiveCasesViral + probableCases}","calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"MA primary > button ""Today's Overview"" > title ""Hospitalizations"" > ""Hospitalizations"" > ""There are XXX patients hospitalized for COVID""","updated: thursday
 long calculation
 This formula sums the weekly breakdown by race of ever hospitalized to get a cumulative number. 
@@ -1057,7 +1057,7 @@ MA primary > link ""Weekly COVID-19 Public Health Report"" > pg. title ""Massach
 
 note: if this metric does not update, leave the previous value in the cell
 ","calculated:
-WS3 > {Deaths (confirmed) + Deaths (probable)}",MA avocado > Death > deathConfirmed,MA avocado > Death > deathProbable,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,MA
+MA avocado > {deathConfirmed + deathProbable}",MA avocado > death > deathConfirmed,MA avocado > death > deathProbable,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring,MA
 MD,Maryland,https://coronavirus.maryland.gov/,https://governor.maryland.gov/coronavirus/,https://www.twitter.com/MDHealthDept,https://governor.maryland.gov/coronavirus/,http://turnips.covidtracking.com/#MD,https://coronavirus.maryland.gov/datasets/mdcovid19-serologytests/data,,"As of October 16, 2020, Maryland’s total test results are drawn from our totalTestsViral field instead of calculated via positive+negative. This will result in TotalTestResults only going back to 3/24 instead of 3/5.
 
 On August 31, 2020, we updated Maryland's **Total PCR tests (specimens)** and **Positive PCR tests (specimens)**  prior to 8/16 to match state-provided ""Testing Volume"" data.
@@ -1734,14 +1734,10 @@ On July 16, 2020, New Jersey's **Recovered** figure decreased.
 
 On May 16, 2020, a backfill effort by New Jersey caused the state's data for **Recovered** to rise by approximately 7,000 people. ","Local Time – NH primary > ""data updated as of...""
 
-above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – NH avocado > Test Result > totalTestsAntigen. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – NH primary > ""Total Persons Tested at Select Laboratories, Antibody Laboratory Tests"". Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – NH other > tab ""Testing"" > button ""Antibody"" > dropdown ""Show last 7 days"" > select ""Show All Historical Data"" > ""Total Tests All Historical Data""
+above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – NH avocado > test result > totalTestsAntigen. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – NH primary > ""Total Persons Tested at Select Laboratories, Antibody Laboratory Tests"". Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – NH other > tab ""Testing"" > button ""Antibody"" > dropdown ""Show last 7 days"" > select ""Show All Historical Data"" > ""Total Tests All Historical Data""
 
 note: please take a screenshot after you have changed the button and dropdown
-screenshot: https://internal.covidtracking.com/screenshot?state=NH&datatype=taco&subtype=other-source. Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NH avocado > Test Result > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NH dash > table ""Test Type"" > row ""PCR Positive"" > column ""Infections - Persons""
-
-note: it's about 2/3rds down the page in the first column . Probable Cases – NH dash > table ""Test Type"" > row ""Antigen Positive"" > column ""Infections - Persons""
-
-note: it's about 2/3rds down the page in the first column . Total PCR Tests (People) – NH primary > ""Total Persons Tested at Selected Laboratories, Polymerase Chain Reaction (PCR)"". Positive Cases (People, confirmed + probable) – NH primary > ""Number of Persons with COVID-19"". Negative (People or Cases) – calculated:
+screenshot: https://internal.covidtracking.com/screenshot?state=NH&datatype=taco&subtype=other-source. Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – NH avocado > test result > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – NH avocado > report > positiveCasesViral. Probable Cases – NH avocado > report > probableCases. Total PCR Tests (People) – NH primary > ""Total Persons Tested at Selected Laboratories, Polymerase Chain Reaction (PCR)"". Positive Cases (People, confirmed + probable) – NH avocado > report > positive. Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – NH primary > ""Current Hospitalizations""
 . Cumulative Hospitalized – NH dash > table ""Hospitalizations"" > ""Cumulative"". Currently
@@ -1750,14 +1746,10 @@ in ICU – NH dash > table ""Intensive Care Unit"" > ""Cumulative"". Currently
 on Ventilator – . Cumulative 
 on Ventilator – . Hospital Discharges – . Recovered – NH primary > ""Recovered"". Deaths (confirmed and probable) – NH avocado > Death > death. ",,,,,"NH primary > ""data updated as of...""
 
-above date / above time",,,,NH avocado > Test Result > totalTestsAntigen,,,"NH primary > ""Total Persons Tested at Select Laboratories, Antibody Laboratory Tests""",,,"NH other > tab ""Testing"" > button ""Antibody"" > dropdown ""Show last 7 days"" > select ""Show All Historical Data"" > ""Total Tests All Historical Data""
+above date / above time",,,,NH avocado > test result > totalTestsAntigen,,,"NH primary > ""Total Persons Tested at Select Laboratories, Antibody Laboratory Tests""",,,"NH other > tab ""Testing"" > button ""Antibody"" > dropdown ""Show last 7 days"" > select ""Show All Historical Data"" > ""Total Tests All Historical Data""
 
 note: please take a screenshot after you have changed the button and dropdown
-screenshot: https://internal.covidtracking.com/screenshot?state=NH&datatype=taco&subtype=other-source",,,,NH avocado > Test Result > totalTestsViral,,,"NH dash > table ""Test Type"" > row ""PCR Positive"" > column ""Infections - Persons""
-
-note: it's about 2/3rds down the page in the first column ","NH dash > table ""Test Type"" > row ""Antigen Positive"" > column ""Infections - Persons""
-
-note: it's about 2/3rds down the page in the first column ","NH primary > ""Total Persons Tested at Selected Laboratories, Polymerase Chain Reaction (PCR)""","NH primary > ""Number of Persons with COVID-19""","calculated:
+screenshot: https://internal.covidtracking.com/screenshot?state=NH&datatype=taco&subtype=other-source",,,,NH avocado > test result > totalTestsViral,,,NH avocado > report > positiveCasesViral,NH avocado > report > probableCases,"NH primary > ""Total Persons Tested at Selected Laboratories, Polymerase Chain Reaction (PCR)""",NH avocado > report > positive,"calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"NH primary > ""Current Hospitalizations""
 ","NH dash > table ""Hospitalizations"" > ""Cumulative""",,"NH dash > table ""Intensive Care Unit"" > ""Cumulative""",,,,"NH primary > ""Recovered""",NH avocado > Death > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://www.dhhs.nh.gov/dphs/cdcs/2019-ncov.htm,NH
 NJ,New Jersey,https://covid19.nj.gov/#live-updates,https://covid19.nj.gov/,https://www.twitter.com/NJDeptofHealth,,https://services7.arcgis.com/Z0rixLlManVefxqY/arcgis/rest/services/PPE_Capacity/FeatureServer/0/query?where=survey_period%3E%3Dtimestamp+%272020-04-27+07%3A00%3A00%27+AND+structure_measure_identifier+LIKE+%27%25ischarge%25Excluding+Deaths%25%27&outStatistics=%5B%7B%27statisticType%27%3A+%27sum%27%2C+%27onStatisticField%27%3A+%27Value%27%2C+%27outStatisticFieldName%27%3A+%27recoveries%27%7D%5D,,,,"Local Time – NJ dash > ""Updated:""
