@@ -591,7 +591,7 @@ As of August 5, 2020, we are collecting **Now hospitalized**, **Now in ICU**, an
 This formula presents the update time in the correct time zone.
 long calculation > hover over ""# HI PCR Test Encounters"" > click play button > ""Update time:"" 
 
-above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – HI primary > ""Total COVID-19 Tests"". Total Tests (PCR) – HI avocado > n/a > totalTestsViral. Positive Tests (PCR) – HI primary > ""Total COVID-19 Tests"" > ""XXXXX total number of positive tests"". Negative Tests (PCR) – . Positive Cases (PCR) – HI primary > ""Confirmed Cases"". Probable Cases – updates: weekly
+above date / above time. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – HI avocado > n/a > totalTestEncountersViral. Total Tests (PCR) – . Positive Tests (PCR) – HI primary > ""Total COVID-19 Tests"" > ""XXXXX total number of positive tests"". Negative Tests (PCR) – . Positive Cases (PCR) – HI primary > ""Confirmed Cases"". Probable Cases – updates: weekly
 calculated:
 HI site > click link ""Probable Cases"" > title ""Hawaii COVID-19 Probable Cases"" > { Sum of ""Total Probable Cases"" column}
 
@@ -617,7 +617,7 @@ on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed 
 This formula presents the update time in the correct time zone.
 long calculation > hover over ""# HI PCR Test Encounters"" > click play button > ""Update time:"" 
 
-above date / above time",,,,,,,,,,,,,"HI primary > ""Total COVID-19 Tests""",HI avocado > n/a > totalTestsViral,"HI primary > ""Total COVID-19 Tests"" > ""XXXXX total number of positive tests""",,"HI primary > ""Confirmed Cases""","updates: weekly
+above date / above time",,,,,,,,,,,,,HI avocado > n/a > totalTestEncountersViral,,"HI primary > ""Total COVID-19 Tests"" > ""XXXXX total number of positive tests""",,"HI primary > ""Confirmed Cases""","updates: weekly
 calculated:
 HI site > click link ""Probable Cases"" > title ""Hawaii COVID-19 Probable Cases"" > { Sum of ""Total Probable Cases"" column}
 
