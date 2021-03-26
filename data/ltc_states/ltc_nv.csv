@@ -1,5 +1,5 @@
 Facility Name,Facility Type,County,Unique Confirmed Cases,Deaths Residents/Patients,Deaths Staff,Attack Rate Residents/Patients,Attack Rate Staff,Confirmed COVID-19 Cases Residents/Patients,Confirmed COVID-19 Cases Staff,Confirmed COVID-19 Cases Imported
-Select all-Assisted Living,Assisted Living,Carson City,2291,243,4,29.07%,22.60%,"1,454",837,64
+Select all-Assisted Living,Assisted Living,Carson City,2291,245,4,29.07%,22.60%,"1,454",837,64
 A HAND OF HOPE,Assisted Living,Clark,2,0,0,50.00%,33.33%,1,1,0
 A SUMMERDALE HOMES @ RIATA,Assisted Living,Washoe,7,0,0,100.00%,0.00%,7,0,0
 ABSOLUTE CIRCLE OF CARE,Assisted Living,Clark,1,0,0,0.00%,33.33%,0,1,0
@@ -47,7 +47,7 @@ FAMILY HOME CARE RHL,Assisted Living,Washoe,11,3,0,100.00%,100.00%,9,2,0
 FERNLEY ESTATES (SENIOR LIVING),Assisted Living,Lyon,28,3,0,31.71%,33.33%,13,15,0
 FIVE STAR SENIOR LIVING,Assisted Living,Washoe,31,0,0,3.28%,25.00%,6,25,4
 FLORENCE SENIOR CARE HOME,Assisted Living,Clark,2,0,0,40.00%,0.00%,2,0,0
-GAYE HAVEN INTERMEDIATE CARE,Assisted Living,Clark,17,2,0,100.00%,11.76%,15,2,0
+GAYE HAVEN INTERMEDIATE CARE,Assisted Living,Clark,17,3,0,100.00%,11.76%,15,2,0
 GENTLE BREEZE CARE HOME,Assisted Living,Clark,1,0,0,12.50%,0.00%,1,0,0
 GENTLE SOULS HOME CARE,Assisted Living,Clark,2,0,0,50.00%,50.00%,1,1,0
 GENTLE SPRING CARE HOME,Assisted Living,Clark,8,3,0,88.89%,0.00%,8,0,0
@@ -124,7 +124,7 @@ SACHELE RESIDENTIAL CARE,Assisted Living,Clark,1,0,1,0.00%,50.00%,0,1,0
 SACHELE SENIOR GUEST HOME,Assisted Living,Clark,1,0,0,14.29%,0.00%,1,0,0
 SAINT ANNE RESIDENTIAL CARE CORP,Assisted Living,Clark,5,3,0,83.33%,0.00%,5,0,0
 SAN VICENTE HOMECARE,Assisted Living,Clark,10,2,0,60.00%,57.14%,6,4,0
-SENIOR RESIDENTIAL CARE,Assisted Living,Clark,4,0,0,33.33%,33.33%,3,1,0
+SENIOR RESIDENTIAL CARE,Assisted Living,Clark,4,1,0,33.33%,33.33%,3,1,0
 SILVER SKY ASSISTED LIVING,Assisted Living,Clark,13,0,0,16.25%,0.00%,13,0,0
 SILVER SKY AT DEER SPRINGS ASSISTED LIVING,Assisted Living,Clark,9,1,0,7.78%,4.88%,7,2,0
 SILVERADO RANCH MEMORY CARE,Assisted Living,Clark,9,0,0,50.00%,57.14%,5,4,0
@@ -154,10 +154,10 @@ WE CARE RESIDENTIAL,Assisted Living,Clark,7,1,0,50.00%,66.67%,3,4,0
 WELBROOK GRAND MONTECITO,Assisted Living,Clark,20,1,0,86.67%,35.00%,13,7,0
 WENTWORTH OF LAS VEGAS,Assisted Living,Clark,41,4,0,22.52%,19.28%,25,16,0
 YSL CARE HOME,Assisted Living,Clark,1,0,0,0.00%,50.00%,0,1,0
-Select all-Skilled Nursing,Skilled Nursing,Carson City,5359,501,11,51.63%,29.42%,"2,943","2,416",556
+Select all-Skilled Nursing,Skilled Nursing,Carson City,5359,503,11,51.63%,29.42%,"2,943","2,416",557
 ADVANCED HEALTH CARE OF HENDERSON,Skilled Nursing,Clark,19,3,0,34.29%,8.97%,12,7,1
 ADVANCED HEALTH CARE OF LAS VEGAS,Skilled Nursing,Clark,28,2,0,25.93%,28.00%,7,21,2
-ADVANCED HEALTH CARE OF PARADISE,Skilled Nursing,Clark,61,3,0,94.74%,30.86%,36,25,17
+ADVANCED HEALTH CARE OF PARADISE,Skilled Nursing,Clark,61,3,0,94.74%,30.86%,36,25,18
 ADVANCED HEALTH CARE OF RENO,Skilled Nursing,Washoe,22,0,0,16.67%,10.00%,7,15,0
 ADVANCED HEALTH CARE OF SUMMERLIN,Skilled Nursing,Clark,45,8,0,78.13%,36.36%,25,20,6
 ALTA SKILLED NURSING AND REHABILITATION CENTER,Skilled Nursing,Washoe,188,15,0,65.73%,36.22%,117,71,20
@@ -204,7 +204,7 @@ PERSHING GENERAL HOSPITAL AND NURSING HOME,Skilled Nursing,Pershing,11,0,0,8.00%
 PREMIER HEALTH AND REHAB,Skilled Nursing,Clark,78,15,0,63.89%,26.67%,46,32,0
 ROSEWOOD REHABILITATION CENTER,Skilled Nursing,Washoe,91,12,0,54.67%,34.48%,41,50,4
 ROYAL SPRINGS HEALTHCARE AND REHAB,Skilled Nursing,Clark,194,8,2,56.88%,21.54%,124,70,80
-SAGE CREEK POST-ACUTE,Skilled Nursing,Clark,44,1,0,54.84%,41.54%,17,27,5
+SAGE CREEK POST-ACUTE,Skilled Nursing,Clark,44,3,0,54.84%,41.54%,17,27,5
 SIERRA RIDGE HEALTH AND WELLNESS SUITES,Skilled Nursing,Washoe,11,0,0,13.79%,13.21%,4,7,0
 SILVER HILLS HEALTH CARE CENTER,Skilled Nursing,Clark,155,14,0,72.52%,35.09%,95,60,49
 SILVER RIDGE HEALTH CARE CENTER,Skilled Nursing,Clark,219,25,0,84.85%,69.03%,112,107,76
