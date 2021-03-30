@@ -2190,3 +2190,35 @@ PCR/amplification  3068900
 
 
 
+Run at:  2021-03-30 17:37:44.277130-04:00 
+
+Metrics for People (from Overview_Number of People Tested by Date_2021-03-30.csv) 
+=================================================================================
+                              Count
+Test Type         Result           
+Antigen by DFA/IF NEGATIVE   360941
+                  POSITIVE    61582
+PCR/amplification NEGATIVE  1634787
+                  POSITIVE   322927
+                     Count
+Test Type                 
+Antigen by DFA/IF   422523
+PCR/amplification  1957714
+
+
+
+Metrics for Tests (from Overview_Total Tests by Date_2021-03-30.csv) 
+====================================================================
+                              Count
+Test Type         Result           
+Antigen by DFA/IF NEGATIVE  1079186
+                  POSITIVE    64241
+PCR/amplification NEGATIVE  2722410
+                  POSITIVE   353494
+                     Count
+Test Type                 
+Antigen by DFA/IF  1143427
+PCR/amplification  3075904
+
+
+
