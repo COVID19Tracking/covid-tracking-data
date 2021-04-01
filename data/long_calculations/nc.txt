@@ -881,3 +881,14 @@ dtype: int64
 
 
 
+Run at:  2021-04-01 05:39:18.262032-04:00 
+
+Measure Names
+Antigen Test                  952299
+Daily Tests Total           11336690
+Molecular Test              10384391
+Positive Test Percentage          29
+dtype: int64
+
+
+
