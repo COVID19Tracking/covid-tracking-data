@@ -18,6 +18,15 @@ jobs:
     
     - name: Download HHS and CDC files
       run: |
+        curl https://healthdata.gov/api/views/6xf2-c3ie/rows.csv?accessType=DOWNLOAD -o data/hhs/reported_hospital_utilization_$(TZ=America/New_York date '+%Y%m%d').csv
+        curl https://healthdata.gov/api/views/g62h-syeh/rows.csv?accessType=DOWNLOAD -o data/hhs/reported_hospital_utilization_timeseries_$(TZ=America/New_York date '+%Y%m%d').csv
+        curl https://healthdata.gov/api/views/j8mb-icvb/rows.csv?accessType=DOWNLOAD -o data/hhs/covid-19_diagnostic_lab_testing_$(TZ=America/New_York date '+%Y%m%d').csv
+        curl https://healthdata.gov/api/views/anag-cw7u/rows.csv?accessType=DOWNLOAD -o data/hhs/reported_hospital_capacity_admissions_facility_level_weekly_average_timeseries_$(TZ=America/New_York date '+%Y%m%d').csv
+
+        curl https://healthdata.gov/api/views/7ctx-gtb7/rows.csv?accessType=DOWNLOAD -o data/hhs/estimated_icu_$(TZ=America/New_York date '+%Y%m%d').csv
+        curl https://healthdata.gov/api/views/jjp9-htie/rows.csv?accessType=DOWNLOAD -o data/hhs/estimated_inpatient_all_$(TZ=America/New_York date '+%Y%m%d').csv
+        curl https://healthdata.gov/api/views/py8k-j5rq/rows.csv?accessType=DOWNLOAD -o data/hhs/estimated_inpatient_covid_$(TZ=America/New_York date '+%Y%m%d').csv
+
         HHS_HOSP_LINK=`curl -k https://legacy.healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state | grep -Eo "https?://\S+?\.csv"`
         HHS_NEW_HOSP_LINK=`curl -k https://legacy.healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries | grep -Eo "https?://\S+?\.csv"`
         HHS_TEST_LINK=`curl -k https://legacy.healthdata.gov/dataset/covid-19-diagnostic-laboratory-testing-pcr-testing-time-series | grep -Eo "https?://\S+?\.csv"`
@@ -34,7 +43,7 @@ jobs:
         curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_ltc_data -o data/cdc_vaccinations_ltc.json
         curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_trends_data -o data/cdc_vaccination_trends.json
         curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_demographics_data -o data/cdc_vaccinations_demographics.json
-        curl https://beta.healthdata.gov/api/views/di4u-7yu6/rows.csv?accessType=DOWNLOAD -o data/hhs/community_profile_counties_$(TZ=America/New_York date '+%Y%m%d').csv
+        curl https://healthdata.gov/api/views/di4u-7yu6/rows.csv?accessType=DOWNLOAD -o data/hhs/community_profile_counties_$(TZ=America/New_York date '+%Y%m%d').csv
         CDC_VARIANT_LINK=`curl -k https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant-cases.html | grep -Eo "/coronavirus.+?\.csv"`
         curl https://www.cdc.gov$CDC_VARIANT_LINK -o data/cdc_variant_cases.csv
         curl "https://data.cdc.gov/api/views/r8kw-7aab/rows.csv?accessType=DOWNLOAD" -o data/cdc_provisional_deaths.csv
