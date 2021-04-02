@@ -694,7 +694,10 @@ note: ID is on a one dag lag, since 5:00 MT is after we publish on most days. To
 ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
 
 note: if this metric does not update, leave the previous value in the cell. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – ID dash > tab ""Laboratory Testing"" > title ""PCR Tests"" >“Tests Performed""
-. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Confirmed Cases"". Probable Cases – ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Probable Cases"". Total PCR Tests (People) – ID dash > tab ""Laboratory Testing"" >  ""Idahoans Tested"". Positive Cases (People, confirmed + probable) – ID dash > tab ""Statewide Cases"" > ""XXX Total Statewide Cases"". Negative (People or Cases) – calculated:
+. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Confirmed Cases""
+
+note: please screenshot with hover
+screenshot: https://internal.covidtracking.com/screenshot?state=ID&datatype=taco&subtype=data-dashboard. Probable Cases – ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Probable Cases"". Total PCR Tests (People) – ID dash > tab ""Laboratory Testing"" >  ""Idahoans Tested"". Positive Cases (People, confirmed + probable) – ID dash > tab ""Statewide Cases"" > ""XXX Total Statewide Cases"". Negative (People or Cases) – calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}. Pending – . Currently 
 Hospitalized – updates: Tuesday, Thursday, Saturday
 
@@ -724,7 +727,10 @@ note: ID is on a one dag lag, since 5:00 MT is after we publish on most days",,,
 ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
 
 note: if this metric does not update, leave the previous value in the cell",,,,,,,,,,"ID dash > tab ""Laboratory Testing"" > title ""PCR Tests"" >“Tests Performed""
-",,,"ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Confirmed Cases""","ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Probable Cases""","ID dash > tab ""Laboratory Testing"" >  ""Idahoans Tested""","ID dash > tab ""Statewide Cases"" > ""XXX Total Statewide Cases""","calculated:
+",,,"ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Confirmed Cases""
+
+note: please screenshot with hover
+screenshot: https://internal.covidtracking.com/screenshot?state=ID&datatype=taco&subtype=data-dashboard","ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Probable Cases""","ID dash > tab ""Laboratory Testing"" >  ""Idahoans Tested""","ID dash > tab ""Statewide Cases"" > ""XXX Total Statewide Cases""","calculated:
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"updates: Tuesday, Thursday, Saturday
 
 ID dash > tab ""Hospitalizations"" > graph ""Patients currently hospitalized in an inpatient bed who have suspected or confirmed COVID-19"" > hover over most recent day for value 
@@ -2828,7 +2834,10 @@ note: long calculation is in cell E2 of WS2",,,,"WV dash > tab ""Overview"" > ""
 
 note: please screenshot this dash and upload below
 screenshot: https://internal.covidtracking.com/screenshot?state=WV&datatype=taco&subtype=data-dashboard",,,"WV dash > click ""Includes Probable and Confirmed Cases (click to view)"" > ""Total Number of Confirmed Cases""","WV dash > click ""Includes Probable and Confirmed Cases (click to view)"" > ""Total Number of Probable Cases""",,"WV dash > tab ""Overview"" > ""Total Number of Cases""","calculated:
-WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"WV dash > tab ""Hospital"" > ""Daily Confirmed Cases Hospitalized""",,"WV dash > tab ""Hospital"" > ""Daily Confirmed Cases ICU""",,"WV dash > tab ""Hospital"" > ""Daily Confirmed Cases Vent""",,,"WV dash > tab ""Other Trends"" > graph ""Recovered Cases and Active Cases"" > mouse over most recent day > ""Recovered""","WV dash > tab ""Overview"" >  ""Deaths""","WV dash > tab ""Overview"" > title ""Deaths"" > click ""Includes Probable and Confirmed Deaths"" > ""Total Number of Confirmed Deaths""","WV dash > tab ""Overview"" > title ""Deaths"" > click ""Includes Probable and Confirmed Deaths"" > ""Total Number of Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,WV
+WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"WV dash > tab ""Hospital"" > ""Daily Confirmed Cases Hospitalized""",,"WV dash > tab ""Hospital"" > ""Daily Confirmed Cases ICU""",,"WV dash > tab ""Hospital"" > ""Daily Confirmed Cases Vent""",,,"WV dash > tab ""Other Trends"" > graph ""Recovered Cases and Active Cases"" > mouse over most recent day > ""Recovered""","WV dash > tab ""Overview"" >  ""Deaths""","WV dash > tab ""Overview"" > title ""Deaths"" > click ""Includes Probable and Confirmed Deaths"" > ""Total Number of Confirmed Deaths""
+
+note: please screenshot after the click so we have the conf/prob breakdown, and upload this screenshot as well
+screenshot: https://internal.covidtracking.com/screenshot?state=WV&datatype=taco&subtype=data-dashboard","WV dash > tab ""Overview"" > title ""Deaths"" > click ""Includes Probable and Confirmed Deaths"" > ""Total Number of Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://dhhr.wv.gov/Coronavirus%20Disease-COVID-19/Pages/default.aspx,WV
 WY,Wyoming,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/covid-19-map-and-statistics/,https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/,https://www.twitter.com/health_wyoming,,,https://sites.google.com/wyo.gov/exec-covid19/hospital-resources,,"As of February 13, 2021, Wyoming does not update their COVID-19 data on Saturdays. Beginning on March 7, 2021, they no longer update their COVID-19 data on Saturdays or Sundays. 
 
 Wyoming’s metrics do not update every day, and don’t always update together. As a result, please exercise extra caution when using numbers that are calculated from daily changes, especially if these calculations use multiple metrics. If anomalies are observed, numbers from previous days will be carried over until corrections are made.
