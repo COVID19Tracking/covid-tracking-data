@@ -1702,3 +1702,23 @@ Antibody Positives
 
 
 
+Run at:  2021-04-04 05:40:10.107429-04:00 
+
+ICU
+22   861.00
+Name: 2021-04-02, dtype: float64
+
+PCR Positives
+2720792
+
+Cases Timestamp (as-of)
+2021-04-03 00:00:00
+
+Antigen Positives
+232757
+
+Antibody Positives
+181651
+
+
+
