@@ -1612,8 +1612,7 @@ On August 19, 2020, North Dakota launched a new dashboard with a number of new d
 yesterday / 23:59. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – long calculation
 This formula sums antigen specimens tested by day and county to get a cumulative number.
 long calculation > hover over ""# ND Testing"" > click play button >  ""Total Ag tests (specimens)""
-
-note: long calculation link can be found in cell E2 of WS2. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – ND primary > title ""Serology Testing"" > ""Total""
+. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – ND primary > title ""Serology Testing"" > ""Total""
 
 note: this metric is updated irregularly
 note: if this metric does not update, leave the previous value in the cell
@@ -1646,8 +1645,7 @@ on Ventilator – . Hospital Discharges – . Recovered – ND primary > column 
 yesterday / 23:59",,,,"long calculation
 This formula sums antigen specimens tested by day and county to get a cumulative number.
 long calculation > hover over ""# ND Testing"" > click play button >  ""Total Ag tests (specimens)""
-
-note: long calculation link can be found in cell E2 of WS2",,,,,,"ND primary > title ""Serology Testing"" > ""Total""
+",,,,,,"ND primary > title ""Serology Testing"" > ""Total""
 
 note: this metric is updated irregularly
 note: if this metric does not update, leave the previous value in the cell
@@ -2458,8 +2456,8 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for tests
 note: link to long calculation is in cell E2 of WS2
-. Total Antigen Tests – calculated:
-UT avocado > Specimen Collection > {""positiveTestsAntigen"" + ""negativeTestsAntigen""}. Positive Antigen Tests – long calculation
+. Total Antigen Tests – long calculation 
+This formula sums daily antigen tests to get a cumulative number. long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for tests"" > title ""TOTAL"" > ""test type :Antigen by DFA/IF"" note: do not use the metrics for people . Positive Antigen Tests – long calculation
 This formula sums daily positive antigen tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type :Antigen by DFA/IF"" > ""Positive""
 
@@ -2471,8 +2469,8 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-. Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – calculated:
-UT avocado > Specimen Collection > {""positiveTestsViral"" + ""negativeTestsViral""}. Positive Tests (PCR) – long calculation
+. Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – long calculation 
+This formula sums daily PCR tests to get a cumulative number. long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for tests"" > title ""TOTAL"" > ""test type :PCR/amplification"" note: do not use the metrics for people . Positive Tests (PCR) – long calculation
 This formula sums daily positive PCR tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type: PCR/amplification"" > ""Positive""
 
@@ -2521,8 +2519,8 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for tests
 note: link to long calculation is in cell E2 of WS2
-","calculated:
-UT avocado > Specimen Collection > {""positiveTestsAntigen"" + ""negativeTestsAntigen""}","long calculation
+","long calculation 
+This formula sums daily antigen tests to get a cumulative number. long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for tests"" > title ""TOTAL"" > ""test type :Antigen by DFA/IF"" note: do not use the metrics for people ","long calculation
 This formula sums daily positive antigen tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type :Antigen by DFA/IF"" > ""Positive""
 
@@ -2534,8 +2532,8 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-",,,,,,,,"calculated:
-UT avocado > Specimen Collection > {""positiveTestsViral"" + ""negativeTestsViral""}","long calculation
+",,,,,,,,"long calculation 
+This formula sums daily PCR tests to get a cumulative number. long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for tests"" > title ""TOTAL"" > ""test type :PCR/amplification"" note: do not use the metrics for people ","long calculation
 This formula sums daily positive PCR tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type: PCR/amplification"" > ""Positive""
 
