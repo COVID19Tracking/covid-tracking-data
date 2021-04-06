@@ -826,3 +826,12 @@ Year Month Day
 
 
 
+Run at:  2021-04-06 17:37:15.616214-04:00 
+
+                     Statistic      Value
+Year Month Day                           
+2021 4     3    Positive Tests    99445.0
+           3       Total Tests  1601862.0
+
+
+
