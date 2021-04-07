@@ -844,3 +844,12 @@ dtype: int64
 
 
 
+Run at:  2021-04-07 17:38:08.164742-04:00 
+
+Link =  https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/PUBLIC_Tests_by_Specimen_Collection.xlsx
+Negative    5696120
+Positive     346344
+dtype: int64
+
+
+
