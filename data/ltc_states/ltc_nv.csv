@@ -1,5 +1,5 @@
 Facility Name,Facility Type,County,Unique Confirmed Cases,Deaths Residents/Patients,Deaths Staff,Attack Rate Residents/Patients,Attack Rate Staff,Confirmed COVID-19 Cases Residents/Patients,Confirmed COVID-19 Cases Staff,Confirmed COVID-19 Cases Imported
-Select all-Assisted Living,Assisted Living,Carson City,2281,245,4,29.07%,22.33%,"1,454",827,37
+Select all-Assisted Living,Assisted Living,Carson City,2281,247,5,29.07%,22.33%,"1,454",827,37
 A HAND OF HOPE,Assisted Living,Clark,2,0,0,50.00%,33.33%,1,1,0
 A SUMMERDALE HOMES @ RIATA,Assisted Living,Washoe,7,0,0,100.00%,0.00%,7,0,0
 ABSOLUTE CIRCLE OF CARE,Assisted Living,Clark,1,0,0,0.00%,33.33%,0,1,0
@@ -41,7 +41,7 @@ DESERT VIEW SENIOR LIVING,Assisted Living,Clark,51,2,0,41.18%,15.79%,42,9,0
 DIGNIFIED MANOR,Assisted Living,Clark,7,3,0,83.33%,50.00%,5,2,0
 DUNCAN MANOR,Assisted Living,Clark,9,0,0,83.33%,66.67%,5,4,0
 EAGLE VALLEY CHILDRENS HOME,Assisted Living,Carson City,43,0,0,70.59%,36.90%,12,31,1
-ELKHORN JONES MEMORY CARE,Assisted Living,Clark,16,0,0,61.90%,13.64%,13,3,0
+ELKHORN JONES MEMORY CARE,Assisted Living,Clark,16,2,1,61.90%,13.64%,13,3,0
 EVERGREEN RESIDENCE,Assisted Living,Washoe,10,2,0,85.71%,100.00%,6,4,0
 FAMILY HOME CARE RHL,Assisted Living,Washoe,11,3,0,100.00%,100.00%,9,2,0
 FERNLEY ESTATES (SENIOR LIVING),Assisted Living,Lyon,28,3,0,31.71%,33.33%,13,15,0
@@ -154,7 +154,7 @@ WE CARE RESIDENTIAL,Assisted Living,Clark,7,1,0,50.00%,66.67%,3,4,0
 WELBROOK GRAND MONTECITO,Assisted Living,Clark,20,1,0,86.67%,35.00%,13,7,0
 WENTWORTH OF LAS VEGAS,Assisted Living,Clark,41,4,0,22.52%,19.28%,25,16,0
 YSL CARE HOME,Assisted Living,Clark,1,0,0,0.00%,50.00%,0,1,0
-Select all-Skilled Nursing,Skilled Nursing,Carson City,5371,503,11,51.77%,29.47%,"2,951","2,420",613
+Select all-Skilled Nursing,Skilled Nursing,Carson City,5373,503,11,51.77%,29.50%,"2,951","2,422",613
 ADVANCED HEALTH CARE OF HENDERSON,Skilled Nursing,Clark,19,3,0,34.29%,8.97%,12,7,1
 ADVANCED HEALTH CARE OF LAS VEGAS,Skilled Nursing,Clark,28,2,0,25.93%,28.00%,7,21,2
 ADVANCED HEALTH CARE OF PARADISE,Skilled Nursing,Clark,61,3,0,94.74%,30.86%,36,25,18
@@ -218,4 +218,4 @@ TRANSITIONAL CARE OF LAS VEGAS,Skilled Nursing,Clark,241,14,1,109.52%,151.47%,13
 TRELLIS CENTENNIAL,Skilled Nursing,Clark,17,0,0,11.76%,17.33%,4,13,1
 WELBROOK AT CENTENNIAL HILLS,Skilled Nursing,Clark,16,0,0,23.53%,13.64%,4,12,0
 WHITE PINE CARE CENTER,Skilled Nursing,White Pine,7,0,0,3.45%,11.54%,1,6,0
-WINGFIELD HILLS HEALTH AND WELLNESS,Skilled Nursing,Washoe,13,1,0,4.60%,9.57%,4,9,1
+WINGFIELD HILLS HEALTH AND WELLNESS,Skilled Nursing,Washoe,15,1,0,4.60%,11.70%,4,11,1
