@@ -2820,3 +2820,17 @@ dtype: float64
 
 
 Encountered an error running at 2021-04-11 05:38:11.555255-04:00
+Run at:  2021-04-11 17:37:51.587708-04:00 
+
+Download link =  https://www.mass.gov/doc/covid-19-raw-data-april-11-2021/download
+PCR Total People
+5298544 
+
+All Positive Molecular Tests                         736389.0
+All Positive Molecular Tests_Higher Ed ONLY           17269.0
+All Positive Molecular Tests_MA without Higher ED    567700.0
+dtype: float64
+
+
+
+Encountered an error running at 2021-04-11 17:37:56.956021-04:00
