@@ -290,7 +290,7 @@ On April 4 and April 22, 2020, California reported large batches of backlogged *
 
 Prior to April 1, 2020, we used county data sources for more reliably timely reporting of California's COVID-19 data. At the start of April, we began reporting primarily from the state data dashboard(s). This led to a modest drop in **cases** and **deaths**, as the state's data lags behind the county sources.",#REF!,,TRUE,,"As of 6/1, an additional 3,481 hospitalized, 618 in the ICU, are listed as ""Suspected COVID-19 cases""","CA primary > ""...with data from… "" > 
 
-yesterday / 23:59",,,,,,,,,,,,,,CA avocado > report > totalTestsViral,,,CA avocado > report > positive,,,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,http://update.covid19.ca.gov/,CA
+yesterday / 23:59",,,,,,,,,,,,,,CA avocado > specimen collection > totalTestsViral,,,CA avocado > report > positive,,,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > positive,CA avocado > report > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,http://update.covid19.ca.gov/,CA
 CO,Colorado,,https://covid19.colorado.gov/data,https://www.twitter.com/cdphe,https://covid19.colorado.gov/news-0,https://turnips.covidtracking.com/#CO,,,"The **Recovered** data point we report for Colorado reflects the number of COVID-19 patients discharged from the hospital and therefore does not represent the total number of people who have recovered from COVID-19, since many people with COVID are never hospitalized.
 
 Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
@@ -317,7 +317,7 @@ On June 14, 2020, Colorado revised previous ""daily discharged"" numbers. This c
 yesterday / 23:59",,,,,,,,,,"CO primary > button ""Tests"" > button ""Antibody Tests"" > button ""Cumulative Tests"" > graph > most recent day > “Antibody Tests Performed”
 
 note: please take a screenshot of this graph, hovering over the most recent day, to capture Total Antibody Tests
-screenshot: https://internal.covidtracking.com/screenshot?state=CO&datatype=taco&subtype=primary-source","CO query > ""Positive serological tests"" > ""antibody_pos""","CO query > ""Negative serological tests"" > ""antibody_neg:""",CO avocado > dashboard > totalTestEncountersViral,,,,"CO primary > toggle button ""Case Summary Snapshot"" > ""Confirmed cases""
+screenshot: https://internal.covidtracking.com/screenshot?state=CO&datatype=taco&subtype=primary-source","CO query > ""Positive serological tests"" > ""antibody_pos""","CO query > ""Negative serological tests"" > ""antibody_neg:""",CO avocado > specimen collection > totalTestEncountersViral,,,,"CO primary > toggle button ""Case Summary Snapshot"" > ""Confirmed cases""
 
 note: scroll beneath dashboard for toggle","CO primary > toggle button ""Case Summary Snapshot"" > ""Probable cases""
 
