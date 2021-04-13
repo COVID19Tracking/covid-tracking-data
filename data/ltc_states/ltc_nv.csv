@@ -1,5 +1,5 @@
 Facility Name,Facility Type,County,Unique Confirmed Cases,Deaths Residents/Patients,Deaths Staff,Attack Rate Residents/Patients,Attack Rate Staff,Confirmed COVID-19 Cases Residents/Patients,Confirmed COVID-19 Cases Staff,Confirmed COVID-19 Cases Imported
-Select all-Assisted Living,Assisted Living,Carson City,2279,247,5,29.03%,22.33%,"1,452",827,37
+Select all-Assisted Living,Assisted Living,Carson City,2279,248,5,29.03%,22.33%,"1,452",827,31
 A HAND OF HOPE,Assisted Living,Clark,2,0,0,50.00%,33.33%,1,1,0
 A SUMMERDALE HOMES @ RIATA,Assisted Living,Washoe,7,0,0,100.00%,0.00%,7,0,0
 ABSOLUTE CIRCLE OF CARE,Assisted Living,Clark,1,0,0,0.00%,33.33%,0,1,0
@@ -94,7 +94,7 @@ MIMI'S CARE HOME,Assisted Living,Clark,7,1,0,80.00%,50.00%,4,3,0
 MONARCH GROUP HOME,Assisted Living,Clark,8,3,0,75.00%,50.00%,6,2,0
 MORNING STAR CARE HOME,Assisted Living,Clark,10,0,0,100.00%,75.00%,7,3,0
 MORNING STAR SENIOR LIVING,Assisted Living,Washoe,44,1,0,10.89%,22.22%,22,22,0
-MOTHER'S TOUCH SENIOR HOME,Assisted Living,Clark,8,1,0,75.00%,40.00%,6,2,6
+MOTHER'S TOUCH SENIOR HOME,Assisted Living,Clark,8,1,0,75.00%,40.00%,6,2,0
 NEURORESTORATIVE NEVADA (MONTE CRISTO),Assisted Living,Clark,1,0,0,16.67%,0.00%,1,0,0
 NOVA ALL STAR CARE HOMES,Assisted Living,Clark,1,0,0,0.00%,20.00%,0,1,0
 OAKEY ASSISTED LIVING,Assisted Living,Clark,19,0,0,25.00%,24.14%,12,7,1
@@ -102,7 +102,7 @@ OAKMONT OF LAS VEGAS,Assisted Living,Clark,26,1,0,13.33%,29.17%,12,14,1
 OAKMONT OF THE LAKES,Assisted Living,Clark,29,6,0,40.00%,6.80%,22,7,0
 PACIFICA SENIOR LIVING GREEN VALLEY,Assisted Living,Clark,38,7,0,28.24%,19.18%,24,14,0
 PACIFICA SENIOR LIVING SAN MARTIN,Assisted Living,Clark,59,9,0,53.76%,12.00%,50,9,0
-PACIFICA SENIOR LIVING SPRING VALLEY,Assisted Living,Clark,39,6,0,56.00%,20.75%,28,11,0
+PACIFICA SENIOR LIVING SPRING VALLEY,Assisted Living,Clark,39,7,0,56.00%,20.75%,28,11,0
 PALM VALLEY ASSISTED LIVING,Assisted Living,Clark,11,0,0,11.11%,0.00%,11,0,0
 PARADISE CREST HOME CARE,Assisted Living,Clark,2,2,0,0.00%,50.00%,0,2,5
 PARADISO HOME,Assisted Living,Clark,4,1,0,22.22%,28.57%,2,2,0
@@ -154,7 +154,7 @@ WE CARE RESIDENTIAL,Assisted Living,Clark,7,1,0,50.00%,66.67%,3,4,0
 WELBROOK GRAND MONTECITO,Assisted Living,Clark,20,1,0,86.67%,35.00%,13,7,0
 WENTWORTH OF LAS VEGAS,Assisted Living,Clark,41,4,0,22.52%,19.28%,25,16,0
 YSL CARE HOME,Assisted Living,Clark,1,0,0,0.00%,50.00%,0,1,0
-Select all-Skilled Nursing,Skilled Nursing,Carson City,5365,504,11,51.60%,29.52%,"2,941","2,424",623
+Select all-Skilled Nursing,Skilled Nursing,Carson City,5363,504,11,51.56%,29.52%,"2,939","2,424",623
 ADVANCED HEALTH CARE OF HENDERSON,Skilled Nursing,Clark,19,3,0,34.29%,8.97%,12,7,1
 ADVANCED HEALTH CARE OF LAS VEGAS,Skilled Nursing,Clark,28,2,0,25.93%,28.00%,7,21,2
 ADVANCED HEALTH CARE OF PARADISE,Skilled Nursing,Clark,61,3,0,94.74%,30.86%,36,25,18
@@ -182,7 +182,7 @@ KINDRED FLAMINGO SNU,Skilled Nursing,Clark,100,1,0,68.66%,32.34%,46,54,1
 LAKE MEAD HEALTH AND REHABILITATION CENTER,Skilled Nursing,Clark,202,19,2,68.22%,14.19%,161,41,12
 LAKESIDE HEALTH & WELLNESS SUITES,Skilled Nursing,Washoe,91,29,1,56.78%,23.76%,67,24,0
 LAS VEGAS POST ACUTE AND REHABILITATION,Skilled Nursing,Clark,72,4,0,47.22%,29.46%,34,38,12
-LAS VENTANAS SNF,Skilled Nursing,Clark,34,6,0,4.75%,7.14%,15,19,24
+LAS VENTANAS SNF,Skilled Nursing,Clark,35,6,0,5.06%,7.14%,16,19,24
 LEFA SERAN SKILLED NURSING FACILITY,Skilled Nursing,Mineral,33,3,0,71.43%,39.13%,15,18,0
 LIFE CARE CENTER OF LAS VEGAS,Skilled Nursing,Clark,53,13,0,30.71%,8.33%,39,14,12
 LIFE CARE CENTER OF RENO,Skilled Nursing,Washoe,82,9,0,43.12%,18.13%,47,35,16
@@ -197,7 +197,7 @@ NEURORESTORATIVE FOR KIDS (CARMEN),Skilled Nursing,Clark,18,0,0,6.06%,16.49%,2,1
 NEURORESTORATIVE NEVADA,Skilled Nursing,Washoe,13,1,0,5.56%,18.46%,1,12,3
 NEVADA STATE VETERANS HOME - BOULDER CITY,Skilled Nursing,Clark,142,16,0,40.96%,32.31%,68,74,10
 NORTH LAS VEGAS CARE CENTER,Skilled Nursing,Clark,145,2,0,56.33%,37.09%,89,56,0
-NORTHERN NEVADA STATE VETERANS HOME,Skilled Nursing,Washoe,59,4,0,21.05%,25.00%,16,43,0
+NORTHERN NEVADA STATE VETERANS HOME,Skilled Nursing,Washoe,56,4,0,17.11%,25.00%,13,43,0
 ORMSBY POST-ACUTE REHAB,Skilled Nursing,Carson City,92,16,1,67.53%,0.00%,52,40,2
 PAHRUMP HEALTH AND REHABILITATION CENTER,Skilled Nursing,Nye,64,8,1,61.43%,20.79%,43,21,5
 PERSHING GENERAL HOSPITAL AND NURSING HOME,Skilled Nursing,Pershing,11,0,0,8.00%,11.25%,2,9,0
