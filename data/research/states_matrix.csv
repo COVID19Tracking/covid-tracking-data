@@ -2177,7 +2177,7 @@ or (if page date is not updated, but dash is)
  
 current day / 0:00
 
-note: do not use the ""Útilima actualization..."" date on dash.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – PR dash > ""Total casos sospechosos"". Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – updates: never. Positive Tests (PCR) – updates: never. Negative Tests (PCR) – updates: never. Positive Cases (PCR) – PR dash > tab ""Estadísticas"" > ""CASOS CONFIRMADOS"" > ""ACUMULADO"". Probable Cases – PR dash > tab ""Estadísticas"" > ""CASOS PROBABLES"" > ""ACUMULADO"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
+note: do not use the ""Útilima actualization..."" date on dash.. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – PR dash > ""Total casos sospechosos"". Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – PR avocado > Specimen Collection > totalTestsViral. Positive Tests (PCR) – updates: never. Negative Tests (PCR) – updates: never. Positive Cases (PCR) – PR dash > tab ""Estadísticas"" > ""CASOS CONFIRMADOS"" > ""ACUMULADO"". Probable Cases – PR dash > tab ""Estadísticas"" > ""CASOS PROBABLES"" > ""ACUMULADO"". Total PCR Tests (People) – . Positive Cases (People, confirmed + probable) – calculated:
 WS3 > {Probable Cases + Positive Cases (PCR)}. Negative (People or Cases) – updates: never. Pending – . Currently 
 Hospitalized – PR dash > ""Hospitalizados por COVID-19"". Cumulative Hospitalized – . Currently
 in ICU – PR query > ""T_Pacientes_Int_Covid:"". Cumulative
@@ -2192,7 +2192,7 @@ or (if page date is not updated, but dash is)
  
 current day / 0:00
 
-note: do not use the ""Útilima actualization..."" date on dash.",,,,,,,,,,,"PR dash > ""Total casos sospechosos""",,,updates: never,updates: never,updates: never,"PR dash > tab ""Estadísticas"" > ""CASOS CONFIRMADOS"" > ""ACUMULADO""","PR dash > tab ""Estadísticas"" > ""CASOS PROBABLES"" > ""ACUMULADO""",,"calculated:
+note: do not use the ""Útilima actualization..."" date on dash.",,,,,,,,,,,"PR dash > ""Total casos sospechosos""",,,PR avocado > Specimen Collection > totalTestsViral,updates: never,updates: never,"PR dash > tab ""Estadísticas"" > ""CASOS CONFIRMADOS"" > ""ACUMULADO""","PR dash > tab ""Estadísticas"" > ""CASOS PROBABLES"" > ""ACUMULADO""",,"calculated:
 WS3 > {Probable Cases + Positive Cases (PCR)}",updates: never,,"PR dash > ""Hospitalizados por COVID-19""",,"PR query > ""T_Pacientes_Int_Covid:""",,"PR query > ""T_Vent_Covid""",,,"updates: weekly, usually Mondays
 PR dash > top right box > click arrow until you find > ""Convalecientes""","PR dash > ""MUERTES ADICIONALES"" > ""Acumulados""","PDF
 PR other > most recent ""Informe Casos Positivos COVID-19..."" > Muertes confirmadas","PDF
