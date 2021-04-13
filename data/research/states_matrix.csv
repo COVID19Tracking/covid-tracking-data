@@ -2880,7 +2880,8 @@ During the week of April 6, 2020, Wyoming began reporting confirmed and probable
 ",#REF!,,TRUE,TRUE,,"WY dash > hover over ""Lab Confirmed Cases"" > ""there are XXXXX lab-confirmed cases of COVID-19 in Wyoming as of..."" 
 
 above date / above time",,,,,,,,,,,,,,"updates: weekdays
-WY site > click link ""COVID-19 Testing Data"" > table ""COVID-19 Resulted Tests"" > ""Grand Total""","updates: weekdays
+calculated: 
+WY avocado > specimen collection > {positiveTestsViral + negativeTestsViral} ","updates: weekdays
 download
 WY primary > scroll all the way down to the tableau bottom menu bar > click second icon from right Download > select ""Crosstab"" > select ""Lab By date"" > download > sum of row 4 ""Number of positives""
 
