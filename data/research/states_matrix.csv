@@ -386,7 +386,7 @@ As of August 29, 2020, we store the “total overall tested” timeseries in our
 
 On May 25, 2020, the District of Columbia decreased the district's **total tests** number by 11,000 to reflect only DC residents.On February 12, 2021, the District of Columbia announced that their testing data for the day would be delayed. As a result, we were unable to update their Total PCR tests (test encounters) or Total PCR tests (people).",#REF!,,TRUE,,,"DC primary > date
 
-date / 0:00",,,,,,,,,,,,,"DC avocado > Report > totalTestEncountersViral
+date / 0:00",,,,,,,,,,,,,"DC avocado > report > totalTestEncountersViral
 ",,,,,,"DC primary > ""Total Number of DC Residents Tested""
 
 note: although it appears this number contrasts with the other one only due to resident vs. nonresident, we know from outreach it also differs in unit. that is why it is stored in unique people","DC avocado > Report > positive
@@ -481,8 +481,7 @@ FL primary > link ""See Serology Report"" > title ""Summary"" > ""Positive""","p
 FL primary > link ""See Serology Report"" > title ""Summary"" > ""Negative""","pdf
 FL primary > link See Serology Report > title Weekly SARS-CoV-2 IgG... (first of two titles) > ""Total""","pdf
 FL primary > link ""See Serology Report"" > title ""Weekly SARS-CoV-2 IgG..."" (first of two titles) > ""Positive""","pdf
-FL primary > link ""See Serology Report"" > title ""Weekly SARS-CoV-2 IgG..."" (first of two titles) > ""Negative""","calculated:
-FL query > link ""PCR Test Encounters"" > {pcr_encounters_neg + pcr_encounters_pos}","PDF
+FL primary > link ""See Serology Report"" > title ""Weekly SARS-CoV-2 IgG..."" (first of two titles) > ""Negative""",FL avocado > test result > totalTestEncountersViral,"PDF
 FL primary >  link ""See State Report"" > table ""COVID-19: testing by laboratory"" > column ""Total"" > row ""Total""
 
 note: go to the end of the pdf and scroll back for totals","PDF
@@ -511,7 +510,7 @@ As of September 18, 2020, Georgia's total test results are drawn from our `total
 
 As of August 28, 2020, we started reporting patients Now hospitalized from the [Georgia Geospatial Information Office](https://www.arcgis.com/apps/opsdashboard/index.html#/e40c39564f724af7bfe8fd5d88deadb6). The new count includes both patients with a confirmed COVID-19 diagnosis and patients under investigation, as is our standard practice where possible.",#REF!,TRUE,TRUE,,,"GA primary > ""...as of...""
 
-above date / above time",,,,GA avocado > Specimen Collection > totalTestsAntigen,"GA primary > table ""COVID-19 Testing"" > ""Total Antigen"" > ""Number of Positive Tests""",,,,,"GA primary > title ""COVID-19 Testing"" > ""Total Antibody (Serology)"" > ""Number of Tests""","GA primary> title ""COVID-19 Testing"" > ""Total Antibody (Serology)"" > ""Number of Positive Tests""",,,GA avocado > Specimen Collection > totalTestsViral,"GA primary > table ""COVID-19 Testing"" > ""Total PCR/ Molecular"" > ""Number of Positive Tests""",,"GA primary > title ""Georgia Overall COVID-19 Status"" > ""Confirmed Cases""","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Antigen Positive Cases""",,GA avocado > Symptom Onset > positive,,,"calculated:
+above date / above time",,,,GA avocado > specimen collection > totalTestsAntigen,"GA primary > table ""COVID-19 Testing"" > ""Total Antigen"" > ""Number of Positive Tests""",,,,,"GA primary > title ""COVID-19 Testing"" > ""Total Antibody (Serology)"" > ""Number of Tests""","GA primary> title ""COVID-19 Testing"" > ""Total Antibody (Serology)"" > ""Number of Positive Tests""",,,GA avocado > specimen collection > totalTestsViral,"GA primary > table ""COVID-19 Testing"" > ""Total PCR/ Molecular"" > ""Number of Positive Tests""",,"GA primary > title ""Georgia Overall COVID-19 Status"" > ""Confirmed Cases""","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Antigen Positive Cases""",,GA avocado > Symptom Onset > positive,,,"calculated:
 GA other > title ""Statewide Data"" > {""Covid-19 Patients"" + ""Patients Under Investigation""}","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Hospitalizations""",,"GA primary > title ""Georgia Overall COVID-19 Status"" > ""ICU Admissions""",,,,,"calculated:
 GA primary> {Confirmed Deaths + Probable Deaths}","GA primary > title ""Georgia Overall COVID-19 Status"" > ""Confirmed Deaths""","GA primary> title ""Georgia Overall COVID-19 Status"" > ""Probable Deaths""",,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://dph.georgia.gov/covid-19-daily-status-report,GA
 GU,Guam,http://dphss.guam.gov/covid-19/,http://dphss.guam.gov/covid-19/,https://www.facebook.com/GHSOCD,https://ghs.guam.gov/coronavirus-covid-19,,https://drive.google.com/file/d/1n-vrUGzEzs7rjcxXBFEbIMmeUQykuyO9/view,,"As of November 21, 2020, Guam’s Negative test results reported in our API and CSVs are calculated by subtracting **Confirmed cases** from **Total PCR tests (specimens)** in the absence of better data.
@@ -691,9 +690,9 @@ above date / above time
 note: do not update the timestamp if data is unchanged.
 note: ID is on a one dag lag, since 5:00 MT is after we publish on most days. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – updates: monthly
 
-ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
+ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > "" XXX,XXX Tests Performed""
 
-note: if this metric does not update, leave the previous value in the cell. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – ID dash > tab ""Laboratory Testing"" > title ""PCR Tests"" >“Tests Performed""
+note: if this metric does not update, leave the previous value in the cell. Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – ID dash > tab ""Laboratory Testing"" > title ""PCR Tests"" >“X,XXX,XXX Tests Performed""
 . Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Confirmed Cases""
 
 note: please screenshot with hover
@@ -724,9 +723,9 @@ above date / above time
 note: do not update the timestamp if data is unchanged.
 note: ID is on a one dag lag, since 5:00 MT is after we publish on most days",,,,"updates: monthly
 
-ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > ""Tests Performed""
+ID dash > tab ""Laboratory Testing"" > ""Antigen Tests"" > "" XXX,XXX Tests Performed""
 
-note: if this metric does not update, leave the previous value in the cell",,,,,,,,,,"ID dash > tab ""Laboratory Testing"" > title ""PCR Tests"" >“Tests Performed""
+note: if this metric does not update, leave the previous value in the cell",,,,,,,,,,"ID dash > tab ""Laboratory Testing"" > title ""PCR Tests"" >“X,XXX,XXX Tests Performed""
 ",,,"ID dash > tab ""Statewide Cases"" > hover over ""XXX Total Statewide Cases"" > ""Total Confirmed Cases""
 
 note: please screenshot with hover
