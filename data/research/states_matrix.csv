@@ -414,7 +414,7 @@ On July 25, 2020, Delaware revised down total cases, confirmed positives, and to
 
 On April 11, 2020, Delaware revised down negative test results from 10,415 to 9,624.","Local Time – DE dash > ""Data are current as of 6pm the previous day"" 
 
-yesterday / 18:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Tests"" > ""State of Delaware"". Total Tests (PCR) – . Positive Tests (PCR) – long calculation
+yesterday / 18:00. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – DE avocado > specimen collection > totalTestEncountersViral. Total Tests (PCR) – . Positive Tests (PCR) – long calculation
 This formula generates the most recent value for positive tests by test available in the CSV.
 long calculation > hover over ""# DE Positives"" > click play button > Positive Tests
 
@@ -426,7 +426,7 @@ on Ventilator – . Cumulative
 on Ventilator – . Hospital Discharges – . Recovered – . Deaths (confirmed and probable) – DE avocado > death > death
 . ",,,,,"DE dash > ""Data are current as of 6pm the previous day"" 
 
-yesterday / 18:00",,,,,,,,,,,,,"DE dash > title ""Key Public Health Metrics"" > click ""More Tests Data"" > section ""Testing Totals in State of Delaware"" > tab ""Total Tests"" > ""State of Delaware""",,"long calculation
+yesterday / 18:00",,,,,,,,,,,,,DE avocado > specimen collection > totalTestEncountersViral,,"long calculation
 This formula generates the most recent value for positive tests by test available in the CSV.
 long calculation > hover over ""# DE Positives"" > click play button > Positive Tests
 
