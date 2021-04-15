@@ -1,5 +1,5 @@
 Facility Name,Facility Type,County,Unique Confirmed Cases,Deaths Residents/Patients,Deaths Staff,Attack Rate Residents/Patients,Attack Rate Staff,Confirmed COVID-19 Cases Residents/Patients,Confirmed COVID-19 Cases Staff,Confirmed COVID-19 Cases Imported
-Select all-Assisted Living,Assisted Living,Carson City,2279,248,5,29.03%,22.33%,"1,452",827,31
+Select all-Assisted Living,Assisted Living,Carson City,2275,248,5,29.03%,22.23%,"1,452",823,31
 A HAND OF HOPE,Assisted Living,Clark,2,0,0,50.00%,33.33%,1,1,0
 A SUMMERDALE HOMES @ RIATA,Assisted Living,Washoe,7,0,0,100.00%,0.00%,7,0,0
 ABSOLUTE CIRCLE OF CARE,Assisted Living,Clark,1,0,0,0.00%,33.33%,0,1,0
@@ -74,7 +74,7 @@ L & N HOME CARE,Assisted Living,Washoe,11,2,0,100.00%,83.33%,6,5,0
 LAKEVIEW TERRACE RETIREMENT COMMUNITY,Assisted Living,Clark,2,0,0,0.00%,5.26%,0,2,0
 LAS VENTANAS ASSISTED LIVING,Assisted Living,Clark,47,7,0,123.08%,34.88%,32,15,1
 LEGACY HOUSE OF CENTENNIAL HILLS,Assisted Living,Clark,42,3,0,26.79%,13.33%,30,12,0
-LEGACY HOUSE OF SOUTHERN HILLS,Assisted Living,Clark,60,11,1,50.68%,38.33%,37,23,1
+LEGACY HOUSE OF SOUTHERN HILLS,Assisted Living,Clark,56,11,1,50.68%,31.67%,37,19,1
 LIBERTY RESIDENTIAL CARE,Assisted Living,Clark,5,0,0,50.00%,100.00%,3,2,0
 LIFE SHARE CARE HOME,Assisted Living,Clark,12,1,0,100.00%,66.67%,8,4,0
 LIVE N LOVE,Assisted Living,Clark,3,1,0,33.33%,33.33%,2,1,0
@@ -154,7 +154,7 @@ WE CARE RESIDENTIAL,Assisted Living,Clark,7,1,0,50.00%,66.67%,3,4,0
 WELBROOK GRAND MONTECITO,Assisted Living,Clark,20,1,0,86.67%,35.00%,13,7,0
 WENTWORTH OF LAS VEGAS,Assisted Living,Clark,41,4,0,22.52%,19.28%,25,16,0
 YSL CARE HOME,Assisted Living,Clark,1,0,0,0.00%,50.00%,0,1,0
-Select all-Skilled Nursing,Skilled Nursing,Carson City,5366,505,11,51.58%,29.55%,"2,940","2,426",624
+Select all-Skilled Nursing,Skilled Nursing,Carson City,5366,506,11,51.58%,29.55%,"2,940","2,426",624
 ADVANCED HEALTH CARE OF HENDERSON,Skilled Nursing,Clark,19,3,0,34.29%,8.97%,12,7,1
 ADVANCED HEALTH CARE OF LAS VEGAS,Skilled Nursing,Clark,28,2,0,25.93%,28.00%,7,21,2
 ADVANCED HEALTH CARE OF PARADISE,Skilled Nursing,Clark,61,3,0,94.74%,30.86%,36,25,18
@@ -195,7 +195,7 @@ MOUNTAIN VIEW HEALTH & REHAB CTR,Skilled Nursing,Carson City,155,26,0,86.92%,35.
 NEURORESTORATIVE 4KIDS - BUFFALO,Skilled Nursing,Clark,32,1,1,47.83%,84.00%,11,21,0
 NEURORESTORATIVE FOR KIDS (CARMEN),Skilled Nursing,Clark,18,0,0,6.06%,16.49%,2,16,0
 NEURORESTORATIVE NEVADA,Skilled Nursing,Washoe,13,1,0,5.56%,18.46%,1,12,3
-NEVADA STATE VETERANS HOME - BOULDER CITY,Skilled Nursing,Clark,145,17,0,41.57%,33.19%,69,76,11
+NEVADA STATE VETERANS HOME - BOULDER CITY,Skilled Nursing,Clark,145,18,0,41.57%,33.19%,69,76,11
 NORTH LAS VEGAS CARE CENTER,Skilled Nursing,Clark,145,2,0,56.33%,37.09%,89,56,0
 NORTHERN NEVADA STATE VETERANS HOME,Skilled Nursing,Washoe,56,4,0,17.11%,25.00%,13,43,0
 ORMSBY POST-ACUTE REHAB,Skilled Nursing,Carson City,92,16,1,67.53%,0.00%,52,40,2
