@@ -1388,7 +1388,7 @@ On July 23, 2020, we switched our **Total tests** units to the people-tested met
 
 date/ 0:00
 
-. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MP dash > tab ""Testing"" > ""Total Tests"". Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – MP dash > tab ""Diagnoses"" > ""COVID-19 Diagnoses"". Probable Cases – . Total PCR Tests (People) – MP dash > tab ""Testing"" > ""Number of People Tested""
+. Total Antigen Tests (People) – . Positive Antigen Tests (People) – . Negative Antigen Tests (People) – . Total Antigen Tests – . Positive Antigen Tests – . Negative Antigen Tests – . Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – MP avocado > n/a  > totalTestsViral. Positive Tests (PCR) – . Negative Tests (PCR) – . Positive Cases (PCR) – MP dash > tab ""Diagnoses"" > ""COVID-19 Diagnoses"". Probable Cases – . Total PCR Tests (People) – MP dash > tab ""Testing"" > ""Number of People Tested""
 
 note: may only update weekly
 note: if this metric does not update, leave the previous value in the cell. Positive Cases (People, confirmed + probable) – MP dash > tab ""Diagnoses"" > ""COVID-19 Diagnoses"". Negative (People or Cases) – calculated:
@@ -1403,7 +1403,7 @@ on Ventilator – . Hospital Discharges – . Recovered – MP query > ""SUM_rec
 
 date/ 0:00
 
-",,,,,,,,,,,,,,"MP dash > tab ""Testing"" > ""Total Tests""",,,"MP dash > tab ""Diagnoses"" > ""COVID-19 Diagnoses""",,"MP dash > tab ""Testing"" > ""Number of People Tested""
+",,,,,,,,,,,,,,MP avocado > n/a  > totalTestsViral,,,"MP dash > tab ""Diagnoses"" > ""COVID-19 Diagnoses""",,"MP dash > tab ""Testing"" > ""Number of People Tested""
 
 note: may only update weekly
 note: if this metric does not update, leave the previous value in the cell","MP dash > tab ""Diagnoses"" > ""COVID-19 Diagnoses""","calculated:
