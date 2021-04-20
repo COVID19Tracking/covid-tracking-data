@@ -36,7 +36,7 @@ On November 5, 2020, Alaska’s **Total PCR tests (specimens)** increased from r
 As of September 18, 2020, Alaska's total test results are drawn from our `totalTestsViral` field instead of calculated via positive+negative.",#REF!,,TRUE,TRUE,AK is tracking cases by date of onset. ,"AK primary > ""All data are updated once daily by noon and are current through the previous day""
 
 yesterday / 23:59
-",,,,,,,,,,,,,,AK avocado > Specimen Collection > totalTestsViral,"AK query > PCR Testing (positive) > ""tests_positive""","AK query > PCR Testing (negative) > ""tests_negative""",,,,"AK avocado > Symptom Onset > positive
+",,,,,,,,,,,,,,AK avocado > specimen collection > totalTestsViral,"AK query > PCR Testing (positive) > ""tests_positive""","AK query > PCR Testing (negative) > ""tests_negative""",,,,"AK avocado > Symptom Onset > positive
 
 ",,,"calculated:
 AK other > dropdown ""General Acute Care and Critical Access Facilities Only?"" > select ""No"" > {Currently Hospitalized COVID Positive + Currently Hospitalized COVID Suspected}  note: take a screenshot of this dash with the toggle set to ""no""  screenshot: https://internal.covidtracking.com/screenshot?state=AK&datatype=taco&subtype=primary-source","AK primary > button ""Select Residence"" > select ""All"" > ""Hospitalizations""
@@ -98,7 +98,8 @@ On September 1, 2020, Alabama began displaying the number of people tested by an
 
 On July 11, 2020, Alabama began using direct reports from hospitals for cumulative hospitalizations (which we report in our **Ever hospitalized** metric), rather than state case surveillance. Its number of cumulative hospitalizations increased by over 3,000 as a result. ",#REF!,,TRUE,TRUE,,"AL dash > ""Updates daily at 10am""
 
-today / 10:00",,,,,,,"AL dash > ""Total Tested"" > ""Antibody""",,,,,,,,,,"AL dash > ""Cases"" > ""Confirmed""","AL dash > ""Cases"" > ""Probable""","AL dash > ""Total Tested"" > ""Diagnostic""
+today / 10:00",,,,,,,"AL dash > ""Total Tested"" > ""Antibody""",,,,,,,"updates: weekly
+AL avocado > report > totaltestsviral",,,"AL dash > ""Cases"" > ""Confirmed""","AL dash > ""Cases"" > ""Probable""","AL dash > ""Total Tested"" > ""Diagnostic""
 ",AL avocado >  Report  > positive,"calculated: 
 WS2 > {Total PCR Tests (People) - Positive Cases (PCR)}",,"AL query > ""Confirmed_AllWeekdays:""","AL dash > ""TOTAL HOSPITALIZATIONS To Date""",,"AL dash > tab 11 > ""ICU""  ",,"AL dash > tab 11 > ""Ventilator"" ",,"updates: weekly
 AL dash > ""Presumed Recoveries""
