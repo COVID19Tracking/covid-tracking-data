@@ -724,3 +724,9 @@ PCR Testing Encounters: 8044924
 
 
 
+Run at:  2021-04-21 05:39:06.825630-04:00 
+
+PCR Testing Encounters: 8044924
+
+
+
