@@ -2442,3 +2442,11 @@ Antibody Positives
 
 
 
+Run at:  2021-04-22 17:37:38.818116-04:00 
+
+ICU
+22   873.00
+Name: 2021-04-21, dtype: float64
+
+PCR Positives
+Encountered an error running at 2021-04-22 17:37:44.646307-04:00
