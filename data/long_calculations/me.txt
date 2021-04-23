@@ -2042,3 +2042,21 @@ dtype: float64
 
 
 
+Run at:  2021-04-23 17:38:13.460419-04:00 
+
+Date                                                2021-04-23
+Hospitalized- Total COVID-19 Patients                      123
+Hospitalized- COVID-19 Patients In Critical Care            50
+Hospitalized- COVID-19 Patients on Ventilators              22
+dtype: object
+           Type     
+All Tests  NaN          2269282.0
+           Antigen       308441.0
+           Molecular    1960841.0
+Positive   NaN            62249.0
+           Antigen        16443.0
+           Molecular      45806.0
+dtype: float64
+
+
+

@@ -1132,3 +1132,6 @@ Year Month Day
 
 
 
+Run at:  2021-04-23 17:37:28.161837-04:00 
+
+Encountered an error running at 2021-04-23 17:37:58.283640-04:00
