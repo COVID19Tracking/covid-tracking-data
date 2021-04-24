@@ -1135,3 +1135,15 @@ Year Month Day
 Run at:  2021-04-23 17:37:28.161837-04:00 
 
 Encountered an error running at 2021-04-23 17:37:58.283640-04:00
+Run at:  2021-04-24 05:38:36.024671-04:00 
+
+                         Statistic      Value
+Year Month Day                               
+2021 4     20   New Positive Tests      317.0
+           20       Positive Tests   104373.0
+           20            New Tests     5744.0
+           20          Total Tests  1687106.0
+           20         Vaccinations   601992.0
+
+
+
