@@ -2191,3 +2191,20 @@ dtype: float64
 
 
 
+Run at:  2021-04-25 05:39:56.730309-04:00 
+
+Total Negative    321233
+dtype: int64
+
+Testing Data
+Total tests (new people)                          427889.0
+Total tests (susceptible test encounters)        1707256.0
+Total PCR tests (susceptible test encounters)    1511003.0
+Total Ag tests (susceptible test encounters)      196253.0
+Total tests (specimens)                          1902648.0
+Total PCR tests (specimens)                      1653356.0
+Total Ag tests (specimens)                        249292.0
+dtype: float64
+
+
+
