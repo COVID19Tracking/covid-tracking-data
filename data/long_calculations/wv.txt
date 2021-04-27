@@ -1062,3 +1062,11 @@ dtype: int64
 
 
 
+Run at:  2021-04-27T05:40:01.748882-04:00 
+
+Confirmatory Lab Test      2382655
+Daily Antibody Lab Test      34009
+dtype: int64
+
+
+
