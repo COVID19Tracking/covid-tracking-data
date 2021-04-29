@@ -1255,3 +1255,15 @@ Year Month Day
 
 
 
+Run at:  2021-04-29 05:38:34.387934-04:00 
+
+                         Statistic      Value
+Year Month Day                               
+2021 4     25   New Positive Tests      143.0
+           25       Positive Tests   105568.0
+           25            New Tests     2348.0
+           25          Total Tests  1712473.0
+           25         Vaccinations   644489.0
+
+
+
