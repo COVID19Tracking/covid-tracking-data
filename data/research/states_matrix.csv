@@ -2826,9 +2826,9 @@ note: we know it's a confusing statement, but we checked the raw data and it lin
 This calculation sums the daily number of new antibody tests since March 10, 2020 to get a cumulative number.
 long calculation > hover over # WV Testing > click play button > ""Daily Antibody Lab Test"" 
 
-note: long calculation is in cell E2 of WS2",,,,"WV dash > tab ""Overview"" > ""Confirmatory Lab Tests"" 
+note: long calculation is in cell E2 of WS2",,,,"WV dash > tab ""Case and Lab Trends"" > hover over latest entry on ""Cumulative Confirmatory Lab Tests"" graph
 
-note: please screenshot this dash and upload below
+note: please screenshot this tab with the hover pop-up visible and upload below
 screenshot: https://internal.covidtracking.com/screenshot?state=WV&datatype=taco&subtype=data-dashboard",,,"WV dash > click ""Includes Probable and Confirmed Cases (click to view)"" > ""Total Number of Confirmed Cases""","WV dash > click ""Includes Probable and Confirmed Cases (click to view)"" > ""Total Number of Probable Cases""",,"WV dash > tab ""Overview"" > ""Total Number of Cases""","calculated:
 WS2 > {Total Tests (PCR) - Positive Cases (PCR)}",,"WV dash > tab ""Hospital"" > ""Daily Confirmed Cases Hospitalized""",,"WV dash > tab ""Hospital"" > ""Daily Confirmed Cases ICU""",,"WV dash > tab ""Hospital"" > ""Daily Confirmed Cases Vent""",,,"WV dash > tab ""Other Trends"" > graph ""Recovered Cases and Active Cases"" > mouse over most recent day > ""Recovered""","WV dash > tab ""Overview"" >  ""Deaths""","WV dash > tab ""Overview"" > title ""Deaths"" > click ""Includes Probable and Confirmed Deaths"" > ""Total Number of Confirmed Deaths""
 
