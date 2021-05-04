@@ -2467,8 +2467,7 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-. Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – long calculation 
-This formula sums daily PCR tests to get a cumulative number. long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for tests"" > title ""TOTAL"" > ""test type :PCR/amplification"" note: do not use the metrics for people . Positive Tests (PCR) – long calculation
+. Total Antibody Tests (People) – . Positive Antibody Tests (People) – . Negative Antibody Tests (People) – . Total Antibody Tests – . Positive Antibody Tests – . Negative Antibody Tests – . Total Test Encounters (PCR) – . Total Tests (PCR) – UT avocado > specimen collection > {positiveTestsViral + negativeTestsViral} . Positive Tests (PCR) – long calculation
 This formula sums daily positive PCR tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type: PCR/amplification"" > ""Positive""
 
@@ -2530,8 +2529,7 @@ long calculation > hover over ""# UT Tests"" > click play button > title ""Metri
 
 note: do not use the metrics for people
 note: link to long calculation is in cell E2 of WS2
-",,,,,,,,"long calculation 
-This formula sums daily PCR tests to get a cumulative number. long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for tests"" > title ""TOTAL"" > ""test type :PCR/amplification"" note: do not use the metrics for people ","long calculation
+",,,,,,,,UT avocado > specimen collection > {positiveTestsViral + negativeTestsViral} ,"long calculation
 This formula sums daily positive PCR tests by test to get a cumulative number.
 long calculation > hover over ""# UT Tests"" > click play button > title ""Metrics for Tests"" > ""test type: PCR/amplification"" > ""Positive""
 
