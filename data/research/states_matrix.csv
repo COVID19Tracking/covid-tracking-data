@@ -1993,7 +1993,7 @@ note: screenshot this graph - hover over most recent day’s red bar correspondi
 screenshot: https://internal.covidtracking.com/screenshot?state=OH&datatype=taco&subtype=data-dashboard",,,"OH dash > ""COVID-19 Dashboard"" > menu ""Overview"" >""Presumed Recovered""
 
 note: sometimes the data will not reload when switiching to this tab from another, if that happens try a refresh or just re-open the dashboard link",OH avocado > death > death,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://coronavirus.ohio.gov/wps/portal/gov/covid-19/,OH
-OK,Oklahoma,,https://coronavirus.health.ok.gov/,https://www.twitter.com/HealthyOklahoma,https://coronavirus.health.ok.gov/news,,https://oklahoma.gov/covid19/newsroom/executive-order-reports.html,,"On February 27, 2021, Oklahoma's Total PCR Tests  dropped by 3,314 without explanation.
+OK,Oklahoma,,https://coronavirus.health.ok.gov/,https://www.twitter.com/HealthyOklahoma,https://coronavirus.health.ok.gov/news,,https://oklahoma.gov/covid19/newsroom.html,,"On February 27, 2021, Oklahoma's Total PCR Tests  dropped by 3,314 without explanation.
 
 On February 11, 2021, Oklahoma announced via a [press release](https://oklahoma.gov/covid19/newsroom/2021/february/situation-update--covid-19-02-11-2021.html) that due to delayed reporting by facilities, and time taken to investigate previously deferred cases, the “majority” of new deaths reported on February 11, 2021 occurred in November, 2020.
 
@@ -2027,7 +2027,7 @@ OK primary > scroll to bottom of page and click link ""Weekly Epidemiology and S
 
 note: updates weekly (usually friday). if this metric does not update, leave the previous value in the cell
 ",,,"pdf
-OK other > click most recent ""EO COVID-19 REPORT"" > ""Cumulative Reported Testing Numbers*""(p. 3) > ""Total Number of Specimens Tested""","pdf
+OK other > click most recent ""Situation Update"" > ""Total Cumulative Number of Specimens to Date*","pdf
 OK other > click most recent ""EO COVID-19 REPORT"" > ""Cumulative Reported Testing Numbers*""(p. 2) > ""Total Positive Specimens""","pdf
 OK other > click most recent ""EO COVID-19 REPORT"" > ""Cumulative Reported Testing Numbers*""(p. 2) > ""Total Negative Specimens""",,,,"OK primary > ""OSDH Disease Investigation Summary"" > ""OK Cases""
 
