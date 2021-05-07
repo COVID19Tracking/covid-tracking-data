@@ -901,3 +901,9 @@ Encountered an error running at 2021-05-06 17:42:50.535581-04:00
 Run at:  2021-05-07 05:43:54.068331-04:00 
 
 Encountered an error running at 2021-05-07 05:44:09.252445-04:00
+Run at:  2021-05-07 17:42:46.620758-04:00 
+
+PCR Testing Encounters: 8415964
+
+
+
