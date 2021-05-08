@@ -907,3 +907,6 @@ PCR Testing Encounters: 8415964
 
 
 
+Run at:  2021-05-08 05:44:05.800718-04:00 
+
+Encountered an error running at 2021-05-08 05:44:20.981204-04:00
