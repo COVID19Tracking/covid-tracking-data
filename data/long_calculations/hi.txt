@@ -1797,3 +1797,14 @@ Update time:  05/09/2021 08:30:00
 
 
 
+Run at:  2021-05-13 05:47:08.198125-04:00 
+
+New Cases                  32215
+New Positive Tests         33221
+Total Test Encounters    1514835
+dtype: int64
+
+Update time:  05/10/2021 08:30:00
+
+
+
