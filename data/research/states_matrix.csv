@@ -2026,9 +2026,7 @@ updates: weekly (fri)
 OK primary > scroll to bottom of page and click link ""Weekly Epidemiology and Surveillance Report"" > click most recent report > table ""Disease Testing"" > column ""Total Number"" >  ""Antibody positive, count"" 
 
 note: updates weekly (usually friday). if this metric does not update, leave the previous value in the cell
-",,,"pdf
-updates: weekly
-OK dash > click most recent report > table ""Disease Testing"" > column ""Total Number"" > row ""Specimens tested, count""","pdf
+",,,N/A,"pdf
 OK other > click most recent ""EO COVID-19 REPORT"" > ""Cumulative Reported Testing Numbers*""(p. 2) > ""Total Positive Specimens""","pdf
 OK other > click most recent ""EO COVID-19 REPORT"" > ""Cumulative Reported Testing Numbers*""(p. 2) > ""Total Negative Specimens""",,,,"OK primary > ""OSDH Disease Investigation Summary"" > ""OK Cases""
 
