@@ -1915,3 +1915,6 @@ dtype: int64
 
 
 
+Run at:  2021-05-18 17:43:14.543455-04:00 
+
+Encountered an error running at 2021-05-18 17:43:14.662103-04:00
