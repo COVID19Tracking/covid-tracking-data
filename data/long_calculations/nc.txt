@@ -1918,3 +1918,14 @@ dtype: int64
 Run at:  2021-05-18 17:43:14.543455-04:00 
 
 Encountered an error running at 2021-05-18 17:43:14.662103-04:00
+Run at:  2021-05-19 05:46:56.433866-04:00 
+
+Measure Names
+Antigen Test                 1301893
+Daily Tests Total           12936736
+Molecular Test              11634843
+Positive Test Percentage          31
+dtype: int64
+
+
+
