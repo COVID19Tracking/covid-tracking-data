@@ -1795,3 +1795,15 @@ Year Month Day
 
 
 
+Run at:  2021-05-22 05:47:58.715351-04:00 
+
+                         Statistic      Value
+Year Month Day                               
+2021 5     18   New Positive Tests      102.0
+           18       Positive Tests   109876.0
+           18            New Tests     4135.0
+           18          Total Tests  1816094.0
+           18         Vaccinations   772641.0
+
+
+
