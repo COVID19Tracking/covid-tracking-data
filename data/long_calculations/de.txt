@@ -1843,3 +1843,15 @@ Year Month Day
 
 
 
+Run at:  2021-05-24 05:50:49.364067-04:00 
+
+                         Statistic      Value
+Year Month Day                               
+2021 5     20   New Positive Tests       76.0
+           20       Positive Tests   110038.0
+           20            New Tests     2982.0
+           20          Total Tests  1823612.0
+           20         Vaccinations   785463.0
+
+
+
