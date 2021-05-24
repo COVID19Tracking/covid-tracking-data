@@ -33,9 +33,6 @@ jobs:
     - run:  curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_trends_data -o data/cdc_vaccination_trends.json
     - run:  curl https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_demographics_data -o data/cdc_vaccinations_demographics.json
     - run:  curl https://healthdata.gov/api/views/di4u-7yu6/rows.csv?accessType=DOWNLOAD -o data/hhs/community_profile_counties_$(TZ=America/New_York date '+%Y%m%d').csv
-    - run: |
-        CDC_VARIANT_LINK=`curl -k https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant-cases.html | grep -Eo "\/coronavirus.+?\.csv"`
-        curl https://www.cdc.gov$CDC_VARIANT_LINK -o data/cdc_variant_cases.csv
     - run:  curl "https://data.cdc.gov/api/views/r8kw-7aab/rows.csv?accessType=DOWNLOAD" -o data/cdc_provisional_deaths.csv
     - name: Commit
       uses: stefanzweifel/git-auto-commit-action@v4.1.2
