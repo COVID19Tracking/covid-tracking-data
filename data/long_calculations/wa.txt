@@ -1708,3 +1708,12 @@ dtype: int64
 
 
 
+Run at:  2021-05-26 06:02:35.825658-04:00 
+
+Link =  https://www.doh.wa.gov/Portals/1/Documents/1600/coronavirus/data-tables/PUBLIC_Tests_by_Specimen_Collection.xlsx
+Negative    6676608
+Positive     396651
+dtype: int64
+
+
+
