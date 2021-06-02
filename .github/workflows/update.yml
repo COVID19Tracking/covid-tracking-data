@@ -27,7 +27,6 @@ jobs:
         curl -L "https://docs.google.com/spreadsheets/d/1MvvbHfnjF67GnYUDJJiNYUmGco5KQ9PW0ZRnEP9ndlU/pub?gid=115892946&single=true&output=csv" -o data/states_matrix.csv
         curl -L "https://docs.google.com/spreadsheets/d/1tq_treJNLepYmhZzGtWCPJe8NS2w1qEpXfEoyfRVsWk/pub?gid=43720681&single=true&output=csv" -o data/crdt.csv
         curl -L "https://docs.google.com/spreadsheets/d/1Kyn3w9_NPYcjNO8a0QMtH6tQhkcFWi0wJdJ92sywMnI/gviz/tq?tqx=out:csv&sheet=Data_v2" -o data/ltc.csv
-        curl -L "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1uScYv8SWYhY2cTPoaLUbsTh8Nr3CcCbs07HEpQXflvxkvieHQIFHBGPocxO-uetmfJuQuryPcQtT/pub?gid=1968155885&single=true&output=csv" -o data/annotations.csv
         curl -L "https://docs.google.com/spreadsheets/d/e/2PACX-1vSMW9QeHGktGHH0nqBwoeOXrsDyY7dMkpuUrlbJmmPTdl1eVwhlbe4ugvuCyWQ4ebbpo6SGnfDkdxAD/pub?gid=115892946&single=true&output=csv" -o data/research/states_matrix.csv
 
     - name: Commit
