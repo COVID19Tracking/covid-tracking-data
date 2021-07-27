@@ -18,7 +18,7 @@ jobs:
     - run:  curl https://healthdata.gov/api/views/6xf2-c3ie/rows.csv?accessType=DOWNLOAD -o data/hhs/reported_hospital_utilization_$(TZ=America/New_York date '+%Y%m%d').csv
     - run:  curl https://healthdata.gov/api/views/g62h-syeh/rows.csv?accessType=DOWNLOAD -o data/hhs/reported_hospital_utilization_timeseries_$(TZ=America/New_York date '+%Y%m%d').csv
     - run:  curl https://healthdata.gov/api/views/j8mb-icvb/rows.csv?accessType=DOWNLOAD -o data/hhs/covid-19_diagnostic_lab_testing_$(TZ=America/New_York date '+%Y%m%d').csv
-    - run:  curl https://healthdata.gov/api/views/anag-cw7u/rows.csv?accessType=DOWNLOAD -o data/hhs/reported_hospital_capacity_admissions_facility_level_weekly_average_timeseries_$(TZ=America/New_York date '+%Y%m%d').csv && gzip data/hhs/reported_hospital_capacity_admissions_facility_level_weekly_average_timeseries_$(TZ=America/New_York date '+%Y%m%d').csv
+    - run:  curl https://healthdata.gov/api/views/anag-cw7u/rows.csv?accessType=DOWNLOAD -o data/hhs/reported_hospital_capacity_admissions_facility_level_weekly_average_timeseries_$(TZ=America/New_York date '+%Y%m%d').csv && gzip -f data/hhs/reported_hospital_capacity_admissions_facility_level_weekly_average_timeseries_$(TZ=America/New_York date '+%Y%m%d').csv
 
     - run:  curl https://healthdata.gov/api/views/7ctx-gtb7/rows.csv?accessType=DOWNLOAD -o data/hhs/estimated_icu_$(TZ=America/New_York date '+%Y%m%d').csv
     - run:  curl https://healthdata.gov/api/views/jjp9-htie/rows.csv?accessType=DOWNLOAD -o data/hhs/estimated_inpatient_all_$(TZ=America/New_York date '+%Y%m%d').csv
