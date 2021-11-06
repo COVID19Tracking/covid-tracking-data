@@ -29,7 +29,10 @@ def main(filename, json_key, strip_duplicate_days):
     # build up a dict of the data history by looking at each commit in the git history
     data = {}
     for commit, filecontents in revlist:
-        data[commit.committed_datetime] = json.loads(filecontents)
+        try:
+            data[commit.committed_datetime] = json.loads(filecontents)
+        except ValueError as e:  # ignore invalid files: a corrupt download can get into the git history
+            pass
 
     # go through the data and reformat it into one line per batch/state
     # if --strip-duplicate-days is set, we only keep the latest set of data for any state/date pair
