@@ -2,7 +2,7 @@ name: Combine federal data
 
 on:
   schedule:
-    - cron: '20 * * * *'
+    - cron: '25 */4 * * *'
 
 defaults:
   run:
