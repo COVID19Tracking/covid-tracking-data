@@ -4,14 +4,22 @@ name: Update HHS and CDC files
 
 on:
   schedule:
-    # Run every hour, on the half-hour.
-    - cron:  '30 * * * *'
+    # Run every four hours, on the half-hour.
+    - cron:  '30 */4 * * *'
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Maximize build space
+      uses: easimon/maximize-build-space@master
+      with:
+        root-reserve-mb: 512
+        swap-size-mb: 1024
+        remove-dotnet: 'true'
+        remove-android: 'true'
+        remove-haskell: 'true'
     - name: Checkout repo
       uses: actions/checkout@v2
 
