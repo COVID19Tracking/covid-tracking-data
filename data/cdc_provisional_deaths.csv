@@ -99,38 +99,38 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,11/07/2021,11/13/2021,By Week,2021,,45,11/13/2021,United States,7174,67463,124,7223,4119,26,10297,
 07/13/2022,11/14/2021,11/20/2021,By Week,2021,,46,11/20/2021,United States,7324,66957,122,7340,4155,16,10518,
 07/13/2022,11/21/2021,11/27/2021,By Week,2021,,47,11/27/2021,United States,7897,67965,123,7601,4396,19,11118,
-07/13/2022,11/28/2021,12/04/2021,By Week,2021,,48,12/04/2021,United States,8792,70178,127,8340,4990,37,12173,
+07/13/2022,11/28/2021,12/04/2021,By Week,2021,,48,12/04/2021,United States,8792,70172,127,8340,4990,37,12173,
 07/13/2022,12/05/2021,12/11/2021,By Week,2021,,49,12/11/2021,United States,9743,72144,128,9000,5566,57,13230,
 07/13/2022,12/12/2021,12/18/2021,By Week,2021,,50,12/18/2021,United States,10267,71328,125,9314,5960,58,13671,
 07/13/2022,12/19/2021,12/25/2021,By Week,2021,,51,12/25/2021,United States,10473,72320,125,9438,5938,87,14051,
-07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,United States,11596,73628,125,9977,6409,149,15303,
-07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,United States,14581,76298,124,11382,7799,178,18303,
-07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,United States,18677,83044,133,13314,9773,137,22331,
-07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,United States,20834,83375,137,14154,10726,145,24365,
-07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,United States,20412,82690,138,13949,10618,89,23802,
-07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,United States,18287,79163,133,12945,9656,85,21628,
-07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,United States,14932,75145,126,10867,7847,83,18006,
-07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,United States,11239,68807,117,8914,5954,63,14245,
-07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,United States,8060,64201,110,7110,4140,62,11076,
-07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,United States,5827,62244,108,5943,2993,59,8824,
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,United States,4220,59526,103,4677,1980,62,6971,
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,United States,3000,58286,102,4272,1406,61,5921,
-07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,United States,2398,56019,99,3777,1045,83,5204,
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,United States,1799,55541,99,3471,716,72,4625,
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,United States,1469,55484,99,3210,517,90,4244,
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,United States,1336,55275,100,3255,473,88,4197,
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,United States,1283,54540,101,3195,463,96,4107,
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,United States,1352,54575,102,3157,472,90,4122,
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,United States,1330,54449,102,3079,445,81,4037,
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,United States,1571,54204,103,3180,521,90,4315,
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,United States,1554,52041,99,3170,485,75,4311,
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,United States,1690,49421,95,2922,601,69,4076,
+07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,United States,11596,73629,125,9977,6409,149,15303,
+07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,United States,14580,76302,124,11382,7798,178,18303,
+07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,United States,18679,83049,133,13315,9774,137,22333,
+07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,United States,20835,83383,137,14155,10727,145,24366,
+07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,United States,20412,82693,138,13949,10618,89,23802,
+07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,United States,18287,79165,133,12945,9656,85,21628,
+07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,United States,14932,75146,126,10867,7847,83,18006,
+07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,United States,11239,68815,117,8914,5954,63,14245,
+07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,United States,8061,64215,110,7110,4141,62,11076,
+07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,United States,5827,62261,108,5944,2993,59,8825,
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,United States,4222,59550,103,4678,1980,62,6974,
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,United States,3000,58301,102,4273,1406,61,5922,
+07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,United States,2398,56041,99,3778,1045,83,5205,
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,United States,1801,55568,99,3471,716,72,4627,
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,United States,1469,55515,99,3210,517,90,4244,
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,United States,1337,55312,100,3257,474,88,4199,
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,United States,1282,54578,101,3196,463,96,4107,
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,United States,1352,54612,102,3157,472,90,4122,
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,United States,1330,54492,102,3081,444,81,4040,
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,United States,1571,54301,103,3185,520,91,4322,
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,United States,1565,52242,100,3185,488,76,4335,
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,United States,1698,49481,95,2925,605,69,4083,
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,United States,1665,48184,93,2926,557,69,4098,
-07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,United States,1752,47737,91,2930,641,51,4090,
-07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,United States,1788,45976,89,2923,653,62,4119,
-07/13/2022,06/19/2022,06/25/2022,By Week,2022,,25,06/25/2022,United States,1714,42893,83,2638,594,25,3778,
-07/13/2022,06/26/2022,07/02/2022,By Week,2022,,26,07/02/2022,United States,1463,34864,68,2089,515,26,3057,
-07/13/2022,07/03/2022,07/09/2022,By Week,2022,,27,07/09/2022,United States,711,16719,32,997,249,10,1468,
+07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,United States,1752,47738,91,2929,640,51,4090,
+07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,United States,1789,45976,89,2923,653,62,4120,
+07/13/2022,06/19/2022,06/25/2022,By Week,2022,,25,06/25/2022,United States,1715,42894,83,2638,594,25,3779,
+07/13/2022,06/26/2022,07/02/2022,By Week,2022,,26,07/02/2022,United States,1464,34865,68,2089,515,26,3058,
+07/13/2022,07/03/2022,07/09/2022,By Week,2022,,27,07/09/2022,United States,712,16722,32,998,250,10,1469,
 07/13/2022,12/29/2019,01/04/2020,By Week,2019/2020,,1,01/04/2020,Alabama,0,1082,94,63,0,,69,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/05/2020,01/11/2020,By Week,2020,,2,01/11/2020,Alabama,0,1127,96,79,0,10,89,
 07/13/2022,01/12/2020,01/18/2020,By Week,2020,,3,01/18/2020,Alabama,0,1039,91,62,0,,65,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -763,28 +763,28 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/05/2021,12/11/2021,By Week,2021,,49,12/11/2021,California,459,6223,115,658,317,,802,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/12/2021,12/18/2021,By Week,2021,,50,12/18/2021,California,544,6592,123,738,356,0,926,
 07/13/2022,12/19/2021,12/25/2021,By Week,2021,,51,12/25/2021,California,523,6629,121,703,334,,894,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,California,616,6733,115,780,346,,1052,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,California,616,6734,115,780,346,,1052,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,California,924,7269,116,908,524,,1313,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,California,1369,7909,125,1125,738,,1762,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,California,1867,8178,136,1411,1065,,2217,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,California,1925,8091,142,1547,1177,,2296,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,California,1369,7910,125,1125,738,,1762,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,California,1867,8180,137,1411,1065,,2217,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,California,1925,8092,142,1547,1177,,2296,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,California,1914,7880,136,1541,1170,,2286,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,California,1488,7715,137,1207,876,,1822,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,California,1082,6832,121,995,661,,1418,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,California,806,6380,114,779,445,0,1140,
-07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,California,544,6193,108,660,322,,883,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,California,1488,7716,137,1207,876,,1822,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,California,1082,6833,121,995,661,,1418,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,California,806,6386,114,780,445,0,1141,
+07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,California,544,6194,108,661,322,,884,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,California,416,5850,103,505,229,0,692,
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,California,288,5707,103,464,152,,600,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,California,233,5583,104,425,129,,531,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,California,155,5301,99,369,70,,456,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,California,129,5416,102,339,56,,414,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,California,120,5363,104,334,51,,405,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,California,97,5196,102,318,40,,378,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,California,111,5369,104,327,42,0,396,
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,California,97,5178,102,285,35,,352,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,California,123,5054,102,313,42,,397,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,California,120,4870,99,323,50,,396,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,California,145,4779,97,304,56,,400,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,California,287,5707,103,464,152,,599,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,California,233,5584,104,425,129,,531,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,California,156,5306,99,369,70,,457,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,California,129,5421,102,339,56,,414,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,California,120,5368,104,334,51,,405,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,California,97,5201,102,318,40,,378,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,California,111,5373,104,327,42,0,396,
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,California,97,5182,102,286,35,,353,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,California,122,5070,102,313,41,,397,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,California,123,4892,99,325,52,,399,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,California,145,4783,97,305,56,,401,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,California,132,4588,93,303,53,10,392,
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,California,190,4652,93,322,82,10,439,
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,California,176,4349,88,274,68,19,401,
@@ -1424,32 +1424,32 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/12/2021,12/18/2021,By Week,2021,,50,12/18/2021,Florida,158,4546,107,327,93,,395,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/19/2021,12/25/2021,By Week,2021,,51,12/25/2021,Florida,191,4530,110,352,110,,437,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,Florida,299,4836,114,437,172,,570,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,Florida,553,5163,121,624,337,,847,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,Florida,1013,5720,130,885,620,,1282,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,Florida,553,5164,121,624,337,,847,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,Florida,1015,5722,130,886,621,,1284,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,Florida,1317,5968,136,1103,832,,1594,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,Florida,1314,6055,141,1159,850,,1623,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,Florida,1224,5942,133,1045,770,,1503,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,Florida,1224,5943,133,1045,770,,1503,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,Florida,1016,5599,128,849,601,,1267,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Florida,797,5351,123,773,499,,1075,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Florida,588,4949,116,589,358,,821,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Florida,430,4677,111,479,255,,659,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Florida,304,4730,112,390,151,,547,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Florida,797,5353,123,773,499,,1075,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Florida,589,4951,116,589,359,,821,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Florida,430,4680,111,479,255,,659,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Florida,304,4736,113,390,151,,547,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Florida,217,4466,107,374,129,,465,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Florida,184,4389,103,322,86,,424,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Florida,134,4524,107,328,57,,412,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Florida,121,4219,101,266,41,,347,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Florida,100,4209,102,268,43,,327,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Florida,91,4167,104,270,46,,316,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Florida,97,4213,106,239,34,,304,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Florida,90,4120,104,254,36,,311,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Florida,91,3956,101,266,44,,316,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Florida,101,3680,94,240,38,,307,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Florida,123,3485,92,223,56,,293,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Florida,184,4395,103,323,86,,425,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Florida,134,4525,107,328,57,,412,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Florida,121,4222,101,266,41,,347,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Florida,101,4214,102,270,44,,329,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Florida,91,4170,104,270,46,,316,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Florida,97,4216,106,239,34,,304,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Florida,90,4125,104,255,36,,312,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Florida,92,3985,101,269,44,,320,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Florida,104,3760,96,246,39,,315,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Florida,124,3505,92,224,57,,294,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Florida,146,3609,92,244,50,,347,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Florida,164,3755,96,282,76,10,380,
-07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Florida,202,3597,96,302,105,12,411,
+07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Florida,164,3756,96,281,75,10,380,
+07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Florida,203,3597,96,302,105,12,412,
 07/13/2022,06/19/2022,06/25/2022,By Week,2022,,25,06/25/2022,Florida,222,3531,92,260,92,,396,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,06/26/2022,07/02/2022,By Week,2022,,26,07/02/2022,Florida,166,2771,73,169,66,,273,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,06/26/2022,07/02/2022,By Week,2022,,26,07/02/2022,Florida,167,2772,73,169,66,,274,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/03/2022,07/09/2022,By Week,2022,,27,07/09/2022,Florida,83,1293,33,92,34,,144,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/29/2019,01/04/2020,By Week,2019/2020,,1,01/04/2020,Georgia,0,1803,97,112,0,19,131,
 07/13/2022,01/05/2020,01/11/2020,By Week,2020,,2,01/11/2020,Georgia,0,1807,97,102,0,23,125,
@@ -1698,17 +1698,17 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Hawaii,14,276,119,23,,0,30,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Hawaii,,240,105,16,,0,17,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Hawaii,,247,98,15,,0,18,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Hawaii,,235,95,17,,0,22,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Hawaii,,237,95,17,,0,22,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Hawaii,,217,97,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Hawaii,,196,81,12,,0,14,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Hawaii,,269,115,14,,,16,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Hawaii,,218,98,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Hawaii,,197,82,12,,0,14,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Hawaii,,268,115,14,,,16,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Hawaii,,219,99,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Hawaii,,237,114,20,,0,24,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Hawaii,,211,97,17,,0,21,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Hawaii,,213,98,17,,0,21,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Hawaii,,213,98,12,,0,17,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Hawaii,,231,103,14,,0,20,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Hawaii,,231,102,12,,0,17,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Hawaii,,236,107,21,,0,23,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Hawaii,,230,102,14,,0,20,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Hawaii,,228,101,12,,0,17,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Hawaii,,235,107,21,,0,23,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Hawaii,13,217,104,25,,,35,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Hawaii,13,215,101,11,,,19,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Hawaii,14,196,82,,,0,21,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -2226,17 +2226,17 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Iowa,64,681,106,64,30,,100,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Iowa,53,699,115,55,27,,84,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Iowa,40,598,100,48,17,,73,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Iowa,21,618,101,33,,,48,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Iowa,21,619,102,33,,,48,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Iowa,20,586,94,36,11,,49,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Iowa,15,569,97,36,,,45,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Iowa,15,575,99,31,,,42,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Iowa,,553,93,21,,,28,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Iowa,11,604,104,34,,,43,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Iowa,,541,93,32,,,39,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Iowa,15,568,96,27,,0,36,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Iowa,15,549,99,22,,0,33,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Iowa,14,495,91,28,,,41,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Iowa,14,506,90,26,,,35,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Iowa,15,576,99,31,,,42,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Iowa,,552,93,21,,,28,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Iowa,10,603,104,34,,,42,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Iowa,,540,93,32,,,39,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Iowa,15,565,95,27,,0,36,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Iowa,15,539,97,20,,0,31,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Iowa,13,471,87,25,,,37,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Iowa,13,482,86,24,,,32,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Iowa,18,509,95,33,,0,47,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Iowa,19,507,91,30,,0,42,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Iowa,,475,84,30,,,36,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -2489,17 +2489,17 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Kentucky,321,1291,133,227,176,,373,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Kentucky,264,1193,119,195,136,,324,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Kentucky,220,1219,122,200,121,0,299,
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Kentucky,132,1051,105,131,69,,195,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Kentucky,132,1052,105,132,69,,196,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Kentucky,113,1115,117,131,61,0,183,
 07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Kentucky,78,955,100,113,33,,159,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Kentucky,61,992,103,81,21,,124,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Kentucky,52,937,100,96,19,,132,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Kentucky,48,1023,108,77,13,,116,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Kentucky,41,987,105,62,,,97,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Kentucky,61,993,103,81,21,,124,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Kentucky,52,938,100,96,19,,132,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Kentucky,48,1022,108,77,13,,116,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Kentucky,41,988,105,62,,,97,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Kentucky,35,953,102,75,10,,103,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Kentucky,40,875,97,75,17,0,98,
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Kentucky,32,817,90,74,10,,98,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Kentucky,29,787,88,61,,,86,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Kentucky,40,878,98,75,17,0,98,
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Kentucky,32,820,91,74,10,,98,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Kentucky,29,789,88,62,,,87,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Kentucky,32,740,84,66,,,91,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Kentucky,35,723,85,65,18,0,82,
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Kentucky,37,702,79,49,,0,77,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -2753,18 +2753,18 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Maine,53,345,120,32,11,0,74,
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Maine,16,279,92,14,,0,27,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Maine,,190,68,,,0,12,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Maine,18,266,88,18,,0,33,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Maine,18,267,88,18,,0,33,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Maine,,169,55,,,0,15,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Maine,,240,82,21,,0,26,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Maine,,239,77,10,0,0,16,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Maine,12,300,100,16,,0,25,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Maine,,209,69,17,,0,21,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Maine,12,301,100,16,,0,25,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Maine,,211,69,17,,0,21,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Maine,,263,95,17,,0,23,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Maine,12,242,82,,,,19,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Maine,13,238,89,12,,0,24,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Maine,20,310,116,25,,0,37,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Maine,15,321,123,23,,,40,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Maine,12,269,101,16,,,27,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Maine,12,271,102,16,,,27,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Maine,15,287,110,23,,,36,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Maine,,265,104,15,,,20,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Maine,13,283,108,19,,,31,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -3016,19 +3016,19 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,Massachusetts,180,1267,100,141,87,,234,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Massachusetts,116,1207,92,95,47,0,164,
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Massachusetts,89,1177,95,89,38,0,140,
-07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Massachusetts,46,1058,85,68,21,,94,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Massachusetts,39,1022,83,65,18,0,86,
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Massachusetts,35,1043,90,57,,,86,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Massachusetts,29,1140,99,75,,,97,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Massachusetts,33,1125,93,65,11,,89,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Massachusetts,46,1059,85,68,21,,94,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Massachusetts,39,1023,83,65,18,0,86,
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Massachusetts,35,1044,90,57,,,86,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Massachusetts,29,1141,99,75,,,97,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Massachusetts,33,1126,93,65,11,,89,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Massachusetts,23,1007,84,81,15,,91,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Massachusetts,29,1114,94,50,,,75,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Massachusetts,29,1113,94,50,,,75,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Massachusetts,30,1060,92,61,10,,83,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Massachusetts,25,1142,103,63,12,,85,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Massachusetts,30,1115,98,76,16,,92,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Massachusetts,56,1179,109,74,20,11,120,
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Massachusetts,69,1124,103,73,19,,127,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Massachusetts,47,1056,99,60,12,,100,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Massachusetts,56,1178,109,74,20,11,120,
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Massachusetts,69,1129,104,73,19,,127,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Massachusetts,48,1060,99,61,13,,101,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Massachusetts,41,1090,98,79,17,,105,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Massachusetts,43,1030,96,59,17,0,85,
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Massachusetts,41,964,90,65,15,,93,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -3140,27 +3140,27 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/12/2021,12/18/2021,By Week,2021,,50,12/18/2021,Michigan,825,2915,150,584,490,,921,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/19/2021,12/25/2021,By Week,2021,,51,12/25/2021,Michigan,769,2857,147,562,449,,886,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,Michigan,658,2722,140,459,353,0,764,
-07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,Michigan,661,2773,133,494,376,,783,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,Michigan,660,2773,133,494,375,,783,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,Michigan,663,2799,137,478,361,,783,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,Michigan,641,2746,133,437,317,,762,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,Michigan,642,2750,133,438,318,,763,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,Michigan,531,2513,125,380,286,,626,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,Michigan,486,2463,125,345,244,,590,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,Michigan,359,2277,112,284,184,0,459,
-07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Michigan,313,2218,113,239,163,,391,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Michigan,234,2179,111,183,103,,317,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Michigan,155,2068,104,160,72,,243,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Michigan,123,1992,101,137,49,,212,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Michigan,99,2015,102,139,44,,195,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Michigan,77,1924,99,118,26,,172,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Michigan,61,1867,97,101,17,,151,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Michigan,56,1959,100,88,16,,133,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Michigan,56,1861,96,108,16,,156,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Michigan,50,1897,103,94,16,,132,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,Michigan,359,2276,112,284,184,0,459,
+07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Michigan,313,2219,113,239,163,,391,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Michigan,234,2181,111,183,103,,317,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Michigan,155,2072,104,160,72,,243,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Michigan,123,1993,101,137,49,,212,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Michigan,99,2016,102,139,44,,195,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Michigan,77,1925,100,118,26,,172,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Michigan,62,1871,97,101,17,,152,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Michigan,56,1961,100,88,16,,133,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Michigan,56,1863,97,108,16,,156,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Michigan,50,1904,103,94,16,,132,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Michigan,49,1929,103,98,17,,134,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Michigan,73,1991,109,134,29,,184,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Michigan,77,1964,108,115,19,,176,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Michigan,61,1810,101,103,15,,151,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Michigan,81,1650,93,106,23,,167,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Michigan,73,1994,110,134,28,,185,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Michigan,77,1970,108,116,19,,178,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Michigan,62,1847,103,109,15,,159,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Michigan,84,1676,95,108,24,,171,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Michigan,64,1586,88,85,23,,130,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Michigan,70,1593,91,93,16,,149,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Michigan,68,1588,88,92,31,0,129,
@@ -3281,18 +3281,18 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Minnesota,125,1007,109,95,53,,169,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Minnesota,84,1009,112,89,34,0,139,
 07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Minnesota,63,927,107,53,17,0,99,
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Minnesota,54,924,105,69,15,0,108,
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Minnesota,28,891,105,48,10,,67,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Minnesota,34,918,105,53,12,0,75,
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Minnesota,25,882,104,45,,,62,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Minnesota,54,925,105,69,15,0,108,
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Minnesota,28,892,105,48,10,,67,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Minnesota,34,919,105,53,12,0,75,
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Minnesota,25,881,104,45,,,62,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Minnesota,24,886,103,47,,,65,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Minnesota,24,879,98,48,,,64,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Minnesota,24,882,98,48,,,64,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Minnesota,23,926,109,39,,,61,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Minnesota,18,871,106,40,,,56,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Minnesota,31,831,99,39,,0,66,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Minnesota,31,828,97,48,,,71,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Minnesota,35,760,90,53,,0,80,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Minnesota,51,765,93,47,13,,87,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Minnesota,18,874,106,40,,,56,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Minnesota,31,832,99,39,,0,66,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Minnesota,31,832,98,48,,,71,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Minnesota,35,765,90,54,,0,81,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Minnesota,52,770,94,47,13,,88,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Minnesota,37,687,84,40,12,0,65,
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Minnesota,28,649,82,42,,0,67,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Minnesota,36,672,86,29,,0,57,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -3414,17 +3414,17 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Mississippi,116,737,114,103,56,0,163,
 07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Mississippi,104,750,122,102,57,0,149,
 07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Mississippi,68,687,110,71,26,0,113,
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Mississippi,43,705,111,64,15,,92,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Mississippi,29,626,100,50,,0,74,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Mississippi,25,614,105,56,,0,72,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Mississippi,43,707,111,64,15,,92,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Mississippi,29,630,100,50,,0,74,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Mississippi,25,615,105,56,,0,72,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Mississippi,26,649,104,39,,,63,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Mississippi,29,662,110,55,,,76,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Mississippi,18,625,105,55,,,68,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Mississippi,10,531,90,36,,0,43,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Mississippi,,559,95,32,,0,37,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Mississippi,16,589,99,39,,,50,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Mississippi,,538,92,35,0,0,43,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Mississippi,11,504,87,32,,0,42,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Mississippi,29,666,111,55,,,76,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Mississippi,18,632,106,56,,,69,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Mississippi,10,533,90,36,,0,43,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Mississippi,,568,97,32,,0,37,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Mississippi,16,594,100,39,,,50,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Mississippi,,547,94,34,0,0,42,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Mississippi,11,506,87,32,,0,42,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Mississippi,,535,89,44,,,53,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Mississippi,13,511,86,36,,,46,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Mississippi,14,456,77,30,,0,38,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -3537,26 +3537,26 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/19/2021,12/25/2021,By Week,2021,,51,12/25/2021,Missouri,284,1666,128,230,164,,354,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,Missouri,299,1644,125,235,161,,376,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,Missouri,400,1842,128,285,214,,477,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,Missouri,475,1924,135,319,246,,554,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,Missouri,475,1926,135,319,246,,554,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,Missouri,517,1926,131,362,298,,585,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,Missouri,461,1896,136,295,227,,532,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,Missouri,461,1897,136,295,227,,532,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,Missouri,423,1863,138,296,225,,498,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,Missouri,366,1735,127,260,182,,445,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Missouri,275,1564,111,213,146,,344,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Missouri,156,1471,110,158,82,,235,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Missouri,120,1407,108,143,68,,197,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Missouri,90,1408,108,88,43,,137,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Missouri,63,1298,99,84,25,,124,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Missouri,61,1288,97,88,27,,124,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Missouri,38,1186,93,66,16,,89,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Missouri,40,1242,102,62,13,,90,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Missouri,26,1259,104,83,,,103,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Missouri,27,1147,94,72,12,,92,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Missouri,19,1170,95,64,,,79,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Missouri,24,1191,96,60,,0,78,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Missouri,20,1160,98,57,,,74,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Missouri,19,1055,89,86,,,101,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Missouri,21,1013,86,58,,,71,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,Missouri,366,1736,127,260,182,,445,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Missouri,275,1566,111,213,146,,344,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Missouri,156,1474,110,158,82,,235,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Missouri,120,1412,108,143,68,,197,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Missouri,90,1417,109,88,43,,137,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Missouri,64,1302,99,84,25,,125,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Missouri,61,1296,97,88,27,,124,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Missouri,38,1198,94,66,16,,89,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Missouri,40,1260,104,62,13,,90,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Missouri,26,1276,106,83,,,103,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Missouri,27,1160,95,72,12,,92,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Missouri,19,1185,96,64,,,79,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Missouri,24,1206,97,60,,0,78,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Missouri,20,1196,101,60,,,77,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Missouri,21,1082,91,89,,,106,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Missouri,21,1015,86,58,,,71,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Missouri,23,1077,92,62,,0,80,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Missouri,21,963,82,51,,0,63,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Missouri,20,984,85,61,,,76,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -4064,33 +4064,33 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/12/2021,12/18/2021,By Week,2021,,50,12/18/2021,New Hampshire,63,325,128,48,40,0,71,
 07/13/2022,12/19/2021,12/25/2021,By Week,2021,,51,12/25/2021,New Hampshire,74,335,134,58,42,0,90,
 07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,New Hampshire,55,300,118,49,35,,70,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,New Hampshire,42,200,81,32,27,0,47,
+07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,New Hampshire,42,201,82,32,27,0,47,
 07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,New Hampshire,55,314,119,47,34,,70,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,New Hampshire,49,262,106,28,19,0,58,
-07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,New Hampshire,46,280,109,29,21,,55,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,New Hampshire,36,204,76,24,17,0,43,
+07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,New Hampshire,46,281,110,29,21,,55,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,New Hampshire,36,205,76,24,17,0,43,
 07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,New Hampshire,29,248,97,28,13,0,44,
 07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,New Hampshire,20,209,77,16,,0,28,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,New Hampshire,14,186,71,13,,0,20,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,New Hampshire,,124,51,,,0,10,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,New Hampshire,,107,42,,,0,11,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,New Hampshire,,125,52,,,0,10,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,New Hampshire,,109,43,,,0,12,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,New Hampshire,,178,75,,,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,New Hampshire,,212,92,11,,0,13,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,New Hampshire,0,146,62,10,0,0,10,
 07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,New Hampshire,,204,80,18,0,0,20,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,New Hampshire,,173,80,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,New Hampshire,,169,71,14,,,18,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,New Hampshire,,198,80,10,,,14,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,New Hampshire,,199,80,10,,,14,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,New Hampshire,,185,78,,0,0,12,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,New Hampshire,,160,67,,0,,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,New Hampshire,12,228,101,16,,,28,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,New Hampshire,,235,110,,,0,11,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,New Hampshire,13,229,102,16,,,29,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,New Hampshire,,234,110,,,0,10,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,New Hampshire,14,225,100,14,,0,22,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,New Hampshire,,241,118,11,,0,17,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,New Hampshire,,227,106,10,0,0,15,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,06/19/2022,06/25/2022,By Week,2022,,25,06/25/2022,New Hampshire,,221,95,12,,0,16,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,06/19/2022,06/25/2022,By Week,2022,,25,06/25/2022,New Hampshire,,222,95,12,,0,17,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/26/2022,07/02/2022,By Week,2022,,26,07/02/2022,New Hampshire,,221,101,10,,0,16,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,07/03/2022,07/09/2022,By Week,2022,,27,07/09/2022,New Hampshire,,164,75,,,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,07/03/2022,07/09/2022,By Week,2022,,27,07/09/2022,New Hampshire,,167,76,,,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/29/2019,01/04/2020,By Week,2019/2020,,1,01/04/2020,New Jersey,0,1628,103,73,0,,77,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/05/2020,01/11/2020,By Week,2020,,2,01/11/2020,New Jersey,0,1588,96,97,0,,104,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/12/2020,01/18/2020,By Week,2020,,3,01/18/2020,New Jersey,0,1490,95,86,0,16,102,
@@ -4460,27 +4460,27 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/12/2021,12/18/2021,By Week,2021,,50,12/18/2021,New York,413,2455,124,337,193,,560,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/19/2021,12/25/2021,By Week,2021,,51,12/25/2021,New York,435,2531,123,375,219,,592,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,New York,482,2636,128,391,231,,645,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,New York,632,2752,127,433,279,10,796,
+07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,New York,632,2753,127,433,279,10,796,
 07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,New York,721,2922,132,458,304,,877,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,New York,763,2927,138,476,309,,931,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,New York,763,2928,138,476,309,,931,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,New York,663,2722,126,394,273,,788,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,New York,542,2658,129,393,248,,689,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,New York,394,2454,115,316,170,0,540,
-07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,New York,294,2240,109,246,116,0,424,
-07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,New York,187,2071,99,204,75,0,316,
-07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,New York,165,2087,103,207,66,0,306,
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,New York,125,2135,103,177,46,,257,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,New York,76,1990,100,146,29,,196,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,New York,294,2242,109,246,116,0,424,
+07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,New York,187,2073,99,204,75,0,316,
+07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,New York,165,2089,103,207,66,0,306,
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,New York,126,2136,103,177,46,,258,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,New York,76,1991,100,146,29,,196,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,New York,72,1964,97,155,26,,204,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,New York,70,1972,100,159,25,,205,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,New York,70,1973,100,159,25,,205,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,New York,63,2049,106,157,16,,209,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,New York,52,1936,98,150,14,,190,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,New York,83,1943,101,157,30,,218,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,New York,83,1946,101,157,30,,218,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,New York,111,2046,107,167,35,,249,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,New York,119,2039,107,170,38,10,261,
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,New York,172,2209,123,184,42,,319,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,New York,132,1896,104,157,34,,261,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,New York,118,1822,98,150,40,,229,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,New York,119,2038,107,170,38,10,261,
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,New York,172,2208,123,184,42,,319,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,New York,133,1904,104,156,34,,261,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,New York,119,1834,99,151,41,,230,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,New York,109,1734,99,133,37,,207,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,New York,78,1641,90,118,30,,167,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,New York,74,1714,93,128,23,,180,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -4734,17 +4734,17 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,North Carolina,311,2090,105,258,169,,402,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,North Carolina,209,2041,106,219,108,0,320,
 07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,North Carolina,185,1953,100,170,90,,267,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,North Carolina,121,1835,96,142,58,,206,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,North Carolina,121,1837,96,143,58,,207,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,North Carolina,77,1709,91,125,40,,163,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,North Carolina,60,1896,101,110,33,,140,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,North Carolina,46,1815,97,110,23,,134,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,North Carolina,60,1897,101,110,33,,140,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,North Carolina,46,1817,98,110,23,,134,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,North Carolina,50,1766,95,107,19,,140,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,North Carolina,32,1861,105,90,13,,114,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,North Carolina,40,1966,112,116,16,,142,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,North Carolina,38,1845,102,107,,,140,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,North Carolina,45,1804,103,114,17,,144,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,North Carolina,51,1888,109,98,11,,139,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,North Carolina,61,1682,94,100,24,,139,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,North Carolina,32,1862,105,90,13,,114,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,North Carolina,40,1974,112,116,16,,142,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,North Carolina,38,1849,102,107,,,140,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,North Carolina,45,1809,103,114,17,,144,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,North Carolina,51,1902,109,98,11,,139,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,North Carolina,63,1686,94,100,24,,141,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,North Carolina,61,1636,95,109,22,0,148,
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,North Carolina,66,1701,96,126,27,,166,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,North Carolina,55,1571,89,104,20,,141,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -5254,24 +5254,24 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,Oregon,74,927,123,79,37,,118,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,Oregon,89,882,108,64,37,,116,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,Oregon,108,1010,121,73,49,0,132,
-07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,Oregon,149,966,120,94,67,,177,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,Oregon,149,967,120,94,67,,177,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,Oregon,181,1043,141,104,74,0,211,
 07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,Oregon,181,1054,144,95,73,0,203,
 07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,Oregon,173,947,127,104,76,0,201,
 07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Oregon,147,935,131,101,72,,176,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Oregon,119,949,130,76,49,,147,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Oregon,100,876,118,65,44,0,121,
-07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Oregon,61,801,107,41,22,0,80,
+07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Oregon,61,802,107,41,22,0,80,
 07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Oregon,47,779,102,38,15,0,70,
 07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Oregon,27,837,116,41,13,0,55,
 07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Oregon,25,746,103,28,,,46,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Oregon,15,790,109,41,,0,48,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Oregon,15,791,109,41,,0,48,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Oregon,23,810,114,43,12,0,54,
-07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Oregon,20,855,118,33,,,51,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Oregon,20,752,108,41,,,55,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Oregon,28,814,120,41,,0,61,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Oregon,26,744,108,50,15,0,61,
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Oregon,27,630,90,39,,0,57,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Oregon,20,854,118,33,,,51,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Oregon,20,751,108,41,,,55,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Oregon,28,817,120,41,,0,61,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Oregon,26,746,108,50,15,0,61,
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Oregon,28,631,90,39,,0,58,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Oregon,15,665,97,37,,,44,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Oregon,32,582,85,38,11,0,59,
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Oregon,19,574,85,41,12,,49,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -5511,7 +5511,7 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,11/07/2021,11/13/2021,By Week,2021,,45,11/13/2021,Rhode Island,14,220,116,16,,0,24,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,11/14/2021,11/20/2021,By Week,2021,,46,11/20/2021,Rhode Island,20,247,120,14,,0,26,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,11/21/2021,11/27/2021,By Week,2021,,47,11/27/2021,Rhode Island,19,248,121,23,11,0,31,
-07/13/2022,11/28/2021,12/04/2021,By Week,2021,,48,12/04/2021,Rhode Island,25,283,140,25,14,0,36,
+07/13/2022,11/28/2021,12/04/2021,By Week,2021,,48,12/04/2021,Rhode Island,25,277,137,25,14,0,36,
 07/13/2022,12/05/2021,12/11/2021,By Week,2021,,49,12/11/2021,Rhode Island,41,265,119,30,24,0,47,
 07/13/2022,12/12/2021,12/18/2021,By Week,2021,,50,12/18/2021,Rhode Island,33,247,120,39,23,0,49,
 07/13/2022,12/19/2021,12/25/2021,By Week,2021,,51,12/25/2021,Rhode Island,50,290,134,41,32,,60,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -6176,27 +6176,27 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/12/2021,12/18/2021,By Week,2021,,50,12/18/2021,Utah,79,488,136,79,52,0,106,
 07/13/2022,12/19/2021,12/25/2021,By Week,2021,,51,12/25/2021,Utah,53,493,133,57,33,0,77,
 07/13/2022,12/26/2021,01/01/2022,By Week,2021/2022,,52,01/01/2022,Utah,54,477,122,45,26,0,73,
-07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,Utah,70,523,126,61,37,,95,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/02/2022,01/08/2022,By Week,2022,,1,01/08/2022,Utah,70,524,126,61,37,,95,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/09/2022,01/15/2022,By Week,2022,,2,01/15/2022,Utah,84,487,123,52,38,,99,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/16/2022,01/22/2022,By Week,2022,,3,01/22/2022,Utah,114,548,146,75,58,,134,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/23/2022,01/29/2022,By Week,2022,,4,01/29/2022,Utah,101,553,139,57,42,0,116,
 07/13/2022,01/30/2022,02/05/2022,By Week,2022,,5,02/05/2022,Utah,106,538,146,63,44,0,125,
 07/13/2022,02/06/2022,02/12/2022,By Week,2022,,6,02/12/2022,Utah,94,479,123,66,48,0,112,
 07/13/2022,02/13/2022,02/19/2022,By Week,2022,,7,02/19/2022,Utah,57,450,123,46,31,,73,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Utah,50,442,115,41,23,0,68,
+07/13/2022,02/20/2022,02/26/2022,By Week,2022,,8,02/26/2022,Utah,50,441,114,40,23,0,67,
 07/13/2022,02/27/2022,03/05/2022,By Week,2022,,9,03/05/2022,Utah,44,445,114,41,21,,65,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/06/2022,03/12/2022,By Week,2022,,10,03/12/2022,Utah,29,428,106,30,15,,46,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/13/2022,03/19/2022,By Week,2022,,11,03/19/2022,Utah,17,449,121,25,,,34,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/20/2022,03/26/2022,By Week,2022,,12,03/26/2022,Utah,,405,106,27,,,32,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/27/2022,04/02/2022,By Week,2022,,13,04/02/2022,Utah,,404,115,27,,0,28,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Utah,,376,105,12,,,20,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Utah,,426,113,21,0,,24,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/03/2022,04/09/2022,By Week,2022,,14,04/09/2022,Utah,,374,104,12,,,20,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/10/2022,04/16/2022,By Week,2022,,15,04/16/2022,Utah,,427,113,21,0,,24,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Utah,,447,117,25,,,31,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Utah,,407,115,21,0,,30,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Utah,,408,115,21,0,,30,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Utah,,394,110,17,,0,19,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Utah,,381,105,21,,0,21,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Utah,,362,102,20,,,24,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Utah,,343,92,11,0,0,15,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Utah,,384,106,21,,0,21,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Utah,,380,107,21,,,25,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Utah,,348,93,11,0,0,15,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Utah,11,312,89,,,0,15,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Utah,10,322,88,15,,0,22,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/12/2022,06/18/2022,By Week,2022,,24,06/18/2022,Utah,,348,98,21,,0,25,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -6986,8 +6986,8 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,04/17/2022,04/23/2022,By Week,2022,,16,04/23/2022,Wyoming,,45,53,,0,,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/24/2022,04/30/2022,By Week,2022,,17,04/30/2022,Wyoming,0,42,53,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/01/2022,05/07/2022,By Week,2022,,18,05/07/2022,Wyoming,,73,84,,,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Wyoming,,89,94,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Wyoming,,83,95,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/08/2022,05/14/2022,By Week,2022,,19,05/14/2022,Wyoming,,90,95,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/15/2022,05/21/2022,By Week,2022,,20,05/21/2022,Wyoming,,82,94,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/22/2022,05/28/2022,By Week,2022,,21,05/28/2022,Wyoming,,99,112,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,05/29/2022,06/04/2022,By Week,2022,,22,06/04/2022,Wyoming,,75,98,,0,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/05/2022,06/11/2022,By Week,2022,,23,06/11/2022,Wyoming,,90,113,,,0,10,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -7149,15 +7149,15 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,08/01/2021,08/31/2021,By Month,2021,8,,,United States,48810,304028,135,41897,29176,62,61564,
 07/13/2022,09/01/2021,09/30/2021,By Month,2021,9,,,United States,63431,312486,141,51091,38294,86,76287,
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,United States,42601,300197,128,38652,25395,65,55907,
-07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,United States,32325,289059,123,31967,18374,77,45978,
+07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,United States,32325,289053,123,31967,18374,77,45978,
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,United States,45615,320000,125,41190,25881,353,61240,
-07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,United States,81573,358311,133,57979,42677,598,97328,
-07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,United States,48856,282348,120,37813,25657,282,61207,
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,United States,14948,257910,102,19353,7008,307,27566,
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,United States,5935,235756,101,13843,2137,380,17995,
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,United States,6834,230835,99,13599,2285,344,18470,
-07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,United States,7320,190265,86,11736,2607,202,16634,
-07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,United States,1084,25388,11,1519,369,12,2245,
+07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,United States,81575,358332,133,57981,42678,598,97331,
+07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,United States,48857,282376,120,37814,25658,282,61208,
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,United States,14952,258005,102,19356,7008,307,27573,
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,United States,5935,235906,101,13846,2138,380,17997,
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,United States,6853,231236,100,13624,2290,346,18511,
+07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,United States,7322,190267,86,11735,2606,202,16636,
+07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,United States,1086,25392,11,1520,370,12,2247,
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Alabama,,4729,94,282,0,35,318,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/01/2020,02/29/2020,By Month,2020,2,,,Alabama,,4627,107,276,0,39,316,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/01/2020,03/31/2020,By Month,2020,3,,,Alabama,48,4756,103,287,10,33,357,
@@ -7306,11 +7306,11 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,California,2779,27227,125,3152,1852,,4081,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,California,2428,25837,119,2955,1578,,3808,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,California,2351,28822,118,3155,1496,,4017,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,California,6752,34587,130,5534,3885,21,8418,
-07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,California,4887,28397,125,4299,2923,11,6268,
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,California,1432,25293,103,2107,780,,2764,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,California,495,22875,103,1422,206,,1718,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,California,538,21841,99,1363,206,23,1718,
+07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,California,6752,34592,130,5534,3885,21,8418,
+07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,California,4887,28406,125,4301,2923,11,6270,
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,California,1432,25299,103,2107,780,,2764,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,California,495,22894,103,1422,206,,1718,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,California,540,21887,99,1367,207,23,1723,
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,California,724,18038,85,1183,297,42,1650,
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,California,77,1440,7,85,31,0,131,
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Colorado,0,3721,103,225,0,47,272,
@@ -7461,13 +7461,13 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,Florida,2657,21424,127,2881,1802,,3738,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,Florida,889,19299,114,1564,582,,1876,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Florida,864,20501,111,1614,513,22,1984,
-07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Florida,4580,25333,131,4137,2889,26,5848,
-07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Florida,3435,21469,124,3117,2100,17,4466,
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Florida,1090,20112,108,1639,574,20,2174,
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Florida,443,18146,104,1141,178,10,1413,
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Florida,462,16748,97,1081,194,16,1363,
-07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Florida,796,15054,92,1114,351,39,1597,
-07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Florida,130,1995,12,137,52,,218,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Florida,4582,25336,131,4138,2890,26,5850,
+07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Florida,3436,21475,124,3117,2101,17,4466,
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Florida,1090,20127,108,1640,574,20,2175,
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Florida,444,18160,104,1143,179,10,1415,
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Florida,467,16882,98,1092,196,16,1377,
+07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Florida,797,15055,92,1113,350,39,1598,
+07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Florida,131,1996,12,137,52,,219,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Georgia,0,7968,99,452,0,84,536,
 07/13/2022,02/01/2020,02/29/2020,By Month,2020,2,,,Georgia,,7420,108,369,0,58,429,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/01/2020,03/31/2020,By Month,2020,3,,,Georgia,221,8014,107,576,105,29,721,
@@ -7525,9 +7525,9 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Hawaii,34,1083,105,82,18,0,98,
 07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Hawaii,154,1324,126,155,82,0,227,
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Hawaii,105,1130,122,113,58,0,160,
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Hawaii,22,1000,94,60,10,0,72,
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Hawaii,16,990,105,60,,,71,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Hawaii,36,1009,103,71,12,0,95,
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Hawaii,22,1003,95,60,10,0,72,
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Hawaii,16,992,105,60,,,71,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Hawaii,36,1004,103,71,12,0,95,
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Hawaii,46,815,85,49,16,,80,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Hawaii,,108,11,,,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Idaho,0,1235,97,70,0,,76,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -7649,9 +7649,9 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Iowa,593,3552,130,452,283,,765,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Iowa,685,3591,125,461,286,17,875,
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Iowa,421,2886,114,300,174,,554,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Iowa,121,2690,100,179,57,10,252,
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Iowa,47,2443,97,127,15,,166,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Iowa,63,2331,95,118,19,,164,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Iowa,121,2691,101,179,57,10,252,
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Iowa,46,2441,97,127,15,,165,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Iowa,61,2270,93,111,19,,155,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Iowa,66,1996,84,113,22,,158,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Iowa,13,332,14,13,,0,25,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Kansas,,2536,100,185,,36,221,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -7711,9 +7711,9 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Kentucky,921,5692,130,901,560,,1263,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Kentucky,1478,6227,136,1218,840,12,1861,
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Kentucky,1280,5182,131,912,668,,1526,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Kentucky,523,4721,109,584,264,,847,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Kentucky,188,4167,103,329,56,15,474,
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Kentucky,148,3528,90,309,50,,412,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Kentucky,523,4722,109,585,264,,848,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Kentucky,188,4169,103,329,56,15,474,
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Kentucky,148,3536,90,310,50,,413,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Kentucky,159,2652,70,227,52,,335,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Kentucky,,217,6,17,,,21,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Louisiana,0,4251,98,226,0,18,244,
@@ -7773,9 +7773,9 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Maine,338,1808,141,183,94,,428,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Maine,182,1088,84,108,52,0,238,
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Maine,165,1252,106,84,35,0,214,
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Maine,47,978,74,59,11,0,95,
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Maine,37,1080,86,60,,,91,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Maine,65,1265,109,88,16,,145,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Maine,47,979,74,59,11,0,95,
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Maine,37,1083,86,60,,,91,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Maine,65,1267,109,88,16,,145,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Maine,42,1196,105,83,10,,117,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Maine,,259,22,17,0,0,25,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Maryland,0,4509,96,342,0,27,369,
@@ -7835,9 +7835,9 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Massachusetts,808,6275,117,745,446,11,1118,
 07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Massachusetts,1528,6824,119,1009,727,15,1823,
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Massachusetts,585,5010,99,492,275,,804,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Massachusetts,163,4754,90,296,58,,408,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Massachusetts,117,4645,94,274,49,18,359,
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Massachusetts,223,4939,102,310,72,24,483,
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Massachusetts,163,4759,90,296,58,,408,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Massachusetts,117,4644,94,274,49,18,359,
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Massachusetts,224,4947,102,311,73,24,484,
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Massachusetts,160,4219,91,261,59,,367,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Massachusetts,21,688,15,40,,,58,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Michigan,0,8942,99,531,0,40,571,
@@ -7864,11 +7864,11 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,Michigan,1356,10066,124,1271,828,0,1799,
 07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,Michigan,2299,11412,140,1780,1305,,2778,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Michigan,3472,12893,150,2447,1970,12,3958,
-07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Michigan,2744,11910,132,1967,1475,16,3246,
-07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Michigan,1271,9041,114,989,630,,1637,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Michigan,457,8737,101,587,185,13,868,
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Michigan,231,8191,101,411,70,23,595,
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Michigan,321,8139,102,496,97,18,737,
+07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Michigan,2744,11914,132,1968,1475,16,3247,
+07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Michigan,1271,9044,114,989,630,,1637,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Michigan,458,8747,101,587,185,13,869,
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Michigan,231,8202,101,411,70,23,595,
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Michigan,325,8211,103,505,97,20,752,
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Michigan,262,6524,86,340,81,,526,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Michigan,45,1112,14,55,,0,93,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Minnesota,0,4272,103,307,0,30,337,
@@ -7897,9 +7897,9 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Minnesota,1141,5547,138,779,542,,1385,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Minnesota,935,5246,127,598,385,22,1167,
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Minnesota,532,4215,115,402,208,10,735,
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Minnesota,181,4031,105,249,58,,373,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Minnesota,94,3806,104,180,25,,256,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Minnesota,160,3497,94,205,39,,329,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Minnesota,181,4033,105,249,58,,373,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Minnesota,94,3812,104,180,25,,256,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Minnesota,161,3512,95,206,39,,331,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Minnesota,142,2852,84,165,27,0,280,
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Minnesota,26,519,15,42,11,0,57,
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Mississippi,0,2788,93,208,0,10,218,
@@ -7928,9 +7928,9 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Mississippi,234,3285,113,314,108,,443,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Mississippi,1016,4179,139,650,452,11,1219,
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Mississippi,808,3454,132,563,401,,972,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Mississippi,233,2992,109,298,91,,440,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Mississippi,89,2646,103,202,26,,271,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Mississippi,46,2439,93,161,11,,197,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Mississippi,233,2998,109,298,91,,440,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Mississippi,89,2660,104,203,26,,272,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Mississippi,46,2464,94,160,11,,196,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Mississippi,73,1986,79,132,23,,185,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Mississippi,11,181,7,,,0,19,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Missouri,0,5952,94,363,0,36,399,
@@ -7957,11 +7957,11 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,Missouri,661,6322,120,627,384,,904,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,Missouri,540,6318,119,587,301,0,826,
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Missouri,1118,7189,126,957,651,12,1433,
-07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Missouri,2021,8346,132,1375,1064,25,2354,
-07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Missouri,1139,6489,119,887,597,13,1438,
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Missouri,313,5869,102,402,149,,574,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Missouri,125,5142,99,299,43,10,391,
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Missouri,91,4878,92,285,27,,354,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Missouri,2021,8349,132,1375,1064,25,2354,
+07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Missouri,1139,6495,119,887,597,13,1438,
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Missouri,314,5904,102,402,149,,575,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Missouri,125,5208,100,299,43,10,391,
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Missouri,93,4958,94,291,27,,362,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Missouri,103,4058,80,237,37,,306,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Missouri,11,411,8,27,,0,34,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Montana,0,937,102,51,0,,55,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -8081,13 +8081,13 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,New Hampshire,113,1235,115,111,55,0,169,
 07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,New Hampshire,158,1277,126,127,75,0,210,
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,New Hampshire,279,1439,130,211,161,,332,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,New Hampshire,202,1125,100,143,107,,241,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,New Hampshire,93,842,81,78,42,0,129,
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,New Hampshire,20,678,64,33,,0,45,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,New Hampshire,12,784,77,52,,,63,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,New Hampshire,32,919,91,42,,,69,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,New Hampshire,31,961,102,49,,0,72,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,New Hampshire,,227,23,,,0,11,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,New Hampshire,202,1127,100,143,107,,241,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,New Hampshire,93,843,81,78,42,0,129,
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,New Hampshire,21,681,64,33,,0,46,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,New Hampshire,12,785,77,52,,,63,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,New Hampshire,33,919,91,41,,,69,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,New Hampshire,32,962,103,49,,0,73,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,New Hampshire,,230,23,,,0,12,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,New Jersey,0,6930,98,390,0,41,431,
 07/13/2022,02/01/2020,02/29/2020,By Month,2020,2,,,New Jersey,0,6233,99,341,0,39,380,
 07/13/2022,03/01/2020,03/31/2020,By Month,2020,3,,,New Jersey,701,7950,120,910,362,45,1292,
@@ -8174,11 +8174,11 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,New York,995,9856,118,1085,478,,1604,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,New York,1084,10084,121,1147,535,,1697,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,New York,1898,11270,126,1604,910,,2600,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,New York,3023,12466,130,1934,1278,18,3697,
-07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,New York,1300,9290,112,1113,555,,1860,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,New York,416,8926,100,721,151,,994,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,New York,337,8553,103,678,106,21,930,
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,New York,585,8719,107,717,170,25,1155,
+07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,New York,3023,12468,131,1934,1278,18,3697,
+07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,New York,1300,9294,112,1113,555,,1860,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,New York,417,8930,100,721,151,,995,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,New York,337,8557,103,678,106,21,930,
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,New York,587,8737,108,717,171,25,1156,
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,New York,331,7256,92,529,108,,756,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,New York,64,1894,24,147,17,,195,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,New York City,0,5104,96,428,0,64,492,
@@ -8238,9 +8238,9 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,North Carolina,998,10488,122,1184,615,,1572,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,North Carolina,2416,11550,131,1904,1411,17,2920,
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,North Carolina,1879,9206,116,1385,1026,,2243,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,North Carolina,576,8345,98,671,282,,971,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,North Carolina,185,7957,102,461,84,12,573,
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,North Carolina,223,7888,101,460,68,,623,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,North Carolina,576,8347,98,672,282,,972,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,North Carolina,185,7969,102,461,84,12,573,
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,North Carolina,225,7915,101,460,68,,625,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,North Carolina,260,6758,90,482,106,,639,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,North Carolina,56,1090,14,72,22,,107,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,North Dakota,0,660,103,40,0,,49,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -8360,11 +8360,11 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,Oregon,638,4241,137,432,310,0,760,
 07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,Oregon,393,3774,124,312,198,0,507,
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Oregon,331,4086,126,319,163,,491,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Oregon,585,4319,124,369,249,,706,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Oregon,585,4320,124,369,249,,706,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Oregon,602,3824,131,364,260,,707,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Oregon,226,3602,109,186,89,,324,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Oregon,84,3399,112,169,34,,221,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Oregon,110,3090,101,181,44,,248,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Oregon,226,3603,109,186,89,,324,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Oregon,84,3398,112,169,34,,221,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Oregon,111,3096,101,181,44,,249,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Oregon,101,2249,77,146,45,,205,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Oregon,,234,8,13,,,20,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Pennsylvania,0,12523,97,747,0,77,824,
@@ -8420,7 +8420,7 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,08/01/2021,08/31/2021,By Month,2021,8,,,Rhode Island,38,928,113,60,22,,77,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,09/01/2021,09/30/2021,By Month,2021,9,,,Rhode Island,63,905,108,84,37,0,110,
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,Rhode Island,53,970,112,85,33,0,105,
-07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,Rhode Island,72,1020,120,81,36,0,117,
+07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,Rhode Island,72,1014,119,81,36,0,117,
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Rhode Island,179,1197,125,160,113,,228,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Rhode Island,293,1183,120,196,164,0,325,
 07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Rhode Island,120,937,109,76,50,,147,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -8577,11 +8577,11 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,10/01/2021,10/31/2021,By Month,2021,10,,,Utah,398,2254,140,300,212,,487,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,11/01/2021,11/30/2021,By Month,2021,11,,,Utah,365,2129,135,288,213,0,440,
 07/13/2022,12/01/2021,12/31/2021,By Month,2021,12,,,Utah,291,2197,132,274,167,0,398,
-07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Utah,403,2313,133,268,192,,484,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Utah,293,1901,125,208,137,,365,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/01/2022,01/31/2022,By Month,2022,1,,,Utah,403,2314,133,268,192,,484,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,02/01/2022,02/28/2022,By Month,2022,2,,,Utah,293,1900,125,207,137,,364,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,03/01/2022,03/31/2022,By Month,2022,3,,,Utah,92,1889,113,139,53,,183,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,04/01/2022,04/30/2022,By Month,2022,4,,,Utah,22,1765,112,83,,10,109,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Utah,18,1599,100,71,,,83,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,05/01/2022,05/31/2022,By Month,2022,5,,,Utah,18,1625,102,72,,,84,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Utah,54,1415,93,65,15,0,104,
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Utah,,129,8,,,0,,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,01/31/2020,By Month,2020,1,,,Vermont,0,489,91,29,0,,34,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -8802,8 +8802,8 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,06/01/2022,06/30/2022,By Month,2022,6,,,Puerto Rico,177,2118,89,324,116,,387,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,07/01/2022,07/09/2022,By Month,2022,7,,,Puerto Rico,26,301,12,58,18,0,66,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,United States,385676,3390079,119,352022,180092,8787,565242,
-07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,United States,463193,3471563,122,412018,259604,1093,616427,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,United States,166550,1580813,56,155842,82740,2125,241445,
+07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,United States,463193,3471557,122,412018,259604,1093,616427,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,United States,166580,1581514,56,155876,82748,2127,241503,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Alabama,6706,63362,120,5213,2177,140,9870,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Alabama,9719,67323,127,6356,3604,36,12496,
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Alabama,2433,24901,47,1870,814,23,3509,
@@ -8818,7 +8818,7 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Arkansas,1916,18804,59,1860,901,25,2897,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,California,33579,320832,119,37036,18790,819,52633,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,California,48329,334634,124,45893,30152,53,64109,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,California,14905,152471,56,15993,8328,110,22667,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,California,14907,152556,56,15999,8329,110,22674,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Colorado,5073,47595,121,4593,2503,139,7297,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Colorado,6207,49130,125,5400,3634,13,7983,
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Colorado,2173,21388,54,1957,1040,72,3159,
@@ -8833,7 +8833,7 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,District of Columbia,299,2665,43,321,187,0,433,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Florida,21828,243105,117,25437,12486,486,35230,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Florida,38876,264826,127,38999,26630,87,51307,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Florida,10936,118857,57,12366,6338,131,17079,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Florida,10947,119031,57,12380,6342,131,17100,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Georgia,10454,103561,122,9619,5131,200,15137,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Georgia,17308,112765,132,13916,9814,47,21441,
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Georgia,4953,45591,54,4239,2440,56,6799,
@@ -8851,37 +8851,37 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Indiana,4260,35529,54,3991,2346,62,5960,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Iowa,4769,35658,117,3382,1612,96,6633,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Iowa,3526,33999,112,3039,1535,17,5045,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Iowa,1416,16269,54,1311,574,45,2194,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Iowa,1413,16207,53,1304,574,45,2184,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Kansas,3510,31125,118,2939,1497,122,5071,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Kansas,3805,31044,117,3160,1855,14,5124,
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Kansas,1583,13947,53,1311,715,30,2203,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Kentucky,4619,55709,115,5965,2200,145,8524,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Kentucky,8693,60371,125,8526,5079,18,12154,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Kentucky,3782,26694,55,3596,1933,44,5476,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Kentucky,3782,26705,55,3598,1933,44,5478,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Louisiana,7066,56828,123,5747,3550,96,9352,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Louisiana,6918,57478,125,5677,3777,18,8831,
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Louisiana,1954,22503,49,1663,955,25,2684,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Maine,465,15620,107,1023,108,37,1417,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Maine,1433,17129,117,1274,422,,2288,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Maine,546,7118,49,499,131,11,925,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Maine,546,7124,49,499,131,11,925,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Maryland,6731,59644,119,5857,2583,151,10138,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Maryland,6100,57476,115,5700,2803,11,9007,
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Maryland,2861,26489,53,2527,1156,27,4252,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Massachusetts,10221,68930,115,7590,3789,214,14227,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Massachusetts,5578,63953,107,5797,2859,21,8534,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Massachusetts,2797,31079,52,2682,1244,74,4302,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Massachusetts,2798,31091,52,2683,1245,74,4303,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Michigan,12342,115487,119,11591,6090,284,18113,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Michigan,14945,116047,119,13127,8400,26,19692,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Michigan,5331,53654,55,4845,2545,83,7702,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Michigan,5336,53754,55,4855,2545,85,7719,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Minnesota,5834,52186,116,4558,1967,154,8574,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Minnesota,5181,51450,115,4515,2294,13,7413,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Minnesota,2070,24166,54,1841,753,43,3197,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Minnesota,2071,24189,54,1842,753,43,3199,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Mississippi,5162,39309,124,5077,2703,71,7599,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Mississippi,5907,40298,127,5443,3257,33,8118,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Mississippi,2276,17877,56,2015,1005,26,3303,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Mississippi,2276,17922,56,2015,1005,26,3303,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Missouri,8059,76268,118,6812,3423,214,11656,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Missouri,8946,76515,118,7911,4834,22,12036,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Missouri,3803,35193,54,3512,1921,66,5451,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Missouri,3806,35383,55,3518,1921,66,5460,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Montana,1269,12008,117,1080,604,37,1782,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Montana,1816,12776,125,1496,1023,,2294,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Montana,500,5756,56,499,253,19,763,
@@ -8893,7 +8893,7 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Nevada,2041,15716,61,2313,1452,23,2923,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,New Hampshire,828,13513,109,822,212,36,1472,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,New Hampshire,1204,13868,112,1051,539,,1719,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,New Hampshire,394,5536,45,405,177,,630,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,New Hampshire,398,5547,45,405,178,,633,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,New Jersey,18165,95554,129,13297,8847,155,22755,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,New Jersey,9603,83593,112,8639,5137,,13111,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,New Jersey,4739,41337,56,3867,2268,27,6360,
@@ -8902,13 +8902,13 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,New Mexico,1192,9565,52,1100,655,14,1647,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,New York,16198,119373,119,15022,7311,278,24164,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,New York,14801,116115,116,13476,6676,27,21624,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,New York,6056,57104,57,5839,2385,81,9587,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,New York,6059,57136,57,5839,2386,81,9589,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,New York City,22282,82143,150,12963,8423,1021,27008,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,New York City,9058,63551,116,6959,3320,24,12716,
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,New York City,4013,30440,56,3075,1346,27,5758,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,North Carolina,8789,110096,116,9737,4167,289,14645,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,North Carolina,15238,118956,125,14376,9107,24,20526,
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,North Carolina,5595,52794,55,5435,2999,55,8076,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,North Carolina,5597,52835,56,5436,2999,55,8079,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,North Dakota,1513,8839,123,1275,758,32,2061,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,North Dakota,939,8103,113,1054,543,,1457,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,North Dakota,361,3697,52,433,206,17,604,
@@ -8920,12 +8920,12 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Oklahoma,3091,21976,55,2778,1537,62,4381,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Oregon,1612,40238,109,2077,529,92,3251,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Oregon,4189,45026,122,3236,1892,,5539,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Oregon,1716,20717,56,1428,723,13,2431,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Oregon,1717,20724,56,1428,723,13,2432,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Pennsylvania,18407,156610,115,13644,6985,333,25388,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Pennsylvania,20547,156243,115,16367,10470,49,26483,
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Pennsylvania,8163,74165,54,6616,3707,122,11169,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Rhode Island,1918,12160,116,1299,799,31,2449,
-07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Rhode Island,1217,11639,111,1036,608,,1649,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
+07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Rhode Island,1217,11633,111,1036,608,,1649,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Rhode Island,538,5432,52,425,249,,721,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,South Carolina,5705,60285,122,5498,2572,151,8775,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,South Carolina,9497,64283,130,6525,3913,16,12121,
@@ -8941,7 +8941,7 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Texas,13735,120725,59,13234,7523,166,19568,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Utah,1657,22212,117,1676,685,54,2702,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Utah,2671,23516,124,2278,1438,,3514,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
-07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Utah,887,11011,58,839,412,26,1336,
+07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Utah,887,11037,58,839,412,26,1336,
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Vermont,145,5983,104,299,34,18,428,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Vermont,308,6387,111,390,131,,568,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Vermont,228,3179,55,208,69,,371,One or more data cells have counts between 1-9 and have been suppressed in accordance with NCHS confidentiality standards.
@@ -8963,53 +8963,53 @@ Data as of,Start Date,End Date,Group,Year,Month,MMWR Week,Week Ending Date,State
 07/13/2022,01/01/2020,12/31/2020,By Year,2020,,,,Puerto Rico,1629,32325,108,4483,1094,97,5108,
 07/13/2022,01/01/2021,12/31/2021,By Year,2021,,,,Puerto Rico,1645,33261,111,4443,1263,55,4873,
 07/13/2022,01/01/2022,07/09/2022,By Year,2022,,,,Puerto Rico,1234,15977,53,2512,856,28,2908,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,United States,1015419,8442455,,919882,522436,12005,1423114,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,United States,1015449,8443150,,919916,522444,12007,1423172,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Alabama,18858,155586,,13439,6595,199,25875,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Alaska,1296,13342,,1159,743,22,1732,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Arizona,27557,195746,,25115,16253,210,36615,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Arkansas,11279,96660,,10550,5581,142,16376,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,California,96813,807937,,98922,57270,982,139409,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,California,96815,808022,,98928,57271,982,139416,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Colorado,13453,118113,,11950,7177,224,18439,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Connecticut,11177,90381,,7596,3695,120,15191,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Delaware,2981,27839,,2655,1524,30,4140,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,District of Columbia,2010,17277,,2470,1572,12,2920,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Florida,71640,626788,,76802,45454,704,103616,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Florida,71651,626962,,76816,45458,704,103637,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Georgia,32715,261917,,27774,17385,303,43377,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Hawaii,1490,31325,,2440,804,30,3154,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Idaho,4970,42248,,3968,2588,57,6403,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Illinois,34954,310527,,32580,18514,292,49293,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Indiana,24090,193996,,22412,12932,263,33813,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Iowa,9711,85926,,7732,3721,158,13872,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Iowa,9708,85864,,7725,3721,158,13862,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Kansas,8898,76116,,7410,4067,166,12398,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Kentucky,17094,142774,,18087,9212,207,26154,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Kentucky,17094,142785,,18089,9212,207,26156,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Louisiana,15938,136809,,13087,8282,139,20867,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Maine,2444,39867,,2796,661,51,4630,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Maine,2444,39873,,2796,661,51,4630,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Maryland,15692,143609,,14084,6542,189,23397,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Massachusetts,18596,163962,,16069,7892,309,27063,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Michigan,32618,285188,,29563,17035,393,45507,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Minnesota,13085,127802,,10914,5014,210,19184,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Mississippi,13345,97484,,12535,6965,130,19020,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Missouri,20808,187976,,18235,10178,302,29143,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Massachusetts,18597,163974,,16070,7893,309,27064,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Michigan,32623,285288,,29573,17035,395,45524,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Minnesota,13086,127825,,10915,5014,210,19186,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Mississippi,13345,97529,,12535,6965,130,19020,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Missouri,20811,188166,,18241,10178,302,29152,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Montana,3585,30540,,3075,1880,61,4839,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Nebraska,5013,47385,,4762,2271,85,7585,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Nevada,11213,81057,,12603,8607,88,15293,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,New Hampshire,2426,32917,,2278,928,48,3821,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,New Hampshire,2430,32928,,2278,929,48,3824,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,New Jersey,32507,220484,,25803,16252,189,42226,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,New Mexico,7781,57252,,6821,4302,79,10372,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,New York,37055,292592,,34337,16372,386,55375,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,New York,37058,292624,,34337,16373,386,55377,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,New York City,35353,176134,,22997,13089,1072,45482,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,North Carolina,29622,281846,,29548,16273,368,43247,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,North Carolina,29624,281887,,29549,16273,368,43250,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,North Dakota,2813,20639,,2762,1507,56,4122,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Ohio,44108,359127,,36672,22351,421,58832,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Oklahoma,16189,117543,,14440,7321,250,23523,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Oregon,7517,105981,,6741,3144,114,11221,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Oregon,7518,105988,,6741,3144,114,11222,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Pennsylvania,47117,387018,,36627,21162,504,63040,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Rhode Island,3673,29231,,2760,1656,43,4819,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Rhode Island,3673,29225,,2760,1656,43,4819,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,South Carolina,18330,152458,,14678,7924,199,25267,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,South Dakota,3115,23964,,2786,1488,63,4471,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Tennessee,26607,227430,,26326,14249,370,39015,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Texas,96062,645906,,86290,54704,908,128426,
-07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Utah,5215,56739,,4793,2535,87,7552,
+07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Utah,5215,56765,,4793,2535,87,7552,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Vermont,681,15549,,897,234,23,1367,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Virginia,19884,205254,,16356,8811,216,27624,
 07/13/2022,01/01/2020,07/09/2022,By Total,,,,,Washington,12533,165194,,14857,7742,189,19828,
